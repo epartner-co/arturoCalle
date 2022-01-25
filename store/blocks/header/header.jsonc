@@ -92,7 +92,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://arturocalle.vteximg.com.br/arquivos/logoArturoCalle.png",
       "width": "180"
     }
   },
@@ -136,8 +136,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
+      "url": "https://arturocalle.vteximg.com.br/arquivos/logoArturoCalle.png",
+      "width": "140"
     }
   }
 }

@@ -21,7 +21,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "News",
-        "text": "News"
+        "text": "ACERCA DE NOSOTROS"
       }
     }
   },
@@ -93,7 +93,7 @@
         "href": "/decoration/smartphones",
         "noFollow": true,
         "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "text": "INFORMACIÓN"
       }
     }
   },
@@ -152,7 +152,7 @@
         "href": "/bags/d",
         "noFollow": true,
         "tagTitle": "Bags",
-        "text": "Bags"
+        "text": "HERRAMIENTAS AC"
       }
     }
   },
@@ -225,7 +225,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": "TIENDAS"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
