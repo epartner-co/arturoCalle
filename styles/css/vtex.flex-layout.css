@@ -17,12 +17,14 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #03044e;
-  color: #fff;
+  background-color: white;
+  border-bottom: gray;
+  color: black;
 }
 
 .flexRowContent--main-header {
   background-color: white;
+  border-top: 1px solid rgb(233, 230, 230);
 }
 
 .flexRowContent--main-header-mobile {
@@ -32,12 +34,13 @@
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: #ffffff;
-  font-size: 14px;
+  color: black;
+  font-size: 10px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #727273;
+  border-bottom: 1px solid gray;
   font-size: 14px;
 }
 .flexRow--deals {
