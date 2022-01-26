@@ -4,12 +4,12 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-hombre",
+      "menu-item#category-mujer",
+      "menu-item#niño"
     ]
   },
-  "menu-item#category-apparel": {
+  "menu-item#category-hombre": {
     "props": {
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -19,33 +19,33 @@
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Categoría de hombre",
+        "text": "Hombre"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-hombre"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-hombre": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-hombre"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-hombre": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-hombre-clothing",
+      "menu-item#category-hombre-accessories",
+      "menu-item#category-hombre-eyeglasses"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-hombre-clothing": {
     "props": {
       "id": "menu-item-category-apparel-clothing",
       "type": "custom",
@@ -60,7 +60,7 @@
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-hombre-accessories": {
     "props": {
       "id": "menu-item-category-apparel-accessories",
       "type": "custom",
@@ -75,7 +75,7 @@
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-hombre-eyeglasses": {
     "props": {
       "id": "menu-item-category-apparel-eyeglasses",
       "type": "custom",
@@ -90,9 +90,9 @@
       }
     }
   },
-  "menu-item#category-home": {
+  "menu-item#category-mujer": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-mujer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -100,12 +100,12 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
+        "tagTitle": "Categoría de mujer",
+        "text": "Mujer"
       }
     }
   },
-  "menu-item#more": {
+  "menu-item#niño": {
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
@@ -115,10 +115,11 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
+        "tagTitle": "Categoría niño",
+        "text": "Niño"
       }
     },
+
     "blocks": [
       "vtex.menu@2.x:submenu#more"
     ]

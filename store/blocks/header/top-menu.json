@@ -1,8 +1,7 @@
 {
   "vtex.menu@2.x:menu#websites": {
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "menu-item#shop"
     ]
   },
   "menu-item#shop": {
@@ -16,13 +15,17 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Shop",
-        "text": "Shop"
+        "text": ""
       }
     }
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#vtex-website"
+      "menu-item#vtex-website",
+      "menu-item#vtex-website2",
+      "menu-item#vtex-website3",
+      "menu-item#vtex-website4",
+      "menu-item#vtex-website5"
     ]
   },
   "menu-item#vtex-website": {
@@ -33,10 +36,70 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "https://web.whatsapp.com/",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Escríbenos por vía whatsapp",
+        "text": "VENTAS WHATSAPP"
+      }
+    }
+  },
+  "menu-item#vtex-website2": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://web.whatsapp.com/",
+        "noFollow": false,
+        "tagTitle": "Escríbenos por vía whatsapp",
+        "text": "MIS PEDIDOS"
+      }
+    }
+  },
+  "menu-item#vtex-website3": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://web.whatsapp.com/",
+        "noFollow": false,
+        "tagTitle": "Escríbenos por vía whatsapp",
+        "text": "LISTA DE DESEOS"
+      }
+    }
+  },
+  "menu-item#vtex-website4": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://web.whatsapp.com/",
+        "noFollow": false,
+        "tagTitle": "Escríbenos por vía whatsapp",
+        "text": "CONTÁCTENOS"
+      }
+    }
+  },
+  "menu-item#vtex-website5": {
+    "props": {
+      "id": "menu-item-vtex-website",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://web.whatsapp.com/",
+        "noFollow": false,
+        "tagTitle": "Escríbenos por vía whatsapp",
+        "text": "COLOMBIA"
       }
     }
   }
