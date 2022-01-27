@@ -5,13 +5,15 @@
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
+  .flexRowContent--main-header,
   .flexRowContent--main-header {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 }
 @media screen and (min-width: 80rem) {
   .flexRowContent--menu-link,
-  .flexRowContent--main-header {
+  .flexRowContent--main-header,
+  .flexRowContent--main-header-menu {
     padding: 0 0.25rem;
   }
 }
@@ -27,6 +29,11 @@
   border-top: 1px solid rgb(233, 230, 230);
 }
 
+.flexRowContent--main-header-menu {
+  background-color: rgb(219, 23, 23);
+
+}
+
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
@@ -39,9 +46,14 @@
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
+  color: black;
   border-bottom: 1px solid gray;
-  font-size: 14px;
+  font-size: 11px;
+}
+.flexRowContent--main-header-menu :global(.vtex-menu-2-x-styledLink) {
+  color: black;
+  font-size: 11px;
+  font-weight: 700;
 }
 .flexRow--deals {
   background-color: #a7afbd;
@@ -93,5 +105,5 @@
 }
 
 .flexRow--addToCartRow {
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }

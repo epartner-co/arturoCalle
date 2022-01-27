@@ -51,6 +51,7 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
+        "img": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
         "href": "https://web.whatsapp.com/",
         "noFollow": false,
         "tagTitle": "Escríbenos por vía whatsapp",

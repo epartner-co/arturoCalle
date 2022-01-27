@@ -10,7 +10,8 @@
       "flex-layout.row#1-desktop",
       /*"flex-layout.row#2-desktop",*/
       "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "sticky-layout#4-desktop",
+      "sticky-layout#5-desktop"
     ]
   },
 
@@ -57,7 +58,6 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
@@ -71,12 +71,6 @@
     },
     "children": ["logo#desktop"]
   },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
-  },
   "logo#desktop": {
     "props": {
       "title": "Logo",
@@ -85,6 +79,34 @@
       "width": "180"
     }
   },
+  "sticky-layout#5-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#5-desktop"]
+  },
+  "flex-layout.row#5-desktop": {
+    "props": {
+      "blockClass": "main-header-menu",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer"
+    ]
+  },
+
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
