@@ -15,12 +15,13 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "primer-nivel",
       "itemProps": {
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
         "tagTitle": "Categoría de hombre",
-        "text": "Hombre"
+        "text": "HOMBRE"
       }
     },
     "blocks": [
@@ -101,7 +102,7 @@
         "href": "/home---decor/",
         "noFollow": false,
         "tagTitle": "Categoría de mujer",
-        "text": "Mujer"
+        "text": "WOMAN"
       }
     }
   },
@@ -116,7 +117,7 @@
         "href": "#",
         "noFollow": true,
         "tagTitle": "Categoría niño",
-        "text": "Niño"
+        "text": "NIÑO"
       }
     },
 
