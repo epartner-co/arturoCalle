@@ -5,58 +5,43 @@
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
-  .flexRowContent--main-header,
   .flexRowContent--main-header {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
 }
 @media screen and (min-width: 80rem) {
   .flexRowContent--menu-link,
-  .flexRowContent--main-header,
-  .flexRowContent--main-header-menu {
+  .flexRowContent--main-header {
     padding: 0 0.25rem;
   }
 }
 
 .flexRowContent--menu-link {
-  background-color: white;
-  border-bottom: gray;
-  color: black;
+  background-color: #03044e;
+  color: #fff;
 }
 
 .flexRowContent--main-header {
-  background-color: white;
-  border-top: 1px solid rgb(233, 230, 230);
-}
-
-.flexRowContent--main-header-menu {
-  background-color: rgb(219, 23, 23);
-
+  background-color: #f0f0f0;
 }
 
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: white;
+  background-color: #f0f0f0;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
-  color: black;
-  font-size: 10px;
+  color: #ffffff;
+  font-size: 14px;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: black;
-  border-bottom: 1px solid gray;
-  font-size: 11px;
-}
-.flexRowContent--main-header-menu :global(.vtex-menu-2-x-styledLink) {
-  color: black;
-  font-size: 11px;
-  font-weight: 700;
+  color: #727273;
+  font-size: 14px;
 }
 .flexRow--deals {
-  background-color: #a7afbd;
+  background-color: transparent;
   padding: 14px 0px;
 }
 
@@ -105,5 +90,5 @@
 }
 
 .flexRow--addToCartRow {
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
