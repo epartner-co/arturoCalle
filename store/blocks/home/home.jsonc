@@ -1,16 +1,20 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "info-card#home",
+      //"list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link"
+      //"info-card#home",
+      //"rich-text#question",
+      //"rich-text#link",
+      //"newsletter",
+      "shelf#descubre-mas",
+      "shelf#lo-mas-vendido"
     ]
   },
 
@@ -45,7 +49,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "CONOCE NUESTRA LINEA DE ZAPATOS",
       "blockClass": "shelfTitle"
     }
   },
@@ -75,14 +79,15 @@
   "info-card#home": {
     "props": {
       "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "isFullModeStyle": true,
+      //"textPosition": "left",
+      "imageUrl": "assets/desk/banner-principal-1440x360.png",
+      "callToActioMode": "none",
+      //"headline": "Clearance Sale",
+      //"callToActionText": "DISCOVER",
+      //"callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home"//,
+      //"textAlignment": "center"
     }
   },
 
@@ -97,6 +102,38 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+
+  "shelf#descubre-mas": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy":"OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList":{
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "DESCUBRE MÁS"
+      }
+    }
+  },
+
+  "shelf#lo-mas-vendido": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy":"OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList":{
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "LO MÁS VENDIDO"
+      }
     }
   }
 }

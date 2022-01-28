@@ -6,47 +6,180 @@
     "children": [
       "menu-item#category-hombre",
       "menu-item#category-mujer",
-      "menu-item#niño"
+      "menu-item#category-nino",
+      "menu-item#category-nina",
+      "menu-item#category-accsesorios",
+      "menu-item#category-leather",
+      "menu-item#category-freedom",
+      "menu-item#category-ofertas"
     ]
   },
+
   "menu-item#category-hombre": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+        }
+    }
+  },
+
+  "menu-item#category-mujer": {
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Woman",
+        "text": "Woman"
+        }
+    }
+  },
+
+  "menu-item#category-nino": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Niño",
+        "text": "Niño"
+        }
+    }
+  },
+
+  "menu-item#category-nina": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Niña",
+        "text": "Niña"
+        }
+    }
+  },
+
+  "menu-item#category-accsesorios": {
+    "props": {
+      "id": "menu-item-category-accsesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Accsesorios",
+        "text": "Accsesorios"
+        }
+    }
+  },
+
+  "menu-item#category-leather": {
+    "props": {
+      "id": "menu-item-category-leather",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Leather",
+        "text": "Leather"
+        }
+    }
+  },
+
+  "menu-item#category-freedom": {
+    "props": {
+      "id": "menu-item-category-freedom",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Freedom",
+        "text": "Freedom"
+        }
+    }
+  },
+
+  "menu-item#category-ofertas": {
+    "props": {
+      "id": "menu-item-category-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+        }
+    }
+  },
+
+  "menu-item#category-apparel": {
     "props": {
       "id": "menu-item-category-apparel",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "primer-nivel",
       "itemProps": {
         "type": "internal",
         "href": "/apparel---accessories/",
         "noFollow": false,
-        "tagTitle": "Categoría de hombre",
-        "text": "HOMBRE"
+        "tagTitle": "Apparel & Accessories",
+        "text": "Apparel & Accessories"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-hombre"
+      "vtex.menu@2.x:submenu#category-apparel"
     ]
   },
-  "vtex.menu@2.x:submenu#category-hombre": {
+  "vtex.menu@2.x:submenu#category-apparel": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-hombre"
+      "vtex.menu@2.x:menu#category-apparel"
     ]
   },
-  "vtex.menu@2.x:menu#category-hombre": {
+  "vtex.menu@2.x:menu#category-apparel": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-hombre-clothing",
-      "menu-item#category-hombre-accessories",
-      "menu-item#category-hombre-eyeglasses"
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
     ]
   },
-  "menu-item#category-hombre-clothing": {
+  "menu-item#category-apparel-clothing": {
     "props": {
       "id": "menu-item-category-apparel-clothing",
       "type": "custom",
@@ -61,7 +194,7 @@
       }
     }
   },
-  "menu-item#category-hombre-accessories": {
+  "menu-item#category-apparel-accessories": {
     "props": {
       "id": "menu-item-category-apparel-accessories",
       "type": "custom",
@@ -76,7 +209,7 @@
       }
     }
   },
-  "menu-item#category-hombre-eyeglasses": {
+  "menu-item#category-apparel-eyeglasses": {
     "props": {
       "id": "menu-item-category-apparel-eyeglasses",
       "type": "custom",
@@ -91,9 +224,9 @@
       }
     }
   },
-  "menu-item#category-mujer": {
+  "menu-item#category-home": {
     "props": {
-      "id": "menu-item-category-mujer",
+      "id": "menu-item-category-home",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -101,12 +234,12 @@
         "type": "internal",
         "href": "/home---decor/",
         "noFollow": false,
-        "tagTitle": "Categoría de mujer",
-        "text": "WOMAN"
+        "tagTitle": "Home & Decor",
+        "text": "Home & Decor"
       }
     }
   },
-  "menu-item#niño": {
+  "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
       "type": "custom",
@@ -116,11 +249,10 @@
         "type": "internal",
         "href": "#",
         "noFollow": true,
-        "tagTitle": "Categoría niño",
-        "text": "NIÑO"
+        "tagTitle": "More",
+        "text": "More"
       }
     },
-
     "blocks": [
       "vtex.menu@2.x:submenu#more"
     ]
