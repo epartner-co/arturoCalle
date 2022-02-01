@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+.paragraph--shelfTitle {
+  font-weight: bold;
+  color: black;
+}
+
 .paragraph--summarySpecificationBullet {
   margin: 0;
   line-height: initial;

@@ -3,18 +3,23 @@
     "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
+      "flex-layout.col#deals3", 
       "flex-layout.col#deals4"
     ],
     "props": {
-      "blockClass": "deals"
+      "blockClass": "deals",
+      "horizontalAlign": "center",
+      "classBlock": "dealshome"
     }
   },
 
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
   },
   "image#deal1": {
     "props": {
@@ -31,7 +36,10 @@
   "flex-layout.col#deals2": {
     "children": [
       "image#deal2"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
   },
   "image#deal2": {
     "props": {
@@ -48,7 +56,10 @@
   "flex-layout.col#deals3": {
     "children": [
       "image#deal3"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
   },
   "image#deal3": {
     "props": {
@@ -65,7 +76,10 @@
   "flex-layout.col#deals4": {
     "children": [
       "image#deal4"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
   },
   "image#deal4": {
     "props": {
