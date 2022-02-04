@@ -192,3 +192,7 @@
 .infoCardCallActionContainer--info-card {
   visibility: hidden;
 }
+
+.logoContainer--logoFooter{
+  margin-top: 15px;
+}

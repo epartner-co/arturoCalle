@@ -1,18 +1,18 @@
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
-  padding: 0 0.5rem;
+  padding: 0 0;
 }
 
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
-    padding: 0 1rem;
+    padding: 0 0;
   }
 }
 @media screen and (min-width: 80rem) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
-    padding: 0 0.25rem;
+    padding: 0 0;
   }
 }
 
@@ -106,4 +106,9 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexRowContent--main-header {
+  padding-top: 0px !important; 
+  padding-bottom: 0px !important;
 }

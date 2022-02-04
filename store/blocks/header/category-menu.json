@@ -1,14 +1,18 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "center",
+      "departments": [],
+      "sortSubcategories": "name"
     },
     "children": [
       "menu-item#category-hombre",
       "menu-item#category-mujer",
       "menu-item#category-nino",
       "menu-item#category-nina",
-      "menu-item#category-accsesorios",
       "menu-item#category-leather",
       "menu-item#category-freedom",
       "menu-item#category-ofertas"
@@ -19,6 +23,7 @@
     "props": {
       "id": "menu-item-category-hombre",
       "type": "custom",
+      "blockClass": "item",
       "iconId": null,
       "highlight": false,
       "itemProps": {
@@ -26,9 +31,21 @@
         "href": "/",
         "noFollow": false,
         "tagTitle": "Hombre",
-        "text": "Hombre"
+        "text": "HOMBRE"
         }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop"]
+  },
+
+  "vtex.menu@2.x:submenu#shop": {
+    "children": [
+      "vtex.menu@2.x:menu#submenushop"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": [
+      "menu-item#category-mujer"
+    ]
   },
 
   "menu-item#category-mujer": {
@@ -36,13 +53,14 @@
       "id": "menu-item-category-mujer",
       "type": "custom",
       "iconId": null,
+      "blockClass": "item",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/",
         "noFollow": false,
         "tagTitle": "Woman",
-        "text": "Woman"
+        "text": "WOMAN"
         }
     }
   },
@@ -52,13 +70,14 @@
       "id": "menu-item-category-hombre",
       "type": "custom",
       "iconId": null,
+      "blockClass": "item",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/",
         "noFollow": false,
         "tagTitle": "Niño",
-        "text": "Niño"
+        "text": "NIÑO"
         }
     }
   },
@@ -68,13 +87,14 @@
       "id": "menu-item-category-hombre",
       "type": "custom",
       "iconId": null,
+      "blockClass": "item",
       "highlight": false,
       "itemProps": {
         "type": "internal",
         "href": "/",
         "noFollow": false,
         "tagTitle": "Niña",
-        "text": "Niña"
+        "text": "NIÑA"
         }
     }
   },
@@ -85,6 +105,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "item",
       "itemProps": {
         "type": "internal",
         "href": "/",
@@ -101,12 +122,13 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "item",
       "itemProps": {
         "type": "internal",
         "href": "/",
         "noFollow": false,
         "tagTitle": "Leather",
-        "text": "Leather"
+        "text": "VIAJE"
         }
     }
   },
@@ -117,12 +139,13 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "item",
       "itemProps": {
         "type": "internal",
         "href": "/",
         "noFollow": false,
         "tagTitle": "Freedom",
-        "text": "Freedom"
+        "text": "FREEDOM"
         }
     }
   },
@@ -130,6 +153,7 @@
   "menu-item#category-ofertas": {
     "props": {
       "id": "menu-item-category-ofertas",
+      "blockClass": "sales",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -138,7 +162,7 @@
         "href": "/",
         "noFollow": false,
         "tagTitle": "Ofertas",
-        "text": "Ofertas"
+        "text": "OFERTAS"
         }
     }
   },

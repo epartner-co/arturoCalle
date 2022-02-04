@@ -1,7 +1,7 @@
 {
   "vtex.menu@2.x:menu#Products": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "horizontal"
     },
     "children": [
       "menu-item#news",
@@ -21,7 +21,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "News",
-        "text": "News"
+        "text": "ACERCA DE NOSOTROS"
       }
     }
   },
@@ -36,7 +36,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "text": "TIENDAS"
       }
     }
   },
@@ -51,7 +51,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Sale",
-        "text": "Sale"
+        "text": "INFORMACIÓN"
       }
     }
   },
@@ -66,7 +66,7 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "Personalization",
-        "text": "Personalization"
+        "text": "HERRAMIENTAS AC"
       }
     }
   },
@@ -76,9 +76,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
     ]
   },
 
@@ -135,9 +132,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+
     ]
   },
 
@@ -194,12 +189,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+
     ]
   },
 
@@ -225,7 +215,7 @@
         "href": "/clothing/d",
         "noFollow": true,
         "tagTitle": "Clothing",
-        "text": "Clothing"
+        "text": ""
       }
     },
     "blocks": ["vtex.menu@2.x:submenu.accordion#clothing"]
@@ -239,11 +229,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
     ]
   },
 
@@ -265,9 +250,6 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
     ]
   },
 
@@ -289,9 +271,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+
     ]
   },
 
