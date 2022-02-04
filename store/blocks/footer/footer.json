@@ -4,10 +4,33 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer1",
+      "flex-layout.row#footer-1-desktop"
     ]
+  },
+  "flex-layout.row#footer1":{
+    "props": {
+      "blockClass": "row1-footer"
+    },
+    "children": ["flex-layout.col#logo-desktop1"]
+  },
+  "flex-layout.col#logo-desktop1": {
+    "props": {
+      "blockClass": "col1-footer",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "100%"
+    },
+    "children": ["logo#desktop1"]
+  },
+  "logo#desktop1": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://arturocalle.vteximg.com.br/arquivos/logoAC-W.png",
+      "width": "190",
+      "blockClass": "logoFooter"
+    }
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [

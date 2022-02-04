@@ -71,7 +71,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
+      //"locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -180,7 +180,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://arturocalle.vteximg.com.br/arquivos/logoArturoCalle.png",
-      "width": "180"
+      "width": "290"
     }
   },
   "header-layout.mobile": {
