@@ -193,6 +193,28 @@
   visibility: hidden;
 }
 
-.logoContainer--logoFooter{
+.logoContainer--logoFooter {
   margin-top: 15px;
+}
+
+.searchBarIcon--clear-button--search {
+  background-color: #efefef;
+}
+
+.suffixWrapper {
+  background-color: #efefef;
+}
+
+.autoCompleteOuterContainer--clear-button {
+  background-color: #efefef;
+}
+
+.searchBarContainer {
+  margin-right: 100px;
+}
+
+.autoCompleteOuterContainer--clear-button :global(.vtex-input__suffix) {
+  border: none;
+  box-shadow: none;
+  background-color: #efefef;
 }

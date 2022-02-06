@@ -35,6 +35,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "imageUrl": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
         "type": "external",
         "href": "https://web.whatsapp.com/",
         "noFollow": false,

@@ -28,6 +28,12 @@
       "fullWidth": "true"
     }
   },
+  "search-bar": {
+    "props": {
+      "placeholder": "¿QUÉ BUSCAS?",
+      "blockClass": "clear-button"
+    }
+  },
   "notification.bar#home": {
     "props": {
       "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
@@ -72,7 +78,7 @@
       "flex-layout.col#spacer",
       "search-bar",
       //"locale-switcher",
-      "login",
+      //"login",
       "minicart.v2"
     ]
   },
@@ -107,7 +113,9 @@
   "flex-layout.col#search": {
     "props": {
       "horizontalAlign": "right",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "placeholder": "¿Qué Buscas?"
+
     },
     "children": ["flex-layout.row#menu-search"]
   },
@@ -118,12 +126,13 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "placeholder": "¿Qué Buscas?"
     },
     "children": [
       "search-bar",
       //"locale-switcher",
-      "login",
+      //"login",
       "minicart.v2"
     ]
   },
@@ -194,7 +203,7 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
+      //"login",
       "minicart.v2"
     ],
     "props": {
