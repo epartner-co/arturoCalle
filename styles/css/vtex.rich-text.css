@@ -67,6 +67,21 @@
   font-weight: 700;
 }
 
+.paragraph--termino{
+  font-size: 8px;
+}
+
+.wrapper--terminos{
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.link--terminos{
+  color: #fff;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
