@@ -7,12 +7,14 @@
       "menu-item#news",
       "menu-item#blackfriday",
       "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#personalization",
+      "menu-item#suscribete"
     ]
   },
   "menu-item#news": {
     "props": {
       "id": "menu-item-news",
+      "blockClass": "menu-item-footer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -28,6 +30,7 @@
   "menu-item#blackfriday": {
     "props": {
       "id": "menu-item-black-friday",
+      "blockClass": "menu-item-footer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -43,6 +46,7 @@
   "menu-item#sale": {
     "props": {
       "id": "menu-item-sale",
+      "blockClass": "menu-item-footer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -58,6 +62,7 @@
   "menu-item#personalization": {
     "props": {
       "id": "menu-item-personalization",
+      "blockClass": "menu-item-footer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -67,6 +72,22 @@
         "noFollow": false,
         "tagTitle": "Personalization",
         "text": "HERRAMIENTAS AC"
+      }
+    }
+  },
+  "menu-item#suscribete": {
+    "props": {
+      "id": "menu-item-personalization",
+      "blockClass": "menu-item-footer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Personalization",
+        "text": "SUSCRÍBETE"
       }
     }
   },

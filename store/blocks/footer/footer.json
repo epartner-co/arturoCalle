@@ -5,8 +5,19 @@
   "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer1",
-      "flex-layout.row#footer-1-desktop"
+      "flex-layout.row#footer-1-desktop",
+      "social-networks",
+      "rich-text#terms"
     ]
+  },
+  "rich-text#terms":{
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA \n\nCONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS \n\nSUPERINTENDENCIA DE INDUSTRIA Y COMERCIO | PayU",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1",
+      "blockClass": "terminos"
+    }
   },
   "flex-layout.row#footer1":{
     "props": {
@@ -38,8 +49,7 @@
       "vtex.menu@2.x:menu#footer-clothing",
       "vtex.menu@2.x:menu#footer-decoration",
       "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
