@@ -214,7 +214,14 @@
 }
 
 .autoCompleteOuterContainer--clear-button :global(.vtex-input__suffix) {
+  float: left;
+  box-shadow: none;
+  background-color: #efefef;
+}
+
+.autoCompleteOuterContainer--clear-button :global(.vtex-input-prefix__group) {
   border: none;
   box-shadow: none;
   background-color: #efefef;
+  height: 35px;
 }

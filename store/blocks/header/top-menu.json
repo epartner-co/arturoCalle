@@ -21,27 +21,53 @@
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
+      "image#icon-wpp",
       "menu-item#vtex-website",
+      "image#icon-pedidos",
       "menu-item#vtex-website2",
+      "image#icon-deseos",
       "menu-item#vtex-website3",
+      "image#icon-contactenos",
       "menu-item#vtex-website4",
       "menu-item#vtex-website5"
     ]
   },
-  "menu-item#vtex-website": {
+
+  "image#icon-wpp": {
     "props": {
+      "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
+      "maxHeight": "20px",
+      "maxWidth": "20px",
+      "blockClass": "storePrint"
+    }
+  },
+
+  "menu-item#vtex-website": {
+    "props":
+     {
       "id": "menu-item-vtex-website",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "imageUrl": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
+        "icon":"mpa-globe",
+        "blockClass ::before": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
+        "url": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
         "type": "external",
         "href": "https://web.whatsapp.com/",
         "noFollow": false,
         "tagTitle": "Escríbenos por vía whatsapp",
         "text": "VENTAS WHATSAPP"
       }
+    }
+  },
+
+  "image#icon-pedidos": {
+    "props": {
+      "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
+      "maxHeight": "20px",
+      "maxWidth": "20px",
+      "blockClass": "storePrint"
     }
   },
   "menu-item#vtex-website2": {
@@ -60,8 +86,18 @@
       }
     }
   },
+
+  "image#icon-deseos": {
+    "props": {
+      "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
+      "maxHeight": "20px",
+      "maxWidth": "20px",
+      "blockClass": "storePrint"
+    }
+  },
   "menu-item#vtex-website3": {
     "props": {
+      "icon": "mpa-heart",
       "id": "menu-item-vtex-website",
       "type": "custom",
       "iconId": null,
@@ -73,6 +109,15 @@
         "tagTitle": "Escríbenos por vía whatsapp",
         "text": "LISTA DE DESEOS"
       }
+    }
+  },
+
+  "image#icon-contactenos": {
+    "props": {
+      "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
+      "maxHeight": "20px",
+      "maxWidth": "20px",
+      "blockClass": "storePrint"
     }
   },
   "menu-item#vtex-website4": {
