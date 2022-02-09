@@ -34,19 +34,137 @@
         "text": "HOMBRE"
         }
     },
-    "blocks": ["vtex.menu@2.x:submenu#shop"]
+    "blocks": ["vtex.menu@2.x:submenu#category-hombre"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-hombre": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-hombre"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-hombre": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-hombre-nuevos",
+      "menu-item#category-hombre-formal",
+      "menu-item#category-hombre-business",
+      "menu-item#category-hombre-casual",
+      "menu-item#category-hombre-linos",
+      "menu-item#category-hombre-bonoregalo",
+      "menu-item#category-hombre-ofertas"
+    ]
+  },
+  "menu-item#category-hombre-nuevos": {
+    "props": {
+      "id": "menu-item-category-hombre-nuevos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "hombre-nuevos",
+        "text": "Nuevos"
+      }
+    }
+  },
+  "menu-item#category-hombre-formal": {
+    "props": {
+      "id": "menu-item-category-hombre-formal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "hombre-formal",
+        "text": "Formal"
+      }
+    }
+  },
+  "menu-item#category-hombre-business": {
+    "props": {
+      "id": "menu-item-category-hombre-business",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "hombre-business",
+        "text": "Business"
+      }
+    }
+  },
+  "menu-item#category-hombre-casual": {
+    "props": {
+      "id": "menu-item-category-hombre-casual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "hombre-casual",
+        "text": "Casual"
+      }
+    }
+  },
+  "menu-item#category-hombre-linos": {
+    "props": {
+      "id": "menu-item-category-hombre-linos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "hombre-linos",
+        "text": "Linos"
+      }
+    }
+  },
+  "menu-item#category-hombre-bonoregalo": {
+    "props": {
+      "id": "menu-item-category-hombre-bonoregalo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "hombre-bonoRegalo",
+        "text": "Bono Regalo"
+      }
+    }
+  },
+  "menu-item#category-hombre-ofertas": {
+    "props": {
+      "id": "menu-item-category-hombre-ofertas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "hombre-ofertas",
+        "text": "Ofertas"
+      }
+    }
   },
 
-  "vtex.menu@2.x:submenu#shop": {
-    "children": [
-      "vtex.menu@2.x:menu#submenushop"
-    ]
-  },
-  "vtex.menu@2.x:menu#submenushop": {
-    "children": [
-      "menu-item#category-mujer"
-    ]
-  },
 
   "menu-item#category-mujer": {
     "props": {
@@ -166,6 +284,9 @@
         }
     }
   },
+
+
+
 
   "menu-item#category-apparel": {
     "props": {
