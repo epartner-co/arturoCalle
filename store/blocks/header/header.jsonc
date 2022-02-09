@@ -30,8 +30,8 @@
   },
   "search-bar": {
     "props": {
-      "placeholder": "¿QUÉ BUSCAS?",
-      "blockClass": "clear-button"
+      "blockClass": "clear-button",
+      "placeholder": "¿QUÉ BUSCAS?"
     }
   },
   "notification.bar#home": {
@@ -113,9 +113,7 @@
   "flex-layout.col#search": {
     "props": {
       "horizontalAlign": "right",
-      "verticalAlign": "middle",
-      "placeholder": "¿Qué Buscas?"
-
+      "verticalAlign": "middle"
     },
     "children": ["flex-layout.row#menu-search"]
   },
@@ -126,8 +124,7 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true,
-      "placeholder": "¿Qué Buscas?"
+      "fullWidth": true
     },
     "children": [
       "search-bar",
