@@ -109,7 +109,7 @@
 }
 
 .flexRowContent--main-header {
-  padding-top: 0px !important;
+  padding-top: 0px !important; 
   padding-bottom: 0px !important;
 }
 
@@ -118,4 +118,16 @@
   margin-left: 15%;
   align-items: center;
   color: #fff;
+}
+
+.flexRowContent--menu-nivel-hombre-cats{
+  background-color: white;
+  margin-top: -15px;
+  position: fixed;
+  left: 0px;
+  width: 100em;
+}
+
+.flexCol--menu-nivel-hombre-cat-sub{
+  width:100% !important;
 }

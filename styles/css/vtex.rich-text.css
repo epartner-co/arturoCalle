@@ -102,4 +102,44 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .wrapper--item-cat{
+    max-height: 38px;
+  }
+
+  .wrapper--item-cat-clean{
+    max-height: 38px;
+  }
+
+  .wrapper--item-cat-bold{
+    max-height: 38px;
+  }
+
+  .wrapper--item-cat-bold-warn{
+    max-height: 38px;
+  }
+
+  .paragraph--item-cat{
+    text-align:left;
+    width: 100%;
+  }
+
+  .paragraph--item-cat-clean{
+    text-align:left;
+    color:transparent;
+    width: 100%;
+  }
+
+  .paragraph--item-cat-bold{
+    font-weight:bold;
+    text-align:left;
+    width: 100%;
+  }
+
+  .paragraph--item-cat-bold-warn{
+    font-weight:bold;
+    color:red;
+    text-align:left;
+    width: 100%;
+  }
 }
