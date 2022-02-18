@@ -15,7 +15,9 @@
       "menu-item#category-nina",
       "menu-item#category-leather",
       "menu-item#category-freedom",
-      "menu-item#category-ofertas"
+      "menu-item#category-ofertas",
+      "menu-item#category-adicional"
+
     ]
   },
 
@@ -161,6 +163,23 @@
         }
     },
     "blocks": ["vtex.menu@2.x:submenu#ofertas"]
+  },
+
+  "menu-item#category-adicional": {
+    "props": {
+      "id": "menu-item-category-adicional",
+      "type": "custom",
+      "blockClass": "item",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/store/blocks/home/homeAditional.jsonc",
+        "noFollow": false,
+        "tagTitle": "More",
+        "text": "MÁS"
+        }
+    }
   },
 
   "vtex.menu@2.x:submenu#hombre": {
@@ -1424,7 +1443,7 @@
       "text":"Maletas Pequeñas"
     }
   },
-  
+
 
   "flex-layout.col#menu-nivel-accesorios-cat2": {
     "props": {
@@ -2216,7 +2235,7 @@
       "text":"Para Niña"
     }
   },
-  
+
 
   "flex-layout.col#menu-nivel-hombre-clean": {
     "props": {
