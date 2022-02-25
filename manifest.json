@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
+  "vendor": "callearturop",
   "name": "store-theme",
-  "version": "4.4.2",
+  "version": "0.0.3",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -63,8 +63,7 @@
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
-    "vtex.css-handles": "1.x",
-    "vtex.category-menu": "2.x"
+    "vtex.css-handles": "1.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x"

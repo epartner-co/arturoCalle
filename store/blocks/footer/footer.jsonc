@@ -43,27 +43,32 @@
       "blockClass": "logoFooter"
     }
   },
+
+// Columnas de contenido
+
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer"
+      "flex-layout.col#PrimeraCol1",
+      "flex-layout.col#PrimeraCol2",
+      "flex-layout.col#PrimeraCol3",
+      "flex-layout.col#PrimeraCol4",
+      "flex-layout.col#PrimeraCol5"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": "menu-rowC",
       "paddingTop": 6,
       "paddingBottom": 3
     }
   },
+
+// Columnas de cierre
 
   "social-networks": {
     "props": {
       "socialNetworks": [
         {
           "name": "Facebook",
-          "url": "https://www.facebook.com/vtexonline/"
+          "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png"
         },
         {
           "name": "Instagram",
@@ -138,7 +143,7 @@
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": []
   },
   "rich-text#footer-mobile": {
     "props": {

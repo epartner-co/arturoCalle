@@ -143,3 +143,88 @@
     width: 100%;
   }
 }
+/*Home Styles*/
+.link--BotonI, .link--BotonD {
+  background: white;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.link--BotonI:hover, .link--BotonD:hover {
+  background: black;
+  color: white;
+}
+.container--BotonI {
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+}
+
+.container--BotonD {
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+}
+
+.paragraph--titlem {font-weight: 800;font-size: 38px;}
+
+.link--BotonM {
+  position: absolute;
+  bottom: 21%;
+  transition: 1s;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 200px;
+  text-align: center;
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.link--BotonM:hover {
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+
+/*Footer Styles*/
+.wrapper--TituloCont {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.wrapper--ContenidoDesplegable .paragraph {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+.container--ContenidoDesplegable {
+  justify-content: center;
+}
+
+.wrapper--ContenidoDesplegable .link {
+  color: white;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.paragraph--terminos {
+  color: #dcdad7;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  line-height: 14px;
+}

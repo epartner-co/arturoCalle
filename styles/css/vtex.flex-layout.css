@@ -34,6 +34,11 @@
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
   color: black;
   font-size: 10px;
+  height: 23%;
+}
+
+.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin-left: 0.5rem;
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
@@ -109,7 +114,7 @@
 }
 
 .flexRowContent--main-header {
-  padding-top: 0px !important; 
+  padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
 
@@ -131,3 +136,37 @@
 .flexCol--menu-nivel-hombre-cat-sub{
   width:100% !important;
 }
+
+/*Borde del header*/
+.flexRow--menu-link {
+  border-bottom: 1px solid rgb(228, 224, 224);
+  height: 28%;
+}
+
+/*Estilos home diagramación*/
+.flexRowContent--Bannersec {
+  justify-content: center;
+}
+
+.flexCol--Bannerone, .flexCol--Bannertwo {
+  padding: 0 10px;
+}
+
+.flexCol--Bannertwo {
+  position: relative;
+}
+
+.flexCol--Bannertwo1 {
+  padding: 0 8px;
+  position: relative;
+}
+
+/*Estilos Footer */
+
+.flexRowContent--menu-rowC {
+  text-align: center;
+  margin: 0 2%;
+  width: 96%;
+}
+
+

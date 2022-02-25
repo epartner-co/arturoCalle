@@ -1,26 +1,24 @@
 {
   "store.home": {
     "blocks": [
-      "info-card#home",
-      //"list-context.image-list#demo",
+      "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shoes",
-      "flex-layout.row#shirt",
-      "flex-layout.row#banner",
-      "shelf#cats",
-      "flex-layout.row#banner2",
-      //"info-card#home",
-      //"rich-text#question",
-      //"rich-text#link",
-      //"newsletter",
-      "shelf#descubre-mas",
-      "shelf#lo-mas-vendido"
+      "flex-layout.row#banners",
+      "flex-layout.row#banners1",
+     // "__fold__.experimentalLazyAssets",
+     // "flex-layout.row#deals",
+     "rich-text#title",
+     "flex-layout.row#bannersbulletsecond",
+     "flex-layout.row#bannersbulletsecond1",
+     "rich-text#title2",
+     "flex-layout.row#bannersbulletthrid",
+     "rich-text#titleS",
+     "flex-layout.row#shelf"
     ]
   },
+
+  //Slider principal Mobil y desktop 
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
@@ -28,12 +26,16 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://arturocalle.vteximg.com.br/arquivos/KIDSNEWFECDESKTOP.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/KIDSNEWFECMOBILE.jpg"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://arturocalle.vteximg.com.br/arquivos/addifeb2022desktop.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/addifeb2022mobile.jpg"
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/active-woman-desktop.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/active-woman-mobile.jpg"
         }
       ]
     }
@@ -45,222 +47,359 @@
         "tablet": 1,
         "phone": 1
       },
+      "showPaginationDots": "never",
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
   },
 
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "CONOCE NUESTRA LINEA DE ZAPATOS",
-      "blockClass": "shelfTitle"
-    }
-  },
-  "flex-layout.row#shoes":{
-    "props": {
-      "blockClass": "more"
+  //banners secundarios 
+  "flex-layout.row#banners": {
+    "props":{
+      "blockClass": "Bannersec",
+      "marginTop": 4
     },
-    "children": [
-      "flex-layout.col#shoes-left",
-      "flex-layout.col#shoes-right"]
+    "children": ["flex-layout.col#bannerone", "flex-layout.col#bannertwo"]
   },
-  "flex-layout.col#shoes-left": {
-    "props": {
-      "width": "25%"
-    },
-    "children": [
-      "info-card#col-shoes-left"
-    ]
-  },
-  "flex-layout.col#shoes-right": {
-    "props": {
-      "width": "75%"
-    },
-    "children": [
-      "shelf#shoes"
-    ]
-  },
-  "info-card#col-shoes-left":{
-    "props": {
-      "id": "info-card-shoes",
-      "isFullModeStyle": true,
-      "fullWidth": true,
-      //"textPosition": "left",
-      "imageUrl": "assets/desk/banner-vitrina1-295x550.png",
-      "callToActioMode": "none",
-      //"headline": "Clearance Sale",
-      //"callToActionText": "DISCOVER",
-      //"callToActionUrl": "/sale/d",
-      "blockClass": "info-card-shoes-left"//,
-      //"textAlignment": "center"
-    }
-  },
-  "shelf#shoes": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "blockClass": "shoes",
-      "orderBy":"OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList":{
-        "maxItems": 10,
-        "itemsPerPage": 3,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "showTitle": false
-      }
-    }
-  },
-  "flex-layout.row#shirt":{
-    "props": {
-      "blockClass": "more"
-    },
-    "children": [
-      "flex-layout.col#shirt-left",
-      "flex-layout.col#shirt-right"]
-  },
-  "flex-layout.col#shirt-left": {
-    "props": {
-      "width": "75%"
-    },
-    "children": [
-      "shelf#shirt"
-    ]
-  },
-  "flex-layout.col#shirt-right": {
-    "props": {
-      "width": "25%"
-    },
-    "children": [
-      "info-card#col-shirt-right"
-    ]
-  },
-  "info-card#col-shirt-right":{
-    "props": {
-      "id": "info-card-shirt",
-      "isFullModeStyle": true,
-      "fullWidth": true,
-      //"textPosition": "left",
-      "imageUrl": "assets/desk/banner-vitrina2-295x550.png",
-      "callToActioMode": "none",
-      //"headline": "Clearance Sale",
-      //"callToActionText": "DISCOVER",
-      //"callToActionUrl": "/sale/d",
-      "blockClass": "info-card-shirt-right"//,
-      //"textAlignment": "center"
-    }
-  },
-  "shelf#shirt": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "blockClass": "shirt",
-      "orderBy":"OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList":{
-        "maxItems": 10,
-        "itemsPerPage": 3,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "showTitle": false
-      }
-    }
-  },
-  "flex-layout.row#banner":{
-    "props": {
-      "blockClass": "more"
-    },
-    "children": [
-      "flex-layout.col#banner-left",
-      "flex-layout.col#banner-right"]
-  },
-  "flex-layout.col#banner-left": {
-    "props": {
-      "width": "30%"
-    },
-    "children": [
-      "info-card#col-banner-left"
-    ]
-  },
-  "flex-layout.col#banner-right": {
-    "props": {
-      "width": "70%"
-    },
-    "children": [
-      "info-card#col-banner-right"
-    ]
-  },
-
-  "flex-layout.row#banner2": {
-    "props": {
-      "blockClass": "more"
-    },
-    "children": [
-      "flex-layout.col#left",
-      "flex-layout.col#right"]
-  },
-  "flex-layout.col#left": {
-    "props": {
-      "width": "60%"
-    },
-    "children": [
-      "info-card#col-left"
-    ]
-  },
-  "flex-layout.col#right": {
-    "props": {
+  "flex-layout.col#bannerone": {
+    "props":{
+      "blockClass": "Bannerone",
       "width": "40%"
     },
-    "children": [
-      "info-card#col-right-1",
-      "info-card#col-right-2"
-    ]
+    "children": ["image#banner1"]
   },
-  "info-card#col-banner-left":{
+  "flex-layout.col#bannertwo": {
+    "props":{
+      "blockClass": "Bannertwo",
+      "width": "40%"
+    },
+    "children": ["image#banner2"]
+  },
+  "image#banner1": {
     "props": {
-      "id": "info-card-shoes",
-      "isFullModeStyle": true,
-      "fullWidth": true,
-      //"textPosition": "left",
-      "imageUrl": "assets/desk/banner1-345x300.png",
-      "callToActioMode": "none",
-      //"headline": "Clearance Sale",
-      //"callToActionText": "DISCOVER",
-      //"callToActionUrl": "/sale/d",
-      "blockClass": "info-card-banner-left"//,
-      //"textAlignment": "center"
+      "src": "https://arturocalle.vteximg.com.br/arquivos/HOME-HOME-DESKTOP-2.jpg",
+      "blockClass": "BannerI",
+      "link": {
+        "url": "/hombre"
+    }
     }
   },
-  "info-card#col-banner-right":{
+  "image#banner2": {
     "props": {
-      "id": "info-card-shoes",
-      "isFullModeStyle": true,
-      "fullWidth": true,
-      //"textPosition": "left",
-      "imageUrl": "assets/desk/banner2-870x300.png",
-      "callToActioMode": "none",
-      //"headline": "Clearance Sale",
-      //"callToActionText": "DISCOVER",
-      //"callToActionUrl": "/sale/d",
-      "blockClass": "info-card-banner-right"//,
-      //"textAlignment": "center"
+      "src": "https://arturocalle.vteximg.com.br/arquivos/MUJERHOME27DK.jpg",
+      "blockClass": "BannerD",
+      "link": {
+        "url": "/woman"
+    }
     }
   },
-  "info-card#col-left":{
+
+  //Banners secundarios segunda caja
+
+  "flex-layout.row#banners1": {
+    "props":{
+      "blockClass": "Bannersec",
+      "marginTop": 4
+    },
+    "children": ["flex-layout.col#bannerone1", "flex-layout.col#bannertwo1"]
+  },
+  "flex-layout.col#bannerone1": {
+    "props":{
+      "blockClass": "Bannerone",
+      "width": "40%"
+    },
+    "children": ["image#banner3"]
+  },
+  "flex-layout.col#bannertwo1": {
+    "props":{
+      "blockClass": "Bannertwo",
+      "width": "40%"
+    },
+    "children": ["image#banner4","rich-text#shelf-botton1", "rich-text#shelf-botton2"]
+  },
+
+  "image#banner3": {
     "props": {
-      "id": "info-card-shoes",
-      "isFullModeStyle": true,
-      "fullWidth": true,
-      //"textPosition": "left",
-      "imageUrl": "assets/desk/banner3-730x470.png",
-      "callToActioMode": "none",
-      //"headline": "Clearance Sale",
-      //"callToActionText": "DISCOVER",
-      //"callToActionUrl": "/sale/d",
-      "blockClass": "info-card-shoes"//,
-      //"textAlignment": "center"
+      "src": "https://arturocalle.vteximg.com.br/arquivos/CUERODIC27DK.jpg",
+      "blockClass": "BannerI",
+      "link": {
+          "url": "/coleccion/cuero"
+      }
     }
+  },
+  "image#banner4": {
+    "props": {
+      "src": "https://arturocalle.vteximg.com.br/arquivos/KIDSDIC27DK.jpg",
+      "blockClass": "BannerD"
+    }
+  },
+  "rich-text#shelf-botton1": {
+    "props": {
+      "text": "[Comprar niños](/kids/nino?O=OrderByReleaseDateDESC)",
+      "blockClass": "BotonI"
+    }
+  },
+  "rich-text#shelf-botton2": {
+    "props": {
+      "text": "[Comprar niñas](/kids/nina?O=OrderByReleaseDateDESC)",
+      "blockClass": "BotonD"
+    }
+  },
+  
+//Cierre Banners
+//Titulo intermedio
+"rich-text#title": {
+  "props": {
+    "text": "NEW LOOK",
+    "blockClass": "titlem",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+//Banners terciarios 
+"flex-layout.row#bannersbulletsecond": {
+  "props":{
+    "blockClass": "Bannersec",
+    "marginTop": 4
+  },
+  "children": ["flex-layout.col#bullets1", "flex-layout.col#bullets2", "flex-layout.col#bullets3"]
+},
+
+"flex-layout.col#bullets1": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner5", "rich-text#bulletbotton1"]
+},
+"flex-layout.col#bullets2": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner6", "rich-text#bulletbotton2"]
+},
+"flex-layout.col#bullets3": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner7", "rich-text#bulletbotton3"]
+},
+"image#banner5": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/HOMECAMISETAMUJERDEC.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletbotton1": {
+  "props": {
+    "text": "[Comprar Camisetas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner6": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/polospremi.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletbotton2": {
+  "props": {
+    "text": "[Comprar Polos](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner7": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/CHAQUETASENE2022.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletbotton3": {
+  "props": {
+    "text": "[Comprar Chaquetas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+
+//Banners terciarios segundo bullet
+"flex-layout.row#bannersbulletsecond1": {
+  "props":{
+    "blockClass": "Bannersec",
+    "marginTop": 4
+  },
+  "children": ["flex-layout.col#bullets4", "flex-layout.col#bullets5", "flex-layout.col#bullets6"]
+},
+
+"flex-layout.col#bullets4": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner8", "rich-text#bulletbotton4"]
+},
+"flex-layout.col#bullets5": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner9", "rich-text#bulletbotton5"]
+},
+"flex-layout.col#bullets6": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner10", "rich-text#bulletbotton6"]
+},
+"image#banner8": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/camisetashomefeb.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletbotton4": {
+  "props": {
+    "text": "[Comprar Camisetas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner9": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/jeanshomefeb.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletbotton5": {
+  "props": {
+    "text": "[Comprar Jeans](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner10": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/camisashomefeb.jpg",
+    "blockClass": "BannerD"
+  }
+},
+"rich-text#bulletbotton6": {
+  "props": {
+    "text": "[Comprar Camisas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+
+//Cierre banners terciarios
+
+//title secundario
+
+"rich-text#title2": {
+  "props": {
+    "text": "DESCUBRE AC",
+    "blockClass": "titlem",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+//Comienzo banners cuaternarios
+
+"flex-layout.row#bannersbulletthrid": {
+  "props":{
+    "blockClass": "Bannersec",
+    "marginTop": 4
+  },
+  "children": ["flex-layout.col#bullets7", "flex-layout.col#bullets8", "flex-layout.col#bullets9"]
+},
+
+"flex-layout.col#bullets7": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner11", "rich-text#bulletbotton7"]
+},
+"flex-layout.col#bullets8": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner12", "rich-text#bulletbotton8"]
+},
+"flex-layout.col#bullets9": {
+  "props":{
+    "blockClass": "Bannertwo1",
+    "width": "26%"
+  },
+  "children": ["image#banner13", "rich-text#bulletbotton9"]
+},
+"image#banner11": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/formalnoviembre.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/hombre/estilo/formal"
+  }
+  }
+},
+"rich-text#bulletbotton7": {
+  "props": {
+  //  "text": "[Comprar Camisetas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner12": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/TENISHOME20222.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/hombre/zapatos/tenis"
+  }
+  }
+},
+"rich-text#bulletbotton8": {
+  "props": {
+  //  "text": "[Comprar Jeans](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+"image#banner13": {
+  "props": {
+    "src": "https://arturocalle.vteximg.com.br/arquivos/FREEDOMHOME20222.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/freedom"
+  }
+  }
+},
+"rich-text#bulletbotton9": {
+  "props": {
+  //  "text": "[Comprar Camisas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+  }
+},
+
+//fin banners cuaternarios
+//Inicio Slider
+
+"rich-text#titleS": {
+  "props": {
+    "text": "REGALABLES PARA ÉL Y PARA ELLA",
+    "blockClass": "titlem",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+
+
+
+
+
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
     "blocks": ["product-summary.shelf"],
@@ -285,15 +424,14 @@
   "info-card#home": {
     "props": {
       "id": "info-card-home",
-      "isFullModeStyle": true,
-      //"textPosition": "left",
-      "imageUrl": "assets/desk/banner-principal-1440x360.png",
-      "callToActioMode": "none",
-      //"headline": "Clearance Sale",
-      //"callToActionText": "DISCOVER",
-      //"callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home"//,
-      //"textAlignment": "center"
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
     }
   },
 
@@ -308,83 +446,6 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
-    }
-  },
-
-  "flex-layout.col#col-right2": {
-    "children": [
-      "info-card#col-right-1",
-      "info-card#col-right-2"
-    ]
-  },
-
-  "info-card#col-right-1": {
-    "props": {
-      "id": "info-card",
-      "isFullModeStyle": true,
-      "fullWidth": true,
-      "imageUrl": "assets/desk/banner4-480x220.png",
-      "callToActioMode": "none",
-      "blockClass": "info-card"
-    }
-  },
-
-  "info-card#col-right-2": {
-    "props": {
-      "id": "info-card",
-      "isFullModeStyle": true,
-      "fullWidth": true,
-      "imageUrl": "assets/desk/banner5-480x220.png",
-      "callToActioMode": "none",
-      "blockClass": "info-card"
-    }
-  },
-
-  "shelf#cats": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "orderBy":"OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList":{
-        "maxItems": 10,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "showTitle": false
-      }
-    }
-  },
-
-  "shelf#descubre-mas": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "orderBy":"OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList":{
-        "maxItems": 10,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "DESCUBRE MÁS"
-      }
-    }
-  },
-
-  "shelf#lo-mas-vendido": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "orderBy":"OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList":{
-        "maxItems": 10,
-        "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": "LO MÁS VENDIDO"
-      }
     }
   }
 }

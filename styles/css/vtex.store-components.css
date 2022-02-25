@@ -197,9 +197,30 @@
   margin-top: 15px;
 }
 
+/*-------------------------------------*/
+/*       Color rededor de lupa        */
+/*-----------------------------------*/
 .searchBarIcon--clear-button--search {
+  background-color: white;
+}
+
+.searchBarIcon--clear-button--search :hover .searchBarIcon{
   background-color: #efefef;
 }
+
+.searchBarIcon .pointer :hover {
+  background-color: #efefef;
+}
+
+.searchBarIcon--search :hover {
+  background-color: #efefef;
+}
+
+.searchBarIcon--clear-button :hover {
+  background-color: #efefef;
+}
+/* >>>>Cierre Color rededor de lupa*/
+
 
 .suffixWrapper {
   background-color: #efefef;
@@ -213,15 +234,83 @@
   margin-right: 100px;
 }
 
+/*-----------------------------------------------------------------------*/
+/*              Color de cuadrado que rodea la lupa                     */
+/*---------------------------------------------------------------------*/
 .autoCompleteOuterContainer--clear-button :global(.vtex-input__suffix) {
   float: left;
   box-shadow: none;
+  background-color: white;
+}
+
+.autoCompleteOuterContainer :hover {
   background-color: #efefef;
 }
+
+.autoCompleteOuterContainer--clear-button :hover :global(.vtex-input__suffix) {
+  background-color: #efefef;
+}
+/* >>>>>>>>>>>>Cierre cuadrado que rodea la lupa*/
 
 .autoCompleteOuterContainer--clear-button :global(.vtex-input-prefix__group) {
   border: none;
   box-shadow: none;
   background-color: #efefef;
   height: 35px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*                    Banner secundarios info cards                          */
+/*--------------------------------------------------------------------------*/
+.infoCardContainer--info-card-bannerI, .infoCardContainer--info-card-bannerD {
+  height: 400px;
+}
+
+.imageElement--BannerI, .imageElement--BannerD {
+  width: 100%;
+}
+/* >>>>>>>>>>>>Cierre de  Banner secundarios info cards*/
+
+
+/*-------------------------------------------*/
+/*      Posicion de icono en top-menu       */
+/*-----------------------------------------*/
+.imageElement--storePrint {
+  margin-top: 13px;
+}
+/* >>>>>>>>>>>>Cierre de Posicion de icono en top-menu*/
+
+
+/*----------------------------------------------------*/
+/*               Orden de lupa y buscador            */
+/*--------------------------------------------------*/
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+  display: flex;
+}
+/*.vtex-input-prefix__group.flex.flex-row.items-stretch.overflow-hidden.br2.bw1.b--solid.b--muted-4.hover-b--muted-3.h-large {
+    display: flex;
+}*/
+
+.searchBarIcon :global(.vtex-input__suffix){
+  display: flex;
+  order: 1;
+}
+/*span.c-muted-2.fw5.flex.items-center.t-body.bg-base.vtex-input__suffix.br2.bl-0.br--right.pr5.pl4 {
+    display: flex;
+    order: 1;
+}*/
+
+
+/*
+input#downshift-1-input {
+    order: 2;
+}
+
+
+ >>>>>>>>>>>>Cierre de Orden de lupa y buscador*/
+
+
+ .logoLink {
+  transform: scale(1) !important;
 }

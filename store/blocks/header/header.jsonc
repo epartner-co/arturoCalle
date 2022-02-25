@@ -5,11 +5,12 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
+
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
       //"flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop",
+      //"flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
       //"sticky-layout#5-desktop"
     ]
@@ -62,7 +63,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop","flex-layout.row#5-desktop"]
+      "children": ["flex-layout.row#3-desktop","flex-layout.row#4-desktop","flex-layout.row#5-desktop"]
   },
   "flex-layout.row#4-desktop": {
     "props": {

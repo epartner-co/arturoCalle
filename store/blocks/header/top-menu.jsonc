@@ -36,8 +36,9 @@
   "image#icon-wpp": {
     "props": {
       "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
-      "maxHeight": "20px",
-      "maxWidth": "20px",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
+      "margin-top": "13px",
       "blockClass": "storePrint"
     }
   },
@@ -51,8 +52,6 @@
       "highlight": false,
       "itemProps": {
         "icon":"mpa-globe",
-        "blockClass ::before": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
-        "url": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
         "type": "external",
         "href": "https://web.whatsapp.com/",
         "noFollow": false,
@@ -64,9 +63,9 @@
 
   "image#icon-pedidos": {
     "props": {
-      "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
-      "maxHeight": "20px",
-      "maxWidth": "20px",
+      "src": "https://callearturop.vteximg.com.br/arquivos/usuario.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
       "blockClass": "storePrint"
     }
   },
@@ -78,7 +77,6 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "img": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
         "href": "https://web.whatsapp.com/",
         "noFollow": false,
         "tagTitle": "Escríbenos por vía whatsapp",
@@ -89,9 +87,9 @@
 
   "image#icon-deseos": {
     "props": {
-      "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
-      "maxHeight": "20px",
-      "maxWidth": "20px",
+      "src": "https://callearturop.vteximg.com.br/arquivos/me-gusta.png",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
       "blockClass": "storePrint"
     }
   },
@@ -114,9 +112,9 @@
 
   "image#icon-contactenos": {
     "props": {
-      "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png",
-      "maxHeight": "20px",
-      "maxWidth": "20px",
+      "src": "https://arturocalle.vteximg.com.br/arquivos/llamada-telefonica.png?v=637400196167370000",
+      "maxHeight": "15px",
+      "maxWidth": "15px",
       "blockClass": "storePrint"
     }
   },

@@ -1,0 +1,313 @@
+{
+// Contenido Columnas
+  "flex-layout.col#PrimeraCol1": {
+    "children": [
+      "disclosure-layout#simple"
+    ]
+  },
+  "flex-layout.col#PrimeraCol2":{
+    "children": [
+      "disclosure-layout#simple2"
+    ]
+  },
+  "flex-layout.col#PrimeraCol3":{
+    "children": [
+      "disclosure-layout#simple3"
+    ]
+  },
+  "flex-layout.col#PrimeraCol4":{
+    "children": [
+      "disclosure-layout#simple4"
+    ]
+  },
+  "flex-layout.col#PrimeraCol5":{
+    "children": [
+      "disclosure-layout#simple5"
+    ]
+  },
+ // Cierre contenido
+
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 1                             */
+  /*--------------------------------------------------------------------------*/
+
+  "disclosure-layout#simple":{
+    "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+  },
+  "disclosure-trigger#simple": {
+    "children": ["rich-text#tileFCol"]
+  },
+  "disclosure-content#simple": {
+    "children": ["rich-text#answer", "rich-text#answer2", "rich-text#answer3", "rich-text#answer4", "rich-text#answer5", "rich-text#answer6", "rich-text#answer7"]
+  },
+  "rich-text#tileFCol": {
+    "props": {
+      "blockClass": "TituloCont",
+      "text": "Acerca de nosotros"
+    }
+  },
+  "rich-text#answer": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Franquicias](https://www.arturocalle.com/contenido/franquicias)"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Nuestra Historia](https://www.arturocalle.com/contenido/historia)"
+    }
+  },
+  "rich-text#answer3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Trabaja con nosotros](https://talento.arturocalle.com/talento/)"
+    }
+  },
+  "rich-text#answer4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Uniformes y dotaciones](https://talento.arturocalle.com/talento/)"
+    }
+  },
+  "rich-text#answer5": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Fundación ARTURO CALLE](https://fundacionarturocalle.com/)"
+    }
+  },
+  "rich-text#answer6": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[línea Ética](https://www.arturocalle.com/contenido/linea-etica)"
+    }
+  },
+  "rich-text#answer7": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Política Ética Empresarial](https://www.arturocalle.com/contenido/politica-etica-empresarial)"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 1*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 2                             */
+  /*--------------------------------------------------------------------------*/
+
+
+  "disclosure-layout#simple2":{
+    "children": ["disclosure-trigger#simple2", "disclosure-content#simple2"]
+  },
+  "disclosure-trigger#simple2": {
+    "children": ["rich-text#tileFCol2"]
+  },
+  "disclosure-content#simple2": {
+    "children": ["rich-text#answerCol2", "rich-text#answer2Col2"]
+  },
+  "rich-text#tileFCol2": {
+    "props": {
+      "blockClass": "TituloCont",
+      "text": "TIENDAS"
+    }
+  },
+  "rich-text#answerCol2": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Select](https://www.arturocalle.com/contenido/franquicias)"
+    }
+  },
+  "rich-text#answer2Col2": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[VER TODAS NUESTAS TIENDAS](https://www.arturocalle.com/contenedor-localizador)"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 2*/
+
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 3                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#simple3":{
+    "children": ["disclosure-trigger#simple3", "disclosure-content#simple3"]
+  },
+  "disclosure-trigger#simple3": {
+    "children": ["rich-text#tileFCol3"]
+  },
+  "disclosure-content#simple3": {
+    "children": ["rich-text#answer-Col3", "rich-text#answer2-Col3", "rich-text#answer3-Col3", "rich-text#answer4-Col3", "rich-text#answer5-Col3", "rich-text#answer6-Col3", "rich-text#answer7-Col3", "rich-text#answer8-Col3"]
+  },
+  "rich-text#tileFCol3": {
+    "props": {
+      "blockClass": "TituloCont",
+      "text": "INFORMACIÓN"
+    }
+  },
+  "rich-text#answer-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Contáctecnos - PQRs](https://www.arturocalle.com/contacto)"
+    }
+  },
+  "rich-text#answer2-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Términos y condiciones](https://www.arturocalle.com/terminos-y-condiciones)"
+    }
+  },
+  "rich-text#answer3-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Preguntas frecuentes](https://www.arturocalle.com/preguntas-frecuentes)"
+    }
+  },
+  "rich-text#answer4-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Política de uso de datos personales](https://www.arturocalle.com/politica-de-datos)"
+    }
+  },
+  "rich-text#answer5-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Condiciones actividades comerciales](https://www.arturocalle.com/condiciones-actividades-comerciales)"
+    }
+  },
+  "rich-text#answer6-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Política de envío, cambios y garantías](https://www.arturocalle.com/politica-envio-cambios-garantias)"
+    }
+  },
+  "rich-text#answer7-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Autorización tratamiento de datos personales](https://www.arturocalle.com/autorizacion-tratamiento-datos-personales)"
+    }
+  },
+  "rich-text#answer8-Col3": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[SIC](https://www.sic.gov.co/)"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 3*/
+
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 4                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#simple4":{
+    "children": ["disclosure-trigger#simple4", "disclosure-content#simple4"]
+  },
+  "disclosure-trigger#simple4": {
+    "children": ["rich-text#tileFCol4"]
+  },
+  "disclosure-content#simple4": {
+    "children": ["rich-text#answer-Col4", "rich-text#answer2-Col4", "rich-text#answer3-Col4", "rich-text#answer4-Col4", "rich-text#answer5-Col4", "rich-text#answer6-Col4", "rich-text#answer7-Col4", "rich-text#answer8-Col4"]
+  },
+  "rich-text#tileFCol4": {
+    "props": {
+      "blockClass": "TituloCont",
+      "text": "HERRAMIENTAS AC"
+    }
+  },
+  "rich-text#answer-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[SAP](https://wia.arturocalle.com/AC_AccesoSAP/paginas/VinculosSAP.aspx)"
+    }
+  },
+  "rich-text#answer2-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[WIA](https://wia.arturocalle.com/WIA/Login.aspx)"
+    }
+  },
+  "rich-text#answer3-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[WPB]( http://wpb.arturocalle.com:8080/Manager-CAC/index.htm)"
+    }
+  },
+  "rich-text#answer4-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Isolución](http://acautomprd03/isolucion/)"
+    }
+  },
+  "rich-text#answer5-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Isolución Tiendas](http://isolucion.arturocalle.com/Isolucion)"
+    }
+  },
+  "rich-text#answer6-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Proveedores](https://wia.arturocalle.com/AC_AccesoSAP/paginas/CertificadosProveedor.aspx)"
+    }
+  },
+  "rich-text#answer7-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Campus Virtual AC](https://moodle.arturocalle.com/moodle/login/index.php)"
+    }
+  },
+  "rich-text#answer8-Col4": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Acércate](https://acercate.arturocalle.com/acercate/wp-login.php?redirect_to=https%3A%2F%2Facercate.arturocalle.com%2Facercate%2F)"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 4*/
+
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 5                             */
+  /*--------------------------------------------------------------------------*/
+
+
+  "disclosure-layout#simple5":{
+    "children": ["disclosure-trigger#simple5", "disclosure-content#simple5"]
+  },
+  "disclosure-trigger#simple5": {
+    "children": ["rich-text#tileFCol5"]
+  },
+  "disclosure-content#simple5": {
+    "children": ["rich-text#answer-Col5", "rich-text#answer2-Col5", "rich-text#answer3-Col5", "rich-text#answer4-Col5"]
+  },
+  "rich-text#tileFCol5": {
+    "props": {
+      "blockClass": "TituloCont",
+      "text": "SUSCRÍBETE"
+    }
+  },
+  "rich-text#answer-Col5": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Input Nombre](https://www.arturocalle.com/contenido/franquicias)"
+    }
+  },
+  "rich-text#answer2-Col5": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Input Email]()"
+    }
+  },
+  "rich-text#answer3-Col5": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Check autorizo]()"
+    }
+  },
+  "rich-text#answer4-Col5": {
+    "props": {
+      "blockClass": "ContenidoDesplegable",
+      "text": "[Boton Suscribete]()"
+    }
+  }
+  /* >>>>>>>>>>>>Cierre de  Columna 5*/
+
+}
