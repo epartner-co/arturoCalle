@@ -35,6 +35,7 @@
   color: black;
   font-size: 10px;
   height: 23%;
+  display: block;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLinkContainer) {
@@ -46,6 +47,11 @@
   font-weight: 700;
   font-size: 13px;
 }
+
+.flexCol--minicart-slayout-home-bolsa{
+  margin-right: 5px;
+}
+
 .flexRow--deals {
   background-color: transparent;
   padding: 14px 0px;
@@ -140,7 +146,11 @@
 /*Borde del header*/
 .flexRow--menu-link {
   border-bottom: 1px solid rgb(228, 224, 224);
-  height: 28%;
+}
+
+.flexRowContent--main-header {
+  height: 56px;
+  align-items: flex-start;
 }
 
 /*Estilos home diagramación*/
@@ -169,4 +179,16 @@
   width: 96%;
 }
 
+.items-stretch.w-100 {
+  height: 35px;
+}
+
+/*----------------------------------*/
+/*flex layout iconos redes sociales */
+/*----------------------------------*/
+.flexColChild--social-network{
+  width:25px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 

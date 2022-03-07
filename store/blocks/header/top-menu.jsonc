@@ -29,7 +29,8 @@
       "menu-item#vtex-website3",
       "image#icon-contactenos",
       "menu-item#vtex-website4",
-      "menu-item#vtex-website5"
+      "menu-item#vtex-website5",
+      "image#icon-flecha"
     ]
   },
 
@@ -77,14 +78,29 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "https://web.whatsapp.com/",
         "noFollow": false,
         "tagTitle": "Escríbenos por vía whatsapp",
         "text": "MIS PEDIDOS"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#mis-pedidos"]
+  },
+  "vtex.menu@2.x:submenu#mis-pedidos": {
+    "props":{
+      "blockClass": "submenu--mi-cuenta"
+    },
+    "children": [
+      "menu-item#home__mis-pedidos"
+    ]
+  },
+  "menu-item#home__mis-pedidos": {
+    "props": {
+      "blockClass": "home__mis-pedidos--mi-cuenta",
+      "itemProps": {
+        "text": "Mi cuenta"
+      }
     }
   },
-
   "image#icon-deseos": {
     "props": {
       "src": "https://callearturop.vteximg.com.br/arquivos/me-gusta.png",
@@ -131,6 +147,31 @@
         "tagTitle": "Escríbenos por vía whatsapp",
         "text": "CONTÁCTENOS"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#contactenos"]
+  },
+  "vtex.menu@2.x:submenu#contactenos": {
+    "props":{
+      "blockClass": "submenu--contactenos"
+    },
+    "children": [
+      "menu-item#home__contactenos"
+    ]
+  },
+  "menu-item#home__contactenos": {
+    "children":["rich-text#home__submenu--contactenos"]
+  },
+  "rich-text#home__submenu--contactenos":{
+    "props":{
+      "text":"contactanos"
+    }
+  },
+  "image#icon-flecha": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/flecha-hacia-abajo.png",
+      "maxHeight": "10px",
+      "maxWidth": "10px",
+      "blockClass": "storePrint"
     }
   },
   "menu-item#vtex-website5": {
