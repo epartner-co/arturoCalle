@@ -6,7 +6,7 @@
     "children": [
       "flex-layout.row#footer1",
       "flex-layout.row#footer-1-desktop",
-      "social-networks",
+      "flex-layout.row#home__social-networks",
       "rich-text#terms"
     ]
   },
@@ -63,26 +63,65 @@
 
 // Columnas de cierre
 
-  "social-networks": {
+  "flex-layout.row#home__social-networks":{
+    "children":[
+      "flex-layout.col#home__social-networks--Facebook",
+      "flex-layout.col#home__social-networks--Instagram",
+      "flex-layout.col#home__social-networks--Twitter",
+      "flex-layout.col#home__social-networks--Youtube"
+    ]
+  },
+  "flex-layout.col#home__social-networks--Facebook":{
+    "props":{
+      "width":"1%",
+      "blockClass": "social-network"
+    },
+    "children":["image#social-network--Facebook"]
+  },
+  "flex-layout.col#home__social-networks--Instagram":{
+    "props":{
+      "width":"1%",
+      "blockClass": "social-network"
+    },
+    "children":["image#social-network--Instagram"]
+  },
+  "flex-layout.col#home__social-networks--Twitter":{
+    "props":{
+      "width":"1%",
+      "blockClass": "social-network"
+    },
+    "children":["image#social-network--Twitter"]
+  },
+  "flex-layout.col#home__social-networks--Youtube":{
+    "props":{
+      "width":"1%",
+      "blockClass": "social-network"
+    },
+    "children":["image#social-network--Youtube"]
+  },
+  "image#social-network--Facebook":{
     "props": {
-      "socialNetworks": [
-        {
-          "name": "Facebook",
-          "src": "https://arturocalle.vteximg.com.br/arquivos/whatsapp.png"
-        },
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/vtextruecloud/"
-        },
-        {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
-          "name": "Youtube",
-          "url": "https://www.youtube.com/user/VTEXTV"
-        }
-      ]
+      "blockClass": "social-network--Facebook",
+      "href": "https://www.facebook.com/arturocalleoficial", //no redirige, a pesar de tener el href
+      "src": "https://callearturop.vteximg.com.br/arquivos/simbolo-de-la-aplicacion-de-facebook.png"
+    }
+  },
+  "image#social-network--Instagram":{
+    "props": {
+      "blockClass": "social-network--Instagram",
+      "src": "https://callearturop.vteximg.com.br/arquivos/instagram.png"
+    }
+  },
+  "image#social-network--Twitter":{
+    "props": {
+      "blockClass": "social-network--Twitter",
+      "src": "https://callearturop.vteximg.com.br/arquivos/twitter.png"
+    }
+  },
+  "image#social-network--Youtube":{
+    "props": {
+      "blockClass": "social-network--Youtube",
+      "src": "https://callearturop.vteximg.com.br/arquivos/youtube.png"
     }
   },
 
@@ -128,7 +167,7 @@
   "flex-layout.col#footer-1-mobile": {
     "children": [
       "accepted-payment-methods",
-      "social-networks",
+      "flex-layout.row#home__social-networks",
       "rich-text#footer-mobile"
     ],
     "props": {

@@ -83,6 +83,20 @@
   padding-top: 0px;
 }
 
+/*----------------------------------------*/
+/*      Imagenes al lado del mini cart   */
+/*--------------------------------------*/
+
+.imageElement--minicart-home-bolsa{
+  width: 30px;
+}
+
+.imageElement--minicart-circulo-negro{
+  width: 30px;
+}
+
+/*>>> Cierre Imagenes al lado del mini cart*/
+
 .imageElement--storePrint {
   max-height: 300px;
   margin-bottom: 20px;
@@ -230,9 +244,17 @@
   background-color: #efefef;
 }
 
+
+/*-----------------------------------------------------*/
+/*              Posición del buscador                 */
+/*---------------------------------------------------*/
 .searchBarContainer {
-  margin-right: 100px;
+  margin-right: 30px;
+  margin-top: 12px;
+  width: 422px;
 }
+/* >>>>>>>>>>>>Cierre Posición del buscador*/
+
 
 /*-----------------------------------------------------------------------*/
 /*              Color de cuadrado que rodea la lupa                     */
@@ -246,17 +268,13 @@
 .autoCompleteOuterContainer :hover {
   background-color: #efefef;
 }
-
-.autoCompleteOuterContainer--clear-button :hover :global(.vtex-input__suffix) {
-  background-color: #efefef;
-}
 /* >>>>>>>>>>>>Cierre cuadrado que rodea la lupa*/
 
 .autoCompleteOuterContainer--clear-button :global(.vtex-input-prefix__group) {
   border: none;
   box-shadow: none;
   background-color: #efefef;
-  height: 35px;
+  height: 33px;
 }
 
 
@@ -301,16 +319,61 @@
     order: 1;
 }*/
 
-
 /*
 input#downshift-1-input {
     order: 2;
 }
+>>>>>>>>>>>>Cierre de Orden de lupa y buscador*/
 
 
- >>>>>>>>>>>>Cierre de Orden de lupa y buscador*/
-
-
- .logoLink {
-  transform: scale(1) !important;
+ /*--------------------------------------------------------*/
+/*        Escala o tamaño estático de logo AC            */
+/*------------------------------------------------------*/
+.logoLink {
+ transform: scale(1) !important;
+ margin-top: 23px;
 }
+/* >>>>>>>>>>>>Cierre de Orden de lupa y buscador*/
+
+
+/*----------------------------------------------*/
+/* flecha footer hacia abajo                    */
+/*----------------------------------------------*/
+.imageElement--flecha-abajo{
+  margin-left: 50px;
+  margin-top: 12px;
+  width:10px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------------------------*/
+/* imagenes iconos redes sociales              */
+/*---------------------------------------------*/
+.imageElement--social-network--Facebook{
+  margin-left: 580px;
+  width:20px;
+}
+.imageElement--social-network--Instagram{
+  margin-left: 630px;
+  width:20px;
+}
+.imageElement--social-network--Twitter{
+  margin-left: 680px;
+}
+.imageElement--social-network--Youtube{
+  margin-left: 730px;
+}
+
+.imageElement--social-network--Facebook:hover{
+  opacity: 0.3;
+}
+.imageElement--social-network--Instagram:hover{
+  opacity: 0.3;
+}
+.imageElement--social-network--Twitter:hover{
+  opacity: 0.3;
+}
+.imageElement--social-network--Youtube:hover{
+  opacity: 0.3;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/

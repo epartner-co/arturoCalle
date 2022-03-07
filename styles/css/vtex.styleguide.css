@@ -5,7 +5,10 @@
   font-weight: bold;
 }
 
-
+/*----------------------------------------------------*/
+/*               Orden de lupa y buscador            */
+/*--------------------------------------------------*/
 .hideDecorators.noAppearance {
   order: 2;
 }
+/* >>>>>>>>>>>>Cierre de Orden de lupa y buscador*/

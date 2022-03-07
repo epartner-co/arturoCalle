@@ -1,0 +1,17 @@
+{
+    "flex-layout.col#home__footer--disclosure-state-indicator":{
+        "children": ["disclosure-state-indicator#footer"]
+      },
+      "disclosure-state-indicator#footer": {
+        "props": {
+          "Show": "image#flecha-abajo",
+          "Hide": "image#flecha-abajo"
+        }
+      },
+      "image#flecha-abajo": {
+        "props": {
+          "blockClass": "flecha-abajo",
+          "src": "https://callearturop.vteximg.com.br/arquivos/flecha-hacia-abajo-para-navegar.png"
+        }
+      }
+}
