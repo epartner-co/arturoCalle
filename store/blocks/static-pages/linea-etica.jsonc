@@ -1,0 +1,396 @@
+{
+    "store.custom#linea-etica": {
+        "blocks": [
+            "flex-layout.row#informacion--linea-etica"
+        ]
+      },
+      "flex-layout.row#informacion--linea-etica":{
+          "props":{
+              "blockClass":"informacion--linea-etica"
+          },
+          "children":[
+            "flex-layout.col#informacion--linea-etica--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--linea-etica--primera--parte":{
+          "props":{
+            "blockClass":"informacion--linea-etica--primera--parte"
+          },
+          "children":[
+              "rich-text#titulo--linea-etica",
+              "image#linea--etica--imagen--portada",
+              "rich-text#subtitulo--linea-etica",
+              "rich-text#recuadro--compromiso",
+              "rich-text#contenido--linea-etica",
+              "rich-text#list--linea-etica", /*titulo que va encima de la lista*/
+              "flex-layout.col#list-items--linea-etica",/*lista---con viñetas*/
+              "flex-layout.row#espacio",
+              "rich-text#recuadro--2",
+              "rich-text#contenido--2--linea-etica"
+          ]
+      },
+      "rich-text#titulo--linea-etica":{
+          "props":{
+            "blockClass":"titulo-principal--linea--etica",
+            "list":true,
+            "text":"Línea Ética"
+          }
+      },
+      /*primera imagen*/
+      "image#linea--etica--imagen--portada":{
+        "props": {
+            "blockClass":"linea--etica--imagen--portada",
+            "src": "assets/desk/static-pages/linea-etica.webp"
+          }
+      },
+      /*subtitulo*/
+      "rich-text#subtitulo--linea-etica":{
+        "props":{
+          "blockClass":"subtitulo-principal--linea--etica",
+          "list":true,
+          "text":"Compromiso"
+        }
+    },
+    /*recuadro compromiso*/
+    "rich-text#recuadro--compromiso":{
+        "props":{
+            "blockClass":"recuadro",
+            "list":true,
+            "text":"Comercializadora Arturo Calle S.A.S se encuentra comprometida en promover una cultura de transparencia, honestidad e integridad, con el propósito de fomentar dentro de la Compañía una conducta de cero tolerancias frente al Soborno Transnacional, Corrupción, Lavado de Activos y Financiación del Terrorismo, reforzando de tal manera, los valores y principios para actuar siempre correctamente en todas nuestras actividades."
+        }  
+    },
+    "rich-text#list--linea-etica":{
+          "props":{
+            "blockClass":"contenido",
+              "text":"Las situaciones que se pueden reportar por la Línea de Ética son:"
+          }
+      },
+      /*contenedor de los items con viñetas*/
+      "flex-layout.col#list-items--linea-etica":{
+          "props":{
+              "blockClass":"list"
+          },
+          "children":[
+            "flex-layout.row#list-item--1--linea-etica",
+            "flex-layout.row#list-item--2--linea-etica",
+            "flex-layout.row#list-item--3--linea-etica",
+            "flex-layout.row#list-item--4--linea-etica",
+            "flex-layout.row#list-item--5--linea-etica",
+            "flex-layout.row#list-item--6--linea-etica",
+            "flex-layout.row#list-item--7--linea-etica",
+            "flex-layout.row#list-item--8--linea-etica",
+            "flex-layout.row#list-item--9--linea-etica",
+            "flex-layout.row#list-item--10--linea-etica",
+            "flex-layout.row#list-item--11--linea-etica",
+            "flex-layout.row#list-item--12--linea-etica"
+          ]
+      },
+      /*item 1*/
+      "flex-layout.row#list-item--1--linea-etica":{
+          "props":{
+              "blockClass":"list-item"
+          },
+          "children":[
+            "flex-layout.col#list-item--1--img--linea-etica",
+            "flex-layout.col#list-item--1--text--linea-etica"
+          ]
+      },
+        /*contenedor de la viñeta*/
+        "flex-layout.col#list-item--1--img--linea-etica":{
+            "props":{
+                "blockClass":"list-item--img",
+                "width":"1%"
+            },
+            "children":[
+                "image#list-item--punto"
+            ]
+        },
+        /*contenedor texto del item*/
+        "flex-layout.col#list-item--1--text--linea-etica":{
+            "children":[
+                "rich-text#list-item--1--linea-etica"
+            ]
+        },
+      /*texto del item*/
+      "rich-text#list-item--1--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Participación en actividades, negocios u operaciones contrarias a la ley."
+        }
+      },
+      /*item 2*/
+      "flex-layout.row#list-item--2--linea-etica":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--2--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--2--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--2--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--2--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Notificación de actividades sospechosas de Lavado de Activos, Financiación del Terrorismo, o cualquier acto ilícito."
+        }
+      },
+      /*item 3*/
+      "flex-layout.row#list-item--3--linea-etica":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--3--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--3--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--3--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--3--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Uso indebido de la información confidencial."
+        }
+      },
+      /*item 4*/
+      "flex-layout.row#list-item--4--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--4--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--4--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--4--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--4--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Situaciones de conflictos de interés en la Compañía."
+        }
+      },
+      /*item 5*/
+      "flex-layout.row#list-item--5--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--5--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--5--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--5--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--5--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Apropiación o uso indebido de los bienes de la Compañía. (Fraude, Hurto y Robo)."
+        }
+      },
+      /*item 6*/
+      "flex-layout.row#list-item--6--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--6--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--6--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--6--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--6--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Falsificación de contratos, reportes o registros."
+        }
+      },
+      /*item 7*/
+      "flex-layout.row#list-item--7--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--7--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--7--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--7--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--7--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Prácticas comerciales en contra de los intereses de la Compañía."
+        }
+      },
+      /*item 8*/
+      "flex-layout.row#list-item--8--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--8--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--8--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--8--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--8--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Abuso de las condiciones de administrador, funcionario o colaborador de la Compañía para beneficio propio."
+        }
+      },
+      /*item 9*/
+      "flex-layout.row#list-item--9--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--9--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--9--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--9--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--9--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Situaciones en donde se acepten Agasajos, Regalos, Dádivas y Otros Pagos Inusuales en general, que puedan influir en las decisiones de negocios y operaciones que se efectúen en la Compañía"
+        }
+      },
+      /*item 10*/
+      "flex-layout.row#list-item--10--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--10--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--10--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--10--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--10--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Actos de Corrupción, Soborno y Comisiones Ilegales."
+        }
+      },
+      /*item 11*/
+      "flex-layout.row#list-item--11--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--11--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--11--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--11--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--11--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Amenazas (intimidación por parte de un tercero)."
+        }
+      },
+      /*item 12*/
+      "flex-layout.row#list-item--12--linea-etica":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
+          "flex-layout.col#list-item--12--text--linea-etica"
+        ]
+    },
+    "flex-layout.col#list-item--12--text--linea-etica":{
+        "children":[
+            "rich-text#list-item--12--linea-etica"
+        ]
+    },
+    /*texto del item*/
+    "rich-text#list-item--12--linea-etica":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Incumplimiento de políticas y procedimientos."
+        }
+      },
+
+      /*recuadro 2*/
+    "rich-text#recuadro--2":{
+        "props":{
+            "blockClass":"recuadro",
+            "list":true,
+            "text":"En Comercializadora Arturo Calle S.A.S., velamos por la transparencia y más altas conductas éticas para el desarrollo de nuestras operaciones."
+        }  
+    },
+
+      /*resto de contenido---no son listas---no requieren viñetas*/
+      "rich-text#contenido--linea-etica":{
+          "props":{
+            "blockClass":"contenido",
+              "text":"Es un canal de comunicación, que permite a los colaboradores, proveedores, clientes y terceros en general, reportar de manera confidencial y anónima actividades o conductas consideradas como contrarias a la ley o a los intereses de Comercializadora Arturo Calle S.A.S, o realizar consultas relacionadas con temas Éticos, las cuales podrán gestionarse a través del correo lineaetica@aturocalle.com"
+          }
+      },
+      "rich-text#contenido--2--linea-etica":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"Ten en cuenta que la línea de ética es un canal de comunicación diferente a la línea de servicio al cliente."
+        }
+    }
+
+}

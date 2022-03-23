@@ -331,21 +331,21 @@
       "props":{
           "textAlignment": "CENTER",
           "blockClass": "pais--panama",
-          "text":"PANAMÁ"
+          "text":"[PANAMÁ](https://pa.arturocalle.com/panama/)"
       }
   },
   "rich-text#COSTA--RICA":{
       "props":{
           "textAlignment": "CENTER",
           "blockClass": "pais--costa-rica",
-          "text":"COSTA RICA"
+          "text":"[COSTA RICA](https://cr.arturocalle.com/costa_rica/)"
       }
   },
   "rich-text#EL--SALVADOR":{
       "props":{
           "textAlignment": "CENTER",
           "blockClass": "pais--salvador",
-          "text":"EL SALVADOR"
+          "text":"[EL SALVADOR](https://sv.arturocalle.com/salvador/)"
       }
   }
 }

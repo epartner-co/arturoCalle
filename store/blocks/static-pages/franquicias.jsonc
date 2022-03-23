@@ -1,0 +1,55 @@
+{
+    "store.custom#franquicias": {
+        "blocks": [
+            "flex-layout.row#informacion--franquicias"
+        ]
+      },
+      "flex-layout.row#informacion--franquicias":{
+          "props":{
+              "blockClass":"informacion--franquicias"
+          },
+          "children":[
+            "flex-layout.col#informacion--franquicias--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--franquicias--primera--parte":{
+          "props":{
+            "blockClass":"informacion--franquicias--primera--parte"
+          },
+          "children":[
+              "rich-text#contenido--1--franquicias",
+              "rich-text#contenido--2--franquicias",
+              "rich-text#contenido--3--franquicias",
+              "link#boton--detalles"
+          ]
+      },
+        "rich-text#contenido--1--franquicias":{
+            "props":{
+            "blockClass":"contenido",
+                "text":"ARTURO CALLE, una marca de tradición y respaldo, que ha vestido por medio siglo al hombre contemporáneo, inicia su proceso de expansión y consolidación en otros países de la región. La fuerza de la marca radica en el vínculo emocional que ha sabido establecer con sus seguidores, que reconocen en sus prendas y accesorios: calidad, moda y diversidad, a precios justos."
+            }
+        },
+        "rich-text#contenido--2--franquicias":{
+            "props":{
+              "blockClass":"contenido",
+                "text":"Ser en la actualidad, la marca de retail de moda para el hombre en Colombia con mayor Top Of Mind y posicionamiento, mayores ventas, mayor cobertura en mts, la mejor empresa para trabajar en el sector textil, ocupar el puesto 12 dentro de las 100 mejores compañías para trabajar en Colombia, galardonados en diferentes oportunidades como el empresario del año, es un verdadero éxito, pero esto no se compara con el éxito obtenido con cada cliente satisfecho que regresa una y otra vez."
+            }
+        },
+        "rich-text#contenido--3--franquicias":{
+            "props":{
+            "blockClass":"contenido--decorad0",
+                "text":"ELEGANCIA | CALIDAD | VARIEDAD | BUEN PRECIO | MODA | ESTILO | INNOVACIÓN"
+            }
+        },
+        "link#boton--detalles":{
+            "children":[
+                "rich-text#boton--detalles--contenido"
+            ]
+        },
+        "rich-text#boton--detalles--contenido":{
+            "props":{
+                "blockClass":"boton--detalles--contenido",
+                "text":"Si quieres más información sobre las Franquicias ARTURO CALLE, haz clic aquí"
+            }
+        }
+}
