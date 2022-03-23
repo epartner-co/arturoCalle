@@ -1,0 +1,143 @@
+{
+    /*respuesta ¿Qué información puedo obtener a través de servicio al cliente?*/
+    /*inicio del recuadro*/
+    "flex-layout.col#respuesta--columna--27":{
+        "props":{
+            "blockClass":"respuesta--columna--n"
+          },
+        "children":[
+            "flex-layout.col#list--respuesta1--columna--27",
+            "flex-layout.col#list-items--respuesta--columna--27",
+            "flex-layout.col#list--respuesta3--columna--27",
+            "flex-layout.row#espacio" /*espacio para que quepa en el contenido*/
+        ]
+    },
+    /*aqui se escriben los items a trabajar*/
+    "flex-layout.col#list-items--respuesta--columna--27":{
+        "props":{
+            "blockClass":"list"
+        },
+        "children":[
+          "flex-layout.row#list-item--1--respuesta--columna--27",
+          "flex-layout.row#list-item--2--respuesta--columna--27",
+          "flex-layout.row#list-item--3--respuesta--columna--27"
+          
+        ]
+    },
+    /*item 1*/
+    "flex-layout.row#list-item--1--respuesta--columna--27":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--27",
+          "flex-layout.col#list-item--1--text--respuesta--columna--27"
+        ]
+    },
+    /*flex para la imagen del puntico...viñeta*/
+      "flex-layout.col#list-item--1--img--respuesta--columna--27":{
+          "props":{
+              "blockClass":"list-item--img",
+              "width":"1%"
+          },
+          "children":[
+              "image#list-item--punto--respuesta--columna--27"
+          ]
+      },
+      /*recuadro del texto de la lista que se quiere llamar*/
+      "flex-layout.col#list-item--1--text--respuesta--columna--27":{
+          "children":[
+              "rich-text#list-item--1--respuesta--columna--27"
+          ]
+      },
+    /*imagen del puntico...viñeta*/
+    "image#list-item--punto--respuesta--columna--27": {
+      "props": {
+        "src": "assets/desk/assets-checkout-AC/rec.png",
+        "maxHeight": 6
+      }
+    },
+    /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+    "rich-text#list-item--1--respuesta--columna--27":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Cuando el Cliente ejerce su derecho de retracto."
+      }
+    },
+    /*item 2*/
+    "flex-layout.row#list-item--2--respuesta--columna--27":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+          /*flex para la imagen del puntico...viñeta*/
+        "flex-layout.col#list-item--1--img--respuesta--columna--27",
+        "flex-layout.col#list-item--2--text--respuesta--columna--27"
+      ]
+  },
+  /*recuadro del texto de la lista que se quiere llamar*/
+  "flex-layout.col#list-item--2--text--respuesta--columna--27":{
+      "children":[
+          "rich-text#list-item--2--respuesta--columna--27"
+      ]
+  },
+  /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+  "rich-text#list-item--2--respuesta--columna--27":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Cuando el Cliente desea efectuar un cambio de producto."
+      }
+    },
+    /*item 3*/
+    "flex-layout.row#list-item--3--respuesta--columna--27":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+            /*flex para la imagen del puntico...viñeta*/
+          "flex-layout.col#list-item--1--img--respuesta--columna--27",
+          "flex-layout.col#list-item--3--text--respuesta--columna--27"
+        ]
+    },
+    /*recuadro del texto de la lista que se quiere llamar*/
+    "flex-layout.col#list-item--3--text--respuesta--columna--27":{
+        "children":[
+            "rich-text#list-item--3--respuesta--columna--27"
+        ]
+    },
+    /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+    "rich-text#list-item--3--respuesta--columna--27":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Cuando el cliente presenta una reclamación derivada de la obligación temporal de garantía del producto."
+        }
+      },
+
+
+
+
+    /*otro contenido del recuadro...no es parte de la lista con las viñetas...esta aparte*/
+    "flex-layout.col#list--respuesta1--columna--27":{
+        "children":[
+            "rich-text#list--respuesta1--columna--27"
+        ]
+    },
+    "rich-text#list--respuesta1--columna--27":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"La devolución de productos adquiridos a través de nuestra plataforma, puede presentarse en los siguientes eventos:"
+        }
+    },
+
+    "flex-layout.col#list--respuesta3--columna--27":{
+        "children":[
+            "rich-text#list--respuesta3--columna--27"
+        ]
+    },
+    "rich-text#list--respuesta3--columna--27":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"Le recomendamos revisar nuestros Términos y Condiciones / Política de envíos, cambios y garantías, para que conozca las condiciones y requisitos bajo los cuales procede cada uno de estos eventos."
+        }
+    }
+}

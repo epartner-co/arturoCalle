@@ -5,7 +5,6 @@
       "customPixelEventId": "add-to-cart-button"
     }
   },
-
   "minicart.v2":{
     "props": {
       "openOnHover":true,//se utiliza para que el carrito se despliegue hacia abajo cuando se pasa un boton sobre el

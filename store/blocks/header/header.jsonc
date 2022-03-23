@@ -190,6 +190,7 @@
       "width": "290"
     }
   },
+    // header version mobile
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },
@@ -199,8 +200,9 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
+      "disclosure-layout#lupa",
+      "flex-layout.col#spacerlow",
       "logo#mobile",
-      "flex-layout.col#spacer",
       //"login",
       "minicart.v2"
     ],
@@ -214,24 +216,49 @@
   "drawer": {
     "children": ["menu#drawer"]
   },
-
-  "menu#drawer": {
-    "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
-    ],
+  "flex-layout.col#spacerlow": {
     "props": {
-      "orientation": "vertical"
+      "width": "30%"
     }
   },
-
+  // boton de buscar
+  "disclosure-layout#lupa": {
+    "children": ["disclosure-trigger#lupa","disclosure-content#lupa"],
+    "props": {
+      "blockClass": "subMneusM"
+    }
+  },
+  "disclosure-trigger#lupa": {
+    "children": ["link.product#lupa"],
+    "props": {
+      "blockClass": "lupaTrigger"
+    }
+  },
+  "disclosure-content#lupa": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "lupaContent"
+    }
+  },
+  "link.product#lupa": {
+    "props": {
+      "blockClass": "Lupa"
+    },
+    "children":["image#lupa"]
+  },
+  "image#lupa": {
+    "props": {
+      "src": "https://cutis.vteximg.com.br/arquivos/Lupa.png",
+      "maxHeight": 17,
+      "blockClass":"LupaImagen"
+    }
+  },
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "70"
+      "url": "https://arturocalle.vteximg.com.br/arquivos/logoArturoCalle.png",
+      "width": "140"
     }
   }
 }

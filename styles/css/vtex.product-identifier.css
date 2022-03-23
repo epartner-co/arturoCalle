@@ -1,3 +1,17 @@
 .product-identifier--productReference {
-  margin-bottom: 1rem;
+  margin-left: -11px;
+  color: #6a6968;
+  letter-spacing: 2px;
+  font-size: 10px;
+  font-family: 'DINPro';
 }
+
+.product-identifier--productReference :global(.vtex-product-identifier-0-x-product-identifier__label){
+  display: none;
+}
+
+
+.product-identifier--productReference :global(.vtex-product-identifier-0-x-product-identifier__separator){
+  display: none;
+}
+

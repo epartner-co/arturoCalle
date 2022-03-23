@@ -1,0 +1,882 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#ofertas-principal":{
+        "children":[
+            "menu#ofertas-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#ofertas-principal":{
+        "children":[
+            "menu-item#category-ofertas-nuevos-M",
+            "menu-item#category-ofertas-25off-M",
+            "menu-item#category-ofertas-35off-M",
+            "menu-item#category-ofertas-50off-M",
+            "menu-item#category-ofertas-todos-M",
+            "menu-item#category-ofertas-hombre-M",
+            "menu-item#category-ofertas-mujer-M",
+            "menu-item#category-ofertas-nino-M",
+            "menu-item#category-ofertas-nina-M",
+            "menu-item#category-ofertas-acce-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-ofertas-nuevos-M": {
+        "props": {
+          "id": "menu-item-category-nuevos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Nuevos",
+            "text": "Nuevos"
+            }
+        }
+    },
+    "menu-item#category-ofertas-25off-M": {
+        "props": {
+          "id": "menu-item-category-25off",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "25% Off",
+            "text": "25% Off"
+            }
+        }
+    },
+    "menu-item#category-ofertas-35off-M": {
+        "props": {
+          "id": "menu-item-category-35off",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "35 Off",
+            "text": "35 Off"
+            }
+        }
+    },
+    "menu-item#category-ofertas-50off-M": {
+        "props": {
+          "id": "menu-item-category-50off",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "50% Off",
+            "text": "50% Off"
+            }
+        }
+    },
+    "menu-item#category-ofertas-todos-M": {
+        "props": {
+          "id": "menu-item-category-todos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ver todos",
+            "text": "Ver todos"
+            }
+        }
+    },
+    // menu items que poseen un sub menu
+     // declaracion sub menu
+     "menu-item#category-ofertas-hombre-M": {
+        "props": {
+          "id": "menu-item-category-hombre",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Hombre",
+            "text": "Hombre"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#ofertas-principal-hombre"   
+        ]
+    },
+    "submenu.accordion#ofertas-principal-hombre":{
+        "children":[
+            "menu#ofertas-principal-hombre"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+    // agrupacion de los items del submenu hombre
+    "menu#ofertas-principal-hombre":{
+        "children":[
+            "menu-item#category-ofertas-blazzer-M",
+            "menu-item#category-ofertas-buzos-M",
+            "menu-item#category-ofertas-Camisas-M",
+            "menu-item#category-ofertas-camisetas-M",
+            "menu-item#category-ofertas-chaquetas-M",
+            "menu-item#category-ofertas-pantalones-M",
+            "menu-item#category-ofertas-zapatos-M",
+            "menu-item#category-ofertas-polos-M",
+            "menu-item#category-ofertas-todo-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+        
+    },
+    // items del sub menu hombre
+    "menu-item#category-ofertas-blazzer-M": {
+        "props": {
+          "id": "menu-item-category-blazzer",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blazzers",
+            "text": "Blazzers"
+            }
+        }
+    },
+    "menu-item#category-ofertas-buzos-M": {
+        "props": {
+          "id": "menu-item-category-buzos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-ofertas-Camisas-M": {
+        "props": {
+          "id": "menu-item-category-camisas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisas",
+            "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-camisetas-M": {
+        "props": {
+          "id": "menu-item-category-camisetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-chaquetas-M": {
+        "props": {
+          "id": "menu-item-category-chaquetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-ofertas-zapatos-M": {
+        "props": {
+          "id": "menu-item-category-zapatos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-ofertas-polos-M": {
+        "props": {
+          "id": "menu-item-category-polos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Polos",
+            "text": "Polos"
+            }
+        }
+    },
+    "menu-item#category-ofertas-todo-M": {
+        "props": {
+          "id": "menu-item-category-vertodo",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ver todo",
+            "text": "Ver todo"
+            }
+        }
+    },
+    // declaracion sub menu mujer
+    "menu-item#category-ofertas-mujer-M": {
+        "props": {
+            "id": "menu-item-category-mujer",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#ofertas-principal-mujer"   
+        ]
+    },
+    "submenu.accordion#ofertas-principal-mujer":{
+        "children":[
+            "menu#ofertas-principal-mujer"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu mujer
+   "menu#ofertas-principal-mujer":{
+        "children":[
+            "menu-item#category-ofertas-chaquetasM-M",
+            "menu-item#category-ofertas-blusasCamisas-M",
+            "menu-item#category-ofertas-camisetasM-M",
+            "menu-item#category-ofertas-pantalonesM-M",
+            "menu-item#category-ofertas-shorts-M",
+            "menu-item#category-ofertas-faldas-M",
+            "menu-item#category-ofertas-zapatosM-M",
+            "menu-item#category-ofertas-todosM-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu mujer
+    "menu-item#category-ofertas-chaquetasM-M": {
+        "props": {
+            "id": "menu-item-category-chaquetas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-blusasCamisas-M": {
+        "props": {
+            "id": "menu-item-category-blusas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blusas y camisas",
+            "text": "Blusas y camisas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-camisetasM-M": {
+        "props": {
+            "id": "menu-item-category-camisetas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-pantalonesM-M": {
+        "props": {
+            "id": "menu-item-category-pantalones",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-ofertas-shorts-M": {
+        "props": {
+            "id": "menu-item-category-shorts",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+            }
+        }
+    },
+    "menu-item#category-ofertas-faldas-M": {
+        "props": {
+            "id": "menu-item-category-faldas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Faldas",
+            "text": "Faldas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-zapatosM-M": {
+        "props": {
+            "id": "menu-item-category-zapatos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-ofertas-todosM-M": {
+        "props": {
+            "id": "menu-item-category-todos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ver todo",
+            "text": "Ver todo"
+            }
+        }
+    },
+    // declaracion sub menu niño
+    "menu-item#category-ofertas-nino-M": {
+        "props": {
+            "id": "menu-item-category-nino",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Niño",
+                "text": "Niño"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#ofertas-principal-nino"   
+        ]
+    },
+    "submenu.accordion#ofertas-principal-nino":{
+        "children":[
+            "menu#ofertas-principal-nino"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu niño
+   "menu#ofertas-principal-nino":{
+        "children":[
+            "menu-item#category-ofertas-blazzersNino-M",
+            "menu-item#category-ofertas-camisasNino-M",
+            "menu-item#category-ofertas-chaquetasNino-M",
+            "menu-item#category-ofertas-buzosNino-M",
+            "menu-item#category-ofertas-suetersNino-M",
+            "menu-item#category-ofertas-vertodoNino-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu niño
+    "menu-item#category-ofertas-blazzersNino-M": {
+        "props": {
+            "id": "menu-item-category-blazzersN",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blazers",
+            "text": "Blazers"
+            }
+        }
+    },
+    "menu-item#category-ofertas-camisasNino-M": {
+        "props": {
+            "id": "menu-item-category-camisas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisas",
+            "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-chaquetasNino-M": {
+        "props": {
+            "id": "menu-item-category-chaquetas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-buzosNino-M": {
+        "props": {
+            "id": "menu-item-category-buzos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-ofertas-suetersNino-M": {
+        "props": {
+            "id": "menu-item-category-sueters",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Suéters",
+            "text": "Suéters"
+            }
+        }
+    },
+    "menu-item#category-ofertas-vertodoNino-M": {
+        "props": {
+            "id": "menu-item-category-vertodo",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ver todo",
+            "text": "Ver todo"
+            }
+        }
+    },
+    // declaracion sub menu niña
+    "menu-item#category-ofertas-nina-M": {
+        "props": {
+            "id": "menu-item-category-nino",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Niña",
+                "text": "Niña"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#ofertas-principal-nina"   
+        ]
+    },
+    "submenu.accordion#ofertas-principal-nina":{
+        "children":[
+            "menu#ofertas-principal-nina"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu niña
+   "menu#ofertas-principal-nina":{
+        "children":[
+            "menu-item#category-ofertas-buzosNina-M",
+            "menu-item#category-ofertas-camisetasNina-M",
+            "menu-item#category-ofertas-pantaloneNIna-M",
+            "menu-item#category-ofertas-sweatersNina-M",
+            "menu-item#category-ofertas-pijamasNina-M",
+            "menu-item#category-ofertas-ropaintNina-M",
+            "menu-item#category-ofertas-vertodoNina-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu niña
+    "menu-item#category-ofertas-buzosNina-M": {
+        "props": {
+            "id": "menu-item-category-buzosnina",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-ofertas-camisetasNina-M": {
+        "props": {
+            "id": "menu-item-category-camisetasNino",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-pantaloneNIna-M": {
+        "props": {
+            "id": "menu-item-category-pantalones",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-ofertas-sweatersNina-M": {
+        "props": {
+            "id": "menu-item-category-sweatersNina",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sweaaters",
+            "text": "Sweaters"
+            }
+        }
+    },
+    "menu-item#category-ofertas-pijamasNina-M": {
+        "props": {
+            "id": "menu-item-category-pijamas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+            }
+        }
+    },
+    "menu-item#category-ofertas-ropaintNina-M": {
+        "props": {
+            "id": "menu-item-category-ropa",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa Interior",
+            "text": "Ropa INterior"
+            }
+        }
+    },
+    "menu-item#category-ofertas-vertodoNina-M": {
+        "props": {
+            "id": "menu-item-category-vertodo",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ver todo",
+            "text": "Ver todo"
+            }
+        }
+    },
+    // declaracion sub menu accesorios
+    "menu-item#category-ofertas-acce-M": {
+        "props": {
+            "id": "menu-item-category-acce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#ofertas-principal-acce"   
+        ]
+    },
+    "submenu.accordion#ofertas-principal-acce":{
+        "children":[
+            "menu#ofertas-principal-acce"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#ofertas-principal-acce":{
+        "children":[
+            "menu-item#category-ofertas-paraHombre-M",
+            "menu-item#category-ofertas-paramujer-M",
+            "menu-item#category-ofertas-paranino-M",
+            "menu-item#category-ofertas-paranina-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-ofertas-paraHombre-M": {
+        "props": {
+            "id": "menu-item-category-hombre",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Para hombre",
+            "text": "Para hombre"
+            }
+        }
+    },
+    "menu-item#category-ofertas-paramujer-M": {
+        "props": {
+            "id": "menu-item-category-mujer",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Para mujer",
+            "text": "Para mujer"
+            }
+        }
+    },
+    "menu-item#category-ofertas-paranino-M": {
+        "props": {
+            "id": "menu-item-category-nino",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Para niño",
+            "text": "Para niño"
+            }
+        }
+    },
+    "menu-item#category-ofertas-paranina-M": {
+        "props": {
+            "id": "menu-item-category-nina",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Para niña",
+            "text": "Para niña"
+            }
+        }
+    }
+}

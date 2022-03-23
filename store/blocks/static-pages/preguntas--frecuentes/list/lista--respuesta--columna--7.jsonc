@@ -1,0 +1,101 @@
+{
+    /*respuesta ¿Qué vigencia tienen los cupones de pago?*/
+    /*inicio del recuadro*/
+    "flex-layout.col#respuesta--columna--7":{
+        "props":{
+            "blockClass":"respuesta--columna--n"
+          },
+        "children":[
+            "flex-layout.col#list-items--respuesta--columna--7",
+            "flex-layout.col#list--respuesta3--columna--7",
+            "flex-layout.row#espacio" /*espacio para que quepa en el contenido*/
+        ]
+    },
+    /*aqui se escriben los items a trabajar*/
+    "flex-layout.col#list-items--respuesta--columna--7":{
+        "props":{
+            "blockClass":"list"
+        },
+        "children":[
+          "flex-layout.row#list-item--1--respuesta--columna--7",
+          "flex-layout.row#list-item--2--respuesta--columna--7"
+          
+        ]
+    },
+    /*item 1*/
+    "flex-layout.row#list-item--1--respuesta--columna--7":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--7",
+          "flex-layout.col#list-item--1--text--respuesta--columna--7"
+        ]
+    },
+    /*flex para la imagen del puntico...viñeta*/
+      "flex-layout.col#list-item--1--img--respuesta--columna--7":{
+          "props":{
+              "blockClass":"list-item--img",
+              "width":"1%"
+          },
+          "children":[
+              "image#list-item--punto--respuesta--columna--7"
+          ]
+      },
+      /*recuadro del texto de la lista que se quiere llamar*/
+      "flex-layout.col#list-item--1--text--respuesta--columna--7":{
+          "children":[
+              "rich-text#list-item--1--respuesta--columna--7"
+          ]
+      },
+    /*imagen del puntico...viñeta*/
+    "image#list-item--punto--respuesta--columna--7": {
+      "props": {
+        "src": "assets/desk/assets-checkout-AC/rec.png",
+        "maxHeight": 7
+      }
+    },
+    /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+    "rich-text#list-item--1--respuesta--columna--7":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"El 'Cupón Descuento', tendrá una vigencia que corresponda a la actividad específica para la cual sean emitidos."
+      }
+    },
+    /*item 2*/
+    "flex-layout.row#list-item--2--respuesta--columna--7":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+          /*flex para la imagen del puntico...viñeta*/
+        "flex-layout.col#list-item--1--img--respuesta--columna--7",
+        "flex-layout.col#list-item--2--text--respuesta--columna--7"
+      ]
+  },
+  /*recuadro del texto de la lista que se quiere llamar*/
+  "flex-layout.col#list-item--2--text--respuesta--columna--7":{
+      "children":[
+          "rich-text#list-item--2--respuesta--columna--7"
+      ]
+  },
+  /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+  "rich-text#list-item--2--respuesta--columna--7":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"El 'Cupón Redención', tendrá una vigencia de tres (3) meses, contados a partir de su emisión."
+      }
+    },
+    /*otro contenido del recuadro...no es parte de la lista con las viñetas...esta aparte*/
+    "flex-layout.col#list--respuesta3--columna--7":{
+        "children":[
+            "rich-text#list--respuesta3--columna--7"
+        ]
+    },
+    "rich-text#list--respuesta3--columna--7":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"Para conocer más condiciones relacionadas con estos medios de pago, lo invitamos a consultar nuestros Términos y Condiciones."
+        }
+    }
+}

@@ -1,0 +1,281 @@
+{
+    /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 20                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--20":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--20", "disclosure-content#preguntas--frecuentes--20"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--20": {
+    "children": ["flex-layout.row#preguntas--frecuentes--20--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--20--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--20--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--20--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--20"]
+  },
+  "disclosure-content#preguntas--frecuentes--20": {
+    "children": ["rich-text#answerpreguntas--frecuentes--20"]
+  },
+  "rich-text#answerpreguntas--frecuentes--20": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Entregamos su pedido a la dirección que desee entre3 y 10 días hábiles, brindándole cobertura en todos los municipios de Colombia, a través de una empresa transportadora autorizada para prestar dicho servicio. El costo del envió dependerá del valor de la compra, las dimensiones y peso del(os) productos. \n El tiempo de entrega para Bogotá D.C. y Medellín es de 3 días hábiles, para ciudades principales (Barranquilla, Bogotá, Bucaramanga, Cali, Cartagena, Caucasia, Cúcuta, Ibagué, Ipiales, Manizales, Medellín, Montería, Neiva, Pasto, Pereira, Siberia y Villavicencio) es de 5 días hábiles, y para el resto del país, entregamos su pedido en un plazo de hasta 10 días hábiles. Para conocer el costo del envío debe registrar los datos de entrega durante el proceso de compra y el sistema calculará el valor del envío."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--20": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cuál es el tiempo y el costo del envío?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 20*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 21                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--21":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--21", "disclosure-content#preguntas--frecuentes--21"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--21": {
+    "children": ["flex-layout.row#preguntas--frecuentes--21--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--21--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--21--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--21--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--21"]
+  },
+  "disclosure-content#preguntas--frecuentes--21": {
+    "children": ["rich-text#answerpreguntas--frecuentes--21"]
+  },
+  "rich-text#answerpreguntas--frecuentes--21": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "El tiempo de entrega comenzará a contar a partir de la confirmación del pago, ésta será enviada a través de un mensaje a su correo electrónico. Para pagos con tarjetas de crédito y débito, nuestra pasarela de pagos PayU Latam, deberá aprobar la transacción de acuerdo con el análisis de datos y la gestión de la entidad financiera utilizada, lo cual puede tardar hasta un día hábil."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--21": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Desde cuándo se empieza a contar el tiempo para la entrega del producto?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 21*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 22                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--22":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--22", "disclosure-content#preguntas--frecuentes--22"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--22": {
+    "children": ["flex-layout.row#preguntas--frecuentes--22--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--22--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--22--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--22--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--22"]
+  },
+  "disclosure-content#preguntas--frecuentes--22": {
+    "children": ["rich-text#answerpreguntas--frecuentes--22"]
+  },
+  "rich-text#answerpreguntas--frecuentes--22": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Recibirá un correo electrónico confirmando que el pedido ha sido enviado. Este correo electrónico también incluirá el número de guía para que pueda hacer seguimiento, junto con la información de servicio al cliente en caso de que necesite ayuda."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--22": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cómo sé si el pedido ha sido enviado?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 22*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 23                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--23":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--23", "disclosure-content#preguntas--frecuentes--23"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--23": {
+    "children": ["flex-layout.row#preguntas--frecuentes--23--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--23--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--23--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--23--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--23"]
+  },
+  "disclosure-content#preguntas--frecuentes--23": {
+    "children": ["rich-text#answerpreguntas--frecuentes--23"]
+  },
+  "rich-text#answerpreguntas--frecuentes--23": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "La empresa transportadora realizará máximo tres (3) intentos de entrega de los productos adquiridos en la dirección de envío registrada por el Cliente al momento de la compra. En caso que los intentos de entrega resulten infructuosos, retornarán los bienes a las instalaciones de ARTURO CALLE. Se procederá a contactar al Cliente para programar una nueva entrega. \n Si no se logra acordar la entrega del producto, este será almacenado por un término máximo de seis (6) meses, tiempo durante el cual el cliente deberá comunicarse con ARTURO CALLE, a través de los canales establecidos en el presente documento, para acordar su retiro en un punto físico establecido por ARTURO CALLE o suministrar una nueva dirección de envío, cuyos costos le serán informados al Cliente. \n Una vez cumplido el término máximo de almacenamiento antes relacionado, ARTURO CALLE no se hará responsable por el producto."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--23": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Qué pasa si la transportadora no logra entregar el pedido?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 23*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 24                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--24":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--24", "disclosure-content#preguntas--frecuentes--24"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--24": {
+    "children": ["flex-layout.row#preguntas--frecuentes--24--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--24--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--24--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--24--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--24"]
+  },
+  "disclosure-content#preguntas--frecuentes--24": {
+    "children": ["rich-text#answerpreguntas--frecuentes--24"]
+  },
+  "rich-text#answerpreguntas--frecuentes--24": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "En este momento las compras hechas en Arturocalle.com NO pueden retirarse en ninguno de nuestros puntos de venta a nivel nacional."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--24": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Puedo recoger la compra en una tienda?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 24*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 25                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--25":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--25", "disclosure-content#preguntas--frecuentes--25"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--25": {
+    "children": ["flex-layout.row#preguntas--frecuentes--25--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--25--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--25--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--25--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--25"]
+  },
+  "disclosure-content#preguntas--frecuentes--25": {
+    "children": ["rich-text#answerpreguntas--frecuentes--25"]
+  },
+  "rich-text#answerpreguntas--frecuentes--25": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Una vez hayamos despachado su pedido, recibirá un correo electrónico de confirmación de envío que incluye un número de guía. Puede consultar el número de guía en el sitio web de la transportadora."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--25": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cómo puedo rastrear el pedido?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 25*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 26                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--26":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--26", "disclosure-content#preguntas--frecuentes--26"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--26": {
+    "children": ["flex-layout.row#preguntas--frecuentes--26--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--26--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--26--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--26--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--26"]
+  },
+  "disclosure-content#preguntas--frecuentes--26": {
+    "children": ["rich-text#answerpreguntas--frecuentes--26"]
+  },
+  "rich-text#answerpreguntas--frecuentes--26": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Actualmente ArturoCalle.com, solo realiza entregas en el territorio colombiano. Cabe anotar que, en todo caso se puede hacer la compra con una tarjeta de crédito internacional, solicitando que la entrega se efectúe en una dirección en Colombia."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--26": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿arturocalle.com efectúa entregas internacionales?"
+    }
+  }
+  /* >>>>>>>>>>>>Cierre de  Columna 26*/
+}

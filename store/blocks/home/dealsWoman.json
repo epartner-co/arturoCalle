@@ -1,0 +1,96 @@
+{
+  "flex-layout.row#dealsWoman": {
+    "children": [
+      "flex-layout.col#woman-deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "horizontalAlign": "center",
+      "classBlock": "dealshome"
+    }
+  },
+
+  "flex-layout.col#woman-deals1": {
+    "children": [
+      "image#woman-deal1"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#woman-deal1": {
+    "props": {
+      "src": "assets/desk/woman/slidercategoriasDT_2-100-chaquetas.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#woman-deal1": {
+    "props": {
+      "text": "POLOS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "assets/desk/woman/slider-categoriasDT_1-100-zapatos.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "ZAPATOS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "assets/desk/woman/slider-categoriasDT_3-100-accesorios.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "BERMUDAS",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "assets/desk/woman/slider-categoriasDT-100-bluzas.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "CAMISETAS",
+      "blockClass": "deals"
+    }
+  }
+}

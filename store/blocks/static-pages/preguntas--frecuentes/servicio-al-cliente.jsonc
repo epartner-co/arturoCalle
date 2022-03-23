@@ -1,0 +1,153 @@
+{
+    /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 9                            */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--9":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--9", "disclosure-content#preguntas--frecuentes--9"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--9": {
+    "children": ["flex-layout.row#preguntas--frecuentes--9--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--9--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--9--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--9--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--9"]
+  },
+  "disclosure-content#preguntas--frecuentes--9": {
+    "children": ["rich-text#answerpreguntas--frecuentes--9"]
+  },
+  "rich-text#answerpreguntas--frecuentes--9": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Puedes contactarnos a través de la línea nacional de servicio al cliente 01 8000 180120 y en Bogotá al PBX 743 8800, a través de nuestro correo contactenos@arturocalle.com, o a través de nuestra página web www.arturocalle.com en la sección 'Información', opción Contáctenos."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--9": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cómo puedo comunicarme con servicio al cliente?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 9*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 10                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--10":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--10", "disclosure-content#preguntas--frecuentes--10"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--10": {
+    "children": ["flex-layout.row#preguntas--frecuentes--10--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--10--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--10--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--10--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--10"]
+  },
+  "disclosure-content#preguntas--frecuentes--10": {
+    "children": ["rich-text#answerpreguntas--frecuentes--10"]
+  },
+  "rich-text#answerpreguntas--frecuentes--10": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Nuestra línea de atención está disponible de lunes a viernes de 8:00am a 5:00pm. \n Protección al consumidor \n Si desea conocer sus derechos, deberes y los mecanismos legales existentes para la protección del consumidor puede ingresar a www.sic.gov.co."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--10": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cuáles son los horarios de atención?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 10*/
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 11                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--11":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--11", "disclosure-content#preguntas--frecuentes--11"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--11": {
+    "children": ["flex-layout.row#preguntas--frecuentes--11--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--11--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--11--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--11--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--11"]
+  },
+  "disclosure-content#preguntas--frecuentes--11": {
+    "children": ["rich-text#answerpreguntas--frecuentes--11"]
+  },
+  "rich-text#answerpreguntas--frecuentes--11": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Si, puede acercarse a cualquiera de nuestras tiendas a nivel nacional y solicitar el servicio de sastrería, permitiendo que los arreglos sean precisos, oportunos y acorde a los parámetros establecidos. \n Tenga en cuenta que los servicios de sastrería son limitados y le serán informados en el momento de acercarse a una de nuestras tiendas. De igual forma deberá diligenciar un formato de servicios de sastrería al momento de dejar la prenda para sus ajustes."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--11": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Puedo acceder al servicio de sastrería?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 11*/
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 12                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--12":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--12", "disclosure-content#preguntas--frecuentes--12"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--12": {
+    "children": ["flex-layout.row#preguntas--frecuentes--12--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--12--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--12--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--12--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--12"]
+  },
+  "disclosure-content#preguntas--frecuentes--12": {
+    "children": ["flex-layout.col#respuesta--columna--12"]
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--12": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Qué información puedo obtener a través de servicio al cliente?"
+    }
+  }
+  /* >>>>>>>>>>>>Cierre de  Columna 12*/
+}

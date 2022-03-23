@@ -1,0 +1,4 @@
+.quantitySelectorContainer :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+    display: none;
+
+}

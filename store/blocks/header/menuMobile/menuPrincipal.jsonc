@@ -1,0 +1,207 @@
+{
+    "menu#drawer": {
+        "children": [
+            "menu-item#category-hombre-M",
+            "menu-item#category-mujer-M",
+            "menu-item#category-nino-M",
+            "menu-item#category-nina-M",
+            "menu-item#category-viaje-M",
+            "menu-item#category-fredom-M",
+            "menu-item#category-ofertas-M",
+            "menu-item#category-lista-deseos-M",
+            "menu-item#category-cuenta-M",
+            "menu-item#category-pais-M"
+        ],
+        "props": {
+          "orientation": "vertical"
+        }
+    },
+    // menu items principales 
+    "menu-item#category-hombre-M": {
+        "props": {
+          "id": "menu-item-category-hombre",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Hombre",
+            "text": "HOMBRE"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#hombre-principal"
+        ]
+    },
+    "menu-item#category-mujer-M": {
+        "props": {
+          "id": "menu-item-category-woman",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Woman",
+            "text": "Woman"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#women-principal"
+        ]
+    },
+    "menu-item#category-nino-M": {
+        "props": {
+          "id": "menu-item-category-nino",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Niño",
+            "text": "Niño"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nino-principal"
+        ]
+    },
+    "menu-item#category-nina-M": {
+        "props": {
+          "id": "menu-item-category-nina",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Niña",
+            "text": "Niña"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nina-principal"
+        ]
+    },
+    "menu-item#category-viaje-M": {
+        "props": {
+          "id": "menu-item-category-viaje",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Viaje",
+            "text": "Viaje"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#viaje-principal"
+        ]
+    },
+    "menu-item#category-fredom-M": {
+        "props": {
+          "id": "menu-item-category-freedom",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Freedom",
+            "text": "Freedom"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#freedom-principal"
+        ]
+    },
+    "menu-item#category-ofertas-M": {
+        "props": {
+          "id": "menu-item-category-ofertas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ofertas",
+            "text": "Ofertas"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#ofertas-principal"
+        ]
+    },
+    "menu-item#category-lista-deseos-M": {
+        "props": {
+          "id": "menu-item-category-lista",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Lista de deseos",
+            "text": "Lista de deseos"
+            }
+        }
+    },
+    "menu-item#category-cuenta-M": {
+        "props": {
+          "id": "menu-item-category-cuenta",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Mi cuenta",
+            "text": "Mi cuenta"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#cuenta-principal"
+        ]
+    },
+    "menu-item#category-pais-M": {
+        "props": {
+          "id": "menu-item-category-pais",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Seleccione un país",
+            "text": "Seleccione un país"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#pais-principal"
+        ]
+    }
+}

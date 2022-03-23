@@ -1,0 +1,792 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#women-principal":{
+        "children":[
+            "menu#women-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#women-principal":{
+        "children":[
+            "menu-item#category-women-nuevos-M",
+            "menu-item#category-women-bono-M",
+            "menu-item#category-women-oferta-M",
+            "menu-item#category-women-ropa-M",
+            "menu-item#category-women-zapatos-M",
+            "menu-item#category-women-acce-M",
+            "menu-item#category-women-coleccion-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-women-nuevos-M": {
+        "props": {
+          "id": "menu-item-category-nuevos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Nuevos",
+            "text": "Nuevos"
+            }
+        }
+    },
+    "menu-item#category-women-bono-M": {
+        "props": {
+          "id": "menu-item-category-bono",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bono regalo",
+            "text": "Bono regalo"
+            }
+        }
+    },
+    "menu-item#category-women-oferta-M": {
+        "props": {
+          "id": "menu-item-category-oferta",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Oferta",
+            "text": "Oferta"
+            }
+        }
+    },
+    // menu items que poseen un sub menu
+     // declaracion sub menu
+     "menu-item#category-women-ropa-M": {
+        "props": {
+          "id": "menu-item-category-ropa",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#women-principal-ropa"   
+        ]
+    },
+    "submenu.accordion#women-principal-ropa":{
+        "children":[
+            "menu#women-principal-ropa"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+    // agrupacion de los items del submenu ropa
+    "menu#women-principal-ropa":{
+        "children":[
+            "menu-item#category-women-abrigos-M",
+            "menu-item#category-women-blusas-M",
+            "menu-item#category-women-buzos-M",
+            "menu-item#category-women-camisetas-M",
+            "menu-item#category-women-chalecos-M",
+            "menu-item#category-women-chaquetas-M",
+            "menu-item#category-women-faldas-M",
+            "menu-item#category-women-sweaters-M",
+            "menu-item#category-women-vestidos-M",
+            "menu-item#category-women-pantalones-M",
+            "menu-item#category-women-Jeans-M",
+            "menu-item#category-women-pijama-M",
+            "menu-item#category-women-shorts-M",
+            "menu-item#category-women-medias-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+        
+    },
+    // items del sub menu ropa
+    "menu-item#category-women-abrigos-M": {
+        "props": {
+          "id": "menu-item-category-Abrigo",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Abrigos y blazers",
+            "text": "Abrigos y blazers"
+            }
+        }
+    },
+    "menu-item#category-women-blusas-M": {
+        "props": {
+          "id": "menu-item-category-blusas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blusas y camisas",
+            "text": "Blusas y camisas"
+            }
+        }
+    },
+    "menu-item#category-women-buzos-M": {
+        "props": {
+          "id": "menu-item-category-buzos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-women-camisetas-M": {
+        "props": {
+          "id": "menu-item-category-camisetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-women-chalecos-M": {
+        "props": {
+          "id": "menu-item-category-chalecos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chalecos",
+            "text": "Chalecos"
+            }
+        }
+    },
+    "menu-item#category-women-chaquetas-M": {
+        "props": {
+          "id": "menu-item-category-chaquetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-women-faldas-M": {
+        "props": {
+          "id": "menu-item-category-faldas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Faldas",
+            "text": "Faldas"
+            }
+        }
+    },
+    "menu-item#category-women-sweaters-M": {
+        "props": {
+          "id": "menu-item-category-sweaters",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sweaters y cardigans",
+            "text": "Sweaters y cardigans"
+            }
+        }
+    },
+    "menu-item#category-women-vestidos-M": {
+        "props": {
+          "id": "menu-item-category-vestidos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vestidos y enterizos",
+            "text": "Vestidos y enterizos"
+            }
+        }
+    },
+    "menu-item#category-women-pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-women-Jeans-M": {
+        "props": {
+          "id": "menu-item-category-Jeans",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#category-women-pijama-M": {
+        "props": {
+          "id": "menu-item-category-pijama",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+            }
+        }
+    },
+    "menu-item#category-women-shorts-M": {
+        "props": {
+          "id": "menu-item-category-shorts",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+            }
+        }
+    },
+    "menu-item#category-women-medias-M": {
+        "props": {
+          "id": "menu-item-category-medias",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    // declaracion sub menu zapatos
+    "menu-item#category-women-zapatos-M": {
+        "props": {
+            "id": "menu-item-category-zapatos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Zapatos",
+                "text": "Zapatos"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#women-principal-zapatos"   
+        ]
+    },
+    "submenu.accordion#women-principal-zapatos":{
+        "children":[
+            "menu#women-principal-zapatos"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu zapatos
+   "menu#women-principal-zapatos":{
+        "children":[
+            "menu-item#category-women-batas-M",
+            "menu-item#category-women-tacones-M",
+            "menu-item#category-women-planos-M",
+            "menu-item#category-women-tenis-M",
+            "menu-item#category-women-sandalias-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu zapatos
+    "menu-item#category-women-batas-M": {
+        "props": {
+            "id": "menu-item-category-batas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Botas y Botines",
+            "text": "Botas y botines"
+            }
+        }
+    },
+    "menu-item#category-women-tacones-M": {
+        "props": {
+            "id": "menu-item-category-tacones",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tacones",
+            "text": "Tacones"
+            }
+        }
+    },
+    "menu-item#category-women-planos-M": {
+        "props": {
+            "id": "menu-item-category-planos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Planos",
+            "text": "Planos"
+            }
+        }
+    },
+    "menu-item#category-women-tenis-M": {
+        "props": {
+            "id": "menu-item-category-tenis",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#category-women-sandalias-M": {
+        "props": {
+            "id": "menu-item-category-sandalias",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    // declaracion sub menu accesorios
+    "menu-item#category-women-acce-M": {
+        "props": {
+            "id": "menu-item-category-acce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#women-principal-acce"   
+        ]
+    },
+    "submenu.accordion#women-principal-acce":{
+        "children":[
+            "menu#women-principal-acce"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#women-principal-acce":{
+        "children":[
+            "menu-item#category-women-billeteras-M",
+            "menu-item#category-women-bolsos-M",
+            "menu-item#category-women-cinturones-M",
+            "menu-item#category-women-gafassol-M",
+            "menu-item#category-women-panoletas-M",
+            "menu-item#category-women-esmalte-M",
+            "menu-item#category-women-sombrillas-M",
+            "menu-item#category-women-tapabocas-M",
+            "menu-item#category-women-otrosacce-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-women-billeteras-M": {
+        "props": {
+            "id": "menu-item-category-billeteras",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Billeteras",
+            "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#category-women-bolsos-M": {
+        "props": {
+            "id": "menu-item-category-bolsos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bolsos y correas",
+            "text": "Bolsos y correas"
+            }
+        }
+    },
+    "menu-item#category-women-cinturones-M": {
+        "props": {
+            "id": "menu-item-category-cinturones",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Cinturones y correas",
+            "text": "Cinturones y correas"
+            }
+        }
+    },
+    "menu-item#category-women-gafassol-M": {
+        "props": {
+            "id": "menu-item-category-gafassol",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gafas de sol",
+            "text": "Gafas de sol"
+            }
+        }
+    },
+    "menu-item#category-women-panoletas-M": {
+        "props": {
+            "id": "menu-item-category-panoletas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pañoletas y bufandas",
+            "text": "Pañoletas y bufandos"
+            }
+        }
+    },
+    "menu-item#category-women-esmalte-M": {
+        "props": {
+            "id": "menu-item-category-esmalte",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Esmalte y bisuteria",
+            "text": "Esmalte y bisuteria"
+            }
+        }
+    },
+    "menu-item#category-women-sombrillas-M": {
+        "props": {
+            "id": "menu-item-category-sombrillas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sombrillas",
+            "text": "Sombrillas"
+            }
+        }
+    },
+    "menu-item#category-women-tapabocas-M": {
+        "props": {
+            "id": "menu-item-category-tapabocas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tapabocas",
+            "text": "Tapabocas"
+            }
+        }
+    },
+    "menu-item#category-women-otrosacce-M": {
+        "props": {
+            "id": "menu-item-category-otrosacce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Otros accesorios",
+            "text": "Otros accesorios"
+            }
+        }
+    },
+    // declaracion sub menu coleccion
+    "menu-item#category-women-coleccion-M": {
+        "props": {
+            "id": "menu-item-category-coleccion",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Colección",
+                "text": "Colección"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#women-principal-coleccion"   
+        ]
+    },
+    "submenu.accordion#women-principal-coleccion":{
+        "children":[
+            "menu#women-principal-coleccion"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#women-principal-coleccion":{
+        "children":[
+            "menu-item#category-women-soft-M",
+            "menu-item#category-women-urban-M",
+            "menu-item#category-women-eco-M",
+            "menu-item#category-women-active-M",
+            "menu-item#category-women-formal-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-women-soft-M": {
+        "props": {
+            "id": "menu-item-category-soft",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Soft Nautic",
+            "text": "Soft nautic"
+            }
+        }
+    },
+    "menu-item#category-women-urban-M": {
+        "props": {
+            "id": "menu-item-category-urban",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Urban fall",
+            "text": "Urban fall"
+            }
+        }
+    },
+    "menu-item#category-women-eco-M": {
+        "props": {
+            "id": "menu-item-category-eco",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Eco",
+            "text": "Eco"
+            }
+        }
+    },
+    "menu-item#category-women-active-M": {
+        "props": {
+            "id": "menu-item-category-active",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Active",
+            "text": "Active"
+            }
+        }
+    },
+    "menu-item#category-women-formal-M": {
+        "props": {
+            "id": "menu-item-category-formal",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Formal Luxe",
+            "text": "Formal Luxe"
+            }
+        }
+    }
+}

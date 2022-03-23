@@ -12,5 +12,24 @@
 
 .minicartContainer--minicart-home{
   margin-top: 20px;
+  margin-right: 34px;
 }
-/*>>>>>>>>>>>Cierre mini cart css*/
+
+.minicartQuantityBadge--minicart-home{
+  top: 6px;
+  left: 39px;
+  background: transparent;
+}
+.popupStyles{ /*define el largo maximo del minicart...si produce problemas..se puede quitar*/
+  max-height: 479px;
+}
+
+.popupChildrenContainer--minicart-home{
+  box-shadow: 0px -2px 0px rgb(0 0 0 / 70%), 0px 0px 20px -7px rgb(0 0 0 / 70%);
+}
+
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer){
+  color: white;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

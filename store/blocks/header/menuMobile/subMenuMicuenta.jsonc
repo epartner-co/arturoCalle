@@ -1,0 +1,56 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#cuenta-principal":{
+        "children":[
+            "menu#cuenta-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#cuenta-principal":{
+        "children":[
+            "menu-item#category-cuenta-pedido-M",
+            "menu-item#category-cuenta-cuenta-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-cuenta-pedido-M": {
+        "props": {
+          "id": "menu-item-category-pedido",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Mis pedidos",
+            "text": "Mis pedidos"
+            }
+        }
+    },
+    "menu-item#category-cuenta-cuenta-M": {
+        "props": {
+          "id": "menu-item-category-cuenta",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Mi cuenta",
+            "text": "Mi cuenta"
+            }
+        }
+    }
+}

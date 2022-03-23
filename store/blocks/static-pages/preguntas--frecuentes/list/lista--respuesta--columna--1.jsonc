@@ -1,0 +1,295 @@
+{
+    
+    /*respuesta ¿Cómo comprar en ArturoCalle.com?*/
+    "flex-layout.col#respuesta--columna--1":{
+        "props":{
+          "blockClass":"respuesta--columna--n"
+        },
+        "children":[
+            "flex-layout.col#list--respuesta--columna--1",
+            "flex-layout.col#list-items--respuesta--columna--1"
+        ]
+    },
+    "flex-layout.col#list--respuesta--columna--1":{
+        "children":[
+            "rich-text#list--respuesta--columna--1"
+        ]
+    },
+    "rich-text#list--respuesta--columna--1":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"Comprar en ArturoCalle.com es muy sencillo, sólo debe seguir los siguientes pasos:"
+        }
+    },
+    "flex-layout.col#list-items--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list"
+        },
+        "children":[
+          "flex-layout.row#list-item--1--respuesta--columna--1",
+          "flex-layout.row#list-item--2--respuesta--columna--1",
+          "flex-layout.row#list-item--3--respuesta--columna--1",
+          "flex-layout.row#list-item--4--respuesta--columna--1",
+          "flex-layout.row#list-item--5--respuesta--columna--1",
+          "flex-layout.row#list-item--6--respuesta--columna--1",
+          "flex-layout.row#list-item--7--respuesta--columna--1",
+          "flex-layout.row#list-item--8--respuesta--columna--1",
+          "flex-layout.row#list-item--9--respuesta--columna--1",
+          "flex-layout.row#list-item--10--respuesta--columna--1",
+          "flex-layout.row#list-item--11--respuesta--columna--1",
+          "flex-layout.row#espacio"
+          
+        ]
+    },
+    "flex-layout.row#list-item--1--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--1",
+          "flex-layout.col#list-item--1--text--respuesta--columna--1"
+        ]
+    },
+      "flex-layout.col#list-item--1--img--respuesta--columna--1":{
+          "props":{
+              "blockClass":"list-item--img",
+              "width":"1%"
+          },
+          "children":[
+              "image#list-item--punto--respuesta--columna--1"
+          ]
+      },
+      "flex-layout.col#list-item--1--text--respuesta--columna--1":{
+          "children":[
+              "rich-text#list-item--1--respuesta--columna--1"
+          ]
+      },
+    "image#list-item--punto--respuesta--columna--1": {
+      "props": {
+        "src": "assets/desk/assets-checkout-AC/rec.png",
+        "maxHeight": 6
+      }
+    },
+    "rich-text#list-item--1--respuesta--columna--1":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Para buscar el producto que desea comprar puede navegar a través de las categorías en nuestro menú o utilizar la barra de búsqueda."
+      }
+    },
+
+    "flex-layout.row#list-item--2--respuesta--columna--1":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+        "flex-layout.col#list-item--1--img--respuesta--columna--1",
+        "flex-layout.col#list-item--2--text--respuesta--columna--1"
+      ]
+  },
+  "flex-layout.col#list-item--2--text--respuesta--columna--1":{
+      "children":[
+          "rich-text#list-item--2--respuesta--columna--1"
+      ]
+  },
+  "rich-text#list-item--2--respuesta--columna--1":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Una vez haya elegido el producto que desea, seleccione el color, talla, cantidades y agréguelo a la bolsa de compras dando clic en el botón COMPRAR."
+      }
+    },
+
+    "flex-layout.row#list-item--3--respuesta--columna--1":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+        "flex-layout.col#list-item--1--img--respuesta--columna--1",
+        "flex-layout.col#list-item--3--text--respuesta--columna--1"
+      ]
+  },
+  "flex-layout.col#list-item--3--text--respuesta--columna--1":{
+      "children":[
+          "rich-text#list-item--3--respuesta--columna--1"
+      ]
+  },
+  "rich-text#list-item--3--respuesta--columna--1":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Una vez haya agregado el producto puede seguir navegando y agregando a la bolsa los demás productos que desee."
+      }
+    },
+  
+    "flex-layout.row#list-item--4--respuesta--columna--1":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+        "flex-layout.col#list-item--1--img--respuesta--columna--1",
+        "flex-layout.col#list-item--4--text--respuesta--columna--1"
+      ]
+  },
+  "flex-layout.col#list-item--4--text--respuesta--columna--1":{
+      "children":[
+          "rich-text#list-item--4--respuesta--columna--1"
+      ]
+  },
+  "rich-text#list-item--4--respuesta--columna--1":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Cuando haya agregado todos los productos que desee comprar, ingrese al icono de la bolsa de compras que está en la parte superior derecha, para ver el resumen de su compra. En el resumen que encontrará, debe verificar que los productos que allí figuran correspondan a los que desea comprar, en la talla, color y cantidades seleccionados."
+      }
+    },
+  
+    "flex-layout.row#list-item--5--respuesta--columna--1":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+        "flex-layout.col#list-item--1--img--respuesta--columna--1",
+        "flex-layout.col#list-item--5--text--respuesta--columna--1"
+      ]
+  },
+  "flex-layout.col#list-item--5--text--respuesta--columna--1":{
+      "children":[
+          "rich-text#list-item--5--respuesta--columna--1"
+      ]
+  },
+  "rich-text#list-item--5--respuesta--columna--1":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Si desea utilizar un 'Cupón Descuento', debe ingresar el código en el espacio '0SUMAR CUPÓN'"
+      }
+    },
+
+    "flex-layout.row#list-item--6--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--1",
+          "flex-layout.col#list-item--6--text--respuesta--columna--1"
+        ]
+    },
+    "flex-layout.col#list-item--6--text--respuesta--columna--1":{
+        "children":[
+            "rich-text#list-item--6--respuesta--columna--1"
+        ]
+    },
+    "rich-text#list-item--6--respuesta--columna--1":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Proceda a dar clic en 'He leído y acepto los términos y condiciones y política de tratamiento de datos', dando clic en 'FINALIZAR COMPRA'."
+        }
+      },
+
+      "flex-layout.row#list-item--7--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--1",
+          "flex-layout.col#list-item--7--text--respuesta--columna--1"
+        ]
+    },
+    "flex-layout.col#list-item--7--text--respuesta--columna--1":{
+        "children":[
+            "rich-text#list-item--7--respuesta--columna--1"
+        ]
+    },
+    "rich-text#list-item--7--respuesta--columna--1":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Ingrese su correo electrónico para continuar con el proceso de compra."
+        }
+      },
+
+      "flex-layout.row#list-item--8--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--1",
+          "flex-layout.col#list-item--8--text--respuesta--columna--1"
+        ]
+    },
+    "flex-layout.col#list-item--8--text--respuesta--columna--1":{
+        "children":[
+            "rich-text#list-item--8--respuesta--columna--1"
+        ]
+    },
+    "rich-text#list-item--8--respuesta--columna--1":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Diligencie sus datos personales o de empresa y datos de envío."
+        }
+      },
+
+      "flex-layout.row#list-item--9--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--1",
+          "flex-layout.col#list-item--9--text--respuesta--columna--1"
+        ]
+    },
+    "flex-layout.col#list-item--9--text--respuesta--columna--1":{
+        "children":[
+            "rich-text#list-item--9--respuesta--columna--1"
+        ]
+    },
+    "rich-text#list-item--9--respuesta--columna--1":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"De clic en el botón 'IR A PAGO'"
+        }
+      },
+
+      "flex-layout.row#list-item--10--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--1",
+          "flex-layout.col#list-item--10--text--respuesta--columna--1"
+        ]
+    },
+    "flex-layout.col#list-item--10--text--respuesta--columna--1":{
+        "children":[
+            "rich-text#list-item--10--respuesta--columna--1"
+        ]
+    },
+    "rich-text#list-item--10--respuesta--columna--1":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"En ArturoCalle.com puede pagar con tarjetas de crédito Visa, MasterCard, American Express, Diners Club o Codensa, tarjetas débito a través de PSE (Cuenta de ahorros o corriente), Cupón Descuento, Cupón Redención, en efectivo a través de Baloto y Effecty, o pagando a cuotas a través de ADDI."
+        }
+      },
+
+      "flex-layout.row#list-item--11--respuesta--columna--1":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--1",
+          "flex-layout.col#list-item--11--text--respuesta--columna--1"
+        ]
+    },
+    "flex-layout.col#list-item--11--text--respuesta--columna--1":{
+        "children":[
+            "rich-text#list-item--11--respuesta--columna--1"
+        ]
+    },
+    "rich-text#list-item--11--respuesta--columna--1":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"Para finalizar completamente su proceso de compra de clic en 'COMPRAR AHORA'"
+        }
+      },
+
+      "flex-layout.row#espacio":{
+        "props":{
+            "blockClass":"espacio"
+        }
+      }
+}

@@ -159,11 +159,124 @@
     ]
   },
   "menu-item#home__contactenos": {
-    "children":["rich-text#home__submenu--contactenos"]
+    "children":[
+      "rich-text#home__submenu--contactenos",
+      "flex-layout.row#home__contactanos",
+      "rich-text#home__horario",
+      "rich-text#home__horario--datos",
+      "rich-text#home__correo",
+      "rich-text#home__correo--datos",
+      "flex-layout.row#home__whatsapp--menu"
+    ]
   },
   "rich-text#home__submenu--contactenos":{
     "props":{
-      "text":"contactanos"
+      "blockClass": "contactenos--titulo",
+      "text":"Contáctanos"
+    }
+  },
+  "flex-layout.row#home__contactanos":{
+    "children":[
+        "flex-layout.col#home__contactanos--telefono",
+        "flex-layout.col#home__contactanos--numeros"
+    ]
+  },
+  "flex-layout.col#home__contactanos--telefono":{
+      "children":[
+          "image#telefono"
+      ]
+  },
+  "flex-layout.col#home__contactanos--numeros":{
+      "props":{
+          "blockClass": "telefono--numero",
+          "textPosition":"CENTER"
+      },
+      "children":[
+          "rich-text#datos--telefonos"
+      ]
+  },
+  "image#telefono":{
+      "props": {
+          "blockClass": "imagen--telefono",
+          "src": "https://arturocalle.vtexassets.com/arquivos/llamada-telefonica.png?v=637400196167370000",
+          "maxHeight": 80
+        }
+  },
+  "rich-text#datos--telefonos":{
+      "props":{
+          "blockClass": "telefonos",
+          "text":"Línea nacional \n  01 8000 180 120 Bogotá 743 88 00"
+      }
+  },
+  "rich-text#home__horario":{
+    "props":{
+      "blockClass": "titulos",
+      "text":"Horario de atención"
+    }
+  },
+  "rich-text#home__horario--datos":{
+    "props":{
+      "blockClass": "horario--datos",
+      "text":"Lunes a Viernes 8:00 am a 5:00 pm"
+    }
+  },
+  "rich-text#home__correo":{
+    "props":{
+      "blockClass": "titulos",
+      "text":"Correo"
+    }
+  },
+  "rich-text#home__correo--datos":{
+    "props":{
+      "blockClass": "correo--datos",
+      "text":"contactenos@arturocalle.com"
+    }
+  },
+  "flex-layout.row#home__whatsapp--menu":{
+    "props":{
+      "blockClass": "whatsapp--datos"
+    },
+    "children":[
+      "flex-layout.col#whatsapp--logo",
+      "flex-layout.col#whatsapp--numero"
+    ]
+  },
+  "flex-layout.col#whatsapp--logo":{
+    "props": {
+      "blockClass": "whatsapp--logo",
+      "width":"30%"
+    },
+    "children":[
+      "image#whatsapp"
+    ]
+  },
+  "image#whatsapp":{
+    "props": {
+      "blockClass": "whatsapp--logo",
+      "src": "https://arturocalle.vtexassets.com/arquivos/whatsapp.png",
+      "maxHeight": 40
+    }
+  },
+  "flex-layout.col#whatsapp--numero":{
+    "props":{
+      "blockClass": "whatsapp--numero",
+      "width":"80%"
+    },
+    "children":[
+      "rich-text#titulo--ventas-whatsapp",
+      "rich-text#titulo--numero--ventas-whatsapp"
+    ]
+  },
+  "rich-text#titulo--ventas-whatsapp":{
+    "props":{
+      "blockClass": "ventas-whatsapp",
+      "text":"Ventas por Whatsapp"
+    }
+  },
+  "rich-text#titulo--numero--ventas-whatsapp":{
+    "props":{
+      "blockClass": "numero--ventas-whatsapp",
+      "text":"Escríbenos 318 349 0000"
     }
   },
   "image#icon-flecha": {
@@ -182,11 +295,57 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "https://web.whatsapp.com/",
         "noFollow": false,
         "tagTitle": "Escríbenos por vía whatsapp",
         "text": "COLOMBIA"
       }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#home__paises"]
+  },
+  "vtex.menu@2.x:submenu#home__paises":{
+    "props":{
+      "blockClass": "paises--opciones"
+    },
+    "children": [
+        "menu-item#home__paises--opciones"
+    ]
+  },
+  "menu-item#home__paises--opciones":{
+
+      "children":[
+          "rich-text#GUATEMALA",
+          "rich-text#PANAMA",
+          "rich-text#COSTA--RICA",
+          "rich-text#EL--SALVADOR"
+      ]
+  },
+  "rich-text#GUATEMALA":{
+    "props":{
+        "blockClass": "pais--guatemala",
+        "textAlignment": "CENTER",
+        //"text":"GUATEMALA"
+        "text": "[GUATEMALA](https://gt.arturocalle.com/)"
     }
+  },
+  "rich-text#PANAMA":{
+      "props":{
+          "textAlignment": "CENTER",
+          "blockClass": "pais--panama",
+          "text":"PANAMÁ"
+      }
+  },
+  "rich-text#COSTA--RICA":{
+      "props":{
+          "textAlignment": "CENTER",
+          "blockClass": "pais--costa-rica",
+          "text":"COSTA RICA"
+      }
+  },
+  "rich-text#EL--SALVADOR":{
+      "props":{
+          "textAlignment": "CENTER",
+          "blockClass": "pais--salvador",
+          "text":"EL SALVADOR"
+      }
   }
 }

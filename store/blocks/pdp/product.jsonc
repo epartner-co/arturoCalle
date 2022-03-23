@@ -2,35 +2,23 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
+      "product-separator",
       "condition-layout.product#availability",
-      "flex-layout.row#description",
-      "flex-layout.row#specifications-title",
-      "product-specification-group#table",
       "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "flex-layout.row#suscribete--seccion"
+      //"product-reviews",
+      //"product-questions-and-answers"
     ]
   },
-  "flex-layout.row#specifications-title": {
-    "children": ["rich-text#specifications"]
-  },
-  "rich-text#specifications": {
-    "props": {
-      "text": "##### Product Specifications"
-    }
-  },
+  
   "flex-layout.row#product-breadcrumb": {
     "props": {
+      "blockClass":"product-breadcrumb",
       "marginTop": 4
     },
     "children": ["breadcrumb"]
   },
-  "flex-layout.row#description": {
-    "props": {
-      "marginBottom": 7
-    },
-    "children": ["product-description"]
-  },
+ 
   "condition-layout.product#availability": {
     "props": {
       "conditions": [
@@ -49,7 +37,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass":"product-main"
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
@@ -77,43 +66,53 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "blockClass":"stack-layout--col",
+      "width": "64%",
       "rowGap": 0
     }
   },
   "flex-layout.row#product-image": {
+    "props":{
+      "blockClass":"product-image"
+    },
     "children": ["product-images"]
   },
   "product-images": {
     "props": {
+      "displayMode":"list",
       "aspectRatio": {
         "desktop": "auto",
         "phone": "16:9"
       },
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "zoomMode":"open-modal",
+      "maxHeight":400
     }
   },
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass":"right-col",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
     "children": [
       "flex-layout.row#product-name",
+      "flex-layout.row#product-identifier",
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
       "product-separator",
-      "product-identifier.product",
       "sku-selector",
-      "product-quantity",
+      "link#producto--como--saber--mi--talla",
       "product-assembly-options",
       "product-gifts",
       "flex-layout.row#buy-button",
-      "availability-subscriber",
-      "shipping-simulator",
-      "share#default"
+      "flex-layout.row#description",
+      "flex-layout.row#iconos--env--segu--dev"
+      //"availability-subscriber",
+      //"shipping-simulator",
+      //"share#default"
     ]
   },
 
@@ -123,20 +122,207 @@
     },
     "children": ["vtex.store-components:product-name"]
   },
-
+  "flex-layout.row#product-identifier":{
+    "props":{
+      "blockClass":"product-identifier--row"
+    },
+    "children":[
+      "flex-layout.col#product-identifier--ref",
+      "flex-layout.col#product-identifier--number"
+    ]
+  },
+  "flex-layout.col#product-identifier--ref":{
+    "props":{
+      "blockClass":"product-identifier--ref",
+      "width":"8%"
+    },
+    "children":[
+      "rich-text#product-identifier"
+    ]
+  },
+  "flex-layout.col#product-identifier--number":{
+    "children":[
+      "product-identifier.product"
+    ]
+  },
+  "rich-text#product-identifier":{
+    "props":{
+      "blockClass":"product-identifier",
+      "text":"REF."
+    }
+  },
   "sku-selector": {
     "props": {
       "variationsSpacing": 3,
       "showValueNameForImageVariation": true
     }
   },
+  
+  "link#producto--como--saber--mi--talla":{
+    "props":{
+      "blockClass":"producto--como--saber--mi--talla--contenedor"
+    },
+    "children":[
+      "rich-text#producto--como--saber--mi--talla"
+    ]
+  },
+  "rich-text#producto--como--saber--mi--talla":{
+    "props":{
+      "text":"¿Cómo saber cuál es mi talla?"
+    }
+  },
 
   "flex-layout.row#buy-button": {
     "props": {
+      "blockClass":"buy-button-row",
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["add-to-cart-button"]
+    "children": [
+      "flex-layout.col#product-quantity",
+      "flex-layout.col#add-to-cart-button"
+      ]
+  },
+  "flex-layout.col#product-quantity":{
+    "props":{
+      "width":"20%"
+    },
+    "children":["flex-layout.row#product-quantity--opciones"]
+  },
+  "flex-layout.row#product-quantity--opciones":{
+    "props":{
+      "blockClass":"product-quantity--opciones"
+    },
+    "children":[
+      "flex-layout.col#product-quantity--opciones--titulo",
+      "flex-layout.col#product-quantity--opciones--cantidad"
+    ]
+  },
+  "flex-layout.col#product-quantity--opciones--titulo":{
+    "props":{
+      "blockClass":"product-quantity--opciones--titulo",
+      "width":"22%"
+    },
+    "children":[
+      "rich-text#product-quantity--opciones--titulo"
+    ]
+  },
+  "rich-text#product-quantity--opciones--titulo":{
+    "props":{
+      "blockClass":"product-quantity--opciones--titulo",
+      "text":"CANT"
+    }
+  },
+  "flex-layout.col#product-quantity--opciones--cantidad":{
+    "props":{
+      "blockClass":"product-quantity--opciones--cantidad",
+      "width":"91%"
+    },
+    "children":[
+      "product-quantity"
+    ]
+  },
+  "product-quantity":{
+    "props":{
+      "selectorType":"dropdown"
+    }
+  },
+  "flex-layout.col#add-to-cart-button":{
+    "props":{
+      "blockClass":"add-to-cart-button"
+    },
+    "children":["add-to-cart-button"]
+  },
+
+  "flex-layout.row#description": {
+    "props": {
+      "marginBottom": 7
+    },
+    "children": [
+      "flex-layout.col#description--secciones"
+    ]
+  },
+  "flex-layout.col#description--secciones":{
+    "children":[
+      "flex-layout.col#PrimeraCol1--informacion--producto",
+      "flex-layout.col#SegundaCol2--detalles--de--producto",
+      "flex-layout.col#TerceraCol3--Recomendaciones--de--cuidado"
+    ]
+  },
+  "flex-layout.row#iconos--env--segu--dev":{
+    "props":{
+      "blockClass":"iconos--env--segu--dev"
+    },
+    "children":[
+      "flex-layout.col#iconos--env",
+      "flex-layout.col#iconos--segu",
+      "flex-layout.col#iconos--dev"
+    ]
+  },
+  "flex-layout.col#iconos--env":{
+    "props":{
+      "blockClass":"iconos--productos--info"
+    },
+    "children":[
+      "image#iconos--env",
+      "rich-text#iconos--env--text"
+    ]
+  },
+  "flex-layout.col#iconos--segu":{
+    "props":{
+      "blockClass":"iconos--productos--info"
+    },
+    "children":[
+      "image#iconos--segu",
+      "rich-text#iconos--segu--text"
+    ]
+  },
+  "flex-layout.col#iconos--dev":{
+    "props":{
+      "blockClass":"iconos--productos--info"
+    },
+    "children":[
+      "image#iconos--dev",
+      "rich-text#iconos--dev--text"
+    ]
+  },
+  "image#iconos--env":{
+    "props":{
+      "src": "assets/desk/assets-checkout-AC/ENVIOS.png",
+      "maxHeight": 60
+    }
+  },
+  "rich-text#iconos--env--text":{
+    "props":{
+      "blockClass":"iconos--productos--texto",
+      "text":"ENVÍOS GRATIS \n POR COMPRAS \n SUPERIORES A \n $149.900"
+    }
+  },
+
+  "image#iconos--segu":{
+    "props":{
+      "src": "assets/desk/assets-checkout-AC/PAGOSEGURO.png",
+      "maxHeight": 60
+    }
+  },
+  "rich-text#iconos--segu--text":{
+    "props":{
+      "blockClass":"iconos--productos--texto",
+      "text":"PAGA SEGURO \n CON TARJETAS DE \n CRÉDITO, PSE Y \n EFECTIVO A TRAVÉS \n DE BALOTO"
+    }
+  },
+
+  "image#iconos--dev":{
+    "props":{
+      "src": "assets/desk/assets-checkout-AC/return.png",
+      "maxHeight": 60
+    }
+  },
+  "rich-text#iconos--dev--text":{
+    "props":{
+      "blockClass":"iconos--productos--texto",
+      "text":"DEVOLUCIONES \n GRATIS"
+    }
   },
 
   "flex-layout.row#product-availability": {
@@ -179,6 +365,139 @@
         "Twitter": false,
         "Pinterest": true
       }
+    }
+  },
+
+
+  /*seccion de suscripciones*/
+  "flex-layout.row#suscribete--seccion":{
+    "props":{
+      "blockClass":"suscribete--seccion",
+      "verticalAlign":"center"
+    },
+    "children":[
+      "flex-layout.col#suscribete--seccion--imag",
+      "flex-layout.col#suscribete--seccion--text"
+    ]
+  },
+  "flex-layout.col#suscribete--seccion--imag":{
+    "children":[
+      "image#suscribete--seccion--imag"
+    ]
+  },
+  "image#suscribete--seccion--imag":{
+    "props": {
+      "src": "assets/desk/assets-checkout-AC/suscribete-section.webp"
+    }
+  },
+  "flex-layout.col#suscribete--seccion--text":{
+    "props":{
+      "blockClass":"suscribete--seccion--text"
+    },
+    "children":[
+      "rich-text#suscribete--titulo",
+      "rich-text#suscribete--subtitulo",
+      "newsletter-form"
+    ]
+  },
+  "rich-text#suscribete--titulo":{
+    "props":{
+      "blockClass":"suscribete--titulo",
+      "text":"Suscríbete"
+    }
+  },
+  "rich-text#suscribete--subtitulo":{
+    "props":{
+      "blockClass":"suscribete--titulo--contenido",
+      "text":"### y recibe noticias / tendencias y looks"
+    }
+  },
+  /*formulario para suscribirse*/
+  "newsletter-form": {
+    "props":{
+      "blockClass":"newsletter-form"
+    },
+    "children": [
+      "flex-layout.row#newsletter-form"
+      
+    ]
+  },
+  "flex-layout.row#newsletter-form":{
+    "props":{
+      "blockClass":"newsletter-form--contenedor",
+      "preventHorizontalStretch":true,
+      "preventVerticalStretch":true
+    },
+    "children": [
+      "flex-layout.col#newsletter-form"
+    ]
+  },
+  "flex-layout.col#newsletter-form":{
+    "props":{
+      "horizontalAlign":"center",
+      "blockClass":"newsletter-form--columna"
+    },
+    "children": [
+      "flex-layout.col#newsletter-form--nombre",
+      "flex-layout.col#newsletter-form--email",
+      "flex-layout.col#newsletter-checkbox-confirmation",
+      "flex-layout.col#newsletter-form--submit"
+    ]
+  },
+  "flex-layout.col#newsletter-form--nombre":{
+    "props":{
+      "blockClass":"newsletter-form--nombre"
+    },
+    "children":[
+      "newsletter-input-name"
+    ]
+  },
+  "newsletter-input-name":{
+    "props":{
+      "blockClass":"newsletter-form--nombre--input",
+      "placeholderText":"Nombre"
+    }
+  },
+  "flex-layout.col#newsletter-form--email":{
+    "props":{
+      "blockClass":"newsletter-form--email"
+    },
+    "children":[
+      "newsletter-input-email"
+    ]
+  },
+  "newsletter-input-email":{
+    "props":{
+      "blockClass":"newsletter-form--email--input",
+      "placeholderText":"Email"
+    }
+  },
+
+  "flex-layout.col#newsletter-checkbox-confirmation":{
+    "children":[
+      "newsletter-checkbox-confirmation"
+    ]
+  },
+
+  "flex-layout.col#newsletter-form--submit":{
+    "props":{
+      "blockClass":"newsletter-form--submit"
+    },
+    "children":[
+      "newsletter-submit"
+      
+    ]
+  },
+  "newsletter-submit":{
+    "props":{
+      "blockClass":"newsletter-submit",
+      "submitButtonLabel":"SUSCRÍBETE"
+    }
+  },
+  "newsletter-checkbox-confirmation":{
+    "props":{
+      "blockClass":"newsletter-checkbox-confirmation",
+      "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aquí"
     }
   }
 }

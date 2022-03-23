@@ -1,0 +1,458 @@
+{
+  "store.custom#nino": {
+  "blocks": [
+    "info-card#nino-home",
+    //"list-context.image-list#demo",
+    /* You can make references to blocks defined in other files.
+     * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+    "__fold__.experimentalLazyAssets",
+    "flex-layout.row#dealsNino",
+    "rich-text#shelf-title",
+    "flex-layout.row#shoes-nino",
+    "flex-layout.row#shirt-nino",
+    "flex-layout.row#nino-banner",
+    "flex-layout.row#product__tabs",
+    "shelf#cats",
+    "flex-layout.row#nino-banner2",
+    "shelf#descubre-mas",
+    "shelf#lo-mas-vendido"
+  ]
+},
+
+"list-context.image-list#demo-nino": {
+  "children": ["slider-layout#demo-images-nino"],
+  "props": {
+    "height": 720,
+    "images": [
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      },
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      }
+    ]
+  }
+},
+"slider-layout#demo-images-nino": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "carousel"
+  }
+},
+
+/*--------------------------------------------------------*/
+/* Banner vitrina 1 --> CONOCE NUESTRA LINEA DE ZAPATOS  */
+/*------------------------------------------------------*/
+"rich-text#shelf-title": {
+  "props": {
+    "text": "CONOCE NUESTRA LINEA DE ZAPATOS",
+    "blockClass": "shelfTitle"
+  }
+},
+"flex-layout.row#shoes-nino":{
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#shoes-nino-left",
+    "flex-layout.col#shoes-nino-right"]
+},
+"flex-layout.col#shoes-nino-left": {
+  "props": {
+    "width": "25%"
+  },
+  "children": [
+    "info-card#col-shoes-nino-left"
+  ]
+},
+"flex-layout.col#shoes-nino-right": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shoes"
+  ]
+},
+"info-card#col-shoes-nino-left":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/nino/banner-vitrina1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-shoes-left"//,
+    //"textAlignment": "center"
+  }
+},
+"shelf#shoes-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shoes",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+
+/*--------------------------------------------------------*/
+/* Banner vitrina 2 --> CONOCE NUESTRA LINEA DE CAMISAS  */
+/*------------------------------------------------------*/
+"flex-layout.row#shirt-nino":{
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#shirt-nino-left",
+    "flex-layout.col#shirt-nino-right"]
+},
+"flex-layout.col#shirt-nino-left": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shirt-nino"
+  ]
+},
+"flex-layout.col#shirt-nino-right": {
+  "props": {
+    "width": "25%"
+  },
+  "children": [
+    "info-card#col-shirt-nino-right"
+  ]
+},
+"info-card#col-shirt-nino-right":{
+  "props": {
+    "id": "info-card-shirt",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/nino/banner-vitrina2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-shirt-right"//,
+    //"textAlignment": "center"
+  }
+},
+"shelf#shirt-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shirt",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+/*-----------------------------------------------*/
+/* Banners SECUNDARIOS --> Izquierda y Derecha  */
+/*---------------------------------------------*/
+"flex-layout.row#nino-banner":{
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#banner-nino-left",
+    "flex-layout.col#banner-nino-right"]
+},
+"flex-layout.col#banner-nino-left": {
+  "props": {
+    "width": "30%"
+  },
+  "children": [
+    "info-card#col-banner-nino-left"
+  ]
+},
+"flex-layout.col#banner-nino-right": {
+  "props": {
+    "width": "70%"
+  },
+  "children": [
+    "info-card#col-banner-nino-right"
+  ]
+},
+
+"flex-layout.row#nino-banner2": {
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#left-nino",
+    "flex-layout.col#right-nino"]
+},
+"flex-layout.col#left-nino": {
+  "props": {
+    "width": "60%"
+  },
+  "children": [
+    "info-card#col-left-nino"
+  ]
+},
+"flex-layout.col#right-nino": {
+  "props": {
+    "width": "40%"
+  },
+  "children": [
+    "info-card#col-right-1-nino",
+    "info-card#col-right-2-nino"
+  ]
+},
+
+/*------------------------*/
+/* Banner secundario 1   */
+/*----------------------*/
+"info-card#col-banner-nino-left":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/nino/banner-secundario-1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-left"
+  }
+},
+
+/*------------------------*/
+/* Banner secundario 2   */
+/*----------------------*/
+"info-card#col-banner-nino-right":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/nino/banner-secundario2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-right"
+  }
+},
+
+/*---------------------------*/
+/* Banner Grid 1 izquierdo  */
+/*-------------------------*/
+"info-card#col-left-nino":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/nino/banner-grid1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-shoes"
+  }
+},
+"list-context.product-list#demo1-nino": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#demo-products-nino"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#demo-products-nino": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": "shelf"
+  }
+},
+
+/*-------------------*/
+/* Banner PRINCIPAL */
+/*-----------------*/
+"info-card#nino-home": {
+  "props": {
+    "id": "info-card-home",
+    "isFullModeStyle": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/nino/banner-principal.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-home"
+  }
+},
+
+"rich-text#question": {
+  "props": {
+    "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+    "blockClass": "question"
+  }
+},
+
+"rich-text#link": {
+  "props": {
+    "text": "\n**Reach us at**\nwww.vtex.com.br",
+    "blockClass": "link"
+  }
+},
+
+"flex-layout.col#col-right2-nino": {
+  "children": [
+    "info-card#col-right-1-nino",
+    "info-card#col-right-2-nino"
+  ]
+},
+
+
+/*-------------------------------*/
+/* Banner Grid 2 Arriba derecho */
+/*-----------------------------*/
+"info-card#col-right-1-nino": {
+  "props": {
+    "id": "info-card",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/nino/banner-grid2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card"
+  }
+},
+
+/*------------------------------*/
+/* Banner Grid 3 Abajo derecho */
+/*----------------------------*/
+"info-card#col-right-2-nino": {
+  "props": {
+    "id": "info-card",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/nino/banner-grid3.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card"
+  }
+},
+
+"shelf#cats": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#descubre-mas": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "DESCUBRE MÁS"
+    }
+  }
+},
+
+"shelf#lo-mas-vendido": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass":"slider--general",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "LO MÁS VENDIDO"
+    }
+  }
+},
+
+
+
+//product tabs
+"flex-layout.row#product__tabs":{
+  "props":{
+    "blockClass": "home__product__tabs"
+  },
+  "children":[
+    "tab-layout#product__tabs"
+  ]
+},
+"tab-layout#product__tabs":{
+  "children":[
+    "tab-list#product__tab--list",
+    "tab-content#product__tab--content"
+  ]
+},
+"tab-list#product__tab--list":{
+  "children":[
+    "tab-list.item#tabs__list--laptos",
+    "tab-list.item#tabs__list--impresoras"
+  ]
+},
+"tab-list.item#tabs__list--laptos":{
+  "props":{
+    "tabId":"laptos",
+    "label":"laptos",
+    "defaultActiveTab":true
+  }
+},
+"tab-list.item#tabs__list--impresoras":{
+  "props":{
+    "tabId":"impresoras",
+    "label":"impresoras"
+  }
+},
+"tab-content#product__tab--content":{
+  "children":[
+    "tab-content.item#tabs__content--laptos",
+    "tab-content.item#tabs__content--impresoras"
+  ]
+},
+"tab-content.item#tabs__content--laptos":{
+  "props":{
+    "tabId":"laptos"
+  },
+  "children":["shelf#cats"]
+},
+"tab-content.item#tabs__content--impresoras":{
+  "props":{
+    "tabId":"impresoras"
+  },
+  "children":["rich-text#tabs__content--impresoras"]
+},
+"rich-text#tabs__content--impresoras":{
+  "props":{
+    "text":"aqui van otros sliders"
+  }
+}
+
+}

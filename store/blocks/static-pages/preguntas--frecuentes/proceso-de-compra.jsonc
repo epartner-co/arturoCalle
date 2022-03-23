@@ -1,0 +1,327 @@
+{
+    /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 1                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--1":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--1", "disclosure-content#preguntas--frecuentes--1"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--1": {
+    "children": ["flex-layout.row#preguntas--frecuentes--1--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--1--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--1--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--1--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--1"]
+  },
+  "disclosure-content#preguntas--frecuentes--1": {
+    "children": ["flex-layout.col#respuesta--columna--1"]
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--1": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cómo comprar en ArturoCalle.com?"
+    }
+  },
+  "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes":{
+    "props":{
+        "blockClass":"disclosure-state-indicator--preguntas--frecuentes"
+    },
+    "children": ["disclosure-state-indicator#preguntas--frecuentes"]
+    },
+    "disclosure-state-indicator#preguntas--frecuentes": {
+    "props": {
+        "Show": "image#flecha-abajo-preguntas--frecuentes",
+        "Hide": "image#flecha-abajo-preguntas--frecuentes"
+    }
+    },
+    "image#flecha-abajo-preguntas--frecuentes": {
+    "props": {
+        "blockClass": "flecha-abajo--preguntas--frecuentes",
+        "src": "assets/desk/assets-checkout-AC/flecha-hacia-abajo-para-navegar.png",
+        "maxHeight": 12
+    }
+    },
+  "rich-text#answerpreguntas--frecuentes--1": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "¿Cómo comprar en ArturoCalle.com?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 1*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 2                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--2":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--2", "disclosure-content#preguntas--frecuentes--2"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--2": {
+    "children": ["flex-layout.row#preguntas--frecuentes--2--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--2--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--2--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--2--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--2"]
+  },
+  "disclosure-content#preguntas--frecuentes--2": {
+    "children": ["rich-text#answerpreguntas--frecuentes--2"]
+  },
+  "rich-text#answerpreguntas--frecuentes--2": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Nuestro Smart Checkout facilita las compras en línea de una forma ágil, rápida y sencilla. Sólo debe registrar la información solicitada la primera vez que compra en la tienda y en futuras visitas utilizando el mismo correo electrónico, nuestra plataforma lo reconocerá como nuestro cliente. De este modo no necesita iniciar sesión para cada ingreso a la plataforma, pues con la información ingresada se creará una cuenta automáticamente."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--2": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cómo iniciar sesión en ArturoCalle.com?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 2*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 3                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--3":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--3", "disclosure-content#preguntas--frecuentes--3"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--3": {
+    "children": ["flex-layout.row#preguntas--frecuentes--3--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--3--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--3--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--3--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--3"]
+  },
+  "disclosure-content#preguntas--frecuentes--3": {
+    "children": ["rich-text#answerpreguntas--frecuentes--3"]
+  },
+  "rich-text#answerpreguntas--frecuentes--3": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Siempre podrá editar la información incluida cuando se encuentre en un proceso de compra. En la parte superior derecha del recuadro de ingreso de datos, encontrará un icono de 'lápiz' donde deberá dar clic. \n Se abrirá una nueva ventana, que le dará opciones para el envío de una clave (correo electrónico) o el ingreso conectándose a las redes sociales de su preferencia. \n Una vez ingrese a su cuenta, la plataforma le permitirá editar la información que considere pertinente."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--3": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cómo puedo editar mi información?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 3*/
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 4                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--4":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--4", "disclosure-content#preguntas--frecuentes--4"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--4": {
+    "children": ["flex-layout.row#preguntas--frecuentes--4--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--4--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--4--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--4--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--4"]
+  },
+  "disclosure-content#preguntas--frecuentes--4": {
+    "children": ["rich-text#answerpreguntas--frecuentes--4"]
+  },
+  "rich-text#answerpreguntas--frecuentes--4": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Comprar en ArturoCalle.com es 100% seguro. Nuestra plataforma tecnológica de comercio electrónico VTEX y nuestro aliado de pagos PayU Latam cuentan con la certificación PCI DSS, para el manejo seguro de la información de los medios de pago habilitados en nuestra plataforma.Le recomendamos consultar las políticas y condiciones de PayU en la web www.payulatam.com/coy utilizar los modos seguros de sus navegadores y programas de seguridad de internet."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--4": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Es seguro comprar en ArturoCalle.com?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 4*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 5                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--5":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--5", "disclosure-content#preguntas--frecuentes--5"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--5": {
+    "children": ["flex-layout.row#preguntas--frecuentes--5--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--5--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--5--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--5--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--5"]
+  },
+  "disclosure-content#preguntas--frecuentes--5": {
+    "children": ["rich-text#answerpreguntas--frecuentes--5"]
+  },
+  "rich-text#answerpreguntas--frecuentes--5": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Si es posible, cada correo electrónico se considera como una cuenta y cliente individual. Si decide utilizar otro correo electrónico en el momento de realizar el pedido, deberá volver a registrar toda su información personal, dirección de entrega e información de pago. Los correos electrónicos no se pueden combinar así que es importante que verifique el correo electrónico que está utilizando."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--5": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Puedo usar diferentes correos electrónicos para comprar?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 5*/
+
+   /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 6                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--6":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--6", "disclosure-content#preguntas--frecuentes--6"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--6": {
+    "children": ["flex-layout.row#preguntas--frecuentes--6--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--6--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--6--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--6--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--6"]
+  },
+  "disclosure-content#preguntas--frecuentes--6": {
+    "children": ["flex-layout.col#respuesta--columna--6"]
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--6": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cómo utilizo un cupón?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 6*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 7                             */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--7":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--7", "disclosure-content#preguntas--frecuentes--7"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--7": {
+    "children": ["flex-layout.row#preguntas--frecuentes--7--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--7--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--7--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--7--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--7"]
+  },
+  "disclosure-content#preguntas--frecuentes--7": {
+    "children": ["flex-layout.col#respuesta--columna--7"]
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--7": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Qué vigencia tienen los cupones de pago?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 7*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 8                            */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--8":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--8", "disclosure-content#preguntas--frecuentes--8"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--8": {
+    "children": ["flex-layout.row#preguntas--frecuentes--8--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--8--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--8--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--8--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--8"]
+  },
+  "disclosure-content#preguntas--frecuentes--8": {
+    "children": ["rich-text#answerpreguntas--frecuentes--8"]
+  },
+  "rich-text#answerpreguntas--frecuentes--8": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Puede encontrar los términos y condiciones del sitio aquí."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--8": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cuáles son los términos y condiciones de uso del sitio?"
+    }
+  }
+  /* >>>>>>>>>>>>Cierre de  Columna 8*/
+}

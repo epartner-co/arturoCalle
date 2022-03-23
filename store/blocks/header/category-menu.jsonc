@@ -15,8 +15,8 @@
       "menu-item#category-nina",
       "menu-item#category-leather",
       "menu-item#category-freedom",
-      "menu-item#category-ofertas",
-      "menu-item#category-adicional"
+      "menu-item#category-ofertas"
+      //"menu-item#category-adicional"
 
     ]
   },
@@ -30,7 +30,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/hombre",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "HOMBRE"
@@ -49,7 +49,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/woman",
         "noFollow": false,
         "tagTitle": "Woman",
         "text": "WOMAN"
@@ -67,7 +67,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/kids/nino",
         "noFollow": false,
         "tagTitle": "Niño",
         "text": "NIÑO"
@@ -85,7 +85,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/kids/nina",
         "noFollow": false,
         "tagTitle": "Niña",
         "text": "NIÑA"
@@ -120,7 +120,7 @@
       "blockClass": "item",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/viaje",
         "noFollow": false,
         "tagTitle": "Leather",
         "text": "VIAJE"
@@ -138,7 +138,7 @@
       "blockClass": "item",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/freedom",
         "noFollow": false,
         "tagTitle": "Freedom",
         "text": "FREEDOM"
@@ -156,7 +156,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/ofertas",
         "noFollow": false,
         "tagTitle": "Ofertas",
         "text": "OFERTAS"
@@ -165,6 +165,7 @@
     "blocks": ["vtex.menu@2.x:submenu#ofertas"]
   },
 
+  /*
   "menu-item#category-adicional": {
     "props": {
       "id": "menu-item-category-adicional",
@@ -180,7 +181,7 @@
         "text": "MÁS"
         }
     }
-  },
+  },*/
 
   "vtex.menu@2.x:submenu#hombre": {
     "children": [
@@ -327,55 +328,55 @@
   "rich-text#menu-nivel-mujer-cat2-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Abrigos y Blazers"
+      "text":"[Abrigos y Blazers](/mujer/ropa/abrigos-y-blazers)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Blusas y Camisas"
+      "text":"[Blusas y Camisas](/mujer/ropa/blusas-y-camisas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Buzos"
+      "text":"[Buzos](/mujer/ropa/buzos)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisetas"
+      "text":"[Camisetas](/mujer/ropa/camisetas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chalecos"
+      "text":"[Chalecos](/mujer/ropa/chalecos)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chaquetas"
+      "text":"[Chaquetas](/mujer/ropa/chaquetas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Faldas"
+      "text":"[Faldas](/mujer/ropa/faldas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub9":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sweaters y Cardigans"
+      "text":"[Sweaters y Cardigans](/mujer/ropa/sweaters-y-cardigans)"
     }
   },
   "rich-text#menu-nivel-mujer-cat2-sub10":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Jeans"
+      "text":"[Jeans](/mujer/ropa/jeans)"
     }
   },
 
@@ -403,43 +404,43 @@
   "rich-text#menu-nivel-mujer-cat3-sub1":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Vestidos y Enterizos"
+      "text":"[Vestidos y Enterizos](/mujer/ropa/vestidos-y-enterizos)"
     }
   },
   "rich-text#menu-nivel-mujer-cat3-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Faldas"
+      "text":"[Pantalones](/mujer/ropa/pantalones)"
     }
   },
   "rich-text#menu-nivel-mujer-cat3-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalones"
+      "text":"[Jeans](/mujer/ropa/jeans)"
     }
   },
   "rich-text#menu-nivel-mujer-cat3-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Jeans"
+      "text":"[Pijamas](/mujer/ropa/pijamas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat3-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pijamas"
+      "text":"[Shorts](/mujer/ropa/shorts)"
     }
   },
   "rich-text#menu-nivel-mujer-cat3-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Shorts"
+      "text":"[Medias](/mujer/ropa/medias)"
     }
   },
   "rich-text#menu-nivel-mujer-cat3-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Medias"
+      "text":"[Vestidos de baño](/mujer/ropa/vestidos-de-bano)"
     }
   },
 
@@ -470,31 +471,31 @@
   "rich-text#menu-nivel-mujer-cat4-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Botas y Botines"
+      "text":"[Botas y Botines](/mujer/zapatos/botas-y-botines)"
     }
   },
   "rich-text#menu-nivel-mujer-cat4-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tacones"
+      "text":"[Tacones](/mujer/zapatos/tacones)"
     }
   },
   "rich-text#menu-nivel-mujer-cat4-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Planos"
+      "text":"[Planos](/mujer/zapatos/tacones)"
     }
   },
   "rich-text#menu-nivel-mujer-cat4-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tenis"
+      "text":"[Tenis](/mujer/zapatos/zapatos-planos)"
     }
   },
   "rich-text#menu-nivel-mujer-cat4-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sandalias"
+      "text":"[Sandalias](/mujer/zapatos/sandalias)"
     }
   },
 
@@ -530,55 +531,55 @@
   "rich-text#menu-nivel-mujer-cat5-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Billeteras"
+      "text":"[Billeteras](/mujer/accesorios/billeteras)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Bolsos y Carteras"
+      "text":"[Bolsos y Carteras](/mujer/accesorios/bolsos-y-carteras)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Cinturones y Correas"
+      "text":"[Cinturones y Correas](/mujer/accesorios/cinturones-y-correas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Gafas de Sol"
+      "text":"[Gafas de Sol](/mujer/accesorios/gafas-de-sol)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pañoletas y Bufandas"
+      "text":"[Pañoletas y Bufandas](/mujer/accesorios/panoletas-y-bufandas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Esmaltes y Busutería"
+      "text":"[Esmaltes y Busutería](/mujer/accesorios/otros-accesorios/esmaltes-y-bisuteria)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sombrillas"
+      "text":"[Sombrillas](/mujer/accesorios/otros-accesorios/sombrillas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub9":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tapabocas"
+      "text":"[Tapabocas](/mujer/accesorios/otros-accesorios/tapabocas)"
     }
   },
   "rich-text#menu-nivel-mujer-cat5-sub10":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Otros Accsesorios"
+      "text":"[Otros Accsesorios](/mujer/accesorios/otros-accesorios)"
     }
   },
   "flex-layout.col#menu-nivel-mujer-cat6": {
@@ -594,9 +595,7 @@
       "rich-text#menu-nivel-mujer-cat6-sub3",
       "rich-text#menu-nivel-mujer-cat6-sub4",
       "rich-text#menu-nivel-mujer-cat6-sub5",
-      "rich-text#menu-nivel-mujer-cat6-sub6",
-      "rich-text#menu-nivel-mujer-cat6-sub7",
-      "rich-text#menu-nivel-mujer-cat6-sub8"
+      "rich-text#menu-nivel-mujer-cat6-sub6"
     ]
   },
 
@@ -610,47 +609,33 @@
   "rich-text#menu-nivel-mujer-cat6-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Soft Nautic"
+      "text":"[Soft Nautic](/woman/coleccion/soft-nautic)"
     }
   },
   "rich-text#menu-nivel-mujer-cat6-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Urban Fall"
+      "text":"[Urban Fall](/woman/coleccion/urban-fall)"
     }
   },
   "rich-text#menu-nivel-mujer-cat6-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Comfort"
+      "text":"[ECO](/coleccion/eco/mujer)"
     }
   },
   "rich-text#menu-nivel-mujer-cat6-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Ativiral"
+      "text":"[Active](/coleccion/active/mujer)"
     }
   },
   "rich-text#menu-nivel-mujer-cat6-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"ECO"
+      "text":"[Formal Luxe](/woman/coleccion/formal-luxe)"
     }
   },
-  "rich-text#menu-nivel-mujer-cat6-sub7":{
-    "props": {
-      "blockClass":"item-cat",
-      "text":"Active"
-    }
-  },
-  "rich-text#menu-nivel-mujer-cat6-sub8":{
-    "props": {
-      "blockClass":"item-cat",
-      "text":"Formal Luxe"
-    }
-  },
-
-
 
   "flex-layout.row#rowCatsNino":{
     "props": {
@@ -688,23 +673,22 @@
     ]
   },
 
-
   "rich-text#menu-nivel-nino-cat1-sub1":{
     "props": {
       "blockClass":"item-cat-bold",
-      "text":"Nuevos"
+      "text":"[Nuevos](/linea-kids-nino/nuevos-productos)"
     }
   },
   "rich-text#menu-nivel-nino-cat1-sub2":{
     "props": {
       "blockClass":"item-cat-bold",
-      "text":"Bono Regalo"
+      "text":"[Bono Regalo](/bono-de-regalo)"
     }
   },
   "rich-text#menu-nivel-nino-cat1-sub3":{
     "props": {
       "blockClass":"item-cat-bold-warn",
-      "text":"Ofertas"
+      "text":"[Ofertas](/ofertas/nino)"
     }
   },
 
@@ -737,49 +721,50 @@
   "rich-text#menu-nivel-nino-cat2-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Blazers"
+      "text":"[Blazers](/kids/nino/ropa/blazers)"
     }
   },
   "rich-text#menu-nivel-nino-cat2-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Buzos"
+      "text":"[Buzos](/kids/nino/ropa/buzos)"
     }
   },
   "rich-text#menu-nivel-nino-cat2-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisas"
+      "text":"[Camisas](/kids/nino/ropa/camisas)"
     }
   },
   "rich-text#menu-nivel-nino-cat2-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisetas"
+      "text":"[Camisetas](/kids/nino/ropa/camisetas)"
     }
   },
+
   "rich-text#menu-nivel-nino-cat2-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Polos"
+      "text":"[Polos](/kids/nino/ropa/polos)"
     }
   },
   "rich-text#menu-nivel-nino-cat2-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chaquetas y Chalecos"
+      "text":"[Chaquetas y Chalecos](/kids/nino/ropa/chaquetas-y-chalecos)"
     }
   },
   "rich-text#menu-nivel-nino-cat2-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sweaters"
+      "text":"[Sweaters](/kids/nino/ropa/sweaters)"
     }
   },
   "rich-text#menu-nivel-nino-cat2-sub9":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Trajes"
+      "text":"[Trajes](/kids/nino/ropa/trajes)"
     }
   },
   "flex-layout.col#menu-nivel-nino-cat3": {
@@ -804,46 +789,45 @@
   "rich-text#menu-nivel-nino-cat3-sub1":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Jeans"
+      "text":"[Jeans](/kids/nino/ropa/jeans)"
     }
   },
   "rich-text#menu-nivel-nino-cat3-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalones"
+      "text":"[Pantalones](/kids/nino/ropa/pantalones)"
     }
   },
   "rich-text#menu-nivel-nino-cat3-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Bermudas"
+      "text":"[Bermudas](/kids/nino/ropa/bermudas)"
     }
   },
   "rich-text#menu-nivel-nino-cat3-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalonetas de Baño"
+      "text":"[Pantalonetas de Baño](/kids/nino/ropa/pantalonetas-de-bano)"
     }
   },
   "rich-text#menu-nivel-nino-cat3-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pijamas"
+      "text":"[Pijamas](/kids/nino/ropa/pijamas)"
     }
   },
   "rich-text#menu-nivel-nino-cat3-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Ropa Interior"
+      "text":"[Ropa Interior](/kids/nino/ropa/ropa-interior)"
     }
   },
   "rich-text#menu-nivel-nino-cat3-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Medias"
+      "text":"[Medias](/kids/nino/ropa/medias)"
     }
   },
-
 
 
   "flex-layout.col#menu-nivel-nino-cat4": {
@@ -871,19 +855,19 @@
   "rich-text#menu-nivel-nino-cat4-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tenis"
+      "text":"[Tenis](/kids/nino/zapatos/tenis)"
     }
   },
   "rich-text#menu-nivel-nino-cat4-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Zapatos"
+      "text":"[Zapatos](/kids/nino/zapatos/zapatos)"
     }
   },
   "rich-text#menu-nivel-nino-cat4-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sandalias"
+      "text":"[Sandalias](/kids/nino/zapatos/sandalias)"
     }
   },
   "flex-layout.col#menu-nivel-nino-cat5": {
@@ -917,49 +901,49 @@
   "rich-text#menu-nivel-nino-cat5-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Bufandas y Cuellos"
+      "text":"[Bufandas y Cuellos](/kids/nino/accesorios/bufandas-y-cuellos)"
     }
   },
   "rich-text#menu-nivel-nino-cat5-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Correas"
+      "text":"[Correas](/kids/nino/accesorios/cinturones-y-correas)"
     }
   },
   "rich-text#menu-nivel-nino-cat5-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Corbatas y Corbatines"
+      "text":"[Corbatas y Corbatines](/kids/nino/accesorios/corbatas-y-corbatines)"
     }
   },
   "rich-text#menu-nivel-nino-cat5-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Gafas de sol"
+      "text":"[Gafas de sol](/kids/nino/accesorios/gafas-de-sol)"
     }
   },
   "rich-text#menu-nivel-nino-cat5-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Gorras y Gorros"
+      "text":"[Gorras y Gorros](/kids/nino/accesorios/gorras-gorros-y-boinas)"
     }
   },
   "rich-text#menu-nivel-nino-cat5-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Morrales y Loncheras"
+      "text":"[Morrales y Loncheras](/kids/nino/accesorios/morrales-y-loncheras)"
     }
   },
   "rich-text#menu-nivel-nino-cat5-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Perfumes"
+      "text":"[Perfumes](/kids/nino/accesorios/perfumes)"
     }
   },
   "rich-text#menu-nivel-nino-cat5-sub9":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tapabocas"
+      "text":"[Tapabocas](/Sistema/buscavazia)"
     }
   },
   "flex-layout.col#menu-nivel-nino-cat6": {
@@ -976,8 +960,7 @@
       "rich-text#menu-nivel-nino-cat6-sub4",
       "rich-text#menu-nivel-nino-cat6-sub5",
       "rich-text#menu-nivel-nino-cat6-sub6",
-      "rich-text#menu-nivel-nino-cat6-sub7",
-      "rich-text#menu-nivel-nino-cat6-sub8"
+      "rich-text#menu-nivel-nino-cat6-sub7"
     ]
   },
 
@@ -991,46 +974,39 @@
   "rich-text#menu-nivel-nino-cat6-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Bosque Encantado"
+      "text":"[Bosque Encantado](/coleccion/bosque-encantado/nino)"
     }
   },
   "rich-text#menu-nivel-nino-cat6-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Comfort"
+      "text":"[Comfort](/coleccion/comfort/nino)"
     }
   },
   "rich-text#menu-nivel-nino-cat6-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Intensamente"
+      "text":"[Intensamente](/coleccion/intensamente/nino)"
     }
   },
   "rich-text#menu-nivel-nino-cat6-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Gamer"
+      "text":"[Gamer](/coleccion/gamer/nino)"
     }
   },
   "rich-text#menu-nivel-nino-cat6-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Antiviral"
+      "text":"[ECO](/coleccion/eco/nino)"
     }
   },
   "rich-text#menu-nivel-nino-cat6-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"ECO"
+      "text":"[Padre e hijo](/coleccion/padre-e-hijo)"
     }
   },
-  "rich-text#menu-nivel-nino-cat6-sub8":{
-    "props": {
-      "blockClass":"item-cat",
-      "text":"Padre e Hijo"
-    }
-  },
-
 
   "flex-layout.row#rowCatsNina":{
     "props": {
@@ -2337,49 +2313,49 @@
   "rich-text#menu-nivel-hombre-cat2-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Blazers"
+      "text":"[Blazers](/hombre/ropa/blazers)"
     }
   },
   "rich-text#menu-nivel-hombre-cat2-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Buzos"
+      "text":"[Buzos](/hombre/ropa/buzos)"
     }
   },
   "rich-text#menu-nivel-hombre-cat2-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisas"
+      "text":"[Camisas](/hombre/ropa/camisas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat2-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisetas"
+      "text":"[Camisetas](/hombre/ropa/camisetas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat2-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Polos"
+      "text":"[Polos](/hombre/ropa/polos)"
     }
   },
   "rich-text#menu-nivel-hombre-cat2-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chaquetas"
+      "text":"[Chaquetas](/hombre/ropa/chaquetas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat2-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chalecos"
+      "text":"[Chalecos](/hombre/ropa/chalecos)"
     }
   },
   "rich-text#menu-nivel-hombre-cat2-sub9":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sweaters"
+      "text":"[Sweaters](/hombre/ropa/sweaters)"
     }
   },
   "flex-layout.col#menu-nivel-hombre-cat3": {
@@ -2403,49 +2379,49 @@
   "rich-text#menu-nivel-hombre-cat3-sub1":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Jeans"
+      "text":"[Jeans](/hombre/ropa/jeans)"
     }
   },
   "rich-text#menu-nivel-hombre-cat3-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalones"
+      "text":"[Pantalones](/hombre/ropa/pantalones)"
     }
   },
   "rich-text#menu-nivel-hombre-cat3-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Bermudas"
+      "text":"[Bermudas](/hombre/ropa/bermudas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat3-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalonetas"
+      "text":"[Pantalonetas](/hombre/ropa/pantalonetas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat3-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pijamas"
+      "text":"[Pijamas](/hombre/ropa/pijamas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat3-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Ropa Interior"
+      "text":"[Ropa Interior](/hombre/ropa/ropa-interior)"
     }
   },
   "rich-text#menu-nivel-hombre-cat3-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Medias"
+      "text":"[Medias](/hombre/ropa/medias)"
     }
   },
   "rich-text#menu-nivel-hombre-cat3-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisillas"
+      "text":"[Camisillas](/hombre/ropa/camisillas)"
     }
   },
   "flex-layout.col#menu-nivel-hombre-cat4": {
@@ -2474,43 +2450,43 @@
   "rich-text#menu-nivel-hombre-cat4-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Formales"
+      "text":"[Formales](/hombre/zapatos/zapatos-formales)"
     }
   },
   "rich-text#menu-nivel-hombre-cat4-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Casuales"
+      "text":"[Casuales](/hombre/zapatos/zapatos-casual)"
     }
   },
   "rich-text#menu-nivel-hombre-cat4-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Mocasines"
+      "text":"[Mocasines](/hombre/zapatos/mocasines)"
     }
   },
   "rich-text#menu-nivel-hombre-cat4-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Botas"
+      "text":"[Botas](/hombre/zapatos/botas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat4-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tenis"
+      "text":"[Tenis](/hombre/zapatos/tenis)"
     }
   },
   "rich-text#menu-nivel-hombre-cat4-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sandalias"
+      "text":"[Sandalias](/hombre/zapatos/sandalias)"
     }
   },
   "rich-text#menu-nivel-hombre-cat4-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Cuidado Zapatos"
+      "text":"[Cuidado Zapatos](/hombre/zapatos/productos-cuidado-zapatos)"
     }
   },
   "flex-layout.col#menu-nivel-hombre-cat5": {
@@ -2541,55 +2517,55 @@
   "rich-text#menu-nivel-hombre-cat5-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Billeteras"
+      "text":"[Billeteras](/hombre/accesorios/billeteras)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Correas y Reatas"
+      "text":"[Correas y Reatas](/hombre/accesorios/cinturones-y-correas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Corbatas y Corbatines"
+      "text":"[Corbatas y Corbatines](/hombre/accesorios/corbatas-y-corbatines)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Gafas de Sol"
+      "text":"[Gafas de Sol](/hombre/accesorios/gafas-de-sol)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Gorras y Boinas"
+      "text":"[Gorras y Boinas](/hombre/gorras-gorros-y-boinas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Manillas y Pulseras"
+      "text":"[Pañuelos](/hombre/accesorios/panuelos)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Perfumes"
+      "text":"[Perfumes](/hombre/accesorios/perfumes)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub9":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Mancornas"
+      "text":"[Mancornas](/hombre/accesorios/mancornas)"
     }
   },
   "rich-text#menu-nivel-hombre-cat5-sub10":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Otros Accesorios"
+      "text":"[Otros Accesorios](/hombre/accesorios/otros-accesorios)"
     }
   },
   "flex-layout.col#menu-nivel-hombre-cat6": {
@@ -2601,9 +2577,7 @@
     "children": [
       "rich-text#menu-nivel-hombre-cat6-sub1",
       "rich-text#menu-nivel-hombre-cat6-sub2",
-      "rich-text#menu-nivel-hombre-cat6-sub3",
-      "rich-text#menu-nivel-hombre-cat6-sub4",
-      "rich-text#menu-nivel-hombre-cat6-sub5"
+      "rich-text#menu-nivel-hombre-cat6-sub3"
     ]
   },
   "rich-text#menu-nivel-hombre-cat6-sub1":{
@@ -2615,25 +2589,13 @@
   "rich-text#menu-nivel-hombre-cat6-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Confort"
+      "text":"[ECO](/coleccion/eco/hombre)"
     }
   },
   "rich-text#menu-nivel-hombre-cat6-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Antiviral"
-    }
-  },
-  "rich-text#menu-nivel-hombre-cat6-sub4":{
-    "props": {
-      "blockClass":"item-cat",
-      "text":"ECO"
-    }
-  },
-  "rich-text#menu-nivel-hombre-cat6-sub5":{
-    "props": {
-      "blockClass":"item-cat",
-      "text":"Active"
+      "text":"[Active](/coleccion/active/hombre)"
     }
   },
 

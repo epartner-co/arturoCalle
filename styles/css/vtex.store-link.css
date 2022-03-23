@@ -1,0 +1,21 @@
+/*-------------------------------*/
+/* parte en la que se elige los detalles del producto...talla... se ven las fotos en fila...
+Estilos Producto Sección Contenido AC*/
+/*-------------------------------*/
+.childrenContainer--producto--como--saber--mi--talla--contenedor{
+    margin-top: -38px;
+}
+
+.link--producto--como--saber--mi--talla--contenedor{
+    text-decoration: none;
+}
+
+.childrenContainer--producto--como--saber--mi--talla--contenedor :global(.vtex-rich-text-0-x-paragraph){
+    color: #181e2a;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

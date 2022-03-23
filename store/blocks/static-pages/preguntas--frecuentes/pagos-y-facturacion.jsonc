@@ -1,0 +1,281 @@
+{
+    /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 13                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--13":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--13", "disclosure-content#preguntas--frecuentes--13"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--13": {
+    "children": ["flex-layout.row#preguntas--frecuentes--13--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--13--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--13--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--13--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--13"]
+  },
+  "disclosure-content#preguntas--frecuentes--13": {
+    "children": ["rich-text#answerpreguntas--frecuentes--13"]
+  },
+  "rich-text#answerpreguntas--frecuentes--13": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "En ArturoCalle.com puede pagar con tarjetas de crédito Visa, MasterCard, American Express, Diners Club o Codensa, tarjetas débito a través de PSE (Cuenta de ahorros o corriente), Cupón Descuento, Cupón Redención, o en efectivo a través de Baloto."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--13": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Qué métodos de pago puedo utilizar?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 13*/
+
+    /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 14                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--14":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--14", "disclosure-content#preguntas--frecuentes--14"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--14": {
+    "children": ["flex-layout.row#preguntas--frecuentes--14--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--14--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--14--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--14--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--14"]
+  },
+  "disclosure-content#preguntas--frecuentes--14": {
+    "children": ["rich-text#answerpreguntas--frecuentes--14"]
+  },
+  "rich-text#answerpreguntas--frecuentes--14": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Puede utilizar tarjetas de crédito internacionales para realizar sus compras en ArturoCalle.com, recuerde que su tarjeta de crédito puede requerir permisos especiales, le sugerimos verificar previamente con su entidad financiera."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--14": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Puedo usar una tarjeta de crédito internacional para comprar en ArturoCalle.com?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 14*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 15                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--15":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--15", "disclosure-content#preguntas--frecuentes--15"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--15": {
+    "children": ["flex-layout.row#preguntas--frecuentes--15--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--15--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--15--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--15--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--15"]
+  },
+  "disclosure-content#preguntas--frecuentes--15": {
+    "children": ["rich-text#answerpreguntas--frecuentes--15"]
+  },
+  "rich-text#answerpreguntas--frecuentes--15": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Al momento de utilizar nuestros cupones de pago, la plataforma le permitirá utilizar también cualquiera de los demás medios de pago disponibles."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--15": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Puedo utilizar un Cupón y otro medio de pago para una compra en la tienda online?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 15*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 16                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--16":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--16", "disclosure-content#preguntas--frecuentes--16"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--16": {
+    "children": ["flex-layout.row#preguntas--frecuentes--16--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--16--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--16--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--16--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--16"]
+  },
+  "disclosure-content#preguntas--frecuentes--16": {
+    "children": ["rich-text#answerpreguntas--frecuentes--16"]
+  },
+  "rich-text#answerpreguntas--frecuentes--16": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Actualmente no es posible utilizar tarjetas regalo como medio de pago en la tienda virtual."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--16": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Puedo utilizar una tarjeta regalo en ArturoCalle.com?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 16*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 17                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--17":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--17", "disclosure-content#preguntas--frecuentes--17"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--17": {
+    "children": ["flex-layout.row#preguntas--frecuentes--17--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--17--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--17--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--17--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--17"]
+  },
+  "disclosure-content#preguntas--frecuentes--17": {
+    "children": ["rich-text#answerpreguntas--frecuentes--17"]
+  },
+  "rich-text#answerpreguntas--frecuentes--17": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Existen diferentes motivos por los que un pago puede ser rechazado. Si realizó el pago con tarjeta de crédito y el pago fue rechazado, puede ser que no se hayan superado los filtros de seguridad o por inconsistencias en la información registrada durante el proceso de compra. El pago también puede ser rechazado si el monto total es muy alto para el límite de su compra. En cualquier caso, le sugerimos comunicarse directamente con su entidad financiera, o si lo desea a nuestros canales de servicio al cliente."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--17": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "Si no logró finalizar la compra con mi tarjeta de crédito en la tienda online ¿Cuáles podrían ser las causas?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 17*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 18                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--18":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--18", "disclosure-content#preguntas--frecuentes--18"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--18": {
+    "children": ["flex-layout.row#preguntas--frecuentes--18--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--18--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--18--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--18--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--18"]
+  },
+  "disclosure-content#preguntas--frecuentes--18": {
+    "children": ["rich-text#answerpreguntas--frecuentes--18"]
+  },
+  "rich-text#answerpreguntas--frecuentes--18": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Sí, todos los productos Arturo Calle incluyen IVA. En el documento equivalente a factura se especifica el valor del IVA y el valor neto."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--18": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Los precios para compra en Artucocalle.com incluyen el IVA?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 18*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 19                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--19":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--19", "disclosure-content#preguntas--frecuentes--19"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--19": {
+    "children": ["flex-layout.row#preguntas--frecuentes--19--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--19--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--19--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--19--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--19"]
+  },
+  "disclosure-content#preguntas--frecuentes--19": {
+    "children": ["rich-text#answerpreguntas--frecuentes--19"]
+  },
+  "rich-text#answerpreguntas--frecuentes--19": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Debe comunicarse con nosotros a través de nuestra línea nacional de servicio al cliente 01 8000 180120 y en Bogotá al PBX 743 8800 o enviarnos un mensaje a contactenos@arturocalle.com, indicando sus datos personales y los del pedido, para enviarle una copia del documento equivalente a factura, en todo caso recuerde que el documento equivalente a factura será remitido con su compra."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--19": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "Quiero una copia de la factura de mi compra online ¿Qué tengo que hacer?"
+    }
+  }
+  /* >>>>>>>>>>>>Cierre de  Columna 19*/
+}

@@ -1,0 +1,767 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#freedom-principal":{
+        "children":[
+            "menu#freedom-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#freedom-principal":{
+        "children":[
+            "menu-item#category-freedom-hombre-M",
+            "menu-item#category-freedom-mujer-M",
+            "menu-item#category-freedom-acce-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // menu items que poseen un sub menu
+     // declaracion sub menu
+     "menu-item#category-freedom-hombre-M": {
+        "props": {
+          "id": "menu-item-category-hombre",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Hombre",
+            "text": "Hombre"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#freedom-principal-hombre"   
+        ]
+    },
+    "submenu.accordion#freedom-principal-hombre":{
+        "children":[
+            "menu#freedom-principal-hombre"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+    // agrupacion de los items del submenu ropa
+    "menu#freedom-principal-hombre":{
+        "children":[
+            "menu-item#category-freedom-blazzer-M",
+            "menu-item#category-freedom-buzos-M",
+            "menu-item#category-freedom-Camisas-M",
+            "menu-item#category-freedom-camisetas-M",
+            "menu-item#category-freedom-chaquetas-M",
+            "menu-item#category-freedom-chalecos-M",
+            "menu-item#category-freedom-Jeans-M",
+            "menu-item#category-freedom-joggers-M",
+            "menu-item#category-freedom-medias-M",
+            "menu-item#category-freedom-pantalones-M",
+            "menu-item#category-freedom-bermudas-M",
+            "menu-item#category-freedom-polos-M",
+            "menu-item#category-freedom-ropaInt-M",
+            "menu-item#category-freedom-sweaters-M",
+            "menu-item#category-freedom-botas-h-M",
+            "menu-item#category-freedom-tenis-h-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+        
+    },
+    // items del sub menu ropa
+    "menu-item#category-freedom-blazzer-M": {
+        "props": {
+          "id": "menu-item-category-blazzer",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blazzers",
+            "text": "Blazzers"
+            }
+        }
+    },
+    "menu-item#category-freedom-buzos-M": {
+        "props": {
+          "id": "menu-item-category-buzos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-freedom-Camisas-M": {
+        "props": {
+          "id": "menu-item-category-camisas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisas",
+            "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#category-freedom-camisetas-M": {
+        "props": {
+          "id": "menu-item-category-camisetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-freedom-chaquetas-M": {
+        "props": {
+          "id": "menu-item-category-chaquetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-freedom-chalecos-M": {
+        "props": {
+          "id": "menu-item-category-chalecos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chalecos",
+            "text": "Chalecos"
+            }
+        }
+    },
+    "menu-item#category-freedom-Jeans-M": {
+        "props": {
+          "id": "menu-item-category-Jeans",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#category-freedom-joggers-M": {
+        "props": {
+          "id": "menu-item-category-joggers",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Joggers",
+            "text": "Joggers"
+            }
+        }
+    },
+    "menu-item#category-freedom-medias-M": {
+        "props": {
+          "id": "menu-item-category-medias",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    "menu-item#category-freedom-pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-freedom-bermudas-M": {
+        "props": {
+          "id": "menu-item-category-Bermudas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalonetas y Bermudas",
+            "text": "Pantalonetas y Bermudas"
+            }
+        }
+    },
+    "menu-item#category-freedom-polos-M": {
+        "props": {
+          "id": "menu-item-category-polos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Polos",
+            "text": "Polos"
+            }
+        }
+    },
+    "menu-item#category-freedom-ropaInt-M": {
+        "props": {
+          "id": "menu-item-category-ropaInt",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa Interior",
+            "text": "Ropa Interior"
+            }
+        }
+    },
+    "menu-item#category-freedom-sweaters-M": {
+        "props": {
+          "id": "menu-item-category-sweaters",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sweaters",
+            "text": "Sweaters"
+            }
+        }
+    },
+    "menu-item#category-freedom-botas-h-M": {
+        "props": {
+          "id": "menu-item-category-botas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Botas",
+            "text": "Botas"
+            }
+        }
+    },
+    "menu-item#category-freedom-tenis-h-M": {
+        "props": {
+          "id": "menu-item-category-tenis",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#category-freedom-pijama-M": {
+        "props": {
+          "id": "menu-item-category-pijama",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+            }
+        }
+    },
+    "menu-item#category-freedom-camisillas-M": {
+        "props": {
+          "id": "menu-item-category-camisillas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisillas",
+            "text": "Camisillas"
+            }
+        }
+    },
+    // declaracion sub menu mujer
+    "menu-item#category-freedom-mujer-M": {
+        "props": {
+            "id": "menu-item-category-mujer",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Mujer",
+                "text": "Mujer"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#freedom-principal-mujer"   
+        ]
+    },
+    "submenu.accordion#freedom-principal-mujer":{
+        "children":[
+            "menu#freedom-principal-mujer"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu mujer
+   "menu#freedom-principal-mujer":{
+        "children":[
+            "menu-item#category-freedom-m--bluzas-M",
+            "menu-item#category-freedom-m--buzos-M",
+            "menu-item#category-freedom-m--camisetas-M",
+            "menu-item#category-freedom-m--chalecos-M",
+            "menu-item#category-freedom-m--chaquetas-M",
+            "menu-item#category-freedom-m--faldas-M",
+            "menu-item#category-freedom-m--Jeans-M",
+            "menu-item#category-freedom-m--medias-M",
+            "menu-item#category-freedom-m--pantalones-M",
+            "menu-item#category-freedom-m--shorts-M",
+            "menu-item#category-freedom-m--vestidos-M",
+            "menu-item#category-freedom-m--botas-M",
+            "menu-item#category-freedom-m--tenis-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu mujer
+    "menu-item#category-freedom-m--bluzas-M": {
+        "props": {
+          "id": "menu-item-category-Bluzas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bluzas y camisas",
+            "text": "Bluzas y camisas"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--buzos-M": {
+        "props": {
+          "id": "menu-item-category-buzos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--camisetas-M": {
+        "props": {
+          "id": "menu-item-category-camisetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--chalecos-M": {
+        "props": {
+          "id": "menu-item-category-chalecos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chalecos",
+            "text": "Chalecos"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--chaquetas-M": {
+        "props": {
+          "id": "menu-item-category-chaquetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--faldas-M": {
+        "props": {
+          "id": "menu-item-category-faldas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Faldas",
+            "text": "Faldas"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--Jeans-M": {
+        "props": {
+          "id": "menu-item-category-Jeans",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--medias-M": {
+        "props": {
+          "id": "menu-item-category-medias",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--shorts-M": {
+        "props": {
+          "id": "menu-item-category-shorts",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--vestidos-M": {
+        "props": {
+          "id": "menu-item-category-vestidos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vestidos y enterizos",
+            "text": "Vestidos y enterizos"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--botas-M": {
+        "props": {
+          "id": "menu-item-category-botas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Botas",
+            "text": "Botas"
+            }
+        }
+    },
+    "menu-item#category-freedom-m--tenis-M": {
+        "props": {
+          "id": "menu-item-category-tenis",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    // declaracion sub menu accesorios
+    "menu-item#category-freedom-acce-M": {
+        "props": {
+            "id": "menu-item-category-acce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#freedom-principal-acce"   
+        ]
+    },
+    "submenu.accordion#freedom-principal-acce":{
+        "children":[
+            "menu#freedom-principal-acce"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#freedom-principal-acce":{
+        "children":[
+            "menu-item#category-freedom-cinturones-M",
+            "menu-item#category-freedom-gorras-M",
+            "menu-item#category-freedom-llaveros-M",
+            "menu-item#category-freedom-morrales-M",
+            "menu-item#category-freedom-pulseras-M",
+            "menu-item#category-freedom-tapabocas-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-freedom-cinturones-M": {
+        "props": {
+            "id": "menu-item-category-cinturones",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Cinturones",
+            "text": "Cinturones"
+            }
+        }
+    },
+    "menu-item#category-freedom-gorras-M": {
+        "props": {
+            "id": "menu-item-category-gorras",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gorras",
+            "text": "Gorras"
+            }
+        }
+    },
+    "menu-item#category-freedom-llaveros-M": {
+        "props": {
+            "id": "menu-item-category-llaveros",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Llaveros",
+            "text": "Llaveros"
+            }
+        }
+    },
+    "menu-item#category-freedom-morrales-M": {
+        "props": {
+            "id": "menu-item-category-morrales",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Morrales y bolsos",
+            "text": "Morrales y bolsos"
+            }
+        }
+    },
+    "menu-item#category-freedom-pulseras-M": {
+        "props": {
+            "id": "menu-item-category-pulseras",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pulseras y brazaletes",
+            "text": "Pulseras y brazaletes"
+            }
+        }
+    },
+    "menu-item#category-freedom-tapabocas-M": {
+        "props": {
+            "id": "menu-item-category-tapabocas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tapabocas",
+            "text": "Tapabocas"
+            }
+        }
+    }
+}

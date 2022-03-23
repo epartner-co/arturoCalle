@@ -1,0 +1,724 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#nina-principal":{
+        "children":[
+            "menu#nina-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#nina-principal":{
+        "children":[
+            "menu-item#category-nina-nuevos-M",
+            "menu-item#category-nina-bono-M",
+            "menu-item#category-nina-oferta-M",
+            "menu-item#category-nina-ropa-M",
+            "menu-item#category-nina-zapatos-M",
+            "menu-item#category-nina-acce-M",
+            "menu-item#category-nina-coleccion-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-nina-nuevos-M": {
+        "props": {
+          "id": "menu-item-category-nuevos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Nuevos",
+            "text": "Nuevos"
+            }
+        }
+    },
+    "menu-item#category-nina-bono-M": {
+        "props": {
+          "id": "menu-item-category-bono",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bono regalo",
+            "text": "Bono regalo"
+            }
+        }
+    },
+    "menu-item#category-nina-oferta-M": {
+        "props": {
+          "id": "menu-item-category-oferta",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Oferta",
+            "text": "Oferta"
+            }
+        }
+    },
+    // menu items que poseen un sub menu
+     // declaracion sub menu
+     "menu-item#category-nina-ropa-M": {
+        "props": {
+          "id": "menu-item-category-ropa",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nina-principal-ropa"   
+        ]
+    },
+    "submenu.accordion#nina-principal-ropa":{
+        "children":[
+            "menu#nina-principal-ropa"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+    // agrupacion de los items del submenu ropa
+    "menu#nina-principal-ropa":{
+        "children":[
+            "menu-item#category-nina-buzos-M",
+            "menu-item#category-nina-blusas-M",
+            "menu-item#category-nina-camisetas-M",
+            "menu-item#category-nina-chaquetas-M",
+            "menu-item#category-nina-sweaters-M",
+            "menu-item#category-nina-vestidos-M",
+            "menu-item#category-nina-faldas-M",
+            "menu-item#category-nina-pantalones-M",
+            "menu-item#category-nina-pijama-M",
+            "menu-item#category-nina-shorts-M",
+            "menu-item#category-nina-ropaInt-M",
+            "menu-item#category-nina-medias-M",
+            "menu-item#category-nina-banio-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+        
+    },
+    // items del sub menu ropa
+    "menu-item#category-nina-buzos-M": {
+        "props": {
+          "id": "menu-item-category-buzos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-nina-blusas-M": {
+        "props": {
+          "id": "menu-item-category-blusas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blusas y camisas",
+            "text": "Blusas y camisas"
+            }
+        }
+    },
+    "menu-item#category-nina-camisetas-M": {
+        "props": {
+          "id": "menu-item-category-camisetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-nina-chaquetas-M": {
+        "props": {
+          "id": "menu-item-category-chaquetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-nina-sweaters-M": {
+        "props": {
+          "id": "menu-item-category-sweaters",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sweaters y cardigans",
+            "text": "Sweaters y cardigans"
+            }
+        }
+    },
+    "menu-item#category-nina-vestidos-M": {
+        "props": {
+          "id": "menu-item-category-vestidos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vestidos y enterizos",
+            "text": "Vestidos y enterizos"
+            }
+        }
+    },
+    "menu-item#category-nina-faldas-M": {
+        "props": {
+          "id": "menu-item-category-faldas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Faldas",
+            "text": "Faldas"
+            }
+        }
+    },
+    "menu-item#category-nina-pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-nina-pijama-M": {
+        "props": {
+          "id": "menu-item-category-pijama",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+            }
+        }
+    },
+    "menu-item#category-nina-shorts-M": {
+        "props": {
+          "id": "menu-item-category-shorts",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+            }
+        }
+    },
+    "menu-item#category-nina-ropaInt-M": {
+        "props": {
+          "id": "menu-item-category-ropa",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa Interior",
+            "text": "Ropa interior"
+            }
+        }
+    },
+    "menu-item#category-nina-medias-M": {
+        "props": {
+          "id": "menu-item-category-medias",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    "menu-item#category-nina-banio-M": {
+        "props": {
+          "id": "menu-item-category-banio",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vestidos de baño",
+            "text": "Vestidos de baño"
+            }
+        }
+    },
+    // declaracion sub menu zapatos
+    "menu-item#category-nina-zapatos-M": {
+        "props": {
+            "id": "menu-item-category-zapatos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Zapatos",
+                "text": "Zapatos"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nina-principal-zapatos"   
+        ]
+    },
+    "submenu.accordion#nina-principal-zapatos":{
+        "children":[
+            "menu#nina-principal-zapatos"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu zapatos
+   "menu#nina-principal-zapatos":{
+        "children":[
+            "menu-item#category-nina-batas-M",
+            "menu-item#category-nina-tenis-M",
+            "menu-item#category-nina-sandalias-M",
+            "menu-item#category-nina-colegialas-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu zapatos
+    "menu-item#category-nina-batas-M": {
+        "props": {
+            "id": "menu-item-category-batas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Botas",
+            "text": "Botas"
+            }
+        }
+    },
+    "menu-item#category-nina-tenis-M": {
+        "props": {
+            "id": "menu-item-category-tenis",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#category-nina-sandalias-M": {
+        "props": {
+            "id": "menu-item-category-sandalias",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-nina-colegialas-M": {
+        "props": {
+            "id": "menu-item-category-colegialas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Colegialas",
+            "text": "Colegialas"
+            }
+        }
+    },
+    // declaracion sub menu accesorios
+    "menu-item#category-nina-acce-M": {
+        "props": {
+            "id": "menu-item-category-acce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nina-principal-acce"   
+        ]
+    },
+    "submenu.accordion#nina-principal-acce":{
+        "children":[
+            "menu#nina-principal-acce"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#nina-principal-acce":{
+        "children":[
+            "menu-item#category-nina-balacas-M",
+            "menu-item#category-nina-bufandas-M",
+            "menu-item#category-nina-gorras-M",
+            "menu-item#category-nina-esmalte-M",
+            "menu-item#category-nina-maletasloncheras-M",
+            "menu-item#category-nina-tapabocas-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-nina-balacas-M": {
+        "props": {
+            "id": "menu-item-category-balacas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Balacas",
+            "text": "Balacas"
+            }
+        }
+    },
+    "menu-item#category-nina-bufandas-M": {
+        "props": {
+            "id": "menu-item-category-bolsos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bufandas y cuellos",
+            "text": "Bufandas y cuellos"
+            }
+        }
+    },
+    "menu-item#category-nina-gorras-M": {
+        "props": {
+            "id": "menu-item-category-gorras",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gorras y sombreros",
+            "text": "Gorros y sombreros"
+            }
+        }
+    },
+    "menu-item#category-nina-esmalte-M": {
+        "props": {
+            "id": "menu-item-category-esmalte",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Esmalte",
+            "text": "Esmalte"
+            }
+        }
+    },
+    "menu-item#category-nina-maletasloncheras-M": {
+        "props": {
+            "id": "menu-item-category-maletas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Maletas y lonchera",
+            "text": "Maletas y lonchera"
+            }
+        }
+    },
+    "menu-item#category-nina-tapabocas-M": {
+        "props": {
+            "id": "menu-item-category-tapabocas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tapabocas",
+            "text": "Tapabocas"
+            }
+        }
+    },
+    // declaracion sub menu coleccion
+    "menu-item#category-nina-coleccion-M": {
+        "props": {
+            "id": "menu-item-category-coleccion",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Colección",
+                "text": "Colección"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nina-principal-coleccion"   
+        ]
+    },
+    "submenu.accordion#nina-principal-coleccion":{
+        "children":[
+            "menu#nina-principal-coleccion"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#nina-principal-coleccion":{
+    "children":[
+        "menu-item#category-nina-bosque-M",
+        "menu-item#category-nina-comfort-M",
+        "menu-item#category-nina-intensamente-M",
+        "menu-item#category-nina-gamer-M",
+        "menu-item#category-nina-eco-M",
+        "menu-item#category-nina-madre-M"
+    ],
+    "props":{
+        "orientation": "vertical",
+        "blockClass":"submenu-sub"
+    }
+},
+// items del sub menu accesorios
+"menu-item#category-nina-bosque-M": {
+    "props": {
+        "id": "menu-item-category-bosque",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Bosque encantado",
+        "text": "Bosque encantado"
+        }
+    }
+},
+"menu-item#category-nina-comfort-M": {
+    "props": {
+        "id": "menu-item-category-comfort",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Comfort",
+        "text": "Comfort"
+        }
+    }
+},
+"menu-item#category-nina-intensamente-M": {
+    "props": {
+        "id": "menu-item-category-int",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Intesamente",
+        "text": "Intensamente"
+        }
+    }
+},
+"menu-item#category-nina-gamer-M": {
+    "props": {
+        "id": "menu-item-category-gamer",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Gamer",
+        "text": "Gamer"
+        }
+    }
+},
+"menu-item#category-nina-eco-M": {
+    "props": {
+        "id": "menu-item-category-eco",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Eco",
+        "text": "Eco"
+        }
+    }
+},
+"menu-item#category-nina-madre-M": {
+    "props": {
+        "id": "menu-item-category-padre",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Madre e hijo",
+        "text": "Madre e hijo"
+        }
+    }
+}
+}

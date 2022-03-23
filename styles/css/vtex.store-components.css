@@ -83,9 +83,9 @@
   padding-top: 0px;
 }
 
-/*----------------------------------------*/
-/*      Imagenes al lado del mini cart   */
-/*--------------------------------------*/
+/*-------------------------------------*/
+/*imagenes al lado del mini cart       */
+/*-------------------------------------*/
 
 .imageElement--minicart-home-bolsa{
   width: 30px;
@@ -95,7 +95,7 @@
   width: 30px;
 }
 
-/*>>> Cierre Imagenes al lado del mini cart*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<*/
 
 .imageElement--storePrint {
   max-height: 300px;
@@ -335,7 +335,6 @@ input#downshift-1-input {
 }
 /* >>>>>>>>>>>>Cierre de Orden de lupa y buscador*/
 
-
 /*----------------------------------------------*/
 /* flecha footer hacia abajo                    */
 /*----------------------------------------------*/
@@ -377,3 +376,187 @@ input#downshift-1-input {
   opacity: 0.3;
 }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
+
+
+/*--------------------------------------------*/
+/* menu header                                */
+/*-------------------------------------------*/
+/*menu contactanos--telefono*/
+.imageElement--imagen--telefono{
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+/*whatsapp menu contactanos */
+.imageElement--whatsapp--logo{
+  position: absolute;
+  left: 27px;
+  top: 13px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*----------------------------------*/
+/* payu logo                        */
+/*----------------------------------*/
+
+.imageElement--logo--payu{
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
+
+
+/*----------------------------------*/
+/*        seccion hombre            */
+/*----------------------------------*/
+
+.imageElement--hombre__part--1{
+  width: 100%;
+}
+
+
+/* imagenes collage seccion hombre*/
+.imageElement--hombre__part--2--img1{
+  border-left: 8px solid #fff;
+}
+
+.imageElement--hombre__part--2--img2{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img3{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img4{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img5{
+  border-left: 8px solid #fff;
+}
+.imageElement--hombre__part--2--img5{
+  margin-left: 23px;
+  height: 91%;
+  width: 96%;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*----------------------------------*/
+/*        seccion niño            */
+/*----------------------------------*/
+
+.imageElement--nino__part--1{
+  width: 100%;
+}
+
+
+/* imagenes collage seccion hombre*/
+.imageElement--nino__part--2--img1{
+  border-left: 8px solid #fff;
+}
+
+.imageElement--nino__part--2--img2{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img3{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img4{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img5{
+  border-left: 8px solid #fff;
+}
+.imageElement--nino__part--2--img5{
+  margin-left: 23px;
+  height: 92%;
+  width: 96%;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-----------------------------------*/
+/*   visualizacion del producto Estilos Producto Sección Contenido AC */
+/*----------------------------------*/
+
+.productNameContainer--quickview :global(.vtex-store-components-3-x-productBrand){
+  color: #181e2a;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  font-weight: 700;
+}
+
+
+.skuSelectorNameContainer{
+  position: relative;
+  margin-top: 17px;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*-----------------------------------*/
+/* nueva vista hombre                */
+/*-----------------------------------*/
+
+.infoCardContainer--info-card-home{
+  background-image: url(https://callearturop.vteximg.com.br/arquivos/Banner-principalDESK-100.jpg);
+  background-size: cover;
+}
+
+.infoCardImage--info-card-home{
+  display: none;  /*toco quitar la imagen del primer info-card a la fuerza*/
+}
+
+.infoCardTextContainer--info-card-home{
+  display: none; /*toco quitar el texto del primer info-card a la fuerza*/
+
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>*/
+
+/*-----------------------------------*/
+/* vista productos                   */
+/*-----------------------------------*/
+
+.productImagesContainer--list{
+  display: flex;/*convierte product image en un flex y le pone la propiedad wrap para organizarlos uno al lado del otro*/
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.productImagesContainer--list :global(.vtex-store-components-3-x-productImage):last-child{/*mueve el ultimo hijo de las imagenes de product image...(imagenes de los productos)... al centro*/
+  position: relative;
+  left: 28px;
+}
+
+.productImage{
+  overflow:hidden;
+}
+
+.productImage :global(.vtex-store-components-3-x-productImageTag){
+  overflow:hidden;
+  transition: transform .2s;  /*easyzoom*/
+}
+
+.productImage :global(.vtex-store-components-3-x-productImageTag):hover {
+  transform: scale(1.5); 
+}
+
+.skuSelectorOptionsList{/*diferentes opciones de productos---se colocan los que estan cargados en el sistema*/
+  position: relative;
+  top: -38px;
+  left: 54px;
+}
+
+.imageElement--Descripcion--producto--suma--imag{
+  margin-top: 8px;
+  margin-left: 58px;
+}
+/*-----------------------------------*/
+
+

@@ -183,6 +183,17 @@
   height: 35px;
 }
 
+
+/*----------------------------------*/
+/*      estilos mini cart           */
+/*----------------------------------*/
+.flexRow--minicart-footer{
+  width: 365px;
+  background-color: #181e2a;
+  margin-left: -17px;
+  margin-bottom: -10px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*----------------------------------*/
 /*flex layout iconos redes sociales */
 /*----------------------------------*/
@@ -192,3 +203,329 @@
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
+
+/*--------------------------------*/
+/* whatsap datos meno contactanos */
+/*--------------------------------*/
+
+.flexRow--whatsapp--datos{
+  position: absolute;
+  left: 13px;
+  top: 276px;
+  background: #ECECEC;
+  width: 280px;
+  height: 74px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------*/
+/* terminos y condiciones footer con logo payu*/
+/*------------------------------*/
+.flexRow--terminos--y--logo{
+  margin-left: 204px;
+  margin-bottom: -14px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*------------------------------*/
+/* vitrina                      */
+/*------------------------------*/
+
+/*espacio total de la vitrina en pantalla*/
+.flexRow--product-main{
+  width: 96%;
+
+}
+
+
+/*titulo vitrina*/
+
+
+.flexCol--titleS-columna--1{
+  background: black;
+  margin-left: 147px;
+  margin-top: 44px;
+  margin-right: -115px;
+  height: 1px;
+}
+
+.flexCol--titleS-titulo{
+  margin-left: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.flexCol--titleS-columna--2{
+  background: black;
+  margin-left: 0px;
+  margin-top: 44px;
+  margin-right: 130px;
+  height: 1px;
+}
+
+.flexRow--titleS{
+  margin-top: -22px;
+  margin-bottom: -32px;
+}
+/*------------------------------------------------------------------------------------*/
+
+.flexCol--productRating{
+  margin-bottom: 1rem !important; /*si hay problemas con otras margenes...se puede quitar este...es una idea inicial*/
+}
+
+.flexRow :global(.vtex-product-price-1-x-sellingPrice){
+  margin-left: 15px;
+  margin-top: -8px; /*se utilizo para mover el precio a la mitad de la imagen... si causa algun problema en las margenes se puede quitar*/
+}
+/*------------------------------*/
+
+
+/*--- tamaño slider           ---*/
+
+.flexRow :global(.vtex-slider-layout-0-x-sliderLayoutContainer){/*cin esto se modifica el tamaño del slider, si hay problemas se puede quitar*/
+  width: 1108px;
+}
+
+/*-------------------------------*/
+
+
+/*-------------------------------*/
+/* hombre  collage imagenes      */
+/*-------------------------------*/
+
+.flexRow--hombre__part--2{
+  width: 65%;
+  margin-left: 16%;
+  margin-top: 5%;
+}
+
+
+.flexColChild--hombre__part--2--block1 :global(.vtex-flex-layout-0-x-flexRowContent){
+  flex-wrap: wrap;
+}
+
+.flexColChild--hombre__part--2--block1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 13rem !important;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------*/
+/* niño  collage imagenes      */
+/*-------------------------------*/
+
+.flexRow--nino__part--2{
+  width: 65%;
+  margin-left: 16%;
+  margin-top: 5%;
+}
+
+
+.flexColChild--nino__part--2--block1 :global(.vtex-flex-layout-0-x-flexRowContent){
+  flex-wrap: wrap;
+}
+
+.flexColChild--nino__part--2--block1 :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  width: 13rem !important;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*-------------------------------*/
+/* parte en la que se elige los detalles del producto...talla... se ven las fotos en fila...
+Estilos Producto Sección Contenido AC*/
+/*-------------------------------*/
+
+.flexRow--selling-price{
+  margin-left: -14px;
+  margin-top: -34px;
+}
+
+
+.flexCol--Descripcion :global(.vtex-disclosure-layout-1-x-trigger){
+  background: #181e2a;
+  width: 100%;
+  height: 38px
+}
+
+.flexCol--Descripcion{
+  position:relative;
+}
+
+
+.flexCol--detalles--de--producto{
+  margin-top: 4px;
+  position:relative;
+}
+
+.flexCol--detalles--de--producto :global(.vtex-disclosure-layout-1-x-trigger){
+  background: #181e2a;
+  width: 100%; /*llena el 100% del espacio del trigger...para que el boton + quede lejos del texto*/
+  height: 38px
+}
+
+.flexCol--Recomendaciones--de--cuidado{
+  margin-top: 8px;
+  position:relative;
+}
+
+.flexCol--Recomendaciones--de--cuidado :global(.vtex-disclosure-layout-1-x-trigger){
+  background: #181e2a;
+  width: 100%;
+  height: 38px
+}
+
+.flexCol--product-identifier--ref{
+  margin-top: -7px;
+}
+
+.flexRow--selling-price :global(.vtex-product-price-1-x-sellingPriceValue){
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.flexRow--buy-button-row{
+  border: 2px solid #EB921A;
+  background: #EB921A;
+  height: 68px;
+  margin-bottom: 10px;
+}
+
+.flexRow--product-quantity--opciones{
+  background: white;
+    width: 134px;
+    height: 42px;
+}
+
+.flexColChild--product-quantity--opciones--titulo{
+  margin-top: 5px;
+  margin-left: 9px;
+}
+
+.flexColChild--product-quantity--opciones--cantidad{
+  margin-top: 5px;
+  margin-left: -26px;
+}
+
+.flexCol--add-to-cart-button :global(.vtex-button){
+  background: transparent;
+  border: transparent;
+}
+
+.flexColChild--add-to-cart-button :global(.vtex-add-to-cart-button-0-x-buttonText){
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 2px;
+}
+
+.flexCol--iconos--productos--info{
+  display: flex;
+  align-items: center;
+  height: 96px;
+}
+
+
+
+/*suscribirse*/
+
+.flexRowContent--suscribete--seccion{
+  width: 1262px;
+  margin-left: 38px;
+}
+
+.flexColChild--suscribete--seccion--text{
+  margin-left: 68px;
+}
+
+.flexCol--newsletter-form--columna{
+  width: 100%;
+  margin-bottom: 39px;
+}
+
+.flexColChild--newsletter-form--columna{
+  width: 100%;
+}
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------*/
+/*footer                          */
+/*--------------------------------*/
+
+/*suscribete*/
+
+.flexCol--newsletter-form--columna--footer{
+  width: 270px;
+  margin-bottom: 39px;
+}
+
+.flexColChild--newsletter-form--columna--footer{
+  width: 100%;
+}
+
+/*-------------------------------*/
+
+
+/*-----------------------------------*/
+/*      paginas estaticas            */
+/*-----------------------------------*/
+
+/*autorizacion-tratamiento-datos-personales*/
+.flexRow--informacion--autorizacion-tratamiento-datos-personales{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexCol--list{
+  margin-left: 23px;
+}
+
+/*punto en la lista (viñeta)*/
+.flexColChild--list-item--img{
+  display: flex;
+    align-items: center;
+}
+
+.flexRow--list-item{
+  margin-bottom: -24px;
+}
+
+/*preguntas frecuentes*/
+
+.flexRow--informacion--preguntas-frecuentes{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexColChild--colomnas--preguntas--frecuentes :global(.vtex-disclosure-layout-1-x-trigger){
+  width: 100%;
+  background: #f8f8f8;
+  border: 1px solid #ececec;
+}
+
+.flexColChild--disclosure-state-indicator--preguntas--frecuentes{
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+/*espacio que se coloca...para que el espacio del contenido...sea suficiente para ver las respuesta*/
+.flexRow--espacio{
+  height: 24px;
+}
+
+.flexCol--respuesta--columna--n{
+  border: 1px solid #ececec;
+}
+
+.flexColChild--respuesta--columna--n{
+  width: 96%;
+  margin-left: 14px;
+}
+/*-----------------------------------*/

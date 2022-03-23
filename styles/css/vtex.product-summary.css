@@ -40,3 +40,21 @@
 .image {
   border-radius: 0.25rem;
 }
+
+/*------------------------------------------*/
+/* arrglando los productos vitrinas         */
+/*------------------------------------------*/
+.nameContainer--product-summary-name{
+  margin-top: 43px;
+  margin-left: 19px;
+}
+.nameContainer--product-summary-name :global(.vtex-product-summary-2-x-productBrand){
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.nameContainer--product-summary-name :global(.vtex-product-summary-2-x-productNameContainer--product-summary-name){
+  text-align:center;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

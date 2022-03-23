@@ -1,0 +1,148 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#viaje-principal":{
+        "children":[
+            "menu#viaje-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#viaje-principal":{
+        "children":[
+            "menu-item#category-viaje-maletasViajes-M",
+            "menu-item#category-viaje-acceso-M",
+            "menu-item#category-viaje-maletines-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-viaje-acceso-M": {
+        "props": {
+          "id": "menu-item-category-acceso",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Accedorios de viaje",
+            "text": "Accedorios de viaje"
+            }
+        }
+    },
+    "menu-item#category-viaje-maletines-M": {
+        "props": {
+          "id": "menu-item-category-maletinces",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Maletines y morrales",
+            "text": "Maletines y morrales"
+            }
+        }
+    },
+    // menu items que poseen un sub menu
+     // declaracion sub menu
+     "menu-item#category-viaje-maletasViajes-M": {
+        "props": {
+          "id": "menu-item-category-maletas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Malestas de viaje",
+            "text": "Maletas de viaje"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#viaje-principal-maletas"   
+        ]
+    },
+    "submenu.accordion#viaje-principal-maletas":{
+        "children":[
+            "menu#viaje-principal-maletas"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+    // agrupacion de los items del submenu ropa
+    "menu#viaje-principal-maletas":{
+        "children":[
+            "menu-item#category-viaje-maletasG-M",
+            "menu-item#category-viaje-maletasm-M",
+            "menu-item#category-viaje-maletasp-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+        
+    },
+    // items del sub menu ropa
+    "menu-item#category-viaje-maletasG-M": {
+        "props": {
+          "id": "menu-item-category-maletas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Maletas Grandes",
+            "text": "Maletas Grandes"
+            }
+        }
+    },
+    "menu-item#category-viaje-maletasm-M": {
+        "props": {
+          "id": "menu-item-category-maletas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Maletas medianas",
+            "text": "Maletas medianas"
+            }
+        }
+    },
+    "menu-item#category-viaje-maletasp-M": {
+        "props": {
+          "id": "menu-item-category-maletasp",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Maletas pequeñas",
+            "text": "Maletas pequeñas"
+            }
+        }
+    }
+}

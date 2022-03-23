@@ -1,0 +1,758 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#nino-principal":{
+        "children":[
+            "menu#nino-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#nino-principal":{
+        "children":[
+            "menu-item#category-nino-nuevos-M",
+            "menu-item#category-nino-bono-M",
+            "menu-item#category-nino-oferta-M",
+            "menu-item#category-nino-ropa-M",
+            "menu-item#category-nino-zapatos-M",
+            "menu-item#category-nino-acce-M",
+            "menu-item#category-nino-coleccion-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-nino-nuevos-M": {
+        "props": {
+          "id": "menu-item-category-nuevos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Nuevos",
+            "text": "Nuevos"
+            }
+        }
+    },
+    "menu-item#category-nino-bono-M": {
+        "props": {
+          "id": "menu-item-category-bono",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bono regalo",
+            "text": "Bono regalo"
+            }
+        }
+    },
+    "menu-item#category-nino-oferta-M": {
+        "props": {
+          "id": "menu-item-category-oferta",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Oferta",
+            "text": "Oferta"
+            }
+        }
+    },
+    // menu items que poseen un sub menu
+    // declaracion sub menu
+     "menu-item#category-nino-ropa-M": {
+        "props": {
+          "id": "menu-item-category-ropa",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nino-principal-ropa"   
+        ]
+    },
+    "submenu.accordion#nino-principal-ropa":{
+        "children":[
+            "menu#nino-principal-ropa"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+    // agrupacion de los items del submenu ropa
+    "menu#nino-principal-ropa":{
+        "children":[
+            "menu-item#category-nino-blazzer-M",
+            "menu-item#category-nino-buzos-M",
+            "menu-item#category-nino-Camisas-M",
+            "menu-item#category-nino-camisetas-M",
+            "menu-item#category-nino-polos-M",
+            "menu-item#category-nino-chaquetas-M",
+            "menu-item#category-nino-sweaters-M",
+            "menu-item#category-nino-Jeans-M",
+            "menu-item#category-nino-pantalones-M",
+            "menu-item#category-nino-bermudas-M",
+            "menu-item#category-nino-pantalonetas-M",
+            "menu-item#category-nino-pijama-M",
+            "menu-item#category-nino-ropaInt-M",
+            "menu-item#category-nino-medias-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+        
+    },
+    // items del sub menu ropa
+    "menu-item#category-nino-blazzer-M": {
+        "props": {
+          "id": "menu-item-category-blazzer",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blazzers",
+            "text": "Blazzers"
+            }
+        }
+    },
+    "menu-item#category-nino-buzos-M": {
+        "props": {
+          "id": "menu-item-category-buzos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-nino-Camisas-M": {
+        "props": {
+          "id": "menu-item-category-camisas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisas",
+            "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#category-nino-camisetas-M": {
+        "props": {
+          "id": "menu-item-category-camisetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-nino-polos-M": {
+        "props": {
+          "id": "menu-item-category-polos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Polos",
+            "text": "Polos"
+            }
+        }
+    },
+    "menu-item#category-nino-chaquetas-M": {
+        "props": {
+          "id": "menu-item-category-chaquetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-nino-sweaters-M": {
+        "props": {
+          "id": "menu-item-category-sweaters",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sweaters",
+            "text": "Sweaters"
+            }
+        }
+    },
+    "menu-item#category-nino-Jeans-M": {
+        "props": {
+          "id": "menu-item-category-Jeans",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#category-nino-pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-nino-bermudas-M": {
+        "props": {
+          "id": "menu-item-category-Bermudas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bermudas",
+            "text": "Bermudas"
+            }
+        }
+    },
+    "menu-item#category-nino-pantalonetas-M": {
+        "props": {
+          "id": "menu-item-category-pantalonetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalonetas de baño",
+            "text": "Pantalonetas de baño"
+            }
+        }
+    },
+    "menu-item#category-nino-pijama-M": {
+        "props": {
+          "id": "menu-item-category-pijama",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+            }
+        }
+    },
+    "menu-item#category-nino-ropaInt-M": {
+        "props": {
+          "id": "menu-item-category-ropaInt",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa Interior",
+            "text": "Ropa Interior"
+            }
+        }
+    },
+    "menu-item#category-nino-medias-M": {
+        "props": {
+          "id": "menu-item-category-medias",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    // declaracion sub menu zapatos
+    "menu-item#category-nino-zapatos-M": {
+        "props": {
+            "id": "menu-item-category-zapatos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Zapatos",
+                "text": "Zapatos"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nino-principal-zapatos"   
+        ]
+    },
+    "submenu.accordion#nino-principal-zapatos":{
+        "children":[
+            "menu#nino-principal-zapatos"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu zapatos
+   "menu#nino-principal-zapatos":{
+        "children":[
+            "menu-item#category-nino-tenis-M",
+            "menu-item#category-nino-zapatos-all-M",
+            "menu-item#category-nino-sandalias-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu zapatos
+    "menu-item#category-nino-tenis-M": {
+        "props": {
+            "id": "menu-item-category-tenis",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#category-nino-zapatos-all-M": {
+        "props": {
+            "id": "menu-item-category-zapa",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-nino-sandalias-M": {
+        "props": {
+            "id": "menu-item-category-sandalias",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    // declaracion sub menu accesorios
+    "menu-item#category-nino-acce-M": {
+        "props": {
+            "id": "menu-item-category-acce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nino-principal-acce"   
+        ]
+    },
+    "submenu.accordion#nino-principal-acce":{
+        "children":[
+            "menu#nino-principal-acce"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#nino-principal-acce":{
+        "children":[
+            "menu-item#category-nino-bufandas-M",
+            "menu-item#category-nino-correas-M",
+            "menu-item#category-nino-corbatasCorbatines-M",
+            "menu-item#category-nino-gafassol-M",
+            "menu-item#category-nino-gorrasgorros-M",
+            "menu-item#category-nino-morrales-M",
+            "menu-item#category-nino-perfumes-M",
+            "menu-item#category-nino-tapabocas-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-nino-bufandas-M": {
+        "props": {
+            "id": "menu-item-category-bufandas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bufandas",
+            "text": "Bufandas"
+            }
+        }
+    },
+    "menu-item#category-nino-correas-M": {
+        "props": {
+            "id": "menu-item-category-correas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Correas",
+            "text": "Correas"
+            }
+        }
+    },
+    "menu-item#category-nino-corbatasCorbatines-M": {
+        "props": {
+            "id": "menu-item-category-corbatas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Corbatas y corbatines",
+            "text": "Corbatas y corbatines"
+            }
+        }
+    },
+    "menu-item#category-nino-gafassol-M": {
+        "props": {
+            "id": "menu-item-category-gafassol",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gafas de sol",
+            "text": "Gafas de sol"
+            }
+        }
+    },
+    "menu-item#category-nino-gorrasgorros-M": {
+        "props": {
+            "id": "menu-item-category-gorros",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gorras y gorras",
+            "text": "Gorras y gorros"
+            }
+        }
+    },
+    "menu-item#category-nino-morrales-M": {
+        "props": {
+            "id": "menu-item-category-morrales",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Morrales y loncheras",
+            "text": "Morrales y loncheras"
+            }
+        }
+    },
+    "menu-item#category-nino-perfumes-M": {
+        "props": {
+            "id": "menu-item-category-perfumes",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Perfumes",
+            "text": "Perfumes"
+            }
+        }
+    },
+    "menu-item#category-nino-tapabocas-M": {
+        "props": {
+            "id": "menu-item-category-tapabocas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tapabocas",
+            "text": "Tapabocas"
+            }
+        }
+    },
+    // declaracion sub menu coleccion
+    "menu-item#category-nino-coleccion-M": {
+        "props": {
+            "id": "menu-item-category-coleccion",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Colección",
+                "text": "Colección"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#nino-principal-coleccion"   
+        ]
+    },
+    "submenu.accordion#nino-principal-coleccion":{
+        "children":[
+            "menu#nino-principal-coleccion"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#nino-principal-coleccion":{
+        "children":[
+            "menu-item#category-nino-bosque-M",
+            "menu-item#category-nino-comfort-M",
+            "menu-item#category-nino-intensamente-M",
+            "menu-item#category-nino-gamer-M",
+            "menu-item#category-nino-eco-M",
+            "menu-item#category-nino-padre-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-nino-bosque-M": {
+        "props": {
+            "id": "menu-item-category-bosque",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bosque encantado",
+            "text": "Bosque encantado"
+            }
+        }
+    },
+    "menu-item#category-nino-comfort-M": {
+        "props": {
+            "id": "menu-item-category-comfort",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Comfort",
+            "text": "Comfort"
+            }
+        }
+    },
+    "menu-item#category-nino-intensamente-M": {
+        "props": {
+            "id": "menu-item-category-int",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Intesamente",
+            "text": "Intensamente"
+            }
+        }
+    },
+    "menu-item#category-nino-gamer-M": {
+        "props": {
+            "id": "menu-item-category-gamer",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gamer",
+            "text": "Gamer"
+            }
+        }
+    },
+    "menu-item#category-nino-eco-M": {
+        "props": {
+            "id": "menu-item-category-eco",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Eco",
+            "text": "Eco"
+            }
+        }
+    },
+    "menu-item#category-nino-padre-M": {
+        "props": {
+            "id": "menu-item-category-padre",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Padre e hijo",
+            "text": "Padre e hijo"
+            }
+        }
+    }
+}

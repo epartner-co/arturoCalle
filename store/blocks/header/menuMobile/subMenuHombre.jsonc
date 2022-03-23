@@ -1,0 +1,894 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#hombre-principal":{
+        "children":[
+            "menu#hombre-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#hombre-principal":{
+        "children":[
+            "menu-item#category-hombre-nuevos-M",
+            "menu-item#category-hombre-formal-M",
+            "menu-item#category-hombre-bussines-M",
+            "menu-item#category-hombre-casual-M",
+            "menu-item#category-hombre-linos-M",
+            "menu-item#category-hombre-bono-M",
+            "menu-item#category-hombre-oferta-M",
+            "menu-item#category-hombre-ropa-M",
+            "menu-item#category-hombre-zapatos-M",
+            "menu-item#category-hombre-acce-M",
+            "menu-item#category-hombre-coleccion-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-hombre-nuevos-M": {
+        "props": {
+          "id": "menu-item-category-nuevos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Nuevos",
+            "text": "Nuevos"
+            }
+        }
+    },
+    "menu-item#category-hombre-formal-M": {
+        "props": {
+          "id": "menu-item-category-formal",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Formal",
+            "text": "Formal"
+            }
+        }
+    },
+    "menu-item#category-hombre-bussines-M": {
+        "props": {
+          "id": "menu-item-category-bs",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bussines",
+            "text": "Bussines"
+            }
+        }
+    },
+    "menu-item#category-hombre-casual-M": {
+        "props": {
+          "id": "menu-item-category-casual",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Casual",
+            "text": "Casual"
+            }
+        }
+    },
+    "menu-item#category-hombre-linos-M": {
+        "props": {
+          "id": "menu-item-category-linos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Linos",
+            "text": "Linos"
+            }
+        }
+    },
+    "menu-item#category-hombre-bono-M": {
+        "props": {
+          "id": "menu-item-category-bono",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bono regalo",
+            "text": "Bono regalo"
+            }
+        }
+    },
+    "menu-item#category-hombre-oferta-M": {
+        "props": {
+          "id": "menu-item-category-oferta",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Oferta",
+            "text": "Oferta"
+            }
+        }
+    },
+    // menu items que poseen un sub menu
+     // declaracion sub menu
+     "menu-item#category-hombre-ropa-M": {
+        "props": {
+          "id": "menu-item-category-ropa",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa",
+            "text": "Ropa"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#hombre-principal-ropa"   
+        ]
+    },
+    "submenu.accordion#hombre-principal-ropa":{
+        "children":[
+            "menu#hombre-principal-ropa"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+    // agrupacion de los items del submenu ropa
+    "menu#hombre-principal-ropa":{
+        "children":[
+            "menu-item#category-hombre-blazzer-M",
+            "menu-item#category-hombre-buzos-M",
+            "menu-item#category-hombre-Camisas-M",
+            "menu-item#category-hombre-camisetas-M",
+            "menu-item#category-hombre-polos-M",
+            "menu-item#category-hombre-chaquetas-M",
+            "menu-item#category-hombre-chalecos-M",
+            "menu-item#category-hombre-sweaters-M",
+            "menu-item#category-hombre-trajes-M",
+            "menu-item#category-hombre-Jeans-M",
+            "menu-item#category-hombre-pantalones-M",
+            "menu-item#category-hombre-bermudas-M",
+            "menu-item#category-hombre-pantalonetas-M",
+            "menu-item#category-hombre-pijama-M",
+            "menu-item#category-hombre-ropaInt-M",
+            "menu-item#category-hombre-medias-M",
+            "menu-item#category-hombre-camisillas-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+        
+    },
+    // items del sub menu ropa
+    "menu-item#category-hombre-blazzer-M": {
+        "props": {
+          "id": "menu-item-category-blazzer",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Blazzers",
+            "text": "Blazzers"
+            }
+        }
+    },
+    "menu-item#category-hombre-buzos-M": {
+        "props": {
+          "id": "menu-item-category-buzos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Buzos",
+            "text": "Buzos"
+            }
+        }
+    },
+    "menu-item#category-hombre-Camisas-M": {
+        "props": {
+          "id": "menu-item-category-camisas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisas",
+            "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#category-hombre-camisetas-M": {
+        "props": {
+          "id": "menu-item-category-camisetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisetas",
+            "text": "Camisetas"
+            }
+        }
+    },
+    "menu-item#category-hombre-polos-M": {
+        "props": {
+          "id": "menu-item-category-polos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Polos",
+            "text": "Polos"
+            }
+        }
+    },
+    "menu-item#category-hombre-chaquetas-M": {
+        "props": {
+          "id": "menu-item-category-chaquetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chaquetas",
+            "text": "Chaquetas"
+            }
+        }
+    },
+    "menu-item#category-hombre-chalecos-M": {
+        "props": {
+          "id": "menu-item-category-chalecos",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Chalecos",
+            "text": "Chalecos"
+            }
+        }
+    },
+    "menu-item#category-hombre-sweaters-M": {
+        "props": {
+          "id": "menu-item-category-sweaters",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sweaters",
+            "text": "Sweaters"
+            }
+        }
+    },
+    "menu-item#category-hombre-trajes-M": {
+        "props": {
+          "id": "menu-item-category-trajes",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Trajes",
+            "text": "Trajes"
+            }
+        }
+    },
+    "menu-item#category-hombre-Jeans-M": {
+        "props": {
+          "id": "menu-item-category-Jeans",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+            }
+        }
+    },
+    "menu-item#category-hombre-pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-hombre-bermudas-M": {
+        "props": {
+          "id": "menu-item-category-Bermudas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Bermudas",
+            "text": "Bermudas"
+            }
+        }
+    },
+    "menu-item#category-hombre-pantalonetas-M": {
+        "props": {
+          "id": "menu-item-category-pantalonetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pantalonetas",
+            "text": "Pantalonetas"
+            }
+        }
+    },
+    "menu-item#category-hombre-pijama-M": {
+        "props": {
+          "id": "menu-item-category-pijama",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+            }
+        }
+    },
+    "menu-item#category-hombre-ropaInt-M": {
+        "props": {
+          "id": "menu-item-category-ropaInt",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ropa Interior",
+            "text": "Ropa Interior"
+            }
+        }
+    },
+    "menu-item#category-hombre-medias-M": {
+        "props": {
+          "id": "menu-item-category-medias",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Medias",
+            "text": "Medias"
+            }
+        }
+    },
+    "menu-item#category-hombre-camisillas-M": {
+        "props": {
+          "id": "menu-item-category-camisillas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Camisillas",
+            "text": "Camisillas"
+            }
+        }
+    },
+    // declaracion sub menu zapatos
+    "menu-item#category-hombre-zapatos-M": {
+        "props": {
+            "id": "menu-item-category-zapatos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Zapatos",
+                "text": "Zapatos"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#hombre-principal-zapatos"   
+        ]
+    },
+    "submenu.accordion#hombre-principal-zapatos":{
+        "children":[
+            "menu#hombre-principal-zapatos"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu zapatos
+   "menu#hombre-principal-zapatos":{
+        "children":[
+            "menu-item#category-hombre-formales-M",
+            "menu-item#category-hombre-casuales-M",
+            "menu-item#category-hombre-Mocasines-M",
+            "menu-item#category-hombre-botas-M",
+            "menu-item#category-hombre-tenis-M",
+            "menu-item#category-hombre-sandalias-M",
+            "menu-item#category-hombre-cuidadoz-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu zapatos
+    "menu-item#category-hombre-formales-M": {
+        "props": {
+            "id": "menu-item-category-formales",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "formales",
+            "text": "Formales"
+            }
+        }
+    },
+    "menu-item#category-hombre-casuales-M": {
+        "props": {
+            "id": "menu-item-category-casuales",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Casuales",
+            "text": "Casuales"
+            }
+        }
+    },
+    "menu-item#category-hombre-Mocasines-M": {
+        "props": {
+            "id": "menu-item-category-mocasines",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Mocasines",
+            "text": "Mocasines"
+            }
+        }
+    },
+    "menu-item#category-hombre-botas-M": {
+        "props": {
+            "id": "menu-item-category-botas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Botas",
+            "text": "Botas"
+            }
+        }
+    },
+    "menu-item#category-hombre-tenis-M": {
+        "props": {
+            "id": "menu-item-category-tenis",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Tenis",
+            "text": "Tenis"
+            }
+        }
+    },
+    "menu-item#category-hombre-sandalias-M": {
+        "props": {
+            "id": "menu-item-category-sandalias",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Sandalias",
+            "text": "Sandalias"
+            }
+        }
+    },
+    "menu-item#category-hombre-cuidadoz-M": {
+        "props": {
+            "id": "menu-item-category-cuidadoz",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Cuidado de zapatos",
+            "text": "Cuidado de zapatos"
+            }
+        }
+    },
+    // declaracion sub menu accesorios
+    "menu-item#category-hombre-acce-M": {
+        "props": {
+            "id": "menu-item-category-acce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Accesorios",
+                "text": "Accesorios"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#hombre-principal-acce"   
+        ]
+    },
+    "submenu.accordion#hombre-principal-acce":{
+        "children":[
+            "menu#hombre-principal-acce"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#hombre-principal-acce":{
+        "children":[
+            "menu-item#category-hombre-billeteras-M",
+            "menu-item#category-hombre-correasreatas-M",
+            "menu-item#category-hombre-corbatascorbatines-M",
+            "menu-item#category-hombre-gafassol-M",
+            "menu-item#category-hombre-gorrasBoinas-M",
+            "menu-item#category-hombre-panuelos-M",
+            "menu-item#category-hombre-perfumes-M",
+            "menu-item#category-hombre-mancornas-M",
+            "menu-item#category-hombre-otrosacce-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-hombre-billeteras-M": {
+        "props": {
+            "id": "menu-item-category-billeteras",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Billeteras",
+            "text": "Billeteras"
+            }
+        }
+    },
+    "menu-item#category-hombre-correasreatas-M": {
+        "props": {
+            "id": "menu-item-category-correasreatas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Correas y reatas",
+            "text": "Correas y reatas"
+            }
+        }
+    },
+    "menu-item#category-hombre-corbatascorbatines-M": {
+        "props": {
+            "id": "menu-item-category-corbatas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Corbatas y corbatines",
+            "text": "Corbatas y corbatines"
+            }
+        }
+    },
+    "menu-item#category-hombre-gafassol-M": {
+        "props": {
+            "id": "menu-item-category-gafassol",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gafas de sol",
+            "text": "Gafas de sol"
+            }
+        }
+    },
+    "menu-item#category-hombre-gorrasBoinas-M": {
+        "props": {
+            "id": "menu-item-category-gorras",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Gorras y boinas",
+            "text": "Gorras y boinas"
+            }
+        }
+    },
+    "menu-item#category-hombre-panuelos-M": {
+        "props": {
+            "id": "menu-item-category-panuelos",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Pañuelos",
+            "text": "Pañuelos"
+            }
+        }
+    },
+    "menu-item#category-hombre-perfumes-M": {
+        "props": {
+            "id": "menu-item-category-perfumes",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Perfumes",
+            "text": "Perfumes"
+            }
+        }
+    },
+    "menu-item#category-hombre-mancornas-M": {
+        "props": {
+            "id": "menu-item-category-mancornas",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Mancornas",
+            "text": "Mancornas"
+            }
+        }
+    },
+    "menu-item#category-hombre-otrosacce-M": {
+        "props": {
+            "id": "menu-item-category-otrosacce",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Otros accesorios",
+            "text": "Otros accesorios"
+            }
+        }
+    },
+    // declaracion sub menu coleccion
+    "menu-item#category-hombre-coleccion-M": {
+        "props": {
+            "id": "menu-item-category-coleccion",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "Colección",
+                "text": "Colección"
+            }
+        },
+        "blocks":[
+            "submenu.accordion#hombre-principal-coleccion"   
+        ]
+    },
+    "submenu.accordion#hombre-principal-coleccion":{
+        "children":[
+            "menu#hombre-principal-coleccion"
+        ],
+        "props":{
+            "blockClass":"submenu"
+        }
+    },
+   // agrupacion de los items del submenu accesorios
+   "menu#hombre-principal-coleccion":{
+        "children":[
+            "menu-item#category-hombre-eco-M",
+            "menu-item#category-hombre-active-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"submenu-sub"
+        }
+    },
+    // items del sub menu accesorios
+    "menu-item#category-hombre-eco-M": {
+        "props": {
+            "id": "menu-item-category-eco",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Eco",
+            "text": "Eco"
+            }
+        }
+    },
+    "menu-item#category-hombre-active-M": {
+        "props": {
+            "id": "menu-item-category-active",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Active",
+            "text": "Active"
+            }
+        }
+    }
+}

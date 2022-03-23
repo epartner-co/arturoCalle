@@ -1,0 +1,122 @@
+{
+  /*-------------------------------------------------------------------------------------------*/
+  /* Columnas de categorias superpuestas en slide (Sweaters - Tenis - Pantalones - Camisetas) */
+  /*-----------------------------------------------------------------------------------------*/
+  "flex-layout.row#dealsNina": {
+    "children": [
+      "flex-layout.col#nina-deals1",
+      "flex-layout.col#nina-deals2",
+      "flex-layout.col#nina-deals3",
+      "flex-layout.col#nina-deals4"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "horizontalAlign": "center",
+      "classBlock": "dealshome"
+    }
+  },
+  //Fin de llamado de columnas superpiuestas en slide
+
+
+  /*---------------------------*/
+  /* Columnas 1 --> SWEATERS  */
+  /*-------------------------*/
+  "flex-layout.col#nina-deals1": {
+    "children": [
+      "image#nina-deal1"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nina-deal1": {
+    "props": {
+      "src": "assets/desk/nina/sweaters.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nina-deal1": {
+    "props": {
+      "text": "SWEATERS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin Columnas 1
+
+
+  /*------------------------*/
+  /* Columnas 2 --> TENIS  */
+  /*----------------------*/
+  "flex-layout.col#nina-deals2": {
+    "children": [
+      "image#nina-deal2"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nina-deal2": {
+    "props": {
+      "src": "assets/desk/nina/tenis.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nina-deal2": {
+    "props": {
+      "text": "TENIS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin columna 2
+
+
+  /*-----------------------------*/
+  /* Columnas 3 --> PANTALONES  */
+  /*---------------------------*/
+  "flex-layout.col#nina-deals3": {
+    "children": [
+      "image#nina-deal3"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nina-deal3": {
+    "props": {
+      "src": "assets/desk/nina/pantalones.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nina-deal3": {
+    "props": {
+      "text": "PANTALONES",
+      "blockClass": "deals"
+    }
+  },
+  //Fin columna 3
+
+  /*------------------------------*/
+  /* Columnas 4 --> CAMISASETAS  */
+  /*----------------------------*/
+  "flex-layout.col#nina-deals4": {
+    "children": [
+      "image#nina-deal4"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nina-deal4": {
+    "props": {
+      "src": "assets/desk/nina/camisetas.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nina-deal4": {
+    "props": {
+      "text": "CAMISETAS",
+      "blockClass": "deals"
+    }
+  }
+  //Fin columna 4
+}

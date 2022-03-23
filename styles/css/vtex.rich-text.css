@@ -230,3 +230,306 @@
   letter-spacing: 1px;
   line-height: 14px;
 }
+
+/*------------------------------*/
+/* rich text titulo contactanos */
+/*------------------------------*/
+
+.wrapper--contactenos--titulo{
+  position: absolute;
+  left: 105px;
+  font-weight: 900;
+}
+
+.container--contactenos--titulo{
+  top: -2px;
+  position: absolute;
+}
+
+.wrapper--telefonos{
+  font-weight: 600;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*------------------------------*/
+/* rich text                    */
+/*------------------------------*/
+
+.wrapper--titulos{
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.wrapper--horario--datos{
+  font-weight: normal;
+  position: absolute;
+  top: 174px;
+  margin-left: 13px;
+}
+
+.wrapper--ventas-whatsapp{
+  font-weight: 600;
+  font-size: 14px;
+  height: 34px;
+}
+
+.wrapper--numero--ventas-whatsapp{
+  margin-top: -10px;
+  font-size: 14px;
+  height: 34px;
+}
+
+.wrapper--correo--datos{
+  font-weight: normal;
+  position: absolute;
+  top: 230px;
+  margin-left: 13px;
+}
+
+.wrapper--pais--guatemala{
+  position: absolute;
+  top: -14px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.wrapper--pais--panama{
+  position: absolute;
+  top: 8px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.wrapper--pais--costa-rica{
+  position: absolute;
+  top: 32px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.wrapper--pais--salvador{
+  position: absolute;
+  top: 59px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------*/
+/* footer parte payu              */
+/*--------------------------------*/
+.wrapper--terminos--y--logo{
+  font-size: 10px;
+  color: white;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*--------------------------------*/
+/* correo arturo calle            */
+/*--------------------------------*/
+
+.paragraph--correo--datos :global(.vtex-rich-text-0-x-link--correo--datos){
+  color: #3f3f40;
+  text-decoration: none;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------------*/
+/* vitrinas                        */
+/*---------------------------------*/
+
+.wrapper--titlem :global(.vtex-rich-text-0-x-paragraph--titlem){ /*cambia la letra del titulo de la vitrina... si causa algun problema se puede quitar*/
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
+
+/*---------------------------------*/
+/*  hombre collage imagenes        */
+/*---------------------------------*/
+
+.container--hombre__part--2--texto{
+  margin-top: -7%;
+  margin-left: 38%;
+}
+
+.container--hombre__part--2--texto4{
+  margin-top: -7%;
+  margin-left: 16%;
+}
+
+.paragraph--hombre__part--2--texto{
+  font-weight: 600;
+}
+
+.paragraph--hombre__part--2--texto4{
+  font-weight: 600;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*---------------------------------*/
+/*  niño collage imagenes        */
+/*---------------------------------*/
+
+.container--nino__part--2--texto{
+  margin-top: -7%;
+  margin-left: 38%;
+}
+
+.paragraph--nino__part--2--texto{
+  font-weight: 600;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*----------------------------------*/
+/* parte en la que se muestra el producto (Estilos Producto Sección Contenido AC) */
+/*----------------------------------*/
+
+.wrapper--product-identifier{
+  color: #6a6968;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-family: 'DINPro';
+}
+
+.wrapper--product-quantity--opciones--titulo{
+  color: #6a6968;
+    letter-spacing: 2px;
+    font-size: 10px;
+  background: white;
+}
+
+.headingLevel5--Descripcion--producto--titulo{
+  color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.headingLevel5--detalles--de--producto--titulo{
+  color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.headingLevel5--Recomendaciones--de--cuidado--titulo{
+  color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.wrapper--iconos--productos--texto{
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: -1px;
+}
+
+.wrapper--suscribete--titulo :global(.vtex-rich-text-0-x-paragraph ){
+  color: #181e2a;
+    text-align: left;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    font-size: 38px;
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 0px;
+}
+
+.wrapper--suscribete--titulo--contenido :global(.vtex-rich-text-0-x-heading){
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*---------------------------------*/
+/* paginas estaticas               */
+/*--------------------------------*/
+
+/*autorizacion-tratamiento-datos-personales*/
+.paragraph--titulo-principal{
+  font-size: 30px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: -6px;
+}
+
+.paragraph--sub--titulo{
+  font-size: 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+.container--contenido{
+  text-align: justify;
+    color: #333;
+    margin: 0 0 10px;
+    line-height: 1.4em;
+    font-size: 14px;
+    font-family: 'DINPro';
+    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+    line-height: 1.42857143;
+    margin-bottom: -19px;/*margen entre parrafo y parrafo*/
+}
+
+
+.paragraph--contenido :global(.vtex-rich-text-0-x-link){
+  color: #333;
+}
+
+.paragraph--contenido--lista{
+  margin-left: 4px;text-align: justify;
+  color: #333;
+  line-height: 1.4em;
+  font-size: 14px;
+  font-family: 'DINPro';
+  /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
+  line-height: 1.42857143;
+}
+
+
+/*preguntas frecuentes*/
+.wrapper--Titulo--preguntas--frecuentes{
+  font-size: 15px;
+  font-family: 'DINPro';
+  line-height: 1.4em;
+  margin-left: 10px;
+}
+
+.wrapper--contenido--preguntas--frecuentes{
+  font-size: 15px;
+    font-family: 'DINPro';
+    line-height: 1.4em;
+    border: 1px solid #ececec; 
+}
+
+.paragraph--contenido--preguntas--frecuentes{
+  margin-left: 26px;
+}
+/*................................*/

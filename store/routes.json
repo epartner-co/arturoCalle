@@ -10,5 +10,32 @@
   },
   "store.custom#mas": {
     "path": "/mas-productos"
+  },
+  "store.custom#hombre": {
+    "path": "/hombre"
+  },
+  "store.custom#woman": {
+    "path": "/woman"
+  },
+  "store.custom#nino": {
+    "path": "/kids/nino"
+  },
+  "store.custom#nina": {
+    "path": "/kids/nina"
+  },
+  "store.custom#viaje": {
+    "path": "/viaje"
+  },
+  "store.custom#freedom": {
+    "path": "/freedom"
+  },
+  "store.custom#ofertas": {
+    "path": "/ofertas"
+  },
+  "store.custom#autorizacion-tratamiento-datos-personales": {
+    "path": "/autorizacion-tratamiento-datos-personales"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/preguntas-frecuentes"
   }
 }

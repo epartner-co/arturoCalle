@@ -1,0 +1,114 @@
+{
+    /*respuesta ¿Cómo utilizo un cupón?*/
+    /*inicio del recuadro*/
+    "flex-layout.col#respuesta--columna--6":{
+        "props":{
+            "blockClass":"respuesta--columna--n"
+          },
+        "children":[
+            "flex-layout.col#list--respuesta--columna--6",
+            "flex-layout.col#list-items--respuesta--columna--6",
+            "flex-layout.col#list--respuesta3--columna--6"
+        ]
+    },
+    /*aqui se escribe el primer texto que quiere que aparezca en el recuadro --- no es un item*/
+    "flex-layout.col#list--respuesta--columna--6":{
+        "children":[
+            "rich-text#list--respuesta--columna--6"
+        ]
+    },
+    "rich-text#list--respuesta--columna--6":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"Existen dos modalidades de Cupón: Cupón Descuento y Cupón Redención."
+        }
+    },
+    /*aqui se escriben los items a trabajar*/
+    "flex-layout.col#list-items--respuesta--columna--6":{
+        "props":{
+            "blockClass":"list"
+        },
+        "children":[
+          "flex-layout.row#list-item--1--respuesta--columna--6",
+          "flex-layout.row#list-item--2--respuesta--columna--6",
+          "flex-layout.row#espacio"
+          
+        ]
+    },
+    /*item 1*/
+    "flex-layout.row#list-item--1--respuesta--columna--6":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--6",
+          "flex-layout.col#list-item--1--text--respuesta--columna--6"
+        ]
+    },
+    /*flex para la imagen del puntico...viñeta*/
+      "flex-layout.col#list-item--1--img--respuesta--columna--6":{
+          "props":{
+              "blockClass":"list-item--img",
+              "width":"1%"
+          },
+          "children":[
+              "image#list-item--punto--respuesta--columna--6"
+          ]
+      },
+      /*recuadro del texto de la lista que se quiere llamar*/
+      "flex-layout.col#list-item--1--text--respuesta--columna--6":{
+          "children":[
+              "rich-text#list-item--1--respuesta--columna--6"
+          ]
+      },
+      /*imagen del puntico...viñeta*/
+    "image#list-item--punto--respuesta--columna--6": {
+      "props": {
+        "src": "assets/desk/assets-checkout-AC/rec.png",
+        "maxHeight": 6
+      }
+    },
+    /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+    "rich-text#list-item--1--respuesta--columna--6":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Para buscar el producto que desea comprar puede navegar a través de las categorías en nuestro menú o utilizar la barra de búsqueda."
+      }
+    },
+    /*item 2*/
+    "flex-layout.row#list-item--2--respuesta--columna--6":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+          /*flex para la imagen del puntico...viñeta*/
+        "flex-layout.col#list-item--1--img--respuesta--columna--6",
+        "flex-layout.col#list-item--2--text--respuesta--columna--6"
+      ]
+  },
+  /*recuadro del texto de la lista que se quiere llamar*/
+  "flex-layout.col#list-item--2--text--respuesta--columna--6":{
+      "children":[
+          "rich-text#list-item--2--respuesta--columna--6"
+      ]
+  },
+  /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+  "rich-text#list-item--2--respuesta--columna--6":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Una vez haya elegido el producto que desea, seleccione el color, talla, cantidades y agréguelo a la bolsa de compras dando clic en el botón COMPRAR."
+      }
+    },
+    "flex-layout.col#list--respuesta3--columna--6":{
+        "children":[
+            "rich-text#list--respuesta3--columna--6"
+        ]
+    },
+    /*otro contenido del recuadro...no es parte de la lista con las viñetas...esta aparte*/
+    "rich-text#list--respuesta3--columna--6":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"En todo caso es importante que tenga en cuenta que, las dos modalidades de cupón deben ser utilizados en su totalidad para una única compra. \n Para conocer más condiciones relacionadas con estos medios de pago, lo invitamos a consultar nuestros Términos y Condiciones."
+        }
+    }
+}

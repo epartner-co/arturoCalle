@@ -1,0 +1,155 @@
+{
+    /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 27                           */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--27":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--27", "disclosure-content#preguntas--frecuentes--27"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--27": {
+    "children": ["flex-layout.row#preguntas--frecuentes--27--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--27--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--27--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--27--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--27"]
+  },
+  "disclosure-content#preguntas--frecuentes--27": {
+    "children": ["flex-layout.col#respuesta--columna--27"]
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--27": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿En cuáles eventos opera la devolución de productos comprados en línea?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 27*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 28                          */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--28":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--28", "disclosure-content#preguntas--frecuentes--28"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--28": {
+    "children": ["flex-layout.row#preguntas--frecuentes--28--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--28--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--28--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--28--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--28"]
+  },
+  "disclosure-content#preguntas--frecuentes--28": {
+    "children": ["rich-text#answerpreguntas--frecuentes--28"]
+  },
+  "rich-text#answerpreguntas--frecuentes--28": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "Los costos de devolución de productos comprados en arturocalle.com son completamente gratis, excepto los costos que eventualmente sean de cargo del Cliente, en los términos que se indican en nuestra Política de envíos, cambios y garantías."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--28": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Cuál es el costo de la devolución?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 28*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 29                          */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--29":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--29", "disclosure-content#preguntas--frecuentes--29"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--29": {
+    "children": ["flex-layout.row#preguntas--frecuentes--29--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--29--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--29--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--29--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--29"]
+  },
+  "disclosure-content#preguntas--frecuentes--29": {
+    "children": ["rich-text#answerpreguntas--frecuentes--29"]
+  },
+  "rich-text#answerpreguntas--frecuentes--29": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "No se preocupe, puede enviar el producto en el empaque original en que llegó el envío o un empaque de su preferencia, sin embargo, es importante que el empaque sea el adecuado según la naturaleza del producto, para que este no se pueda ver afectado durante el proceso de transporte."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--29": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Qué hago si no tengo el empaque original para el cambio?"
+    }
+  },
+  /* >>>>>>>>>>>>Cierre de  Columna 29*/
+
+  /*----------------------------------------------------------------------------*/
+  /*                         Comienzo de Columna 30                          */
+  /*--------------------------------------------------------------------------*/
+  "disclosure-layout#preguntas--frecuentes--30":{
+    "children": ["disclosure-trigger#preguntas--frecuentes--30", "disclosure-content#preguntas--frecuentes--30"]
+  },
+  "disclosure-trigger#preguntas--frecuentes--30": {
+    "children": ["flex-layout.row#preguntas--frecuentes--30--columna-1"]
+  },
+  "flex-layout.row#preguntas--frecuentes--30--columna-1":{
+      "props":{
+        "blockClass":"preguntas--frecuetes--trigger"
+      },
+    "children": ["flex-layout.col#preguntas--frecuentes--30--columna-1--tileFCol",
+        "flex-layout.col#disclosure-state-indicator--preguntas--frecuentes"]
+  },
+  "flex-layout.col#preguntas--frecuentes--30--columna-1--tileFCol":{
+      "props":{
+          "blockClass":"preguntas--frecuetes--trigger--titulo",
+          "width":"95%"
+      },
+    "children": ["rich-text#tileFCol--preguntas--frecuentes--30"]
+  },
+  "disclosure-content#preguntas--frecuentes--30": {
+    "children": ["rich-text#answerpreguntas--frecuentes--30"]
+  },
+  "rich-text#answerpreguntas--frecuentes--30": {
+    "props": {
+      "blockClass": "contenido--preguntas--frecuentes",
+      "text": "No, solo aceptamos devoluciones de productos comprador a través de arturocalle.com. Si compraste un producto en otro país, te sugerimos revisar la política de devolución de la tienda en ese país."
+    }
+  },
+  "rich-text#tileFCol--preguntas--frecuentes--30": {
+    "props": {
+      "blockClass": "Titulo--preguntas--frecuentes",
+      "text": "¿Puedo devolver un producto comprado en otro país?"
+    }
+  }
+  /* >>>>>>>>>>>>Cierre de  Columna 30*/
+}

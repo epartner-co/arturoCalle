@@ -1,0 +1,94 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+            "flex-layout.row#informacion--preguntas-frecuentes"
+        ]
+      },
+      "flex-layout.row#informacion--preguntas-frecuentes":{
+        "props":{
+            "blockClass":"informacion--preguntas-frecuentes"
+        },
+        "children":[
+          "flex-layout.col#informacion--preguntas-frecuentes"
+        ]
+    },
+    "flex-layout.col#informacion--preguntas-frecuentes":{
+        "props":{
+            "blockClass":"informacion--preguntas-frecuentes"
+        },
+        "children":[
+            "rich-text#titulo--principal",
+            "rich-text#titulo--sub--titulo--1",
+            "flex-layout.col#PrimeraCol1--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol2--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol3--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol4--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol5--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol6--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol7--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol8--preguntas--frecuentes",
+            "rich-text#titulo--sub--titulo--2",
+            "flex-layout.col#PrimeraCol9--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol10--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol11--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol12--preguntas--frecuentes",
+            "rich-text#titulo--sub--titulo--3",
+            "flex-layout.col#PrimeraCol13--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol14--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol15--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol16--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol17--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol18--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol19--preguntas--frecuentes",
+            "rich-text#titulo--sub--titulo--4",
+            "flex-layout.col#PrimeraCol20--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol21--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol22--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol23--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol24--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol25--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol26--preguntas--frecuentes",
+            "rich-text#titulo--sub--titulo--5",
+            "flex-layout.col#PrimeraCol27--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol28--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol29--preguntas--frecuentes",
+            "flex-layout.col#PrimeraCol30--preguntas--frecuentes"
+        ]
+    },
+    "rich-text#titulo--principal":{
+        "props":{
+            "blockClass":"titulo-principal",
+            "text":"PREGUNTAS FRECUENTES"
+        }
+    },
+    "rich-text#titulo--sub--titulo--1":{
+        "props":{
+            "blockClass":"sub--titulo",
+            "text":"PROCESO DE COMPRA"
+        }
+    },
+    "rich-text#titulo--sub--titulo--2":{
+        "props":{
+            "blockClass":"sub--titulo",
+            "text":"SERVICIO AL CLIENTE"
+        }
+    },
+    "rich-text#titulo--sub--titulo--3":{
+        "props":{
+            "blockClass":"sub--titulo",
+            "text":"PAGOS Y FACTURACIÓN"
+        }
+    },
+    "rich-text#titulo--sub--titulo--4":{
+        "props":{
+            "blockClass":"sub--titulo",
+            "text":"ENVÍOS"
+        }
+    },
+    "rich-text#titulo--sub--titulo--5":{
+        "props":{
+            "blockClass":"sub--titulo",
+            "text":"DEVOLUCIONES"
+        }
+    }
+}

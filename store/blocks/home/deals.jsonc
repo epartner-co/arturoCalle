@@ -1,0 +1,124 @@
+{
+
+  /*---------------------------------------------------------------------------------------*/
+  /* Columnas de categorias superpuestas en slide (Polos - Zapatos - Camisas - Camisetas) */
+  /*-------------------------------------------------------------------------------------*/
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#hombre-deals1",
+      "flex-layout.col#hombre-deals2",
+      "flex-layout.col#hombre-deals3",
+      "flex-layout.col#hombre-deals4"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "horizontalAlign": "center",
+      "classBlock": "dealshome"
+    }
+  },
+  //Fin de llamado de columnas superpiuestas en slide
+
+
+  /*------------------------*/
+  /* Columnas 1 --> POLOS  */
+  /*----------------------*/
+  "flex-layout.col#hombre-deals1": {
+    "children": [
+      "image#hombre-deal1"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#hombre-deal1": {
+    "props": {
+      "src": "assets/desk/hombre/polo.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#hombre-deal1": {
+    "props": {
+      "text": "POLOS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin Columnas 1
+
+
+  /*--------------------------*/
+  /* Columnas 2 --> ZAPATOS  */
+  /*------------------------*/
+  "flex-layout.col#hombre-deals2": {
+    "children": [
+      "image#hombre-deal2"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#hombre-deal2": {
+    "props": {
+      "src": "assets/desk/hombre/zapatos.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#hombre-deal2": {
+    "props": {
+      "text": "ZAPATOS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin columna 2
+
+
+  /*--------------------------*/
+  /* Columnas 3 --> CAMISAS  */
+  /*------------------------*/
+  "flex-layout.col#hombre-deals3": {
+    "children": [
+      "image#hombre-deal3"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#hombre-deal3": {
+    "props": {
+      "src": "assets/desk/hombre/camisas.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#hombre-deal3": {
+    "props": {
+      "text": "CAMISAS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin columna 3
+
+
+  /*----------------------------*/
+  /* Columnas 4 --> CAMISETAS  */
+  /*--------------------------*/
+  "flex-layout.col#hombre-deals4": {
+    "children": [
+      "image#hombre-deal4"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#hombre-deal4": {
+    "props": {
+      "src": "assets/desk/hombre/camisetas.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#hombre-deal4": {
+    "props": {
+      "text": "CAMISETAS",
+      "blockClass": "deals"
+    }
+  }
+  //Fin columna 4
+}

@@ -13,7 +13,7 @@
      "flex-layout.row#bannersbulletsecond1",
      "rich-text#title2",
      "flex-layout.row#bannersbulletthrid",
-     "rich-text#titleS",
+     "flex-layout.row#titleS",
      "flex-layout.row#shelf"
     ]
   },
@@ -146,7 +146,7 @@
       "blockClass": "BotonD"
     }
   },
-  
+
 //Cierre Banners
 //Titulo intermedio
 "rich-text#title": {
@@ -384,9 +384,39 @@
 //fin banners cuaternarios
 //Inicio Slider
 
+"flex-layout.row#titleS":{
+  "props": {
+    "blockClass": "titleS"
+  },
+  "children":[
+    "flex-layout.col#titleS--col--1",
+    "flex-layout.col#titleS--title",
+    "flex-layout.col#titleS--col--2"
+    
+  ]
+},
+"flex-layout.col#titleS--col--1":{
+  "props": {
+    "blockClass": "titleS-columna--1"
+  }
+},
+"flex-layout.col#titleS--title":{
+  "props":{
+    "blockClass": "titleS-titulo"
+  },
+  "children":[
+    "rich-text#titleS"
+  ]
+},
+"flex-layout.col#titleS--col--2":{
+  "props": {
+    "blockClass": "titleS-columna--2"
+  }
+},
+
 "rich-text#titleS": {
   "props": {
-    "text": "REGALABLES PARA ÉL Y PARA ELLA",
+    "text": "LO MÁS VENDIDO",
     "blockClass": "titlem",
     "textAlignment": "CENTER",
     "textPosition": "CENTER"
@@ -415,9 +445,11 @@
         "tablet": 3,
         "phone": 1
       },
+      "arrowSize":50,
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf"
+      "blockClass": "shelf",
+      "showPaginationDots":"never"
     }
   },
 

@@ -7,3 +7,44 @@
   top: 0;
   left: auto;
 }
+
+
+/*--------------------------*/
+/* vitrina hover botones*/
+/*---------------------------*/
+
+/*
+.stackContainer :global(.vtex-button){
+  display: none;
+}
+*/
+.stackContainer :global(.vtex-button){
+  width: 102px;
+  display: block;
+  margin-left: 87px;
+  margin-top: 386px;
+  font-size: 12px;
+  border-radius: 0;
+  background: black;
+  border-color: black;
+}
+/*
+.stackContainer :global(.vtex-rich-text-0-x-wrapper){
+  display: none;
+}
+
+.stackContainer:hover :global(.vtex-rich-text-0-x-wrapper){
+  background: rgb(255,255,255);
+  width: 110px;
+  display: block;
+  margin-left: -1px;
+  margin-top: 210px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.stackContainer:hover{
+  filter: brightness(80%); 
+}
+*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>><*/

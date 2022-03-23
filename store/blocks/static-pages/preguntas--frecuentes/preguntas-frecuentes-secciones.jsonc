@@ -1,0 +1,245 @@
+{
+// Contenido Columnas
+  "flex-layout.col#PrimeraCol1--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--1"
+    ]
+  },
+  "flex-layout.col#PrimeraCol2--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--2"
+    ]
+  },
+  "flex-layout.col#PrimeraCol3--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--3"
+    ]
+  },
+  "flex-layout.col#PrimeraCol4--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--4"
+    ]
+  },
+  "flex-layout.col#PrimeraCol5--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--5"
+    ]
+  },
+  "flex-layout.col#PrimeraCol6--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--6"
+    ]
+  },
+  "flex-layout.col#PrimeraCol7--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--7"
+    ]
+  },
+  "flex-layout.col#PrimeraCol8--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--8"
+    ]
+  },
+  "flex-layout.col#PrimeraCol9--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--9"
+    ]
+  },
+  "flex-layout.col#PrimeraCol10--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--10"
+    ]
+  },
+  "flex-layout.col#PrimeraCol11--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--11"
+    ]
+  },
+  "flex-layout.col#PrimeraCol12--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--12"
+    ]
+  },
+  "flex-layout.col#PrimeraCol13--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--13"
+    ]
+  },
+  "flex-layout.col#PrimeraCol14--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--14"
+    ]
+  },"flex-layout.col#PrimeraCol15--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--15"
+    ]
+  },
+  "flex-layout.col#PrimeraCol16--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--16"
+    ]
+  },
+  "flex-layout.col#PrimeraCol17--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--17"
+    ]
+  },
+  "flex-layout.col#PrimeraCol18--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--18"
+    ]
+  },
+  "flex-layout.col#PrimeraCol19--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--19"
+    ]
+  },
+  "flex-layout.col#PrimeraCol20--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--20"
+    ]
+  },
+  "flex-layout.col#PrimeraCol21--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--21"
+    ]
+  },
+  "flex-layout.col#PrimeraCol22--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--22"
+    ]
+  },
+  "flex-layout.col#PrimeraCol23--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--23"
+    ]
+  },
+  "flex-layout.col#PrimeraCol24--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--24"
+    ]
+  },
+  "flex-layout.col#PrimeraCol25--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--25"
+    ]
+  },
+  "flex-layout.col#PrimeraCol26--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--26"
+    ]
+  },
+  "flex-layout.col#PrimeraCol27--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--27"
+    ]
+  },
+  "flex-layout.col#PrimeraCol28--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--28"
+    ]
+  },
+  "flex-layout.col#PrimeraCol29--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--29"
+    ]
+  },
+  "flex-layout.col#PrimeraCol30--preguntas--frecuentes": {
+    "props":{
+        "blockClass":"colomnas--preguntas--frecuentes"
+    },
+    "children": [
+      "disclosure-layout#preguntas--frecuentes--30"
+    ]
+  }
+// Cierre contenido
+
+  
+}

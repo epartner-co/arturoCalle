@@ -1,0 +1,90 @@
+{
+    // declaracion sub menu
+    "submenu.accordion#pais-principal":{
+        "children":[
+            "menu#pais-principal"
+        ],
+        "props":{
+            "blockClass":"menuGeneral"
+        }
+    },
+    // agrupacion de los items
+    "menu#pais-principal":{
+        "children":[
+            "menu-item#category-pais-guatemala-M",
+            "menu-item#category-pais-panama-M",
+            "menu-item#category-pais-costa-M",
+            "menu-item#category-pais-salvador-M"
+        ],
+        "props":{
+            "orientation": "vertical",
+            "blockClass":"menuGeneral-sub"
+        }
+        
+    },
+    // items principales del sub menu
+    "menu-item#category-pais-guatemala-M": {
+        "props": {
+          "id": "menu-item-category-guatemala",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Guatemala",
+            "text": "Guatemala"
+            }
+        }
+    },
+    "menu-item#category-pais-panama-M": {
+        "props": {
+          "id": "menu-item-category-pana",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Panamá",
+            "text": "Panamá"
+            }
+        }
+    },
+    "menu-item#category-pais-costa-M": {
+        "props": {
+          "id": "menu-item-category-costa",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Costa rica",
+            "text": "Costa rica"
+            }
+        }
+    },
+    "menu-item#category-pais-salvador-M": {
+        "props": {
+          "id": "menu-item-category-salvador",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Salvador",
+            "text": "Salvador"
+            }
+        }
+    }
+}

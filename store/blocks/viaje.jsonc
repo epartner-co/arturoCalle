@@ -1,0 +1,455 @@
+{
+  "store.custom#viaje": {
+  "blocks": [
+    "info-card#home",
+    //"list-context.image-list#demo",
+    /* You can make references to blocks defined in other files.
+     * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+    "__fold__.experimentalLazyAssets",
+    "flex-layout.row#deals",
+    "rich-text#shelf-title",
+    "flex-layout.row#shoes",
+    "flex-layout.row#shirt",
+    "flex-layout.row#banner",
+
+    "flex-layout.row#product__tabs",
+
+    "shelf#cats",
+    "flex-layout.row#banner2",
+    //"info-card#home",
+    //"rich-text#question",
+    //"rich-text#link",
+    //"newsletter",
+    "shelf#descubre-mas",
+    "shelf#lo-mas-vendido"
+  ]
+},
+
+"list-context.image-list#demo": {
+  "children": ["slider-layout#demo-images"],
+  "props": {
+    "height": 720,
+    "images": [
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      },
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      }
+    ]
+  }
+},
+"slider-layout#demo-images": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "carousel"
+  }
+},
+
+"rich-text#shelf-title": {
+  "props": {
+    "text": "CONOCE NUESTRA LINEA DE ZAPATOS",
+    "blockClass": "shelfTitle"
+  }
+},
+"flex-layout.row#shoes":{
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#shoes-left",
+    "flex-layout.col#shoes-right"]
+},
+"flex-layout.col#shoes-left": {
+  "props": {
+    "width": "25%"
+  },
+  "children": [
+    "info-card#col-shoes-left"
+  ]
+},
+"flex-layout.col#shoes-right": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shoes"
+  ]
+},
+"info-card#col-shoes-left":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/banner-vitrina1-295x550.png",
+    "callToActioMode": "none",
+    //"headline": "Clearance Sale",
+    //"callToActionText": "DISCOVER",
+    //"callToActionUrl": "/sale/d",
+    "blockClass": "info-card-shoes-left"//,
+    //"textAlignment": "center"
+  }
+},
+"shelf#shoes": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shoes",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+"flex-layout.row#shirt":{
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#shirt-left",
+    "flex-layout.col#shirt-right"]
+},
+"flex-layout.col#shirt-left": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shirt"
+  ]
+},
+"flex-layout.col#shirt-right": {
+  "props": {
+    "width": "25%"
+  },
+  "children": [
+    "info-card#col-shirt-right"
+  ]
+},
+"info-card#col-shirt-right":{
+  "props": {
+    "id": "info-card-shirt",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/banner-vitrina2-295x550.png",
+    "callToActioMode": "none",
+    //"headline": "Clearance Sale",
+    //"callToActionText": "DISCOVER",
+    //"callToActionUrl": "/sale/d",
+    "blockClass": "info-card-shirt-right"//,
+    //"textAlignment": "center"
+  }
+},
+"shelf#shirt": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shirt",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+"flex-layout.row#banner":{
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#banner-left",
+    "flex-layout.col#banner-right"]
+},
+"flex-layout.col#banner-left": {
+  "props": {
+    "width": "30%"
+  },
+  "children": [
+    "info-card#col-banner-left"
+  ]
+},
+"flex-layout.col#banner-right": {
+  "props": {
+    "width": "70%"
+  },
+  "children": [
+    "info-card#col-banner-right"
+  ]
+},
+
+"flex-layout.row#banner2": {
+  "props": {
+    "blockClass": "more"
+  },
+  "children": [
+    "flex-layout.col#left",
+    "flex-layout.col#right"]
+},
+"flex-layout.col#left": {
+  "props": {
+    "width": "60%"
+  },
+  "children": [
+    "info-card#col-left"
+  ]
+},
+"flex-layout.col#right": {
+  "props": {
+    "width": "40%"
+  },
+  "children": [
+    "info-card#col-right-1",
+    "info-card#col-right-2"
+  ]
+},
+"info-card#col-banner-left":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/banner1-345x300.png",
+    "callToActioMode": "none",
+    //"headline": "Clearance Sale",
+    //"callToActionText": "DISCOVER",
+    //"callToActionUrl": "/sale/d",
+    "blockClass": "info-card-banner-left"//,
+    //"textAlignment": "center"
+  }
+},
+"info-card#col-banner-right":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/banner2-870x300.png",
+    "callToActioMode": "none",
+    //"headline": "Clearance Sale",
+    //"callToActionText": "DISCOVER",
+    //"callToActionUrl": "/sale/d",
+    "blockClass": "info-card-banner-right"//,
+    //"textAlignment": "center"
+  }
+},
+"info-card#col-left":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/banner3-730x470.png",
+    "callToActioMode": "none",
+    //"headline": "Clearance Sale",
+    //"callToActionText": "DISCOVER",
+    //"callToActionUrl": "/sale/d",
+    "blockClass": "info-card-shoes"//,
+    //"textAlignment": "center"
+  }
+},
+"list-context.product-list#demo1": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#demo-products"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#demo-products": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": "shelf"
+  }
+},
+
+"info-card#home": {
+  "props": {
+    "id": "info-card-home",
+    "isFullModeStyle": true,
+    //"textPosition": "left",
+    //"imageUrl": "assets/desk/banner-principal-1440x360.png",
+    "callToActioMode": "none",
+    //"headline": "Clearance Sale",
+    //"callToActionText": "DISCOVER",
+    //"callToActionUrl": "/sale/d",
+    "blockClass": "info-card-home"//,
+    //"textAlignment": "center"
+  }
+},
+
+"rich-text#question": {
+  "props": {
+    "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+    "blockClass": "question"
+  }
+},
+
+"rich-text#link": {
+  "props": {
+    "text": "\n**Reach us at**\nwww.vtex.com.br",
+    "blockClass": "link"
+  }
+},
+
+"flex-layout.col#col-right2": {
+  "children": [
+    "info-card#col-right-1",
+    "info-card#col-right-2"
+  ]
+},
+
+"info-card#col-right-1": {
+  "props": {
+    "id": "info-card",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/banner4-480x220.png",
+    "callToActioMode": "none",
+    "blockClass": "info-card"
+  }
+},
+
+"info-card#col-right-2": {
+  "props": {
+    "id": "info-card",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/banner5-480x220.png",
+    "callToActioMode": "none",
+    "blockClass": "info-card"
+  }
+},
+
+"shelf#cats": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#descubre-mas": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "DESCUBRE MÁS"
+    }
+  }
+},
+
+"shelf#lo-mas-vendido": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass":"slider--general",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "LO MÁS VENDIDO"
+    }
+  }
+},
+
+
+
+//product tabs
+"flex-layout.row#product__tabs":{
+  "props":{
+    "blockClass": "home__product__tabs"
+  },
+  "children":[
+    "tab-layout#product__tabs"
+  ]
+},
+"tab-layout#product__tabs":{
+  "children":[
+    "tab-list#product__tab--list",
+    "tab-content#product__tab--content"
+  ]
+},
+"tab-list#product__tab--list":{
+  "children":[
+    "tab-list.item#tabs__list--laptos",
+    "tab-list.item#tabs__list--impresoras"
+  ]
+},
+"tab-list.item#tabs__list--laptos":{
+  "props":{
+    "tabId":"laptos",
+    "label":"laptos",
+    "defaultActiveTab":true
+  }
+},
+"tab-list.item#tabs__list--impresoras":{
+  "props":{
+    "tabId":"impresoras",
+    "label":"impresoras"
+  }
+},
+"tab-content#product__tab--content":{
+  "children":[
+    "tab-content.item#tabs__content--laptos",
+    "tab-content.item#tabs__content--impresoras"
+  ]
+},
+"tab-content.item#tabs__content--laptos":{
+  "props":{
+    "tabId":"laptos"
+  },
+  "children":["shelf#cats"]
+},
+"tab-content.item#tabs__content--impresoras":{
+  "props":{
+    "tabId":"impresoras"
+  },
+  "children":["rich-text#tabs__content--impresoras"]
+},
+"rich-text#tabs__content--impresoras":{
+  "props":{
+    "text":"aqui van otros sliders"
+  }
+}
+
+}

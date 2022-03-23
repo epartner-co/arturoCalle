@@ -1,0 +1,122 @@
+{
+  /*---------------------------------------------------------------------------------*/
+  /* Columnas de categorias superpuestas en slide (Polos - Buzos - Jeans - Camisas) */
+  /*-------------------------------------------------------------------------------*/
+  "flex-layout.row#dealsNino": {
+    "children": [
+      "flex-layout.col#nino-deals1",
+      "flex-layout.col#nino-deals2",
+      "flex-layout.col#nino-deals3",
+      "flex-layout.col#nino-deals4"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "horizontalAlign": "center",
+      "classBlock": "dealshome"
+    }
+  },
+  //Fin de llamado de columnas superpiuestas en slide
+
+
+  /*------------------------*/
+  /* Columnas 1 --> POLOS  */
+  /*----------------------*/
+  "flex-layout.col#nino-deals1": {
+    "children": [
+      "image#nino-deal1"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nino-deal1": {
+    "props": {
+      "src": "assets/desk/nino/polos.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nino-deal1": {
+    "props": {
+      "text": "POLOS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin Columnas 1
+
+
+  /*------------------------*/
+  /* Columnas 2 --> BUZOS  */
+  /*----------------------*/
+  "flex-layout.col#nino-deals2": {
+    "children": [
+      "image#nino-deal2"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nino-deal2": {
+    "props": {
+      "src": "assets/desk/nino/buzos.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nino-deal2": {
+    "props": {
+      "text": "BUZOS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin columna 2
+
+
+  /*------------------------*/
+  /* Columnas 3 --> JEANS  */
+  /*----------------------*/
+  "flex-layout.col#nino-deals3": {
+    "children": [
+      "image#nino-deal3"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nino-deal3": {
+    "props": {
+      "src": "assets/desk/nino/jeans.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nino-deal3": {
+    "props": {
+      "text": "JEANS",
+      "blockClass": "deals"
+    }
+  },
+  //Fin columna 3
+
+  /*--------------------------*/
+  /* Columnas 4 --> CAMISAS  */
+  /*------------------------*/
+  "flex-layout.col#nino-deals4": {
+    "children": [
+      "image#nino-deal4"
+    ],
+    "props": {
+      "blockClass": "dealschild"
+    }
+  },
+  "image#nino-deal4": {
+    "props": {
+      "src": "assets/desk/nino/camisas.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "rich-text#nino-deal4": {
+    "props": {
+      "text": "CAMISAS",
+      "blockClass": "deals"
+    }
+  }
+  //Fin columna 4
+}

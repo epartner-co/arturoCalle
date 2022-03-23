@@ -1,0 +1,130 @@
+{
+    /*respuesta ¿Qué información puedo obtener a través de servicio al cliente?*/
+    /*inicio del recuadro*/
+    "flex-layout.col#respuesta--columna--12":{
+        "props":{
+            "blockClass":"respuesta--columna--n"
+          },
+        "children":[
+            "flex-layout.col#list--respuesta1--columna--12",
+            "flex-layout.col#list-items--respuesta--columna--12",
+            "flex-layout.row#espacio" /*espacio para que quepa en el contenido*/
+        ]
+    },
+    /*aqui se escriben los items a trabajar*/
+    "flex-layout.col#list-items--respuesta--columna--12":{
+        "props":{
+            "blockClass":"list"
+        },
+        "children":[
+          "flex-layout.row#list-item--1--respuesta--columna--12",
+          "flex-layout.row#list-item--2--respuesta--columna--12",
+          "flex-layout.row#list-item--3--respuesta--columna--12"
+          
+        ]
+    },
+    /*item 1*/
+    "flex-layout.row#list-item--1--respuesta--columna--12":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img--respuesta--columna--12",
+          "flex-layout.col#list-item--1--text--respuesta--columna--12"
+        ]
+    },
+    /*flex para la imagen del puntico...viñeta*/
+      "flex-layout.col#list-item--1--img--respuesta--columna--12":{
+          "props":{
+              "blockClass":"list-item--img",
+              "width":"1%"
+          },
+          "children":[
+              "image#list-item--punto--respuesta--columna--12"
+          ]
+      },
+      /*recuadro del texto de la lista que se quiere llamar*/
+      "flex-layout.col#list-item--1--text--respuesta--columna--12":{
+          "children":[
+              "rich-text#list-item--1--respuesta--columna--12"
+          ]
+      },
+    /*imagen del puntico...viñeta*/
+    "image#list-item--punto--respuesta--columna--12": {
+      "props": {
+        "src": "assets/desk/assets-checkout-AC/rec.png",
+        "maxHeight": 12
+      }
+    },
+    /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+    "rich-text#list-item--1--respuesta--columna--12":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Cancelación o cambio de pedidos."
+      }
+    },
+    /*item 2*/
+    "flex-layout.row#list-item--2--respuesta--columna--12":{
+      "props":{
+          "blockClass":"list-item"
+      },
+      "children":[
+          /*flex para la imagen del puntico...viñeta*/
+        "flex-layout.col#list-item--1--img--respuesta--columna--12",
+        "flex-layout.col#list-item--2--text--respuesta--columna--12"
+      ]
+  },
+  /*recuadro del texto de la lista que se quiere llamar*/
+  "flex-layout.col#list-item--2--text--respuesta--columna--12":{
+      "children":[
+          "rich-text#list-item--2--respuesta--columna--12"
+      ]
+  },
+  /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+  "rich-text#list-item--2--respuesta--columna--12":{
+      "props":{
+          "blockClass":"contenido--lista",
+          "text":"Recibió un artículo incorrecto (color, tamaño, talla, etc.)"
+      }
+    },
+    /*item 3*/
+    "flex-layout.row#list-item--3--respuesta--columna--12":{
+        "props":{
+            "blockClass":"list-item"
+        },
+        "children":[
+            /*flex para la imagen del puntico...viñeta*/
+          "flex-layout.col#list-item--1--img--respuesta--columna--12",
+          "flex-layout.col#list-item--3--text--respuesta--columna--12"
+        ]
+    },
+    /*recuadro del texto de la lista que se quiere llamar*/
+    "flex-layout.col#list-item--3--text--respuesta--columna--12":{
+        "children":[
+            "rich-text#list-item--3--respuesta--columna--12"
+        ]
+    },
+    /*aqui se escribe el texto de la lista de la lista que se quiere llamar*/
+    "rich-text#list-item--3--respuesta--columna--12":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"El producto no llegó, llegó dañado o presenta defectos."
+        }
+      },
+
+
+
+
+    /*otro contenido del recuadro...no es parte de la lista con las viñetas...esta aparte*/
+    "flex-layout.col#list--respuesta1--columna--12":{
+        "children":[
+            "rich-text#list--respuesta1--columna--12"
+        ]
+    },
+    "rich-text#list--respuesta1--columna--12":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"A través la línea nacional de servicio al cliente 01 8000 180120 y en Bogotá al PBX 743 8800, chat online, correo electrónico contactenos@arturocalle.como a través de nuestra página web www.arturocalle.com en el formulario de Contáctenos, podrá resolver entre otras, las siguientes inquietudes:"
+        }
+    }
+}

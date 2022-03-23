@@ -1,0 +1,195 @@
+{
+    "store.custom#autorizacion-tratamiento-datos-personales": {
+        "blocks": [
+            "flex-layout.row#informacion--autorizacion-tratamiento-datos-personales"
+        ]
+      },
+      "flex-layout.row#informacion--autorizacion-tratamiento-datos-personales":{
+          "props":{
+              "blockClass":"informacion--autorizacion-tratamiento-datos-personales"
+          },
+          "children":[
+            "flex-layout.col#informacion--autorizacion-tratamiento-datos-personales--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--autorizacion-tratamiento-datos-personales--primera--parte":{
+          "props":{
+            "blockClass":"informacion--autorizacion-tratamiento-datos-personales--primera--parte"
+          },
+          "children":[
+              "rich-text#titulo--autorizacion-tratamiento-datos-personales",
+              "rich-text#list",
+              "flex-layout.col#list-items",
+              "rich-text#contenido",
+              "rich-text#contenido--2",
+              "rich-text#contenido--3"
+          ]
+      },
+      "rich-text#titulo--autorizacion-tratamiento-datos-personales":{
+          "props":{
+            "blockClass":"titulo-principal",
+            "list":true,
+            "text":"AUTORIZACIÓN PARA EL TRATAMIENTO DE DATOS PERSONALES"
+          }
+      },
+      "rich-text#list":{
+          "props":{
+            "blockClass":"contenido",
+              "text":"Autorizo el tratamiento de mis datos personales suministrados a Comercializadora Arturo Calle S.A.S. (NIT 900.342.297), para las siguientes finalidades:"
+          }
+      },
+      "flex-layout.col#list-items":{
+          "props":{
+              "blockClass":"list"
+          },
+          "children":[
+            "flex-layout.row#list-item--1",
+            "flex-layout.row#list-item--2",
+            "flex-layout.row#list-item--3",
+            "flex-layout.row#list-item--4",
+            "flex-layout.row#list-item--5"
+          ]
+      },
+      "flex-layout.row#list-item--1":{
+          "props":{
+              "blockClass":"list-item"
+          },
+          "children":[
+            "flex-layout.col#list-item--1--img",
+            "flex-layout.col#list-item--1--text"
+          ]
+      },
+        "flex-layout.col#list-item--1--img":{
+            "props":{
+                "blockClass":"list-item--img",
+                "width":"1%"
+            },
+            "children":[
+                "image#list-item--punto"
+            ]
+        },
+        "flex-layout.col#list-item--1--text":{
+            "children":[
+                "rich-text#list-item--1"
+            ]
+        },
+      "image#list-item--punto": {
+        "props": {
+          "src": "assets/desk/assets-checkout-AC/circulo-negro.png",
+          "maxHeight": 6
+        }
+      },
+      "rich-text#list-item--1":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"a) cumplir las obligaciones legales y comerciales;"
+        }
+      },
+
+      "flex-layout.row#list-item--2":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",
+          "flex-layout.col#list-item--2--text"
+        ]
+    },
+    "flex-layout.col#list-item--2--text":{
+        "children":[
+            "rich-text#list-item--2"
+        ]
+    },
+    "rich-text#list-item--2":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"b) participar en campañas publicitarias, recibir información promocional y de marketing;"
+        }
+      },
+
+      "flex-layout.row#list-item--3":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",
+          "flex-layout.col#list-item--3--text"
+        ]
+    },
+    "flex-layout.col#list-item--3--text":{
+        "children":[
+            "rich-text#list-item--3"
+        ]
+    },
+    "rich-text#list-item--3":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"c) asesoramiento comercial y servicios postventa; "
+        }
+      },
+    
+      "flex-layout.row#list-item--4":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",
+          "flex-layout.col#list-item--4--text"
+        ]
+    },
+    "flex-layout.col#list-item--4--text":{
+        "children":[
+            "rich-text#list-item--4"
+        ]
+    },
+    "rich-text#list-item--4":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"d) suministrarlos a terceros para ejecución de actividades relacionadas con la entrega de pedidos, asistencia en mercadeo y procesamiento y ofrecimiento de mecanismos de pago;"
+        }
+      },
+    
+      "flex-layout.row#list-item--5":{
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"list-item"
+        },
+        "children":[
+          "flex-layout.col#list-item--1--img",
+          "flex-layout.col#list-item--5--text"
+        ]
+    },
+    "flex-layout.col#list-item--5--text":{
+        "children":[
+            "rich-text#list-item--5"
+        ]
+    },
+    "rich-text#list-item--5":{
+        "props":{
+            "blockClass":"contenido--lista",
+            "text":"e) las demás señaladas en la Política de Tratamiento de Datos Personales que puede consultar en www.arturocalle.com/politica-de-datos."
+        }
+      },
+
+      "rich-text#contenido":{
+          "props":{
+            "blockClass":"contenido",
+              "text":"Cualquier información sensible solicitada, podrá no ser respondida por usted. Los datos personales serán tratados de forma segura y podrán ser realizados de manera directa o a través de otros responsables y/o  encargados, quienes podrán estar domiciliados dentro o fuera del territorio Colombiano."
+          }
+      },
+      "rich-text#contenido--2":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"El titular de los datos personales tiene derecho a conocer, actualizar, acceder gratuitamente, rectificar y suprimir sus datos, solicitar prueba de esta autorización o revocarla; presentar quejas a la Superintendencia de Industria y Comercio por infracciones frente a la normatividad vigente. Para ejercer sus derechos o solicitar en general cualquier información referente al tratamiento de datos personales, la Compañía ha habilitado los siguientes medios:"
+        }
+    },"rich-text#contenido--3":{
+        "props":{
+          "blockClass":"contenido",
+            "text":"Correo electrónico: contactenos@arturocalle.com, teléfono 7438800 en Bogotá D.C, línea nacional 01 8000 180120 o a través de carta dirigida a la Dirección de Servicio al Cliente a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá D.C."
+        }
+    }
+
+}

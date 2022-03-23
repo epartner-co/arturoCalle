@@ -1,0 +1,32 @@
+/*-------------------------------------------------*/
+/* inputs desktop                                  */
+/*------------------------------------------------*/
+
+
+.nameInputContainer--newsletter-form--nombre--input :global(.vtex-styleguide-9-x-hideDecorators) {
+    width: 100%;
+}
+
+.emailInputContainer--newsletter-form--email--input :global(.vtex-styleguide-9-x-hideDecorators) {
+    width: 100%;
+}
+
+.confirmationCheckboxContainer--newsletter-checkbox-confirmation :global(.vtex-checkbox__label){
+    text-align: left;
+}
+
+.formSubmitContainer--newsletter-submit :global(.vtex-button){
+    border: #2f3c54;
+    background: #2f3c54;
+    width: 100%;
+}
+
+.confirmationCheckboxContainer--newsletter-checkbox-confirmation--footer :global(.vtex-checkbox__label){
+    color: white;
+    text-align: left;
+    line-height: 22px;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+/*------------------------------------------------------------------------------*/
