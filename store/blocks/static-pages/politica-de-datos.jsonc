@@ -1,0 +1,537 @@
+{
+    "store.custom#politica-de-datos": {
+        "blocks": [
+            "flex-layout.row#informacion--politica-de-datos"
+        ]
+      },
+      "flex-layout.row#informacion--politica-de-datos":{
+          "props":{
+              "blockClass":"informacion--politica-de-datos"
+          },
+          "children":[
+            "flex-layout.col#informacion--politica-de-datos--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--politica-de-datos--primera--parte":{
+          "props":{
+            "blockClass":"informacion--politica-de-datos--primera--parte"
+          },
+          "children":[
+            /*titulos*/
+            "rich-text#titulo--principal--politica-de-datos",
+            "rich-text#contenido--politica-de-datos",
+            "flex-layout.row#espacio",//espacio para no tener que colocar margin
+            /*DEFINICIONES*/
+            "rich-text#DEFINICIONES",
+            "rich-text#contenido--DEFINICIONES",
+            "rich-text#contenido2--DEFINICIONES",
+            "rich-text#contenido3--DEFINICIONES",
+            /*DEFINICIONES*/
+            "rich-text#PRINCIPIOS-ORIENTADORES-PARA-EL-TRATAMIENTO-DE-DATOS-PERSONALES",
+            "rich-text#contenido--PRINCIPIOS-ORIENTADORES-PARA-EL-TRATAMIENTO-DE-DATOS-PERSONALES",
+            "rich-text#contenido2--PRINCIPIOS-ORIENTADORES-PARA-EL-TRATAMIENTO-DE-DATOS-PERSONALES",
+            /*3. DERECHOS DE LOS TITULARES*/
+            "rich-text#DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido--DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido2--DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido3--DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido4--DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido5--DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido6--DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido7--DERECHOS-DE-LOS-TITULARES",
+            "rich-text#contenido8--DERECHOS-DE-LOS-TITULARES",
+            /*4. DEBERES DE LOS RESPONSABLES DEL TRATAMIENTO Y ENCARGADOS DEL TRATAMIENTO*/
+            "rich-text#DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO",
+            "rich-text#contenido--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO",
+            "rich-text#contenido2--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO",
+            "rich-text#contenido3--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO",
+            "rich-text#contenido4--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO",
+            /*5. TRATAMIENTO Y FINALIDADES DE LOS DATOS SUMINISTRADOS*/
+            "rich-text#TRATAMIENTO-Y-FINALIDADES-DE-LOS-DATOS-SUMINISTRADOS",
+            "rich-text#contenido--TRATAMIENTO-Y-FINALIDADES-DE-LOS-DATOS-SUMINISTRADOS",
+            "rich-text#contenido2--TRATAMIENTO-Y-FINALIDADES-DE-LOS-DATOS-SUMINISTRADOS",
+            /*6. TRATAMIENTO DE DATOS SENSIBLES*/
+            "rich-text#TRATAMIENTO-DE-DATOS-SENSIBLES",
+            "rich-text#contenido--TRATAMIENTO-DE-DATOS-SENSIBLES",
+            "rich-text#contenido2--TRATAMIENTO-DE-DATOS-SENSIBLES",
+            "rich-text#contenido3--TRATAMIENTO-DE-DATOS-SENSIBLES",
+            /*7. PROCEDIMIENTOS*/
+            "rich-text#PROCEDIMIENTOS",
+            "rich-text#contenido--PROCEDIMIENTOS",
+            "rich-text#contenido2--PROCEDIMIENTOS",
+            "rich-text#contenido3--PROCEDIMIENTOS",
+            "rich-text#contenido4--PROCEDIMIENTOS",
+            "rich-text#contenido5--PROCEDIMIENTOS",
+            "rich-text#contenido6--PROCEDIMIENTOS",
+            "rich-text#contenido7--PROCEDIMIENTOS",
+            "rich-text#contenido8--PROCEDIMIENTOS",
+            "rich-text#contenido9--PROCEDIMIENTOS",
+            "rich-text#contenido10--PROCEDIMIENTOS",
+            /*8. TRANSFERENCIA DE DATOS*/
+            "rich-text#TRANSFERENCIA-DE-DATOS",
+            "rich-text#contenido--TRANSFERENCIA-DE-DATOS",
+            "rich-text#contenido2--TRANSFERENCIA-DE-DATOS",
+            "rich-text#contenido3--TRANSFERENCIA-DE-DATOS",
+            /*9. DATOS DE CONTACTO PARA TRATAMIENTO DE DATOS PERSONALES*/
+            "rich-text#DATOS-DE-CONTACTO-PARA-TRATAMIENTO-DE-DATOS-PERSONALES",
+            "rich-text#contenido--DATOS-DE-CONTACTO-PARA-TRATAMIENTO-DE-DATOS-PERSONALES",
+            /*10. FECHA Y PERIODO DE VIGENCIA*/
+            "rich-text#FECHA-Y-PERIODO-DE-VIGENCIA",
+            "rich-text#contenido--FECHA-Y-PERIODO-DE-VIGENCIA",
+            /*11. POLÍTICAS DE PRIVACIDAD*/
+            "rich-text#POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido2--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido3--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido4--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido5--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido6--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido7--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido8--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido9--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido10--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido11--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido12--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido13--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido14--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido15--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido16--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido17--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido18--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido19--POLITICAS-DE-PRIVACIDAD",
+            "rich-text#contenido20--POLITICAS-DE-PRIVACIDAD"
+          ]
+      },
+      /*titulos*/
+      "rich-text#titulo--principal--politica-de-datos":{
+        "props":{
+        "blockClass":"titulo-principal",
+        "text":"MANUAL DE POLÍTICAS Y PROCEDIMIENTOS PARA EL TRATAMIENTO DE DATOS PERSONALES COMERCIALIZADORA ARTURO CALLE S.A.S., ARTURO CALLE ZONA FRANCA S.A.S"
+        }
+      },
+      "rich-text#contenido--politica-de-datos":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"COMERCIALIZADORA ARTURO CALLE S.A.S. y ARTURO CALLE ZONA FRANCA S.A.S. en adelante la Compañía, se encuentran comprometidas con el cumplimiento del derecho a la protección de datos personales y el derecho que tienen todas las personas para conocer, actualizar y rectificar la información que se haya recogido sobre ellas en bases de datos o archivos, y los demás derechos, libertades y garantías constitucionales a que se refieren los artículos 15 y 20 de la Constitución Política."
+        }
+      },
+    /*DEFINICIONES*/
+    "rich-text#DEFINICIONES":{
+      "props":{
+        "blockClass":"sub--titulos1",
+        "text":"1. DEFINICIONES"
+      }
+    },
+    "rich-text#contenido--DEFINICIONES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Para efectos del presente documento debe tenerse en cuenta las siguientes definiciones a fin de dar aplicación a la política de tratamiento de datos personales."
+      }
+    },
+    "rich-text#contenido2--DEFINICIONES":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.Autorización: Consentimiento previo, expreso e informado del titular para llevar a cabo el tratamiento de datos personales. \n 2.Aviso de privacidad: Comunicación verbal o escrita generada por el Responsable, dirigida al Titular para el Tratamiento de sus datos personales, mediante la cual se le informa acerca de la existencia de las políticas de Tratamiento de información que le serán aplicables, la forma de acceder a las mismas y las finalidades del Tratamiento que se pretende dar a los datos personales. \n 3.Base de datos: Conjunto organizado de datos personales que sea objeto de tratamiento. \n 4.Dato personal: Cualquier información vinculada o que pueda asociarse a una o varias personas naturales determinadas o determinables. \n 5.Dato público: Es el dato que no sea semiprivado, privado o sensible. Son considerados datos públicos, entre otros, los datos relativos al estado civil de las personas, a su profesión u oficio y a su calidad de comerciante o de servidor público. Por su naturaleza, los datos públicos pueden estar contenidos, entre otros, en registros públicos, documentos públicos, gacetas y boletines oficiales y sentencias judiciales debidamente ejecutoriadas que no estén sometidas a reserva. \n 6.Datos sensibles: Se entiende por datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición, así como los datos relativos a la salud, a la vida sexual, y los datos biométricos. \n 7.Encargado del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el tratamiento de datos personales por cuenta del responsable del tratamiento. \n 8.Responsable del tratamiento: Persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, decida sobre la base de datos y/o el tratamiento de los datos. \n 9.Titular: Persona natural cuyos datos personales sean objeto de tratamiento. \n 10.Tratamiento: Cualquier operación o conjunto de operaciones sobre datos personales, tales como la recolección, almacenamiento, uso, circulación o supresión. \n 11.Habeas data: Derecho fundamental de toda persona para conocer, actualizar, rectificar y/o cancelar información y datos personales que de ella se hayan recolectado y/o se traten en bases de datos públicas o privadas, conforme a lo dispuesto en la ley y normatividad aplicable. \n 12.Transferencia: La transferencia de datos tiene lugar cuando el Responsable y/o Encargado del Tratamiento de datos personales, ubicado en Colombia, envía la información o los datos personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país. \n 13.Transmisión: Tratamiento de datos personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del Responsable."
+      }
+    },
+    "rich-text#contenido3--DEFINICIONES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Autorización tácita: se entenderá que el Titular ha otorgado autorización para el tratamiento de sus datos personales cuando mediante su conducta permita concluir de forma razonable que otorgó la autorización."
+      }
+    },
+    /*DEFINICIONES*/
+    "rich-text#PRINCIPIOS-ORIENTADORES-PARA-EL-TRATAMIENTO-DE-DATOS-PERSONALES":{
+      "props":{
+        "blockClass":"sub--titulos2",
+        "text":"2. PRINCIPIOS ORIENTADORES PARA EL TRATAMIENTO DE DATOS PERSONALES"
+      }
+    },
+    "rich-text#contenido--PRINCIPIOS-ORIENTADORES-PARA-EL-TRATAMIENTO-DE-DATOS-PERSONALES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"La Compañía aplicará de manera armónica e integral los siguientes principios al realizar el tratamiento de datos personales:"
+      }
+    },
+    "rich-text#contenido2--PRINCIPIOS-ORIENTADORES-PARA-EL-TRATAMIENTO-DE-DATOS-PERSONALES":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"2.1. Principio de legalidad en materia de tratamiento de datos: El tratamiento de datos personales debe sujetarse como mínimo a lo establecido a las leyes vigentes que regulen la materia y disposiciones que la desarrollen. \n 2.2. Principio de finalidad: El tratamiento debe obedecer a una finalidad legítima de acuerdo con la Constitución y la ley, la cual debe ser informada al titular. \n 2.3. Principio de libertad: El tratamiento sólo puede ejercerse con el consentimiento, previo, expreso e informado del titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal o judicial que releve el consentimiento. \n 2.4. Principio de veracidad o calidad: La información sujeta a tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. No debe efectuarse el tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error. \n 2.5. Principio de transparencia: En el tratamiento debe garantizarse el derecho del titular a obtener del responsable del tratamiento o del encargado del tratamiento, en cualquier momento y sin restricciones, información acerca de la existencia de sus datos personales. \n 2.6. Principio de acceso y circulación restringida: El tratamiento se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la Constitución y la ley. En este sentido, el tratamiento sólo podrá hacerse por personas autorizadas por el titular y/o por las personas habilitadas por la ley o la autoridad judicial. \n 2.7. Principio de seguridad: La información sujeta a tratamiento se deberá manejar con las medidas técnicas, humanas y administrativas necesarias para dar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. \n 2.8. Principio de confidencialidad: Todas las personas que intervengan en el tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando así lo permita la ley y en los términos que ésta lo disponga."
+      }
+    },
+    /*3. DERECHOS DE LOS TITULARES*/
+    "rich-text#DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+        "blockClass":"sub--titulos3",
+        "text":"3. DERECHOS DE LOS TITULARES"
+      }
+    },
+    "rich-text#contenido--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"La Compañía en todo tratamiento de datos personales será respetuosa de los derechos de los titulares. Para efectos de la presente manual, el titular de los datos personales tendrá los siguientes derechos:"
+      }
+    },
+    "rich-text#contenido2--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.Conocer, actualizar y rectificar sus datos personales frente a los responsables del tratamiento o encargados del tratamiento. Este derecho se podrá ejercer, entre otros frente a datos parciales, inexactos, incompletos, fraccionados, que induzcan a error, o aquellos cuyo tratamiento esté expresamente prohibido o no haya sido autorizado. \n 2.Solicitar prueba de la autorización otorgada al responsable del tratamiento salvo cuando expresamente la ley lo exceptúe. \n 3.Ser informado por el responsable del tratamiento o el encargado del tratamiento, previa solicitud, respecto del uso que le ha dado a sus datos personales. \n 4.Presentar ante la Superintendencia de Industria y Comercio o ante la autoridad competente en ésta material quejas por infracciones a la ley que regule la protección de datos personales y las demás normas que la modifiquen, adicionen o complementen. \n 5.Revocar la autorización y/o solicitar la supresión del dato cuando en el tratamiento no se respeten los principios, derechos y garantías constitucionales y legales. La revocatoria y/o supresión procederá cuando la Superintendencia de Industria y Comercio, o la autoridad competente, haya determinado que en el tratamiento el responsable o encargado ha incurrido en conductas contrarias a la normatividad vigente. \n 6.Acceder en forma gratuita a sus datos personales que hayan sido objeto de tratamiento."
+      }
+    },
+    "rich-text#contenido3--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"3.1 Autorización del titular"
+      }
+    },
+    "rich-text#contenido4--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Todo tratamiento que la Compañía haga de información personal requiere la autorización previa e informada del titular, la cual deberá ser obtenida por cualquier medio que pueda ser objeto de consulta posterior. \n La autorización no será necesaria en las excepciones previstas en la ley, a manera enunciativa y sin perjuicio de las normas modifiquen, adicionen o complementen, la autorización no será necesaria en los siguientes casos:"
+      }
+    },
+    "rich-text#contenido5--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.Información requerida por una entidad pública o administrativa en ejercicio de sus funciones legales o por orden judicial. \n 2.Datos de naturaleza pública. \n 3.Casos de urgencia médica o sanitaria. \n 4.Tratamiento de información autorizado por la ley para fines históricos, estadísticos o científicos. \n 5.Datos relacionados con el Registro Civil de las personas."
+      }
+    },
+    "rich-text#contenido6--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Autorización tácita: se entenderá que el Titular ha otorgado autorización para el tratamiento de sus datos personales cuando mediante su conducta permita concluir de forma razonable que otorgó la autorización. \n 3.2 Deber de informar al titular \n El responsable del tratamiento, al momento de solicitar al titular la autorización, deberá informarle de manera clara y expresa lo siguiente:"
+      }
+    },
+    "rich-text#contenido7--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.El tratamiento al cual serán sometidos sus datos personales y la finalidad del mismo; \n 2. El carácter facultativo de la respuesta a las preguntas que le sean hechas, cuando estas versen sobre datos sensibles o sobre los datos de las niñas, niños y adolescentes; \n 3. Los derechos que le asisten como titular; \n 4. La identificación, dirección física o electrónica del responsable del tratamiento."
+      }
+    },
+    "rich-text#contenido8--DERECHOS-DE-LOS-TITULARES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"3.3. Medios para otorgar la autorización \n \n La autorización puede constar en un documento físico, electrónico, mensaje de datos, internet, sitios web o en cualquier formato que permita garantizar su posterior consulta, o mediante un mecanismo técnico o tecnológico idóneo, que permita manifestar u obtener el consentimiento, mediante el cual se pueda concluir de manera inequívoca, que de no haberse surtido una conducta del titular, los datos nunca hubieren sido capturados y almacenados en la base de datos. La autorización será generada por La Compañía y será puesta a disposición del titular con antelación y de manera previa al tratamiento de sus datos personales."
+      }
+    },
+    /*4. DEBERES DE LOS RESPONSABLES DEL TRATAMIENTO Y ENCARGADOS DEL TRATAMIENTO*/
+    "rich-text#DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO":{
+      "props":{
+        "blockClass":"sub--titulos4",
+        "text":"4. DEBERES DE LOS RESPONSABLES DEL TRATAMIENTO Y ENCARGADOS DEL TRATAMIENTO"
+      }
+    },
+    "rich-text#contenido--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Los responsables del tratamiento deberán cumplir los siguientes deberes, sin perjuicio de las demás disposiciones previstas en el presente manual y en las disposiciones que regulen su actividad: \n \n 4.1. Deberes de los responsables del tratamiento"
+      }
+    },
+    "rich-text#contenido2--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.Garantizar al titular, en todo tiempo, el pleno y efectivo ejercicio del del derecho a la protección de sus datos personales en los términos establecidos en la normatividad vigente aplicable en ésta materia. \n 2.Solicitar y conservar copia de la autorización otorgada por el titular por el tiempo mínimo de acuerdo a lo establecido en la normatividad vigente.  \n 3.Informar al titular sobre la finalidad de la recolección y los derechos que le asisten por virtud de la autorización otorgada.  \n 4.Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.  \n 5.Garantizar que la información que se suministre al encargado del tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible, en la forma y en los términos autorizados por El Titular.  \n 6.Actualizar la información, comunicando de forma oportuna al encargado del tratamiento, todas las novedades respecto de los datos que el titular previamente le haya suministrado y adoptar las demás medidas necesarias para que la información suministrada a este se mantenga actualizada. \n \n 7.Rectificar la información cuando sea incorrecta y comunicar lo pertinente al encargado del tratamiento.  \n 8.Suministrar al encargado del tratamiento únicamente datos cuyo tratamiento esté previamente autorizado de conformidad con lo previsto en la normatividad vigente aplicable a ésta materia.  \n 9.Exigir al encargado del tratamiento en todo momento, el respeto a las condiciones de seguridad y privacidad de la información del titular.  \n 10.Tramitar las consultas y reclamos formulados en los términos señalados en el presente manual y en la normatividad vigente aplicable a ésta materia.  \n 11.Informar al encargado del tratamiento cuando determinada información se encuentra en discusión por parte del titular, una vez se haya presentado la reclamación y no haya finalizado el trámite respectivo.  \n 12.Informar a solicitud del titular sobre el uso dado a sus datos.  \n 13.Informar a la autoridad de protección de datos cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la administración de la información de los titulares. \n 14.Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio."
+      }
+    },
+    "rich-text#contenido3--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"4.2 Deberes de los encargados del tratamiento. \n \n Los encargados del tratamiento deberán cumplir los siguientes deberes, sin perjuicio de las demás disposiciones previstas en el presente manual y en las normas que regulen su actividad:"
+      }
+    },
+    "rich-text#contenido4--DEBERES-DE-LOS-RESPONSABLES-DEL-TRATAMIENTO-Y-ENCARGADOS-DEL-TRATAMIENTO":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.Garantizar al titular la protección de sus datos personales en todo tiempo, el pleno y efectivo ejercicio del derecho de habeas data.  \n 2.Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento.  \n 3.Realizar oportunamente la actualización, rectificación o supresión de los datos en los términos del presente manual o de conformidad con lo establecido en la normatividad vigente aplicable.  \n 4.Actualizar la información reportada por los responsables del tratamiento dentro de los cinco (5) días hábiles siguientes, contados a partir del recibo de su solicitud.  \n 5.Tramitar las consultas y los reclamos formulados por los titulares en los términos señalados en la normatividad vigente.  \n 6.Registrar en la base de datos la leyenda “reclamo en trámite” en la forma en que se regula por la normatividad vigente.  \n 7.Insertar en la base de datos la leyenda “información en discusión judicial” una vez notificado por parte de la autoridad competente sobre procesos judiciales relacionados con la calidad del dato personal.  \n 8.Abstenerse de circular información que esté siendo controvertida por el titular y cuyo bloqueo haya sido ordenado por la Superintendencia de Industria y Comercio o cualquier otra autoridad competente.  \n 9.Permitir el acceso a la información únicamente a las personas que pueden tener acceso a ella.  \n 10.Informar a la Superintendencia de Industria y Comercio o a la autoridad competente cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la administración de la información de los titulares.  \n 11.Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio o la autoridad competente en ésta materia."
+      }
+    },
+    /*5. TRATAMIENTO Y FINALIDADES DE LOS DATOS SUMINISTRADOS*/
+    "rich-text#TRATAMIENTO-Y-FINALIDADES-DE-LOS-DATOS-SUMINISTRADOS":{
+      "props":{
+        "blockClass":"sub--titulos5",
+        "text":"5. TRATAMIENTO Y FINALIDADES DE LOS DATOS SUMINISTRADOS"
+      }
+    },
+    "rich-text#contenido--TRATAMIENTO-Y-FINALIDADES-DE-LOS-DATOS-SUMINISTRADOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Los datos personales que se recolecten serán incluidos en una base de datos y serán utilizados de manera directa o a través de los responsables o encargados en los términos que se establezca en la normatividad aplicables en ésta materia, para las finalidades directas e indirectas relacionadas con el objeto y propósitos de la compañía. Se indican de manera enunciativa las finalidades generales, sin perjuicio que en cada autorización se incluyan las finalidades particulares respecto de cada relación con el Titular de los datos:"
+      }
+    },
+    "rich-text#contenido2--TRATAMIENTO-Y-FINALIDADES-DE-LOS-DATOS-SUMINISTRADOS":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.>Actividades de operación y registro.  \n 2.>Captación, grabación, transmisión, almacenamiento, conservación o reproducción en tiempo real o posterior de imágenes por sistemas de videovigilancia, controles de acceso, circuitos cerrados de televisión con el fin de garantizar la seguridad de los bienes y las personas en las instalaciones o sedes de la Compañía.  \n 3.>Análisis estadístico, referenciación, consulta en base de datos públicas, verificación y auditorias.  \n 4.>Lograr una eficiente comunicación relacionada con nuestros servicios y demás actividades relacionadas con las funciones propias de la compañía.  \n 5.>Mantener una eficiente comunicación de la información que sea de utilidad en los vínculos contractuales o comerciales en los que sea parte el Titular de la Información. \n 6.>Con fines estadísticos, de control, de supervisión y de información comercial. Como consecuencia de la autorización, La Compañía podrá recabar información sobre las relaciones comerciales con otras entidades, consulta de datos financieros en las centrales de riesgo que manejan bases de datos de información financiera y los datos que se requieran para gestionar la relación contractual o comercial con el Titular.  \n 7.>Dar cumplimiento a las obligaciones contraídas por La Compañía con los Titulares de la Información.  \n 8.Utilización en campañas de comunicación, divulgación y promoción de productos, actividades o servicios."
+      }
+    },
+    /*6. TRATAMIENTO DE DATOS SENSIBLES*/
+    "rich-text#TRATAMIENTO-DE-DATOS-SENSIBLES":{
+      "props":{
+        "blockClass":"sub--titulos6",
+        "text":"6. TRATAMIENTO DE DATOS SENSIBLES"
+      }
+    },
+    "rich-text#contenido--TRATAMIENTO-DE-DATOS-SENSIBLES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Para efectos del presente manual y conforme lo establezca la normatividad vigente, se entiende por datos sensibles aquellos que afectan la intimidad del titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de derechos humanos o que promueva intereses de cualquier partido político o que garanticen los derechos y garantías de partidos políticos de oposición así como los datos relativos a la salud, a la vida sexual y los datos biométricos. \n \n 6.1. Tratamiento de datos sensibles \n \n En términos generales la compañía se abstendrá de hacer tratamiento de datos sensibles conforme las limitaciones que imponga la normatividad vigente aplicable. Se entiende que puede efectuarse el tratamiento de este tipo de datos cuando se dé una de las siguientes circunstancias:"
+      }
+    },
+    "rich-text#contenido2--TRATAMIENTO-DE-DATOS-SENSIBLES":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.El titular haya dado su autorización explícita a dicho tratamiento, salvo en los casos que de conformidad con lo establecido en la normatividad vigente no sea requerido el otorgamiento de la autorización.  \n 2.El tratamiento sea necesario para salvaguardar el interés vital del titular y este se encuentre física o jurídicamente incapacitado. En estos eventos, los representantes legales deberán otorgar su autorización.  \n 3.El tratamiento sea efectuado en el curso de las actividades legítimas y con las debidas garantías por parte de una fundación, ONG, asociación o cualquier otro organismo sin ánimo de lucro, cuya finalidad sea política, filosófica, religiosa o sindical, siempre que se refieran exclusivamente a sus miembros o a las personas que mantengan contactos regulares por razón de su finalidad. En estos eventos, los datos no se podrán suministrar a terceros sin la autorización del titular.  \n 4.El tratamiento se refiera a datos que sean necesarios para el reconocimiento, ejercicio o defensa de un derecho en un proceso judicial.  \n 5.El tratamiento tenga una finalidad histórica, estadística o científica. En este evento deberán adoptarse las medidas conducentes a la supresión de identidad de los titulares."
+      }
+    },
+    "rich-text#contenido3--TRATAMIENTO-DE-DATOS-SENSIBLES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"6.2 Tratamiento de los datos personales de niños, niñas y adolescentes. \n \n El tratamiento de este tipo de datos personales requiere de un especial respeto a los derechos prevalentes de los niños, niñas y adolescentes. \n \n El uso de los datos personales de los niños, niñas y adolescentes queda prohibido en la Compañía salvo en los casos permitidos por la normatividad vigente aplicable en ésta materia."
+      }
+    },
+    /*7. PROCEDIMIENTOS*/
+    "rich-text#PROCEDIMIENTOS":{
+      "props":{
+        "blockClass":"sub--titulos7",
+        "text":"7. PROCEDIMIENTOS"
+      }
+    },
+    "rich-text#contenido--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"RESPONSABLE DE LA ATENCIÓN DE PETICIONES, CONSULTAS Y RECLAMOS \n \n El Titular puede en cualquier momento solicitar a La Compañía el acceso a los datos personales que tenga registrados, así como solicitar la corrección, actualización o supresión de sus datos personales, revocar la autorización otorgada para el tratamiento de los mismos y en general ejercer los derechos que le otorga la ley mediante la presentación de consultas y reclamos por medio de las siguientes instancias o medios: \n \n Clientes: enviar una solicitud al correo electrónico contactenos@arturocalle.com o a través del servicio de Contáctenos en nuestra página web www.arturocalle.com o llamando al Call Center en la ciudad de Bogotá al número 743 88 00 extensión 1258 o a través de carta dirigida a la Dirección de Servicio al Cliente a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá \n \n Proveedores: enviar una solicitud al correo electrónico: proveedores@arturocalle.com o llamando al Call Center en la ciudad de Bogotá al número 743 88 00 extensión 1360 o a través de carta dirigida a la Dirección de Compras a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá. \n \n Sistemas de video vigilancia: enviar una solicitud al correo electrónico: msora@arturocalle.com o llamando al Call Center en la ciudad de Bogotá al número 743 88 00 extensión 1281 o a través de carta dirigida a la Dirección de Seguridad a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá. \n \n 7.1. Consultas \n \n Los titulares o sus causahabientes podrán consultar la información personal del titular que repose en la base de datos de la Compañía. El responsable o encargado del tratamiento deberá suministrar a estos toda la información contenida en el registro individual o que esté vinculada con la identificación del titular. \n \n La consulta se formulará al correo electrónico según lo indicado en el punto anterior o por el medio habilitado por la Compañía para tal efecto, siempre y cuando se pueda mantener prueba de ésta. \n \n La consulta será atendida en un término máximo de diez (10) días hábiles contados a partir de la fecha de recibo. Cuando no fuere posible atender la consulta dentro de dicho término, se informará al interesado, expresando los motivos de la demora y señalando la fecha en que se atenderá su consulta, la cual en ningún caso podrá superar los cinco (5) días hábiles siguientes al vencimiento del primer término. \n \n 7.2 Reclamos \n \n El titular o sus causahabientes que consideren que la información contenida en una base de datos debe ser objeto de corrección, actualización o supresión, o cuando adviertan el presunto incumplimiento de cualquiera de los deberes contenidos la Constitución y la ley, podrán presentar un reclamo ante el responsable o encargado del tratamiento designado por la Compañía, el cual será tramitado bajo las siguientes reglas:"
+      }
+    },
+    "rich-text#contenido2--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"contenido--vinetas--numero--definiciones",
+          "text":"1.El reclamo se formulará mediante solicitud dirigida con la identificación del titular, la descripción de los hechos que dan lugar al reclamo, la dirección, y acompañando los documentos que se quiera hacer valer. Si el reclamo resulta incompleto, se requerirá al interesado dentro de los cinco (5) días siguientes a la recepción del reclamo para que subsane las fallas. Transcurridos dos (2) meses desde la fecha del requerimiento, sin que el solicitante presente la información requerida, se entenderá que ha desistido del reclamo.  \n 2.En caso de que quien reciba el reclamo no sea competente para resolverlo, dará traslado a quien corresponda en un término máximo de dos (2) días hábiles e informará de la situación al interesado. \n 3.Una vez recibido el reclamo completo, se incluirá en la base de datos una leyenda que diga “reclamo en trámite” y el motivo del mismo, en un término no mayor a dos (2) días hábiles. Dicha leyenda deberá mantenerse hasta que el reclamo sea decidido.  \n 4.El término máximo para atender el reclamo será de quince (15) días hábiles contados a partir del día siguiente a la fecha de su recibo. Cuando no fuere posible atender el reclamo dentro de dicho término, se informará al interesado los motivos de la demora y la fecha en que se atenderá su reclamo, la cual en ningún caso podrá superar los ocho (8) días hábiles siguientes al vencimiento del primer término."
+      }
+    },
+    "rich-text#contenido3--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"VIDEO VIGILANCIA E IMÁGENES"
+      }
+    },
+    "rich-text#contenido4--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"La Compañía podrá utilizar sistemas de video vigilancia para fines de seguridad de las personas, bienes e instalaciones. Esta información podrá ser empleada como prueba en cualquier clase de proceso interno y/o ante cualquier tipo de autoridad, entidad y/u organización. La Compañía también podrá realizar toma de imágenes fotográficas para: Reconocimiento de los empleados en los diferentes medios, tales como, periódico corporativo, web interna y/o externa entre otros. Publicaciones informativas internas y/o externas. Presentaciones corporativas internas y externas para lo cual ubicara un aviso de privacidad en el que se consulten las condiciones en las cuales se efectuara el tratamiento de los datos personales correspondientes."
+      }
+    },
+    "rich-text#contenido5--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"AVISO DE PRIVACIDAD"
+      }
+    },
+    "rich-text#contenido6--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"El Aviso de Privacidad es el documento físico, electrónico o en cualquier otro formato conocido o por conocer, que es puesto a disposición del Titular para el tratamiento de sus datos personales y sensibles. A través de este documento se informa al Titular la información relativa a la existencia de las políticas de tratamiento de información que le serán aplicables, la forma de acceder a las mismas y las características del tratamiento que se pretende dar a los datos personales y sensibles."
+      }
+    },
+    "rich-text#contenido7--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"PROCEDIMIENTO DE ALMACENAMIENTO DE INFORMACIÓN DE DATOS PERSONALES"
+      }
+    },
+    "rich-text#contenido8--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"La compañía adoptará todas las medidas técnicas y administrativas adecuadas y suficientes que permitan el cuidado y conservación de los datos personales de los titulares, evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. \n \n De igual forma, la implementación estas medidas, permitirá la conservación de la autorización otorgada por los titulares de los datos personales para el tratamiento de los mismos. La compañía adoptará todos los mecanismos para guardar la confidencialidad de la información y se abstendrá de usar la información para fines diferentes a los expresamente autorizados por el titular."
+      }
+    },
+    "rich-text#contenido9--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"DISPOSICIÓN FINAL Y SEGURIDAD DE LOS DATOS"
+      }
+    },
+    "rich-text#contenido10--PROCEDIMIENTOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Los encargados de cada base de datos y el Gerente de Sistemas y Soporte Tecnológico son responsables de asegurar que únicamente los funcionarios autorizados tienen acceso a las bases de datos personales con las cuales cuenta la Compañía. La compañía cuenta con protocolos seguros a nivel informático, restricciones de acceso y prácticas de desarrollo interno de software seguro que permiten proteger la información almacenada. \n \n En el momento en que el Titular lo solicite o cuando la información del Titular no sea requerida por la Compañía de acuerdo a las políticas de tratamiento y las finalidades establecidas en el presente Manual, se dará de baja la información del Titular contenida en las respectivas Bases de Datos."
+      }
+    },
+    /*8. TRANSFERENCIA DE DATOS*/
+    "rich-text#TRANSFERENCIA-DE-DATOS":{
+      "props":{
+        "blockClass":"sub--titulos8",
+        "text":"8. TRANSFERENCIA DE DATOS"
+      }
+    },
+    "rich-text#contenido--TRANSFERENCIA-DE-DATOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"La transferencia de datos tiene lugar cuando el Responsable y/o Encargado del Tratamiento de datos personales de acuerdo a lo establecido en el presente Manual, envía la información o los datos personales a un receptor, que a su vez es Responsable del Tratamiento y se encuentra dentro o fuera del país. \n \n Se permite la transferencia de datos personales siempre y cuando El Titular de la información haya autorizado la transferencia por cualquiera de los medios y de acuerdo a lo establecido en el numeral 3.1 del presente Manual. En todo caso, el Receptor de la información debe garantizar la seguridad de la información y los niveles adecuados de protección de datos."
+      }
+    },
+    "rich-text#contenido2--TRANSFERENCIA-DE-DATOS":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"TRANSFERENCIA DE DATOS A TERCEROS PAÍSES"
+      }
+    },
+    "rich-text#contenido3--TRANSFERENCIA-DE-DATOS":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Se prohíbe la transferencia de datos personales de cualquier tipo de países que no proporcionen niveles adecuados de protección de datos. Se entiende que un país ofrece un nivel adecuado de protección de datos cuando cumpla con los estándares fijados por la Superintendencia de Industria y Comercio sobre la materia. \n \n La prohibición no rige cuando: Información respecto de la cual el titular haya otorgado su autorización expresa e inequívoca para la transferencia. Intercambio de datos de carácter médico, cuando así lo exija el tratamiento del titular por razones de salud o higiene pública. Transferencias bancarias o bursátiles, conforme a la legislación que les resulte aplicable. Transferencias acordadas en el marco de tratados internacionales en los cuales la Republica de Colombia sea parte, con fundamento en el principio de reciprocidad. Transferencias necesarias para la ejecución de un contrato entre el titular y el responsable del tratamiento, o para la ejecución de medidas precontractuales siempre y cuando se cuente con la autorización del titular. Transferencias legalmente exigidas para la salvaguardia de interés público, o para el reconocimiento, ejercicio o defensa de un derecho en un proceso judicial, así como los demás casos que determine la ley, la Superintendencia de Industria y Comercio o la autoridad competente.."
+      }
+    },
+    /*9. DATOS DE CONTACTO PARA TRATAMIENTO DE DATOS PERSONALES*/
+    "rich-text#DATOS-DE-CONTACTO-PARA-TRATAMIENTO-DE-DATOS-PERSONALES":{
+      "props":{
+        "blockClass":"sub--titulos9",
+        "text":"9. DATOS DE CONTACTO PARA TRATAMIENTO DE DATOS PERSONALES"
+      }
+    },
+    "rich-text#contenido--DATOS-DE-CONTACTO-PARA-TRATAMIENTO-DE-DATOS-PERSONALES":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Para efectos de solicitar aclaraciones, presentar quejas o reclamos o solicitar en general cualquier información referente al tratamiento de datos personales, la Compañía ha habilitado las siguientes instancias o medios: \n \n Clientes: enviar una solicitud al correo electrónico contactenos@arturocalle.com o a través del servicio de Contáctenos en nuestra página web www.arturocalle.com o llamando al Call Center en la ciudad de Bogotá al número 743 88 00 extensión 1258 o a través de carta dirigida a la Dirección de Servicio al Cliente a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá D.C. \n \n Proveedores: enviar una solicitud al correo electrónico: proveedores@arturocalle.com o llamando al Call Center en la ciudad de Bogotá al número 743 88 00 extensión 1360 o a través de carta dirigida a la Dirección de Compras a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá D.C. \n \n Sistemas de video vigilancia: enviar una solicitud al correo electrónico: msora@arturocalle.com o llamando al Call Center en la ciudad de Bogotá al número 743 88 00 extensión 1281 o a través de carta dirigida a la Dirección de Seguridad a la AK 72 (Av. Boyacá) No. 152 B – 62 en Bogotá D.C."
+      }
+    },
+    /*10. FECHA Y PERIODO DE VIGENCIA*/
+    "rich-text#FECHA-Y-PERIODO-DE-VIGENCIA":{
+      "props":{
+        "blockClass":"sub--titulos10",
+        "text":"10. FECHA Y PERIODO DE VIGENCIA"
+      }
+    },
+    "rich-text#contenido--FECHA-Y-PERIODO-DE-VIGENCIA":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"El presente Manual de Políticas y Procedimientos para el Tratamiento De Datos Personales estará vigente a partir del 24 de julio de 2013. \n \n Periodo de vigencia: El periodo de vigencia para el tratamiento de los datos personales y sensibles será el tiempo razonable para cumplir con las finalidades del tratamiento de la información."
+      }
+    },
+    /*11. POLÍTICAS DE PRIVACIDAD*/
+    "rich-text#POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+        "blockClass":"sub--titulos11",
+        "text":"11. POLÍTICAS DE PRIVACIDAD"
+      }
+    },
+    "rich-text#contenido--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Recolección de información personal:"
+      }
+    },
+    "rich-text#contenido2--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"En arturocalle.com en adelante “sitio”, solicitamos información de nuestros clientes para mejorar la experiencia y la comunicación de productos, servicios y actividades comerciales. Con tal fin, recolectamos datos como su nombre, correo electrónico y dirección, que son proporcionados por usted cuando se registra en nuestro sitio o cuando realiza un pedido. Por seguridad, la información sobre sus medios de pagos no es tratada o almacenada directamente por nosotros, para mantener la privacidad de la misma, la información es tratada únicamente entre usted y nuestro proveedor del sistema de pagos electrónicos PayU. \n \n Al utilizar el sitio arturocalle.com, usted está aceptando las políticas que aquí se enuncian."
+      }
+    },
+    "rich-text#contenido3--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Utilización de información personal:"
+      }
+    },
+    "rich-text#contenido4--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"En arturocalle.com podemos utilizar la información recolectada en el sitio para procesar y completar sus solicitudes y sus pedidos. También usamos las direcciones de correo electrónico en varios lugares dentro del sitio, para poder enviar comunicaciones por correo electrónico relacionados con su solicitud o su pedido. Además, el sitio mantiene un registro de sus compras y cualquier otra información que nos permita mejorar y personalizar su experiencia de compra. También monitoreamos el sitio para verificar los patrones de tráfico con el fin de mejorar su diseño y los productos y servicios que ofrecemos. \n \n A través de la información que nos proporciona, podremos cumplir con la finalidad de construir una mejor comunicación sobre nuestros productos, eventos, actividades comerciales o personalización de su experiencia de compra en nuestro sitio. Además, nos permite cumplir con los fines que se encuentran dispuestos dentro de nuestra política de tratamiento de datos. \n \n Todos los datos que usted voluntariamente nos suministre en arturocalle.com serán tratados, conforme lo dispuesto en la Política de Uso de Datos Personales y Administración de Bases de Datos de ARTURO CALLE puede ser consultada en www.arturocalle.com/politicadedatos/."
+      }
+    },
+    "rich-text#contenido5--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Seguridad:"
+      }
+    },
+    "rich-text#contenido6--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"La información personal que es recibida por arturocalle.com, se encuentra protegida de cualquier acceso, tratamiento y/o divulgación que no hayan sido autorizados. Esta protección es brindada a través de servidores y protocolos internos de seguridad aplicables a su transferencia, transmisión y en general a todas las actividades relativas al tratamiento establecido en la Política de Uso de Datos Personales y Administración de Bases de Datos de ARTURO CALLE. \n \n Adicionalmente, comprar en arturocalle.com es 100% seguro. Nuestra plataforma tecnológica de comercio electrónico y nuestro aliado de pagos PayU Latam cuentan con la certificación PCI DSS, para el manejo seguro de la información de los medios de pago habilitados en nuestra plataforma. \n \n Le recomendamos consultar las políticas y condiciones de PayU en la web www.payulatam.com/co y utilizar los modos seguros de sus navegadores y programas de seguridad de internet."
+      }
+    },
+    "rich-text#contenido7--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Cookies:"
+      }
+    },
+    "rich-text#contenido8--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Las cookies son pequeños archivos de datos que los portales web como www.arturocalle.com, guardan en su buscador y opcionalmente en el disco duro. Las cookies nos permiten “recordar” la información sobre sus preferencias y sesión, y a usted le permite desplazarse dentro de las áreas de nuestro portal web sin volver a introducir sus datos. Esto hace posible crear una experiencia de compras más personalizada y cómoda. \n \n arturocalle.com usa un tercero para colocar cookies en su computador, para recopilar información que no sea personal e identificable. A pesar de que las cookies contienen un número único de usuario, no recopilan ni guardan ninguna información personal identificable. Aunque usted puede configurar su navegador de Internet para que no acepte cookies, estas son necesarias para poder ver, crear una cuenta, o hacer compras por medio del portal de arturocalle.com."
+      }
+    },
+    "rich-text#contenido9--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Tecnología Clicstream:"
+      }
+    },
+    "rich-text#contenido10--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"El buscador de Internet recoge automáticamente información de la página web que el usuario consultó antes de visitar arturocalle.com, el navegador que utilizó y cualquier término de búsqueda que haya ingresado en nuestro portal, entre otras cosas. Nuestro portal también podrá usar otras tecnologías para rastrear las páginas que visitan nuestros clientes para garantizarles una mejor y más segura experiencia de compra y para ayudarnos a entender cómo los visitantes usan nuestro portal."
+      }
+    },
+    "rich-text#contenido11--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Usted Puede Elegir:"
+      }
+    },
+    "rich-text#contenido12--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Dejar de recibir comunicaciones comerciales por e-mail, correo directo, teléfono y móvil. Actualizar y corregir su información personal."
+      }
+    },
+    "rich-text#contenido13--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Impedimento de uso:"
+      }
+    },
+    "rich-text#contenido14--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Comercializadora Arturo Calle puede, a su exclusivo criterio, cancelar su cuenta o impedir que utilice el portal de arturocalle.com en cualquier momento conforme a lo establecido en los términos y condiciones que puede consultar en www.arturocalle.com."
+      }
+    },
+    "rich-text#contenido15--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Responsabilidad Del Usuario:"
+      }
+    },
+    "rich-text#contenido16--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Al ingresar a este portal, usted acepta no utilizar ningún dispositivo, software, rutina ni datos para obstruir o intentar obstruir el funcionamiento correcto del portal arturocalle.com o toda actividad realizada en este portal. Además, acepta no utilizar ni intentar utilizar ningún motor, software, herramienta, agente, datos u otro dispositivo o mecanismo (incluidos, entre otros, exploradores, arañas, robots, personajes digitales o agentes inteligentes) para navegar o buscar en el portal de Comercializadora Arturo Calle que no sea el motor de búsqueda o los agentes de búsqueda brindados por Comercializadora Arturo Calle o los exploradores disponibles."
+      }
+    },
+    "rich-text#contenido17--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Modificaciones a la política de privacidad:"
+      }
+    },
+    "rich-text#contenido18--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"La presente política es susceptible de ser actualizada, por tal motivo recomendamos a todos los usuarios a consultar periódicamente en arturocalle.com a fin de enterarse cómo se está protegiendo su información. En todo caso usted siempre podrá consultar y aceptar esta política antes de formalizar sus pedidos a través de nuestro sitio."
+      }
+    },
+    "rich-text#contenido19--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"paragraph--subtitulomenornivel",
+          "text":"Información de contacto:"
+      }
+    },
+    "rich-text#contenido20--POLITICAS-DE-PRIVACIDAD":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Para efectos de comentarios o inquietudes relacionadas con la presente política puede comunicarse a la línea nacional de servicio al cliente 01 8000 180 120, chat online o enviar un mensaje a contactenos@arturocalle.com."
+      }
+    }
+}

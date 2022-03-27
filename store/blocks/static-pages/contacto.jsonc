@@ -1,0 +1,32 @@
+{
+    "store.custom#contacto": {
+        "blocks": [
+            "flex-layout.row#informacion--contacto"
+        ]
+      },
+      "flex-layout.row#informacion--contacto":{
+          "props":{
+              "blockClass":"informacion--contacto"
+          },
+          "children":[
+            "flex-layout.col#informacion--contacto--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--contacto--primera--parte":{
+          "props":{
+            "blockClass":"informacion--contacto--primera--parte"
+          },
+          "children":[
+            "iframe#contacto-form"
+          ]
+      },
+      "iframe#contacto-form":{
+        "props": {
+          "blockClass":"iframe-contacto-form",
+          "width":"100%",
+          "height":"1000px",
+          "src": "https://wia.arturocalle.com/Contactenos/contactenos"
+        }
+      }
+
+}

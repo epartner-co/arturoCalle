@@ -1,0 +1,276 @@
+{
+    "store.custom#historia": {
+        "blocks": [
+            "flex-layout.row#informacion--historia"
+        ]
+      },
+      "flex-layout.row#informacion--historia":{
+          "props":{
+              "blockClass":"informacion--historia"
+          },
+          "children":[
+            "flex-layout.col#informacion--historia--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--historia--primera--parte":{
+          "props":{
+            "blockClass":"informacion--historia--primera--parte"
+          },
+          "children":[
+              "rich-text#titulo--historia",
+              "image#historia--imagen--portada",
+              "rich-text#contenido--1--historia",
+              "rich-text#recuadro1",
+              "rich-text#contenido--2--historia",
+              "rich-text#recuadro2",
+              "rich-text#contenido--3--historia",
+              "image#historia--imagen2",
+              "rich-text#contenido--4--historia",
+              "rich-text#recuadro3",
+              "rich-text#contenido--5--historia",
+              "rich-text#recuadro4",
+              "rich-text#contenido--6--historia",
+              "rich-text#un--legado--social",
+              "rich-text#contenido--un--legado--social",
+              "image#historia--imagen3",
+              "rich-text#la--evolución--de--la--moda--masculina--en--estos--50--años",
+              "rich-text#contenido-la--evolución--de--la--moda--masculina--en--estos--50--años",
+              "rich-text#recuadro5",
+              "rich-text#contenido--7--historia",
+              "image#historia--imagen4",
+              "rich-text#el--presente--de--ARTURO--CALLE",
+              "rich-text#contenido-el--presente--de--ARTURO--CALLE",
+              "rich-text#recuadro6",
+              "rich-text#contenido--8--historia",
+              "image#historia--imagen5",
+              "rich-text#un--icono--de--la--innovacion",
+              "rich-text#contenido--un--icono--de--la--innovacion",
+              "rich-text#recuadro7",
+              "rich-text#contenido--9--historia",
+              "rich-text#vendran--al--menos--50--años--mas",
+              "rich-text#recuadro8",
+              "rich-text#contenido--vendran--al--menos--50--años--mas"
+          ]
+      },
+      "rich-text#titulo--historia":{
+        "props":{
+            "blockClass":"titulo-principal--historia",
+            "text":"ACERCA DE NOSOTROS"
+          }
+      },
+      /*primera imagen*/
+      "image#historia--imagen--portada":{
+        "props": {
+            "blockClass":"historia--imagen--portada",
+            "src": "assets/desk/static-pages/historia.webp"
+          }
+      },
+      /*contenido de la pagina*/
+        "rich-text#contenido--1--historia":{
+            "props":{
+            "blockClass":"contenido--historia",
+                "text":" comenzó a tejerse hace más de 70 años, en el barrio Manrique de Medellín. Allí nació Arturo Calle el 13 de agosto de 1938. Con tan solo diez años de edad este paisa ya se había convertido en un experto vendedor de frutas, hortalizas y flores en la plaza de mercado en el barrio Robledo en Medellín."
+            }
+        },
+     /*primer recuadro*/
+     "rich-text#recuadro1":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"'Por esa época mi madre, mis nueve hermanos y yo vivíamos en una casa campestre ubicada en los Altos de Robledo. Este servidor era el encargado de vender todos los alimentos que allí producíamos en el mercado, e incluso los vecinos me buscaban para que les ayudará a comercializar los suyos. De esta manera apoyé a mi madre desde muy niño con los gastos del hogar', señala Arturo Calle."
+        }  
+     },
+     "rich-text#contenido--2--historia":{
+        "props":{
+            "blockClass":"contenido",
+                "text":"Su juventud fue la consolidación de su audacia y sagacidad, el ahora empresario recuerda con cariño que su familia le auguraba un futuro promisorio gracias a su templanza y espíritu visionario, y no se equivocaron al dar este concepto. \n \n Desde entonces, los negocios siempre hicieron parte del ADN de Arturo Calle y a medida que crecía, aumentaba su interés por involucrarse en diversos sectores de la economía. Fue así como logró vincularse como mecánico industrial a Hilanderías Pepalfa, una fábrica dedicada a la confección de medias, que podría definirse como su primer contacto con la industria textil. En este mismo escenario, nació su sueño de ser independiente, un ideal que lo motivó a ahorrar casi la totalidad de su sueldo durante dos años y medio."
+            }
+     },
+     /*segundo recuadro*/
+     "rich-text#recuadro2":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"“Nunca aspiré a ser un empleado más, quería ser independiente y todo aquel que tenga la misma ilusión lo puede lograr a base de esfuerzo y de mucho ahorro”"
+        }  
+     },
+     "rich-text#contenido--3--historia":{
+        "props":{
+            "blockClass":"contenido",
+                "text":"Pero fue en Bogotá, en donde encontró su verdadera vocación, la cual lo marcaría para toda la vida. Luego de trabajar de domingo a domingo en un almacén de camisas en el sector comercial de San Victorino, Arturo Calle adquiere -en 1966- el suyo propio denominado “Danté” y ubicado en el mismo sector en la calle 13 con carrera 14. \n \n Este primer almacén de 8 m2 le costó 17.000 pesos de la época, dinero que recaudó gracias al capital ahorrado y a un préstamo de $4.000 pesos, que según recuerda, es la única deuda que ha adquirido en su vida."
+            }
+     },
+     "image#historia--imagen2":{
+        "props": {
+            "blockClass":"historia--imagen--portada",
+            "src": "assets/desk/static-pages/historia2.webp"
+          }
+      },
+      "rich-text#contenido--4--historia":{
+        "props":{
+            "blockClass":"contenido",
+                "text":"El empresario viajaba periódicamente a la ciudad de Pereira en búsqueda de fabricantes que hicieran las prendas formales que luego comercializaba en su primer punto de venta. Sus habilidades como comerciante y la calidad de sus productos atrajeron nuevos clientes, lo cual facilitó la apertura de un segundo almacén “Danté” a pocas cuadras del primero. \n \n Al cabo de 2 años Arturo Calle adquiere un tercer almacén (contiguo al de la carrera 10) y gracias a la sugerencia de uno de sus clientes, decide ponerle su nombre, ARTURO CALLE, tendencia que luego emularon otros diseñadores de la industria de la moda en Colombia. Este hecho da inicio oficial a una de las compañías más prósperas del país, que hoy celebra 50 Años de historia y evolución. \n \n Para ese entonces, Arturo Calle, compraba sus productos a los fabricantes existentes pero el mercado era muy limitado puesto que no se podía innovar en el diseño, ofrecer mejores precios y decidir directamente el grado de calidad y diseño de las prendas. \n \n Fue así como el empresario vio la necesidad de surtir sus propios almacenes. Por ello, decidió fabricar directamente sus productos forjando una alianza con empresas de manufactura y confección que evolucionaron y que en la actualidad son CO&TEX, FRAC y Baena Mora. Esta sinergia le ha permitido a ARTURO CALLE garantizar a sus clientes la mejor relación calidad precio; característica que, sumada a un buen servicio, ha sido determinante para el éxito comercial de la firma. \n \n De hecho, su pasión por brindar al cliente una atención excepcional, lo llevó a implementar desde los inicios del negocio, el servicio de sastrería, que sigue siendo uno de los valores agregados de la marca de cara a sus consumidores."
+            }
+     },
+     /*tercer recuadro*/
+     "rich-text#recuadro3":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"“Don Arturo es el mejor vendedor que he conocido en mi vida. Jamás un cliente suyo se fue insatisfecho, es un negociante por naturaleza y un ser humano excepcional”, señala Rogelio Gómez, vinculado a ARTURO CALLE desde 1981."
+        }  
+     },
+     "rich-text#contenido--5--historia":{
+        "props":{
+            "blockClass":"contenido",
+                "text":"Bajo el nombre de ARTURO CALLE, la compañía abrió por primera vez sus puertas en un Centro Comercial -Unicentro Bogotá-, lo que consolidó su imagen en el mercado capitalino y lo proyectó hacia otras ciudades del país. Fue entonces, cuando a finales de la década de los 90 ARTURO CALLE llega a las ciudades de Cali y Medellín con una fuerte estrategia de posicionamiento que implicaba la apertura de varios almacenes en cada una de las ciudades, el mismo día y a la misma hora."
+            }
+     },
+     /*cuarto recuadro*/
+     "rich-text#recuadro4":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"“Para ese entonces Cali y Medellín ya eran mercados tan grandes que la apertura de un almacén en cada uno de ellos, me parecía muy poco. Por eso decidí ahorrar con paciencia e ir comprando locales hasta que tuvimos suficiente músculo empresarial para abrir varias tiendas en simultáneo”, sostiene Calle."
+        }  
+     },
+     "rich-text#contenido--6--historia":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Estas palabras del empresario dejan entrever dos de sus claves para el éxito, la paciencia y el nivel cero de endeudamiento. Y es que, como él mismo señala, “hay que crecer lentamente y sin afán, evitando incurrir en gastos innecesarios. Por eso, mi fórmula financiera es: un porcentaje de utilidad fijo, igual para todos los productos, un portafolio amplio de productos que se debe renovar con frecuencia, y el no pago de arriendo”. \n \n Arturo Calle tuvo la fortuna de entender que su negocio podría crecer siempre y cuando se mantuviesen los atributos de calidad, diseño y precio justo que hoy siguen representando a la marca en Colombia y el exterior."
+            }
+     },
+     /*Un legado social*/
+     "rich-text#un--legado--social":{
+         "props":{
+            "blockClass":"sub--titulo--historia",
+             "text":"Un legado social"
+         }
+     },
+     "rich-text#contenido--un--legado--social":{
+         "props":{
+            "blockClass":"contenido",
+             "text":"Desde muy joven, Arturo Calle comprendió el deber que tiene cualquier ciudadano en la construcción de una mejor sociedad. “Mi madre me enseñó el valor de la solidaridad. A menudo, ella llegaba a casa con la mitad del mercado porque repartía gran parte de lo que había comprado entre los pobres que encontraba en el camino”, señala Calle. \n \n El ejemplo de su madre y su visión del mundo, llevaron a este empresario a invertir en lo social desde temprana edad, labor que se formaliza en 1981 con la creación de la Fundación ARTURO CALLE, a través de la cual se ofrece respaldo a iniciativas que fomentan la educación, la salud y la adquisición de vivienda propia. Hoy en día, la firma apoya a 200 fundaciones mensualmente.  \n \n Las nuevas generaciones al mando de la compañía también han aprendido de la vocación social de Arturo Calle, lo cual garantiza la continuidad de su espíritu filantrópico sustentado en el principio de aprender a compartir. “ARTURO CALLE es una empresa que le pertenece a los colombianos por una razón muy sencilla, uno no se lleva nada cuando se muere. Me siento satisfecho por haber sembrado las bases de este gran edificio que genera empleo y que construye país”, finaliza Calle."
+         }
+     },
+     "image#historia--imagen3":{
+        "props": {
+            "blockClass":"historia--imagen--portada",
+            "src": "assets/desk/static-pages/historia3.webp"
+          }
+      },
+      /*La evolución de la moda masculina en estos 50 años*/
+     "rich-text#la--evolución--de--la--moda--masculina--en--estos--50--años":{
+        "props":{
+           "blockClass":"sub--titulo--historia",
+            "text":"La evolución de la moda masculina en estos 50 años"
+        }
+    },
+    "rich-text#contenido-la--evolución--de--la--moda--masculina--en--estos--50--años":{
+        "props":{
+           "blockClass":"contenido",
+            "text":"Hay quienes creen que, en las últimas 5 décadas, la moda masculina en Colombia ha evolucionado al ritmo de ARTURO CALLE, otros más conservadores opinan que ha sido la compañía la que se ha transformado conforme aparecen nuevas tendencias de moda, diseño y color. Lo cierto es que esta firma ha sido fundamental en el desarrollo de un mercado masculino cada vez más exigente, informado y diverso. \n \n El rol determinante que la compañía ha asumido, es producto de su presencia en las grandes pasarelas de la moda a nivel internacional y su interés por proponer en el mercado interno las últimas tendencias en vestuario para hombre, de acuerdo a las particularidades del público masculino en Colombia. \n \n Gracias a ello, ARTURO CALLE ha presenciado y hecho parte de la transformación de prendas esenciales en cualquier armario masculino como los trajes, los jeans y el calzado formal y casual. “Mi negocio inicia con la venta de vestidos para hombre, que para aquel entonces se caracterizaban por una construcción del traje bastante estructurada, entretelas pesadas, solapas cortas y amplias y forros a tono. Así mismo, en el pantalón se apreciaban siluetas holgadas, tiros largos, prenses y botas con dobladillo. Poco a poco, ese traje fue evolucionando, hasta incorporar fibras más livianas, siluetas acordes a la fisionomía del hombre, variedad de estructuras y nuevos colores que van desde el gris claro hasta el azul cobalto”. \n \n El avance de la moda formal ha sido tal que, en la actualidad, ARTURO CALLE ofrece una línea de trajes que comprende desde los paños italianos con títulos 150, desarrollados por la firma para el ejecutivo que valora la sofisticación, hasta los vestidos para lavar en casa, ideales para el hombre que quieren lucir elegante a diario sin tener que incurrir en altos costos de lavandería. \n \n El jean ha sufrido el mismo proceso de transformación. En sus primeros años de existencia, la firma ARTURO CALLE lanzó al mercado la silueta 701, un pantalón holgado y muy cómodo, inspirado en el clásico vaquero, en cuyo diseño se incorporaban telas pesadas en algodón de 14 onzas, pocos desgastes y remaches que aseguren la resistencia de la prenda. Con el paso de los años y la influencia de las tendencias mundiales, la silueta del jean se estilizó convirtiéndose en una prenda cada vez más justa. \n \n Hoy la marca conserva la clásica silueta que ha acompañado a los colombianos durante décadas y tres diseños actuales, que son fabricados a partir de diversos procesos industriales, con telas confortables para asegurar libertad de movimiento."
+        }
+    },
+    /*quinto recuadro*/
+    "rich-text#recuadro5":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"“Los jeans de ARTURO CALLE están dotados con el diseño y la calidad necesaria para acompañar al público masculino en cualquier tipo de ocasión y en cualquier etapa de la vida”"
+        }  
+     },
+     "rich-text#contenido--7--historia":{
+        "props":{
+           "blockClass":"contenido",
+            "text":"En lo que a calzado se refiere, la evolución ha sido sinónimo de mayor confort y nuevas propuestas en cuanto a diseño, color y materiales. En un principio el uso de colores llamativos y diferentes modelos de calzado era inconcebible dentro del mundo masculino; la oferta se limitaba a lo clásico, es decir, a hormas simples, diseños de amarrar, suelas de cuero y una gama de marrones y negro. \n \n Las nuevas dinámicas del hombre vanguardista y su interés por llevar prendas muy cómodas han motivado la aparición de nuevas propuestas de calzado en ARTURO CALLE que dan vida a colores en tonos brillantes, mezclas de materiales (cueros y textiles) y nuevos tipos de suelas que aportan diseño y originalidad. Los mocasines y zapatos tipo Oxford han dejado atrás sus orígenes clásicos y se han incorporado al vestuario casual e informal de los últimos tiempos. Los driver shoes elaborados con carnaza también han evolucionado y ahora están disponibles en colores vibrantes que añaden un toque de personalidad a este calzado extremadamente flexible. \n \n “No solo nos preocupamos por vestir a los hombres con las mejores prendas, también nos hemos encargado de dejar huella en el mundo de la moda masculina con una propuesta de calzado que se adapta a las necesidades de cualquier cliente”, sostiene Calle. En la actualidad, ARTURO CALLE produce 30 mil unidades de calzado al mes. \n \n La propuesta de accesorios de ARTURO CALLE también se ha ido expandiendo en el transcurso de estos 50 Años. Arturo Calle recuerda que la compañía incursionó en la línea de accesorios para hombre con el diseño y la comercialización de gorras deportivas. Posteriormente, se fueron incorporando billeteras, fragancias, maletas, sombrillas, gafas, manillas y todo tipo de productos que hoy agregan versatilidad al closet masculino."
+        }
+    },
+    "image#historia--imagen4":{
+        "props": {
+            "blockClass":"historia--imagen--portada",
+            "src": "assets/desk/static-pages/historia4.webp"
+          }
+      },
+       /*El presente de ARTURO CALLE*/
+     "rich-text#el--presente--de--ARTURO--CALLE":{
+        "props":{
+           "blockClass":"sub--titulo--historia",
+            "text":"El presente de ARTURO CALLE"
+        }
+    },
+    "rich-text#contenido-el--presente--de--ARTURO--CALLE":{
+        "props":{
+           "blockClass":"contenido",
+            "text":"El hoy de ARTURO CALLE se enmarca en una estrategia de negocio que contempla la implementación de tecnologías de punta, el lanzamiento de nuevas marcas y el desarrollo de un plan de expansión territorial con proyección internacional. Dicha estrategia ha significado grandes hitos en la operación de la compañía. \n \n Dentro de tales hitos, vale la pena destacar la consolidación de COLORE, la unidad de negocios corporativos. Esta área con 5.000 clientes de todos los sectores de la economía es la encargada de suplir las necesidades de vestuario y dotaciones de las principales empresas del país y de los mercados de Costa Rica y Panamá. Lo anterior, manteniendo los mismos criterios de calidad, diseño y precio justo que imperan en todos los negocios de ARTURO CALLE. \n \n La llegada a los países centroamericanos, es otro de los logros de la firma. Este proceso de incursión internacional que inició en 2012 con la apertura del primer almacén en Panamá. El objetivo según describe Arturo Calle, era llevar la propuesta de moda de ARTURO CALLE a un nuevo mercado que guardaba semejanzas con el colombiano en materia de consumo. Tras el éxito de ese primer almacén en suelo panameño, vino la apertura de tres puntos de venta en Costa Rica en 2013 y la incursión en el mercado salvadoreño un año más tarde. Hoy en día, la compañía suma 6 almacenes en esos países. \n \n En 2014, la compañía da otro gran paso con el lanzamiento de ARTURO CALLE KIDS, la marca de ropa y accesorios para niños con edades entre los 2 y los 12 años. El desarrollo de este proyecto implicó dos años de investigación de mercado, creación de marca, diseño de producto, y una inversión superior a los 2.500 millones de pesos. \n \n De acuerdo a Arturo Calle, AC KIDS es la evolución natural de la marca ARTURO CALLE, un paso necesario para atraer a un mercado joven que será el consumidor de la línea para adultos el día de mañana. Así mismo, AC KIDS representa una nueva propuesta de valor en el mercado infantil colombiano, en la que imperan los mismos estándares y atributos que ya son característicos de la marca ARTURO CALLE. \n \n Él éxito de la propuesta de ropa para niños ha sido rotundo. En tan solo 30 días, la compañía registró la venta del 70% del inventario global estimado para 90 días. A la fecha, la marca cuenta con tres almacenes exclusivos (Medellín, Cali y Valledupar) y corners en todos los almacenes del país, que operan bajo un concepto de interactividad y compra inteligente, único en Colombia."
+        }
+    },
+    /*sexto recuadro*/
+    "rich-text#recuadro6":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"“ARTURO CALLE KIDS cambió nuestra mentalidad. Trabajar en este proyecto nos llevó a pensar como niños, a crear para niños, a diseñar para ellos y a adaptar nuestras líneas de producción de tal forma que pudiéramos cumplir las necesidades de vestuario del público infantil”"
+        }  
+     },
+     "rich-text#contenido--8--historia":{
+        "props":{
+           "blockClass":"contenido",
+            "text":"El plan de expansión de ARTURO CALLE continúa. En 2015 la compañía lanzó AC LEATHER una marca especializada en calzado y marroquinería a través de la cual se comercializan zapatos, cinturones, chaquetas de cuero, billeteras, maletas, sombreros y manillas; todos elaborados con cuero de la más alta calidad. \n \n Asociado a esta nueva incursión en el mercado de moda para hombre, ARTURO CALLE lanzó el Belt Bar, el único bar de cinturones en Colombia. Este innovador formato ha revolucionado la manera de comprar accesorios para hombres en el país, dado que involucra al cliente en el trabajo de personalización de su propio cinturón."
+        }
+    },
+    "image#historia--imagen5":{
+        "props": {
+            "blockClass":"historia--imagen--portada",
+            "src": "assets/desk/static-pages/historia5.webp"
+          }
+      },
+      /*Un ícono de la innovación*/
+     "rich-text#un--icono--de--la--innovacion":{
+        "props":{
+           "blockClass":"sub--titulo--historia",
+            "text":"Un ícono de la innovación"
+        }
+    },
+    "rich-text#contenido--un--icono--de--la--innovacion":{
+        "props":{
+           "blockClass":"contenido",
+            "text":"Si ha pasado por la Avenida Boyacá con Calle 152, con seguridad habrá notado la Torre Empresarial de ARTURO CALLE, uno de los íconos arquitectónicos del norte de Bogotá, y una representación de la vocación innovadora de esta compañía. La edificación de 11 pisos y 21.000 m2, fue construida por los arquitectos Gabriel Arango y Miguel Soto e inaugurada en 2011. \n \n Arturo Calle quería un edificio que ilustrara la evolución de la marca y que sirviera de referente para futuras construcciones asociadas a la marca ARTURO CALLE. Además, esta nueva construcción debía contar con la flag store es decir, el almacén principal de la cadena, un espacio de 2.000 m2 en donde hoy en día se realizan la mayoría de los lanzamientos de la marca. \n \n El empresario también aspiraba a que la torre tuviese un elemento inédito relacionado con la razón de ser de su negocio, es decir, algo que representara la moda y la innovación características de ARTURO CALLE. Es así como Arango y Soto decidieron utilizar un textil metálico en la fachada del edificio, que se pliega de la misma forma en que lo hace la tela en el telar."
+        }
+    },
+    /*septimo recuadro*/
+    "rich-text#recuadro7":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"“Desde este punto de vista, la fachada de la Torre Empresarial ARTURO CALLE, es un homenaje a las fibras y los textiles como materia prima de un negocio que ha crecido con solidez.”"
+        }  
+     },
+     "rich-text#contenido--9--historia":{
+        "props":{
+           "blockClass":"contenido",
+            "text":"Pero la fachada no es el único tributo a la moda y a la innovación; en el interior del edificio, se respira el mismo aire de vanguardia y sobriedad que se aprecia desde las afueras. Sin duda, los elementos más llamativos al interior de la Torre son el salón de eventos con capacidad para 300 personas y las vitrinas de moda –presentes en cada piso- que parecen suspendidas en el aire. Estas últimas surgen de la petición de Arturo Calle de llevar el ambiente de moda que se vive en los almacenes, incluso hasta los pasillos de las áreas administrativas de la compañía. \n \n La Torre Empresarial ARTURO CALLE es la representación de un proyecto empresarial sólido, próspero e innovador."
+        }
+    },
+     /*Vendrán al menos 50 años más*/
+     "rich-text#vendran--al--menos--50--años--mas":{
+        "props":{
+           "blockClass":"sub--titulo--historia",
+            "text":"Vendrán al menos 50 años más"
+        }
+    },
+    /*octabo recuadro*/
+    "rich-text#recuadro8":{
+        "props":{
+            "blockClass":"recuadro--historia",
+            "list":true,
+            "text":"“Además de una celebración, estos primeros 50 años de historia en Colombia, son una oportunidad para volver a nuestros orígenes, recapitular nuestros logros y agradecer a las personas que con su talento y pasión han contribuido al crecimiento de esta empresa”"
+        }  
+     },
+    "rich-text#contenido--vendran--al--menos--50--años--mas":{
+        "props":{
+           "blockClass":"contenido",
+            "text":"Y es que, para el empresario, ARTURO CALLE no sería lo que es hoy en día, si no fuese por el trabajo arduo y comprometido de los más de 4.500 colaboradores con los que cuenta la compañía en sus plantas de producción, áreas administrativas y puntos de venta. En ese sentido, el desarrollo del talento humano ha sido esencial para garantizar un clima laboral favorable, en el que imperan la honradez, el respeto y la vocación de servicio. \n \n Esta visión reflexiva de su pasado y presente, le permite a ARTURO CALLE definir su futuro de cara a las nuevas realidades de los mercados nacionales e internacionales. Ello se traduce en el diseño de una estrategia de expansión en Colombia y en el exterior -a través de las marcas Arturo Calle, AC KIDS y AC Leather, que sustentará la continuidad de la compañía que revolucionó la industria de la moda masculina en Colombia."
+        }
+    }
+}

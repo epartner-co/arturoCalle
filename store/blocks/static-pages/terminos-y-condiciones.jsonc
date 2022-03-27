@@ -1,0 +1,771 @@
+{
+    "store.custom#terminos-y-condiciones": {
+        "blocks": [
+            "flex-layout.row#informacion--terminos-y-condiciones"
+        ]
+      },
+      "flex-layout.row#informacion--terminos-y-condiciones":{
+          "props":{
+              "blockClass":"informacion--terminos-y-condiciones"
+          },
+          "children":[
+            "flex-layout.col#informacion--terminos-y-condiciones--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--terminos-y-condiciones--primera--parte":{
+          "props":{
+            "blockClass":"informacion--terminos-y-condiciones--primera--parte"
+          },
+          "children":[
+              /*titulos*/
+              "rich-text#titulo--principal--terminos-y-condiciones",
+              /*texto abajo del titulo---antes del primer subtitulo*/
+              "rich-text#contenido--terminos-y-condiciones",
+              "rich-text#contenido1--terminos-y-condiciones",
+              "rich-text#contenido2--terminos-y-condiciones",
+              "rich-text#contenido3--terminos-y-condiciones",
+              /*TÉRMINOS Y CONDICIONES APLICABLES PARA EL USO DE LA PÁGINA WEB*/
+              "rich-text#subtitulo1--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo1--terminos-y-condiciones",
+              /*CREACIÓN DE USUARIO POR EL SISTEMA SMART CHECK OUT Y GESTIÓN DE CUENTAS*/
+              "rich-text#subtitulo2--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo2--terminos-y-condiciones",
+              /*CARACTERÍSTICAS DE LOS PRODUCTOS OFRECIDOS*/
+              "rich-text#subtitulo3--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo3--terminos-y-condiciones",
+              /*PROPIEDAD INDUSTRIAL Y DERECHOS DE AUTOR*/
+              "rich-text#subtitulo4--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo4--terminos-y-condiciones",
+              /*LÍMITE DE RESPONSABILIDAD*/
+              "rich-text#subtitulo5--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo5--terminos-y-condiciones",
+              /*TÉRMINOS Y CONDICIONES APLICABLES PARA LA COMPRA DE PRODUCTOS*/
+              "rich-text#subtitulo6--terminos--y--condiciones",
+              "rich-text#subtitulo6--subtitulomenornivel--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo6--terminos-y-condiciones",
+              /*ACEPTACIÓN DE LOS TÉRMINOS*/
+              "rich-text#subtitulo7--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo7--terminos-y-condiciones",
+              /*EFICACIA Y NULIDAD PARCIAL*/
+              "rich-text#subtitulo8--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo8--terminos-y-condiciones",
+              /*FORMACIÓN Y PERFECCIONAMIENTO*/
+              "rich-text#subtitulo9--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo9--terminos-y-condiciones",
+              /*PRECIO*/
+              "rich-text#subtitulo10--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo10--terminos-y-condiciones",
+              /*CONDICIONES DE PAGO*/
+              "rich-text#subtitulo11--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo11--terminos-y-condiciones",
+              /*1. Tarjetas crédito*/
+              "rich-text#contenido2--subtitulo11--terminos-y-condiciones",
+              "rich-text#contenido3--subtitulo11--terminos-y-condiciones",
+              /*2. Tarjetas débito*/
+              "rich-text#contenido4--subtitulo11--terminos-y-condiciones",
+              "rich-text#contenido5--subtitulo11--terminos-y-condiciones",
+              /*3. Otros medios de pago*/
+              "rich-text#contenido6--subtitulo11--terminos-y-condiciones",
+              "rich-text#contenido7--subtitulo11--terminos-y-condiciones",
+              /*4. Cupones descuento:*/
+              "rich-text#contenido8--subtitulo11--terminos-y-condiciones",
+              "rich-text#contenido9--subtitulo11--terminos-y-condiciones",
+              /*5. Cupón redención:*/
+              "rich-text#contenido10--subtitulo11--terminos-y-condiciones",
+              "rich-text#contenido11--subtitulo11--terminos-y-condiciones",
+              "rich-text#contenido12--subtitulo11--terminos-y-condiciones",
+              /*DERECHO DE RETRACTO*/
+              "rich-text#subtitulo12--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido2--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido3--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido4--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido5--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido6--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido7--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido8--subtitulo12--terminos-y-condiciones",
+              "rich-text#contenido9--subtitulo12--terminos-y-condiciones",
+              /*REVERSIÓN DEL PAGO*/
+              "rich-text#subtitulo13--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo13--terminos-y-condiciones",
+              /*REVERSIÓN ESPECIAL, PARA PAGOS POR PASARELA DE PAGOS PAYU*/
+                "rich-text#subtitulo14--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo14--terminos-y-condiciones",
+              /*EFECTOS DEL REEMBOLSO DE DINERO*/
+                "rich-text#subtitulo15--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo15--terminos-y-condiciones",
+              /*ENVÍO DE LOS PRODUCTOS*/
+                "rich-text#subtitulo16--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo16--terminos-y-condiciones",
+              /*SERVICIO DE ENTREGA EXPRESS*/
+                "rich-text#subtitulo17--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo17--terminos-y-condiciones",
+              "rich-text#contenido2--subtitulo17--terminos-y-condiciones",
+              "rich-text#contenido3--subtitulo17--terminos-y-condiciones",
+              "rich-text#contenido4--subtitulo17--terminos-y-condiciones",
+              /*DOCUMENTO EQUIVALENTE A FACTURA*/
+              "rich-text#subtitulo18--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo18--terminos-y-condiciones",
+              /*RECIBO DE LOS PRODUCTOS*/
+              "rich-text#subtitulo19--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo19--terminos-y-condiciones",
+              /*EMBALAJE DE LOS PRODUCTOS*/
+              "rich-text#subtitulo20--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo20--terminos-y-condiciones",
+              /*GARANTÍA DE PRODUCTOS*/
+              "rich-text#subtitulo21--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo21--terminos-y-condiciones",
+              /*1. Solicitudes a través de los puntos de venta ARTURO CALLE*/
+              "rich-text#contenido2--subtitulo21--terminos-y-condiciones",
+              "rich-text#contenido3--subtitulo21--terminos-y-condiciones",
+              /*2. Solicitudes a través de la página web: */
+              "rich-text#contenido4--subtitulo21--terminos-y-condiciones",
+              "rich-text#contenido5--subtitulo21--terminos-y-condiciones",
+              "rich-text#contenido6--subtitulo21--terminos-y-condiciones",
+              /*GARANTÍA SOBRE LOS SERVICIOS*/
+              "rich-text#subtitulo22--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo22--terminos-y-condiciones",
+              /*REPUESTOS Y REPARACIONES*/
+              "rich-text#subtitulo23--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo23--terminos-y-condiciones",
+              /*CAMBIO DEL PRODUCTO*/
+              "rich-text#subtitulo24--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo24--terminos-y-condiciones",
+              "rich-text#contenido2--subtitulo24--terminos-y-condiciones",
+              "rich-text#contenido3--subtitulo24--terminos-y-condiciones",
+              "rich-text#contenido4--subtitulo24--terminos-y-condiciones",
+              "rich-text#contenido5--subtitulo24--terminos-y-condiciones",
+              "rich-text#contenido6--subtitulo24--terminos-y-condiciones",
+              /*LÍMITE DE RESPONSABILIDAD*/
+              "rich-text#subtitulo25--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo25--terminos-y-condiciones",
+              /*ORIGEN DE LOS FONDOS*/
+              "rich-text#subtitulo26--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo26--terminos-y-condiciones",
+              /*POLÍTICAS DE PRIVACIDAD Y DATOS PERSONALES*/
+              "rich-text#subtitulo27--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo27--terminos-y-condiciones",
+              "rich-text#contenido2--subtitulo27--terminos-y-condiciones",
+              "rich-text#contenido3--subtitulo27--terminos-y-condiciones",
+              /*JORNADAS DE DÍAS SIN IVA – (Ley 2155 de 14 de septiembre de 2021)*/
+              "rich-text#subtitulo28--terminos--y--condiciones",
+              "rich-text#contenido--subtitulo28--terminos-y-condiciones"
+          ]
+      },
+      /*titulos*/
+      "rich-text#titulo--principal--terminos-y-condiciones":{
+        "props":{
+        "blockClass":"titulo-principal",
+        "text":"TÉRMINOS Y CONDICIONES"
+        }
+      },
+      "rich-text#contenido--terminos-y-condiciones":{
+          "props":{
+              "blockClass":"contenido",
+              "text":"Estimado cliente, le recomendamos leer con especial cuidado el presente documento en el cual se establecen las condiciones para el uso del sitio web y compra de productos de la siguiente manera:"
+          }
+      },
+      /*1. Por el solo hecho de navegar en nuestra página web usted acepta plenamente los términos y condiciones para el uso de la misma.*/
+      "rich-text#contenido1--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido--corrido--a--la--derecha",
+            "text":"1.Por el solo hecho de navegar en nuestra página web usted acepta plenamente los términos y condiciones para el uso de la misma."
+        }
+      },
+      /*2. Al adquirir cualquiera de nuestros productos por este medio usted acepta plenamente los términos y condiciones para la compra de productos.*/
+      "rich-text#contenido2--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido--corrido--a--la--derecha",
+            "text":"2.Al adquirir cualquiera de nuestros productos por este medio usted acepta plenamente los términos y condiciones para la compra de productos."
+        }
+      },
+      "rich-text#contenido3--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"En razón a lo anterior, a continuación se establecen los términos y condiciones aplicables según lo indicado anteriormente."
+        }
+      },
+      /*TÉRMINOS Y CONDICIONES APLICABLES PARA EL USO DE LA PÁGINA WEB*/
+      "rich-text#subtitulo1--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"TÉRMINOS Y CONDICIONES APLICABLES PARA EL USO DE LA PÁGINA WEB"
+        }
+      },
+      "rich-text#contenido--subtitulo1--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Los términos y condiciones aquí descritos fueron elaborados de conformidad con la normatividad vigente aplicable en Colombia. En consecuencia, COMERCIALIZADORA ARTURO CALLE, en adelante ARTURO CALLE, no se responsabiliza de que el material en este sitio sea apropiado o esté disponible para su uso en otros lugares. Aquellos que decidan ingresar a este sitio desde otros lugares lo harán bajo su propia iniciativa y es su responsabilidad el sujetarse a las leyes locales que sean aplicables. \n \n Por el solo hecho de navegar a través del sitio web www.arturocalle.com, el cliente admite haber leído y entendido estos términos de uso y está de acuerdo en sujetarse a los mismos y cumplir con todas las leyes y reglamentos aplicables. \n \n Estos términos y condiciones están sujetos a cambios sin previo aviso en cualquier momento. En consecuencia, los términos aplicables corresponderán al documento vigente al momento de la consulta."
+        }
+      },
+      /*CREACIÓN DE USUARIO POR EL SISTEMA SMART CHECK OUT Y GESTIÓN DE CUENTAS*/
+      "rich-text#subtitulo2--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"CREACIÓN DE USUARIO POR EL SISTEMA SMART CHECK OUT Y GESTIÓN DE CUENTAS"
+        }
+      },
+      "rich-text#contenido--subtitulo2--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Al ingresar sus datos en nuestra página a través del sistema Smart Check Out u otro equivalente que se defina, se guardarán automáticamente sus datos y se creará una cuenta en la cual usted podrá consultar el estado de sus compras, solicitudes, listas de deseos y demás funcionalidades que se habiliten en la página web. \n \n Al ingresar sus datos por primera vez, el sistema generará automáticamente la contraseña de ingreso. Para conocer, recuperar o modificar su clave deberá remitirse a la sección de autenticación del sitio en la sección dispuesta para recordar contraseña, allí siguiendo las instrucciones podrá recuperar o cambiar la contraseña a través del correo electrónico registrado. Si por algún motivo no logra solucionar el inconveniente debe escribir al e-mail: contactenos@arturocalle.com. \n \n Es responsabilidad del cliente cualquier uso que de la clave suministrada se realice, la cual es de uso personal e intransferible. En consecuencia, no podrá revelarla a terceros bajo ningún motivo. Así mismo, el cliente deberá adoptar todas las medidas de seguridad necesarias para evitar el mal uso o el conocimiento de esta por parte de terceros."
+        }
+      },
+      /*CARACTERÍSTICAS DE LOS PRODUCTOS OFRECIDOS*/
+      "rich-text#subtitulo3--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"CARACTERÍSTICAS DE LOS PRODUCTOS OFRECIDOS"
+        }
+      },
+      "rich-text#contenido--subtitulo3--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"ARTURO CALLE, pondrá a disposición de los clientes, los productos de acuerdo a las características, tallas y colores en los que pueden adquirirlos. Las imágenes de cada producto corresponden a imágenes reales del mismo, sin embargo se aclara que ciertas características entre las que se incluye el color del producto podrán variar de acuerdo al equipo o computador a través del cual se ingrese al sitio web."
+        }
+      },
+      /*PROPIEDAD INDUSTRIAL Y DERECHOS DE AUTOR*/
+      "rich-text#subtitulo4--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"PROPIEDAD INDUSTRIAL Y DERECHOS DE AUTOR"
+        }
+      },
+      "rich-text#contenido--subtitulo4--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Todas las marcas, enseñas, logos, nombres, material informático, gráfico, publicitario, fotográfico, de multimedia, audiovisual y/o de diseño, así como todos los contenidos, textos, bases de datos y cualesquiera otros signos distintivos, puestos a su disposición en este sitio, así como los modelos de utilidad y/o diseños industriales y demás elementos de propiedad industrial o intelectual insertados, usados y/o desplegados en este sitio son propiedad exclusiva de ARTURO CALLE. \n \n El uso o navegación a través de nuestro sitio web, únicamente otorga al cliente un derecho personal, intransferible y no exclusivo para desplegar www.arturocalle.com en la pantalla de un computador ordenador o dispositivo PDA bajo su control, y para copiar los contenidos de propiedad de ARTURO CALLE, única y exclusivamente para uso personal no comercial, con la condición de que el cliente no modifique de ninguna forma los contenidos y que conserve todas las leyendas de derechos de autor y de otro tipo de propiedad contenidas en los mismos. La autorización aquí conferida en ningún caso podrá ser entendida como concesión u otorgamiento a cualquier título de autorizaciones, licencias o cualquier otro derecho para usar o disponer de cualquier forma de la propiedad industrial, sin el permiso por escrito de ARTURO CALLE o del titular de los derechos de la misma. \n \n Todos los contenidos en página web están protegidos por las normas sobre Propiedad Industrial y Derechos de Autor, así como por todas las normas nacionales e internacionales que le sean aplicables. Queda prohibido todo acto de copia, reproducción, modificación, creación de trabajos derivados, venta o distribución, exhibición de los contenidos, de ninguna manera o por ningún medio, incluyendo, más no limitado a, medios electrónicos, mecánicos, de fotocopiado, de grabación o de cualquier otra índole, sin el permiso previo por escrito de ARTURO CALLE. Cualquier uso no autorizado constituirá una violación a los presentes términos y condiciones y a las normas vigentes nacionales e internacionales sobre propiedad industrial y/o derechos de autor según corresponda."
+        }
+      },
+      /*LÍMITE DE RESPONSABILIDAD*/
+      "rich-text#subtitulo5--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"LÍMITE DE RESPONSABILIDAD"
+        }
+      },
+      "rich-text#contenido--subtitulo5--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Sin perjuicio de lo determinado en las normas imperativas de la Legislación Colombiana aplicable, ARTURO CALLE no asume responsabilidad alguna por cualquier daño, perjuicio o reclamo de terceros derivado del uso o compras a través del sitio web www.arturocalle.com, incluyendo pero sin limitarse a la pérdida de información o utilidades, existencia de virus, resultados del uso o la incapacidad para usar el material en este sitio, oportunidades de negocios perdidas, o cualquier otro daño, aun cuando el cliente nos haya avisado acerca de la posibilidad de tales daños. \n \n Bajo los términos aquí señalados, ARTURO CALLE no asume ninguna responsabilidad por la información que se suministra en la página, incluyendo, pero sin limitarse a la referente a productos y/o servicios, notas de interés, opiniones, consejos prácticos y solución de inquietudes. \n \n ARTURO CALLE no asume responsabilidad alguna por la imposibilidad de, o por problemas en, la utilización del sitio o de alguna de las páginas que lo conforman, incluyendo, pero sin limitarse a eventos tales como problemas en el servidor o en la conexión, interrupciones en su comunicación, problemas técnicos. En caso de que el uso del material de este Sitio dé como resultado la necesidad de dar servicio a, reparar o corregir equipo o información, el cliente asume cualquier costo derivado de ello. \n \n Sin perjuicio de lo aquí establecido, en los eventos en los que exista responsabilidad conforme lo señalado en éstos términos y condiciones, la cuantía máxima de la responsabilidad de ARTURO CALLE se limitará en una cuantía idéntica al valor del producto adquirido, o en su defecto, al valor del producto solicitado por el cliente."
+        }
+      },
+      /*TÉRMINOS Y CONDICIONES APLICABLES PARA LA COMPRA DE PRODUCTOS*/
+      "rich-text#subtitulo6--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"TÉRMINOS Y CONDICIONES APLICABLES PARA LA COMPRA DE PRODUCTOS"
+        }
+      },
+      "rich-text#subtitulo6--subtitulomenornivel--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--subtitulomenornivel",
+        "text":"LAS PARTES"
+        }
+      },
+      "rich-text#contenido--subtitulo6--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Entre el cliente, quien actúa directamente, si es una persona natural, o por medio de una persona debidamente facultada para actuar a nombre y representación, en caso de ser una persona jurídica; y de otro lado COMERCIALIZADORA ARTURO CALLE S.A.S., en adelante ARTURO CALLE, sociedad comercial debidamente constituida bajo las leyes colombianas, identificada con NIT 900.342.297-2 propietaria del sitio web www.arturocalle.com, se realiza la compra venta de productos y/o servicios según resulte aplicable de conformidad con los términos y condiciones que se indican en el presente documento. \n \n ARTURO CALLE, presumirá de buena fe que está contratando directamente con el cliente o con su representante legal debidamente facultado para efectuar este tipo de operaciones y ninguna responsabilidad deberá asumir ARTURO CALLE por suplantación personal que realice cualquier cliente. \n \n Las compras que se realicen a través del sitio web deberán ser efectuadas personas mayores de catorce (14) años, las cuales deberán disponer que el recibo de los productos se realice por un mayor de edad que firme el recibido del producto. \n \n PARÁGRAFO PRIMERO: Para realizar cualquier compra, es requisito esencial identificarse como cliente en la página web, lo cual se realiza por medio de nuestro sistema Smart Check Out u otro equivalente que se defina, en el cual usted suministrará su información personal y de contacto, dirección de envío y pago y demás información requerida para procesar el pago y envío de su compra."
+        }
+      },
+      /*ACEPTACIÓN DE LOS TÉRMINOS*/
+      "rich-text#subtitulo7--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"ACEPTACIÓN DE LOS TÉRMINOS"
+        }
+      },
+      "rich-text#contenido--subtitulo7--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Con la compra de cualquiera de nuestros productos a través del sitio web www.arturocalle.com, el cliente admite haber leído y entendido estos términos de uso y está de acuerdo en sujetarse a los mismos y cumplir con todas las leyes y reglamentos aplicables que hagan parte de la legislación colombiana. Además, cuando el cliente utilice cualquier servicio que se ofrezca o llegare a ofrecer en este sitio, estará sujeto a las reglas, guías, políticas, términos y condiciones aplicables a dicho servicio en particular. \n Estos términos y condiciones están sujetos a cambios sin previo aviso en cualquier momento. En consecuencia, todas las operaciones que se celebren entre ARTURO CALLE y el cliente se regirán por el documento vigente al momento de la compra y en todo caso tendrá la opción de consultarlos en el correo de confirmación de pedido."
+        }
+      },
+      /*EFICACIA Y NULIDAD PARCIAL*/
+      "rich-text#subtitulo8--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"EFICACIA Y NULIDAD PARCIAL"
+        }
+      },
+      "rich-text#contenido--subtitulo8--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"En caso de que una o más de las disposiciones contenidas en estos términos y condiciones sean consideradas nulas, ilegales o ineficaces en cualquier aspecto, la validez, legalidad, exigibilidad o eficacia del resto de las disposiciones aquí contenidas no se verán afectadas o anuladas por dicha circunstancia."
+        }
+      },
+      /*FORMACIÓN Y PERFECCIONAMIENTO*/
+      "rich-text#subtitulo9--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"FORMACIÓN Y PERFECCIONAMIENTO"
+        }
+      },
+      "rich-text#contenido--subtitulo9--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"El contrato de compraventa de productos a través de nuestro portal on-line, se formaliza cuando el cliente selecciona el producto, acepta los términos y condiciones acepta la política de tratamiento de datos y suministra los datos requeridos para procesar su pago y consecuente entrega de los productos. Una vez el cliente da su clic en el botón “Comprar ahora” o el equivalente con el cual se finalice el proceso de compra, se entenderá perfeccionado dicho contrato de compraventa. \n La constancia de la formalización y perfeccionamiento del contrato de compraventa, se entenderá surtida con un correo electrónico de “confirmación de recepción del pedido” o un mensaje similar. La cadena de notificaciones transaccionales al cliente, será completada posteriormente con correos electrónicos informando: i) “Aprobación del pago”; ii) “La facturación de su pedido”, y iii) “Confirmación de envío del pedido”, o cualquier otro medio que disponga ARTURO CALLE."
+        }
+      },
+      /*PRECIO*/
+      "rich-text#subtitulo10--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"PRECIO"
+        }
+      },
+      "rich-text#contenido--subtitulo10--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"El valor total de la compra estará compuesto de los siguientes rubros a cargo del cliente: valor del producto, impuestos y gastos de transporte si fuere el caso.  \n \n ARTURO CALLE, se compromete a revisar constantemente y a mantener actualizados los precios de los productos, atendiendo a la política corporativa de precios justos y a su vez, nuestro cliente, debe estar atento en caso de presentarse alguna fluctuación en los mismos. En todo caso, el precio del producto corresponderá al indicado en la página web al momento de la compra. \n \n ARTURO CALLE informará o publicará la tarifa de transporte y envío que tendrán los bienes, los cuales se generarán dependiendo de los costos, rubros y políticas de la empresa transportadora, las cuales son independientes, autónomas y ajenas a ARTURO CALLE. Dentro del costo del flete se tiene en cuenta el lugar del territorio colombiano al cual se deban enviar los productos adquiridos (Ver excepciones a nuestra cobertura de envíos), el tamaño y el peso de los mismos. Es potestativo el cobro o no del servicio de transporte, lo cual será determinado transacción por transacción. \n \n Los precios publicados para los productos incluidos en nuestro sitio web, aplican exclusivamente para las compras que sean efectuadas a través de www.arturocalle.com \n \n En el sitio web los descuentos, promociones, impuestos, beneficios tributarios o cualquier otro concepto que afecte el precio de los productos lo verá el cliente reflejado después de ingresar sus datos de compra, darle finalizar pedido y proceder a pagar de acuerdo con el método de pago seleccionado. Los costos de envío, así como cualquier otro costo o gasto a cargo del consumidor también serán informados en ese momento. Los precios informados de forma previa a ese momento tendrán carácter exclusivamente orientativo."
+        }
+      },
+      /*CONDICIONES DE PAGO*/
+      "rich-text#subtitulo11--terminos--y--condiciones":{
+        "props":{
+        "blockClass":"paragraph--sub--titulo",
+        "text":"CONDICIONES DE PAGO"
+        }
+      },
+      "rich-text#contenido--subtitulo11--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"El pago se efectuará única y exclusivamente por los siguientes medios:"
+        }
+      },
+      /*1. Tarjetas crédito*/
+      "rich-text#contenido2--subtitulo11--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"sub--titulos1--pequeno",
+            "text":"1. Tarjetas crédito:"
+        }
+    },
+    "rich-text#contenido3--subtitulo11--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido--terminos--y--condiciones--vinetas",
+            "text":"Visa, Diners, MasterCard, American Express y Codensa."
+        }
+    },
+    /*2. Tarjetas débito*/
+    "rich-text#contenido4--subtitulo11--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"sub--titulos2--pequeno",
+          "text":"2. Tarjetas débito:"
+      }
+    },
+    "rich-text#contenido5--subtitulo11--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido--terminos--y--condiciones--vinetas",
+            "text":"Maestro y Electrón."
+        }
+    },
+    /*3. Otros medios de pago*/
+    "rich-text#contenido6--subtitulo11--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"sub--titulos3--pequeno",
+          "text":"3. Otros medios de pago:"
+      }
+    },
+    "rich-text#contenido7--subtitulo11--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido--terminos--y--condiciones--vinetas--3",
+            "text":"Baloto."
+        }
+    },
+    /*4. Cupones descuento:*/
+    "rich-text#contenido8--subtitulo11--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"sub--titulos4--pequeno",
+          "text":"4. Cupones descuento:"
+      }
+    },
+    "rich-text#contenido9--subtitulo11--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido--terminos--y--condiciones--vinetas--4",
+            "text":"Corresponde a un código de cupón que no es comercializable, ni transferible, toda vez que constituye un beneficio entregado a destinatarios específicos y en ejercicio de la mera discrecionalidad de ARTURO CALLE"
+        }
+    },
+    /*5. Cupón redención:*/
+    "rich-text#contenido10--subtitulo11--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"sub--titulos5--pequeno",
+          "text":"5. Cupón redención:"
+      }
+    },
+    "rich-text#contenido11--subtitulo11--terminos-y-condiciones":{
+        "props":{
+            "blockClass":"contenido--terminos--y--condiciones--vinetas--5",
+            "text":"Equivale a un cupo o una nota debito descontable que se deja a disposición del cliente en una única compra. En el evento en que dicho Cupón sea redimido en una compra por valor inferior al valor total del Cupón redención, se entenderá que renuncia al excedente."
+        }
+    },
+    "rich-text#contenido12--subtitulo11--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido",
+          "text":"Antes de la compra de cualquier producto, el cliente deberá aceptar los términos y condiciones de pago del precio correspondiente, según los medios de pago dispuestos en el sitio web para el pago y de acuerdo a los términos y condiciones aquí indicados. Aun cuando ARTURO CALLE, ponga a disposición del cliente un sistema de conexión segura para toda la realización de todas las ofertas de compra, en ningún caso será responsable por los fallos en las comunicaciones de las entidades bancarias o de crédito, así como tampoco de los daños causados a los clientes con ocasión de una acción u omisión de dichas entidades."
+      }
+  },
+  /*DERECHO DE RETRACTO*/
+  "rich-text#subtitulo12--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"DERECHO DE RETRACTO"
+    }
+  },
+  "rich-text#contenido--subtitulo12--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"De conformidad con lo dispuesto en el art. 47 del Estatuto del Consumidor (Ley 1480 de 2011) el cliente podrá devolver los bienes comprados dentro de los cinco (5) días hábiles siguientes a la fecha de entrega de los bienes. Para ejercer el derecho de retracto, el cliente deberá devolver el producto a ARTURO CALLE por los mismos medios y en las mismas condiciones en que lo recibió. Al momento de coordinar la devolución del producto con el cliente, le serán informados los costos que de su transporte se derivan, precisando para ese momento a cargo de quién estarán tales costos de transporte."
+    }
+  },
+  "rich-text#contenido2--subtitulo12--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"De acuerdo con lo establecido en el citado Estatuto del Consumidor, se exceptúan del Derecho de Retracto, y según el objeto social que desempeña ARTURO CALLE, los siguientes casos:"
+    }
+  },
+    "rich-text#contenido3--subtitulo12--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido--punto",
+          "text":"1. En los contratos de suministro de bienes confeccionados conforme a las especificaciones del consumidor o claramente personalizados."
+      }
+  },
+    "rich-text#contenido4--subtitulo12--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido--punto",
+          "text":"1. En los contratos de adquisición de bienes de uso personal (ropa interior, medias, pantalonetas de baño u otros)."
+      }
+  },
+  "rich-text#contenido5--subtitulo12--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"ARTURO CALLE devolverá al cliente todas las sumas pagadas sin que proceda hacer descuentos o retenciones por concepto alguno, en un plazo máximo de treinta (30) días calendario desde el momento en que ejerció el derecho. \n \n Para gestionar la devolución de su producto se debe comunicar mediante una de las siguientes opciones:"
+    }
+  },
+  "rich-text#contenido6--subtitulo12--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido--punto",
+          "text":"1. Línea de servicio al cliente de ARTURO CALLE al 01-8000-180-120 (horario de lunes a viernes de 8am-5pm)."
+      }
+  },
+  "rich-text#contenido7--subtitulo12--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido--punto",
+        "text":"1. Correo contactenos@arturocalle.com."
+    }
+  },
+  "rich-text#contenido8--subtitulo12--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido--punto",
+        "text":"1. Página web www.arturocalle.com en el formulario de 'Contáctenos'."
+    }
+  },
+  "rich-text#contenido9--subtitulo12--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"La devolución de dinero será efectuada en los términos que se describen dentro del presente documento."
+    }
+  },
+  /*REVERSIÓN DEL PAGO*/
+  "rich-text#subtitulo13--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"REVERSIÓN DEL PAGO"
+    }
+  },
+  "rich-text#contenido--subtitulo13--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"La ley dispone que en las ventas efectuadas mediante mecanismos de comercio electrónico, tales como Internet y donde se haya utilizado para realizar el pago una tarjeta de crédito, débito o cualquier otro instrumento de pago electrónico, los participantes del proceso de pago deberán reversar los pagos que solicite el consumidor cuando sea objeto de fraude, o corresponda a una operación no solicitada, o el producto adquirido no sea recibido, o el producto entregado no corresponda a lo solicitado o sea defectuoso. \n \n Para que proceda la reversión del pago, dentro los cinco (5) días hábiles siguientes a la fecha en que el consumidor tuvo noticia de la operación fraudulenta o no solicitada o que debió haber recibido el producto o lo recibió defectuoso o sin que correspondiera a lo solicitado, el consumidor deberá presentar su solicitud ante ARTURO CALLE, mediante la línea de servicio al cliente de ARTURO CALLE al 01-8000-180-120 (horario de lunes a viernes de 8am-5pm), a través de nuestro correo contactenos@arturocalle.com, a través de nuestra web www.arturocalle.com en el formulario de 'Contáctenos'. o a través de cualquier otro medio que se habilite para tales fines. Para esta solicitud del cliente deberá suministrar fotocopia de su cédula o documento de identificación, certificado bancario de la cuenta (Ahorros - Corriente). \n \n El resultado del estudio de la solicitud de reversión del pago (Procedente o Improcedente), le será informado al cliente mediante correo electrónico. De resultar procedente la reversión del pago, le serán indicados los documentos y/o información adicional que debe suministrar para el avance del trámite de reversión. \n \n Adicionalmente, para el trámite de la reversión, el cliente deberá efectuar la devolución del producto (en los casos que el mismo se encuentra en su poder), dando aplicación a lo establecido en nuestra 'Política de envíos, cambios y garantías' \n \n Dentro de este trámite se procederá a notificar de la reclamación, al emisor del instrumento de pago electrónico utilizado para realizar la compra, el cual, en conjunto con los demás participantes del proceso de pago, procederá a reversar la transacción al comprador. En todo caso al aceptar los presentes términos y condiciones, el cliente manifiesta que entiende que la reversión del pago está sujeta a las condiciones de la entidad bancaria o ente que haya utilizado para realizar el pago."
+    }
+  },
+  /*REVERSIÓN ESPECIAL, PARA PAGOS POR PASARELA DE PAGOS PAYU*/
+  "rich-text#subtitulo14--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"REVERSIÓN ESPECIAL, PARA PAGOS POR PASARELA DE PAGOS PAYU"
+    }
+  },
+  "rich-text#contenido--subtitulo14--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Cuando se utilice la pasarela de pago PayU y exclusivamente para el pago con tarjeta de crédito, existe la posibilidad que, estando en el mismo día de la compra, el cliente de clic en el botón “Pedido Cancelado” u otro equivalente, con lo cual se reversará la transacción a través de la misma pasarela de pagos PayU. Esta reversión se verá reflejada dentro de los 5 días siguientes a su solicitud y en todo caso estará sometida a los términos y condiciones que encontrará en la página web de PayU."
+    }
+  },
+  /*EFECTOS DEL REEMBOLSO DE DINERO*/
+  "rich-text#subtitulo15--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"EFECTOS DEL REEMBOLSO DE DINERO"
+    }
+  },
+  "rich-text#contenido--subtitulo15--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Con la solicitud reembolso de dinero, el cliente acepta que desiste de la compra realizada y con ello del (los) producto(s) adquirido(s); así mismo que acepta las políticas de reembolso de dinero de ARTURO CALLE, por lo que, al recibir el pago, el cliente exime a ARTURO CALLE de toda responsabilidad, encontrándose a paz y salvo por todo concepto. De igual forma, el cliente acepta y declara que la información suministrada para efectos de reembolso de dinero es real, completa y veraz. Así mismo el cliente con su solicitud de reembolso acepta la política de protección de datos personales de ARTURO CALLE y con ello lo expresado en la ley 1581 del 2012."
+    }
+  },
+  /*ENVÍO DE LOS PRODUCTOS*/
+  "rich-text#subtitulo16--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"ENVÍO DE LOS PRODUCTOS"
+    }
+  },
+  "rich-text#contenido--subtitulo16--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"ARTURO CALLE realiza despachos de productos a municipios del territorio colombiano a través de una empresa transportadora independiente, que se encuentre debidamente habilitada para la prestación de dicho servicio. Se encuentra exceptuados de nuestra cobertura, los municipios ubicados en los departamentos de Amazonas, Guainía, Guaviare, Vaupés, Vichada y el archipielago de San Andrés y Providencia. \n \n El plazo máximo para la entrega de los productos será de diez (10) días hábiles, contados a partir de la aprobación del pago, siempre y cuando no medie ningún caso fortuito o de fuerza mayor, entre los cuales se encuentra a manera de ejemplo: hechos del hombre o de la naturaleza, huelgas, paros, revoluciones, rebelión sedición, asonada, atentados, cortes de fluidos, derrumbes, terremotos, avalanchas, desbordamientos, caídas de puentes, entre otros. \n \n El destino de envío será el señalado por el cliente al momento de realizar la compra, el cual podrá ser el mismo lugar de habitación del comprador u otro que este designe. Se entiende que cualquier persona mayor de edad que se encuentre en la dirección de envío indicada, se encuentra debidamente autorizada por el cliente para recibir su pedido, por lo que ARTURO CALLE queda exonerado de cualquier responsabilidad al momento de la entrega que sea efectuada por la empresa transportadora, siempre y cuando la misma se haga en la dirección de envío registrada al momento de la compra en el sitio web. PARÁGRAFO: La empresa transportadora realizará máximo tres (3) intentos de entrega de los productos adquiridos en la dirección de envío registrada por el cliente al momento de la compra. En caso que los intentos de entrega resulten infructuosos, retornarán los bienes a las instalaciones de ARTURO CALLE. Se procederá a contactar al cliente para programar una nueva entrega. \n \n Si no se logra acordar la entrega del producto, este será almacenado por un término máximo de seis (6) meses, tiempo durante el cual el cliente deberá comunicarse con ARTURO CALLE, a través de los canales establecidos en el presente documento, para acordar su retiro en un punto físico establecido por ARTURO CALLE o suministrar una nueva dirección de envío, cuyos costos le serán informados al cliente. \n \n Una vez cumplido el término máximo de almacenamiento antes relacionado, ARTURO CALLE no se hará responsable por el producto."
+    }
+  },
+  /*SERVICIO DE ENTREGA EXPRESS*/
+  "rich-text#subtitulo17--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"SERVICIO DE ENTREGA EXPRESS"
+    }
+  },
+  "rich-text#contenido--subtitulo17--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Al momento de seleccionar el método de envío dentro de la plataforma, al cliente se le mostrarán dos (2) opciones de envío: la opción de envío regular arriba descrito y la opción de Entrega Express. \n \n Este servicio de Entrega Express es prestado por una empresa transportadora independiente y estará habilitado exclusivamente para entregas dentro de la ciudad de Bogotá D.C. \n \n Si el cliente decide seleccionar el método de Entrega Express, se tendrán los siguientes tiempos estimados para la entrega de su pedido:"
+    }
+  },
+  "rich-text#contenido2--subtitulo17--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido--punto",
+        "text":"1. Si el pedido es realizado y confirmado entre las 00:00 a.m. y 11:30 a.m.: tendrá un tiempo estimado de entrega para el mismo día."
+    }
+  },
+  "rich-text#contenido3--subtitulo17--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido--punto",
+        "text":"1. Si el pedido es realizado y confirmado entre las 11:31 a.m. y las 11:59 p.m.: tendrá un tiempo estimado de entrega para el día siguiente."
+    }
+  },
+  "rich-text#contenido4--subtitulo17--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"La opción de acceder al servicio de Entrega Express, estará activa en nuestra plataforma de compras virtuales, desde el primer día hábil de la semana a las 00:00 a.m. hasta las 11:30 a.m. del viernes o último día hábil de la semana, según aplique. \n \n Conforme a lo anterior, no estará habilitada la opción de Entrega Express dentro de nuestra plataforma virtual para los días sábados, domingos, así como tampoco los días festivos. \n \n El servicio de Entrega Express no aplica para el medio de pago Baloto. \n \n El servicio de Entrega Express tiene un costo que es informado al momento que el mismo cliente está seleccionando la opción de envío de su preferencia dentro de nuestra plataforma virtual."
+    }
+  },
+  /*DOCUMENTO EQUIVALENTE A FACTURA*/
+  "rich-text#subtitulo18--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"DOCUMENTO EQUIVALENTE A FACTURA"
+    }
+  },
+  "rich-text#contenido--subtitulo18--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"El documento equivalente a factura se remitirá junto con el producto adquirido a la dirección mencionada por el cliente."
+    }
+  },
+  /*RECIBO DE LOS PRODUCTOS*/
+  "rich-text#subtitulo19--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"RECIBO DE LOS PRODUCTOS"
+    }
+  },
+  "rich-text#contenido--subtitulo19--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"El cliente o destinatario del bien o producto, deberá abstenerse de recibir el mismo inmediatamente, en caso de que el empaque o embalaje del producto, presente daños, rupturas, aberturas u otras similares, dejando la debida anotación o constancia de ese hecho."
+    }
+  },
+  /*EMBALAJE DE LOS PRODUCTOS*/
+  "rich-text#subtitulo20--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"EMBALAJE DE LOS PRODUCTOS"
+    }
+  },
+  "rich-text#contenido--subtitulo20--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Los productos serán embalados y empacados de forma tal que se garantice su adecuado transporte. El embalaje y empaque de los productos podrá variar por razones logística u otros sin previo aviso, siempre garantizando condiciones óptimas para su entrega y transporte."
+    }
+  },
+  /*GARANTÍA DE PRODUCTOS*/
+  "rich-text#subtitulo21--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"GARANTÍA DE PRODUCTOS"
+    }
+  },
+  "rich-text#contenido--subtitulo21--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"La garantía cubre defectos de fabricación, el término de la garantía es de dos (2) meses para calzado, seis (6) meses para gafas, un (1) día para productos adquiridos en actividades promocionales y treinta (30) días calendario para los demás productos. El término de la garantía se cuenta a partir del día de entrega del producto al cliente. La garantía no cubre el deterioro normal del producto, el uso indebido, ni los daños ocasionados por no atender las instrucciones de cuidado o mantenimiento de los productos. \n \n Para hacer efectiva la garantía de cualquiera de los productos comprados a través de nuestra página web, el cliente podrá realizar su solicitud a través de la página web o en cualquier de nuestros puntos de venta, de la siguiente manera:"
+    }
+  }, 
+  /*1. Solicitudes a través de los puntos de venta ARTURO CALLE*/
+  "rich-text#contenido2--subtitulo21--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"sub--titulos1--pequeno",
+        "text":"1. Solicitudes a través de los puntos de venta ARTURO CALLE"
+    }
+  },
+  "rich-text#contenido3--subtitulo21--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido--terminos--y--condiciones--vinetas--6",
+          "text":"se deberá entregar el producto en cualquier punto de venta ARTURO CALLE y diligenciar los formatos que se tengan dispuestos en la misma para tal fin."
+      }
+  },
+  /*2. Solicitudes a través de la página web: */
+  "rich-text#contenido4--subtitulo21--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"sub--titulos2--pequeno",
+        "text":"2. Solicitudes a través de la página web: "
+    }
+  },
+  "rich-text#contenido5--subtitulo21--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido--terminos--y--condiciones--vinetas--7",
+          "text":"el cliente deberá notificar a través de cualquiera de los medios de contacto (Línea de atención, chat online o vía e-mail a contactenos@arturocalle.com), informando el nombre completo y número de cédula de comprador, número de la orden del pedido, número de documento equivalente a factura y la demás información que considere pertinente para la atención de la garantía."
+      }
+  },
+  "rich-text#contenido6--subtitulo21--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"El área de servicio al cliente de ARTURO CALLE revisará la solicitud, y de ser procedente, solicitará la devolución del producto, para revisión del mismo. \n \n La recolección del producto se coordinará con ARTURO CALLE o con la empresa transportadora que efectuó la entrega, según le sea indicado al cliente. \n \n Con base en el análisis que sea efectuado, se generará una respuesta formal al cliente, por la cual le será informado si la reclamación por garantía resulta procedente o no. \n \n En el evento en que proceda la garantía, ARTURO CALLE indicará el procedimiento para hacerla efectiva. Para el caso que no resulte procedente la reclamación por garantía del producto, se explicarán al cliente los motivos por los cuales no se hará efectiva, realizando la devolución del producto(s) a la dirección de envío inicial o a la dirección que llegue a indicar el cliente."
+    }
+  },
+  /*GARANTÍA SOBRE LOS SERVICIOS*/
+  "rich-text#subtitulo22--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"GARANTÍA SOBRE LOS SERVICIOS"
+    }
+  },
+  "rich-text#contenido--subtitulo22--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"En caso de que se preste el servicio de sastrería, la garantía cubre dicho servicio por el término de treinta (30) días calendario, contados a partir de la entrega del producto."
+    }
+  },
+  /*REPUESTOS Y REPARACIONES*/
+  "rich-text#subtitulo23--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"REPUESTOS Y REPARACIONES"
+    }
+  },
+  "rich-text#contenido--subtitulo23--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"La disponibilidad de repuestos, partes, insumos y mano de obra capacitada, será de quince (15) días calendario, contados a partir de la fecha de vencimiento de la garantía del producto. El costo de este servicio será asumido por el cliente según lo dispuesto en el Estatuto del Consumidor y demás legislación vigente aplicable."
+    }
+  },
+  /*CAMBIO DEL PRODUCTO*/
+  "rich-text#subtitulo24--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"CAMBIO DEL PRODUCTO"
+    }
+  },
+  "rich-text#contenido--subtitulo24--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Para solicitar el cambio de productos debe cumplir con las siguientes condiciones: (i) El plazo máximo para solicitar un cambio será de sesenta (60) días calendario contados desde la fecha la entrega de los productos (ii) El producto no debe presentar uso, no debe haber sido modificado y debe estar en perfectas condiciones. (iii) El producto debe contener las etiquetas, accesorios y empaques originales. No se aceptan cambios de ropa interior (boxers y camisillas), accesorios, artículos comprados en otro país o en tiendas outlet, productos comprados en descuento o promoción.\n \n El cambio debe ser por un valor igual o superior al valor del producto, caso en el cual el cliente pagará el valor excedente. El cambio podrá hacerse efectivo en cualquier tienda ARTURO CALLE ubicada en Colombia o a través de la página web de la siguiente manera:"
+    }
+  },
+  /*1. Cambio en puntos de venta ARTURO CALLE ubicados en Colombia:*/
+  "rich-text#contenido2--subtitulo24--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"sub--titulos1--pequeno",
+        "text":"1. Cambio en puntos de venta ARTURO CALLE ubicados en Colombia:"
+    }
+  },
+  "rich-text#contenido3--subtitulo24--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido--terminos--y--condiciones--vinetas--8",
+          "text":"se deberá entregar el producto en cualquier punto de venta ARTURO CALLE junto con el documento equivalente a factura y diligenciar los formatos que se tengas dispuestos en la misma para tal fin."
+      }
+  },
+  /*2. Cambios a través de la página web: : */
+  "rich-text#contenido4--subtitulo24--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"sub--titulos2--pequeno",
+        "text":"2. Cambios a través de la página web:"
+    }
+  },
+  "rich-text#contenido5--subtitulo24--terminos-y-condiciones":{
+      "props":{
+          "blockClass":"contenido--terminos--y--condiciones--vinetas--7",
+          "text":"el cambio se podrá solicitar a través de cualquiera de los medios de contacto que se indican a continuación: línea nacional de servicio al cliente 01 8000 180 120, chat online o enviar un mensaje a contactenos@arturocalle.com, informando el nombre completo, número de cédula de comprador, número de la orden del pedido, número de documento equivalente a factura y demás información que considere relevante para su solicitud."
+      }
+  },
+  "rich-text#contenido6--subtitulo24--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"ARTURO CALLE dará respuesta a su solicitud en un plazo no mayor a (15) días hábiles, por medio de un correo electrónico u otro sistema que a juicio de ARTURO CALLE resulte conveniente. En el evento en que proceda el cambio, ARTURO CALLE solicitará la devolución del producto por medio del servicio de transporte que éste señale (En ese momento se indicarán al cliente los costos asociados al transporte del producto, informado quién deberá asumirlos)."
+    }
+  },
+  /*LÍMITE DE RESPONSABILIDAD*/
+  "rich-text#subtitulo25--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"LÍMITE DE RESPONSABILIDAD"
+    }
+  },
+  "rich-text#contenido--subtitulo25--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Sin perjuicio de lo determinado en las normas imperativas de la Legislación Colombiana aplicable, ARTURO CALLE no asume responsabilidad alguna por cualquier daño, perjuicio o reclamo de terceros derivado del uso o compras a través del sitio web www.arturocalle.com, incluyendo pero sin limitarse a la pérdida de información o utilidades, existencia de virus, resultados del uso o la incapacidad para usar el material en este sitio, oportunidades de negocios perdidas, o cualquier otro daño, aun cuando el cliente nos haya avisado acerca de la posibilidad de tales daños. \n \n Bajo los términos aquí señalados, ARTURO CALLE no asume ninguna responsabilidad por la información que se suministra en la página, incluyendo, pero sin limitarse a la referente a productos y/o servicios, notas de interés, opiniones, consejos prácticos y solución de inquietudes. \n \n ARTURO CALLE no asume responsabilidad alguna por la imposibilidad de, o por problemas en, la utilización del sitio o de alguna de las páginas que lo conforman, incluyendo, pero sin limitarse a eventos tales como problemas en el servidor o en la conexión, interrupciones en su comunicación, problemas técnicos. En caso de que el uso del material de este Sitio dé como resultado la necesidad de dar servicio a, reparar o corregir equipo o información, el cliente asume cualquier costo derivado de ello. \n \n De igual forma, al aceptar los presentes términos y condiciones el cliente acepta que la entrega de productos se efectuará a través de una empresa transportadora independiente, que se encuentre legalmente habilitada y se somete al régimen de transporte de mercancías vigente en la legislación colombiana. \n \n Sin perjuicio de lo aquí establecido, en los eventos en los que exista responsabilidad conforme lo señalado en éstos términos y condiciones, la cuantía máxima de la responsabilidad de ARTURO CALLE se limitará en una cuantía idéntica al valor del producto adquirido, o en su defecto, al valor del producto solicitado por el cliente."
+    }
+  },
+  /*ORIGEN DE LOS FONDOS*/
+  "rich-text#subtitulo26--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"ORIGEN DE LOS FONDOS"
+    }
+  },
+  "rich-text#contenido--subtitulo26--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"El cliente declara expresamente, dentro del ejercicio libre de su voluntad que los dineros con los cuales desarrollan su objeto social y/o actividad, proviene de actividades licitas, es decir, que no provienen de ninguna actividad ilícita de las contempladas en el Código Penal colombiano o en cualquier otra norma concordante o que la modifique o adicione, por lo cual se exonera y releva a ARTURO CALLE de cualquier tipo de responsabilidad penal, civil, tributaria y/o financiera en este sentido. \n \n Igualmente garantiza que directamente, ni sus socios, accionistas, ni vinculados o beneficiarios reales, tratándose de una persona jurídica: (i) han estado, o se encuentran incluidos en alguna de las listas que administra la Oficina de Control de Activos del Departamento del Tesoro de los Estados Unidos de América u otra similar; (ii) no tienen investigaciones en curso, ni han sido sindicados o condenados por narcotráfico ni lavado de activos o financiación del terrorismo; y, (iii) sus bienes, negocios y los recursos, al igual que los de sus accionistas, provienen de actividades lícitas."
+    }
+  },
+  /*POLÍTICAS DE PRIVACIDAD Y DATOS PERSONALES*/
+  "rich-text#subtitulo27--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"POLÍTICAS DE PRIVACIDAD Y DATOS PERSONALES"
+    }
+  },
+  "rich-text#contenido--subtitulo27--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"La Política de Uso de Datos Personales y Administración de Bases de Datos de ARTURO CALLE puede ser consultada en www.arturocalle.com. \n \n Al suministrar mis datos personales, manifiesto que consiento libre y expresamente la inclusión, transmisión y transferencia de mis datos personales requeridos para la compra de productos, el seguimiento y mejoramiento de los mismos, el servicio y la atención y para los fines previstos en la Política de Uso de Datos. \n \n El responsable del tratamiento de sus datos es COMERCIALIZADORA ARTURO CALLE S.A.S. Para efectos de solicitar información sobre el tratamiento de datos personales, aclaraciones, presentar quejas o reclamos por favor dirigirse al correo electrónico contactenos@arturocalle.com o llamando a la línea telefónica en la ciudad de Bogotá (0571) 743 88 00 extensión 1258 o a través de carta dirigida a la Dirección de Servicio al Cliente a la AK 72 (Av.Boyacá) No. 152 B – 62 en Bogotá D.C."
+    }
+  },
+  "rich-text#contenido2--subtitulo27--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"paragraph--subtitulomenornivel2",
+        "text":"PETICIONES, QUEJAS Y RECLAMOS"
+    }
+  },
+  "rich-text#contenido3--subtitulo27--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Para efectos de radicar una Petición, Queja, Reclamo o Sugerencia (PQRS) por favor dirigirse al siguiente link www.arturocalle.com/contacto en el que se podrán radicar nuevas solicitudes tales como quejas, reclamos, sugerencias, solicitudes de cambios, devoluciones, peticiones de información, entre otras.  \n \n También puedes contactarnos a través de los siguientes canales, en los que podrás hacer seguimiento de tu solicitud: \n \n Línea de servicio al cliente nacional: 01 8000 180 120 \n \n PBX Bogotá: 743 88 00 \n \n Correo electrónico: contactenos@arturocalle.com \n \n Dirección principal: Avenida Boyacá # 152B-62, Bogotá D.C., Colombia"
+    }
+  },
+  /*JORNADAS DE DÍAS SIN IVA – (Ley 2155 de 14 de septiembre de 2021)*/
+  "rich-text#subtitulo28--terminos--y--condiciones":{
+    "props":{
+    "blockClass":"paragraph--sub--titulo",
+    "text":"JORNADAS DE DÍAS SIN IVA – (Ley 2155 de 14 de septiembre de 2021)"
+    }
+  },
+  "rich-text#contenido--subtitulo28--terminos-y-condiciones":{
+    "props":{
+        "blockClass":"contenido",
+        "text":"Los Términos y Condiciones aquí incluidos aplican de manera íntegra a las compras realizadas durante las jornadas de exención del IVA “DÍAS SIN IVA”, dispuestas como un incentivo por el Gobierno Nacional conforme a la Ley 2155 de 14 de septiembre de 2021, excepto en lo determinado respecto de los días estipulados para la entrega de los productos, los cuales, según la normatividad aplicable, deberán ser entregados al consumidor final a más tardar dentro de las dos (2) semanas siguientes a la emisión de la factura de compra o la expedición de documento equivalente. \n \n Los demás términos y condiciones particulares aplicables para la jornada del día sin IVA podrán ser consultados aquí."
+    }
+  }
+}

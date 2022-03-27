@@ -87,3 +87,29 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+
+
+/*---------------------------------------*/
+/*          paginas estaticas            */
+/*---------------------------------------*/
+
+
+.paper--modal-layout--contenedor{
+  margin: 0;
+  height: 100%;
+  opacity: 0.95;
+}
+
+.container--modal-layout--contenedor{
+  background: white;
+  opacity: 0.95 !important; 
+}
+
+
+.paper--modal-layout--contenedor :global(.vtex-modal-layout-0-x-headerContainer){
+  border-color: white;
+  position: relative;
+    top: 4%;
+    right: 2%;
+}
+/*---------------------------------------*/

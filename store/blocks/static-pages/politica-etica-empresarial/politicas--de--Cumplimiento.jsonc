@@ -1,0 +1,171 @@
+{
+    /*a. Conflicto de Interés*/
+    "rich-text#politicas--de--cumplimiento-a":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"a. Conflicto de Interés "
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-a":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Actuar permanentemente de buena fe, siempre velando por los intereses de la Compañía, evitando participar en actividades, o administrar negocios contrarios a los intereses de la Compañía."
+        }
+    },
+    /*b. Prevención y Control de Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva*/
+    "rich-text#politicas--de--cumplimiento-b":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"b. Prevención y Control de Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-b":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Utilizar los procedimientos, mecanismos e instrumentos establecidos por la Compañía, para la prevención y control del lavado de activos, la financiación del terrorismo y la financiación de la proliferación de armas de destrucción Masiva."  
+        }
+    },
+    /*c. Agasajos, Regalos, Dádivas y Otros Pagos Inusuales*/
+    "rich-text#politicas--de--cumplimiento-c":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"c. Agasajos, Regalos, Dádivas y Otros Pagos Inusuales"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-c":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"En el curso de una contratación, los terceros No deberán ofrecer ni recibir ninguna clase de remuneración por parte de los empleados de la Compañía, o viceversa."  
+        }
+    },
+    /*d. Remuneraciones y pago de comisiones a Empleados y Contratistas en Procesos de Negociación*/
+    "rich-text#politicas--de--cumplimiento-d":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"d. Remuneraciones y pago de comisiones a Empleados y Contratistas en Procesos de Negociación"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-d":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"No realizar remuneraciones ni pago de comisiones a empleados o contratistas sin aprobación previa de la Gerencia o Dirección que lidere el área correspondiente."  
+        }
+    },
+    /*e. Gastos de Entretenimiento, Alimentación, Hospedaje y Viajes en los Procesos de Negociación*/
+    "rich-text#politicas--de--cumplimiento-e":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"e. Gastos de Entretenimiento, Alimentación, Hospedaje y Viajes en los Procesos de Negociación"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-e":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Sólo cubre gastos de pasaje y hospedaje por los viajes ligados estrictamente al negocio."  
+        }
+    },
+    /*f. Contribuciones Políticas*/
+    "rich-text#politicas--de--cumplimiento-f":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"f. Contribuciones Políticas"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-f":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Comercializadora Arturo Calle S.A.S, tiene prohibido apoyar o realizar contribuciones políticas a su nombre, a candidatos, partidos y organizaciones políticos."  
+        }
+    },
+    /*g. Tratos con Instituciones Estatales*/
+    "rich-text#politicas--de--cumplimiento-g":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"g. Tratos con Instituciones Estatales"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-g":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Comercializadora Arturo Calle S.A.S, prohíbe ofrecer, prometer y otorgar cualquier beneficio de valor agregado, a funcionarios de instituciones estatales, cumpliendo las disposiciones legales del país respectivo."  
+        }
+    },
+    /*h. Donaciones*/
+    "rich-text#politicas--de--cumplimiento-h":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"h. Donaciones"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-h":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Comercializadora Arturo Calle S.A.S, efectúa donaciones a la Fundación Arturo Calle, contribuyendo al desarrollo social y mejoramiento de las comunidades menos favorecidas del país. En caso de realizar una donación a una entidad externa, previamente debe ser avalada por la Gerencia General de la Compañía."  
+        }
+    },
+    /*i. Contribuciones y Patrocinios*/
+    "rich-text#politicas--de--cumplimiento-i":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"i. Contribuciones y Patrocinios"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-i":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Las contribuciones y patrocinios deberán ser transparentes, rastreables, verificables, y adecuadamente justificadas y requerirán aprobación por el Gerente General de Comercializadora Arturo Calle S.A.S."  
+        }
+    },
+    /*j. Consumo de Alcohol y Drogas Ilícitas*/
+    "rich-text#politicas--de--cumplimiento-j":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"j. Consumo de Alcohol y Drogas Ilícitas"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-j":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Se prohíbe portar, vender, distribuir, ingerir o presentarse a laborar bajo los efectos, en periodo de post-ingestión y/o síndrome de abstinencia, de bebidas alcohólicas, sustancias psicoactivas, bebidas fermentadas. Así mismo se prohíbe fumar en áreas de trabajo, vehículos de transporte propios o asignados por la Compañía, en sus instalaciones."  
+        }
+    },
+    /*k. Prevención de Actos Incorrectos y de Fraude*/
+    "rich-text#politicas--de--cumplimiento-k":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"k. Prevención de Actos Incorrectos y de Fraude"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-k":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Comercializadora Arturo Calle S.A.S, no acepta prácticas que atenten contra la transparencia y legalidad, tanto al interior de la Compañía como en las relaciones comerciales con los diferentes grupos de interés, por lo cual tiene una posición de cero tolerancias frente al fraude y actos incorrectos."  
+        }
+    },
+    /*l. Manejo de Dinero en Efectivo*/
+    "rich-text#politicas--de--cumplimiento-l":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"l. Manejo de Dinero en Efectivo"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-l":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"El manejo de efectivo en la Compañía se encuentra regulado por nuestro SAGRILAFT."  
+        }
+    },
+    /*m. Código de Ética*/
+    "rich-text#politicas--de--cumplimiento-m":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"m. Código de Ética"  
+        }
+    },
+    "rich-text#contenido--politicas--de--cumplimiento-m":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"La Compañía resume los estándares mínimos que orientan el comportamiento ético que deben seguir todos los empleados en el Código de Ética. Comercializadora Arturo Calle S.A.S., no tolerará ninguna actuación de ninguna persona, natural o jurídica, que atente contra principios éticos o morales."  
+        }
+    }
+}

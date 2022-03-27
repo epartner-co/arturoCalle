@@ -79,7 +79,7 @@
       "itemProps": {
         "type": "external",
         "noFollow": false,
-        "tagTitle": "Escríbenos por vía whatsapp",
+        "tagTitle": "Mis pedidos",
         "text": "MIS PEDIDOS"
       }
     },
@@ -118,9 +118,9 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "https://web.whatsapp.com/",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Escríbenos por vía whatsapp",
+        "tagTitle": "Lista de deseos",
         "text": "LISTA DE DESEOS"
       }
     }
@@ -142,9 +142,9 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "https://web.whatsapp.com/",
+        "href": "/",
         "noFollow": false,
-        "tagTitle": "Escríbenos por vía whatsapp",
+        "tagTitle": "Contactenos",
         "text": "CONTÁCTENOS"
       }
     },
@@ -275,6 +275,7 @@
   },
   "rich-text#titulo--numero--ventas-whatsapp":{
     "props":{
+      "href": "https://web.whatsapp.com/",
       "blockClass": "numero--ventas-whatsapp",
       "text":"Escríbenos 318 349 0000"
     }

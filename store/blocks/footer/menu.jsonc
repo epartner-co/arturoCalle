@@ -56,13 +56,13 @@
     "rich-text#answer": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[Franquicias](https://cambiosac--callearturop.myvtex.com/franquicias)"
+        "text": "[Franquicias](/franquicias)"
       }
     },
     "rich-text#answer2": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[Nuestra Historia](https://www.arturocalle.com/contenido/historia)"
+        "text": "[Nuestra Historia](/historia)"
       }
     },
     "rich-text#answer3": {
@@ -74,7 +74,7 @@
     "rich-text#answer4": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[Uniformes y dotaciones](https://talento.arturocalle.com/talento/)"
+        "text": "[Uniformes y dotaciones](http://www.colorearturocalle.com/)"
       }
     },
     "rich-text#answer5": {
@@ -86,13 +86,13 @@
     "rich-text#answer6": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[línea Ética](https://angelicaac--callearturop.myvtex.com/linea-etica)"
+        "text": "[línea Ética](/linea-etica)"
       }
     },
     "rich-text#answer7": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[Política Ética Empresarial](https://www.arturocalle.com/contenido/politica-etica-empresarial)"
+        "text": "[Política Ética Empresarial](/politica-etica-empresarial)"
       }
     },
     /* >>>>>>>>>>>>Cierre de  Columna 1*/
@@ -165,7 +165,7 @@
     "rich-text#answer-Col3": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[Contáctecnos - PQRs](https://www.arturocalle.com/contacto)"
+        "text": "[Contáctecnos - PQRs](/contacto)"
       }
     },
     "rich-text#answer2-Col3": {
@@ -189,14 +189,13 @@
     "rich-text#answer5-Col3": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[Condiciones actividades comerciales](https://www.arturocalle.com/condiciones-actividades-comerciales)"
+        "text": "[Condiciones actividades comerciales](/condiciones-actividades-comerciales)"
       }
     },
     "rich-text#answer6-Col3": {
       "props": {
         "blockClass": "ContenidoDesplegable",
         "text": "[Política de envío, cambios y garantías](/politica-envio-cambios-garantias)"
-
       }
     },
     "rich-text#answer7-Col3": {

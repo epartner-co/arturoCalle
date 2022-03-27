@@ -1,0 +1,269 @@
+{
+    "store.custom#politica-etica-empresarial": {
+        "blocks": [
+            "flex-layout.row#informacion--politica-etica-empresarial"
+        ]
+      },
+      "flex-layout.row#informacion--politica-etica-empresarial":{
+          "props":{
+              "blockClass":"informacion--politica-etica-empresarial"
+          },
+          "children":[
+            "flex-layout.col#informacion--politica-etica-empresarial--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--politica-etica-empresarial--primera--parte":{
+          "props":{
+            "blockClass":"informacion--politica-etica-empresarial--primera--parte"
+          },
+          "children":[
+              /*titulos*/
+              "rich-text#titulo--principal--politica-etica-empresarial",
+              "rich-text#subtitulo--principal--politica-etica-empresarial",
+              /*1. Objetivo y Alcance*/
+              "rich-text#objetivo--y--Alcance",
+              "rich-text#contenido--objetivo--y--Alcance",
+              /*2. Compromiso de la Compañía*/
+              "rich-text#compromiso--de--la--Compania",
+              "rich-text#contenido--compromiso--de--la--Compania",
+              /*3. Principios Corporativos*/
+              "rich-text#principios--Corporativos",
+              "flex-layout.col#contenido--principios--Corporativos",
+              /*4. Políticas de Cumplimiento*/
+              "rich-text#politicas--de--Cumplimiento",
+              "flex-layout.col#contenido--politicas--de--Cumplimiento",
+              /*5. Confidencialidad y Seguridad de la Información*/
+              "rich-text#confidencialidad--y--Seguridad--de--la--Informacion",
+              "rich-text#contenido--confidencialidad--y--Seguridad--de--la--Informacion",
+              /*6. Control y Supervisión de las Políticas de Cumplimiento*/
+              "rich-text#control--y--Supervision--de--las--Politicas--de--Cumplimiento",
+              "rich-text#contenido--control--y--Supervision--de--las--Politicas--de--Cumplimiento",
+              /*7. Canales de Comunicación*/
+              "rich-text#canales--de--Comunicacion",
+              "rich-text#contenido--canales--de--Comunicacion",
+              "rich-text#contenido--canales--de--Comunicacion2",
+              "rich-text#contenido--canales--de--Comunicacion3",
+              /*8. Sanciones*/
+              "rich-text#sanciones",
+              "rich-text#contenido--sanciones",
+              "rich-text#contenido--sanciones2",
+              "rich-text#contenido--sanciones3",
+              "rich-text#contenido--sanciones4"
+              
+          ]
+      },
+      /*titulos*/
+        "rich-text#titulo--principal--politica-etica-empresarial":{
+            "props":{
+            "blockClass":"titulo-principal",
+            "text":"Política de Ética Empresarial de Comercializadora Arturo Calle S.A.S"
+            }
+        },
+        "rich-text#subtitulo--principal--politica-etica-empresarial":{
+            "props":{
+            "blockClass":"subtitulo-principal",
+            "text":"Información Tomada del Manual de Ética y Cumplimiento"
+            }
+        },
+        /*1. Objetivo y Alcance*/
+        "rich-text#objetivo--y--Alcance":{
+            "props":{
+                "blockClass":"sub--titulos1",
+                "text":"1. Objetivo y Alcance"
+            }
+        },
+        "rich-text#contenido--objetivo--y--Alcance":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"Promover entre los accionistas, empleados, clientes, proveedores y/o contratistas de Comercializadora Arturo Calle S.A.S., las más altas conductas éticas, transparentes y honestas en el desarrollo de todas nuestras actividades, negocios, contrataciones, operaciones y transacciones internacionales y nacionales, así como el cumplimiento de la normatividad vigente."
+            }
+        },
+
+        /*2. Compromiso de la Compañía*/
+        "rich-text#compromiso--de--la--Compania":{
+            "props":{
+                "blockClass":"sub--titulos2",
+                "text":"2. Compromiso de la Compañía"
+            }
+        },
+        "rich-text#contenido--compromiso--de--la--Compania":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"Comercializadora Arturo Calle S.A.S., y sus Altos Directivos, se comprometen a promover una cultura de transparencia, honestidad e integridad, con el propósito de fomentar dentro de la Compañía una conducta de cero tolerancia frente al Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva, reforzando de tal manera, los valores y principios para actuar siempre correctamente en todas nuestras actividades."
+            }
+        },
+
+        /*3. Principios Corporativos*/
+        "rich-text#principios--Corporativos":{
+            "props":{
+                "blockClass":"sub--titulos3",
+                "text":"3. Principios Corporativos"
+            }
+        },
+        "flex-layout.col#contenido--principios--Corporativos":{
+            "children":[
+                /*a. Integridad*/
+                "rich-text#principios--Corporativos-Integridad",
+                "rich-text#contenido--principios--Corporativos-Integridad",
+                /*b. Buena fe*/
+                "rich-text#principios--Corporativos-Buena-fe",
+                "rich-text#contenido--principios--Corporativos-Buena-fe",
+                /*c. Honestidad*/
+                "rich-text#principios--Corporativos-Honestidad",
+                "rich-text#contenido--principios--Corporativos-Honestidad",
+                /*d. Lealtad*/
+                "rich-text#principios--Corporativos-Lealtad",
+                "rich-text#contenido--principios--Corporativos-Lealtad",
+                /*e. Legalidad*/
+                "rich-text#principios--Corporativos-Legalidad",
+                "rich-text#contenido--principios--Corporativos-Legalidad",
+                /*f. Veracidad*/
+                "rich-text#principios--Corporativos-Veracidad",
+                "rich-text#contenido--principios--Corporativos-Veracidad",
+                /*g. Justicia y Equidad*/
+                "rich-text#principios--Corporativos-Justicia--y--Equidad",
+                "rich-text#contenido--principios--Corporativos-Justicia--y--Equidad",
+                /*h. Seguridad*/
+                "rich-text#principios--Corporativos-Seguridad",
+                "rich-text#contenido--principios--Corporativos-Seguridad",
+                /*i. Confidencialidad*/
+                "rich-text#principios--Corporativos-Confidencialidad",
+                "rich-text#contenido--principios--Corporativos-Confidencialidad"
+            ]
+        },
+        
+        /*4. Políticas de Cumplimiento*/
+        "rich-text#politicas--de--Cumplimiento":{
+            "props":{
+                "blockClass":"sub--titulos4",
+                "text":"4. Políticas de Cumplimiento"
+            }
+        },
+        "flex-layout.col#contenido--politicas--de--Cumplimiento":{
+            "children":[
+                /*a. Conflicto de Interés*/
+                "rich-text#politicas--de--cumplimiento-a",
+                "rich-text#contenido--politicas--de--cumplimiento-a",
+                /*b. Prevención y Control de Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva*/
+                "rich-text#politicas--de--cumplimiento-b",
+                "rich-text#contenido--politicas--de--cumplimiento-b",
+                /*c. Agasajos, Regalos, Dádivas y Otros Pagos Inusuales*/
+                "rich-text#politicas--de--cumplimiento-c",
+                "rich-text#contenido--politicas--de--cumplimiento-c",
+                /*d. Remuneraciones y pago de comisiones a Empleados y Contratistas en Procesos de Negociación*/
+                "rich-text#politicas--de--cumplimiento-d",
+                "rich-text#contenido--politicas--de--cumplimiento-d",
+                /*e. Gastos de Entretenimiento, Alimentación, Hospedaje y Viajes en los Procesos de Negociación*/
+                "rich-text#politicas--de--cumplimiento-e",
+                "rich-text#contenido--politicas--de--cumplimiento-e",
+                /*f. Contribuciones Políticas*/
+                "rich-text#politicas--de--cumplimiento-f",
+                "rich-text#contenido--politicas--de--cumplimiento-f",
+                /*g. Tratos con Instituciones Estatales*/
+                "rich-text#politicas--de--cumplimiento-g",
+                "rich-text#contenido--politicas--de--cumplimiento-g",
+                /*h. Donaciones*/
+                "rich-text#politicas--de--cumplimiento-h",
+                "rich-text#contenido--politicas--de--cumplimiento-h",
+                /*i. Contribuciones y Patrocinios*/
+                "rich-text#politicas--de--cumplimiento-i",
+                "rich-text#contenido--politicas--de--cumplimiento-i",
+                /*j. Consumo de Alcohol y Drogas Ilícitas*/
+                "rich-text#politicas--de--cumplimiento-j",
+                "rich-text#contenido--politicas--de--cumplimiento-j",
+                /*k. Prevención de Actos Incorrectos y de Fraude*/
+                "rich-text#politicas--de--cumplimiento-k",
+                "rich-text#contenido--politicas--de--cumplimiento-k",
+                /*l. Manejo de Dinero en Efectivo*/
+                "rich-text#politicas--de--cumplimiento-l",
+                "rich-text#contenido--politicas--de--cumplimiento-l",
+                /*m. Código de Ética*/
+                "rich-text#politicas--de--cumplimiento-m",
+                "rich-text#contenido--politicas--de--cumplimiento-m"
+            ]
+        },
+        /*5. Confidencialidad y Seguridad de la Información*/
+        "rich-text#confidencialidad--y--Seguridad--de--la--Informacion":{
+            "props":{
+                "blockClass":"sub--titulos5",
+                "text":"5. Confidencialidad y Seguridad de la Información"
+            }
+        },
+        "rich-text#contenido--confidencialidad--y--Seguridad--de--la--Informacion":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"Todos accionistas, empleados, clientes, proveedores y/o contratistas deberán mantener la debida reserva sobre los documentos de trabajo y la información confidencial que se encuentre bajo su cuidado. Por lo tanto, Comercializadora Arturo Calle S.A.S, rechaza el uso indebido de dicha información, exigiendo no revelar ni divulgar en forma alguna la información sobre la cual tenga conocimiento o acceso durante la ejecución y terminación de cualquier contrato u operación comercial, incluyendo cualquier información confidencial, reservada, privilegiada, privada o bajo cualquier otro término similar que sea propiedad de la Compañía. \n \n Por tal motivo, la Compañía cuenta con procedimientos de Seguridad de la Información, que permiten la ejecución adecuada de esta política."
+            }
+        },
+        /*6. Control y Supervisión de las Políticas de Cumplimiento*/
+        "rich-text#control--y--Supervision--de--las--Politicas--de--Cumplimiento":{
+            "props":{
+                "blockClass":"sub--titulos6",
+                "text":"6. Control y Supervisión de las Políticas de Cumplimiento"
+            }
+        },
+        "rich-text#contenido--control--y--Supervision--de--las--Politicas--de--Cumplimiento":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"Para Comercializadora Arturo Calle S.A.S, es importante supervisar y evaluar de manera periódica, la eficiencia y efectividad del Manual de Ética y Cumplimiento y sus respectivas políticas, con el fin de tomar a tiempo los correctivos necesarios para impedir la materialización de riesgos de Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva. \n \n Por lo anterior, la Compañía por medio del Oficial de Cumplimiento , verificará que se contemplen los cambios legislativos y regulatorios, la debida diligencia realizada, la cultura de transparencia por parte de los accionistas, empleados, clientes, proveedores y/o contratistas y coordinará la realización de encuestas a ellos, con el fin de verificar la efectividad del Manual de Ética y Cumplimiento."
+            }
+        },
+        /*7. Canales de Comunicación*/
+        "rich-text#canales--de--Comunicacion":{
+            "props":{
+                "blockClass":"sub--titulos7",
+                "text":"7. Canales de Comunicación"
+            }
+        },
+        "rich-text#contenido--canales--de--Comunicacion":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"Con el propósito de prevenir, identificar y dar tratamiento a los actos y conductas que se presenten en el ejercicio del desarrollo de las actividades de Comercializadora Arturo Calle S.A.S., se cuenta con el Canal de Contacto de Ética Empresarial que permite a los accionista, empleados, clientes, proveedores y/o contratistas, manifestar las inquietudes, o realizar denuncias con respecto a infracciones, sin temor a posibles represalias."
+            }
+        },
+        "rich-text#contenido--canales--de--Comunicacion2":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"a. Línea de Ética Empresarial"
+            }
+        },
+        "rich-text#contenido--canales--de--Comunicacion3":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"La Línea de Ética Empresarial ofrece consultas de casos específicos sobre la aplicación del Manual de Ética y Cumplimiento, asesorías para la toma de decisiones en situaciones de intentos de Actos de Corrupción, además, se podrá reportar de manera confidencial y segura aquellas actividades y conductas relacionadas con el Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva, a través del Correo Electrónico: lineaetica@arturocalle.com. \n \n Aquellas denuncias que se reciban serán consolidadas y evaluadas por el Oficial de Cumplimiento \n \n Atendiendo a la confidencialidad del caso, Comercializadora Arturo Calle S.A.S., garantiza que ninguno de los denunciantes sea objeto de represalias por haber reportado infracciones a la ley o a las Políticas de Cumplimiento."
+            }
+        },
+        /*8. Sanciones*/
+        "rich-text#sanciones":{
+            "props":{
+                "blockClass":"sub--titulos8",
+                "text":"8. Sanciones"
+            }
+        },
+        "rich-text#contenido--sanciones":{
+            "props":{
+                "blockClass":"contenido",
+                "text":"El incumplimiento de las disposiciones previstas en el Manual de Ética y Cumplimiento de Comercializadora Arturo Calle S.A.S., por parte de los accionistas, empleados, proveedores y/o contratistas y demás partes de interés, dará lugar a la imposición de sanciones administrativas o disciplinarias dependiendo del caso (reglamento de trabajo, contratos, entre otros) entendiéndose como una falta grave. Por lo anterior, se entenderá como conductas contrarias al cumplimiento de este Manual:"
+            }
+        },
+        /*se pone un 1. en cada seccion...pero en el css se va a cambiar por un punto*/
+        "rich-text#contenido--sanciones2":{
+            "props":{
+                "blockClass":"contenido--punto",
+                "text":"1. Realizar alguna de las conductas mencionadas como fuentes de riesgo sin cumplir con los requisitos o procedimientos impuestos por la Compañía."
+            }
+        },
+        "rich-text#contenido--sanciones3":{
+            "props":{
+                "blockClass":"contenido--punto",
+                "text":"1. No informar, tolerar, consentir o ignorar alguna conducta contraria al presente Programa de Ética Empresarial."
+            }
+        },
+        "rich-text#contenido--sanciones4":{
+            "props":{
+                "blockClass":"contenido--punto",
+                "text":"1. Discutir, difundir o entregar información sobre cualquier posible incumplimiento del presente programa sin la autorización previa y expresa del Oficial de Cumplimiento."
+            }
+        }
+        
+}

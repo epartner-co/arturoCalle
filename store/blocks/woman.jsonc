@@ -332,6 +332,8 @@
   }
 },
 
+/*-----------------------------------------------------------*/
+/*info card modificado*/
 "info-card#col-right-2": {
   "props": {
     "id": "info-card",
@@ -339,10 +341,10 @@
     "fullWidth": true,
     "imageUrl": "assets/desk/woman/banner-grid3D-100.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card"
+    "blockClass": "info-card--down"
   }
 },
-
+/*-------------------------------------------------------------*/
 "shelf#cats": {
   "blocks": ["product-summary.shelf"],
   "props": {

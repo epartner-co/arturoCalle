@@ -27,7 +27,7 @@
             "orientation": "vertical",
             "blockClass":"menuGeneral-sub"
         }
-        
+
     },
     // items principales del sub menu
     "menu-item#category-hombre-nuevos-M": {
@@ -39,7 +39,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/hombre/nuevos-productos",
             "noFollow": false,
             "tagTitle": "Nuevos",
             "text": "Nuevos"
@@ -55,7 +55,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/hombre/estilo/formal",
             "noFollow": false,
             "tagTitle": "Formal",
             "text": "Formal"
@@ -71,7 +71,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/hombre/estilo/business",
             "noFollow": false,
             "tagTitle": "Bussines",
             "text": "Bussines"
@@ -87,7 +87,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/hombre/estilo/casual",
             "noFollow": false,
             "tagTitle": "Casual",
             "text": "Casual"
@@ -103,7 +103,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/hombre/estilo/ropa-de-lino",
             "noFollow": false,
             "tagTitle": "Linos",
             "text": "Linos"
@@ -119,7 +119,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/bono-de-regalo",
             "noFollow": false,
             "tagTitle": "Bono regalo",
             "text": "Bono regalo"
@@ -135,7 +135,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "Oferta",
             "text": "Oferta"
@@ -153,14 +153,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/hombre/ropa",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
             }
         },
         "blocks":[
-            "submenu.accordion#hombre-principal-ropa"   
+            "submenu.accordion#hombre-principal-ropa"
         ]
     },
     "submenu.accordion#hombre-principal-ropa":{
@@ -196,7 +196,7 @@
             "orientation": "vertical",
             "blockClass":"submenu-sub"
         }
-        
+
     },
     // items del sub menu ropa
     "menu-item#category-hombre-blazzer-M": {
@@ -488,7 +488,7 @@
             }
         },
         "blocks":[
-            "submenu.accordion#hombre-principal-zapatos"   
+            "submenu.accordion#hombre-principal-zapatos"
         ]
     },
     "submenu.accordion#hombre-principal-zapatos":{
@@ -645,7 +645,7 @@
             }
         },
         "blocks":[
-            "submenu.accordion#hombre-principal-acce"   
+            "submenu.accordion#hombre-principal-acce"
         ]
     },
     "submenu.accordion#hombre-principal-acce":{
@@ -836,7 +836,7 @@
             }
         },
         "blocks":[
-            "submenu.accordion#hombre-principal-coleccion"   
+            "submenu.accordion#hombre-principal-coleccion"
         ]
     },
     "submenu.accordion#hombre-principal-coleccion":{

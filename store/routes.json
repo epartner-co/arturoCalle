@@ -37,5 +37,32 @@
   },
   "store.custom#preguntas-frecuentes": {
     "path": "/preguntas-frecuentes"
+  },
+  "store.custom#linea-etica": {
+    "path": "/linea-etica"
+  },
+  "store.custom#franquicias": {
+    "path": "/franquicias"
+  },
+  "store.custom#politica-etica-empresarial": {
+    "path": "/politica-etica-empresarial"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#historia": {
+    "path": "/historia"
+  },
+  "store.custom#politica-envio-cambios-garantias": {
+    "path": "/politica-envio-cambios-garantias"
+  },
+  "store.custom#politica-de-datos": {
+    "path": "/politica-de-datos"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#condiciones-actividades-comerciales": {
+    "path": "/condiciones-actividades-comerciales"
   }
 }

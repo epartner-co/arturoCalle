@@ -354,7 +354,7 @@
     "fullWidth": true,
     "imageUrl": "assets/desk/hombre/banner-grid3.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card"
+    "blockClass": "info-card--down"/*se le puso el mismo info card que woman...para que quedara alineado*/
   }
 },
 

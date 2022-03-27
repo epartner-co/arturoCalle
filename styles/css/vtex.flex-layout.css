@@ -528,4 +528,75 @@ Estilos Producto Sección Contenido AC*/
   width: 96%;
   margin-left: 14px;
 }
+
+/*linea-etica*/
+.flexRow--informacion--linea-etica{
+  width: 90%;
+  margin-left: 4%;
+}
+
+/*franquicias*/
+.flexRow--informacion--franquicias{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexColChild--informacion--franquicias--primera--parte :global(.vtex-store-link-0-x-link){
+  text-decoration: none;
+}
+
+/*politica-etica-empresarial*/
+.flexRow--informacion--politica-etica-empresarial{
+  width: 90%;
+  margin-left: 52px;
+}
+
+/*terminos y condiciones*/
+.flexRow--informacion--terminos-y-condiciones{
+  width: 90%;
+  margin-left: 4%;
+}
+
+
+/*historia*/
+.flexRow--informacion--historia{
+  width: 90%;
+  margin-left: 4%;
+}
+
+/*politica envio cambios garantias*/
+.flexRow--informacion--politica-envio-cambios-garantias{
+  width: 90%;
+  margin-left: 4%;
+}
+
+/*politica de datos*/
+.flexRow--informacion--politica-de-datos{
+  width: 90%;
+  margin-left: 4%;
+}
+
+/*contacto*/
+.flexRow--informacion--contacto{
+  width: 90%;
+  margin-left: 4%;
+}
+
+.flexColChild--informacion--contacto--primera--parte :global(.vtex-iframe-0-x-container){
+  width: 100%;
+
+}
+
+/*condiciones-actividades-comerciales*/
+
+.flexRow--informacion--condiciones-actividades-comerciales{
+  width: 90%;
+  margin-left: 4%;
+}
+
+
+.flexCol--grid :global(.vtex-store-components-3-x-imageElement):hover{
+  box-shadow: 0px 0px 20px -7px rgb(0 0 0 / 70%);
+}
+
 /*-----------------------------------*/

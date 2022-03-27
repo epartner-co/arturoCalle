@@ -32,4 +32,65 @@
 .minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer){
   color: white;
 }
+
+.minicartCheckoutButton :global(.vtex-button){
+  background: white;
+  border-color: white;
+  border-radius: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label){
+  visibility: hidden;
+  color: black;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover :global(.vtex-button__label){/*hace que cuando toque el boton...el texto cambie de color tambien*/
+  color: white;
+}
+
+
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+  content: 'Ir a pagar';
+  visibility: visible;
+  margin-left: -127px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.minicartCheckoutButton :global(.vtex-button):hover{
+  background: #485a7e;
+  border-color: #485a7e;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+  content: 'Ir a pagar';
+  visibility: visible;
+  margin-left: -127px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemContainer){
+  font-size: 11px;
+  border-bottom: 1px solid #293244;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 1px;
+  height: 24px;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summaryItemLabel){
+  position: relative;
+  top: 2px;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-price){
+  position: relative;
+  top: -18px;
+}
+
+.minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
+  display: none;
+}
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

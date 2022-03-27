@@ -1480,7 +1480,6 @@
       "rich-text#menu-nivel-freedom-cat1-sub6",
       "rich-text#menu-nivel-freedom-cat1-sub7",
       "rich-text#menu-nivel-freedom-cat1-sub8",
-      "rich-text#menu-nivel-freedom-cat1-sub9",
       "rich-text#clean"
     ]
   },
@@ -1489,55 +1488,49 @@
   "rich-text#menu-nivel-freedom-cat1-sub1":{
     "props": {
       "blockClass":"item-cat-bold",
-      "text":"HOMBRE"
+      "text":"[HOMBRE](/freedom/hombre)"
     }
   },
   "rich-text#menu-nivel-freedom-cat1-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Blazers"
+      "text":"[Blazers](/freedom/hombre/blazers)"
     }
   },
   "rich-text#menu-nivel-freedom-cat1-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Buzos"
+      "text":"[Buzos](/freedom/hombre/buzos)"
     }
   },
   "rich-text#menu-nivel-freedom-cat1-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisas"
+      "text":"[Camisas](/freedom/hombre/camisas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat1-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisetas"
+      "text":"[Camisetas](/freedom/hombre/camisetas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat1-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chalecos"
+      "text":"[Chaquetas](/freedom/hombre/chaquetas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat1-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chaquetas"
+      "text":"[Jeans](/freedom/hombre/jeans)"
     }
   },
   "rich-text#menu-nivel-freedom-cat1-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Jeans"
-    }
-  },
-  "rich-text#menu-nivel-freedom-cat1-sub9":{
-    "props": {
-      "blockClass":"item-cat",
-      "text":"Joggers"
+      "text":"[Joggers](/freedom/hombre/joggers)"
     }
   },
 
@@ -1566,49 +1559,49 @@
   "rich-text#menu-nivel-freedom-cat2-sub1":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Medias"
+      "text":"[Medias](/freedom/hombre/medias)"
     }
   },
   "rich-text#menu-nivel-freedom-cat2-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalones"
+      "text":"[Pantalones](/freedom/hombre/pantalones)"
     }
   },
   "rich-text#menu-nivel-freedom-cat2-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalonetas y Bermudas"
+      "text":"[Pantalonetas y Bermudas](/freedom/hombre/pantalonetas-y-bermudas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat2-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Polos"
+      "text":"[Polos](/freedom/hombre/polos)"
     }
   },
   "rich-text#menu-nivel-freedom-cat2-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Ropa Interior"
+      "text":"[Ropa Interior](/freedom/hombre/ropa-interior)"
     }
   },
   "rich-text#menu-nivel-freedom-cat2-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Sweaters"
+      "text":"[Sweaters](/freedom/hombre/sweaters)"
     }
   },
   "rich-text#menu-nivel-freedom-cat2-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Botas"
+      "text":"[Botas](/freedom/hombre/botas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat2-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tenis"
+      "text":"[Tenis](/freedom/hombre/tenis)"
     }
   },
 
@@ -1637,55 +1630,55 @@
   "rich-text#menu-nivel-freedom-cat3-sub1":{
     "props": {
       "blockClass":"item-cat-bold",
-      "text":"MUJER"
+      "text":"[MUJER](/freedom/mujer)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Blusas y Camisas"
+      "text":"[Blusas y Camisas](/freedom/mujer/blusas-y-camisas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Buzos"
+      "text":"[Buzos](/freedom/mujer/buzos)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Camisetas"
+      "text":"[Camisetas](/freedom/mujer/camisetas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chalecos"
+      "text":"[Chalecos](/Sistema/buscavazia?ft=)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Chaquetas"
+      "text":"[Chaquetas](/freedom/mujer/chaquetas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub7":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Faldas"
+      "text":"[Faldas](/freedom/mujer/faldas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub8":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Jeans"
+      "text":"[Jeans](/freedom/mujer/jeans)"
     }
   },
   "rich-text#menu-nivel-freedom-cat3-sub9":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Medias"
+      "text":"[Medias](/freedom/mujer/medias)"
     }
   },
 
@@ -1710,31 +1703,31 @@
   "rich-text#menu-nivel-freedom-cat4-sub1":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pantalones"
+      "text":"[Pantalones](/freedom/mujer/pantalones)"
     }
   },
   "rich-text#menu-nivel-freedom-cat4-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Shorts"
+      "text":"[Shorts](/freedom/mujer/shorts)"
     }
   },
   "rich-text#menu-nivel-freedom-cat4-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Vestidos Enterizos"
+      "text":"[Vestidos Enterizos](/freedom/mujer/vestidos-y-enterizos)"
     }
   },
   "rich-text#menu-nivel-freedom-cat4-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Botas"
+      "text":"[Botas](/freedom/mujer/botas)"
     }
   },
   "rich-text#menu-nivel-freedom-cat4-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Tenis"
+      "text":"[Tenis](/freedom/mujer/tenis)"
     }
   },
 
@@ -1751,8 +1744,7 @@
       "rich-text#menu-nivel-freedom-cat5-sub3",
       "rich-text#menu-nivel-freedom-cat5-sub4",
       "rich-text#menu-nivel-freedom-cat5-sub5",
-      "rich-text#menu-nivel-freedom-cat5-sub6",
-      "rich-text#menu-nivel-freedom-cat5-sub7"
+      "rich-text#menu-nivel-freedom-cat5-sub6"
     ]
   },
 
@@ -1760,43 +1752,37 @@
   "rich-text#menu-nivel-freedom-cat5-sub1":{
     "props": {
       "blockClass":"item-cat-bold",
-      "text":"ACCESORIOS"
+      "text":"[ACCESORIOS](https://www.arturocalle.com/freedom/accesorios)"
     }
   },
   "rich-text#menu-nivel-freedom-cat5-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Cinturones"
+      "text":"[Cinturones](/freedom/accesorios/cinturones)"
     }
   },
   "rich-text#menu-nivel-freedom-cat5-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Gorras"
+      "text":"[Gorras](/freedom/accesorios/gorras)"
     }
   },
   "rich-text#menu-nivel-freedom-cat5-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Llaveros"
+      "text":"[Morrales y bolsos](/freedom/accesorios/morrales-y-bolsos)"
     }
   },
   "rich-text#menu-nivel-freedom-cat5-sub5":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Morrales y Bolsos"
+      "text":"[Pulseras y Brazaletes](/freedom/accesorios/pulseras-y-brazaletes)"
     }
   },
   "rich-text#menu-nivel-freedom-cat5-sub6":{
     "props": {
       "blockClass":"item-cat",
-      "text":"Pulseras y Brazaletes"
-    }
-  },
-  "rich-text#menu-nivel-freedom-cat5-sub7":{
-    "props": {
-      "blockClass":"item-cat",
-      "text":"Tapabocas"
+      "text":"[Tapabocas](/freedom/accesorios/tapabocas)"
     }
   },
 

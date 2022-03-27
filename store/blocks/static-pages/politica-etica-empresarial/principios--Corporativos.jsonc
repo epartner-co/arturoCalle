@@ -1,0 +1,119 @@
+{
+    /*a. Integridad*/
+    "rich-text#principios--Corporativos-Integridad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"a. Integridad "
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Integridad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"La Compañía considera la rectitud, veracidad y transparencia de las acciones personales, oponiéndose a la falsedad y engaño, por consiguiente, actúan con apego a los principios éticos y se comprometen al desarrollo intachable de las actividades."
+        }
+    },
+    /*b. Buena fe*/
+    "rich-text#principios--Corporativos-Buena-fe":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"b. Buena fe"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Buena-fe":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Las actuaciones y ejecución de los procesos en la Compañía se realizan con diligencia, cuidado, legitimidad e imparcialidad, velando por el respeto y cumplimiento de la ley."  
+        }
+    },
+    /*c. Honestidad*/
+    "rich-text#principios--Corporativos-Honestidad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"c. Honestidad"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Honestidad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"En Comercializadora Arturo Calle S.A.S., entendemos la honestidad como la conducta recta que lleva a observar normas y políticas, así como a actuar con la verdad denotando sinceridad en cada una de las actividades relacionadas con la Compañía."  
+        }
+    },
+    /*d. Lealtad*/
+    "rich-text#principios--Corporativos-Lealtad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"d. Lealtad"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Lealtad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Constituye el profundo compromiso de los accionistas, empleados y terceros con la Compañía, manifestando aquellas situaciones y conductas relacionadas con Soborno Transnacional, Corrupción, Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva y Fraude."  
+        }
+    },
+    /*e. Legalidad*/
+    "rich-text#principios--Corporativos-Legalidad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"e. Legalidad"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Legalidad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Todas las personas vinculadas a Comercializadora Arturo Calle S.A.S., deben velar por el cumplimiento de la Constitución, las leyes colombianas, normas, políticas, reglamentos, y controles que tanto las autoridades competentes como la Compañía adopten para el desarrollo de las actividades."  
+        }
+    },
+    /*f. Veracidad*/
+    "rich-text#principios--Corporativos-Veracidad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"f. Veracidad"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Veracidad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"La Compañía expresa con autenticidad las relaciones laborales y sus actividades, diciendo y aceptando la verdad por encima de cualquier cosa."  
+        }
+    },
+    /*g. Justicia y Equidad*/
+    "rich-text#principios--Corporativos-Justicia--y--Equidad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"g. Justicia y Equidad"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Justicia--y--Equidad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"La Compañía se caracteriza por la imparcialidad de reconocer los derechos y deberes de cada uno de sus accionistas, empleados y terceros, utilizando la equivalencia."  
+        }
+    },
+    /*h. Seguridad*/
+    "rich-text#principios--Corporativos-Seguridad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"h. Seguridad"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Seguridad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Comercializadora Arturo Calle S.A.S., tiene herramientas, medidas técnicas, humanas y administrativas que garantizan la seguridad de la información evitando la así la adulteración, perdida, consulta, fuga, uso o accesos no autorizado o fraudulento de la información suministrada por empleados, accionistas, proveedores o contratistas, relacionados con el Sistema de Gestión del Riesgo de Soborno Transnacional y de Lavado de Activos, Financiación del Terrorismo y la Financiación de la Proliferación de Armas de Destrucción Masiva."  
+        }
+    },
+    /*i. Confidencialidad*/
+    "rich-text#principios--Corporativos-Confidencialidad":{
+        "props":{
+            "blockClass":"contenido--titulos--con--letras",
+            "text":"i. Confidencialidad"  
+        }
+    },
+    "rich-text#contenido--principios--Corporativos-Confidencialidad":{
+        "props":{
+            "blockClass":"contenido",
+            "text":"Comercializadora Arturo Calle SAS., protege toda la información (oficial o privada en cualquier forma que se encuentre dicha información) de la sociedad, sus empleados, accionistas y terceros. Los Empleados de la Compañía darán tratamiento adecuado, prudente y reservado a la información de carácter confidencial o privilegiado, absteniéndose de usar esta información de forma diferente a la autorizada, o de facilitarla a terceros sin las autorizaciones pertinentes para fines indebidos."  
+        }
+    }
+}

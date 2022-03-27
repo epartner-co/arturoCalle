@@ -1,0 +1,475 @@
+{
+    "store.custom#condiciones-actividades-comerciales": {
+        "blocks": [
+            "flex-layout.row#informacion--condiciones-actividades-comerciales"
+        ]
+      },
+      "flex-layout.row#informacion--condiciones-actividades-comerciales":{
+          "props":{
+              "blockClass":"informacion--condiciones-actividades-comerciales"
+          },
+          "children":[
+            "flex-layout.col#informacion--condiciones-actividades-comerciales1",
+            "flex-layout.col#informacion--condiciones-actividades-comerciales2",
+            "flex-layout.col#informacion--condiciones-actividades-comerciales3",
+            "flex-layout.col#informacion--condiciones-actividades-comerciales4"
+          ]
+      },
+      /*contenedores de los grid---inicio*/
+      "flex-layout.col#informacion--condiciones-actividades-comerciales1":{
+          "props":{
+              "blockClass":"grid"
+          },
+          "children":[
+            "modal-trigger#grid-1-1"
+          ]
+      },
+      "flex-layout.col#informacion--condiciones-actividades-comerciales2":{
+          "props":{
+              "blockClass":"grid"
+          },
+          "children":[
+            "modal-trigger#grid-1-2"
+          ]
+      },
+      "flex-layout.col#informacion--condiciones-actividades-comerciales3":{
+          "props":{
+              "blockClass":"grid"
+          },
+          "children":[
+            "modal-trigger#grid-1-3"
+          ]
+      },
+      "flex-layout.col#informacion--condiciones-actividades-comerciales4":{
+          "props":{
+              "blockClass":"grid"
+          },
+          "children":[
+            "modal-trigger#grid-1-4"
+          ]
+      },
+      /*contenedores de los grid---final*/
+
+      /*--------------------------------------------------------------------------*/
+      /*                           grid 1                                         */
+      /*--------------------------------------------------------------------------*/
+      "modal-trigger#grid-1-1":{
+        "children": [
+            "flex-layout.col#grid-1-1",
+            "modal-layout#grid-1-1"
+          ]
+      },
+      "flex-layout.col#grid-1-1":{
+          "children":[
+            "image#condiciones-actividades-comerciales1",
+            "rich-text#grid-1-1--fecha",
+            "rich-text#grid-1-1--titulo",
+            "rich-text#grid-1-1--ver--mas"
+          ]
+      },
+      "rich-text#grid-1-1--fecha": {
+        "props": {
+            "blockClass":"text-grid-fecha",
+          "text": "DIC.2021"
+        }
+      },
+      "rich-text#grid-1-1--titulo": {
+        "props": {
+            "blockClass":"text-grid-titulo",
+          "text": "PRENDAS AC QUE SE PUEDEN PERSONALIZAR"
+        }
+      },
+      "rich-text#grid-1-1--ver--mas": {
+        "props": {
+            "blockClass":"text-grid--ver--mas",
+          "text": "Ver más >"
+        }
+      },
+      
+      "image#condiciones-actividades-comerciales1":{
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales1.webp"
+          }
+      },
+      "modal-layout#grid-1-1": {
+        "props":{
+            "scroll":"body",
+            "blockClass":"modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-1-1",
+            "rich-text#modal-content--titulo--grid-1-1",
+            "rich-text#modal-content--grid-1-1",
+            "rich-text#modal-content2--grid-1-1",
+            "rich-text#modal-content3--grid-1-1",
+            "rich-text#modal-content4--grid-1-1",
+            "rich-text#modal-content5--grid-1-1",
+            "rich-text#modal-content6--grid-1-1",
+            "rich-text#modal-content7--grid-1-1",
+            "rich-text#modal-content8--grid-1-1",
+            "rich-text#modal-content9--grid-1-1",
+            "rich-text#modal-content10--grid-1-1"
+        ]
+      },
+      "rich-text#modal-content--fecha--grid-1-1": {
+        "props": {
+            "blockClass":"fecha--condiciones-actividades-comerciales",
+          "text": "DIC.2021"
+        }
+      },
+      "rich-text#modal-content--titulo--grid-1-1": {
+        "props": {
+            "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+          "text": "PRENDAS AC QUE SE PUEDEN PERSONALIZAR"
+        }
+      },
+      "rich-text#modal-content--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "El servicio de personalización aplica únicamente para prendas nuevas de la línea Arturo Calle, Arturo Calle Woman, Arturo Calle Leather y Arturo Calle Kids. Las prendas deberán contar con su respectiva etiqueta y se debe presentar la factura para constatar que la prenda es nueva y es de la marca Arturo Calle. A continuación los tipos de personalización y las prendas en las que se puede realizar cada procedimiento:"
+        }
+      },
+      "rich-text#modal-content2--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC:"
+        }
+      },
+      "rich-text#modal-content3--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.Camisa Formal, Business y Casual \n \n 2.Bermudas \n \n 3.Chaqueta de algodón \n \n 4.Polo \n \n 5.Camiseta \n \n 6.Buzo"
+        }
+      },
+      "rich-text#modal-content4--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC Woman:"
+        }
+      },
+      "rich-text#modal-content5--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.camiseta \n \n 2.blusa \n \n 3.buzo \n \n 4.chaqueta \n \n 5.saco \n \n 6.jean \n \n 7.jogger \n \n 8.pantalón \n \n 9.falda \n \n 10.short"
+        }
+      },
+      "rich-text#modal-content6--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC Kids:"
+        }
+      },
+      "rich-text#modal-content7--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.Chaquetas \n \n 2.Buzos \n \n 3.Camisetas \n \n 4.Polos \n \n 5.Bermudas \n \n 6.Jeans \n \n 7.Pantalones"
+        }
+      },
+      "rich-text#modal-content8--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "ESTAMPACIÓN APLICA PARA:"
+        }
+      },
+      "rich-text#modal-content9--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC:"
+        }
+      },
+      "rich-text#modal-content10--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.camiseta \n \n 2.polo \n \n 3.camisa casual y de jean 100% algodón \n \n 4.chaqueta 100% algodón \n \n 5.jean \n \n 6.chaqueta de jean \n \n 7.Buzo"
+        }
+      },
+      "rich-text#modal-content11--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC Kids:"
+        }
+      },
+      "rich-text#modal-content12--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.Buzos \n \n 2.Camisetas \n \n 3.Polos \n \n 4.Bermudas \n \n 5.Jeans \n \n 6.Pantalones"
+        }
+      },
+      "rich-text#modal-content13--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC Woman:"
+        }
+      },
+      "rich-text#modal-content14--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.t-shirt \n \n 2.buzo \n \n 3.camisa \n \n 4.jean \n \n 5.chaqueta \n \n 6.jogger \n \n 7.falda denim"
+        }
+      },
+      "rich-text#modal-content15--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "LASER APLICA PARA:"
+        }
+      },
+      "rich-text#modal-content16--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC:"
+        }
+      },
+      "rich-text#modal-content17--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.Jean \n \n 2.Chaqueta Jean "
+        }
+      },
+      "rich-text#modal-content18--grid-1-1": {
+        "props": {
+            "blockClass":"subtitulo--condiciones-actividades-comerciales",
+          "text": "AC Leather:"
+        }
+      },
+      "rich-text#modal-content19--grid-1-1": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "1.billeteras \n \n 2.cinturones \n \n 3.maletines complementarios \n \n 4.manillas \n \n 5.portadocumentos \n \n 6.agendas \n \n 7.estuches de gafas."
+        }
+      },
+      /*--------------------------------------final grid 1-------------------------------- */
+
+      /*--------------------------------------------------------------------------*/
+      /*                           grid 2                                         */
+      /*--------------------------------------------------------------------------*/
+      "modal-trigger#grid-1-2":{
+        "children": [
+            "flex-layout.col#grid-1-2",
+            "modal-layout#grid-1-2"
+          ]
+      },
+      "flex-layout.col#grid-1-2":{
+          "children":[
+            "image#condiciones-actividades-comerciales1",
+            "rich-text#grid-1-2--fecha",
+            "rich-text#grid-1-2--titulo",
+            "rich-text#grid-1-2--ver--mas"
+          ]
+      },
+      "rich-text#grid-1-2--fecha": {
+        "props": {
+            "blockClass":"text-grid-fecha",
+          "text": "JUL.2021"
+        }
+      },
+      "rich-text#grid-1-2--titulo": {
+        "props": {
+            "blockClass":"text-grid-titulo",
+          "text": "ITAÚ FREEDOM"
+        }
+      },
+      "rich-text#grid-1-2--ver--mas": {
+        "props": {
+            "blockClass":"text-grid--ver--mas",
+          "text": "Ver más >"
+        }
+      },
+      
+      "image#condiciones-actividades-comerciales2":{
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales1.webp"
+          }
+      },
+      "modal-layout#grid-1-2": {
+        "props":{
+            "scroll":"body",
+            "blockClass":"modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-1-4",
+            "rich-text#modal-content--titulo--grid-1-4",
+          "rich-text#modal-content--grid-1-4"
+        ]
+      },
+      "rich-text#modal-content--fecha--grid-1-2": {
+        "props": {
+            "blockClass":"fecha--condiciones-actividades-comerciales",
+          "text": "JUL.2021"
+        }
+      },
+      "rich-text#modal-content--titulo--grid-1-2": {
+        "props": {
+            "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+          "text": "ITAÚ FREEDOM"
+        }
+      },
+      "rich-text#modal-content--grid-1-2": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "30% DE DESCUENTO CON TARJETAS DE CRÉDITO DEL BANCO ITAÚ EN LAS TIENDAS FREEDOM \n \n “Descuento del 30% en los puntos de venta FREEDOM. Válido para las compras realizadas los días MARTES de enero (4,11,18,25) de 2022. El descuento aplica para compras cuyo precio de venta antes de descuentos no supere la suma de $500.000. Aplicable usando como medio de pago las tarjetas de crédito Visa y MasterCard del Banco ITAÚ. El descuento se calcula sobre el valor total de la compra antes de IVA. El descuento otorgado hace parte del Convenio Marco de Alianza Comercial suscrito con ITAÚ CORPBANCA COLOMBIA S.A. \n \n CONDICIONES GENERALES \n \n Aplica exclusivamente para las compras cuyo valor total del producto antes de descuento sea menor o igual a $500.000. El valor total de la factura debe ser menor o igual a $500.000. La atención en las Tiendas Físicas y el canal de ventas de WhatsApp, estará sujeta a las disposiciones adoptadas por el Gobierno nacional y local, con ocasión de la emergencia sanita \n \n No aplica para la Tarjetas débito con funcionalidad de Tarjeta de crédito. \n \n No aplica para tarjetas de crédito empresariales o de soluciones comerciales, ni marca propia. \n \n No aplica para la compra de certificados de regalo, ni productos de ventas y negocios corporativos, ni para tiendas Outlet. \n \n Válido solo para compras no para cambios. \n \n Los productos y servicios financieros son ofrecidos por ITAÚ CORPBANCA COLOMBIA S.A. \n \n No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra."
+        }
+      },
+      /*--------------------------------------final grid 2-------------------------------- */
+
+
+      /*--------------------------------------------------------------------------*/
+      /*                           grid 3                                         */
+      /*--------------------------------------------------------------------------*/
+      "modal-trigger#grid-1-3":{
+        "children": [
+            "flex-layout.col#grid-1-3",
+            "modal-layout#grid-1-3"
+          ]
+      },
+      "flex-layout.col#grid-1-3":{
+          "children":[
+            "image#condiciones-actividades-comerciales3",
+            "rich-text#grid-1-3--fecha",
+            "rich-text#grid-1-3--titulo",
+            "rich-text#grid-1-3--ver--mas"
+          ]
+      },
+      "rich-text#grid-1-3--fecha": {
+        "props": {
+            "blockClass":"text-grid-fecha",
+          "text": "ABR.2021"
+        }
+      },
+      "rich-text#grid-1-3--titulo": {
+        "props": {
+            "blockClass":"text-grid-titulo",
+          "text": "SODEXO"
+        }
+      },
+      "rich-text#grid-1-3--ver--mas": {
+        "props": {
+            "blockClass":"text-grid--ver--mas",
+          "text": "Ver más >"
+        }
+      },
+      
+      "image#condiciones-actividades-comerciales3":{
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales2.webp"
+          }
+      },
+      "modal-layout#grid-1-3": {
+        "props":{
+            "scroll":"body ",
+            "blockClass":"modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-1-3",
+            "rich-text#modal-content--titulo--grid-1-3",
+          "rich-text#modal-content--grid-1-3"
+        ]
+      },
+      "rich-text#modal-content--fecha--grid-1-3": {
+        "props": {
+            "blockClass":"fecha--condiciones-actividades-comerciales",
+          "text": "ABR.2021"
+        }
+      },
+      "rich-text#modal-content--titulo--grid-1-3": {
+        "props": {
+            "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+          "text": "SODEXO"
+        }
+      },
+      "rich-text#modal-content--grid-1-3": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "Para redimir el Bono Sodexo, se deben tener en cuenta las siguientes condiciones: \n \n CONDICIONES BONO SODEXO \n \n 1. El BONO SODEXO se emite al portador, por lo tanto, Comercializadora Arturo Calle S.A.S. no será responsable por verificar la persona que redime el Bono. \n \n 2. Solo aplica para adquirir bienes comercializados por Comercializadora Arturo Calle S.A.S., exclusivamente en sus tiendas físicas a nivel nacional. \n \n 3. Solo aplica para tiendas físicas de la marca Arturo Calle. \n \n 4. No aplica para compras a través de la tienda virtual www.arturocalle.com. ni a través del canal de ventas de WhatsApp. \n \n 5. La perdida y/o la no redención del bono, no atribuye obligación alguna para Comercializadora Arturo Calle S.A.S. \n \n 6. El bono puede ser redimido de forma total o parcial en la vigencia. \n \n 7. No reembolsable en dinero. \n \n 8. No es válido para la compra de certificados de regalo ni en tiendas Outlet, ni productos de ventas y negocios corporativos. \n \n 9. Valido solo para compras no para cambios."
+        }
+      },
+      /*--------------------------------------final grid 3-------------------------------- */
+
+
+      /*--------------------------------------------------------------------------*/
+      /*                           grid 4                                         */
+      /*--------------------------------------------------------------------------*/
+      "modal-trigger#grid-1-4":{
+        "children": [
+            "flex-layout.col#grid-1-4",
+            "modal-layout#grid-1-4"
+          ]
+      },
+      "flex-layout.col#grid-1-4":{
+          "children":[
+            "image#condiciones-actividades-comerciales4",
+            "rich-text#grid-1-4--fecha",
+            "rich-text#grid-1-4--titulo",
+            "rich-text#grid-1-4--ver--mas"
+          ]
+      },
+      "rich-text#grid-1-4--fecha": {
+        "props": {
+            "blockClass":"text-grid-fecha",
+          "text": "DIC.2021"
+        }
+      },
+      "rich-text#grid-1-4--titulo": {
+        "props": {
+            "blockClass":"text-grid-titulo",
+          "text": "LEGALES PUNTOS DE DESCUENTO TIENDAS FISICAS"
+        }
+      },
+      "rich-text#grid-1-4--ver--mas": {
+        "props": {
+            "blockClass":"text-grid--ver--mas",
+          "text": "Ver más >"
+        }
+      },
+      
+      "image#condiciones-actividades-comerciales4":{
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales1.webp"
+          }
+      },
+      "modal-layout#grid-1-4": {
+        "props":{
+            "scroll":"body",
+            "blockClass":"modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-1-4",
+            "rich-text#modal-content--titulo--grid-1-4",
+          "rich-text#modal-content--grid-1-4"
+        ]
+      },
+      "modal-header":{
+          "props":{
+              "blockClass":"close--button--modal",
+              "iconCloseSize":"25"
+          }
+      },
+      "rich-text#modal-content--fecha--grid-1-4": {
+        "props": {
+            "blockClass":"fecha--condiciones-actividades-comerciales",
+          "text": "DIC.2021"
+        }
+      },
+      "rich-text#modal-content--titulo--grid-1-4": {
+        "props": {
+            "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+          "text": "LEGALES PUNTOS DE DESCUENTO TIENDAS FISICAS"
+        }
+      },
+      "rich-text#modal-content--grid-1-4": {
+        "props": {
+            "blockClass":"contenido--condiciones-actividades-comerciales",
+          "text": "LEGALES PUNTOS DE DESCUENTO TIENDAS FISICAS \n \n AVISO LEGAL PRODUCTOS CON 15% DE DESCUENTO – STICKER AZUL \n \n “Descuento del 15% para los productos identificados con sticker azul. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 15% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 25% DE DESCUENTO – STICKER ROJO \n \n “Descuento del 25% para los productos identificados con sticker rojo. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, niventas y negocios corporativos. Los productos comprados con el 25% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 30% DE DESCUENTO – STICKER ROJO \n \n “Descuento del 30% para los productos identificados con sticker amarillo. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 30% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 35% DE DESCUENTO – STICKER NARANJA \n \n “Descuento del 35% para los productos identificados con sticker naranja. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. \n \n Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 35% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 50% DE DESCUENTO – STICKER NEGRO \n \n “Descuento del 50% para los productos identificados con sticker negro. El descuentose calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 50% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL INCLUYENDO TODOS LOS PORCENTAJES DE DESCUENTOS \n \n “El porcentaje de descuento aplicará según el color del sticker con el que se encuentre identificado el producto de la siguiente manera: 1. Descuento del 15% para los productos identificados con sticker azul, 2. Descuento del 25% para los productos identificados con sticker rojo, 3. Descuento del 30% para los productos identificados con sticker amarillo 4. Descuento del 35% para los productos identificados con sticker naranja y 5. Descuento del 50% para los productos identificados con sticker negro. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022 en este punto de venta y para los productos indicados. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con los descuentos del 15%, 25%, 30%, 35% y 50% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía.”"
+        }
+      }
+      /*--------------------------------------final grid 1-------------------------------- */
+      
+
+}

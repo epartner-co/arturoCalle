@@ -190,7 +190,7 @@
       "width": "290"
     }
   },
-    // header version mobile
+  // header version mobile
   "header-layout.mobile": {
     "children": ["sticky-layout#1-mobile"]
   },

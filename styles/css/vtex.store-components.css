@@ -26,6 +26,22 @@
   height: 210px;
 }
 
+/*-----------------------------------------------------------*/
+/*info card modificado*/ /*se puede quitar de ser un problema*/
+.infoCardContainer--info-card--down {
+  width: 95%;
+  margin: 0 ;
+  margin-top: 35px;
+  margin-left: 5%;
+  height: 226px;
+}
+
+.infoCardContainer--info-card--down :global(.vtex-button) {
+  display: none;
+}
+/*-----------------------------------------------------------*/
+
+
 .infoCardContainer--info-card-shoes-left {
   width: 100%;
   margin: 0 ;
@@ -556,6 +572,20 @@ input#downshift-1-input {
 .imageElement--Descripcion--producto--suma--imag{
   margin-top: 8px;
   margin-left: 58px;
+}
+
+/*linea etica*/
+.imageElement--linea--etica--imagen--portada{
+  border: 1px solid #d7d4cf;
+  padding: 6px;
+  margin-top: -18px;
+}
+
+/*historia*/
+.imageElement--historia--imagen--portada{
+  border: 1px solid #d7d4cf;
+  padding: 6px;
+  margin-top: 10px;
 }
 /*-----------------------------------*/
 
