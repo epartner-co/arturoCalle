@@ -1,0 +1,50 @@
+{
+    "store.custom#login": {
+        "blocks": [
+            "flex-layout.row#informacion--login"
+        ]
+      },
+      "flex-layout.row#informacion--login":{
+          "props":{
+              "blockClass":"informacion--login"
+          },
+          "children":[
+            "flex-layout.col#informacion--login--primera--parte"
+          ]
+      },
+      "flex-layout.col#informacion--login--primera--parte":{
+          "props":{
+            "blockClass":"informacion--login--primera--parte"
+          },
+          "children":[
+            "image#login",
+            "modal-trigger#example"
+          ]
+      },
+      "image#login":{
+        "props": {
+            "src": "assets/desk/static-pages/login.webp"
+          }
+      },
+      "modal-trigger#example": {
+        "props":{
+          "trigger":"event",
+          "customPixelEventName":"pageView"
+        },
+        "children": [
+          "modal-layout#example"
+        ]
+      },
+      "modal-layout#example": {
+        "children": [
+          "login-content#modal__login"
+        ]
+      },
+      "login-content#modal__login": {
+        "props": {
+          "isInitialScreenOptionOnly": false,
+          "defaultOption": 1,
+          "showPasswordVerificationIntoTooltip": true
+        }
+      }
+}

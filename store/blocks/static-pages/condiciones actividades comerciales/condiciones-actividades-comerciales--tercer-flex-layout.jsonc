@@ -1,0 +1,346 @@
+{
+    "flex-layout.row#informacion--condiciones-actividades-comerciales3":{
+        "props":{
+            "blockClass":"informacion--condiciones-actividades-comerciales"
+        },
+        "children":[
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--3-1",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--3-2",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--3-3",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--3-4"
+        ]
+    },
+    /*contenedores de los grid---inicio*/
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--3-1":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-3-1"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--3-2":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-3-2"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--3-3":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-3-3"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--3-4":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-3-4"
+        ]
+    },
+    /*contenedores de los grid---final*/
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 1                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-3-1":{
+      "children": [
+          "flex-layout.col#grid-3-1",
+          "modal-layout#grid-3-1"
+        ]
+    },
+    "flex-layout.col#grid-3-1":{
+        "children":[
+          "image#condiciones-actividades-comerciales--3-1",
+          "rich-text#grid-3-1--fecha",
+          "rich-text#grid-3-1--titulo",
+          "rich-text#grid-3-1--ver--mas"
+        ]
+    },
+    "rich-text#grid-3-1--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "NOV.2020"
+      }
+    },
+    "rich-text#grid-3-1--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN CONFORT"
+      }
+    },
+    "rich-text#grid-3-1--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--3-1":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales6.webp"
+        }
+    },
+    "modal-layout#grid-3-1": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-3-1",
+          "rich-text#modal-content--titulo--grid-3-1",
+          "rich-text#modal-content--grid-3-1"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-3-1": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "NOV.2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-3-1": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text":"COLECCIÓN CONFORT"
+
+      }
+    },
+    "rich-text#modal-content--grid-3-1": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "“Todos los derechos reservados. Productos sujetos a disponibilidad de referencias e inventario. Las características y recomendaciones del producto se encuentran relacionadas en la etiqueta.”"
+      }
+    },
+    /*--------------------------------------final grid 1-------------------------------- */
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 2                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-3-2":{
+      "children": [
+          "flex-layout.col#grid-3-2",
+          "modal-layout#grid-3-2"
+        ]
+    },
+    "flex-layout.col#grid-3-2":{
+        "children":[
+            "image#condiciones-actividades-comerciales--3-2",
+          "rich-text#grid-3-2--fecha",
+          "rich-text#grid-3-2--titulo",
+          "rich-text#grid-3-2--ver--mas"
+        ]
+    },
+    "rich-text#grid-3-2--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "ENE.2022"
+      }
+    },
+    "rich-text#grid-3-2--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "PRECIOS DE LIQUIDACIÓN"
+      }
+    },
+    "rich-text#grid-3-2--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--3-2":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales1.webp"
+        }
+    },
+    "modal-layout#grid-3-2": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-3-2",
+          "rich-text#modal-content--titulo--grid-3-2",
+        "rich-text#modal-content--grid-3-2"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-3-2": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "ENE.2022"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-3-2": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "PRECIOS DE LIQUIDACIÓN"
+      }
+    },
+    "rich-text#modal-content--grid-3-2": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "“Imágenes de referencia. Precios válidos únicamente para los productos identificados con sticker de color amarillo en el cual se indicará el PRECIO DE LIQUIDACIÓN. El valor podrá cambiar según la referencia y características del producto. Productos sujetos a disponibilidad referencias e inventario y canal de comercialización. Válido del 1 de enero hasta el 30 de junio de 2022, exclusivamente en la tienda Outlet de Arturo Calle y a través del canal de ventas de WhatsApp de la Tienda. No aplica en otras tiendas ni canales. No aplica con otros descuentos y promociones adicionales vigentes al momento de la compra. Los productos adquiridos con PRECIO EN LIQUIDACIÓN NO tienen cambio, sin perjuicio del derecho a la efectividad de la garantía. Para las compras realizadas por el canal de WhatsApp, se deberán revisar los términos y condiciones ver en: https://bit.ly/ventaswpAc"
+      }
+    },
+    /*--------------------------------------final grid 2-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 3                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-3-3":{
+      "children": [
+          "flex-layout.col#grid-3-3",
+          "modal-layout#grid-3-3"
+        ]
+    },
+    "flex-layout.col#grid-3-3":{
+        "children":[
+            "image#condiciones-actividades-comerciales--3-3",
+          "rich-text#grid-3-3--fecha",
+          "rich-text#grid-3-3--titulo",
+          "rich-text#grid-3-3--ver--mas"
+        ]
+    },
+    "rich-text#grid-3-3--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "MAR. 2022"
+      }
+    },
+    "rich-text#grid-3-3--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "PRODUCTOS EXCLUSIVOS ONLINE"
+      }
+    },
+    "rich-text#grid-3-3--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--3-3":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales7.webp"
+        }
+    },
+    "modal-layout#grid-3-3": {
+      "props":{
+          "scroll":"body ",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-3-3",
+          "rich-text#modal-content--titulo--grid-3-3",
+        "rich-text#modal-content--grid-3-3"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-3-3": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "MAR. 2022"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-3-3": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "PRODUCTOS EXCLUSIVOS ONLINE"
+      }
+    },
+    "rich-text#modal-content--grid-3-3": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "PRODUCTOS EXCLUSIVOS TEMPORALMENTE EN WWW.ARTUROCALLE.COM \n \n Productos de lanzamiento de la línea Freedom y Arturo Calle KIDS, los cuales de manera temporal sólo podrán ser adquiridos exclusivamente en la tienda virtual www.arturocalle.com. Válido hasta el 31 de mayo de 2022. Una vez finalizada esta vigencia, los productos estarán disponibles en las tiendas físicas Arturo Calle y demás canales de comercialización. Productos sujetos a disponibilidad de referencia e inventario."
+      }
+    },
+    /*--------------------------------------final grid 3-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 4                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-3-4":{
+      "children": [
+          "flex-layout.col#grid-3-4",
+          "modal-layout#grid-3-4"
+        ]
+    },
+    "flex-layout.col#grid-3-4":{
+        "children":[
+            "image#condiciones-actividades-comerciales--3-4",
+          "rich-text#grid-3-4--fecha",
+          "rich-text#grid-3-4--titulo",
+          "rich-text#grid-3-4--ver--mas"
+        ]
+    },
+    "rich-text#grid-3-4--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "SEP. 2020"
+      }
+    },
+    "rich-text#grid-3-4--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "SERVICIO DE ENTREGA EXPRESS"
+      }
+    },
+    "rich-text#grid-3-4--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--3-4":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales8.webp"
+        }
+    },
+    "modal-layout#grid-3-4": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-3-4",
+          "rich-text#modal-content--titulo--grid-3-4",
+        "rich-text#modal-content--grid-3-4"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-3-4": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "SEP. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-3-4": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "SERVICIO DE ENTREGA EXPRESS"
+      }
+    },
+    "rich-text#modal-content--grid-3-4": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Al momento de seleccionar el método de envío dentro de la plataforma, al cliente se le mostrarán dos (2) opciones de envío: la opción de envío regular arriba descrito y la opción de Entrega Express. \n \n Este servicio de Entrega Express es prestado por una empresa transportadora independiente y estará habilitado exclusivamente para entregas dentro de la ciudad de Bogotá D.C. \n \n Si el cliente decide seleccionar el método de Entrega Express, se tendrán los siguientes tiempos estimados para la entrega de su pedido: \n \n -Si el pedido es realizado y confirmado entre las 00:00 a.m. y 11:30 a.m.: tendrá un tiempo estimado de entrega para el mismo día hábil. \n \n -Si el pedido es realizado y confirmado entre las 11:31 a.m. y las 11:59 p.m.: tendrá un tiempo estimado de entrega para el siguiente día hábil. \n \n La opción de acceder al servicio de Entrega Express, estará activa en nuestra plataforma de compras virtuales, desde el primer día hábil de la semana a las 00:00 a.m. hasta las 11:30 a.m. del sábado o último día hábil de la semana, según aplique. \n \n Conforme a lo anterior, no estará habilitada la opción de Entrega Express dentro de nuestra plataforma virtual para los días sábados desde las 11:31 am, domingos, así como tampoco los días festivos. \n \n El servicio de Entrega Express no aplica para el medio de pago Baloto. \n \n El servicio de Entrega Express tiene un costo que es informado al momento que el mismo cliente está seleccionando la opción de envío de su preferencia dentro de nuestra plataforma virtual."
+      }
+    }
+    /*--------------------------------------final grid 4-------------------------------- */
+}

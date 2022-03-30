@@ -1,0 +1,354 @@
+{
+    "flex-layout.row#informacion--condiciones-actividades-comerciales6":{
+        "props":{
+            "blockClass":"informacion--condiciones-actividades-comerciales"
+        },
+        "children":[
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--6-1",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--6-2",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--6-3",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--6-4"
+        ]
+    },
+    /*contenedores de los grid---inicio*/
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--6-1":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-6-1"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--6-2":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-6-2"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--6-3":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-6-3"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--6-4":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-6-4"
+        ]
+    },
+    /*contenedores de los grid---final*/
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 1                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-6-1":{
+      "children": [
+          "flex-layout.col#grid-6-1",
+          "modal-layout#grid-6-1"
+        ]
+    },
+    "flex-layout.col#grid-6-1":{
+        "children":[
+          "image#condiciones-actividades-comerciales--6-1",
+          "rich-text#grid-6-1--fecha",
+          "rich-text#grid-6-1--titulo",
+          "rich-text#grid-6-1--ver--mas"
+        ]
+    },
+    "rich-text#grid-6-1--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "MAY. 2020"
+      }
+    },
+    "rich-text#grid-6-1--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN ANTIFLUIDOS"
+      }
+    },
+    "rich-text#grid-6-1--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--6-1":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales17.webp"
+        }
+    },
+    "modal-layout#grid-6-1": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-6-1",
+          "rich-text#modal-content--titulo--grid-6-1",
+          "rich-text#modal-content--grid-6-1",
+          //"flex-layout.row#table--grid-6-1",
+          "rich-text#modal-content2--grid-6-1"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-6-1": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "MAY. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-6-1": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text":"COLECCIÓN ANTIFLUIDOS"
+
+      }
+    },
+    "rich-text#modal-content--grid-6-1": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "“Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario.\n \n Nuestra Colección Antifluidos cuenta con una combinación de tecnología y diseño que ofrece seguridad, confort y elegancia al ser confeccionados con textiles que brindan resistencia, repelencia a líquidos, secado rápido, color duradero y transpirabilidad. Permiten ser lavados de manera habitual de acuerdo con la frecuencia de uso, condición que es aconsejable para desacelerar la propagación de virus. El uso de esta prenda es un elemento de protección que minimiza el riesgo de contagio. Este producto está elaborado con dimensiones para el uso de adultos, para el uso de los niños se deberá adquirir un producto de la línea KIDS. Las propiedades Antifluidos de los productos, están brindada por una película que conservará tal característica durante un número máximo de lavadas, de acuerdo con la referencia del producto, de la siguiente manera:"
+      }
+    },
+    "rich-text#modal-content2--grid-6-1": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Previo al uso de los productos Antifluidos, El usuario debe revisar las características, e instrucciones de uso y cuidado para el adecuado manejo del producto.”."
+      }
+    },
+    /*--------------------------------------final grid 1-------------------------------- */
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 2                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-6-2":{
+      "children": [
+          "flex-layout.col#grid-6-2",
+          "modal-layout#grid-6-2"
+        ]
+    },
+    "flex-layout.col#grid-6-2":{
+        "children":[
+            "image#condiciones-actividades-comerciales--6-2",
+          "rich-text#grid-6-2--fecha",
+          "rich-text#grid-6-2--titulo",
+          "rich-text#grid-6-2--ver--mas"
+        ]
+    },
+    "rich-text#grid-6-2--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "JUN. 2020"
+      }
+    },
+    "rich-text#grid-6-2--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN ANTIFLUIDOS \n AC KIDS"
+      }
+    },
+    "rich-text#grid-6-2--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--6-2":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales18.webp"
+        }
+    },
+    "modal-layout#grid-6-2": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-6-2",
+          "rich-text#modal-content--titulo--grid-6-2",
+        "rich-text#modal-content--grid-6-2"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-6-2": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "JUN. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-6-2": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "COLECCIÓN ANTIFLUIDOS AC KIDS"
+      }
+    },
+    "rich-text#modal-content--grid-6-2": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "“Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. Nuestra Colección Antifluidos cuenta con una combinación de tecnología y diseño que ofrece seguridad, confort y elegancia al ser confeccionados con textiles que brindan resistencia, repelencia a líquidos, secado rápido, color duradero y transpirabilidad. Permiten ser lavados de manera habitual de acuerdo con la frecuencia de uso, condición que es aconsejable para desacelerar la propagación de virus. El uso de esta prenda es un elemento de protección que minimiza el riesgo de contagio. Este producto está elaborado con dimensiones para el uso de niños, para el uso de los adultos se deberá adquirir un producto de la línea adultos. Teniendo en cuenta que este producto es para uso de los niños, su uso y manipulación debe efectuarse bajo la supervisión y asistencia de un adulto responsable. Las propiedades Antifluidos de los productos, están brindada por una película que conservará tal característica durante un número máximo de lavadas, de acuerdo con la referencia del producto, de la siguiente manera: \n \n Jogger \n \n Genérico: 30009317 \n \n Número de lavadas: 50 \n \n T-shirt \n \n Genérico: 30009315 \n \n Número de lavadas: 50 \n \n Chaqueta \n \n Genérico: 30009314 \n \n Número de lavadas: 50 \n \n Buso \n \n Genérico: 30009313 \n \n Número de lavadas: 50 \n \n Previo al uso de los productos Antifluidos, El usuario debe revisar las características, e instrucciones de uso y cuidado para el adecuado manejo del producto."
+      }
+    },
+    /*--------------------------------------final grid 2-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 3                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-6-3":{
+      "children": [
+          "flex-layout.col#grid-6-3",
+          "modal-layout#grid-6-3"
+        ]
+    },
+    "flex-layout.col#grid-6-3":{
+        "children":[
+            "image#condiciones-actividades-comerciales--6-3",
+          "rich-text#grid-6-3--fecha",
+          "rich-text#grid-6-3--titulo",
+          "rich-text#grid-6-3--ver--mas"
+        ]
+    },
+    "rich-text#grid-6-3--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "MAY. 2020"
+      }
+    },
+    "rich-text#grid-6-3--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "TAPABOCAS AC KIDS"
+      }
+    },
+    "rich-text#grid-6-3--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--6-3":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales19.webp"
+        }
+    },
+    "modal-layout#grid-6-3": {
+      "props":{
+          "scroll":"body ",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-6-3",
+          "rich-text#modal-content--titulo--grid-6-3",
+        "rich-text#modal-content--grid-6-3"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-6-3": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "MAY. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-6-3": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "TAPABOCAS AC KIDS"
+      }
+    },
+    "rich-text#modal-content--grid-6-3": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "“Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. El precio del producto puede variar de acuerdo con la referencia y características del producto. Los packs de 3 y 5 unidades contienen tapabocas con diseños ya definidos, según se encuentren dispuestos en cada empaque. Por seguridad el producto no puede ser manipulado fuera del empaque salvo intención de compra en firme. Una vez entregado el producto y finalizada la compra este no tendrá cambio. Nuestros Tapabocas están diseñados en tela antifluido y con filtro UV que generan seguridad, comodidad y resistencia, fabricados con dos capas de tela que permiten ser lavados de manera habitual de acuerdo con la frecuencia de uso, aconsejable para desacelerar la propagación del virus. Sus propiedades se conservan hasta por 50 lavadas. Este Tapabocas no es mascarilla quirúrgica, ni respirador N95. Este tipo de tapabocas de tela no deben ser usados por niños menores de dos (2) años ni personas con problemas respiratorios que les impida usarlos. Teniendo en cuenta que este producto es para uso de los niños, su manipulación debe efectuarse bajo la supervisión y asistencia de un adulto responsable. \n \n Previo al uso y manipulación del Tapabocas KIDS, se deberán revisar las Instrucciones de Cuidado y se deberán atender las recomendaciones seguridad y uso, teniendo en cuenta que el uso incorrecto no solo puede provocar el daño del Tapabocas sino lesiones a quien lo manipula y usa.”"
+      }
+    },
+    /*--------------------------------------final grid 3-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 4                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-6-4":{
+      "children": [
+          "flex-layout.col#grid-6-4",
+          "modal-layout#grid-6-4"
+        ]
+    },
+    "flex-layout.col#grid-6-4":{
+        "children":[
+            "image#condiciones-actividades-comerciales--6-4",
+          "rich-text#grid-6-4--fecha",
+          "rich-text#grid-6-4--titulo",
+          "rich-text#grid-6-4--ver--mas"
+        ]
+    },
+    "rich-text#grid-6-4--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "MAY. 2020"
+      }
+    },
+    "rich-text#grid-6-4--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "TAPABOCAS ARTURO \n CALLE"
+      }
+    },
+    "rich-text#grid-6-4--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--6-4":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales20.webp"
+        }
+    },
+    "modal-layout#grid-6-4": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-6-4",
+          "rich-text#modal-content--titulo--grid-6-4",
+        "rich-text#modal-content--grid-6-4"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-6-4": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "MAY. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-6-4": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "TAPABOCAS ARTURO CALLE"
+      }
+    },
+    "rich-text#modal-content--grid-6-4": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "LEGAL TAPABOCAS ADULTOS \n \n “Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. El precio del producto puede variar de acuerdo con la referencia y características del producto. Los packs contienen tapabocas con diseños ya definidos, según se encuentren dispuestos en cada empaque. Por seguridad el producto no puede ser manipulado fuera del empaque salvo intención de compra en firme. Una vez entregado el producto y finalizada la compra este no tendrá cambio. nuestros Tapabocas están diseñados y fabricados con la mejor tecnología para que generen seguridad, comodidad y resistencia. \n \n Contamos con las siguientes referencias de Tapabocas: \n \n Tapabocas Tela \n \n • Tapabocas con clip nasal y cordón ajustable: Hechos con tela antifluido y con filtro UV, hechos con tela 100% Poliéster. Sus propiedades se conservan hasta por 50 lavadas. \n \n • Tapabocas con clip nasal hechos con tela con acabados antifluido: Hechos con tela con acabado antifluido. Sus propiedades se conservan hasta por 15 lavadas. \n \n • Tapabocas 3 Pliegues con clip nasal hechos con tela con acabados antifluido: Hechos con tela con acabado antifluido. Sus propiedades se conservan hasta por 15 lavadas. \n \n • Tapabocas malla 3D con clip nasal y con cierre adhesivo: Hechos con tela antifluido y con filtro UV, hechos con tela 100% Poliéster. Sus propiedades se conservan hasta por 50 lavadas. \n \n • Tapabocas malla 3D con clip nasal y cordón ajustable: Hechos con tela antifluido y con filtro UV, hechos con tela 100% Poliéster. Sus propiedades se conservan hasta por 50 lavadas. \n \n • Tapabocas con clip nasal y cordón ajustable hechos con tela Denim Índigo: Hechos con tela antifluido. Sus propiedades se conservan hasta por 40 lavadas. Tapabocas Cuero \n \n • Tapabocas tipo mascarilla cordón ajustable 100% cuero. 5 filtros: Hechos en 100% cuero con 5 filtros intercambiables. Los filtros son antifluido termosellados de 2 capas de tela 100% poliéster. Las propiedades de cada filtro se conservan hasta por 50 lavadas (Los filtros se pueden adquirir por separado). \n \n El uso de nuestros Tapabocas es aconsejable para desacelerar la propagación del virus. Estos Tapabocas no son mascarilla quirúrgica, ni respirador N95. Este tipo de tapabocas de tela no deben ser usados por niños menores de dos (2) años ni personas con problemas respiratorios que les impida usarlos. Este producto está elaborado con dimensiones para el uso de adultos, para el uso de los niños se deberá adquirir un tapabocas KIDS. \n \n Previo al uso y manipulación del Tapabocas, se deberán revisar las Instrucciones de Cuidado y se deberán atender las recomendaciones de seguridad y uso, teniendo en cuenta que el uso incorrecto no solo puede provocar el daño del Tapabocas sino lesiones a quien lo manipula y usa.”"
+      }
+    }
+    /*--------------------------------------final grid 4-------------------------------- */
+}

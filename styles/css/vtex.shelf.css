@@ -2,3 +2,22 @@
     display: none;
     visibility: hidden;
 }
+
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO HOMBRE      */
+/*------------------------------------*/
+@media screen and (max-width: 700px) {
+  .title {
+      font-size: 25px;
+      width: 75%;
+      margin: 50px auto 7px;
+      color: black;
+      font-weight: 600;
+  }
+  .container {
+      padding-bottom: 0;
+  }
+  .container--shoes {
+      padding-bottom: 0;
+  }
+}

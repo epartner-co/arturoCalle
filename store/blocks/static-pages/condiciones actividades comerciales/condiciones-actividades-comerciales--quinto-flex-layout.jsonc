@@ -1,0 +1,346 @@
+{
+    "flex-layout.row#informacion--condiciones-actividades-comerciales5":{
+        "props":{
+            "blockClass":"informacion--condiciones-actividades-comerciales"
+        },
+        "children":[
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--5-1",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--5-2",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--5-3",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--5-4"
+        ]
+    },
+    /*contenedores de los grid---inicio*/
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--5-1":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-5-1"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--5-2":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-5-2"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--5-3":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-5-3"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--5-4":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-5-4"
+        ]
+    },
+    /*contenedores de los grid---final*/
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 1                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-5-1":{
+      "children": [
+          "flex-layout.col#grid-5-1",
+          "modal-layout#grid-5-1"
+        ]
+    },
+    "flex-layout.col#grid-5-1":{
+        "children":[
+          "image#condiciones-actividades-comerciales--5-1",
+          "rich-text#grid-5-1--fecha",
+          "rich-text#grid-5-1--titulo",
+          "rich-text#grid-5-1--ver--mas"
+        ]
+    },
+    "rich-text#grid-5-1--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "OCT. 2020"
+      }
+    },
+    "rich-text#grid-5-1--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN ANTIVIRAL"
+      }
+    },
+    "rich-text#grid-5-1--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--5-1":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales13.webp"
+        }
+    },
+    "modal-layout#grid-5-1": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-5-1",
+          "rich-text#modal-content--titulo--grid-5-1",
+          "rich-text#modal-content--grid-5-1"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-5-1": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "OCT. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-5-1": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text":"COLECCIÓN ANTIVIRAL"
+
+      }
+    },
+    "rich-text#modal-content--grid-5-1": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. Aplica para las prendas identificadas con la etiqueta ANTIVIRAL. Nuestra Colección CON TECNOLOGÍA ANTIVIRAL HEIQ VIROBLOCK corresponde a prendas cuya tela ha sido tratada con Micropartículas de plata, eficaces para la reducción de virus y bacterias. Tecnología HeiQ Viroblock con efecto Antiviral y Antibacterial desarrollada por la marca Suiza HeiQ. \n \n Este tipo de prenda no sustituye los protocolos de bioseguridad, ni los elementos de protección necesarios para el cuidado personal. \n \n De acuerdo a los datos suministrados por HeiQ, basados en sus pruebas de laboratorio, la tecnología HeiQ Viroblock disminuye en un 99.99% virus y bacterias que entran en contacto con la tela, demostrando eficacia comprobada contra el SARS-CoV-2 (COVID-19). \n \n El efecto antiviral tomará 30 minutos en lograr una reducción eficaz, de acuerdo a los datos suministrados por HeiQ, basados en sus pruebas de laboratorio. \n \n Heiq Viroblock tecnología con auto desinfección y resistencia en contra de agentes patógenos. \n \n Tecnología hipoalergénica, no irrita la piel. Las características antiviral/antibacterial duran hasta 30 lavadas siguiendo instrucciones de lavado. Se recomienda no someter a temperaturas superiores a los 30º centígrados en el lavado, ni superiores a los 140º centígrados en el planchado, ya que puede causar daños irreversibles a los acabados. Previo al uso de los productos de la Colección ANTIVIRAL, se recomienda al consumidor revisar las instrucciones de uso y cuidado que son informadas para cada prenda."
+      }
+    },
+    /*--------------------------------------final grid 1-------------------------------- */
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 2                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-5-2":{
+      "children": [
+          "flex-layout.col#grid-5-2",
+          "modal-layout#grid-5-2"
+        ]
+    },
+    "flex-layout.col#grid-5-2":{
+        "children":[
+            "image#condiciones-actividades-comerciales--5-2",
+          "rich-text#grid-5-2--fecha",
+          "rich-text#grid-5-2--titulo",
+          "rich-text#grid-5-2--ver--mas"
+        ]
+    },
+    "rich-text#grid-5-2--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "JUN. 2020"
+      }
+    },
+    "rich-text#grid-5-2--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "SPRAY ANTIBACTERIAL"
+      }
+    },
+    "rich-text#grid-5-2--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--5-2":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales14.webp"
+        }
+    },
+    "modal-layout#grid-5-2": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-5-2",
+          "rich-text#modal-content--titulo--grid-5-2",
+        "rich-text#modal-content--grid-5-2"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-5-2": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "JUN. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-5-2": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "SPRAY ANTIBACTERIAL"
+      }
+    },
+    "rich-text#modal-content--grid-5-2": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. La disponibilidad de inventario puede variar de acuerdo a la ciudad, punto de venta y canal de comercialización. En caso de que este producto sea usado por los niños, su manipulación debe efectuarse bajo la supervisión y asistencia de un adulto responsable. \n \n Previo al uso y manipulación del Spray Antibacterial, se deberán revisar las Instrucciones y advertencias de Cuidado y se deberán atender las recomendaciones de seguridad y uso, teniendo en cuenta que el uso incorrecto no solo puede provocar el daño del producto sino lesiones a quien lo manipula y usa."
+      }
+    },
+    /*--------------------------------------final grid 2-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 3                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-5-3":{
+      "children": [
+          "flex-layout.col#grid-5-3",
+          "modal-layout#grid-5-3"
+        ]
+    },
+    "flex-layout.col#grid-5-3":{
+        "children":[
+            "image#condiciones-actividades-comerciales--5-3",
+          "rich-text#grid-5-3--fecha",
+          "rich-text#grid-5-3--titulo",
+          "rich-text#grid-5-3--ver--mas"
+        ]
+    },
+    "rich-text#grid-5-3--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "AGO. 2020"
+      }
+    },
+    "rich-text#grid-5-3--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN ECO"
+      }
+    },
+    "rich-text#grid-5-3--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--5-3":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales15.webp"
+        }
+    },
+    "modal-layout#grid-5-3": {
+      "props":{
+          "scroll":"body ",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-5-3",
+          "rich-text#modal-content--titulo--grid-5-3",
+        "rich-text#modal-content--grid-5-3"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-5-3": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "AGO. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-5-3": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "COLECCIÓN ECOE"
+      }
+    },
+    "rich-text#modal-content--grid-5-3": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. Aplica para las prendas identificadas con la etiqueta ECO, donde se relacionan sus características."
+      }
+    },
+    /*--------------------------------------final grid 3-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 4                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-5-4":{
+      "children": [
+          "flex-layout.col#grid-5-4",
+          "modal-layout#grid-5-4"
+        ]
+    },
+    "flex-layout.col#grid-5-4":{
+        "children":[
+            "image#condiciones-actividades-comerciales--5-4",
+          "rich-text#grid-5-4--fecha",
+          "rich-text#grid-5-4--titulo",
+          "rich-text#grid-5-4--ver--mas"
+        ]
+    },
+    "rich-text#grid-5-4--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "OCT. 2020"
+      }
+    },
+    "rich-text#grid-5-4--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN FREEDOM"
+      }
+    },
+    "rich-text#grid-5-4--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--5-4":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales16.webp"
+        }
+    },
+    "modal-layout#grid-5-4": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-5-4",
+          "rich-text#modal-content--titulo--grid-5-4",
+        "rich-text#modal-content--grid-5-4"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-5-4": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "OCT. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-5-4": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "COLECCIÓN FREEDOM"
+      }
+    },
+    "rich-text#modal-content--grid-5-4": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Todos los derechos reservados. Imágenes de referencia. Productos sujetos a disponibilidad de referencias e inventario."
+      }
+    }
+    /*--------------------------------------final grid 4-------------------------------- */
+}

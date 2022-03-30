@@ -1,0 +1,425 @@
+{
+    "flex-layout.row#table--grid-6-1":{
+        "props":{
+            "blockClass":"table--grid-6-1"
+        },
+        "children":[
+            "flex-layout.col#table--col--1",
+            "flex-layout.col#table--col--2",
+            "flex-layout.col#table--col--3"
+        ]
+    },
+    "flex-layout.col#table--col--1":{
+        "props":{
+            "blockClass":"table--col",
+            "horizontalAlign":"left"
+        },
+        "children":[
+            "rich-text#table--col-1-title",
+            "rich-text#product1--1",
+            "rich-text#product2--1",
+            "rich-text#product3--1",
+            "rich-text#product4--1",
+            "rich-text#product5--1",
+            "rich-text#product6--1",
+            "rich-text#product7--1",
+            "rich-text#product8--1",
+            "rich-text#product9--1",
+            "rich-text#product10--1",
+            "rich-text#product11--1",
+            "rich-text#product12--1",
+            "rich-text#product13--1",
+            "rich-text#product14--1",
+            "rich-text#product15--1",
+            "rich-text#product16--1",
+            "rich-text#product17--1"
+        ]
+    },
+    "flex-layout.col#table--col--2":{
+        "props":{
+            "blockClass":"table--col",
+            "horizontalAlign":"left"
+        },
+        "children":[
+            "rich-text#table--col-2-title",
+            "rich-text#product1--2",
+            "rich-text#product2--2",
+            "rich-text#product3--2",
+            "rich-text#product4--2",
+            "rich-text#product5--2",
+            "rich-text#product6--2",
+            "rich-text#product7--2",
+            "rich-text#product8--2",
+            "rich-text#product9--2",
+            "rich-text#product10--2",
+            "rich-text#product11--2",
+            "rich-text#product12--2",
+            "rich-text#product13--2",
+            "rich-text#product14--2",
+            "rich-text#product15--2",
+            "rich-text#product16--2",
+            "rich-text#product17--2"
+        ]
+    },
+    "flex-layout.col#table--col--3":{
+        "props":{
+            "blockClass":"table--col",
+            "horizontalAlign":"left"
+        },
+        "children":[
+            "rich-text#table--col-3-title",
+            "rich-text#product1--3",
+            "rich-text#product2--3",
+            "rich-text#product3--3",
+            "rich-text#product4--3",
+            "rich-text#product5--3",
+            "rich-text#product6--3",
+            "rich-text#product7--3",
+            "rich-text#product8--3",
+            "rich-text#product9--3",
+            "rich-text#product10--3",
+            "rich-text#product11--3",
+            "rich-text#product12--3",
+            "rich-text#product13--3",
+            "rich-text#product14--3",
+            "rich-text#product15--3",
+            "rich-text#product16--3",
+            "rich-text#product17--3"
+        ]
+    },
+    /*primera columna*/
+    "rich-text#table--col-1-title":{
+        "props":{
+            "blockClass":"subtitulo--condiciones-actividades-comerciales-tabla",
+            "text":"TIPO DE PRENDA"
+        }
+    },
+    "rich-text#product1--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Gabardina"
+        }
+    },
+    "rich-text#product2--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Chaqueta Rompevientos"
+        }
+    },
+    "rich-text#product3--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Chaqueta Tapabocas Removible"
+        }
+    },
+    "rich-text#product4--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Buzo con Capota y Cremallera"
+        }
+    },
+    "rich-text#product5--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Buzo con Capota tipo Hoodie"
+        }
+    },
+    "rich-text#product6--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"T-shirt Básica"
+        }
+    },
+    "rich-text#product7--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"T-shirt Estampada Manga Larga"
+        }
+    },
+    "rich-text#product8--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"T-shirt Manga Larga Cuello Henley"
+        }
+    },
+    "rich-text#product9--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Buzo Sweatshirt"
+        }
+    },
+    "rich-text#product10--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Pantalón Slim Fit Tiro Corto/Bota Justa"
+        }
+    },
+    "rich-text#product11--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Pantalón Straight Tiro Regular/Bota Recta"
+        }
+    },
+    "rich-text#product12--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"Jogger"
+        }
+    },
+    "rich-text#product13--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"DELANTAL ANTIFLUIDO CON ESTAMPADO"
+        }
+    },
+    "rich-text#product14--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"KIT CAMISA SPORT CUADROS MC"
+        }
+    },
+    "rich-text#product15--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"KIT CAMISA SPORT CUADROS ML"
+        }
+    },
+    "rich-text#product16--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"KIT CAMISA SPORT SOLO FONDO ML"
+        }
+    },
+    "rich-text#product17--1":{
+        "props":{
+            "blockClass":"producto",
+            "text":"KIT CAMISA SPORT SOLO FONDO MC"
+        }
+    },
+
+
+
+    
+
+
+    /*segunda columna*/
+    "rich-text#table--col-2-title":{
+        "props":{
+            "blockClass":"subtitulo--condiciones-actividades-comerciales-tabla",
+            "text":"REFERENCIA"
+        }
+    },
+    "rich-text#product1--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106331 - 10106332"
+        }
+    },
+    "rich-text#product2--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10094137"
+        }
+    },
+    "rich-text#product3--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106349"
+        }
+    },
+    "rich-text#product4--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106347"
+        }
+    },
+    "rich-text#product5--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106348"
+        }
+    },
+    "rich-text#product6--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106344 - 10106345"
+        }
+    },
+    "rich-text#product7--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106343"
+        }
+    },
+    "rich-text#product8--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106346"
+        }
+    },
+    "rich-text#product9--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106341"
+        }
+    },
+    "rich-text#product10--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106364 - 10106365"
+        }
+    },
+    "rich-text#product11--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106366"
+        }
+    },
+    "rich-text#product12--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106339"
+        }
+    },
+    "rich-text#product13--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106399001-10106400001-10107692001-10107693001"
+        }
+    },
+    "rich-text#product14--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106393"
+        }
+    },
+    "rich-text#product15--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10096989"
+        }
+    },
+    "rich-text#product16--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106394"
+        }
+    },
+    "rich-text#product17--2":{
+        "props":{
+            "blockClass":"producto",
+            "text":"10106398"
+        }
+    },
+
+
+    /*tercera columna*/
+    "rich-text#table--col-3-title":{
+        "props":{
+            "blockClass":"subtitulo--condiciones-actividades-comerciales-tabla",
+            "text":"#DE LAVADAS"
+        }
+    },
+    "rich-text#product1--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"50 Lavadas"
+        }
+    },
+    "rich-text#product2--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"50 Lavadas"
+        }
+    },
+    "rich-text#product3--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"50 Lavadas"
+        }
+    },
+    "rich-text#product4--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"30 Lavadas"
+        }
+    },
+    "rich-text#product5--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"30 Lavadas"
+        }
+    },
+    "rich-text#product6--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"30 Lavadas"
+        }
+    },
+    "rich-text#product7--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"20 Lavadas"
+        }
+    },
+    "rich-text#product8--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"30 Lavadas"
+        }
+    },
+    "rich-text#product9--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"15 Lavadas"
+        }
+    },
+    "rich-text#product10--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"30 Lavadas"
+        }
+    },
+    "rich-text#product11--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"30 Lavadas"
+        }
+    },
+    "rich-text#product12--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"30 Lavadas"
+        }
+    },
+    "rich-text#product13--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"50 Lavadas"
+        }
+    },
+    "rich-text#product14--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"15 Lavadas"
+        }
+    },
+    "rich-text#product15--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"15 Lavadas"
+        }
+    },
+    "rich-text#product16--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"15 Lavadas"
+        }
+    },
+    "rich-text#product17--3":{
+        "props":{
+            "blockClass":"producto",
+            "text":"15 Lavadas"
+        }
+    }
+}

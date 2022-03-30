@@ -1,0 +1,335 @@
+{
+    "flex-layout.row#informacion--condiciones-actividades-comerciales4": {
+        "props": {
+            "blockClass": "informacion--condiciones-actividades-comerciales"
+        },
+        "children": [
+            "flex-layout.col#informacion--condiciones-actividades-comerciales--4-1",
+            "flex-layout.col#informacion--condiciones-actividades-comerciales--4-2",
+            "flex-layout.col#informacion--condiciones-actividades-comerciales--4-3",
+            "flex-layout.col#informacion--condiciones-actividades-comerciales--4-4"
+        ]
+    },
+    /*contenedores de los grid---inicio*/
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--4-1": {
+        "props": {
+            "blockClass": "grid"
+        },
+        "children": [
+            "modal-trigger#grid-4-1"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--4-2": {
+        "props": {
+            "blockClass": "grid"
+        },
+        "children": [
+            "modal-trigger#grid-4-2"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--4-3": {
+        "props": {
+            "blockClass": "grid"
+        },
+        "children": [
+            "modal-trigger#grid-4-3"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--4-4": {
+        "props": {
+            "blockClass": "grid"
+        },
+        "children": [
+            "modal-trigger#grid-4-4"
+        ]
+    },
+    /*contenedores de los grid---final*/
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 1                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-4-1": {
+        "children": [
+            "flex-layout.col#grid-4-1",
+            "modal-layout#grid-4-1"
+        ]
+    },
+    "flex-layout.col#grid-4-1": {
+        "children": [
+            "image#condiciones-actividades-comerciales--4-1",
+            "rich-text#grid-4-1--fecha",
+            "rich-text#grid-4-1--titulo",
+            "rich-text#grid-4-1--ver--mas"
+        ]
+    },
+    "rich-text#grid-4-1--fecha": {
+        "props": {
+            "blockClass": "text-grid-fecha",
+            "text": "MAY. 2020"
+        }
+    },
+    "rich-text#grid-4-1--titulo": {
+        "props": {
+            "blockClass": "text-grid-titulo",
+            "text": "VENTAS POR WHATSAPP"
+        }
+    },
+    "rich-text#grid-4-1--ver--mas": {
+        "props": {
+            "blockClass": "text-grid--ver--mas",
+            "text": "Ver más >"
+        }
+    },
+    "image#condiciones-actividades-comerciales--4-1": {
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales9.png"
+        }
+    },
+    "modal-layout#grid-4-1": {
+        "props": {
+            "scroll": "body",
+            "blockClass": "modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-4-1",
+            "rich-text#modal-content--titulo--grid-4-1",
+            "rich-text#modal-content--grid-4-1"
+        ]
+    },
+    "rich-text#modal-content--fecha--grid-4-1": {
+        "props": {
+            "blockClass": "fecha--condiciones-actividades-comerciales",
+            "text": "MAY. 2020"
+        }
+    },
+    "rich-text#modal-content--titulo--grid-4-1": {
+        "props": {
+            "blockClass": "sub--titulos1--condiciones-actividades-comerciales",
+            "text": "VENTAS POR WHATSAPP"
+        }
+    },
+    "rich-text#modal-content--grid-4-1": {
+        "props": {
+            "blockClass": "contenido--condiciones-actividades-comerciales",
+            "text": "COMPRAS REALIZADAS POR MEDIO DEL CANAL DE WHATSAPP EN LAS TIENDAS ARTURO CALLE, AC LEATHER Y AC KIDS. \n \n Las ventas por el canal de WhatsApp funcionaran de la siguiente manera: \n \n CONDICIONES GENERALES \n \n • Aplica para las compras realizadas en las tiendas de las marcas Arturo Calle, AC Leather y AC Kids. \n \n • El servicio de venta por medio del canal de WhatsApp consiste en recibir asesoría de venta desde la tienda por parte del personal de ventas, esta asesoría se realizará a través de llamada, video llamada, mensajes WhatsApp, videos, fotos, imágenes etc., Al utilizar la modalidad de compra a través de la venta WhatsApp, el cliente acepta el manejo y tratamiento de datos por parte de Comercializadora Arturo Calle SAS. \n \n • El cliente es responsable de suministrar correcta y adecuadamente la dirección de entrega de los productos. \n \n • En el servicio de venta por medio del canal de WhatsApp, también existe la posibilidad de que el cliente recoja la mercancía en las instalaciones del centro comercial y/o de la tienda de compra. \n \n • Aplica exclusivamente para compras realizadas a través del canal de ventas de WhatsApp, por medio del número único 318 349 00 00. \n \n • El servicio de venta aplica para compras realizadas de lunes a sábado en un horario de 10: 00 AM a 5: 00 PM. El horario de atención puede variar de acuerdo con las medidas adoptadas por el Gobierno nacional y local. Para conocer la forma, días, horas y tarifas de entrega, se deberán validar las modalidades de entrega descritas más adelante. \n \n • Los medios de pago disponibles para el cliente son: tarjeta de crédito, tarjeta débito, efectivo, link de pagos tarjeta crédito, link de pagos PSE, trasferencia bancaria y depósito bancario, así: \n \n ✓ El servicio de venta con medio de pago en efectivo depende de la disponibilidad de domiciliarios para el proceso de entrega de la mercancía y cobro contra entrega. \n \n ✓ El servicio de venta con medio de pago en tarjeta débito o crédito con datafono inalámbrico, depende de la disponibilidad de domiciliarios para el proceso de entrega de la mercancía y cobro contra entrega. \n \n ✓ Si el pago es realizado por medio de Transferencia Electrónica o Depósito Bancario, el pedido será enviado una vez sea confirmado el pago. \n \n ✓ El cliente también puede pagar con la modalidad Link de Pagos a través de tarjeta crédito o a través de pago PSE, los link de pago para el cliente vencerán diariamente a las 11: 59 de la noche y el pedido el será enviado una vez sea confirmado el pago. \n \n • Los pedidos se entregarán en los siguientes plazos según la MODALIDAD DE ENTREGA del domicilio: \n \n ✓ Entrega Flete Urbano máximo tres (3) días hábiles de lunes a sábado. Entregas para el área metropolitana o urbana de la misma ciudad o municipio de la tienda que hace la venta y el despacho (límite de 15 kilómetros). \n \n ✓ Entrega Fleta Nacional máximo cinco (5) días hábiles de lunes a sábado. Entregas por fuera del área metropolitana o urbana de la misma ciudad o municipio de la tienda que hace la venta y el despacho (mayor a 15 kilómetros). \n \n ✓ Entrega Urbano Express máximo cuatro (4) horas con las siguientes condiciones de servicio: ▪ Disponible en ciudades capitales principales: Bogotá, Medellín, Cali, Bucaramanga, Barranquilla, Pereira, Neiva, Ibagué y Villavicencio (consultar la disponibilidad en su ciudad con el personal de tienda) \n \n ▪ Disponible para compras entre 10: 00 A.M y 5: 00 P.M de lunes a sábados los días sábados en la ciudad de Bogotá. \n \n ▪ Disponible para compras entre 10: 00 A.M y 5: 00 P.M de lunes a viernes en las otras ciudades capitales principales donde esté disponible (consultar la disponibilidad en su ciudad con el personal de tienda) \n \n ▪ Disponible para compras entre 9: 00 A.M y 11: 00 A.M los días sábados en las demás ciudades capitales principales en las que se tiene la disponibilidad del servicio (consultar la disponibilidad en su ciudad con el personal de tienda) \n \n • Los valores del cobro del domicilio al comprador y los tiempos de entrega según la modalidad de entrega del domicilio son: \n \n ✓ Domicilio en la misma ciudad (Flete Urbano): Es aquel cuyo destino corresponde al mismo perímetro urbano de la ciudad donde se encuentra ubicada la tienda en la cual se realiza la venta y el despacho. En esta modalidad si el valor neto de la compra (valor efectivamente a cancelar) es inferior a $100.000 el domicilio tiene un costo de $4.500, si el valor neto de lacompra (valor efectivamente a cancelar) es igual o superior a $100.000 el domicilio no tiene ningún costo. \n \n ✓ Domicilio nacional (Flete Nacional): Es aquel cuyo destino corresponde a otra ciudad o municipio diferente al municipio donde se encuentra ubicada la tienda en la cual se realiza la venta y el despacho. En esta modalidad si el valor neto de la compra (valor efectivamente a cancelar) es inferior a $200.000 el domicilio tiene un costo de $9.000, si el valor neto de la compra (valor efectivamente a cancelar) es igual o superior a $200.000. El domicilio no tiene ningún costo. \n \n ✓ Domicilio express: Es aquel cuyo destino corresponde al mismo perímetro urbano de la ciudad donde se encuentra ubicada la tienda en la cual se realiza la venta y el despacho. En esta modalidad el domicilio tiene un costo de $ 9.000. (Consulte con el vendedor de la tienda el límite de kilometraje para un despacho urbano express). En las entregas express el tiempo máximo de espera del domiciliario para entregar la mercancía al llegar al lugar de entrega suministrado por el cliente es de 10 minutos. \n \n • Junto con los productos, será entregada la factura preliminar con la relación de los productos comprados. \n \n • Una vez entregados los productos y finalizada la compra, al número suministrado de WhatsApp y/o correo electrónico suministrado por el cliente, será remitida la factura final generada de acuerdo con el medio de pago usado. \n \n • Los cambios y devoluciones aplicarán para ser tramitados en las tiendas físicas, según las políticas de cambios y garantías relacionada en la factura de compra. • No aplica para compras realizadas en la tienda virtual www.arturocalle.com. \n \n • No aplica con medio de bajo bonos de regalo ni tarjetas electrónicas \n \n www.arturocalle.com. \n \n • No aplica con medio de bajo bonos de regalo ni tarjetas electrónicas"
+        }
+    },
+    /*--------------------------------------final grid 1-------------------------------- */
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 2                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-4-2": {
+        "children": [
+            "flex-layout.col#grid-4-2",
+            "modal-layout#grid-4-2"
+        ]
+    },
+    "flex-layout.col#grid-4-2": {
+        "children": [
+            "image#condiciones-actividades-comerciales--4-2",
+            "rich-text#grid-4-2--fecha",
+            "rich-text#grid-4-2--titulo",
+            "rich-text#grid-4-2--ver--mas"
+        ]
+    },
+    "rich-text#grid-4-2--fecha": {
+        "props": {
+            "blockClass": "text-grid-fecha",
+            "text": "JUN. 2021"
+        }
+    },
+    "rich-text#grid-4-2--titulo": {
+        "props": {
+            "blockClass": "text-grid-titulo",
+            "text": "NEWSLETTER"
+        }
+    },
+    "rich-text#grid-4-2--ver--mas": {
+        "props": {
+            "blockClass": "text-grid--ver--mas",
+            "text": "Ver más >"
+        }
+    },
+    "image#condiciones-actividades-comerciales--4-2": {
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales10.png"
+        }
+    },
+    "modal-layout#grid-4-2": {
+        "props": {
+            "scroll": "body",
+            "blockClass": "modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-4-2",
+            "rich-text#modal-content--titulo--grid-4-2",
+            "rich-text#modal-content--grid-4-2"
+        ]
+    },
+    "rich-text#modal-content--fecha--grid-4-2": {
+        "props": {
+            "blockClass": "fecha--condiciones-actividades-comerciales",
+            "text": "JUN. 2021"
+        }
+    },
+    "rich-text#modal-content--titulo--grid-4-2": {
+        "props": {
+            "blockClass": "sub--titulos1--condiciones-actividades-comerciales",
+            "text": "NEWSLETTER"
+        }
+    },
+    "rich-text#modal-content--grid-4-2": {
+        "props": {
+            "blockClass": "contenido--condiciones-actividades-comerciales",
+            "text": "Descuento 15% por suscripción a Newsletter. \n \n El descuento del 15% aplica sobre el valor de cualquier producto de la tienda Online de Arturo Calle (www.arturocalle.com), antes de IVA El descuento del 15% sólo aplica para las suscripciones que sean efectuadas desde el quince (15) de junio de 2021 y hasta el quince (15) de junio de 2022. Aplica exclusivamente para la primera compra que después del registro se efectúe a través de la tienda online www.arturocalle.com. \n \n El descuento se podrá hacer efectivo una vez el cliente cuente con el correo de confirmación, en el cual se informará el cupón que deberá ingresar en la casilla designada para tal fin al momento de efectuar la compra. \n \n El descuento se podrá hacer efectivo dentro de los quince (15) días calendario siguientes de la fecha de recibido el correo de confirmación. \n \n Cupón al portador, por lo tanto, Comercializadora Arturo Calle S.A.S. no será responsable por verificar la persona que redime el cupón. \n \n La no redención del cupón dentro de la vigencia, genera la pérdida del beneficio y no atribuye obligación para Comercializadora Arturo Calle S.A.S. No reembolsable en dinero. \n \n El descuento se verá reflejado únicamente en el carrito de compra una vez se ingrese el cupón de descuento. \n \n Este descuento NO es acumulable con otras actividades, descuentos y promociones adicionales, que se encuentren vigentes al momento de la compra. Con la suscripción a nuestra Newsletter, el cliente acepta el envío de información sobre nuestros productos y actividades comerciales. De igual forma está aceptando los términos y Condiciones y la política de uso de datos personales, que aplican para las compras efectuadas a través de nuestra tienda online www.arturocalle.com Comercializadora Arturo Calle S.A.S. se reserva la facultad de realizar modificaciones a la presente promoción."
+        }
+    },
+    /*--------------------------------------final grid 2-------------------------------- */
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 3                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-4-3": {
+        "children": [
+            "flex-layout.col#grid-4-3",
+            "modal-layout#grid-4-3"
+        ]
+    },
+    "flex-layout.col#grid-4-3": {
+        "children": [
+            "image#condiciones-actividades-comerciales--4-3",
+            "rich-text#grid-4-3--fecha",
+            "rich-text#grid-4-3--titulo",
+            "rich-text#grid-4-3--ver--mas"
+        ]
+    },
+    "rich-text#grid-4-3--fecha": {
+        "props": {
+            "blockClass": "text-grid-fecha",
+            "text": "AGO. 2020"
+        }
+    },
+    "rich-text#grid-4-3--titulo": {
+        "props": {
+            "blockClass": "text-grid-titulo",
+            "text": "OFERTAS ONLINE"
+        }
+    },
+    "rich-text#grid-4-3--ver--mas": {
+        "props": {
+            "blockClass": "text-grid--ver--mas",
+            "text": "Ver más >"
+        }
+    },
+    "image#condiciones-actividades-comerciales--4-3": {
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales11.png"
+        }
+    },
+    "modal-layout#grid-4-3": {
+        "props": {
+            "scroll": "body ",
+            "blockClass": "modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-4-3",
+            "rich-text#modal-content--titulo--grid-4-3",
+            "rich-text#modal-content--grid-4-3"
+        ]
+    },
+    "rich-text#modal-content--fecha--grid-4-3": {
+        "props": {
+            "blockClass": "fecha--condiciones-actividades-comerciales",
+            "text": "AGO. 2020"
+        }
+    },
+    "rich-text#modal-content--titulo--grid-4-3": {
+        "props": {
+            "blockClass": "sub--titulos1--condiciones-actividades-comerciales",
+            "text": "OFERTAS ONLINE"
+        }
+    },
+    "rich-text#modal-content--grid-4-3": {
+        "props": {
+            "blockClass": "contenido--condiciones-actividades-comerciales",
+            "text": "TÉRMINOS Y CONDICIONES SECCIÓN - OFERTAS \n \n Descuento del 15%, 25%, 30%, 35% y 50% para los productos identificados con el porcentaje de descuento y ubicados en la sección OFERTAS de la tienda online www.arturocalle.com. \n \n Aplica exclusivamente para los productos que encuentran publicados con el porcentaje de descuento en la sección OFERTAS de www.arturocalle.com y que sean comprados a través de la misma plataforma. \n \n Descuento sujeto a disponibilidad de referencia e inventario. El descuento se calcula sobre el valor del producto antes del IVA y según el porcentaje de descuento que se indique en el tag o la imagen de cada producto. Válido para las compras realizadas del 1 de marzo al 30 de junio de 2022. \n \n Valido solo para compras no para cambios. \n \n No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. \n \n No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. \n \n Estos productos comprados con el 15%, 25%, 30%, 35% y 50% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía y el derecho de retracto."
+        }
+    },
+    /*--------------------------------------final grid 3-------------------------------- */
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 4                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-4-4": {
+        "children": [
+            "flex-layout.col#grid-4-4",
+            "modal-layout#grid-4-4"
+        ]
+    },
+    "flex-layout.col#grid-4-4": {
+        "children": [
+            "image#condiciones-actividades-comerciales--4-4",
+            "rich-text#grid-4-4--fecha",
+            "rich-text#grid-4-4--titulo",
+            "rich-text#grid-4-4--ver--mas"
+        ]
+    },
+    "rich-text#grid-4-4--fecha": {
+        "props": {
+            "blockClass": "text-grid-fecha",
+            "text": "DIC. 2020"
+        }
+    },
+    "rich-text#grid-4-4--titulo": {
+        "props": {
+            "blockClass": "text-grid-titulo",
+            "text": "BONO DE REGALO VIRTUAL"
+        }
+    },
+    "rich-text#grid-4-4--ver--mas": {
+        "props": {
+            "blockClass": "text-grid--ver--mas",
+            "text": "Ver más >"
+        }
+    },
+    "image#condiciones-actividades-comerciales--4-4": {
+        "props": {
+            "maxHeight": 300,
+            "src": "assets/desk/static-pages/condiciones-actividades-comerciales12.webp"
+        }
+    },
+    "modal-layout#grid-4-4": {
+        "props": {
+            "scroll": "body",
+            "blockClass": "modal-layout--contenedor"
+        },
+        "children": [
+            "modal-header",
+            "rich-text#modal-content--fecha--grid-4-4",
+            "rich-text#modal-content--titulo--grid-4-4",
+            "rich-text#modal-content--grid-4-4"
+        ]
+    },
+    "rich-text#modal-content--fecha--grid-4-4": {
+        "props": {
+            "blockClass": "fecha--condiciones-actividades-comerciales",
+            "text": "DIC. 2020"
+        }
+    },
+    "rich-text#modal-content--titulo--grid-4-4": {
+        "props": {
+            "blockClass": "sub--titulos1--condiciones-actividades-comerciales",
+            "text": "BONO DE REGALO VIRTUAL"
+        }
+    },
+    "rich-text#modal-content--grid-4-4": {
+        "props": {
+            "blockClass": "contenido--condiciones-actividades-comerciales",
+            "text": "El bono de regalo virtual es emitido por Comercializadora Arturo Calle S.A.S. \n \n Bono de regalo virtual es al portador. \n \n La vigencia del bono es de un (1) año contado a partir de la fecha de emisión. \n \n Se entiende por fecha de emisión el envío del correo electrónico con los datos para su redención. \n \n El bono de regalo virtual solo puede ser utilizado para realizar compras en www.arturocalle.com \n \n El bono puede ser redimido de forma total o parcial en la vigencia. \n \n No se puede comprar un bono de regalo virtual con otro bono de regalo virtual. \n \n El bono regalo no es reembolsable en efectivo, solo en bienes suministrados por Comercializadora Arturo Calle S.A.S. \n \n En caso de retracto por la compra del bono regalo, se generara una nota a crédito a favor del cliente para una nueva compra. \n \n En caso de retracto de la compra utilizando el bono regalo como medio de pago se generará una nota a crédito a favor del cliente o del portador para una nueva compra. \n \n No redimir el bono de regalo virtual dentro de la vigencia, no genera obligación para Comercializadora Arturo Calle S.A.S. sobre el valor total o el saldo no utilizado."
+        }
+    }
+    /*--------------------------------------final grid 4-------------------------------- */
+}

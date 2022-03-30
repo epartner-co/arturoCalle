@@ -1,7 +1,13 @@
 {
     "store.custom#condiciones-actividades-comerciales": {
         "blocks": [
-            "flex-layout.row#informacion--condiciones-actividades-comerciales"
+            "flex-layout.row#informacion--condiciones-actividades-comerciales",
+            "flex-layout.row#informacion--condiciones-actividades-comerciales2",
+            "flex-layout.row#informacion--condiciones-actividades-comerciales3",
+            "flex-layout.row#informacion--condiciones-actividades-comerciales4",
+            "flex-layout.row#informacion--condiciones-actividades-comerciales5",
+            "flex-layout.row#informacion--condiciones-actividades-comerciales6",
+            "flex-layout.row#informacion--condiciones-actividades-comerciales7"
         ]
       },
       "flex-layout.row#informacion--condiciones-actividades-comerciales":{
@@ -290,9 +296,9 @@
         },
         "children": [
             "modal-header",
-            "rich-text#modal-content--fecha--grid-1-4",
-            "rich-text#modal-content--titulo--grid-1-4",
-          "rich-text#modal-content--grid-1-4"
+            "rich-text#modal-content--fecha--grid-1-2",
+            "rich-text#modal-content--titulo--grid-1-2",
+          "rich-text#modal-content--grid-1-2"
         ]
       },
       "rich-text#modal-content--fecha--grid-1-2": {
@@ -469,7 +475,7 @@
           "text": "LEGALES PUNTOS DE DESCUENTO TIENDAS FISICAS \n \n AVISO LEGAL PRODUCTOS CON 15% DE DESCUENTO – STICKER AZUL \n \n “Descuento del 15% para los productos identificados con sticker azul. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 15% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 25% DE DESCUENTO – STICKER ROJO \n \n “Descuento del 25% para los productos identificados con sticker rojo. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, niventas y negocios corporativos. Los productos comprados con el 25% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 30% DE DESCUENTO – STICKER ROJO \n \n “Descuento del 30% para los productos identificados con sticker amarillo. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 30% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 35% DE DESCUENTO – STICKER NARANJA \n \n “Descuento del 35% para los productos identificados con sticker naranja. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. \n \n Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 35% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL PRODUCTOS CON 50% DE DESCUENTO – STICKER NEGRO \n \n “Descuento del 50% para los productos identificados con sticker negro. El descuentose calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022. Aplica para todos los puntos de venta Arturo Calle de Colombia. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con el 50% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía” \n \n AVISO LEGAL INCLUYENDO TODOS LOS PORCENTAJES DE DESCUENTOS \n \n “El porcentaje de descuento aplicará según el color del sticker con el que se encuentre identificado el producto de la siguiente manera: 1. Descuento del 15% para los productos identificados con sticker azul, 2. Descuento del 25% para los productos identificados con sticker rojo, 3. Descuento del 30% para los productos identificados con sticker amarillo 4. Descuento del 35% para los productos identificados con sticker naranja y 5. Descuento del 50% para los productos identificados con sticker negro. El descuento se calcula sobre el valor del producto antes de IVA, aplicable en caja para cualquier medio de pago. Válido para las compras realizadas del 1 de enero al 28 de febrero de 2022 en este punto de venta y para los productos indicados. Descuento sujeto a disponibilidad de referencia e inventario. Valido solo para compras no para cambios. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos. Los productos comprados con los descuentos del 15%, 25%, 30%, 35% y 50% de descuento no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía.”"
         }
       }
-      /*--------------------------------------final grid 1-------------------------------- */
+      /*--------------------------------------final grid 4-------------------------------- */
       
 
 }

@@ -95,14 +95,14 @@
 
 
 .paper--modal-layout--contenedor{
+  width: 100%;
   margin: 0;
   height: 100%;
-  opacity: 0.95;
 }
 
 .container--modal-layout--contenedor{
   background: white;
-  opacity: 0.95 !important; 
+  opacity: 0.93 !important;
 }
 
 
@@ -113,3 +113,55 @@
     right: 2%;
 }
 /*---------------------------------------*/
+
+
+
+/*-------------------------------------*/
+/*          Tiendas con MAPA          */
+/*-----------------------------------*/
+.paper--localizacion-tiendas {
+  width: 85%;
+}
+.headerContainer--localizacion-tiendas {
+  position: fixed;
+  background: #DCDAD7;
+  right: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeButton--localizacion-tiendas {
+  padding: .2rem;
+  margin: 0px;
+  background: transparent;
+  color: #33333D;
+  height: 16px;
+}
+.closeIcon--localizacion-tiendas {
+  color: #33333D;
+  width: 62%;
+  display: block;
+  margin: auto;
+  height: auto;
+  padding: 0;
+}
+.headerContainer.headerContainer--localizacion-tiendas:hover {
+  background: #181E2A;
+}
+.headerContainer.headerContainer--localizacion-tiendas:hover .closeIcon--localizacion-tiendas {
+  color:white;
+}
+/*---------------------------------------*/
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 700px) {
+  .triggerContainer {
+    outline: none;
+    display: block;
+  }
+  .localizacion-tiendas {
+    width: 80%;
+  }
+}

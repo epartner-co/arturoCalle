@@ -13,7 +13,7 @@
   },
   "rich-text#terms":{
     "props": {
-      "text": "[TÉRMINOS Y CONDICIONES](/terminos-y-condiciones) | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA \n\nCONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS",
+      "text": "TÉRMINOS Y CONDICIONES | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA \n\nCONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1",
@@ -46,7 +46,7 @@
       "font": "t-heading-1",
       "blockClass": "terminos--y--logo"
     }
-  },
+  }, 
   "flex-layout.col#imagen--logo--payu":{
     "props":{
       "width":"22%"
@@ -106,6 +106,9 @@
 // Columnas de cierre
 
   "flex-layout.row#home__social-networks":{
+    "props":{
+      "blockClass": "social-network"
+    },
     "children":[
       "flex-layout.col#home__social-networks--Facebook",
       "flex-layout.col#home__social-networks--Instagram",
@@ -193,8 +196,7 @@
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#1-footer-mobile"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -221,14 +223,57 @@
   "flex-layout.row#1-footer-mobile": {
     "props": {
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 4,
+      "blockClass": "footer-mobile"
     },
-    "children": []
+    "children": [      
+      "flex-layout.col#logo-desktop1",
+      "flex-layout.col#PrimeraCol1",
+      "flex-layout.col#PrimeraCol2",
+      "flex-layout.col#PrimeraCol3",
+      "flex-layout.col#PrimeraCol4",
+      "flex-layout.col#PrimeraCol5",
+      "flex-layout.row#home__social-networks",
+      "rich-text#terms",
+      "flex-layout.row#term--y--logo"
+    ]
   },
   "rich-text#footer-mobile": {
     "props": {
       "text": "All stock and product photos are from photos.icons8.com",
       "blockClass": "footer"
     }
-  }
+  },
+
+  // LOCALIZADOR DE TIENDAS
+
+  "iframe#footer-localizacion-tiendas": {
+    "props": {
+      "src": "https://www.arturocalle.com/localizador",
+      "width": "100%",
+      "height": "500px",
+      "blockClass": "iframe-localizador"
+    }
+  },
+  "modal-trigger#localizacion-tiendas": {
+    "children": [
+      "rich-text#answer2Col2",
+      "modal-layout#localizacion-tiendas"
+    ]
+  },
+  "modal-layout#localizacion-tiendas": {
+    "props": {
+      "blockClass": "localizacion-tiendas"
+    },
+    "children": [
+      "modal-header#cerrar-tiendas",
+      "iframe#footer-localizacion-tiendas"
+    ] 
+  },
+  "modal-header#cerrar-tiendas": {
+    "props": {
+     "showCloseButton":"true",
+     "blockClass": "localizacion-tiendas"
+    }
+   }
 }

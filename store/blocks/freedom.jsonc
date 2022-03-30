@@ -1,29 +1,308 @@
 {
   "store.custom#freedom": {
     "blocks": [
-      "info-card#home",
+      "info-card#freedom",
+      "rich-text#title--1",
+      "rich-text#title--2",
+      "rich-text#title--3",
+      "flex-layout.row#buttons--images",
+      "flex-layout.row#video",
+      "flex-layout.row#lo--mas--vendido"
       //"list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
-      "rich-text#shelf-title",
-      "flex-layout.row#shoes",
-      "flex-layout.row#shirt",
-      "flex-layout.row#banner",
+      //"__fold__.experimentalLazyAssets",
+      //"flex-layout.row#deals",
+      //"rich-text#shelf-title",
+      //"flex-layout.row#shoes",
+      //"flex-layout.row#shirt",
+      //"flex-layout.row#banner",
 
-      "flex-layout.row#product__tabs",
+      //"flex-layout.row#product__tabs",
 
-      "shelf#cats",
-      "flex-layout.row#banner2",
+      //"shelf#cats",
+      //"flex-layout.row#banner2",
       //"info-card#home",
       //"rich-text#question",
       //"rich-text#link",
       //"newsletter",
-      "shelf#descubre-mas",
-      "shelf#lo-mas-vendido"
+      //"shelf#descubre-mas",
+      //"shelf#lo-mas-vendido"
     ]
   },
+
+/*------------------------------------*/
+/*   banner principal                */
+/*-----------------------------------*/
+
+"info-card#freedom": {
+  "props": {
+    "id": "info-card-home",
+    "isFullModeStyle": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/freedom/bannerpsicodesktop.webp",
+    "callToActioMode": "none",
+    "blockClass": "info-card-home"
+  }
+},
+
+
+/*----------------------------------*/
+
+/*---------------------------------*/
+/*       titulo                    */
+/*---------------------------------*/
+"rich-text#title--1":{
+  "props":{
+    "text":"RETANDO"
+  }
+},
+"rich-text#title--2":{
+  "props":{
+    "text":"LA TRADICIÓN"
+  }
+},
+"rich-text#title--3":{
+  "props":{
+    "text":"Y ENFRENTANDO LO \n CONVENCIONAL"
+  }
+},
+
+/*-----------------------------------*/
+/*    botones he imagenes            */
+/*-----------------------------------*/
+"flex-layout.row#buttons--images":{
+  "props":{
+    "blockClass":"buttons--images",
+    "preventHorizontalStretch":"true",
+    "preventVerticalStretch":"true"
+  },
+  "children":[
+    "flex-layout.col#buttons--images1",
+    "flex-layout.col#buttons--images2",
+    "flex-layout.col#buttons--images3",
+    "flex-layout.col#buttons--images4",
+    "flex-layout.col#buttons--images5",
+    "flex-layout.col#buttons--images6"
+  ]
+},
+"flex-layout.col#buttons--images1":{
+  "props":{
+    "horizontalAlign":"center",
+    "width": "28%"
+  },
+  "children":[
+    "image#image--button--1",
+    "rich-text#text--button--1",
+    "link#button--1"
+  ]
+},
+"flex-layout.col#buttons--images2":{
+  "props":{
+    "horizontalAlign":"center",
+    "width": "28%"
+  },
+  "children":[
+    "image#image--button--2",
+    "rich-text#text--button--2",
+    "link#button--2"
+  ]
+},
+"flex-layout.col#buttons--images3":{
+  "props":{
+    "horizontalAlign":"center",
+    "width": "28%"
+  },
+  "children":[
+    "image#image--button--3",
+    "rich-text#text--button--3",
+    "link#button--3"
+  ]
+},
+"flex-layout.col#buttons--images4":{
+  "props":{
+    "horizontalAlign":"center",
+    "width": "28%"
+  },
+  "children":[
+    "image#image--button--4",
+    "rich-text#text--button--4",
+    "link#button--4"
+  ]
+},
+"flex-layout.col#buttons--images5":{
+  "props":{
+    "horizontalAlign":"center",
+    "width": "28%"
+  },
+  "children":[
+    "image#image--button--5",
+    "rich-text#text--button--5",
+    "link#button--5"
+  ]
+},
+"flex-layout.col#buttons--images6":{
+  "props":{
+    "horizontalAlign":"center",
+    "width": "28%"
+  },
+  "children":[
+    "image#image--button--6",
+    "rich-text#text--button--6",
+    "link#button--6"
+  ]
+},
+
+"image#image--button--1":{
+  "props":{
+    "blockClass":"imag--boton",
+    "src": "assets/desk/freedom/button1.webp"
+  }
+},
+"rich-text#text--button--1":{
+  "props":{
+    "blockClass":"buttons--freedom1",
+    "text":"CHAQUETAS"
+  }
+},
+"link#button--1":{
+  "props":{
+    "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
+    "label":"COMPRAR",
+    "displayMode":"button"
+  }
+},
+"image#image--button--2":{
+  "props":{
+    "blockClass":"imag--boton",
+    "src": "assets/desk/freedom/button2.webp"
+  }
+},
+"rich-text#text--button--2":{
+  "props":{
+    "blockClass":"buttons--freedom2",
+    "text":"CAMISAS"
+  }
+},
+"link#button--2":{
+  "props":{
+    "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
+    "label":"COMPRAR",
+    "displayMode":"button"
+  }
+},
+"image#image--button--3":{
+  "props":{
+    "blockClass":"imag--boton",
+    "src": "assets/desk/freedom/button3.webp"
+  }
+},
+"rich-text#text--button--3":{
+  "props":{
+    "blockClass":"buttons--freedom3",
+    "text":"ZAPATOS"
+  }
+},
+"link#button--3":{
+  "props":{
+    "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
+    "label":"COMPRAR",
+    "displayMode":"button"
+  }
+},
+"image#image--button--4":{
+  "props":{
+    "blockClass":"imag--boton",
+    "src": "assets/desk/freedom/button4.webp"
+  }
+},
+"rich-text#text--button--4":{
+  "props":{
+    "blockClass":"buttons--freedom4",
+    "text":"JEANS"
+  }
+},
+"link#button--4":{
+  "props":{
+    "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
+    "label":"COMPRAR",
+    "displayMode":"button"
+  }
+},
+"image#image--button--5":{
+  "props":{
+    "blockClass":"imag--boton",
+    "src": "assets/desk/freedom/button5.webp"
+  }
+},
+"rich-text#text--button--5":{
+  "props":{
+    "blockClass":"buttons--freedom5",
+    "text":"BUZOS"
+  }
+},
+"link#button--5":{
+  "props":{
+    "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
+    "label":"COMPRAR",
+    "displayMode":"button"
+  }
+},
+"image#image--button--6":{
+  "props":{
+    "blockClass":"imag--boton",
+    "src": "assets/desk/freedom/button6.webp"
+  }
+},
+"rich-text#text--button--6":{
+  "props":{
+    "blockClass":"buttons--freedom6",
+    "text":"CAMISETAS"
+  }
+},
+"link#button--6":{
+  "props":{
+    "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
+    "label":"COMPRAR",
+    "displayMode":"button"
+  }
+},
+
+/*------------------------------------*/
+/*      video he imagen               */
+/*------------------------------------*/
+
+"flex-layout.row#video":{
+  "props":{
+    "blockClass":"video--freedom"
+  },
+  "children":[
+    "iframe#freedom"
+  ]
+},
+
+
+"iframe#freedom": {
+  "props": {
+    "blockClass":"video",
+    "width": "600",
+    "height": "400",
+    "src": "https://player.vimeo.com/video/600319619?autoplay=1&loop=1&muted=1"
+  }
+},
+
+/*------------------------------------*/
+
+
+"flex-layout.row#lo--mas--vendido":{
+  "props":{
+    "blockClass":"lo--mas--vendido"
+  }
+},
+
+
+
+
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
@@ -285,20 +564,7 @@
     }
   },
 
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": true,
-      //"textPosition": "left",
-      //"imageUrl": "assets/desk/banner-principal-1440x360.png",
-      "callToActioMode": "none",
-      //"headline": "Clearance Sale",
-      //"callToActionText": "DISCOVER",
-      //"callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home"//,
-      //"textAlignment": "center"
-    }
-  },
+
 
   "rich-text#question": {
     "props": {

@@ -18,3 +18,13 @@
     display: block;
     margin: 0 auto;
 }
+
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 700px) {
+  .trigger {
+      width: 100%;
+  }
+}

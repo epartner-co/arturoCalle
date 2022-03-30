@@ -468,3 +468,209 @@
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
+/*-------------------------------------*/
+/*  Estilos de menu category - links  */
+/*-----------------------------------*/
+.link--item-cat-bold {
+  text-decoration: none;
+  color: black;
+}
+
+.link--item-cat {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*--------------------------------------*/
+/*      Tiendas con MAPA  - Botón      */
+/*------------------------------------*/
+
+.link--ContenidoDesplegable.link--localizador-tiendas {
+  padding: 10px;
+}
+.link--ContenidoDesplegable.link--localizador-tiendas:hover {
+  background: white;
+  color: #181E2A;
+}
+.container--ContenidoDesplegable.container--localizador-tiendas {
+  margin: 15px auto 0;
+}
+
+
+  /*-----------------------------------*/
+/*       freedom                     */
+/*------------------------------------*/
+
+.wrapper--buttons--freedom1{
+  margin-top: -19%;
+  margin-bottom: -7%;
+}
+
+.paragraph--buttons--freedom1{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper--buttons--freedom2{
+  margin-top: -28%;
+  margin-bottom: -7%;
+}
+
+.paragraph--buttons--freedom2{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper--buttons--freedom3{
+  margin-top: -28%;
+  margin-bottom: -7%;
+}
+
+.paragraph--buttons--freedom3{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper--buttons--freedom4{
+  margin-top: -28%;
+  margin-bottom: -7%;
+}
+
+.paragraph--buttons--freedom4{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper--buttons--freedom5{
+  margin-top: -28%;
+  margin-bottom: -7%;
+}
+
+.paragraph--buttons--freedom5{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+.wrapper--buttons--freedom6{
+  margin-top: -15%;
+  margin-bottom: -8%;
+}
+
+.paragraph--buttons--freedom6{
+  font-size: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+/*------------------------------------*/
+
+
+
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 700px) {
+  .container.container--TituloCont {
+    text-align: center;
+  }
+  .paragraph--TituloCont {
+    text-align: center;
+  }
+  .wrapper--TituloCont {
+    width: 100%;
+  }
+  .container--ContenidoDesplegable {
+    margin-left: 0;
+  }
+  }
+  /*----------------------*/
+
+
+  /****************/
+/*MOBILE HOME*/
+/****************/
+.container--titlem {
+  display: block;
+}
+.container--titlem-MOBILE {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .container--BotonI {
+    left: 10%;
+    bottom: 0;
+}
+.container--BotonD {
+    right: 10%;
+    bottom: 0;
+}
+.paragraph--titlem.paragraph--titlem-MOBILE {
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.container--titlem {
+    display: none;
+}
+.container--titlem-MOBILE {
+    display: block;
+}
+.paragraph.paragraph--shelfTitle {
+  font-size: 22px;
+  width: 75%;
+  margin: 23px auto 7px;
+}
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO HOMBRE      */
+/*------------------------------------*/
+.container.container--shelfTitle.container--depto-mobile{
+  display: block;
+}
+.link.link--todo-categora.link--depto-mobile {
+  display: none;
+}
+.container--depto-mobile {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .link.link--todo-categora.link--depto-mobile {
+      display: block
+    }
+  .container--depto-mobile {
+      display: block;
+    }
+  .wrapper--todo-categora.wrapper--depto-mobile {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+  .paragraph.paragraph--todo-categora.paragraph--depto-mobile {
+    margin: 0 auto;
+    display: flex;
+  }
+  .link--todo-categora.link--depto-mobile {
+    background: #181E2A;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 97%;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .paragraph--shelfTitle.paragraph--depto-mobile {
+    margin-top: 50px;
+  }
+
+}

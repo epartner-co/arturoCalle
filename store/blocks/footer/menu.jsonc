@@ -115,7 +115,7 @@
       "children": ["rich-text#tileFCol2"]
     },
     "disclosure-content#simple2": {
-      "children": ["rich-text#answerCol2", "rich-text#answer2Col2"]
+      "children": ["modal-trigger#localizacion-tiendas"]
     },
     "rich-text#tileFCol2": {
       "props": {

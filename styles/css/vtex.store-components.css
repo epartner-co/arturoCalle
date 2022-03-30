@@ -560,7 +560,7 @@ input#downshift-1-input {
 }
 
 .productImage :global(.vtex-store-components-3-x-productImageTag):hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
 }
 
 .skuSelectorOptionsList{/*diferentes opciones de productos---se colocan los que estan cargados en el sistema*/
@@ -587,6 +587,98 @@ input#downshift-1-input {
   padding: 6px;
   margin-top: 10px;
 }
+
+
+
+
+/*-----------------------------------*/
+/*         freedom                   */
+/*-----------------------------------*/
+
+.imageElement--imag--boton{
+  padding: 10px;
+}
 /*-----------------------------------*/
 
 
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 700px) {
+  .imageElement--flecha-abajo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .imageElement--social-network--Twitter {
+    margin: 0 auto;
+  }
+  .imageElement--social-network--Youtube {
+    margin: 0 auto;
+  }
+  .logoLink--logoFooter {
+    margin: 20px 0 20px;
+    display: block;
+  }
+  .imageElement--social-network--Instagram {
+    margin: 0 auto;
+  }
+  .imageElement--social-network--Facebook {
+    margin: 0 auto;
+  }
+}
+
+
+/****************/
+/*MOBILE HOME*/
+/****************/
+.infoCardContainer--depto-desk {
+  display: block;
+}
+.infoCardContainer--depto-mobile {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .infoCardContainer--depto-desk {
+      display: none !important;
+  }
+  .infoCardContainer--depto-mobile {
+    display: block !important;
+  }
+  .infoCardCallActionContainer--categorias2-banners {
+      margin: 0;
+  }
+  .infoCardCallActionContainer--categorias2-banners :global(.vtex-button) {
+      background: white;
+      border: none;
+  }
+  .infoCardCallActionContainer--categorias2-banners :global(.vtex-button) :global(.vtex-button__label) {
+    color: black;
+    padding: 19px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .infoCardHeadline.infoCardHeadline--categorias2-banners {
+      font-size: 22px;
+      margin-top: 84px;
+      margin-bottom: 13px;
+      color: white;
+  }
+  .infoCardTextContainer.categorias2-banners {
+      margin: 20px;
+  }
+  .imageElement.imageElement--bannerfinal {
+    width: 100%;
+    margin: 2px 0;
+  }
+  .imageElement--bannerfinal2 {
+    width: 98%;
+    margin: 4px auto 0 0;
+    display: block;
+  }
+  .imageElement--bannerfinal3 {
+    width: 98%;
+    margin: 4px 0 0 auto;
+    display: block;
+  }
+}

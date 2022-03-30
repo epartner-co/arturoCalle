@@ -600,3 +600,182 @@ Estilos Producto Sección Contenido AC*/
 }
 
 /*-----------------------------------*/
+
+.flexRowContent--table--grid-6-1{
+  margin-left: 15%;
+    width: 70%;
+    height: 36px;
+}
+
+.flexCol--table--col{
+  border: 1px solid #dddddd;
+}
+
+
+.flexColChild--table--col{
+  height: 151% !important;
+}
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*       freedom                     */
+/*------------------------------------*/
+
+.flexRow--buttons--images{
+  width: 84%;
+  margin-left: 10%;
+}
+
+.flexRowContent--buttons--images{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.flexRow--video--freedom{
+  height: 458px;
+  background-size: cover;
+  background-image: url("assets/desk/freedom/video.webp");
+  margin-bottom: 1%;
+}
+
+.flexRow--lo--mas--vendido{
+  height: 315px;
+  background-size: cover;
+  background-image: url("assets/desk/freedom/lo-mas-vendido.webp");
+}
+/*-----------------------------------*/
+
+
+/****************/
+/*MOBILE FOOTER*/
+/****************/
+@media screen and (max-width: 700px) {
+.flexRowContent--footer-mobile .flexRowContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: end;
+}
+.flexRowContent--footer-mobile .flexRowContent .stretchChildrenWidth:last-child {
+  width: 10% !important;
+}
+.flexRowContent--footer-mobile .flexRowContent .stretchChildrenWidth:first-child {
+  width: 80% !important;
+}
+.flexCol--social-network {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
+.flexColChild--social-network {
+  display: block;
+  margin: auto;
+}
+.imageElement--social-network--Twitter {
+  margin: 0 auto;
+}
+.imageElement--social-network--Youtube {
+  margin: 0 auto;
+}
+.flexRow--social-network {
+  width: 75% !important;
+  margin: 22px auto;
+}
+.flexCol--social-network {
+  margin: auto;
+}
+.flexRowContent.flexRowContent--social-network .stretchChildrenWidth:last-child {
+  width: 100% !important;
+}
+.flexRow--terminos--y--logo {
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+.justify-center.flexRowContent--terminos--y--logo .stretchChildrenWidth:last-child {
+  width: 20% !important;
+}
+.vflexRowContent--footer-mobile .flexRow--terminos--y--logo .stretchChildrenWidth:last-child {
+  width: 20% !important;
+}
+}
+/****************/
+/*MOBILE HOME*/
+/****************/
+@media screen and (max-width: 700px) {
+.flexCol--Bannerone {
+  padding: 0 0 20px;
+}
+.flexCol--Bannertwo {
+  padding: 0;
+}
+.flexRowContent--Bannersec.flexRowContent--banner-categorias-home {
+  display: none;
+}
+.flexRow.flexRow--titleS {
+  display: none;
+}
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO           */
+/*------------------------------------*/
+.flexRow--depto-desk {
+  display: block;
+}
+.flexRow--depto-mobile {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+.flexRow--depto-desk {
+    display: none;
+  }
+  .flexRow--depto-mobile {
+    display: block;
+  }
+.flexRowContent--vitrina2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexRowContent--vitrina2 .stretchChildrenWidth:first-child {
+  order: 2;
+}
+.flexRowContent.flexRowContent--more.flexRowContent--depto-mobile {
+  display: flex;
+  height: 165px;
+}
+.flexRowContent.flexRowContent--more.flexRowContent--depto-mobile {
+  display: flex;
+  height: 165px;
+}
+.flexRowContent--more.flexRowContent--depto-mobile .stretchChildrenWidth {
+  padding: 5px;
+}
+.flexRowContent--bannerfinal {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flexRowContent--bannerfinal .stretchChildrenWidth:last-child {
+  display: flex;
+  flex-wrap: unset;
+}
+.flexRowContent--bannerfinal .stretchChildrenWidth:first-child {
+  padding: 0 0 0px 0;
+}
+.flexRowContent--bannerfinal.flexRowContent--depto-mobile {
+  display: flex;
+  height: 100% !important;
+}
+.flexRow.flexRow--bannerfinal-child {
+  width: 100%;
+  margin: 0;
+}
+.flexRowContent--bannerfinal .stretchChildrenWidth:last-child {
+  padding: 0;
+}
+.flexRowContent.flexRowContent--newsletter-form--contenedor--footer {
+  justify-content: center;
+}
+}
+

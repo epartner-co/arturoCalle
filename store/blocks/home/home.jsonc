@@ -9,6 +9,8 @@
      // "__fold__.experimentalLazyAssets",
      // "flex-layout.row#deals",
      "rich-text#title",
+     "rich-text#titleM",
+     "slider-layout#slider-categorias-mobile",
      "flex-layout.row#bannersbulletsecond",
      "flex-layout.row#bannersbulletsecond1",
      "rich-text#title2",
@@ -152,15 +154,27 @@
 "rich-text#title": {
   "props": {
     "text": "NEW LOOK",
-    "blockClass": "titlem",
+    "blockClass": ["titlem"],
     "textAlignment": "CENTER",
     "textPosition": "CENTER"
   }
 },
+
+"rich-text#titleM": {
+  "props": {
+    "text": "NEW LOOK \n Descubre AC",
+    "blockClass": ["titlem", "titlem-MOBILE"],
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+
+
 //Banners terciarios 
 "flex-layout.row#bannersbulletsecond": {
   "props":{
-    "blockClass": "Bannersec",
+    "blockClass": ["Bannersec","banner-categorias-home"],
     "marginTop": 4
   },
   "children": ["flex-layout.col#bullets1", "flex-layout.col#bullets2", "flex-layout.col#bullets3"]
@@ -227,7 +241,7 @@
 //Banners terciarios segundo bullet
 "flex-layout.row#bannersbulletsecond1": {
   "props":{
-    "blockClass": "Bannersec",
+    "blockClass": ["Bannersec","banner-categorias-home"],
     "marginTop": 4
   },
   "children": ["flex-layout.col#bullets4", "flex-layout.col#bullets5", "flex-layout.col#bullets6"]
@@ -308,7 +322,7 @@
 
 "flex-layout.row#bannersbulletthrid": {
   "props":{
-    "blockClass": "Bannersec",
+    "blockClass": ["Bannersec","banner-categorias-home"],
     "marginTop": 4
   },
   "children": ["flex-layout.col#bullets7", "flex-layout.col#bullets8", "flex-layout.col#bullets9"]
@@ -479,5 +493,119 @@
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
     }
+  },
+
+
+
+
+
+  /*SLIDER CATEGORIAS MOBILE*/
+"slider-layout#slider-categorias-mobile": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 2
+    },
+    "infinite": true,
+    "showNavigationArrows": "never",
+    "centerModeSlidesGap": "center",
+    "showPaginationDots": "never",
+    "fullWidth": true,
+    "centerMode": "center",
+    "blockClass": ["categorias2-banners", "slider-moible"]
+  },
+  "children": [
+    "info-card#categoria-1", 
+    "info-card#categoria-2", 
+    "info-card#categoria-3", 
+    "info-card#categoria-4", 
+    "info-card#categoria-5", 
+    "info-card#categoria-6"]
+},
+"info-card#categoria-1": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://arturocalle.vtexassets.com/arquivos/HOMECAMISETAMUJERDEC.jpg",
+    "headline": "Camiseta",
+    "callToActionText": "Comprar",
+    "callToActionUrl": "/sale/d",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-2": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://arturocalle.vtexassets.com/arquivos/polospremi.jpg",
+    "headline": "Polos",
+    "callToActionText": "Comprar",
+    "callToActionUrl": "/sale/d",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-3": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://arturocalle.vtexassets.com/arquivos/CHAQUETASENE2022.jpg",
+    "headline": "Chaquetas",
+    "callToActionText": "Comprar",
+    "callToActionUrl": "/sale/d",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-4": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://arturocalle.vtexassets.com/arquivos/camisetashomefeb.jpg",
+    "headline": "Camisetas",
+    "callToActionText": "Comprar",
+    "callToActionUrl": "/sale/d",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-5": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://arturocalle.vtexassets.com/arquivos/jeanshomefeb.jpg",
+    "headline": "Jeans",
+    "callToActionText": "Comprar",
+    "callToActionUrl": "/sale/d",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
+  }
+},
+"info-card#categoria-6": {
+  "props": {
+    "id": "info-card-example",
+    "isFullModeStyle": true,
+    "textPosition": "center",
+    "imageUrl": "https://arturocalle.vteximg.com.br/arquivos/camisashomefeb.jpg",
+    "headline": "Camisas",
+    "callToActionText": "Comprar",
+    "callToActionUrl": "/sale/d",
+    "blockClass": ["categorias2-banners"],
+    "textAlignment": "center"
   }
 }
+
+
+}
+
+
+
+
+

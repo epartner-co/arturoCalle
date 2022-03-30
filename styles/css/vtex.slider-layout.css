@@ -30,3 +30,52 @@
 .sliderLayoutContainer--carousel {
   margin-bottom: 2rem;
 }
+
+/****************/
+/*MOBILE HOME*/
+/****************/
+.sliderLayoutContainer--slider-moible {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+.sliderLayoutContainer--slider-moible {
+    display: block;
+}
+.sliderTrack--categorias2-banners {
+  width: 600% !important;
+}
+.slideChildrenContainer--categorias2-banners.slideChildrenContainer--slider-moible {
+  margin: 0 3px;
+}
+.sliderLayoutContainer.sliderLayoutContainer--shelf {
+  width: 100%;
+}
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO HOMBRE      */
+/*------------------------------------*/
+.sliderLayoutContainer--depto-mobile {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+.sliderLayoutContainer--depto-mobile {
+    display: flex;
+  }
+.sliderTrackContainer.sliderTrackContainer--deals.sliderTrackContainer--depto-mobile {
+  margin: 0 25px;
+}
+.sliderLeftArrow--depto-mobile {
+  margin: 0;
+  padding: 0;
+}
+.sliderRightArrow--deals.sliderRightArrow--depto-mobile {
+  padding: 0;
+  margin: 0;
+}
+.slide--depto-mobile {
+  margin: 0 6px;
+}
+.sliderLayoutContainer--deals.sliderLayoutContainer--depto-mobile {
+  margin-top: -30px;
+}
+}

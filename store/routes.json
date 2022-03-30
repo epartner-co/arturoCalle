@@ -64,5 +64,8 @@
   },
   "store.custom#condiciones-actividades-comerciales": {
     "path": "/condiciones-actividades-comerciales"
+  },
+  "store.custom#login": {
+    "path": "/login-custom"
   }
 }

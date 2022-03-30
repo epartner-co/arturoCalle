@@ -1,0 +1,19 @@
+.container--home__product__Hombre .listItem :global(.vtex-button) {
+  width: 100%;
+  font-weight: 700;
+  color: #181E2A;
+  background-color: #EEEEEE;
+}
+.container--home__product__Hombre .listItemActive :global(.vtex-button) {
+  background-color: #181E2A;
+  border: none;
+  color: white;
+}
+/*------------------------------------*/
+/*    MOBILE DEPARTAMENTO HOMBRE      */
+/*------------------------------------*/
+@media screen and (max-width: 700px) {
+.container--home__product__Hombre .listItem {
+  width: 43%;
+}
+}

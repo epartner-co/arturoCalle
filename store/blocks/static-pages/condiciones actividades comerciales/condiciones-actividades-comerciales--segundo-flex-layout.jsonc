@@ -1,0 +1,346 @@
+{
+    "flex-layout.row#informacion--condiciones-actividades-comerciales2":{
+        "props":{
+            "blockClass":"informacion--condiciones-actividades-comerciales"
+        },
+        "children":[
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--2-1",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--2-2",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--2-3",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--2-4"
+        ]
+    },
+    /*contenedores de los grid---inicio*/
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--2-1":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-2-1"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--2-2":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-2-2"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--2-3":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-2-3"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--2-4":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-2-4"
+        ]
+    },
+    /*contenedores de los grid---final*/
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 1                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-2-1":{
+      "children": [
+          "flex-layout.col#grid-2-1",
+          "modal-layout#grid-2-1"
+        ]
+    },
+    "flex-layout.col#grid-2-1":{
+        "children":[
+          "image#condiciones-actividades-comerciales--2-1",
+          "rich-text#grid-2-1--fecha",
+          "rich-text#grid-2-1--titulo",
+          "rich-text#grid-2-1--ver--mas"
+        ]
+    },
+    "rich-text#grid-2-1--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "ENE.2021"
+      }
+    },
+    "rich-text#grid-2-1--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "MARTES ITAÚ"
+      }
+    },
+    "rich-text#grid-2-1--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--2-1":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales3.webp"
+        }
+    },
+    "modal-layout#grid-2-1": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-2-1",
+          "rich-text#modal-content--titulo--grid-2-1",
+          "rich-text#modal-content--grid-2-1"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-2-1": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "ENE.2021"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-2-1": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text":"MARTES ITAÚ"
+
+      }
+    },
+    "rich-text#modal-content--grid-2-1": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "30% DE DESCUENTO CON LAS TARJETAS DE CREDITO DEL BANCO ITAU EN WWW.ARTUROCALLE.COM, EN LAS TIENDAS ARTURO CALLE Y A TRAVÉS DEL CANAL DE VENTAS DE WHATSAPP \n \n Descuento del 30% en todos los productos de la tienda virtual www.arturocalle.com y en las tiendas físicas ARTURO CALLE, ARTURO CALLE KIDS, ARTURO CALLE LEATHER, así como a través del canal de ventas de WhatsApp de Arturo Calle. Válido para las compras realizadas los días MARTES de marzo (1,8,15,22,29) de 2022. El descuento aplica para compras cuyo precio de venta antes de descuentos no supere la suma de $500.000. Aplicable usando como medio de pago las tarjetas de crédito Visa y MasterCard del Banco ITAÚ. El descuento se calcula sobre el valor total de la compra antes de IVA. El descuento otorgado hace parte del Convenio Marco de Alianza Comercial suscrito con ITAÚ CORPBANCA COLOMBIA S.A. \n \n CONDICIONES GENERALES \n \n Aplica exclusivamente para las compras cuyo valor total del producto antes de descuento sea menor o igual a $500.000. El valor total de la factura debe ser menor o igual a $500.000. La atención en las Tiendas Físicas y el canal de ventas de WhatsApp, estará sujeta a las disposiciones adoptadas por el Gobierno nacional y local, con ocasión de la emergencia sanitaria. \n \n Para los productos adquiridos por medio del canal de ventas virtual www.arturocalle.com, el descuento generado con las tarjetas de crédito Visa y MasterCard del Banco ITAÚ, se indicará en el Check Out o finalización de compra, una vez sean seleccionados los productos que se pretenden adquirir. Para las compras realizadas por el canal de WhatsApp, se deberán revisar los términos y condiciones ver en: https://bit.ly/ventaswpAc . \n \n No aplica para la Tarjetas débito con funcionalidad de Tarjeta de crédito. \n \n No aplica para la compra de certificados de regalo, ni productos de ventas y negocios corporativos, ni para tiendas Outlet. \n \n No aplica para tarjetas de crédito empresariales o de soluciones comerciales, ni marca propia Válido solo para compras no para cambios. \n \n Los productos y servicios financieros son ofrecidos por ITAÚ CORPBANCA COLOMBIA S.A. \n \n Este descuento no acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra, salvo los indicados a continuación. \n \n DESCUENTOS ADICIONALES EN LAS COMPRAS \n \n Adicionalmente al descuento del 30% aplicable en todos los productos utilizando como medio de pago las tarjetas de crédito Visa y MasterCard del Banco ITAÚ, Arturo Calle tendrá, en todos sus canales de comercialización, productos con descuentos adicionales para referencias seleccionadas, los cuales se encuentran en la sección ofertas en el caso de la tienda virtual (www.arturocalle.com) que podrán ser identificadas con el porcentaje de descuento correspondiente, y en el caso de las tiendas físicas podrán ser identificados con un sticker donde se indica el porcentaje de descuento. Los descuentos son del (35%). \n \n Estos descuentos en oferta aplican de manera simultánea con el descuento del 30% aplicable en todos los productos utilizando como medio de pago las tarjetas de crédito Visa y MasterCard del Banco ITAÚ, conferido por Arturo Calle, en todos sus canales de comercialización. A modo de ejemplo un producto en oferta adquirido durante la vigencia del descuento contará: Con el descuento del 30% aplicable en todos los productos utilizando como medio de pago las tarjetas de crédito Visa y MasterCard del Banco ITAÚ, más el descuento del producto en oferta (35%). \n \n Tenga en cuenta que los descuentos se calculan sobre el valor total de la compra antes de IVA. Los productos en oferta con los descuentos indicados no tienen cambio, sin perjuicio del derecho a la efectividad de la garantía y el derecho de retracto. \n \n Estos descuentos también son aplicables para las ventas por WhatsApp, a las cuales les aplican T&C ver en: https://bit.ly/ventaswpAc"
+      }
+    },
+    /*--------------------------------------final grid 1-------------------------------- */
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 2                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-2-2":{
+      "children": [
+          "flex-layout.col#grid-2-2",
+          "modal-layout#grid-2-2"
+        ]
+    },
+    "flex-layout.col#grid-2-2":{
+        "children":[
+            "image#condiciones-actividades-comerciales--2-2",
+          "rich-text#grid-2-2--fecha",
+          "rich-text#grid-2-2--titulo",
+          "rich-text#grid-2-2--ver--mas"
+        ]
+    },
+    "rich-text#grid-2-2--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "MAR.2022"
+      }
+    },
+    "rich-text#grid-2-2--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "20%DTO SEGUNDO \n ARTÍCULO"
+      }
+    },
+    "rich-text#grid-2-2--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--2-2":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales1.webp"
+        }
+    },
+    "modal-layout#grid-2-2": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-2-2",
+          "rich-text#modal-content--titulo--grid-2-2",
+        "rich-text#modal-content--grid-2-2"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-2-2": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "MAR.2022"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-2-2": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "20%DTO SEGUNDO ARTÍCULO"
+      }
+    },
+    "rich-text#modal-content--grid-2-2": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "20% DE DESCUENTO EN EL SEGUNDO ARTICULO \n \n “Imágenes de referencia. Recibe 20% de descuento en el segundo articulo adquirido en la tienda virtual Arturo Calle (www.arturocalle.com ). El descuento será aplicado en máximo 5 artículos cuando se adquieran 10 artículos, a modo de ejemplo (Por compras de 2 o 3 artículos se le realizará el descuento a 1 artículo, por compras de 4 o 5 artículos se le realizará el descuento a 2 artículos, por compras de 6 o 7 artículos de le realizará el descuento a 3 artículos, por compras de 8 o 9 artículo se le realizará el descuento a 4 artículos, por la compra de 10 artículos se le realizará el descuento a 5 artículos). El descuento será aplicado al producto de menor valor. Aplicable con cualquier medio de pago. Aplica para los productos adquiridos en una misma compra y que se encuentren en una misma factura. Válido del 25 al 31 de marzo de 2022. Aplica exclusivamente para los productos adquiridos en la tienda virtual Arturo Calle (www.arturocalle.com). No aplica para los productos de la sección SALE/OFERTAS. No aplica en tiendas físicas, ni ventas por WhatsApp. No acumulable con otros descuentos y promociones adicionales vigentes al momento de la compra. Valido solo para compras no para cambios. No aplica para la compra de certificados de regalo, ni ventas y negocios corporativos.”"
+      }
+    },
+    /*--------------------------------------final grid 2-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 3                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-2-3":{
+      "children": [
+          "flex-layout.col#grid-2-3",
+          "modal-layout#grid-2-3"
+        ]
+    },
+    "flex-layout.col#grid-2-3":{
+        "children":[
+            "image#condiciones-actividades-comerciales--2-3",
+          "rich-text#grid-2-3--fecha",
+          "rich-text#grid-2-3--titulo",
+          "rich-text#grid-2-3--ver--mas"
+        ]
+    },
+    "rich-text#grid-2-3--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "NOV.2020"
+      }
+    },
+    "rich-text#grid-2-3--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "FRAGANCIA AC KIDS"
+      }
+    },
+    "rich-text#grid-2-3--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--2-3":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales4.webp"
+        }
+    },
+    "modal-layout#grid-2-3": {
+      "props":{
+          "scroll":"body ",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-2-3",
+          "rich-text#modal-content--titulo--grid-2-3",
+        "rich-text#modal-content--grid-2-3"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-2-3": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "NOV.2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-2-3": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "FRAGANCIA AC KIDS"
+      }
+    },
+    "rich-text#modal-content--grid-2-3": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "“Descuento del 15% en la fragancia Ac Kids, con cualquier medio de pago en la tienda virtual www.arturocalle.com y en las tiendas físicas ARTURO CALLE, así como a través del canal de ventas de WhatsApp de Arturo Calle. Registro Sanitario NSOC65746-16CO, producto inflamable, no aplicar cercade los ojos, manténgase fuera del alcance de los niños, uso externo, mantener en un lugar fresco y seco alejado de fuentes de ignición. En caso de ser usado por niños, su manipulación debe efectuarse bajo la supervisión y asistencia de un adulto responsable. Productos sujetos a disponibilidad referencias e inventario, punto de venta y canal de comercialización. Valido del 25 de noviembre al 31 de diciembre de 2020. El descuento se calcula sobre el valor total de la compra antes de IVA."
+      }
+    },
+    /*--------------------------------------final grid 3-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 4                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-2-4":{
+      "children": [
+          "flex-layout.col#grid-2-4",
+          "modal-layout#grid-2-4"
+        ]
+    },
+    "flex-layout.col#grid-2-4":{
+        "children":[
+            "image#condiciones-actividades-comerciales--2-4",
+          "rich-text#grid-2-4--fecha",
+          "rich-text#grid-2-4--titulo",
+          "rich-text#grid-2-4--ver--mas"
+        ]
+    },
+    "rich-text#grid-2-4--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "JUN. 2021"
+      }
+    },
+    "rich-text#grid-2-4--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "ADDI"
+      }
+    },
+    "rich-text#grid-2-4--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--2-4":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales5.webp"
+        }
+    },
+    "modal-layout#grid-2-4": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-2-4",
+          "rich-text#modal-content--titulo--grid-2-4",
+        "rich-text#modal-content--grid-2-4"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-2-4": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "JUN. 2021"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-2-4": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "ADDI"
+      }
+    },
+    "rich-text#modal-content--grid-2-4": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "El beneficio “Sin intereses y sin costos adicionales” aplica para la compra de productos de la marca Arturo Calle usando ADDI como medio de pago, diferida a tres (3) cuotas y cuyo valor sea entre $50.000 y $1.500.000. Válido del 17 de septiembre de 2021 al 16 de junio de 2022. Para más información sobre este beneficio, por favor dirígete a https://co.addi.com/tyc-0-interes. \n \n Para acceder al servicio de financiamiento el cliente deberá tener cédula de ciudadanía y servicio de WhatsApp en su celular, al momento de la compra. Los créditos estarán disponibles en www.arturocalle.com y en las tiendas físicas Arturo Calle. No aplica para ventas por WhatsApp. \n \n Comercializadora Arturo Calle S.A.S. se reserva el derecho de restringir la disponibilidad del servicio de financiamiento ofrecido por ADDI en las tiendas físicas o sitios de comercio electrónico que determine y de modificar el término de vigencia del beneficio. \n \n Los servicios de financiamiento son ofrecidos y prestados exclusivamente por Adelante Soluciones Financieras S.A.S. (“ADDI”). Comercializadora Arturo Calle S.A.S. no tiene responsabilidad ni injerencia en estos servicios. \n \n El crédito estará sujeto a las Políticas de Crédito de ADDI y Términos y Condiciones de sus servicios, los cuales podrán ser consultados en https://co.addi.com/ y en https://co.addi.com/terminos-y-condiciones"
+      }
+    }
+    /*--------------------------------------final grid 4-------------------------------- */
+}

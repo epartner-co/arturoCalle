@@ -1,0 +1,346 @@
+{
+    "flex-layout.row#informacion--condiciones-actividades-comerciales7":{
+        "props":{
+            "blockClass":"informacion--condiciones-actividades-comerciales"
+        },
+        "children":[
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--7-1",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--7-2",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--7-3",
+          "flex-layout.col#informacion--condiciones-actividades-comerciales--7-4"
+        ]
+    },
+    /*contenedores de los grid---inicio*/
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--7-1":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-7-1"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--7-2":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-7-2"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--7-3":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-7-3"
+        ]
+    },
+    "flex-layout.col#informacion--condiciones-actividades-comerciales--7-4":{
+        "props":{
+            "blockClass":"grid"
+        },
+        "children":[
+          "modal-trigger#grid-7-4"
+        ]
+    },
+    /*contenedores de los grid---final*/
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 1                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-7-1":{
+      "children": [
+          "flex-layout.col#grid-7-1",
+          "modal-layout#grid-7-1"
+        ]
+    },
+    "flex-layout.col#grid-7-1":{
+        "children":[
+          "image#condiciones-actividades-comerciales--7-1",
+          "rich-text#grid-7-1--fecha",
+          "rich-text#grid-7-1--titulo",
+          "rich-text#grid-7-1--ver--mas"
+        ]
+    },
+    "rich-text#grid-7-1--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "JUL. 2020"
+      }
+    },
+    "rich-text#grid-7-1--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN HIGH TECH"
+      }
+    },
+    "rich-text#grid-7-1--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--7-1":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales21.webp"
+        }
+    },
+    "modal-layout#grid-7-1": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-7-1",
+          "rich-text#modal-content--titulo--grid-7-1",
+          "rich-text#modal-content--grid-7-1"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-7-1": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "JUL. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-7-1": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text":"COLECCIÓN HIGH TECH"
+
+      }
+    },
+    "rich-text#modal-content--grid-7-1": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. Aplica para las prendas identificadas con la etiqueta High Tech. Nuestra Colección Camisas Alta Tecnología es realizada con tela Induo®, que cuenta con una combinación de tecnología y diseño que ofrece seguridad, confort y elegancia, al ser confeccionadas en 100% algodón no tradicional que brinda resistencia, transpirabilidad, repelencia a líquidos y manchas, manteniéndote libre de olores. La camisa mantiene sus características hasta por 40 posturas mientras se sigan las instrucciones de uso y cuidado. Previo al uso de los productos de la Colección Camisas Alta Tecnologia con tela Induo®, el usuario debe revisar las características e instrucciones de uso y cuidado para el adecuado manejo del producto. Aplica para las prendas identificadas con la etiqueta High Tech"
+      }
+    },
+    /*--------------------------------------final grid 1-------------------------------- */
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 2                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-7-2":{
+      "children": [
+          "flex-layout.col#grid-7-2",
+          "modal-layout#grid-7-2"
+        ]
+    },
+    "flex-layout.col#grid-7-2":{
+        "children":[
+            "image#condiciones-actividades-comerciales--7-2",
+          "rich-text#grid-7-2--fecha",
+          "rich-text#grid-7-2--titulo",
+          "rich-text#grid-7-2--ver--mas"
+        ]
+    },
+    "rich-text#grid-7-2--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "JUL. 2020"
+      }
+    },
+    "rich-text#grid-7-2--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "COLECCIÓN SUPER \n STRETCH"
+      }
+    },
+    "rich-text#grid-7-2--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--7-2":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales22.webp"
+        }
+    },
+    "modal-layout#grid-7-2": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-7-2",
+          "rich-text#modal-content--titulo--grid-7-2",
+        "rich-text#modal-content--grid-7-2"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-7-2": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "JUL. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-7-2": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "COLECCIÓN SUPER STRETCH"
+      }
+    },
+    "rich-text#modal-content--grid-7-2": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. Aplica para las prendas identificadas con la etiqueta Techno Shirt. \n \n Nuestra Colección de Camisas Super Stretch cuenta con una combinación de tecnología y diseño que ofrece seguridad, confort y elegancia, al ser confeccionadas mediante “tejido de punto” brindando las siguientes condiciones especiales: Comodidad Extra, la cual genera elongación en todas las direcciones, proporcionando confort y libertad de movimiento. \n \n Transpirabilidad, la construcción del tejido no impide la transpirabilidad natural del cuerpo a lo largo del tiempo. Absorben la humedad natural del cuerpo otorgando transpirabilidad y un secado rápido. Fácil Mantenimiento y Alta Recuperación de Arrugas por su tejido, por lo que la prenda se mantiene con una apariencia lisa y con un aspecto impecable durante el día (comparada con una camisa elaborada en algodón 100% donde las arrugas son una característica natural de la prenda). \n \n Previo al uso de los productos de la Colección Super Stretch, el usuario debe revisar las características e instrucciones de uso y cuidado para el adecuado manejo del producto. Aplica para las prendas identificadas con la etiqueta Techno Shirt."
+      }
+    },
+    /*--------------------------------------final grid 2-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 3                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-7-3":{
+      "children": [
+          "flex-layout.col#grid-7-3",
+          "modal-layout#grid-7-3"
+        ]
+    },
+    "flex-layout.col#grid-7-3":{
+        "children":[
+            "image#condiciones-actividades-comerciales--7-3",
+          "rich-text#grid-7-3--fecha",
+          "rich-text#grid-7-3--titulo",
+          "rich-text#grid-7-3--ver--mas"
+        ]
+    },
+    "rich-text#grid-7-3--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "JUN. 2020"
+      }
+    },
+    "rich-text#grid-7-3--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "TIE & DYE"
+      }
+    },
+    "rich-text#grid-7-3--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--7-3":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales23.webp"
+        }
+    },
+    "modal-layout#grid-7-3": {
+      "props":{
+          "scroll":"body ",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-7-3",
+          "rich-text#modal-content--titulo--grid-7-3",
+        "rich-text#modal-content--grid-7-3"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-7-3": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "JUN. 2020"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-7-3": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "TIE & DYE"
+      }
+    },
+    "rich-text#modal-content--grid-7-3": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. La disponibilidad de inventario puede variar de acuerdo a la ciudad, punto de venta y canal de comercialización. Los Kit de Adultos y Kids se venden por separado. Los precios indicados son de referencia, el precio del producto puede variar de acuerdo con la referencia y características del producto. En caso de que este producto sea usado por los niños, su manipulación debe efectuarse bajo la supervisión y asistencia de un adulto responsable. Previo al uso y manipulación de los productos Tie Dye, se deberán revisar las Instrucciones de Cuidado y se deberán atender las recomendaciones de seguridad y uso, teniendo en cuenta que el uso incorrecto no solo puede provocar el daño del producto sino lesiones a quien lo manipula y usa"
+      }
+    },
+    /*--------------------------------------final grid 3-------------------------------- */
+
+
+    /*--------------------------------------------------------------------------*/
+    /*                           grid 4                                         */
+    /*--------------------------------------------------------------------------*/
+    "modal-trigger#grid-7-4":{
+      "children": [
+          "flex-layout.col#grid-7-4",
+          "modal-layout#grid-7-4"
+        ]
+    },
+    "flex-layout.col#grid-7-4":{
+        "children":[
+            "image#condiciones-actividades-comerciales--7-4",
+          "rich-text#grid-7-4--fecha",
+          "rich-text#grid-7-4--titulo",
+          "rich-text#grid-7-4--ver--mas"
+        ]
+    },
+    "rich-text#grid-7-4--fecha": {
+      "props": {
+          "blockClass":"text-grid-fecha",
+        "text": "SEP. 2019"
+      }
+    },
+    "rich-text#grid-7-4--titulo": {
+      "props": {
+          "blockClass":"text-grid-titulo",
+        "text": "SLIM WALLET"
+      }
+    },
+    "rich-text#grid-7-4--ver--mas": {
+      "props": {
+          "blockClass":"text-grid--ver--mas",
+        "text": "Ver más >"
+      }
+    },
+    
+    "image#condiciones-actividades-comerciales--7-4":{
+      "props": {
+          "maxHeight": 300,
+          "src": "assets/desk/static-pages/condiciones-actividades-comerciales24.webp"
+        }
+    },
+    "modal-layout#grid-7-4": {
+      "props":{
+          "scroll":"body",
+          "blockClass":"modal-layout--contenedor"
+      },
+      "children": [
+          "modal-header",
+          "rich-text#modal-content--fecha--grid-7-4",
+          "rich-text#modal-content--titulo--grid-7-4",
+        "rich-text#modal-content--grid-7-4"
+      ]
+    },
+    "rich-text#modal-content--fecha--grid-7-4": {
+      "props": {
+          "blockClass":"fecha--condiciones-actividades-comerciales",
+        "text": "SEP. 2019"
+      }
+    },
+    "rich-text#modal-content--titulo--grid-7-4": {
+      "props": {
+          "blockClass":"sub--titulos1--condiciones-actividades-comerciales",
+        "text": "SLIM WALLET"
+      }
+    },
+    "rich-text#modal-content--grid-7-4": {
+      "props": {
+          "blockClass":"contenido--condiciones-actividades-comerciales",
+        "text": "Imágenes de referencia. Productos sujetos a disponibilidad de referencia e inventario. La disponibilidad de inventario puede variar de acuerdo a la ciudad, punto de venta y canal de comercialización. Nuestras billeteras SLIM WALLET cuentan con una combinación de tecnología y diseño que brinda seguridad y elegancia con características especiales como se indica a continuación: \n \n La Billetera SLIM WALLET, cuenta con un botón **“push”** o de despliegue que permite expulsar y retirar con facilidad las tarjetas (límite de 6 de acuerdo con lo indicado en el manual del usuario), un sistema de seguridad RFID Blocker ubicado en el espacio destinado para alojar las tarjetas denominado “Card Protector” el cual está elaborado con un aluminio especial que bloquea la lectura de información enviada por las tarjetas con tecnología RFID, y a pesar de su tamaño compacto cuenta con un espacio denominado **“Money Flap”** donde se pueden almacenar billetes (límite de 8 de acuerdo con lo indicado en el manual del usuario). El usuario debe revisar el manual de usuario aquí, en donde encontrará las características e instrucciones de uso y cuidado para el adecuado manejo del producto."
+      }
+    }
+    /*--------------------------------------final grid 4-------------------------------- */
+}
