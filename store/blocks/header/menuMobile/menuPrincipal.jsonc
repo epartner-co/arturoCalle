@@ -16,7 +16,7 @@
           "orientation": "vertical"
         }
     },
-    // menu items principales 
+    // menu items principales
     "menu-item#category-hombre-M": {
         "props": {
           "id": "menu-item-category-hombre",
@@ -26,7 +26,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Hombre",
             "text": "HOMBRE"
@@ -45,7 +45,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/woman",
             "noFollow": false,
             "tagTitle": "Woman",
             "text": "Woman"
@@ -64,7 +64,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino",
             "noFollow": false,
             "tagTitle": "Niño",
             "text": "Niño"
@@ -83,7 +83,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina",
             "noFollow": false,
             "tagTitle": "Niña",
             "text": "Niña"
@@ -102,7 +102,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/viaje",
             "noFollow": false,
             "tagTitle": "Viaje",
             "text": "Viaje"
@@ -121,7 +121,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom",
             "noFollow": false,
             "tagTitle": "Freedom",
             "text": "Freedom"
@@ -140,7 +140,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/AC-ofertas",
             "noFollow": false,
             "tagTitle": "Ofertas",
             "text": "Ofertas"
@@ -159,7 +159,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/lista-de-deseos",
             "noFollow": false,
             "tagTitle": "Lista de deseos",
             "text": "Lista de deseos"
@@ -175,7 +175,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/login?ReturnUrl=%2f_secure%2faccount",
             "noFollow": false,
             "tagTitle": "Mi cuenta",
             "text": "Mi cuenta"
