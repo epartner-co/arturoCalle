@@ -19,13 +19,13 @@
 
 .nameContainer {
   justify-content: start;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .brandName {
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 15px;
   color: #2E2E2E;
 }
 
@@ -58,3 +58,24 @@
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/*Vitrina camilo*/
+.skuSelectorContainer--vitrina {
+  margin: 0 !important;
+}
+.skuSelectorItem--selected{
+  border: 1px solid black;
+}
+.valueWrapper--vitrina {
+  font-size: 11px;
+  padding: 0 9px;
+}
+
+.skuSelectorItem {
+  height: 25px;
+}
+/*vitrina*/
+.nameWrapper {
+  min-height: 38px;
+  padding: 0 5px;
+}

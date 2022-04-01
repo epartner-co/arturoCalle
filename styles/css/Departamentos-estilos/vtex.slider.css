@@ -1,0 +1,6 @@
+.dotsContainer {
+  margin-right: -50%;
+  transform: translate(-50%, 0);
+  left: 50%;
+  display: none;
+}

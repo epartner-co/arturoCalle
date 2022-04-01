@@ -1,0 +1,53 @@
+{
+    // Filtros disclousare
+    "disclosure-layout#filtros": {
+        "children": ["disclosure-trigger#filtros","disclosure-content#filtros"],
+        "props": {
+            "blockClass": "filtros"
+        }
+    },
+    "disclosure-trigger#filtros": {
+        "children": ["rich-text#filtroTitulo"],
+            "props": {
+            "blockClass": "fitroTrigger"  
+        }
+    },
+    "disclosure-trigger#filtros1": {
+        "children": ["rich-text#filtroTitulo"],
+            "props": {
+            "blockClass": ["fitroTrigger","fitroTrigger2"]
+        }
+    },
+    "rich-text#filtroTitulo": {
+        "props": {
+            "text": "Todos los Filtros",
+            "blockClass": ["tituloFiltro","tituloFiltro2"]
+        }
+    },
+    "disclosure-content#filtros": {
+        "children": ["flex-layout.col#contenedorFiltros"],
+        "props": {
+            "blockClass": "filtroContent"
+        }
+    },
+    "flex-layout.col#contenedorFiltros": {
+        "children": [
+            "disclosure-trigger#filtros1","filter-navigator.v3#category"
+        ],
+        "props": {
+          "blockClass": "filtroContent"
+        }
+    },
+    "filter-navigator.v3#category":{
+        "props":{
+            "initiallyCollapsed": "false",
+            "blockClass":"filtros"
+        }
+    },
+    "filter-navigator.v3#category2":{
+        "props":{
+            "initiallyCollapsed": "false",
+            "blockClass":"filtros2"
+        }
+    }
+}

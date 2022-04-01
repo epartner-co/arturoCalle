@@ -1,3 +1,4 @@
+/*Inicio list price*/
 .listPrice {
   color: #727273;
   margin-bottom: .25rem;
@@ -10,8 +11,8 @@
 }
 
 .sellingPriceValue {
-  font-size: 2.25rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .installments {
@@ -76,4 +77,22 @@
   vertical-align: baseline;
   color: #FFFFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+/*Product*/
+.currencyDecimal {
+  display: none;
+}
+
+.currencyFraction {
+  display: none;
+}
+
+/*vitrina*/
+.sellingPrice--summary{
+  padding: 0 5px;
+  margin: 0px;
+}
+.sellingPrice{
+  margin: 0 !important;
 }

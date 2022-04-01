@@ -97,6 +97,7 @@
     "props": {
       "blockClass": "home__mis-pedidos--mi-cuenta",
       "itemProps": {
+        "href":"/Account#/profile",
         "text": "Mi cuenta"
       }
     }

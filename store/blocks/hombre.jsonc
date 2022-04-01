@@ -77,7 +77,8 @@
 },
 "flex-layout.col#shoes-hombre-left": {
   "props": {
-    "width": "25%"
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-1"]
   },
   "children": [
     "info-card#col-shoes-hombre-left",
@@ -153,7 +154,8 @@
 },
 "flex-layout.col#shirt-hombre-right": {
   "props": {
-    "width": "25%"
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-2"]
   },
   "children": [
     "info-card#col-shirt-hombre-right",
@@ -239,7 +241,7 @@
 
 "flex-layout.row#hombre-banner2": {
   "props": {
-    "blockClass": ["more","depto-desk"]
+    "blockClass": ["bannerfinal" ,"more", "depto-desk"]
   },
   "children": [
     "flex-layout.col#left-hombre",

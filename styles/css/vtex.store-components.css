@@ -364,7 +364,7 @@ input#downshift-1-input {
 /*---------------------------------------------*/
 /* imagenes iconos redes sociales              */
 /*---------------------------------------------*/
-.imageElement--social-network--Facebook{
+/*.imageElement--social-network--Facebook{
   margin-left: 580px;
   width:20px;
 }
@@ -378,7 +378,7 @@ input#downshift-1-input {
 .imageElement--social-network--Youtube{
   margin-left: 730px;
 }
-
+*/
 .imageElement--social-network--Facebook:hover{
   opacity: 0.3;
 }
@@ -419,7 +419,6 @@ input#downshift-1-input {
 .imageElement--logo--payu{
   height: 20px;
   margin-left: 5px;
-  margin-top: 5px;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
@@ -506,12 +505,6 @@ input#downshift-1-input {
 }
 
 
-.skuSelectorNameContainer{
-  position: relative;
-  margin-top: 17px;
-}
-
-
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -564,9 +557,7 @@ input#downshift-1-input {
 }
 
 .skuSelectorOptionsList{/*diferentes opciones de productos---se colocan los que estan cargados en el sistema*/
-  position: relative;
-  top: -38px;
-  left: 54px;
+  margin: 0;
 }
 
 .imageElement--Descripcion--producto--suma--imag{
@@ -682,3 +673,336 @@ input#downshift-1-input {
     display: block;
   }
 }
+
+
+/*Estilos Camilo*/
+
+/*Product*/
+.thumbImg {
+  border: 1px solid;
+  border-bottom: 3px solid;
+}
+.thumbImg {
+  width: 85%;
+}
+.carouselGaleryThumbs{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: -20px;
+  height: 90px;
+}
+.swiperPaginationClickable{
+  display: none;
+}
+/*Colors*/
+.skuSelectorItem--rosa-lavanda {
+  background: #9b90b5;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul {
+  background: #08356d;
+  border-radius: 7px;
+}
+
+
+
+
+.skuSelectorItem--azul-marino {
+  background: #08356d;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-royal {
+  background: #052446;
+  border-radius: 7px;
+}
+.skuSelectorItem--naranja-claro {
+  background: #fea827;
+  border-radius: 7px;
+}
+.skuSelectorItem--morado  {
+  background: #8d2074;
+  border-radius: 7px;
+}
+.skuSelectorItem--negro  {
+  background: black;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-manzana {
+  background: #b7df53;
+  border-radius: 7px;
+}
+.skuSelectorItem--esmeralda {
+  background: #017d30;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-grafito, .skuSelectorItem--gris-plata , .skuSelectorItem--gris-granito {
+  background: #666;
+  border-radius: 7px;
+}
+.skuSelectorItem--mostaza {
+  background: #f1aa03;
+  border-radius: 7px;
+}
+.skuSelectorItem--lavanda {
+  background: #9b90b5;
+  border-radius: 7px;
+}
+.skuSelectorItem--blanco{
+  background: white;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-pino{
+  background: #5c523c;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-oscuro{
+  background: #003517;
+  border-radius: 7px;
+}
+.skuSelectorItem--escarlata{
+  background: #dc0000;
+  border-radius: 7px;
+}
+.skuSelectorItem--sangria{
+  background: #741933;
+  border-radius: 7px;
+}
+.skuSelectorItem--rosa-sachet{
+  background: #f98db3;
+  border-radius: 7px;
+}
+.skuSelectorItem--palo-de-rosa{
+  background: #f98db3;
+  border-radius: 7px;
+}
+.skuSelectorItem--rojo-persa{
+  background: #f98db3;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo{
+  background: #fff018;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-claro{
+  background: #c5c5c5;
+  border-radius: 7px;
+}
+.skuSelectorItem--navy{
+  background: #052446;
+  border-radius: 7px;
+}
+.skuSelectorItem--magenta{
+  background: #f52e5c;
+  border-radius: 7px;
+}
+.skuSelectorItem--cafe{
+  background: #82501e;
+  border-radius: 7px;
+}
+.skuSelectorItem--cafe-oscuro{
+  background: #3F2817;
+  border-radius: 7px;
+}
+.skuSelectorItem--taupe{
+  background: #C0B5AB;
+  border-radius: 7px;
+}
+.skuSelectorItem--indigo{
+  background: #014ba2;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-prusia{
+  background: #003153;
+  border-radius: 7px;
+}
+.skuSelectorItem--aguamarina, .skuSelectorItem--turquesa{
+  background: #98e9fc;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-malibu{
+  background: #d3eef5;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-malibu{
+  background: #FFFF00;
+  border-radius: 7px;
+}
+.skuSelectorItem--abeto{
+  background: #6F8544;
+  border-radius: 7px;
+}
+.skuSelectorItem--marron{
+  background: #804000;
+  border-radius: 7px;
+}
+.carouselGaleryCursor{
+  background: white;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.productImagesContainer--carousel {
+  margin: 0 4% 0 0;
+  padding: 0 0 0 2% !important;
+}
+.imageElement--imgCategoriaSlider {
+  width: 85%;
+}
+
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorName::before {
+  content:"Color disponible";
+  font-size: .875rem;
+  text-transform: uppercase;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorName {
+  font-size: 0;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla .skuSelectorName {
+  text-transform: uppercase;
+}
+
+
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorItemTextValue {
+  font-size: 0;
+}
+.frameAround{
+  display: none;
+}
+.skuSelectorContainer--selector .skuSelectorItem--selected{
+  border: 2px solid;
+  border-radius: 5px;
+}
+.skuSelectorContainer--selector .skuSelectorInternalBox{
+  border: 1px solid #afafaf59;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores {
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 15px;
+}
+
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla {
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 15px;
+  padding-top: 18px;
+}
+.container{
+  padding: 0px;
+}
+.skuSelectorOptionsList {
+  margin: 0;
+}
+/*Contenido*/
+.contentContainer {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  border: 1px solid #d9d9d9;
+}
+
+.content {
+  font-size: 1rem;
+  padding: 0 4%;
+  font-weight: 100;
+}
+
+.productDescriptionTitle {
+  padding: 20px 4% 0 4%;
+  font-size: 1rem;
+}
+/*Colores vitrinas*/
+.skuSelectorSubcontainer--colores .skuSelectorItemTextValue{
+  font-size: 0 !important;
+}
+
+.skuSelectorSubcontainer--colores .skuSelectorItem--selected {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.skuSelectorName {
+  display: none;
+}
+
+.skuSelectorContainer--selector .skuSelectorName{
+  display: block;
+}
+.skuSelectorSubcontainer {
+  margin-bottom: 0;
+}
+.skuSelectorSubcontainer--colores .skuSelectorItem{
+  width: 24px;
+  height: 24px;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--colores .skuSelectorItem{
+  width: initial;
+  height: 36px;
+}
+.skuSelectorTextContainer {
+  display: none;
+}
+.skuSelectorContainer--selector .skuSelectorTextContainer {
+  display: block;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla {
+  display: flex !important;
+}
+.skuSelectorContainer--selector .skuSelectorSubcontainer--talla {
+  opacity: initial;
+  visibility: initial;
+  transition: 1s;
+  position: initial;
+  top: 0;
+}
+.skuSelectorSubcontainer--talla {
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+  position: absolute;
+  top: -20px;
+}
+.skuSelectorContainer{
+  transition: 1s;
+}
+.skuSelectorContainer:hover .skuSelectorSubcontainer--talla{
+  display: flex;
+  top: 0;
+  position: relative;
+  opacity: 1;
+  visibility: visible;
+} 
+
+/*Especifi*/
+.specificationsTitle--especificacionesdeta, .specificationsTitle--especificacionesapli {
+  display: none;
+}
+
+.specificationsTableHead--especificacionesdeta, .specificationsTableHead--especificacionesapli{
+  display: none;
+}
+
+.specificationItemProperty--especificacionesdeta, .specificationItemProperty--especificacionesapli{
+  display: none;
+}
+
+.specificationItemSpecifications--especificacionesdeta, .specificationItemSpecifications--especificacionesapli {
+  background: #fafafa;
+  padding: 2% 1%;
+  border: none;
+}
+
+.specificationsTable--especificacionesdeta, .specificationsTable--especificacionesapli {
+  background: #fafafa;
+}
+
+.content--especificacionesdeta, .content--especificacionesapli {
+  margin: 0;
+  padding: 0;
+}
+
+.specificationsTableContainer--especificacionesdeta, .specificationsTableContainer--especificacionesapli {
+  margin: 0;
+  padding: 0;
+}
+
+.productDescriptionTitle {
+    display: none;
+}
+

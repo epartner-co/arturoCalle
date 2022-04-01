@@ -20,7 +20,7 @@
   },
 
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": ["flex-layout.row#login"]
   },
 
   "login-content#default": {

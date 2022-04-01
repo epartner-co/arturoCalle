@@ -10,10 +10,28 @@
       "flex-layout.col#nina-deals4"
     ],
     "props": {
-      "blockClass": "deals",
+      "blockClass": ["deals","depto-desk"],
       "horizontalAlign": "center",
       "classBlock": "dealshome"
     }
+  },
+  "slider-layout#nina-deals-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": ["deals","depto-mobile"]
+    },
+    "children": [      
+      "image#nina-deal1M",
+      "image#nina-deal2M",
+      "image#nina-deal3M",
+      "image#nina-deal4M"]
   },
   //Fin de llamado de columnas superpiuestas en slide
 
@@ -117,6 +135,29 @@
       "text": "CAMISETAS",
       "blockClass": "deals"
     }
-  }
+  },
   //Fin columna 4
+
+  
+  "image#nina-deal1M": {
+    "props": {
+      "src": "https://callearturop.vtexassets.com/arquivos/dep-nina-tenis.jpg",
+      "maxHeight": "170px"
+    }
+  },
+  "image#nina-deal2M": {
+    "props": {
+      "src": "https://callearturop.vtexassets.com/arquivos/dep-nina-camisetas.jpg"
+    }
+  },
+  "image#nina-deal3M": {
+    "props": {
+      "src": "https://callearturop.vtexassets.com/arquivos/dep-nina-pantalones.jpg"
+    }
+  },
+  "image#nina-deal4M": {
+    "props": {
+      "src": "https://callearturop.vtexassets.com/arquivos/dep-nina-sweaters.jpg"
+    }
+  }
 }

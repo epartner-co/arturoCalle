@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'DINPro';
+    src: url(assets/DINPro-Bold.woff);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: 'DINPro';
+    src: url(assets/DINPro-Light.woff);
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: 'DINPro';
+    src: url(assets/DINPro-Medium.woff);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'DINPro';
+    src: url(assets/DINPro.woff);
+    font-weight: 300;
+
+  }
+  @font-face {
+    font-family: 'DINPro';
+    src: url(assets/DINPro-Black.woff);
+    font-weight: 900;
+
+  }

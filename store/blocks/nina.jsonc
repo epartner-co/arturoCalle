@@ -2,18 +2,24 @@
   "store.custom#nina": {
   "blocks": [
     "info-card#nina-home",
+    "info-card#nina-home-Mobile",
     //"list-context.image-list#demo",
     /* You can make references to blocks defined in other files.
      * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
     "__fold__.experimentalLazyAssets",
     "flex-layout.row#dealsNina",
-    "rich-text#shelf-title",
+    "slider-layout#nina-deals-mobile",
+    "rich-text#shelf-titleDepto",
     "flex-layout.row#shoes-nina",
     "flex-layout.row#shirt-nina",
     "flex-layout.row#nina-banner",
-    "flex-layout.row#product__tabs",
-    "shelf#cats",
+    "flex-layout.row#nina-bannerM",
+
+    "flex-layout.row#product__tabs-nina",
+
+
     "flex-layout.row#nina-banner2",
+    "flex-layout.row#nina-banner2M",
     "shelf#descubre-mas",
     "shelf#lo-mas-vendido"
   ]
@@ -59,7 +65,7 @@
 },
 "flex-layout.row#shoes-nina":{
   "props": {
-    "blockClass": "more"
+    "blockClass": ["more","vitrina1"]
   },
   "children": [
     "flex-layout.col#shoes-nina-left",
@@ -67,10 +73,12 @@
 },
 "flex-layout.col#shoes-nina-left": {
   "props": {
-    "width": "25%"
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-1"]
   },
   "children": [
-    "info-card#col-shoes-nina-left"
+    "info-card#col-shoes-nina-left",
+    "info-card#col-shoes-nina-leftM"
   ]
 },
 "flex-layout.col#shoes-nina-right": {
@@ -89,7 +97,7 @@
     //"textPosition": "left",
     "imageUrl": "assets/desk/nina/banner-vitrina1.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card-shoes-left"//,
+    "blockClass": ["info-card-shoes-left", "depto-desk"]
     //"textAlignment": "center"
   }
 },
@@ -102,7 +110,7 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 3,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
       "arrows": true,
       "showTitle": false
@@ -116,7 +124,7 @@
 /*------------------------------------------------------*/
 "flex-layout.row#shirt-nina":{
   "props": {
-    "blockClass": "more"
+    "blockClass": ["more","vitrina2"]
   },
   "children": [
     "flex-layout.col#shirt-nina-left",
@@ -132,10 +140,12 @@
 },
 "flex-layout.col#shirt-nina-right": {
   "props": {
-    "width": "25%"
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-2"]
   },
   "children": [
-    "info-card#col-shirt-nina-right"
+    "info-card#col-shirt-nina-right",
+    "info-card#col-shirt-nina-rightM"
   ]
 },
 "info-card#col-shirt-nina-right":{
@@ -146,8 +156,18 @@
     //"textPosition": "left",
     "imageUrl": "assets/desk/nina/banner-vitrina2.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card-shirt-right"//,
+    "blockClass": ["info-card-shirt-right", "depto-desk"]
     //"textAlignment": "center"
+  }
+},
+"info-card#col-shirt-nina-rightM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-vitrina2.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-shoes-left", "depto-mobile"]
   }
 },
 "shelf#shirt-nina": {
@@ -159,7 +179,7 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 3,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
       "arrows": true,
       "showTitle": false
@@ -172,11 +192,19 @@
 /*---------------------------------------------*/
 "flex-layout.row#nina-banner":{
   "props": {
-    "blockClass": "more"
+    "blockClass": ["more","depto-desk"]
   },
   "children": [
     "flex-layout.col#banner-nina-left",
     "flex-layout.col#banner-nina-right"]
+},
+"flex-layout.row#nina-bannerM":{
+  "props": {
+    "blockClass": ["more","depto-mobile"]
+  },
+  "children": [
+    "info-card#col-banner-nina-leftM",
+    "info-card#col-banner-nina-rightM"]
 },
 "flex-layout.col#banner-nina-left": {
   "props": {
@@ -185,6 +213,26 @@
   "children": [
     "info-card#col-banner-nina-left"
   ]
+},
+"info-card#col-banner-nina-leftM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-secundario1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-left"
+  }
+},
+"info-card#col-banner-nina-rightM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-secundario2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-right"
+  }
 },
 "flex-layout.col#banner-nina-right": {
   "props": {
@@ -197,7 +245,7 @@
 
 "flex-layout.row#nina-banner2": {
   "props": {
-    "blockClass": "more"
+    "blockClass": ["bannerfinal","more","depto-desk"]
   },
   "children": [
     "flex-layout.col#left-nina",
@@ -287,12 +335,12 @@
 /*-----------------*/
 "info-card#nina-home": {
   "props": {
-    "id": "info-card-home",
+    "id": ["info-card-home","depto-desk"],
     "isFullModeStyle": true,
     //"textPosition": "left",
     "imageUrl": "assets/desk/nina/banner-principal.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card-home"
+    "blockClass": ["info-card-home","depto-desk"]
   }
 },
 
@@ -342,7 +390,7 @@
     "fullWidth": true,
     "imageUrl": "assets/desk/nina/banner-grid3.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card--down"/*se le puso el mismo info card que woman...para que quedara alineado*/
+    "blockClass": "info-card--down"/*se le puso el mismo info card que nino...para que quedara alineado*/
   }
 },
 
@@ -354,7 +402,7 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
       "arrows": true,
       "showTitle": false
@@ -370,7 +418,7 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
       "arrows": true,
       "titleText": "DESCUBRE MÁS"
@@ -387,7 +435,7 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
       "arrows": true,
       "titleText": "LO MÁS VENDIDO"
@@ -398,61 +446,152 @@
 
 
 //product tabs
-"flex-layout.row#product__tabs":{
+"flex-layout.row#product__tabs-nina":{
   "props":{
     "blockClass": "home__product__tabs"
   },
   "children":[
-    "tab-layout#product__tabs"
+    "tab-layout#product__tabs-nina"
   ]
 },
-"tab-layout#product__tabs":{
+"tab-layout#product__tabs-nina":{
   "children":[
-    "tab-list#product__tab--list",
-    "tab-content#product__tab--content"
+    "tab-list#product__tab--list-nina",
+    "tab-content#product__tab--content-nina"
   ]
 },
-"tab-list#product__tab--list":{
+"tab-list#product__tab--list-nina":{
   "children":[
-    "tab-list.item#tabs__list--laptos",
-    "tab-list.item#tabs__list--impresoras"
+    "tab-list.item#tabs__list--nina",
+    "tab-list.item#tabs__list--nina2"
   ]
 },
-"tab-list.item#tabs__list--laptos":{
+"tab-list.item#tabs__list--nina":{
   "props":{
-    "tabId":"laptos",
-    "label":"laptos",
+    "tabId":"Jean",
+    "label":"Jean",
     "defaultActiveTab":true
   }
 },
-"tab-list.item#tabs__list--impresoras":{
+"tab-list.item#tabs__list--nina2":{
   "props":{
-    "tabId":"impresoras",
-    "label":"impresoras"
+    "tabId":"Camisetas",
+    "label":"Camisetas"
   }
 },
-"tab-content#product__tab--content":{
+"tab-content#product__tab--content-nina":{
   "children":[
-    "tab-content.item#tabs__content--laptos",
-    "tab-content.item#tabs__content--impresoras"
+    "tab-content.item#tabs__content--nina",
+    "tab-content.item#tabs__content--nina2"
   ]
 },
-"tab-content.item#tabs__content--laptos":{
+"tab-content.item#tabs__content--nina":{
   "props":{
-    "tabId":"laptos"
+    "tabId":"Jean"
   },
-  "children":["shelf#cats"]
+  "children":["shelf#cats","rich-text#tab-bottom-jean-nina"]
 },
-"tab-content.item#tabs__content--impresoras":{
+"tab-content.item#tabs__content--nina2":{
   "props":{
-    "tabId":"impresoras"
+    "tabId":"Camisetas"
   },
-  "children":["rich-text#tabs__content--impresoras"]
+  "children":["shelf#cats","rich-text#tab-bottom-camisetas-nina"]
 },
-"rich-text#tabs__content--impresoras":{
+"rich-text#tabs__content--nina":{
   "props":{
     "text":"aqui van otros sliders"
   }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+"info-card#nina-home-Mobile": {
+  "props": {
+    "id": ["info-card-home","depto-mobile"],
+    "isFullModeStyle": true,
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-principal.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-home","depto-mobile"]
+  }
+},
+"info-card#col-shoes-nina-leftM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-vitrina1.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-shoes-left", "depto-mobile"]
+  }
+},
+
+
+"rich-text#tab-bottom-jean-nina":{
+  "props":{
+    "text":"[Ver Categoría Jeans](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+},
+"rich-text#tab-bottom-camisetas-nina":{
+  "props":{
+    "text":"[Ver Categoría Camisetas](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+},
+"flex-layout.row#nina-banner2M": {
+  "props": {
+    "blockClass": ["bannerfinal" ,"more", "depto-mobile"]
+  },
+  "children": [
+    "image#col-left-ninaM",
+    "flex-layout.row#right-ninaM"]
+},
+"image#col-left-ninaM": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-grid1.jpg",
+    "blockClass": ["bannerfinal"]
+  }
+},
+
+
+"flex-layout.row#right-ninaM": {
+  "props": {
+    "blockClass": ["bannerfinal-child", "more", "depto-mobile"]
+  },
+  "children": [
+    "image#col-right-1-ninaM",
+    "image#col-right-2-ninaM"
+  ]
+},
+
+"image#col-right-1-ninaM": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-grid2.jpg",
+    "blockClass": ["bannerfinal2"]
+  }
+},
+"image#col-right-2-ninaM": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/dep-nina-banner-grid3.jpg",
+    "blockClass": ["bannerfinal3"]
+  }
 }
+
+
+
+
+
+
 
 }

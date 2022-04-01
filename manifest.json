@@ -65,10 +65,12 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
     "vtex.store-newsletter": "1.x",
-    "vtex.iframe": "0.x"
+    "vtex.iframe": "0.x",
+    "vtex.product-availability": "0.x"
   },
   "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x"
+    "vtex.reviews-and-ratings": "2.x",
+    "vtex.wish-list": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

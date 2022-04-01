@@ -1,0 +1,16 @@
+/* evitar que se cierre el modal */
+.modal--Login{
+    position: fixed!important;
+    background: rgba(0,0,0,0.5);
+}
+.container--Login .paperScrollContent {
+    width: 500px;
+}
+/* estilos mobile */
+@media (max-width: 600px) {
+    .container--Login .paperScrollContent {
+        margin: 0;
+        padding: 0 16px;
+        margin: 0 17px;
+    }
+}

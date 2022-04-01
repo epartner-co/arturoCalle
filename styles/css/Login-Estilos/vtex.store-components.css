@@ -1,0 +1,8 @@
+.imageElement--imagenLogIn{
+    width: 100%;
+    height: 100%;
+}
+:global(.vtex-flex-layout-0-x-flexRow--login) .container {
+    padding: 0;
+    margin: 0;
+}

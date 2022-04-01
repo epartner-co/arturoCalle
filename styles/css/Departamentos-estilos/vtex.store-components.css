@@ -1,0 +1,33 @@
+/*---------------------------------------*/
+/*    AJUSTES PAGINAS DE DEPARTAMENTO    */
+/*---------------------------------------*/
+@media screen and (max-width: 1200px) {
+  .infoCardContainer.infoCardContainer--info-card {
+    background-size: 100% !important;
+  }
+  .infoCardContainer.infoCardContainer--info-card--down {
+    background-size: 100% !important;
+    height: inherit;
+  }
+  .infoCardContainer.infoCardContainer--info-card--down {
+    margin: 0 auto;
+  }
+  .infoCardContainer.infoCardContainer--info-card-banner-right {
+    background-size: 100% !important;
+  }
+  .infoCardContainer.infoCardContainer--info-card-banner-left {
+    background-size: 100% !important;
+  }
+  .infoCardContainer.infoCardContainer--info-card {
+    background-color: transparent;
+  }
+  .infoCardContainer--info-card-banner-left {
+    background-color: transparent;
+  }
+  .infoCardContainer.infoCardContainer--info-card-banner-right {
+    background-color: transparent;
+  }
+  .infoCardContainer.infoCardContainer--info-card-home.infoCardContainer--depto-desk {
+    height: 205px;
+  }
+}

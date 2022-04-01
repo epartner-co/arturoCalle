@@ -1,0 +1,28 @@
+{
+    "list-context.image-list#categorysSearch": {
+        "children": ["slider-layout#categorysSearch"],
+        "props": {
+            "height": 720,
+            "images": [
+                {
+                    "image": "https://callearturop.vteximg.com.br/arquivos/bannerhombre.png",
+                    "mobileImage": "https://callearturop.vteximg.com.br/arquivos/bannerhombre.png"
+                }
+               
+            ]
+        }
+    },
+    "slider-layout#categorysSearch": {
+        "props": {
+            "itemsPerPage": {
+            "desktop": 7,
+            "tablet": 5,
+            "phone": 3
+            },
+            "infinite": true,
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": "category-carousel"
+        }
+    }
+}

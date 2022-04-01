@@ -26,13 +26,12 @@
       "horizontalAlign":"center"
     },
     "children":[
-      "flex-layout.col#terminos",
-      "flex-layout.col#imagen--logo--payu"
+      "flex-layout.col#terminos"
     ]
   },
   "flex-layout.col#terminos":{
     "props":{
-      "width":"22%"
+      "width":"100%"
     },
     "children":[
       "rich-text#terminos--superintendencia"
@@ -49,7 +48,7 @@
   }, 
   "flex-layout.col#imagen--logo--payu":{
     "props":{
-      "width":"22%"
+      "width":"5%"
     },
     "children":[
       "image#logo--payu"
@@ -118,28 +117,28 @@
   },
   "flex-layout.col#home__social-networks--Facebook":{
     "props":{
-      "width":"1%",
+      "width":"3%",
       "blockClass": "social-network"
     },
     "children":["image#social-network--Facebook"]
   },
   "flex-layout.col#home__social-networks--Instagram":{
     "props":{
-      "width":"1%",
+      "width":"3%",
       "blockClass": "social-network"
     },
     "children":["image#social-network--Instagram"]
   },
   "flex-layout.col#home__social-networks--Twitter":{
     "props":{
-      "width":"1%",
+      "width":"3%",
       "blockClass": "social-network"
     },
     "children":["image#social-network--Twitter"]
   },
   "flex-layout.col#home__social-networks--Youtube":{
     "props":{
-      "width":"1%",
+      "width":"3%",
       "blockClass": "social-network"
     },
     "children":["image#social-network--Youtube"]
@@ -196,7 +195,11 @@
 
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#1-footer-mobile"
+      "flex-layout.row#footer1",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#home__social-networks",
+      "rich-text#terms",
+      "flex-layout.row#term--y--logo"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -228,7 +231,7 @@
     },
     "children": [      
       "flex-layout.col#logo-desktop1",
-      "flex-layout.col#PrimeraCol1",
+      "flex-layout.col#PrimeraCol1",  
       "flex-layout.col#PrimeraCol2",
       "flex-layout.col#PrimeraCol3",
       "flex-layout.col#PrimeraCol4",

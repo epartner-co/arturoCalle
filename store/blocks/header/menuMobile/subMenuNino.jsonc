@@ -23,7 +23,7 @@
             "orientation": "vertical",
             "blockClass":"menuGeneral-sub"
         }
-        
+
     },
     // items principales del sub menu
     "menu-item#category-nino-nuevos-M": {
@@ -35,7 +35,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/linea-kids-nino/nuevos-productos",
             "noFollow": false,
             "tagTitle": "Nuevos",
             "text": "Nuevos"
@@ -51,7 +51,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/bono-de-regalo",
             "noFollow": false,
             "tagTitle": "Bono regalo",
             "text": "Bono regalo"
@@ -67,7 +67,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/ofertas/nino",
             "noFollow": false,
             "tagTitle": "Oferta",
             "text": "Oferta"
@@ -85,14 +85,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
             }
         },
         "blocks":[
-            "submenu.accordion#nino-principal-ropa"   
+            "submenu.accordion#nino-principal-ropa"
         ]
     },
     "submenu.accordion#nino-principal-ropa":{
@@ -125,7 +125,7 @@
             "orientation": "vertical",
             "blockClass":"submenu-sub"
         }
-        
+
     },
     // items del sub menu ropa
     "menu-item#category-nino-blazzer-M": {
@@ -137,7 +137,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/blazers",
             "noFollow": false,
             "tagTitle": "Blazzers",
             "text": "Blazzers"
@@ -153,7 +153,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/buzos",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -169,7 +169,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/camisas",
             "noFollow": false,
             "tagTitle": "Camisas",
             "text": "Camisas"
@@ -185,7 +185,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/camisetas",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -201,7 +201,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/polos",
             "noFollow": false,
             "tagTitle": "Polos",
             "text": "Polos"
@@ -217,7 +217,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/chaquetas-y-chalecos",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -233,7 +233,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/sweaters",
             "noFollow": false,
             "tagTitle": "Sweaters",
             "text": "Sweaters"
@@ -249,7 +249,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/jeans",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -265,7 +265,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/pantalones",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -281,7 +281,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/bermudas",
             "noFollow": false,
             "tagTitle": "Bermudas",
             "text": "Bermudas"
@@ -297,7 +297,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/pantalonetas-de-bano",
             "noFollow": false,
             "tagTitle": "Pantalonetas de baño",
             "text": "Pantalonetas de baño"
@@ -313,7 +313,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/pijamas",
             "noFollow": false,
             "tagTitle": "Pijamas",
             "text": "Pijamas"
@@ -329,7 +329,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/ropa-interior",
             "noFollow": false,
             "tagTitle": "Ropa Interior",
             "text": "Ropa Interior"
@@ -345,7 +345,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/ropa/ropa-interior/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -362,14 +362,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/kids/nino/zapatos",
                 "noFollow": false,
                 "tagTitle": "Zapatos",
                 "text": "Zapatos"
             }
         },
         "blocks":[
-            "submenu.accordion#nino-principal-zapatos"   
+            "submenu.accordion#nino-principal-zapatos"
         ]
     },
     "submenu.accordion#nino-principal-zapatos":{
@@ -402,7 +402,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/zapatos/tenis",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
@@ -418,7 +418,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/zapatos/zapatos",
             "noFollow": false,
             "tagTitle": "Zapatos",
             "text": "Zapatos"
@@ -434,7 +434,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/zapatos/sandalias",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -451,14 +451,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/kids/nino/accesorios",
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
             }
         },
         "blocks":[
-            "submenu.accordion#nino-principal-acce"   
+            "submenu.accordion#nino-principal-acce"
         ]
     },
     "submenu.accordion#nino-principal-acce":{
@@ -496,7 +496,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/bufandas-y-cuellos",
             "noFollow": false,
             "tagTitle": "Bufandas",
             "text": "Bufandas"
@@ -512,7 +512,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/cinturones-y-correas",
             "noFollow": false,
             "tagTitle": "Correas",
             "text": "Correas"
@@ -528,7 +528,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/corbatas-y-corbatines",
             "noFollow": false,
             "tagTitle": "Corbatas y corbatines",
             "text": "Corbatas y corbatines"
@@ -544,7 +544,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/gafas-de-sol",
             "noFollow": false,
             "tagTitle": "Gafas de sol",
             "text": "Gafas de sol"
@@ -560,7 +560,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/gorras-gorros-y-boinas",
             "noFollow": false,
             "tagTitle": "Gorras y gorras",
             "text": "Gorras y gorros"
@@ -576,7 +576,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/morrales-y-loncheras",
             "noFollow": false,
             "tagTitle": "Morrales y loncheras",
             "text": "Morrales y loncheras"
@@ -592,7 +592,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/perfumes",
             "noFollow": false,
             "tagTitle": "Perfumes",
             "text": "Perfumes"
@@ -608,7 +608,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nino/accesorios/tapabocas",
             "noFollow": false,
             "tagTitle": "Tapabocas",
             "text": "Tapabocas"
@@ -632,7 +632,7 @@
             }
         },
         "blocks":[
-            "submenu.accordion#nino-principal-coleccion"   
+            "submenu.accordion#nino-principal-coleccion"
         ]
     },
     "submenu.accordion#nino-principal-coleccion":{
@@ -668,7 +668,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/bosque-encantado/nino",
             "noFollow": false,
             "tagTitle": "Bosque encantado",
             "text": "Bosque encantado"
@@ -684,7 +684,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/comfort/nino",
             "noFollow": false,
             "tagTitle": "Comfort",
             "text": "Comfort"
@@ -700,7 +700,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/intensamente/nino",
             "noFollow": false,
             "tagTitle": "Intesamente",
             "text": "Intensamente"
@@ -716,7 +716,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/gamer/nino",
             "noFollow": false,
             "tagTitle": "Gamer",
             "text": "Gamer"
@@ -732,7 +732,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/eco/nino",
             "noFollow": false,
             "tagTitle": "Eco",
             "text": "Eco"
@@ -748,7 +748,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/padre-e-hijo",
             "noFollow": false,
             "tagTitle": "Padre e hijo",
             "text": "Padre e hijo"

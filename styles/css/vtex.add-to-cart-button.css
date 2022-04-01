@@ -1,0 +1,64 @@
+/*Buy butom */
+.buttonText::after {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/carrito.png)no-repeat;
+    background-size: 100%;
+    width: 17px;
+    height: 20px;
+    position: absolute;
+    right: 22%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.buttonDataContainer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: end;
+}
+
+.buttonText {
+    width: 100%;
+    height: 100%;
+    padding: 3% 0%;
+}
+.buttonText:hover::after{
+    background: url(https://arturocalle.vteximg.com.br/arquivos/carrito%20gris.png)no-repeat;
+    background-size: 100%;
+}
+
+.buttonText--botonvitrina {
+    font-size: 0;
+}
+.buttonText--botonvitrina {
+    font-size: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonText--botonvitrina::after {
+    background: none;
+}
+
+.buttonText--botonvitrina {
+    background: url("https://callearturop.vteximg.com.br/arquivos/cta.png")no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+}
+.buttonText--botonvitrina:hover {
+    background: url("https://callearturop.vteximg.com.br/arquivos/cta-hover.png")no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: 100%;
+}
+.buttonText--botonvitrina:hover::after {
+    background: none;
+    
+}
+

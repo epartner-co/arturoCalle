@@ -1,0 +1,77 @@
+{
+    // contenedores del contenido de la pagina
+    "flex-layout.row#login": {
+        "children": [
+            "flex-layout.col#login"
+        ],
+        "props":{
+            "blockClass":"login"
+        }
+    },
+    "flex-layout.col#login": {
+        "children": [
+            "responsive-layout.desktop#imagenLogin",
+            "responsive-layout.mobile#imagenLogin",
+            "modal-trigger#login"
+        ],
+        "props":{
+            "blockClass":"login"
+        }
+    },
+    // imagenes responsive
+    "responsive-layout.desktop#imagenLogin": {
+        "children": ["image#loginImgdeskt"]
+    },
+    "responsive-layout.mobile#imagenLogin": {
+        "children": ["image#loginImgMobile"]
+    },
+    "image#loginImgdeskt": {
+        "props": {
+            "blockClass":"imagenLogIn",
+            "src": "https://arturocalle.vteximg.com.br/arquivos/error_page_404_D2.jpg"
+        }
+    },
+    "image#loginImgMobile": {
+        "props": {
+            "blockClass":"imagenLogIn",
+            "src": "https://arturocalle.vteximg.com.br/arquivos/error_page_404_T_2.jpg"
+        }
+    },
+    // modal del login
+    // trigger del modal
+    "modal-trigger#login": {
+        "children": [
+            "modal-layout#login"
+        ],
+        "props":{
+            "blockClass":"login",
+           "trigger": "load"
+        }
+    },
+    // close button
+    "rich-text#close-button": {
+        "props": {
+          "text": "[X](/)",
+          "blockClass": "close-Login"
+        }
+    },
+    // contenedor del modal
+    "modal-layout#login": {
+        "children": [
+            "rich-text#close-button",
+            "login-content"
+        ],
+        "props":{
+            "backdrop":"none",
+            "blockClass":"Login"
+        }
+    },
+    // login content
+    "login-content":{
+        "props":{
+            "defaultOption":1,
+            "isInitialScreenOptionOnly": "false",
+            "blockClass":"login"
+        }
+    }
+}

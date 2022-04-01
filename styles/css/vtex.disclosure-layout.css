@@ -28,3 +28,98 @@
       width: 100%;
   }
 }
+
+/*Estilos Camilo*/
+.trigger--fitroTrigger{
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid;
+    height: 37px;
+    cursor: pointer;
+}
+.content--filtroContent--visible{
+    position: fixed;
+    top: 0px;
+    z-index: 99999;
+    height: 100%;
+    left: 0px;
+    background: rgba(0,0,0,0.5);
+    width: 100%!important;
+    opacity: 1;
+    transition: 1s all;
+}
+.content--filtroContent--hidden{
+    opacity: 0;
+}
+.trigger--fitroTrigger2--visible{
+    border: 0;
+    width: 100% !important;
+    border-radius: 0;
+    position: relative;
+}
+.trigger--fitroTrigger2--visible::after{
+    content: "cerrar";
+    font-size: 22px;
+    position: absolute;
+    top: 20%;
+    text-transform: uppercase;
+    right: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    color: black;
+}
+.trigger--fitroTrigger {
+    padding: 0;
+}
+/*Footer*/
+.trigger--aperturaD {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+  
+.trigger--aperturaD--visible::after
+{
+    content: " ";
+    width: 13px;
+    height: 20px;
+    transform: rotate(180deg);
+    position: absolute;
+    right: 2%;
+    background: url(https://callearturop.vtexassets.com/arquivos/flecha-hacia-abajo-para-navegar.png)no-repeat;
+    background-size: 100%;
+    display: block;
+    top: 3%;
+    cursor: pointer;
+}
+.trigger--aperturaD{
+    position: relative;
+}
+  .trigger--aperturaD--hidden::after 
+{
+    content: " ";
+    width: 13px;
+    height: 20px;
+    position: absolute;
+    right: 2%;
+    background: url(https://callearturop.vtexassets.com/arquivos/flecha-hacia-abajo-para-navegar.png)no-repeat;
+    background-size: 100%;
+    display: block;
+    top: 27%;
+    cursor: pointer;
+}
+.content--contenidoD--hidden {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    width: 100%;
+}
+.content--contenidoD--visible {
+    transition: 1s;
+    opacity: 1;
+    visibility: visible;
+    top: 0;
+    position: relative;
+}

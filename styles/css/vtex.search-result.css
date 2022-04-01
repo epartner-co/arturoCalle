@@ -20,3 +20,510 @@
 .galleryItem--list {
   border-bottom: 1px #E7E9EE solid;
 }
+
+/*Category*/
+
+.galleryTitle--layout {
+  margin: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.orderByDropdown {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.orderByButton {padding: 6px 25px 6px 38px;
+background: transparent;}
+
+.gallery {
+  padding: 0;
+}
+.buttonShowMore--layout{
+  margin-top: 40px;
+}
+.container--layout{
+  background: #fafafa;
+}
+.filter__container--selectedFilters {
+  display: none;
+}
+
+/*Filtros*/
+.vtex-search-result-3-x-filter__container.vtex-search-result-3-x-filter__container--filtros.bb.b--muted-4.vtex-search-result-3-x-filter__container--selectedFilters {
+  display: none;
+}
+
+.filterItem :global(.vtex-checkbox__container) {
+  position: absolute;
+  right: 6%;
+  top: 15%;
+}
+
+.filter--filtros {
+  text-transform: uppercase;
+  padding: 16px 4%;
+}
+
+.filter__container--filtros {
+  border: none;
+}
+
+.filterItem :global(.vtex-checkbox__line-container) {padding-left: 8%;}
+
+/*Colores Filtros*/
+.filterItem--filtros--azul :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #08356d;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+
+.filterItem--filtros--azul :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--azul.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--azul :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--blanco :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: white;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--blanco :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--blanco.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--blanco :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fe4201;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--naranja.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--naranja :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fe4201;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+
+.filterItem--filtros--naranja :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--naranja.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--naranja :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--verde :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #017d30;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--verde :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--verde.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--verde :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--morado :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #98237f;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--morado :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--morado.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--morado :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--negro :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: black;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--negro :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--negro.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--negro :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--rosado :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #f98db3;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--rosado :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--rosado.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--rosado :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--cafe :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #77461c;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--cafe :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--cafe.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--cafe :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--vino :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #4c0016;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--vino :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--vino.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--vino :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--gris :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #666;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--gris :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--gris.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--gris :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--rojo :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #dc0000;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--rojo :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--rojo.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--rojo :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--caqui :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #cca753;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--caqui :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--caqui.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--caqui :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--beige :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #e2d6a1;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--beige :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--beige.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--beige :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--amarillo :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fff018;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--amarillo :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--amarillo.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--amarillo :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--multicolor :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #fff6e2;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--multicolor :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--multicolor.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--multicolor :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+.filterItem--filtros--ocre :global(.vtex-checkbox__line-container)::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #9b7301;
+  border: 1px solid rgb(224, 224, 224);
+  display: block;
+}
+.filterItem--filtros--ocre :global(.vtex-checkbox__line-container) {
+  font-size: 0;
+  width: 25px;
+  display: block;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+.filterItem--filtros--ocre.filterItem--filtros--selected :global(.vtex-checkbox__line-container)::before{
+  border: 1px solid;
+}
+.filterItem--filtros--ocre :global(.vtex-checkbox__container) {
+  display: none;
+}
+
+
+.filter__container--color .filterContent--filtros{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6%;
+}
+
+.filter__container--color .filterItem--filtros {
+  margin: 6px;
+  display: flex;
+  width: 7%;
+}
+/*Segundo filtro de cierre*/
+.filtersWrapper--filtros2 .filter__container--selectedFilters {
+  display: block !important;
+  border: none;
+}
+
+.filter__container--filtros2 .filter__container--title .filter__container--filtros2--title {
+  display: none;
+}
+
+.filter__container--filtros2 {
+  display: none;
+}
+
+.filterItem--filtros2 :global(.vtex-checkbox__container){
+  display: none;
+}
+
+.filterTemplateOverflow.filterTemplateOverflow--filtros2 {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filterTitleSpan.filterTitleSpan--filtros2{
+  display: none;
+}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+  display: none;
+}
+
+.filterItem--filtros2--selected {background: #edecec;margin: 0 10% 0 0;position: relative;height: 38px;border-radius: 5px;display: flex;align-items: center;}
+
+.filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
+    display: none;
+}
+
+.filterItem--filtros2--selected::after {
+    content: "x";
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    font-size: 20px;
+}

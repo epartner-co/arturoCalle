@@ -13,7 +13,6 @@
         "children":[
             "menu-item#category-nina-nuevos-M",
             "menu-item#category-nina-bono-M",
-            "menu-item#category-nina-oferta-M",
             "menu-item#category-nina-ropa-M",
             "menu-item#category-nina-zapatos-M",
             "menu-item#category-nina-acce-M",
@@ -23,7 +22,7 @@
             "orientation": "vertical",
             "blockClass":"menuGeneral-sub"
         }
-        
+
     },
     // items principales del sub menu
     "menu-item#category-nina-nuevos-M": {
@@ -35,7 +34,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/novedades/nina",
             "noFollow": false,
             "tagTitle": "Nuevos",
             "text": "Nuevos"
@@ -51,29 +50,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/bono-de-regalo",
             "noFollow": false,
             "tagTitle": "Bono regalo",
             "text": "Bono regalo"
             }
         }
     },
-    "menu-item#category-nina-oferta-M": {
-        "props": {
-          "id": "menu-item-category-oferta",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "Oferta",
-            "text": "Oferta"
-            }
-        }
-    },
+
     // menu items que poseen un sub menu
      // declaracion sub menu
      "menu-item#category-nina-ropa-M": {
@@ -85,14 +69,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
             }
         },
         "blocks":[
-            "submenu.accordion#nina-principal-ropa"   
+            "submenu.accordion#nina-principal-ropa"
         ]
     },
     "submenu.accordion#nina-principal-ropa":{
@@ -124,7 +108,7 @@
             "orientation": "vertical",
             "blockClass":"submenu-sub"
         }
-        
+
     },
     // items del sub menu ropa
     "menu-item#category-nina-buzos-M": {
@@ -136,7 +120,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/buzos",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -152,7 +136,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/camisas-y-blusas",
             "noFollow": false,
             "tagTitle": "Blusas y camisas",
             "text": "Blusas y camisas"
@@ -168,7 +152,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/camisetas",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -184,7 +168,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/chaquetas",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -200,7 +184,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/sweaters",
             "noFollow": false,
             "tagTitle": "Sweaters y cardigans",
             "text": "Sweaters y cardigans"
@@ -216,7 +200,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/vestidos",
             "noFollow": false,
             "tagTitle": "Vestidos y enterizos",
             "text": "Vestidos y enterizos"
@@ -232,7 +216,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/faldas",
             "noFollow": false,
             "tagTitle": "Faldas",
             "text": "Faldas"
@@ -248,7 +232,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/pantalones",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -264,7 +248,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/pijamas",
             "noFollow": false,
             "tagTitle": "Pijamas",
             "text": "Pijamas"
@@ -280,7 +264,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/shorts",
             "noFollow": false,
             "tagTitle": "Shorts",
             "text": "Shorts"
@@ -296,7 +280,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/ropa-interior",
             "noFollow": false,
             "tagTitle": "Ropa Interior",
             "text": "Ropa interior"
@@ -312,7 +296,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/ropa-interior/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -328,7 +312,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/ropa/vestidos-de-bano",
             "noFollow": false,
             "tagTitle": "Vestidos de baño",
             "text": "Vestidos de baño"
@@ -345,14 +329,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/kids/nina/zapatos",
                 "noFollow": false,
                 "tagTitle": "Zapatos",
                 "text": "Zapatos"
             }
         },
         "blocks":[
-            "submenu.accordion#nina-principal-zapatos"   
+            "submenu.accordion#nina-principal-zapatos"
         ]
     },
     "submenu.accordion#nina-principal-zapatos":{
@@ -386,7 +370,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/zapatos/botas",
             "noFollow": false,
             "tagTitle": "Botas",
             "text": "Botas"
@@ -402,7 +386,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/zapatos/tenis",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
@@ -418,7 +402,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/zapatos/sandalias",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -434,7 +418,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/zapatos/zapatos",
             "noFollow": false,
             "tagTitle": "Colegialas",
             "text": "Colegialas"
@@ -451,14 +435,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/kids/nina/accesorios",
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
             }
         },
         "blocks":[
-            "submenu.accordion#nina-principal-acce"   
+            "submenu.accordion#nina-principal-acce"
         ]
     },
     "submenu.accordion#nina-principal-acce":{
@@ -475,7 +459,6 @@
             "menu-item#category-nina-balacas-M",
             "menu-item#category-nina-bufandas-M",
             "menu-item#category-nina-gorras-M",
-            "menu-item#category-nina-esmalte-M",
             "menu-item#category-nina-maletasloncheras-M",
             "menu-item#category-nina-tapabocas-M"
         ],
@@ -494,7 +477,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/accesorios/balacas",
             "noFollow": false,
             "tagTitle": "Balacas",
             "text": "Balacas"
@@ -510,7 +493,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/accesorios/bufandas-y-cuellos",
             "noFollow": false,
             "tagTitle": "Bufandas y cuellos",
             "text": "Bufandas y cuellos"
@@ -526,26 +509,10 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/accesorios/gorras-y-sombreros",
             "noFollow": false,
             "tagTitle": "Gorras y sombreros",
             "text": "Gorros y sombreros"
-            }
-        }
-    },
-    "menu-item#category-nina-esmalte-M": {
-        "props": {
-            "id": "menu-item-category-esmalte",
-            "type": "custom",
-            "blockClass": "item",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "Esmalte",
-            "text": "Esmalte"
             }
         }
     },
@@ -558,7 +525,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/accesorios/morrales-y-loncheras",
             "noFollow": false,
             "tagTitle": "Maletas y lonchera",
             "text": "Maletas y lonchera"
@@ -574,7 +541,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/kids/nina/accesorios/tapabocas",
             "noFollow": false,
             "tagTitle": "Tapabocas",
             "text": "Tapabocas"
@@ -598,7 +565,7 @@
             }
         },
         "blocks":[
-            "submenu.accordion#nina-principal-coleccion"   
+            "submenu.accordion#nina-principal-coleccion"
         ]
     },
     "submenu.accordion#nina-principal-coleccion":{
@@ -616,7 +583,6 @@
         "menu-item#category-nina-comfort-M",
         "menu-item#category-nina-intensamente-M",
         "menu-item#category-nina-gamer-M",
-        "menu-item#category-nina-eco-M",
         "menu-item#category-nina-madre-M"
     ],
     "props":{
@@ -634,7 +600,7 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/coleccion/bosque-encantado/nina",
         "noFollow": false,
         "tagTitle": "Bosque encantado",
         "text": "Bosque encantado"
@@ -650,7 +616,7 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/coleccion/comfort/nina",
         "noFollow": false,
         "tagTitle": "Comfort",
         "text": "Comfort"
@@ -666,7 +632,7 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/coleccion/intensamente/nina",
         "noFollow": false,
         "tagTitle": "Intesamente",
         "text": "Intensamente"
@@ -682,26 +648,10 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/coleccion/gamer/nina",
         "noFollow": false,
         "tagTitle": "Gamer",
         "text": "Gamer"
-        }
-    }
-},
-"menu-item#category-nina-eco-M": {
-    "props": {
-        "id": "menu-item-category-eco",
-        "type": "custom",
-        "blockClass": "item",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": false,
-        "tagTitle": "Eco",
-        "text": "Eco"
         }
     }
 },
@@ -714,7 +664,7 @@
         "highlight": false,
         "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/coleccion/madre-e-hija",
         "noFollow": false,
         "tagTitle": "Madre e hijo",
         "text": "Madre e hijo"

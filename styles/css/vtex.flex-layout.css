@@ -198,7 +198,7 @@
 /*flex layout iconos redes sociales */
 /*----------------------------------*/
 .flexColChild--social-network{
-  width:25px;
+  width:22px;
 }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -222,10 +222,6 @@
 /*-------------------------------*/
 /* terminos y condiciones footer con logo payu*/
 /*------------------------------*/
-.flexRow--terminos--y--logo{
-  margin-left: 204px;
-  margin-bottom: -14px;
-}
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
@@ -284,9 +280,6 @@
 
 /*--- tamaño slider           ---*/
 
-.flexRow :global(.vtex-slider-layout-0-x-sliderLayoutContainer){/*cin esto se modifica el tamaño del slider, si hay problemas se puede quitar*/
-  width: 1108px;
-}
 
 /*-------------------------------*/
 
@@ -461,8 +454,10 @@ Estilos Producto Sección Contenido AC*/
 /*suscribete*/
 
 .flexCol--newsletter-form--columna--footer{
-  width: 270px;
-  margin-bottom: 39px;
+  width: 70%;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
 }
 
 .flexColChild--newsletter-form--columna--footer{
@@ -687,9 +682,6 @@ Estilos Producto Sección Contenido AC*/
 .flexCol--social-network {
   margin: auto;
 }
-.flexRowContent.flexRowContent--social-network .stretchChildrenWidth:last-child {
-  width: 100% !important;
-}
 .flexRow--terminos--y--logo {
   margin-left: 0;
   margin-bottom: 20px;
@@ -705,6 +697,14 @@ Estilos Producto Sección Contenido AC*/
 /*MOBILE HOME*/
 /****************/
 @media screen and (max-width: 700px) {
+  .flexRowContent--social-network 
+  {
+    display: flex;
+    width: 48%;
+    margin: 0 auto;
+  }
+
+
 .flexCol--Bannerone {
   padding: 0 0 20px;
 }
@@ -779,3 +779,139 @@ Estilos Producto Sección Contenido AC*/
 }
 }
 
+/*Estilos Camilo*/
+
+/*Product*/
+.flexRow--breadproduct {
+  position: absolute;
+}
+
+.flexRow--breadproduct {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  width: 100%;
+  margin-top: 0;
+  z-index: 9;
+}
+.flexCol--lateralCol {
+  z-index: 10;
+}
+.flexCol--filtroContent {
+  width: 30%;
+  background: white;
+}
+.flexRow--InformacionDos {
+  margin: 4% 0%;
+}
+
+/*Category styles*/
+
+.flexRow--breadcrumbC {
+  padding-top: 15px;
+  border-top: 2px solid #f3f1f1;
+  margin: 30px 2% 0 2%;
+}
+.flexRow--tituloCat {
+  margin: 0 2% 0 2%;
+}
+.flexRow--rowSearchInfo {
+  margin: 0 2% 0 2%;
+}
+.flexRowContent--rowSearchInfo {
+  align-items: center;
+  display: flex;
+  padding-top: 20px;
+}
+
+.flexRowContent--tituloCat {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--orderByAndSwitcher {
+    padding: 0;
+}
+.flexRow--row-vitrine-category {
+  margin: 0 2%;
+}
+.flexRowContent--imageCP {
+  border-top: 1px solid #e3e1e1;
+  padding-right: 10%;
+  padding-top: 7%;
+}
+.flexRowContent--contenedorP {margin-top: 0;padding-top: 1.4%;}
+
+.flexRow--preciosC {
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 5px;
+}
+.flexRow{
+  background: #fafafa;
+}
+.flexRow--menu-rowC{
+  background: transparent;
+}
+.flexColChild--botoncomp :global(.vtex-button):hover {
+  background: #DADADA;
+  color: #181E2A;
+}
+.flexColChild--botoncomp :global(.vtex-button__label){
+  padding: 0 !important;
+  margin: 0;
+}
+.flexColChild--buycolection :global(.vtex-button){
+  background: transparent;
+  border: none;
+}
+/*vitrinas*/
+.flexCol--buycolection {
+  display: flex;
+  justify-content: end;
+  margin-left: 50%;
+}
+.flexColChild--precios {
+  display: flex;
+  align-items: end;
+  margin-bottom: 5%;
+}
+.flexRow--breadproduct {
+  background: transparent;
+}
+.flexColChild--filtroContent {
+  max-height: 50px;
+}
+
+/*Footer New*/
+.flexRow--columnas {
+  background: transparent;
+}
+
+.flexRow--columnas {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flexCol--apertura {
+  position: relative;
+}
+
+.flexRow--social-network {
+  background: transparent;
+}  
+
+.flexRow--row1-footer {
+  background: transparent;
+}
+
+.flexRow--terminos--y--logo {
+  background: transparent;
+}
+.flexRowContent--social-network {
+  justify-content: center;
+  padding: 1% 0;
+}
+
+.flexRowContent--social-network .stretchChildrenWidth {
+  min-width: 35px;
+}

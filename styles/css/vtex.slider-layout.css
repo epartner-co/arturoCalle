@@ -79,3 +79,16 @@
   margin-top: -30px;
 }
 }
+/*Vitrinas*/
+.dotsContainer{
+  display: none !important;
+}
+
+.sliderLayoutContainer--shelf{
+  padding: 0 !important;
+}
+
+/*Slider vitrinas*/
+.sliderLayoutContainer.sliderLayoutContainer--shelf {
+  width: 80%;
+}

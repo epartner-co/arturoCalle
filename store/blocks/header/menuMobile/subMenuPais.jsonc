@@ -20,7 +20,7 @@
             "orientation": "vertical",
             "blockClass":"menuGeneral-sub"
         }
-        
+
     },
     // items principales del sub menu
     "menu-item#category-pais-guatemala-M": {
@@ -32,7 +32,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "https://gt.arturocalle.com/",
             "noFollow": false,
             "tagTitle": "Guatemala",
             "text": "Guatemala"
@@ -48,7 +48,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "https://pa.arturocalle.com/panama/",
             "noFollow": false,
             "tagTitle": "Panamá",
             "text": "Panamá"
@@ -64,7 +64,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "https://cr.arturocalle.com/costa_rica/",
             "noFollow": false,
             "tagTitle": "Costa rica",
             "text": "Costa rica"
@@ -80,7 +80,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "https://sv.arturocalle.com/salvador/",
             "noFollow": false,
             "tagTitle": "Salvador",
             "text": "Salvador"

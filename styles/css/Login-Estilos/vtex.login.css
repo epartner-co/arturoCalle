@@ -1,0 +1,252 @@
+/* fuentes  */
+
+@font-face{font-family:'DINPro';src:url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Medium.eot.css");src:url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Medium.eot.css?#iefix") format("embedded-opentype"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Medium.woff.css") format("woff"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Medium.ttf.css") format("truetype"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Medium.svg.css#DINPro-Medium") format("svg");font-weight:400;font-style:normal}@font-face{font-family:'DINPro';src:url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Bold.eot.css");src:url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Bold.eot.css?#iefix") format("embedded-opentype"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Bold.woff.css") format("woff"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Bold.ttf.css") format("truetype"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Bold.svg.css#DINPro-Bold") format("svg");font-weight:700;font-style:normal}@font-face{font-family:'DINPro';src:url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Black.eot.css");src:url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Black.eot.css?#iefix") format("embedded-opentype"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Black.woff.css") format("woff"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Black.ttf.css") format("truetype"), url("https://arturocalle.vteximg.com.br/arquivos/DINPro-Black.svg.css#DINPro-Black") format("svg");font-weight:900;font-style:normal}@font-face{font-family:'Iconos';src:url("https://arturocalle.vteximg.com.br/arquivos/icomoon.eot.css");src:url("https://arturocalle.vteximg.com.br/arquivos/icomoon.eot.css#iefix") format("embedded-opentype"), url("https://arturocalle.vteximg.com.br/arquivos/icomoon.ttf.css") format("truetype"), url("https://arturocalle.vteximg.com.br/arquivos/icomoon.woff.css") format("woff"), url("https://arturocalle.vteximg.com.br/arquivos/icomoon.svg.css#icomoon") format("svg");font-weight:normal;font-style:normal}
+/* estilos del contenido del modal */
+.content--loginOptions {
+    padding: 15px 50px;
+    height: 100%;
+}
+.formTitle {
+    color: #181e2a;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+    font-family: inherit;
+}
+.options .formTitle {
+    font-size: 0;
+}
+.options .formTitle::before {
+    content: "Elija una de las opciones para confirmar su identidad";
+    color: #181e2a;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+    font-family: inherit;
+}
+.optionsList {
+    margin: 20px 0 0 0;
+}
+.optionsListItem {
+    margin-bottom: 15px;
+}
+/* estilos de las opciones de logueo */
+.optionsListItem :global(.vtex-button__label){
+    justify-content: flex-start;
+    color: #181e2a!important;
+    font-size: 0.8rem!important;
+    font-family: "DINPro"!important;
+    font-weight: bold;
+    padding-left: 70px;
+}
+.optionsListItem :global(.vtex-button){
+    border: 2px solid #181e2a;
+    height: 52px;
+    border-radius: 0;
+    background: white;
+    position: relative;
+}
+.optionsListItem :global(.vtex-button):hover{
+    background: white;
+}
+/* iconos en los botones */
+.accessCodeOptionBtn :global(.vtex-button)::before{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url(https://arturocalle.vteximg.com.br/arquivos/images-icons-login.png) 0 0 no-repeat;
+}
+.emailPasswordOptionBtn :global(.vtex-button)::before{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url(https://arturocalle.vteximg.com.br/arquivos/images-icons-login.png) 0 0 no-repeat;
+    background-position: 0 -120px;
+}
+/* ajustes botones google facebook */
+.buttonSocial :global(.vtex-button__label){
+    padding-left:0 !important ;
+    display: none;
+}
+.buttonSocial.facebookOptionBtn :global(.vtex-button)::after{
+    content: "INGRESAR CON FACEBOOK";
+    justify-content: flex-start;
+    color: #181e2a!important;
+    font-size: 0.8rem!important;
+    font-family: "DINPro"!important;
+    font-weight: bold;
+    padding-left: 70px;
+    text-align: left;
+    display: block;
+}
+.buttonSocial.facebookOptionBtn :global(.vtex-button)::before{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url(https://arturocalle.vteximg.com.br/arquivos/images-icons-login.png) 0 0 no-repeat;
+    background-position: 0 -40px;
+}
+.buttonSocial.googleOptionBtn :global(.vtex-button)::after{
+    content: "INGRESAR CON GOOGLE";
+    justify-content: flex-start;
+    color: #181e2a!important;
+    font-size: 0.8rem!important;
+    font-family: "DINPro"!important;
+    font-weight: bold;
+    padding-left: 70px;
+    text-align: left;
+    display: block;
+}
+.buttonSocial.googleOptionBtn :global(.vtex-button)::before{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: url(https://arturocalle.vteximg.com.br/arquivos/images-icons-login.png) 0 0 no-repeat;
+    background-position: 0 -80px;
+}
+
+
+/* ESTILOS PARA RECIBIR CODIGO POR EMAIL */
+.content--emailVerification {
+    width: 100%;
+    padding: 10px 10px 120px 10px;
+}
+.content--emailVerification .contentFormVisible {
+    width: 100%;
+}
+.emailVerification .formTitle {
+    margin: 10px 0 40px 0;
+    text-align: left;
+    padding: 0;
+    font-size: 0;
+}
+.emailVerification .formTitle::before {
+    content: "Por favor, informe su mail";
+    font-size: 0.9rem;
+}
+.emailVerification .inputContainerEmail{
+    padding: 0 40px;
+}
+.emailVerification .formFooter {
+    padding: 0 40px;
+    margin-top: 40px;
+    border: 0;
+}
+.emailVerification :global(.vtex-styleguide-9-x-input){
+    background: white;
+    border-radius: 0;
+    font-family: "DINPro"!important;
+    font-size: .9rem;
+}
+.inputContainer :global(.vtex-input-prefix__group){
+    border-radius: 0;
+    border: 1px solid #181e2a;
+}
+.formFooter .sendButton :global(.vtex-button){
+    padding: 10px 20px;
+    background: white;
+    border: 2px solid #000;
+    border-radius: 0;
+}
+.formFooter .sendButton :global(.vtex-button)::before{
+    color: #000;
+    content: "CONFIRMAR";
+    font-size: 14px;
+}
+.formFooter .sendButton :global(.vtex-button__label){
+    display: none;
+}
+/* estilos inputs para email y contraseña */
+.content--emailAndPassword .contentForm {
+    min-width: 18.125rem;
+    width: 100%;
+}
+.inputContainerPassword {
+    padding: 0 40px;
+    margin-top: 10px;
+}
+.emailAndPasswordForm .formTitle::before{
+    content: "Ingresar con mail y contraseña";
+}
+.emailAndPasswordForm .formLinkContainer {
+    padding: 0 40px;
+    margin-top: 10px;
+}
+.forgotPasswordLink {
+    color: #000;
+}
+.dontHaveAccount {
+    color: #000;
+}
+.emailAndPasswordForm .formFooter .sendButton :global(.vtex-button)::before {
+    content: "INGRESAR";
+}
+.emailAndPasswordForm .inputContainerEmail::before {
+    content: "Su email";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.emailAndPasswordForm .inputContainerPassword::before {
+    content: "Contraseña";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.backButton :global(.vtex-button__label){
+    color: #000;
+}
+@media (max-width: 600px) {
+    .content--loginOptions {
+        padding: 2px 6px;
+        height: 100%;
+    }
+    .content--emailAndPassword {
+        width: 100%;
+    }
+    .inputContainerEmail{
+        padding: 0 !important;
+    }
+    .inputContainerPassword{
+        padding: 0;
+    }
+    .formLinkContainer {
+        padding: 0;
+    }
+    .formFooter {
+        padding: 0 !important;
+    }
+    .formLinkContainer {
+        padding: 0 !important;
+    }
+}

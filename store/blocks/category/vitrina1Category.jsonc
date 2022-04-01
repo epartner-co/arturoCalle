@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#vitrineCategory":{
+        "children": [
+            "flex-layout.col#col-vitrine-category",
+            "flex-layout.col#col-vitrine-category-1"
+        ],
+        "props":{
+            "blockClass": "row-vitrine-category"
+        }
+    },
+    "flex-layout.col#col-vitrine-category":{
+        "children": [
+            "image#imagenCategory"
+        ],
+        "props":{
+            "width":"25%",
+            "blockClass": "imagenColumnCategory"
+        }
+    },
+    "image#imagenCategory": {
+        "props": {
+          "src": "https://callearturop.vteximg.com.br/arquivos/hombrecategory.png",
+          "blockClass": "imgCategoriaSlider"
+        }
+    },
+    "flex-layout.col#col-vitrine-category-1":{
+        "children": [
+            "list-context.product-list#category-2"
+        ],
+        "props":{
+            "width":"80%",
+            "blockClass": "sliderVitrine"
+        }
+    },
+    "list-context.product-list#category-2": {
+        "blocks": ["product-summary.shelf#2"],
+        "children": ["slider-layout#demo-category-2"]
+    },
+    "slider-layout#demo-category-2": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "never"
+        }
+    }
+}

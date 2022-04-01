@@ -19,7 +19,7 @@
             "orientation": "vertical",
             "blockClass":"menuGeneral-sub"
         }
-        
+
     },
     // menu items que poseen un sub menu
      // declaracion sub menu
@@ -32,14 +32,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre",
             "noFollow": false,
             "tagTitle": "Hombre",
             "text": "Hombre"
             }
         },
         "blocks":[
-            "submenu.accordion#freedom-principal-hombre"   
+            "submenu.accordion#freedom-principal-hombre"
         ]
     },
     "submenu.accordion#freedom-principal-hombre":{
@@ -58,7 +58,6 @@
             "menu-item#category-freedom-Camisas-M",
             "menu-item#category-freedom-camisetas-M",
             "menu-item#category-freedom-chaquetas-M",
-            "menu-item#category-freedom-chalecos-M",
             "menu-item#category-freedom-Jeans-M",
             "menu-item#category-freedom-joggers-M",
             "menu-item#category-freedom-medias-M",
@@ -74,7 +73,7 @@
             "orientation": "vertical",
             "blockClass":"submenu-sub"
         }
-        
+
     },
     // items del sub menu ropa
     "menu-item#category-freedom-blazzer-M": {
@@ -86,7 +85,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/blazers",
             "noFollow": false,
             "tagTitle": "Blazzers",
             "text": "Blazzers"
@@ -102,7 +101,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/buzos",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -118,11 +117,11 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/camisas",
             "noFollow": false,
             "tagTitle": "Camisas",
             "text": "Camisas"
-            }
+          }
         }
     },
     "menu-item#category-freedom-camisetas-M": {
@@ -134,11 +133,11 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/camisetas",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
-            }
+          }
         }
     },
     "menu-item#category-freedom-chaquetas-M": {
@@ -150,27 +149,11 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/chaquetas",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
-            }
-        }
-    },
-    "menu-item#category-freedom-chalecos-M": {
-        "props": {
-          "id": "menu-item-category-chalecos",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "Chalecos",
-            "text": "Chalecos"
-            }
+          }
         }
     },
     "menu-item#category-freedom-Jeans-M": {
@@ -182,7 +165,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/jeans",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -198,11 +181,11 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/joggers",
             "noFollow": false,
             "tagTitle": "Joggers",
             "text": "Joggers"
-            }
+          }
         }
     },
     "menu-item#category-freedom-medias-M": {
@@ -214,7 +197,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -230,7 +213,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/pantalones",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -246,7 +229,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/pantalonetas-y-bermudas",
             "noFollow": false,
             "tagTitle": "Pantalonetas y Bermudas",
             "text": "Pantalonetas y Bermudas"
@@ -262,7 +245,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/polos",
             "noFollow": false,
             "tagTitle": "Polos",
             "text": "Polos"
@@ -278,7 +261,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/ropa-interior",
             "noFollow": false,
             "tagTitle": "Ropa Interior",
             "text": "Ropa Interior"
@@ -294,7 +277,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/sweaters",
             "noFollow": false,
             "tagTitle": "Sweaters",
             "text": "Sweaters"
@@ -310,7 +293,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/botas",
             "noFollow": false,
             "tagTitle": "Botas",
             "text": "Botas"
@@ -326,42 +309,10 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/hombre/tenis",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
-            }
-        }
-    },
-    "menu-item#category-freedom-pijama-M": {
-        "props": {
-          "id": "menu-item-category-pijama",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "Pijamas",
-            "text": "Pijamas"
-            }
-        }
-    },
-    "menu-item#category-freedom-camisillas-M": {
-        "props": {
-          "id": "menu-item-category-camisillas",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "Camisillas",
-            "text": "Camisillas"
             }
         }
     },
@@ -375,14 +326,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/freedom/mujer",
                 "noFollow": false,
                 "tagTitle": "Mujer",
                 "text": "Mujer"
             }
         },
         "blocks":[
-            "submenu.accordion#freedom-principal-mujer"   
+            "submenu.accordion#freedom-principal-mujer"
         ]
     },
     "submenu.accordion#freedom-principal-mujer":{
@@ -425,7 +376,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/blusas-y-camisas",
             "noFollow": false,
             "tagTitle": "Bluzas y camisas",
             "text": "Bluzas y camisas"
@@ -441,7 +392,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/buzos",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -457,7 +408,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/camisetas",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -473,7 +424,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/Sistema/buscavazia?ft=",
             "noFollow": false,
             "tagTitle": "Chalecos",
             "text": "Chalecos"
@@ -489,7 +440,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/chaquetas",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -505,7 +456,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/faldas",
             "noFollow": false,
             "tagTitle": "Faldas",
             "text": "Faldas"
@@ -521,7 +472,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/jeans",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -537,7 +488,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -553,11 +504,11 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/pantalones",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
-            }
+          }
         }
     },
     "menu-item#category-freedom-m--shorts-M": {
@@ -569,7 +520,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/shorts",
             "noFollow": false,
             "tagTitle": "Shorts",
             "text": "Shorts"
@@ -585,7 +536,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/vestidos-y-enterizos",
             "noFollow": false,
             "tagTitle": "Vestidos y enterizos",
             "text": "Vestidos y enterizos"
@@ -601,11 +552,11 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/botas",
             "noFollow": false,
             "tagTitle": "Botas",
             "text": "Botas"
-            }
+          }
         }
     },
     "menu-item#category-freedom-m--tenis-M": {
@@ -617,7 +568,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/mujer/tenis",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
@@ -634,14 +585,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/freedom/accesorios",
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
             }
         },
         "blocks":[
-            "submenu.accordion#freedom-principal-acce"   
+            "submenu.accordion#freedom-principal-acce"
         ]
     },
     "submenu.accordion#freedom-principal-acce":{
@@ -657,7 +608,6 @@
         "children":[
             "menu-item#category-freedom-cinturones-M",
             "menu-item#category-freedom-gorras-M",
-            "menu-item#category-freedom-llaveros-M",
             "menu-item#category-freedom-morrales-M",
             "menu-item#category-freedom-pulseras-M",
             "menu-item#category-freedom-tapabocas-M"
@@ -677,7 +627,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/accesorios/cinturones",
             "noFollow": false,
             "tagTitle": "Cinturones",
             "text": "Cinturones"
@@ -693,26 +643,10 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/accesorios/gorras",
             "noFollow": false,
             "tagTitle": "Gorras",
             "text": "Gorras"
-            }
-        }
-    },
-    "menu-item#category-freedom-llaveros-M": {
-        "props": {
-            "id": "menu-item-category-llaveros",
-            "type": "custom",
-            "blockClass": "item",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "Llaveros",
-            "text": "Llaveros"
             }
         }
     },
@@ -725,7 +659,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/accesorios/morrales-y-bolsos",
             "noFollow": false,
             "tagTitle": "Morrales y bolsos",
             "text": "Morrales y bolsos"
@@ -741,7 +675,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/accesorios/pulseras-y-brazaletes",
             "noFollow": false,
             "tagTitle": "Pulseras y brazaletes",
             "text": "Pulseras y brazaletes"
@@ -757,7 +691,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/freedom/accesorios/tapabocas",
             "noFollow": false,
             "tagTitle": "Tapabocas",
             "text": "Tapabocas"

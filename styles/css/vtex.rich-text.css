@@ -211,10 +211,6 @@
   padding: 0;
 }
 
-.container--ContenidoDesplegable {
-  margin-left: -50px;
-  justify-content: center;
-}
 
 .wrapper--ContenidoDesplegable .link {
   color: white;
@@ -673,4 +669,70 @@
     margin-top: 50px;
   }
 
+}
+
+/*Category*/
+.paragraph--tituloFiltro {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  margin: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 6px 25px 6px 38px;
+}
+
+.paragraph--tituloFiltro::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(https://callearturop.vteximg.com.br/arquivos/filtro%20image.png) no-repeat;
+  position: absolute;
+  background-size: 100%;
+  left: 4%;
+  top: 29%;
+}
+
+/*FOOTER*/
+.container--TituloCont {
+  justify-content: center;
+}
+
+.wrapper--TituloCont {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.container--ContenidoDesplegable {
+  width: 100%;
+  display: block;
+}
+
+.paragraph--terminos--y--logo {
+  line-height: 2;
+  font-weight: 300;
+  font-size: 9px;
+  letter-spacing: 1px;
+  position: relative;
+  margin: -3px 0 20px 0;
+}
+
+.imageElement--logo--payu {
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+}
+
+.paragraph--terminos--y--logo::after {
+    content: "";
+    width: 30px;
+    height: 20px;
+    background: url("https://callearturop.vteximg.com.br/arquivos/payuAC.png")no-repeat;
+    position: absolute;
+    right: -39px;
+    display: block;
+    background-size: 100%;
+    top: 0;
 }

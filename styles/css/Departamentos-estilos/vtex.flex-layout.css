@@ -1,0 +1,51 @@
+/*---------------------------------------*/
+/*    AJUSTES PAGINAS DE DEPARTAMENTO    */
+/*---------------------------------------*/
+.flexCol--banner-vitrina2.flexCol--vitrina2-1 .flexColChild--vitrina2-1:last-child {
+  display: none;
+}
+.flexCol--banner-vitrina2.flexCol--vitrina2-2 .flexColChild--vitrina2-2:last-child {
+  display: none;
+}
+.flexColChild--banner-vitrina2.flexColChild--vitrina2-1.pb0 {
+  margin: 10px;
+}
+.flexColChild--banner-vitrina2.flexColChild--vitrina2-2.pb0 {
+  margin: 10px;
+}
+@media screen and (max-width: 1200px) {
+.flexRowContent--bannerfinal.flexRowContent--more.flexRowContent--depto-desk {
+    flex-wrap: wrap;
+}
+.flexRowContent--bannerfinal.flexRowContent--more.flexRowContent--depto-desk .stretchChildrenWidth:first-child {
+    width: 100% !important;
+}
+.flexRowContent--bannerfinal.flexRowContent--more.flexRowContent--depto-desk .stretchChildrenWidth:last-child {
+    width: 100% !important;
+}
+.flexRowContent--bannerfinal.flexRowContent--more.flexRowContent--depto-desk .stretchChildrenWidth:last-child .flexCol {
+    display: contents;
+}
+.flexRowContent--bannerfinal.flexRowContent--more.flexRowContent--depto-desk .stretchChildrenWidth:last-child .flexCol .flexColChild {
+    width: 50%;
+}
+.flexRow--deals.flexRow--depto-desk {
+  background: transparent;
+}
+.flexRow--more.flexRow--depto-desk {
+  background-color: transparent;
+}
+.flexRowContent--bannerfinal.flexRowContent--more.flexRowContent--depto-desk .stretchChildrenWidth:last-child {
+  background-color: transparent;
+}
+}
+@media screen and (max-width: 700px) {
+  .flexCol--banner-vitrina2.flexCol--vitrina2-1 .flexColChild--vitrina2-1:last-child {
+    display: BLOCK;
+  }
+  .flexCol--banner-vitrina2.flexCol--vitrina2-2 .flexColChild--vitrina2-2:last-child {
+    display: BLOCK;
+  }
+}
+
+

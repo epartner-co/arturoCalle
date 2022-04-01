@@ -23,7 +23,7 @@
             "orientation": "vertical",
             "blockClass":"menuGeneral-sub"
         }
-        
+
     },
     // items principales del sub menu
     "menu-item#category-women-nuevos-M": {
@@ -35,7 +35,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/novedades/mujer",
             "noFollow": false,
             "tagTitle": "Nuevos",
             "text": "Nuevos"
@@ -51,7 +51,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/bono-de-regalo",
             "noFollow": false,
             "tagTitle": "Bono regalo",
             "text": "Bono regalo"
@@ -67,7 +67,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Oferta",
             "text": "Oferta"
@@ -85,14 +85,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-ropa"   
+            "submenu.accordion#women-principal-ropa"
         ]
     },
     "submenu.accordion#women-principal-ropa":{
@@ -119,13 +119,14 @@
             "menu-item#category-women-Jeans-M",
             "menu-item#category-women-pijama-M",
             "menu-item#category-women-shorts-M",
-            "menu-item#category-women-medias-M"
+            "menu-item#category-women-medias-M",
+            "menu-item#category-women-vestidos-bano"
         ],
         "props":{
             "orientation": "vertical",
             "blockClass":"submenu-sub"
         }
-        
+
     },
     // items del sub menu ropa
     "menu-item#category-women-abrigos-M": {
@@ -137,7 +138,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/abrigos-y-blazers",
             "noFollow": false,
             "tagTitle": "Abrigos y blazers",
             "text": "Abrigos y blazers"
@@ -153,7 +154,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/blusas-y-camisas",
             "noFollow": false,
             "tagTitle": "Blusas y camisas",
             "text": "Blusas y camisas"
@@ -169,7 +170,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/buzos",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -185,7 +186,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/camisetas",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -201,7 +202,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/chalecos",
             "noFollow": false,
             "tagTitle": "Chalecos",
             "text": "Chalecos"
@@ -217,7 +218,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/chaquetas",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -233,7 +234,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa-para-mujer/faldas",
             "noFollow": false,
             "tagTitle": "Faldas",
             "text": "Faldas"
@@ -249,7 +250,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/sweaters-y-cardigans",
             "noFollow": false,
             "tagTitle": "Sweaters y cardigans",
             "text": "Sweaters y cardigans"
@@ -265,7 +266,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/vestidos-y-enterizos",
             "noFollow": false,
             "tagTitle": "Vestidos y enterizos",
             "text": "Vestidos y enterizos"
@@ -281,7 +282,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/pantalones",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -297,7 +298,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/jeans",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -313,7 +314,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/pijamas",
             "noFollow": false,
             "tagTitle": "Pijamas",
             "text": "Pijamas"
@@ -329,7 +330,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/shorts",
             "noFollow": false,
             "tagTitle": "Shorts",
             "text": "Shorts"
@@ -345,13 +346,29 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/ropa/medias",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
             }
         }
     },
+    "menu-item#category-women-vestidos-bano": {
+      "props": {
+        "id": "menu-item-category-medias",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/mujer/ropa/vestidos-de-bano",
+          "noFollow": false,
+          "tagTitle": "Vestidos de baño",
+          "text": "Vestidos de baño"
+          }
+      }
+  },
     // declaracion sub menu zapatos
     "menu-item#category-women-zapatos-M": {
         "props": {
@@ -362,14 +379,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/mujer/zapatos",
                 "noFollow": false,
                 "tagTitle": "Zapatos",
                 "text": "Zapatos"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-zapatos"   
+            "submenu.accordion#women-principal-zapatos"
         ]
     },
     "submenu.accordion#women-principal-zapatos":{
@@ -404,7 +421,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/zapatos/botas-y-botines",
             "noFollow": false,
             "tagTitle": "Botas y Botines",
             "text": "Botas y botines"
@@ -420,7 +437,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/zapatos/tacones",
             "noFollow": false,
             "tagTitle": "Tacones",
             "text": "Tacones"
@@ -436,7 +453,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/zapatos/zapatos-planos",
             "noFollow": false,
             "tagTitle": "Planos",
             "text": "Planos"
@@ -452,7 +469,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/zapatos/tenis",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
@@ -468,7 +485,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/zapatos/sandalias",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -485,14 +502,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/mujer/accesorios/",
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-acce"   
+            "submenu.accordion#women-principal-acce"
         ]
     },
     "submenu.accordion#women-principal-acce":{
@@ -531,7 +548,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/billeteras",
             "noFollow": false,
             "tagTitle": "Billeteras",
             "text": "Billeteras"
@@ -547,7 +564,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/bolsos-y-carteras",
             "noFollow": false,
             "tagTitle": "Bolsos y correas",
             "text": "Bolsos y correas"
@@ -563,7 +580,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/cinturones-y-correas",
             "noFollow": false,
             "tagTitle": "Cinturones y correas",
             "text": "Cinturones y correas"
@@ -579,7 +596,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/gafas-de-sol",
             "noFollow": false,
             "tagTitle": "Gafas de sol",
             "text": "Gafas de sol"
@@ -595,7 +612,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/panoletas-y-bufandas",
             "noFollow": false,
             "tagTitle": "Pañoletas y bufandas",
             "text": "Pañoletas y bufandos"
@@ -611,7 +628,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/otros-accesorios/esmaltes-y-bisuteria",
             "noFollow": false,
             "tagTitle": "Esmalte y bisuteria",
             "text": "Esmalte y bisuteria"
@@ -627,7 +644,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/otros-accesorios/sombrillas",
             "noFollow": false,
             "tagTitle": "Sombrillas",
             "text": "Sombrillas"
@@ -643,7 +660,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/otros-accesorios/tapabocas",
             "noFollow": false,
             "tagTitle": "Tapabocas",
             "text": "Tapabocas"
@@ -659,7 +676,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/mujer/accesorios/otros-accesorios",
             "noFollow": false,
             "tagTitle": "Otros accesorios",
             "text": "Otros accesorios"
@@ -676,14 +693,14 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/Sistema/buscavazia?ft=0",
                 "noFollow": false,
                 "tagTitle": "Colección",
                 "text": "Colección"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-coleccion"   
+            "submenu.accordion#women-principal-coleccion"
         ]
     },
     "submenu.accordion#women-principal-coleccion":{
@@ -718,7 +735,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/woman/coleccion/soft-nautic",
             "noFollow": false,
             "tagTitle": "Soft Nautic",
             "text": "Soft nautic"
@@ -734,7 +751,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/woman/coleccion/urban-fall",
             "noFollow": false,
             "tagTitle": "Urban fall",
             "text": "Urban fall"
@@ -750,7 +767,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/eco/mujer",
             "noFollow": false,
             "tagTitle": "Eco",
             "text": "Eco"
@@ -766,7 +783,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/coleccion/active/mujer",
             "noFollow": false,
             "tagTitle": "Active",
             "text": "Active"
@@ -782,7 +799,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/woman/coleccion/formal-luxe",
             "noFollow": false,
             "tagTitle": "Formal Luxe",
             "text": "Formal Luxe"

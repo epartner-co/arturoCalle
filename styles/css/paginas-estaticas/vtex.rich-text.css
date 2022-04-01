@@ -8,15 +8,15 @@
       color: #333;
       font-weight: 600;
       margin-bottom: -6px;
-      
+
   }
-  
+
   .paragraph--sub--titulo{/*se puede utilizar en general... pero se tiene que volver a escribir si se necesita cambiar algo */
     font-size: 25px;
       color: #333;
       font-weight: 600;
   }
-  
+
   .container--contenido{
     text-align: justify;
       color: #333;
@@ -28,12 +28,12 @@
       line-height: 1.42857143;
       margin-bottom: -19px;/*margen entre parrafo y parrafo*/
   }
-  
-  
+
+
   .paragraph--contenido :global(.vtex-rich-text-0-x-link){
     color: #333;
   }
-  
+
   .paragraph--contenido--lista{
     margin-left: 4px;text-align: justify;
     color: #333;
@@ -43,8 +43,8 @@
     /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
     line-height: 1.42857143;
   }
-  
-  
+
+
   /*preguntas frecuentes*/
   .wrapper--Titulo--preguntas--frecuentes{
     font-size: 15px;
@@ -52,36 +52,36 @@
     line-height: 1.4em;
     margin-left: 10px;
   }
-  
+
   .wrapper--contenido--preguntas--frecuentes{
     font-size: 15px;
       font-family: 'DINPro';
       line-height: 1.4em;
-      border: 1px solid #ececec; 
+      border: 1px solid #ececec;
   }
-  
+
   .paragraph--contenido--preguntas--frecuentes{
     margin-left: 26px;
   }
-  
+
   /*linea etica*/
   .paragraph--titulo-principal--linea--etica{
     font-size: 30px;
     color: #333;
     font-weight: 600;
   }
-  
+
   .paragraph--subtitulo-principal--linea--etica{
     font-size: 24px;
     color: #333;
     font-weight: 600;
   }
-  
+
   .wrapper--recuadro{/*se puede utilizar en general para los recuadros necesitados*/
     border-left: 7px solid rgb(207 209 211);
     margin-left: 31px;
   }
-  
+
   .paragraph--recuadro{/*se puede utilizar en general para los recuadros necesitados*/
     margin-left: 10px;
       font-style: italic;
@@ -89,42 +89,42 @@
       font-size: 15px;
       font-family: 'DINPro';
   }
-  
+
   /*franquicias*/
-  
+
   .wrapper--boton--detalles--contenido{
     margin-top: 10px;
     background-color: #181e2a;
   }
-  
+
   .paragraph--contenido--decorad0{
     font-weight: 700;
       font-family: 'DINPro';
       font-size: 14px;
   }
-  
+
   .paragraph--boton--detalles--contenido{
     padding-left: 14px;
       padding-right: 14px;
       color: white;
       font-size: 14px;
   }
-  
+
   /*politica-etica-empresarial*/
-  
+
   .paragraph--contenido--titulos--con--letras{/*se puede usar en general para todos los titulos con letras*/
     font-weight: 700;
     font-family: 'DINPro';
     font-size: 14px;
     color: #333;
   }
-  
+
   .paragraph--sub--titulos1{
     font-size: 24px;
     color: #333;
     font-weight: 600;
   }
-  
+
   /*viñetas*/
   .listOrdered--sub--titulos1{
     padding-left: 22px;
@@ -133,12 +133,12 @@
       margin-top: 0px;
       font-weight: 600;
   }
-  
-  
+
+
   .listItem--sub--titulos2::marker {
     content: '2. ';
   }
-  
+
   .listOrdered--sub--titulos2{
     padding-left: 22px;
       font-size: 24px;
@@ -146,11 +146,11 @@
       margin-top: 18px;
       font-weight: 600;
   }
-  
+
   .listItem--sub--titulos3::marker {
     content: '3. ';
   }
-  
+
   .listOrdered--sub--titulos3{
     padding-left: 22px;
       font-size: 24px;
@@ -158,11 +158,11 @@
       margin-top: 18px;
       font-weight: 600;
   }
-  
+
   .listItem--sub--titulos4::marker {
     content: '4. ';
   }
-  
+
   .listOrdered--sub--titulos4{
     padding-left: 22px;
       font-size: 24px;
@@ -170,11 +170,11 @@
       margin-top: 18px;
       font-weight: 600;
   }
-  
+
   .listItem--sub--titulos5::marker {
     content: '5. ';
   }
-  
+
   .listOrdered--sub--titulos5{
     padding-left: 22px;
       font-size: 24px;
@@ -182,11 +182,11 @@
       margin-top: 18px;
       font-weight: 600;
   }
-  
+
   .listItem--sub--titulos6::marker {
     content: '6. ';
   }
-  
+
   .listOrdered--sub--titulos6{
     padding-left: 22px;
       font-size: 24px;
@@ -194,11 +194,11 @@
       margin-top: 18px;
       font-weight: 600;
   }
-  
+
   .listItem--sub--titulos7::marker {
     content: '7. ';
   }
-  
+
   .listOrdered--sub--titulos7{
     padding-left: 22px;
       font-size: 24px;
@@ -206,11 +206,11 @@
       margin-top: 18px;
       font-weight: 600;
   }
-  
+
   .listItem--sub--titulos8::marker {
     content: '8. ';
   }
-  
+
   .listOrdered--sub--titulos8{
     padding-left: 22px;
       font-size: 24px;
@@ -222,7 +222,7 @@
   .listItem--sub--titulos9::marker {
     content: '9. ';
   }
-  
+
   .listOrdered--sub--titulos9{
     padding-left: 22px;
       font-size: 24px;
@@ -234,7 +234,7 @@
   .listItem--sub--titulos10::marker {
     content: '10. ';
   }
-  
+
   .listOrdered--sub--titulos10{
     padding-left: 30px;
       font-size: 24px;
@@ -246,7 +246,7 @@
   .listItem--sub--titulos11::marker {
     content: '11. ';
   }
-  
+
   .listOrdered--sub--titulos11{
     padding-left: 30px;
       font-size: 24px;
@@ -254,13 +254,13 @@
       margin-top: 18px;
       font-weight: 600;
   }
-  
+
   /*punto para la viñeta*/
-  
+
   .listItem--contenido--punto::marker {
     content: url(assets/desk/assets-checkout-AC/circulo-negro2.png);
   }
-  
+
   .listOrdered--contenido--punto{
     text-align: justify;
     color: #333;
@@ -270,15 +270,15 @@
     margin-bottom: 1px;
     padding-right: 43px;
   }
-  
+
   .listItem--contenido--punto--abierto{
     padding-left: 10px;
   }
-  
+
   .listItem--contenido--punto--abierto::marker {
     content: url(assets/desk/assets-checkout-AC/rec2.png);
   }
-  
+
   .listOrdered--contenido--punto--abierto{
     text-align: justify;
     color: #333;
@@ -289,14 +289,14 @@
     padding-right: 43px;
     margin-left: 32px;
   }
-  
+
   .listItem--contenido--punto{
     padding-left: 10px;
   }
-  
-  
+
+
   /*terminos y condiciones*/
-  
+
   .container--contenido--corrido--a--la--derecha{
     text-align: justify;
     color: #333;
@@ -313,22 +313,22 @@
       font-weight: 600;
       margin-bottom: -25px;
   }
-  
+
   .container--paragraph--subtitulomenornivel{
     font-size: 14px;
       color: #333;
       font-weight: 600;
       margin-bottom: -25px;
   }
-  
+
   .container--paragraph--subtitulomenornivel2{
     font-size: 18px;
       color: #333;
       font-weight: 600;
       margin-bottom: -25px;
   }
-  
-  
+
+
   /*viñetas  pequeñas*/
   .listOrdered--sub--titulos1--pequeno{
     padding-left: 39px;
@@ -338,12 +338,12 @@
       font-weight: 600;
       font-family: 'DINPro';
   }
-  
-  
+
+
   .listItem--sub--titulos2--pequeno::marker {
     content: '2. ';
   }
-  
+
   .listOrdered--sub--titulos2--pequeno{
     padding-left: 39px;
       font-size: 14px;
@@ -352,11 +352,11 @@
       font-weight: 600;
       font-family: 'DINPro';
   }
-  
+
   .listItem--sub--titulos3--pequeno::marker {
     content: '3. ';
   }
-  
+
   .listOrdered--sub--titulos3--pequeno{
     padding-left: 39px;
       font-size: 14px;
@@ -365,11 +365,11 @@
       font-weight: 600;
       font-family: 'DINPro';
   }
-  
+
   .listItem--sub--titulos4--pequeno::marker {
     content: '4. ';
   }
-  
+
   .listOrdered--sub--titulos4--pequeno{
     padding-left: 39px;
       font-size: 14px;
@@ -378,11 +378,11 @@
       font-weight: 600;
       font-family: 'DINPro';
   }
-  
+
   .listItem--sub--titulos5--pequeno::marker {
     content: '5. ';
   }
-  
+
   .listOrdered--sub--titulos5--pequeno{
     padding-left: 39px;
       font-size: 14px;
@@ -391,11 +391,11 @@
       font-weight: 600;
       font-family: 'DINPro';
   }
-  
+
   .listItem--sub--titulos6--pequeno::marker {
     content: '6. ';
   }
-  
+
   .listOrdered--sub--titulos6--pequeno{
     padding-left: 39px;
       font-size: 14px;
@@ -404,11 +404,11 @@
       font-weight: 600;
       font-family: 'DINPro';
   }
-  
+
   .listItem--sub--titulos7--pequeno::marker {
     content: '7. ';
   }
-  
+
   .listOrdered--sub--titulos7--pequeno{
     padding-left: 39px;
     font-size: 14px;
@@ -417,11 +417,11 @@
     font-weight: 600;
     font-family: 'DINPro';
   }
-  
+
   .listItem--sub--titulos8--pequeno::marker {
     content: '8. ';
   }
-  
+
   .listOrdered--sub--titulos8--pequeno{
     padding-left: 39px;
     font-size: 14px;
@@ -430,7 +430,7 @@
     font-weight: 600;
     font-family: 'DINPro';
   }
-  
+
   .wrapper--contenido--terminos--y--condiciones--vinetas{
     text-align: justify;
       color: #333;
@@ -440,7 +440,7 @@
       margin-left: 145px;
       margin-top: -38px;
   }
-  
+
   .wrapper--contenido--terminos--y--condiciones--vinetas--3{
     text-align: justify;
       color: #333;
@@ -450,7 +450,7 @@
       margin-left: 176px;
       margin-top: -38px;
   }
-  
+
   .wrapper--contenido--terminos--y--condiciones--vinetas--4{
     text-align: justify;
       color: #333;
@@ -460,7 +460,7 @@
       margin-left: 166px;
       margin-top: -38px;
   }
-  
+
   .wrapper--contenido--terminos--y--condiciones--vinetas--5{
     text-align: justify;
       color: #333;
@@ -470,7 +470,7 @@
       margin-left: 166px;
       margin-top: -38px;
   }
-  
+
   .wrapper--contenido--terminos--y--condiciones--vinetas--6{
     text-align: justify;
       color: #333;
@@ -480,8 +480,8 @@
       margin-left: 408px;
       margin-top: -41px;
   }
-  
-  
+
+
   .wrapper--contenido--terminos--y--condiciones--vinetas--7{
     text-align: justify;
       color: #333;
@@ -491,7 +491,7 @@
       margin-left: 265px;
       margin-top: -38px;
   }
-  
+
   .wrapper--contenido--terminos--y--condiciones--vinetas--8{
     text-align: justify;
       color: #333;
@@ -501,24 +501,24 @@
       margin-left: 460px;
       margin-top: -38px;
   }
-  
-  
+
+
   /*historia*/
   .paragraph--titulo-principal--historia{/*se puede utilizar como titulo en general...ya si no funciona...se copia y modifica*/
     font-size: 30px;
       color: #333;
       font-weight: 600;
       margin-bottom: 23px;
-      
+
   }
-  
+
   .wrapper--recuadro--historia{/*se puede utilizar en general para los recuadros necesitados...si se necesita modificar...se crea otro*/
     border-left: 7px solid rgb(207 209 211);
     margin-left: 31px;
     margin-top: 28px;
     margin-bottom: 28px;
   }
-  
+
   .paragraph--recuadro--historia{/*se puede utilizar en general para los recuadros necesitados*/
     margin-left: 10px;
       font-style: italic;
@@ -526,13 +526,13 @@
       font-size: 15px;
       font-family: 'DINPro';
   }
-  
-  
+
+
   .paragraph--contenido--historia::before {/*se utiliza para poner la primera frase escrita en content... en mayousculas al principio*/
     content: "La historia de ARTURO CALLE";
     font-weight: bold;
-  } 
-  
+  }
+
   .paragraph--contenido--historia {
     text-align: justify;
       color: #333;
@@ -541,17 +541,17 @@
       font-size: 14px;
       font-family: 'DINPro';
       line-height: 1.42857143;
-  
-  }  
-  
+
+  }
+
   .paragraph--sub--titulo--historia{/*se puede utilizar en general... pero se tiene que volver a escribir si se necesita cambiar algo */
     font-size: 25px;
     color: #333;
     font-weight: 600;
     margin-bottom: -2px;
   }
-  
-  
+
+
   /*politica envio cambios garantias*/
   .paragraph--sub--titulo--mas--pequeno--politica--envio--cambios--garantias{
     font-size: 20px;
@@ -559,12 +559,12 @@
     font-weight: 600;
     margin-bottom: -2px;
   }
-  
+
   .paragraph--contenido--vineta1--Cambio--en-puntos-de-venta-ARTURO-CALLE-ubicados-en-Colombia::before {
     content: "1. Cambio en puntos de venta ARTURO CALLE ubicados en Colombia:";
     font-weight: bold;
-  } 
-  
+  }
+
   .container--contenido--vineta1--Cambio--en-puntos-de-venta-ARTURO-CALLE-ubicados-en-Colombia{
     text-align: justify;
     color: #333;
@@ -573,12 +573,12 @@
     line-height: 1.42857143;
     margin-left: 28px;
   }
-  
+
   .paragraph--contenido--vineta2--Cambios-a-traves-de-la-pagina-web::before {
     content: "2. Cambios a través de la página web:";
     font-weight: bold;
-  } 
-  
+  }
+
   .container--contenido--vineta2--Cambios-a-traves-de-la-pagina-web{
     text-align: justify;
     color: #333;
@@ -587,12 +587,12 @@
     line-height: 1.42857143;
     margin-left: 28px;
   }
-  
+
   .link--contenido--vineta2--Cambios-a-traves-de-la-pagina-web{
     text-decoration: none;
     color: black;
   }
-  
+
   .container--contenido--negrilla{
     text-align: justify;
     color: #333;
@@ -601,12 +601,12 @@
     line-height: 1.42857143;
     font-weight: 700;
   }
-  
+
   .paragraph--contenido--Cambio-del-producto-que-haya-sido-aprobado-por-talla-o-color::before {
     content: "Cambio del producto que haya sido aprobado por talla o color:";
     font-weight: bold;
-  } 
-  
+  }
+
   .container--contenido--Cambio-del-producto-que-haya-sido-aprobado-por-talla-o-color{
     text-align: justify;
     color: #333;
@@ -615,12 +615,12 @@
     line-height: 1.42857143;
     margin-bottom: -14px;
   }
-  
+
   .paragraph--contenido--vineta1--Solicitudes-a-traves-de-los-puntos-de-venta-ARTURO-CALLE::before {
     content: "1. Solicitudes a través de los puntos de venta ARTURO CALLE:";
     font-weight: bold;
-  } 
-  
+  }
+
   .container--contenido--vineta1--Solicitudes-a-traves-de-los-puntos-de-venta-ARTURO-CALLE{
     text-align: justify;
     color: #333;
@@ -629,12 +629,12 @@
     line-height: 1.42857143;
     margin-left: 28px;
   }
-  
+
   .paragraph--contenido--vineta2--Solicitudes-a-traves-de-la-pagina-web::before {
     content: "2. Solicitudes a través de la página web:";
     font-weight: bold;
-  } 
-  
+  }
+
   .container--contenido--vineta2--Solicitudes-a-traves-de-la-pagina-web{
     text-align: justify;
     color: #333;
@@ -761,3 +761,12 @@
     font-family: 'DINPro';
   }
   /*................................*/
+
+  /*-------------------*/
+  /*  Mobile statics  */
+  /*-----------------*/
+  @media screen and (max-width: 700px) {
+    .wrapper {
+      margin-right: 13%;
+    }
+  }

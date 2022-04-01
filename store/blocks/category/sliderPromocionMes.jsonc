@@ -1,0 +1,55 @@
+{
+    // Vitrinas en categoria destacada search result
+  "flex-layout.row#vitrinaDestacadaSearch": {
+    "children": [
+        "flex-layout.col#vitrinaDestacadaSearch",
+        "flex-layout.col#vitrinaDestacadaSearch-2"
+    ],
+    "props": {
+      "blockClass": "searchVitrinadest"
+    }
+  },
+  "flex-layout.col#vitrinaDestacadaSearch": {
+    "children": [
+      "image#vitrinaDestacadaSearch"
+    ],
+    "props": {
+      "width":"30%",
+      "blockClass": "columna1SearchShelf"
+    }
+  },
+  "image#vitrinaDestacadaSearch": {
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/banner%20inferior.png",
+      "blockClass": "imgInfoProduct"
+    }
+  },
+  "flex-layout.col#vitrinaDestacadaSearch-2": {
+    "children": [
+      "list-context.product-list#promo-1"
+    ],
+    "props": {
+      "paddingLeft": "20px",
+      "width":"70%",
+      "blockClass": "columna2SearchShelf"
+    }
+  },
+  "list-context.product-list#promo-1": {
+    "blocks": ["product-summary.shelf#3"],
+    "children": ["slider-layout#demo-promo-1"]
+  },
+  "slider-layout#demo-promo-1": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf",
+      "showPaginationDots":"false",
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+}
