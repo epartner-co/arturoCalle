@@ -1,0 +1,24 @@
+.listItem--tab-depto.listItemActive.listItemActive--tab-depto {
+  background: #181E2A;
+}
+.listItemActive--tab-depto :global(.vtex-button) :global(.vtex-button__label) {
+  color: white;
+}
+.listItem.listItem--tab-depto :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: uppercase;
+}
+.listItem.listItem--tab-depto {
+  margin: 0 10px;
+  background: #EFEFEF;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+.contentItem.contentItem--tab-depto {
+  border: none;
+}
+@media screen and (max-width: 700px){
+.listItem.listItem--tab-depto {
+  width: 130px;
+}
+}

@@ -1,11 +1,9 @@
-
-
 /*--------------------------------*/
 /* Medidas Tableta Departamentos */
-/**/
+/*------------------------------*/
 @media screen and (max-width: 1200px) {
   .infoCardContainer.infoCardContainer--info-card-banner-left {
-      width: 80%;
+      width: 90%;
   }
 
   .infoCardContainer.infoCardContainer--info-card

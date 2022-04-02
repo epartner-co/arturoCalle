@@ -27,3 +27,18 @@
 /*---------------------------*/
 
 
+@media screen and (max-width: 700px){
+  /*Ítems rojos del menú*/
+  .link.link--item-cat-bold-warn {
+    color: red;
+    text-decoration: none;
+  }
+
+  .link.link--item-cat-bold-warn:hover {
+    color: red;
+    text-decoration: underline;
+  }
+}
+
+
+

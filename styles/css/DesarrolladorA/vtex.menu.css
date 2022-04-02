@@ -1,3 +1,45 @@
-.styledLinkContent.styledLinkContent--item.flex.justify-between.nowrap {
-  font-weight: 700;
+/*-------------------------*/
+/* Estilos de menu mobile */
+/*-----------------------*/
+@media screen and (max-width: 700px){
+
+  .styledLinkContent--item {
+    font-weight: 700;
+    color: black;
+    background: none!important;
+    padding: 12px 25px;
+    color: #181e2a;
+    font-weight: 700;
+    font-family: 'DINPro';
+    border-bottom: 1px solid #e0dede;
+    text-transform: uppercase;
+    padding-left: 0%;
+  }
+
+  .menuContainerNav.menuContainerNav--menuGeneral-sub .styledLinkContent.styledLinkContent--item {
+    font-size: 12px;
+  }
+
+  .styledLinkContent {
+    background-color: #f8f8f8;
+  }
+
+  .menuItem--item {
+    background-color: #f8f8f8;
+  }
+
+  .menuItem--item :hover {
+    color: gray;
+    text-decoration: underline;
+  }
+
+  /*Fondo de menú mobile*/
+  .menuItemInnerDiv.menuItemInnerDiv--item {
+    background-color: #f8f8f8;
+  }
+
+  /*Color solo para palabra OFERTAS de category menu*/
+  .styledLinkContent--sales{
+    color: red;
+  }
 }
