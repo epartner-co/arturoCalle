@@ -95,7 +95,7 @@
   "width": "75%"
 },
 "children": [
-  "shelf#shoes"
+  "shelf#shoes-woman"
 ]
 },
 "info-card#col-shoes-left":{
@@ -124,11 +124,13 @@
   "blockClass": ["info-card-shoes-left", "depto-mobile"]
 }
 },
-"shelf#shoes": {
+"shelf#shoes-woman": {
 "blocks": ["product-summary.shelf"],
+
 "props": {
   "blockClass": "shoes",
   "orderBy":"OrderByTopSaleDESC",
+  "collection": 137,
   "paginationDotsVisibility": "desktopOnly",
   "productList":{
     "maxItems": 10,
@@ -153,7 +155,7 @@
   "width": "75%"
 },
 "children": [
-  "shelf#shirt"
+  "shelf#shirt-woman"
 ]
 },
 "flex-layout.col#shirt-right": {
@@ -193,11 +195,13 @@
 }
 },
 
-"shelf#shirt": {
+"shelf#shirt-woman": {
 "blocks": ["product-summary.shelf"],
+
 "props": {
   "blockClass": "shirt",
   "orderBy":"OrderByTopSaleDESC",
+  "collection": 137,
   "paginationDotsVisibility": "desktopOnly",
   "productList":{
     "maxItems": 10,
@@ -417,11 +421,13 @@
 }
 },
 /*-------------------------------------------------------------*/
-"shelf#cats": {
+"shelf#cats-woman": {
 "blocks": ["product-summary.shelf"],
+
 "props": {
   "orderBy":"OrderByTopSaleDESC",
   "paginationDotsVisibility": "desktopOnly",
+  "collection": 137,
   "productList":{
     "maxItems": 10,
     "itemsPerPage": 4,
@@ -435,9 +441,11 @@
 
 "shelf#descubre-mas-woman": {
 "blocks": ["product-summary.shelf"],
+
 "props": {
   "orderBy":"OrderByTopSaleDESC",
   "paginationDotsVisibility": "desktopOnly",
+  "collection": 137,
   "productList":{
     "maxItems": 10,
     "itemsPerPage": 4,
@@ -451,9 +459,11 @@
 
 "shelf#lo-mas-vendido-woman": {
 "blocks": ["product-summary.shelf"],
+
 "props": {
   "blockClass":"slider--general",
   "orderBy":"OrderByTopSaleDESC",
+  "collection": 137,
   "paginationDotsVisibility": "desktopOnly",
   "productList":{
     "maxItems": 10,
@@ -485,40 +495,44 @@
 },
 "tab-list#product__tab--list":{
 "children":[
-  "tab-list.item#tabs__list--laptos",
-  "tab-list.item#tabs__list--impresoras"
+  "tab-list.item#tabs__list--woman",
+  "tab-list.item#tabs__list--woman2"
 ]
 },
-"tab-list.item#tabs__list--laptos":{
+"tab-list.item#tabs__list--woman":{
 "props":{
   "tabId":"Jeans",
   "label":"Jeans",
-  "defaultActiveTab":true
+  "defaultActiveTab":true,
+  "blockClass": "tab-depto"
 }
 },
-"tab-list.item#tabs__list--impresoras":{
+"tab-list.item#tabs__list--woman2":{
 "props":{
   "tabId":"Camisetas",
-  "label":"Camisetas"
+  "label":"Camisetas",
+  "blockClass": "tab-depto"
 }
 },
 "tab-content#product__tab--content":{
 "children":[
-  "tab-content.item#tabs__content--laptos",
-  "tab-content.item#tabs__content--impresoras"
+  "tab-content.item#tabs__content--woman",
+  "tab-content.item#tabs__content--woman2"
 ]
 },
-"tab-content.item#tabs__content--laptos":{
+"tab-content.item#tabs__content--woman":{
 "props":{
-  "tabId":"Jeans"
+  "tabId":"Jeans",
+  "blockClass": "tab-depto"
 },
-"children":["shelf#cats","rich-text#tab-bottom-jean-woman"]
+"children":["shelf#cats-woman","rich-text#tab-bottom-jean-woman"]
 },
-"tab-content.item#tabs__content--impresoras":{
+"tab-content.item#tabs__content--woman2":{
 "props":{
-  "tabId":"Camisetas"
+  "tabId":"Camisetas",
+  "blockClass": "tab-depto"
 },
-"children":["shelf#cats","rich-text#tab-bottom-camisetas-woman"]
+"children":["shelf#cats-woman","rich-text#tab-bottom-camisetas-woman"]
 },
 "rich-text#tabs__content--impresoras":{
 "props":{

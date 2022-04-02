@@ -117,9 +117,11 @@
 },
 "shelf#shoes-hombre": {
   "blocks": ["product-summary.shelf"],
+
   "props": {
     "blockClass": "shoes",
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 138,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -190,6 +192,7 @@
   "blocks": ["product-summary.shelf"],
   "props": {
     "blockClass": "shirt",
+    "collection": 138,
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
@@ -474,8 +477,10 @@
 
 "shelf#cats": {
   "blocks": ["product-summary.shelf"],
+  
   "props": {
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 138,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -490,9 +495,11 @@
 
 "shelf#descubre-mas": {
   "blocks": ["product-summary.shelf"],
+  
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
+    "collection": 138,
     "blockClass": "pag-deptos",
     "productList":{
       "maxItems": 10,
@@ -507,8 +514,10 @@
 
 "shelf#lo-mas-vendido": {
   "blocks": ["product-summary.shelf"],
+  
   "props": {
     "blockClass":["slider--general","pag-deptos"],
+    "collection": 138,
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
@@ -552,13 +561,15 @@
   "props":{
     "tabId":"Jeans",
     "label":"Jeans",
-    "defaultActiveTab":true
+    "defaultActiveTab":true,
+    "blockClass": "tab-depto"
   }
 },
 "tab-list.item#tabs__list--Hombre2":{
   "props":{
     "tabId":"Camisetas",
-    "label":"Camisetas"
+    "label":"Camisetas",
+    "blockClass": "tab-depto"
   }
 },
 "tab-content#product__tab-Hombre--content":{
@@ -569,13 +580,15 @@
 },
 "tab-content.item#tabs__content--Hombre":{
   "props":{
-    "tabId":"Jeans"
+    "tabId":"Jeans",
+    "blockClass": "tab-depto"
   },
   "children":["shelf#cats","rich-text#tab-bottom-jean-hombre"]
 },
 "tab-content.item#tabs__content--Hombre2":{
   "props":{
-    "tabId":"Camisetas"
+    "tabId":"Camisetas",
+    "blockClass": "tab-depto"
   },
   "children":["shelf#cats","rich-text#tab-bottom-camisetas-hombre"]
 },

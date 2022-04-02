@@ -21,8 +21,8 @@
 
     "flex-layout.row#nino-banner2",
     "flex-layout.row#nino-banner2M",
-    "shelf#descubre-mas",
-    "shelf#lo-mas-vendido"
+    "shelf#descubre-mas-nino",
+    "shelf#lo-mas-vendido-nino"
   ]
 },
 
@@ -87,7 +87,7 @@
     "width": "75%"
   },
   "children": [
-    "shelf#shoes"
+    "shelf#shoes-nino"
   ]
 },
 "info-card#col-shoes-nino-left":{
@@ -107,6 +107,7 @@
   "props": {
     "blockClass": "shoes",
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 139,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -177,6 +178,7 @@
   "props": {
     "blockClass": "shirt",
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 139,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -376,10 +378,11 @@
   }
 },
 
-"shelf#cats": {
+"shelf#cats-nino": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 139,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -392,10 +395,11 @@
   }
 },
 
-"shelf#descubre-mas": {
+"shelf#descubre-mas-nino": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 139,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -408,11 +412,12 @@
   }
 },
 
-"shelf#lo-mas-vendido": {
+"shelf#lo-mas-vendido-nino": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "blockClass":"slider--general",
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 139,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -454,13 +459,15 @@
   "props":{
     "tabId":"Jean",
     "label":"Jean",
-    "defaultActiveTab":true
+    "defaultActiveTab":true,
+    "blockClass": "tab-depto"
   }
 },
 "tab-list.item#tabs__list--nino2":{
   "props":{
     "tabId":"Camisetas",
-    "label":"Camisetas"
+    "label":"Camisetas",
+    "blockClass": "tab-depto"
   }
 },
 "tab-content#product__tab--content-nino":{
@@ -471,15 +478,17 @@
 },
 "tab-content.item#tabs__content--nino":{
   "props":{
-    "tabId":"Jean"
+    "tabId":"Jean",
+    "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-jean-nino"]
+  "children":["shelf#cats-nino","rich-text#tab-bottom-jean-nino"]
 },
 "tab-content.item#tabs__content--nino2":{
   "props":{
-    "tabId":"Camisetas"
+    "tabId":"Camisetas",
+    "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-camisetas-nino"]
+  "children":["shelf#cats-nino","rich-text#tab-bottom-camisetas-nino"]
 },
 "rich-text#tabs__content--nino":{
   "props":{

@@ -20,8 +20,8 @@
 
     "flex-layout.row#nina-banner2",
     "flex-layout.row#nina-banner2M",
-    "shelf#descubre-mas",
-    "shelf#lo-mas-vendido"
+    "shelf#descubre-mas-nina",
+    "shelf#lo-mas-vendido-nina"
   ]
 },
 
@@ -86,7 +86,7 @@
     "width": "75%"
   },
   "children": [
-    "shelf#shoes"
+    "shelf#shoes-nina"
   ]
 },
 "info-card#col-shoes-nina-left":{
@@ -107,6 +107,7 @@
     "blockClass": "shoes",
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
+    "collection": 140,
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 3,
@@ -175,6 +176,7 @@
   "props": {
     "blockClass": "shirt",
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 140,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -390,15 +392,16 @@
     "fullWidth": true,
     "imageUrl": "assets/desk/nina/banner-grid3.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card--down"/*se le puso el mismo info card que nino...para que quedara alineado*/
+    "blockClass": "info-card"
   }
 },
 
-"shelf#cats": {
+"shelf#cats-nina": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
+    "collection": 140,
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
@@ -410,11 +413,12 @@
   }
 },
 
-"shelf#descubre-mas": {
+"shelf#descubre-mas-nina": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
+    "collection": 140,
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
@@ -426,11 +430,12 @@
   }
 },
 
-"shelf#lo-mas-vendido": {
+"shelf#lo-mas-vendido-nina": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "blockClass":"slider--general",
     "orderBy":"OrderByTopSaleDESC",
+    "collection": 140,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -470,13 +475,15 @@
   "props":{
     "tabId":"Jean",
     "label":"Jean",
-    "defaultActiveTab":true
+    "defaultActiveTab":true,
+    "blockClass": "tab-depto"
   }
 },
 "tab-list.item#tabs__list--nina2":{
   "props":{
     "tabId":"Camisetas",
-    "label":"Camisetas"
+    "label":"Camisetas",
+    "blockClass": "tab-depto"
   }
 },
 "tab-content#product__tab--content-nina":{
@@ -487,15 +494,17 @@
 },
 "tab-content.item#tabs__content--nina":{
   "props":{
-    "tabId":"Jean"
+    "tabId":"Jean",
+    "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-jean-nina"]
+  "children":["shelf#cats-nina","rich-text#tab-bottom-jean-nina"]
 },
 "tab-content.item#tabs__content--nina2":{
   "props":{
-    "tabId":"Camisetas"
+    "tabId":"Camisetas",
+    "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-camisetas-nina"]
+  "children":["shelf#cats-nina","rich-text#tab-bottom-camisetas-nina"]
 },
 "rich-text#tabs__content--nina":{
   "props":{
