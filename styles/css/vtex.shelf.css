@@ -21,3 +21,47 @@
       padding-bottom: 0;
   }
 }
+
+/*Contenedores Product*/
+.tittle--shoes {
+    display: none;
+    visibility: hidden;
+}
+.title--vitrineP {
+    margin: -36px 0 0 0 !important;
+    padding-top: 2%;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.title--vitrineP::after {
+    width: 10%;
+    border-bottom: 1px solid;
+    content: "";
+    display: flex;
+    height: 0px;
+    align-items: center;
+    margin: 0 0 0 15%;
+}
+.title--vitrineP::before {
+    width: 10%;
+    border-bottom: 1px solid;
+    content: " ";
+    display: flex;
+    height: 0px;
+    align-items: center;
+    margin: 0 15% 0 0;
+}
+.relatedProducts--vitrineP {
+    background: #fafafa;
+}
+
+.relatedProducts--vitrineP {
+    padding-bottom: 5%;
+}
+.dotsContainer {
+    display: none;
+}

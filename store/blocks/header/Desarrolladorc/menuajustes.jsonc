@@ -1,0 +1,8 @@
+{
+    "minicart.v2#cart":{
+        "props": {
+            "blockClass": "miniC"
+        }
+    }
+
+}

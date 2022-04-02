@@ -192,6 +192,7 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+  text-transform: uppercase;
 }
 
 
@@ -493,17 +494,6 @@ input#downshift-1-input {
 /*-----------------------------------*/
 /*   visualizacion del producto Estilos Producto Sección Contenido AC */
 /*----------------------------------*/
-
-.productNameContainer--quickview :global(.vtex-store-components-3-x-productBrand){
-  color: #181e2a;
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 13px;
-  letter-spacing: 1px;
-  line-height: 17px;
-  font-weight: 700;
-}
-
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 

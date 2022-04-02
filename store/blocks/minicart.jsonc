@@ -33,7 +33,10 @@
     }
   },
   "flex-layout.col#home__minicart--circulo-negro":{
-    "children":["image#minicart-icon-circulo-negro"]
+    "children":["image#minicart-icon-circulo-negro"],
+    "props":{
+      "blockClass": "circuloN"
+    }
   },
   "image#minicart-icon-circulo-negro": {
     "props": {

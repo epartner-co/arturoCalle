@@ -1,0 +1,29 @@
+/*-------------------------*/
+/* Hover en category menu */
+/*-----------------------*/
+
+/*los titulos en negrita*/
+.link.link--item-cat-bold:hover {
+  color: #777777;
+  text-decoration: underline;
+}
+
+/*items de cada columna del menu*/
+.link.link--item-cat:hover {
+  color: #777777;
+  text-decoration: underline;
+}
+
+/*Ítems rojos del menú*/
+.link.link--item-cat-bold-warn {
+  color: red;
+  text-decoration: none;
+}
+
+.link.link--item-cat-bold-warn:hover {
+  color: red;
+  text-decoration: underline;
+}
+/*---------------------------*/
+
+

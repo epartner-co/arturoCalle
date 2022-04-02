@@ -1,4 +1,20 @@
-.quantitySelectorContainer :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
-    display: none;
 
+
+/*Product*/
+.quantitySelectorContainer--cantidad {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
 }
+
+.quantitySelectorTitle--cantidad {
+    margin: 0 17px 0 0;
+    text-transform: uppercase;
+    color: black;
+}
+.quantitySelectorDropdownContainer--cantidad {
+    width: 13%;
+    border-color: black;
+}
+
+

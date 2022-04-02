@@ -1,0 +1,9 @@
+.flexRow.flexRow--deals.flexRow--depto-desk {
+  background: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .flexCol--banner-vitrina2.flexCol--vitrina2-1 .flexColChild--vitrina2-1:last-child {
+      height: 135px !important;
+  }
+}

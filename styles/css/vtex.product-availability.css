@@ -1,0 +1,18 @@
+/*Product*/
+.container {
+    color: red;
+    justify-content: center;
+    padding-top: 20px;
+    border-top: 2px solid #e3e1e1;
+    margin-top: 3px;
+}
+.lowStockText {
+    color: red;
+    font-size: 14px;
+    font-weight: 300;
+}
+.lowStockHighlight {
+    color: red;
+    font-size: 14px;
+    font-weight: 300;
+}

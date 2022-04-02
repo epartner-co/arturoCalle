@@ -17,3 +17,43 @@
   width: 43%;
 }
 }
+/*Tap producto*/
+.listItem {
+  width: 33.33%;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+}
+
+.listContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.listContainer :global(.vtex-button) {
+  background: initial;
+  border: none;
+  color: initial;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.listContainer :global(.vtex-button__label) {
+  text-transform: initial;
+  justify-content: center;
+  display: flex;
+}
+
+.listItem {
+  justify-content: center;
+  display: flex;
+}
+.listItemActive {
+  background: #DADADA;
+}
+.contentContainer {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #d7d7d7;
+  min-height: 200px;
+}
+.container--product {margin-top: 31px;}

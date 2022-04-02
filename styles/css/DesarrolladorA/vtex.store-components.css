@@ -1,0 +1,50 @@
+
+
+/*--------------------------------*/
+/* Medidas Tableta Departamentos */
+/**/
+@media screen and (max-width: 1200px) {
+  .infoCardContainer.infoCardContainer--info-card-banner-left {
+      width: 80%;
+  }
+
+  .infoCardContainer.infoCardContainer--info-card
+  {
+    margin: 0;
+    width: 98%;
+  }
+
+  .infoCardContainer.infoCardContainer--info-card--down
+  {
+    margin: 0 0 0 auto;
+    width: 98%;
+  }
+
+  .infoCardContainer.infoCardContainer--info-card-shoes
+  {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .infoCardContainer.infoCardContainer--info-card-shoes
+  {
+    height: 545px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .infoCardContainer.infoCardContainer--info-card-shoes-left.infoCardContainer--depto-mobile {
+      height: 135px;
+  }
+  .infoCardContainer--depto-mobile {
+      height: 410px;
+  }
+
+  .infoCardContainer.infoCardContainer--info-card-banner-left {
+    width: 100%;
+  }
+}
+
+

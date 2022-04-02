@@ -29,9 +29,12 @@
       "menu-item#vtex-website3",
       "image#icon-contactenos",
       "menu-item#vtex-website4",
-      "menu-item#vtex-website5",
-      "image#icon-flecha"
-    ]
+      "menu-item#vtex-website5"
+      //"image#icon-flecha"
+    ],
+    "props":{
+      "blockClass": "menusupe"
+    }
   },
 
   "image#icon-wpp": {
@@ -51,6 +54,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "texpre",
       "itemProps": {
         "icon":"mpa-globe",
         "type": "external",
@@ -76,6 +80,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "texpre",
       "itemProps": {
         "type": "external",
         "noFollow": false,
@@ -117,6 +122,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "texpre",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -141,6 +147,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "texpre",
       "itemProps": {
         "type": "external",
         "href": "/",
@@ -295,6 +302,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "texpre",
       "itemProps": {
         "type": "external",
         "noFollow": false,

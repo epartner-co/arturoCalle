@@ -329,12 +329,6 @@
 Estilos Producto Sección Contenido AC*/
 /*-------------------------------*/
 
-.flexRow--selling-price{
-  margin-left: -14px;
-  margin-top: -34px;
-}
-
-
 .flexCol--Descripcion :global(.vtex-disclosure-layout-1-x-trigger){
   background: #181e2a;
   width: 100%;
@@ -370,13 +364,6 @@ Estilos Producto Sección Contenido AC*/
 
 .flexCol--product-identifier--ref{
   margin-top: -7px;
-}
-
-.flexRow--selling-price :global(.vtex-product-price-1-x-sellingPriceValue){
-  letter-spacing: 1px;
-  font-weight: 700;
-  font-size: 20px;
-
 }
 
 .flexRow--buy-button-row{
@@ -914,4 +901,12 @@ Estilos Producto Sección Contenido AC*/
 
 .flexRowContent--social-network .stretchChildrenWidth {
   min-width: 35px;
+}
+/*Precio*/
+.flexRow--selling-price{
+  border-bottom: 2px solid #e3e1e1;
+  padding-bottom: 5px;
+}
+.flexRowContent--selling-price{
+  margin-top: 0;
 }
