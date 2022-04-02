@@ -1,0 +1,47 @@
+{
+  /*"add-to-cart-button": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button"
+    }
+  },
+  "minicart.v2":{
+    "props": {
+      /*"openOnHover":true,//se utiliza para que el carrito se despliegue hacia abajo cuando se pasa un boton sobre el
+      "variation":"popup ",//se utiliza para desplegar el carrito hacia abajo
+      "blockClass": "minicart-home",
+      "MinicartIcon": "flex-layout.row#home__minicart"
+    }
+    /*"children": ["minicart-base-content"]
+  },
+  "flex-layout.row#home__minicart":{
+    "children":[
+      "flex-layout.col#home__minicart--bolsa-de-compra",
+      "flex-layout.col#home__minicart--circulo-negro"
+    ]
+  },
+  "flex-layout.col#home__minicart--bolsa-de-compra":{
+    "props":{
+      "blockClass": "minicart-slayout-home-bolsa"
+    },
+    "children":["image#minicart-icon-bolsa-de-compra"]
+  },
+  "image#minicart-icon-bolsa-de-compra": {
+    "props": {
+      "blockClass": "minicart-home-bolsa",
+      "src": "https://callearturop.vteximg.com.br/arquivos/bolsa-de-la-compra.png"
+    }
+  },
+  "flex-layout.col#home__minicart--circulo-negro":{
+    "children":["image#minicart-icon-circulo-negro"],
+    "props":{
+      "blockClass": "circuloN"
+    }
+  },
+  "image#minicart-icon-circulo-negro": {
+    "props": {
+      "blockClass": "minicart-circulo-negro",
+      "src": "https://callearturop.vteximg.com.br/arquivos/circuloNegro.png"
+    }
+  }*/
+}

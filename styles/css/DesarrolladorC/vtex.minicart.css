@@ -6,3 +6,45 @@
 .minicartQuantityBadge--minicart-home{
   background: black;
 }
+
+/*Stilos Mobil*/
+@media screen and (max-width: 700px) {
+
+.minicartContainer--minicart-home{
+  margin: 0px;
+}
+.minicartQuantityBadge--minicart-home {
+  left: 12%;
+  top: 5px;
+}
+
+.minicartQuantityBadgeDefault {top: 10%;right: 3px;}
+.openIconContainer {
+  margin-top: 0px;
+  padding: 0px;
+}
+
+
+}
+@media screen and (min-width: 640px) and (max-width: 700px) { 
+  .minicartQuantityBadge--minicart-home {
+    left: 45% !important;
+    top: 0 !important;
+  }
+  
+ }
+@media screen and (max-width: 1025px) {
+
+  .minicartContainer--minicart-home{
+    margin: 0px;
+  }
+  
+  }
+
+  .minicartQuantityBadgeDefault {
+    top: 9%;
+    right: 10%;
+}
+.closeIcon {
+  color: black;
+}

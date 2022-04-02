@@ -53,7 +53,8 @@
       "flex-layout.col#buybutton"
     ],
     "props":{
-      "blockClass": "inferior"
+      "blockClass": "inferior",
+      "preserveLayoutOnMobile": "true"
     }
   },
 

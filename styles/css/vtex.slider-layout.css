@@ -41,14 +41,22 @@
 .sliderLayoutContainer--slider-moible {
     display: block;
 }
-.sliderTrack--categorias2-banners {
-  width: 600% !important;
-}
 .slideChildrenContainer--categorias2-banners.slideChildrenContainer--slider-moible {
   margin: 0 3px;
 }
 .sliderLayoutContainer.sliderLayoutContainer--shelf {
   width: 100%;
+}
+.sliderLayoutContainer--shelf {
+  width: 100% !important;
+}
+.caretIcon--shelf {
+  color: black;
+  width: 20px;
+}
+.sliderRightArrow--shelf {
+  position: absolute;
+  right: 0 !important;
 }
 }
 /*------------------------------------*/
@@ -90,5 +98,12 @@
 
 /*Slider vitrinas*/
 .sliderLayoutContainer.sliderLayoutContainer--shelf {
+  width: 100%;
+}
+.sliderLayoutContainer.sliderLayoutContainer--shelfH {
   width: 80%;
+  padding: 3% !important;
+}
+.caretIcon--shelfH {
+  max-width: 30px;
 }

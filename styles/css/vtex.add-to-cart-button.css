@@ -12,6 +12,12 @@
     margin: auto;
 }
 
+.buttonText {
+    color: white;
+}
+
+.buttonText:hover {color: black;}
+
 .buttonDataContainer {
     width: 100%;
     margin: 0;

@@ -17,3 +17,63 @@
   right: 0;
   margin: 0 auto;
 }
+
+.flexRowContent--menu-nivel-hombre-cats {
+  min-height: 460px;
+}
+
+/*Remplazar y quitar important*/
+.flexRowContent--menu-nivel-hombre-cats {
+  background-color: rgb(255 255 255 / 95%)!important;
+  right: 0px !important;
+  width: 100% !important;
+}
+.flexColChild--circuloN::before {
+  top: 27% !important;
+}
+/*Cerrar remplazos*/
+
+.flexRowContent--menu-link {
+  max-height: 28px;
+}
+.styledLinkContent--texpre {
+  letter-spacing: 0.2px;
+}
+
+.flexColChild--botoncomp :global(.vtex-button){
+  color: #181e2a;
+}
+
+@media screen and (max-width: 700px) {
+.container--breadP.pv3 {flex-wrap: wrap;}
+
+.flexRow--breadproduct {
+    position: relative;
+    margin: 0;
+}
+
+.flexRowContent--breadproduct {
+    margin: 0;
+}
+.flexRowContent--imageCP {
+  margin: 20px 0 0 0;
+  padding: 8% 3%;
+}
+.flexRowContent--main-header-mobile {
+  max-height: 48px;
+}
+.flexCol--lateralColM {
+  padding: 0 2%;
+}
+.flexCol--buycolection {
+  display: flex;
+  justify-content: end;
+  margin-left: 0%;
+}
+
+}
+.flexRow--minicart-footer{
+  background:#18202c;;
+  margin: 0 !important;
+  width: 100% !important;
+}

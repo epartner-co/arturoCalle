@@ -83,6 +83,7 @@
       "minicart.v2"
     ]
   },
+
   "flex-layout.col#4-desktop": {
     "props": {
       "blockClass": "main-header",
@@ -203,6 +204,7 @@
       "disclosure-layout#lupa",
       "flex-layout.col#spacerlow",
       "logo#mobile",
+      "flex-layout.col#spacer",
       //"login",
       "minicart.v2"
     ],

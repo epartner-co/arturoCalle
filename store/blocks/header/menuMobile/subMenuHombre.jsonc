@@ -130,7 +130,7 @@
         "props": {
           "id": "menu-item-category-oferta",
           "type": "custom",
-          "blockClass": "item",
+          "blockClass": "itemR",
           "iconId": null,
           "highlight": false,
           "itemProps": {

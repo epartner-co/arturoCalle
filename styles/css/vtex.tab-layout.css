@@ -57,3 +57,11 @@
   min-height: 200px;
 }
 .container--product {margin-top: 31px;}
+
+.listItem :global(.vtex-button__label) {
+  color: #c1bebe;
+}
+
+.listItemActive :global(.vtex-button__label) {
+  color: black;
+}

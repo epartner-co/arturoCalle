@@ -1,0 +1,57 @@
+/*Colores del header en textos*/
+.link--pais--guatemala, .link--pais--salvador, .link--pais--costa-rica, .link--pais--panama {
+  color: black;
+  text-decoration: none;
+}
+/*Menu color*/
+.link--item-cat-bold-warn {
+  color: red;
+}
+/*Quitar los importants*/
+
+.paragraph--pais--panama .wrapper--pais--guatemala {
+    position: absolute;
+    top: -3px;
+    font-size: 10px;
+    left: 0px;
+    width: 100px;
+    height: 28px;
+    box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.paragraph--pais--panama .wrapper--pais--panama {
+  position: absolute;
+  top: -3px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.paragraph--pais--costa-rica .wrapper--pais--costa-rica {
+  position: absolute;
+  top: -3px;
+  font-size: 10px;
+  left: 0px;
+  width: 100px;
+  height: 28px;
+  box-shadow: 0px 1px 0px rgb(0 0 0 / 30%);
+}
+
+.paragraph--pais--salvador .wrapper--pais--pais--salvador {
+  top: 69px;
+}
+.link--item-cat-bold {
+  text-decoration: none;
+  color: #151d29 !important;
+  font-weight: 900;
+}
+@media screen and (max-width: 700px) {
+.wrapper--terminos {
+  margin: 0;
+}
+.wrapper{
+  margin: 0 !important;
+}
+}

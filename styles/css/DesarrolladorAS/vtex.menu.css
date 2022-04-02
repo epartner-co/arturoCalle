@@ -2,6 +2,11 @@
 /* Estilos de menu mobile */
 /*-----------------------*/
 @media screen and (max-width: 700px){
+  .styledLinkContent--item:hover {
+    width: inherit;
+    text-decoration: initial;
+    transition: all .8s;
+  }
 
   .styledLinkContent--item {
     font-weight: 700;
@@ -16,7 +21,22 @@
     padding-left: 0%;
   }
 
+  .styledLinkContent--itemR {
+    font-weight: 700;
+    color: black;
+    background: none!important;
+    padding: 12px 25px;
+    color: red;
+    font-weight: 700;
+    font-family: 'DINPro';
+    border-bottom: 1px solid #e0dede !important;
+    text-transform: uppercase;
+    padding-left: 0%;
+  }
   .menuContainerNav.menuContainerNav--menuGeneral-sub .styledLinkContent.styledLinkContent--item {
+    font-size: 12px;
+  }
+  .menuContainerNav.menuContainerNav--menuGeneral-sub .styledLinkContent.styledLinkContent--itemR {
     font-size: 12px;
   }
 
@@ -42,4 +62,19 @@
   .styledLinkContent--sales{
     color: red;
   }
+  .menuContainerNav {
+    height: 100vh;
+    overflow: scroll;
+    width: 100%;
+}
+.styledLinkContent--item {
+  width: 100%;
+}
+}
+.styledLinkContent--itemR {
+  border: none;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 35px;
+  margin-top: 8px;
 }

@@ -1,0 +1,604 @@
+{
+  "store.custom#hombre": {
+  "blocks": [
+    "info-card#hombre-home",
+    "info-card#hombre-home-Mobile",
+    //"list-context.image-list#demo",
+    /* You can make references to blocks defined in other files.
+     * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+    "__fold__.experimentalLazyAssets",
+    "flex-layout.row#deals",
+    "slider-layout#deals-mobile",
+    "rich-text#shelf-titleDepto",
+    "flex-layout.row#shoes-hombre",
+    "flex-layout.row#shirt-hombre",
+    "flex-layout.row#hombre-banner",
+    "flex-layout.row#hombre-bannerM",
+
+    "flex-layout.row#product__Hombre",
+
+    
+    "flex-layout.row#hombre-banner2",
+    "flex-layout.row#hombre-banner2M",
+    //"info-card#home",
+    //"rich-text#question",
+    //"rich-text#link",
+    //"newsletter",
+    "shelf#descubre-mas",
+    "shelf#lo-mas-vendido"
+  ]
+},
+
+"list-context.image-list#demo-hombre": {
+  "children": ["slider-layout#demo-images-hombre"],
+  "props": {
+    "height": 720,
+    "images": [
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      },
+      {
+        "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+        "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+      }
+    ]
+  }
+},
+"slider-layout#demo-images-hombre": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "carousel"
+  }
+},
+
+/*--------------------------------------------------------*/
+/* Banner vitrina 1 --> CONOCE NUESTRA LINEA DE ZAPATOS  */
+/*------------------------------------------------------*/
+"rich-text#shelf-titleDepto": {
+  "props": {
+    "text": "CONOCE NUESTRA LINEA DE ZAPATOS",
+    "blockClass": ["shelfTitle", "depto-mobile"]
+  }
+},
+"flex-layout.row#shoes-hombre":{
+  "props": {
+    "blockClass": ["more","vitrina1"]
+  },
+  "children": [
+    "flex-layout.col#shoes-hombre-left",
+    "flex-layout.col#shoes-hombre-right"]
+},
+"flex-layout.col#shoes-hombre-left": {
+  "props": {
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-1"]
+  },
+  "children": [
+    "info-card#col-shoes-hombre-left",
+    "info-card#col-shoes-hombre-leftM"
+  ]
+},
+"flex-layout.col#shoes-hombre-right": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shoes"
+  ]
+},
+"info-card#col-shoes-hombre-left":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/hombre/banner-vitrina1.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-shoes-left", "depto-desk"]
+  }
+},
+"info-card#col-shoes-hombre-leftM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-vitrina1.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-shoes-left", "depto-mobile"]
+  }
+},
+"shelf#shoes-hombre": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shoes",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+
+/*--------------------------------------------------------*/
+/* Banner vitrina 2 --> CONOCE NUESTRA LINEA DE CAMISAS  */
+/*------------------------------------------------------*/
+"flex-layout.row#shirt-hombre":{
+  "props": {
+    "blockClass": ["more","vitrina2"]
+  },
+  "children": [
+    "flex-layout.col#shirt-hombre-left",
+    "flex-layout.col#shirt-hombre-right"]
+},
+"flex-layout.col#shirt-hombre-left": {
+  "props": {
+    "width": "75%"
+  },
+  "children": [
+    "shelf#shirt-hombre"
+  ]
+},
+"flex-layout.col#shirt-hombre-right": {
+  "props": {
+    "width": "25%",
+    "blockClass": ["banner-vitrina2","vitrina2-2"]
+  },
+  "children": [
+    "info-card#col-shirt-hombre-right",
+    "info-card#col-shirt-hombre-rightM"
+  ]
+},
+"info-card#col-shirt-hombre-right":{
+  "props": {
+    "id": "info-card-shirt",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    //"textPosition": "left",
+    "imageUrl": "assets/desk/hombre/banner-vitrina2.jpg",
+    "callToActioMode": "none",
+    //"headline": "Clearance Sale",
+    //"callToActionText": "DISCOVER",
+    //"callToActionUrl": "/sale/d",
+    "blockClass": ["info-card-shirt-right", "depto-desk"]
+  }
+},
+"info-card#col-shirt-hombre-rightM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-vitrina2.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-shoes-left", "depto-mobile"]
+  }
+},
+"shelf#shirt-hombre": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass": "shirt",
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 3,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+/*-----------------------------------------------*/
+/* Banners SECUNDARIOS --> Izquierda y Derecha  */
+/*---------------------------------------------*/
+"flex-layout.row#hombre-banner":{
+  "props": {
+    "blockClass": ["more","depto-desk"]
+  },
+  "children": [
+    "flex-layout.col#banner-hombre-left",
+    "flex-layout.col#banner-hombre-right"]
+},
+"flex-layout.row#hombre-bannerM":{
+  "props": {
+    "blockClass": ["more","depto-mobile"]
+  },
+  "children": [
+    "info-card#col-banner-hombre-leftM",
+    "info-card#col-banner-hombre-rightM"]
+},
+"flex-layout.col#banner-hombre-left": {
+  "props": {
+    "width": "30%"
+  },
+  "children": [
+    "info-card#col-banner-hombre-left"
+  ]
+},
+"flex-layout.col#banner-hombre-right": {
+  "props": {
+    "width": "70%"
+  },
+  "children": [
+    "info-card#col-banner-hombre-right"
+  ]
+},
+
+"flex-layout.row#hombre-banner2": {
+  "props": {
+    "blockClass": ["bannerfinal" ,"more", "depto-desk"]
+  },
+  "children": [
+    "flex-layout.col#left-hombre",
+    "flex-layout.col#right-hombre"]
+},
+"flex-layout.col#left-hombre": {
+  "props": {
+    "width": "60%"
+  },
+  "children": [
+    "info-card#col-left-hombre"
+  ]
+},
+"flex-layout.col#right-hombre": {
+  "props": {
+    "width": "40%"
+  },
+  "children": [
+    "info-card#col-right-1-hombre",
+    "info-card#col-right-2-hombre"
+  ]
+},
+
+
+
+
+"flex-layout.row#hombre-banner2M": {
+  "props": {
+    "blockClass": ["bannerfinal" ,"more", "depto-mobile"]
+  },
+  "children": [
+    "image#col-left-hombreM",
+    "flex-layout.row#right-hombreM"]
+},
+
+
+"flex-layout.col#left-hombreM": {
+  "props": {
+    "blockClass": ["more", "depto-mobile"]
+  },
+  "children": [
+    "image#col-left-hombreM"
+  ]
+},
+
+"image#col-left-hombreM": {
+  "props": {
+    "src": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-grid1.jpg",
+    "blockClass": ["bannerfinal"]
+  }
+},
+
+"flex-layout.row#right-hombreM": {
+  "props": {
+    "blockClass": ["bannerfinal-child", "more", "depto-mobile"]
+  },
+  "children": [
+    "image#col-right-1-hombreM",
+    "image#col-right-2-hombreM"
+  ]
+},
+
+"image#col-right-1-hombreM": {
+  "props": {
+    "src": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-grid2.jpg",
+    "blockClass": ["bannerfinal2"]
+  }
+},
+"image#col-right-2-hombreM": {
+  "props": {
+    "src": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-grid3.jpg",
+    "blockClass": ["bannerfinal3"]
+  }
+},
+
+
+
+/*------------------------*/
+/* Banner secundario 1   */
+/*----------------------*/
+"info-card#col-banner-hombre-left":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/hombre/baner-secundario1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-left"
+  }
+},
+"info-card#col-banner-hombre-leftM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-secundario1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-left"
+  }
+},
+
+/*------------------------*/
+/* Banner secundario 2   */
+/*----------------------*/
+"info-card#col-banner-hombre-right":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/hombre/baner-secundario2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-right"
+  }
+},
+"info-card#col-banner-hombre-rightM":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-secundario2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-banner-right"
+  }
+},
+
+/*---------------------------*/
+/* Banner Grid 1 izquierdo  */
+/*-------------------------*/
+"info-card#col-left-hombre":{
+  "props": {
+    "id": "info-card-shoes",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/hombre/banner-grid1.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card-shoes"
+  }
+},
+"list-context.product-list#demo1-hombre": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#demo-products-hombre"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#demo-products-hombre": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": "shelf"
+  }
+},
+
+/*-------------------*/
+/* Banner PRINCIPAL */
+/*-----------------*/
+"info-card#hombre-home": {
+  "props": {
+    "id": ["info-card-home","depto-desk"],
+    "isFullModeStyle": true,
+    "imageUrl": "assets/desk/hombre/banner-principal.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-home","depto-desk"]
+  }
+},
+"info-card#hombre-home-Mobile": {
+  "props": {
+    "id": ["info-card-home","depto-mobile"],
+    "isFullModeStyle": true,
+    "imageUrl": "https://callearturop.vtexassets.com/arquivos/dep-hombre-banner-principal.jpg",
+    "callToActioMode": "none",
+    "blockClass": ["info-card-home","depto-mobile"]
+  }
+},
+
+"rich-text#question": {
+  "props": {
+    "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+    "blockClass": "question"
+  }
+},
+
+"rich-text#link": {
+  "props": {
+    "text": "\n**Reach us at**\nwww.vtex.com.br",
+    "blockClass": "link"
+  }
+},
+
+"flex-layout.col#col-right2-hombre": {
+  "children": [
+    "info-card#col-right-1-hombre",
+    "info-card#col-right-2-hombre"
+  ]
+},
+
+
+/*-------------------------------*/
+/* Banner Grid 2 Arriba derecho */
+/*-----------------------------*/
+"info-card#col-right-1-hombre": {
+  "props": {
+    "id": "info-card",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/hombre/banner-grid2.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card"
+  }
+},
+
+/*------------------------------*/
+/* Banner Grid 3 Abajo derecho */
+/*----------------------------*/
+"info-card#col-right-2-hombre": {
+  "props": {
+    "id": "info-card",
+    "isFullModeStyle": true,
+    "fullWidth": true,
+    "imageUrl": "assets/desk/hombre/banner-grid3.jpg",
+    "callToActioMode": "none",
+    "blockClass": "info-card--down"/*se le puso el mismo info card que woman...para que quedara alineado*/
+  }
+},
+
+"shelf#cats": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#descubre-mas": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "blockClass": "pag-deptos",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "DESCUBRE MÁS"
+    }
+  }
+},
+
+"shelf#lo-mas-vendido": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "blockClass":["slider--general","pag-deptos"],
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 1,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "titleText": "LO MÁS VENDIDO"
+    }
+  }
+},
+
+
+
+//product tabs
+"flex-layout.row#product__Hombre":{
+  "props":{
+    "blockClass": "home__product__Hombre"
+  },
+  "children":[
+    "tab-layout#product__Hombre"
+  ]
+},
+"tab-layout#product__Hombre":{
+  "children":[
+    "tab-list#product__tab-Hombre--list",
+    "tab-content#product__tab-Hombre--content"
+  ],
+  "props":{
+    "blockClass": "home__product__Hombre"
+  }
+},
+"tab-list#product__tab-Hombre--list":{
+  "children":[
+    "tab-list.item#tabs__list--Hombre",
+    "tab-list.item#tabs__list--Hombre2"
+  ]
+},
+"tab-list.item#tabs__list--Hombre":{
+  "props":{
+    "tabId":"Jeans",
+    "label":"Jeans",
+    "defaultActiveTab":true
+  }
+},
+"tab-list.item#tabs__list--Hombre2":{
+  "props":{
+    "tabId":"Camisetas",
+    "label":"Camisetas"
+  }
+},
+"tab-content#product__tab-Hombre--content":{
+  "children":[
+    "tab-content.item#tabs__content--Hombre",
+    "tab-content.item#tabs__content--Hombre2"
+  ]
+},
+"tab-content.item#tabs__content--Hombre":{
+  "props":{
+    "tabId":"Jeans"
+  },
+  "children":["shelf#cats","rich-text#tab-bottom-jean-hombre"]
+},
+"tab-content.item#tabs__content--Hombre2":{
+  "props":{
+    "tabId":"Camisetas"
+  },
+  "children":["shelf#cats","rich-text#tab-bottom-camisetas-hombre"]
+},
+"rich-text#tabs__content--impresoras":{
+  "props":{
+    "text":"aqui van otros sliders"
+  }
+},
+
+"rich-text#tab-bottom-jean-hombre":{
+  "props":{
+    "text":"[Ver Categoría Jeans](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+},
+"rich-text#tab-bottom-camisetas-hombre":{
+  "props":{
+    "text":"[Ver Categoría Camisetas](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+}
+
+
+
+
+}

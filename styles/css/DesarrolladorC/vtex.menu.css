@@ -1,0 +1,27 @@
+.submenuContainer--paises--opciones .submenuWrapper--paises--opciones {
+  left: inherit;
+  right: 0;
+}
+
+/*Borrar estilos de las hojas originales y remplazar por estos sin los importants*/
+
+.submenuWrapper--submenu--contactenos {
+  left: initial !important;
+  right: -84% !important;
+}
+/*Cierre de borrado*/
+.styledLinkContent--item {
+  color: #151d29;
+}
+.styledLinkContent--item {
+  color: #151d29;
+}
+
+.styledLinkContainer--texpre {
+  padding: 0;
+}
+.menuContainer--menusupe {
+  display: flex;
+  align-items: center;
+  height: 28px;
+}

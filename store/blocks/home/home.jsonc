@@ -455,14 +455,14 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
+        "desktop": 4,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "arrowSize":50,
       "infinite": true,
       "fullWidth": false,
-      "blockClass": "shelf",
+      "blockClass": "shelfH",
       "showPaginationDots":"never"
     }
   },
@@ -505,9 +505,10 @@
     "itemsPerPage": {
       "desktop": 1,
       "tablet": 1,
-      "phone": 2
+      "phone": 1
     },
     "infinite": true,
+    "height": 400,
     "showNavigationArrows": "never",
     "centerModeSlidesGap": "center",
     "showPaginationDots": "never",

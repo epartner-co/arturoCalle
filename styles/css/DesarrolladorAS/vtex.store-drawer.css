@@ -1,0 +1,10 @@
+.overlay--visible {
+    top: 47px;
+}
+
+.opened {
+    top: 47px;
+}
+.closeIcon {
+    color: black;
+}

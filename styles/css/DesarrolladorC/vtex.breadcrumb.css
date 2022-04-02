@@ -4,3 +4,22 @@
 .link--4{
     color: #151d29;
 }
+@media screen and (max-width: 700px) {
+
+    .container--breadP {
+        flex-wrap: wrap;
+        margin: 0;
+        border-top: 1px solid #e8e7e7;
+    }
+    
+    .link {
+        font-size: 10px;
+    }
+    
+    .homeLink::before {
+        font-size: 10px;
+        margin-top: 4%;
+        display: block;
+    }
+    
+}

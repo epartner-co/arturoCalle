@@ -122,7 +122,7 @@
   margin: 1rem 0;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 700px) {
   .newsletter .container {
     padding: 140px;
   }
@@ -634,7 +634,7 @@ input#downshift-1-input {
       border: none;
   }
   .infoCardCallActionContainer--categorias2-banners :global(.vtex-button) :global(.vtex-button__label) {
-    color: black;
+    color: #181e2a;
     padding: 19px;
     font-size: 12px;
     font-weight: 700;

@@ -1,3 +1,94 @@
 .imageElement--minicart-circulo-negro {
   border-radius: 50%;
 }
+/*Borrar estilos de las hojas originales y remplazar por estos sin los importants*/
+.autoCompleteOuterContainer :hover {
+  background-color: transparent !important;
+}
+.searchBarIcon--clear-button--search {
+  background-color: transparent !important;
+}
+.suffixWrapper {
+  background-color: transparent !important;
+}
+.imageElement--minicart-circulo-negro {
+  width: 27px !important;
+}
+.vtex-store-components-3-x-searchBarContainer {
+  margin-right: 6% !important;
+  margin-top: 12px;
+  max-width: 147%;
+  margin-left: -27% !important;
+  min-width: 100%;
+}
+/*Cerrado de borrado*/
+.imageElement--storePrint {
+  margin-top: 0;
+}
+
+.skuSelectorItem--hueso {
+  background: #cfad83;
+}
+
+.skuSelectorItem--gris-carbon {
+    background: #434549;
+}
+
+.skuSelectorContainer--selector {
+  color: #181e2a;
+}
+
+@media screen and (max-width: 700px) {
+
+  .imageElement--minicart-home-bolsa {
+    display: none;
+}
+
+.logoLink{
+  margin: 0px;
+}
+
+.minicartContainer--minicart-home{
+  margin: 0px;
+}
+
+.carouselGaleryCursor {padding-top: 0;padding-bottom: 0;}
+
+.productBrand--quickview {
+  font-size: 26px;
+}
+.infoCardCallActionContainer--categorias2-banners :global(.vtex-button) {
+  background: white;
+  border: none;
+  border-radius: 0;
+}
+
+.infoCardContainer--categorias2-banners {
+  width: 100%;
+  min-height: 300px;
+}
+
+.infoCardContainer--categorias2-banners {
+  width: 100%;
+  min-height: 300px;
+}
+
+.brandName {
+  font-size: 12px;
+}
+
+}
+@media screen and (max-width: 1025px) {
+
+.logoLink{
+  margin: 0px;
+}
+
+.minicartContainer--minicart-home{
+  margin: 0px;
+}
+
+}
+.skuSelectorContainer--vitrina {
+  position: relative;
+}
