@@ -39,6 +39,18 @@
     text-decoration: underline;
   }
 }
+/*------------------------------*/
+
+
+/*------------------*/
+/* Titulos de home */
+/*----------------*/
+.lh-copy.paragraph.paragraph--titlem {
+  font-weight: 700;
+  font-size: 30px;
+  color: #171b1b;
+}
+/*----------------*/
 
 
 

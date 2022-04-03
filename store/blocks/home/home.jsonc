@@ -20,7 +20,7 @@
     ]
   },
 
-  //Slider principal Mobil y desktop 
+  //Slider principal Mobil y desktop
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
@@ -56,7 +56,7 @@
     }
   },
 
-  //banners secundarios 
+  //banners secundarios
   "flex-layout.row#banners": {
     "props":{
       "blockClass": "Bannersec",
@@ -171,7 +171,7 @@
 
 
 
-//Banners terciarios 
+//Banners terciarios
 "flex-layout.row#bannersbulletsecond": {
   "props":{
     "blockClass": ["Bannersec","banner-categorias-home"],
@@ -185,7 +185,7 @@
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner5", "rich-text#bulletbotton1"]
+  "children": ["image#banner5", "rich-text#bulletbotton1", "rich-text#texto1"]
 },
 "flex-layout.col#bullets2": {
   "props":{
@@ -207,6 +207,14 @@
     "blockClass": "BannerD"
   }
 },
+
+"rich-text#texto1": {
+  "props": {
+    "text": "XXXX",
+    "blockClass": "BotonM"
+  }
+},
+
 "rich-text#bulletbotton1": {
   "props": {
     "text": "[Comprar Camisetas](/kids/nina?O=OrderByReleaseDateDESC)",
@@ -406,7 +414,7 @@
     "flex-layout.col#titleS--col--1",
     "flex-layout.col#titleS--title",
     "flex-layout.col#titleS--col--2"
-    
+
   ]
 },
 "flex-layout.col#titleS--col--1":{
@@ -517,11 +525,11 @@
     "blockClass": ["categorias2-banners", "slider-moible"]
   },
   "children": [
-    "info-card#categoria-1", 
-    "info-card#categoria-2", 
-    "info-card#categoria-3", 
-    "info-card#categoria-4", 
-    "info-card#categoria-5", 
+    "info-card#categoria-1",
+    "info-card#categoria-2",
+    "info-card#categoria-3",
+    "info-card#categoria-4",
+    "info-card#categoria-5",
     "info-card#categoria-6"]
 },
 "info-card#categoria-1": {
