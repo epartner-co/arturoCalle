@@ -53,4 +53,48 @@
 /*----------------*/
 
 
+/*--------------------------*/
+/* Titulos de bullets home */
+/*------------------------*/
+.paragraph.paragraph--TextoM {
+  font-size: 24px;
+  margin-top: -7em;
+  margin-left: 4.5em;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
+.paragraph.paragraph--TextoH {
+  font-size: 24px;
+  margin-top: -7em;
+  margin-left: 5.5em;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+/*---------------------------*/
+
+
+/*------------------------------------*/
+/* Medidas Tableta para bullets home */
+/*----------------------------------*/
+@media screen and (max-width: 1200px) {
+  .paragraph.paragraph--TextoM {
+    font-size: 22px;
+    margin-top: -6em;
+    margin-left: 3em;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .paragraph.paragraph--TextoH {
+    font-size: 22px;
+    margin-top: -6em;
+    margin-left: 3.5em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+  }
+}

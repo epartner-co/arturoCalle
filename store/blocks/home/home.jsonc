@@ -185,21 +185,21 @@
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner5", "rich-text#bulletbotton1", "rich-text#texto1"]
+  "children": ["image#banner5", "rich-text#bulletbotton1", "rich-text#bulletTextCamisetasM"]
 },
 "flex-layout.col#bullets2": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner6", "rich-text#bulletbotton2"]
+  "children": ["image#banner6", "rich-text#bulletbotton2", "rich-text#bulletTextPolosH"]
 },
 "flex-layout.col#bullets3": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner7", "rich-text#bulletbotton3"]
+  "children": ["image#banner7", "rich-text#bulletbotton3", "rich-text#bulletTextChaquetasH"]
 },
 "image#banner5": {
   "props": {
@@ -210,26 +210,37 @@
 
 "rich-text#texto1": {
   "props": {
-    "text": "XXXX",
     "blockClass": "BotonM"
   }
 },
 
-"rich-text#bulletbotton1": {
+"rich-text#bulletTextCamisetasM": {
   "props": {
-    "text": "[Comprar Camisetas](/kids/nina?O=OrderByReleaseDateDESC)",
-    "blockClass": "BotonM"
+    "text": "camisetas",
+    "blockClass": "TextoM"
   }
 },
+"rich-text#bulletbotton1": {
+  "props": {
+    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
+    "blockClass": "BotonM"
+    }
+  },
 "image#banner6": {
   "props": {
     "src": "https://arturocalle.vteximg.com.br/arquivos/polospremi.jpg",
     "blockClass": "BannerD"
   }
 },
+"rich-text#bulletTextPolosH": {
+  "props": {
+    "text": "Polos",
+    "blockClass": "TextoH"
+  }
+},
 "rich-text#bulletbotton2": {
   "props": {
-    "text": "[Comprar Polos](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
     "blockClass": "BotonM"
   }
 },
@@ -239,9 +250,16 @@
     "blockClass": "BannerD"
   }
 },
+
+"rich-text#bulletTextChaquetasH": {
+  "props": {
+    "text": "Chaquetas",
+    "blockClass": "TextoM"
+  }
+},
 "rich-text#bulletbotton3": {
   "props": {
-    "text": "[Comprar Chaquetas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
     "blockClass": "BotonM"
   }
 },
@@ -260,21 +278,21 @@
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner8", "rich-text#bulletbotton4"]
+  "children": ["image#banner8", "rich-text#bulletbotton4", "rich-text#bulletTextCamisetasH"]
 },
 "flex-layout.col#bullets5": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner9", "rich-text#bulletbotton5"]
+  "children": ["image#banner9", "rich-text#bulletbotton5","rich-text#bulletTextJeansH"]
 },
 "flex-layout.col#bullets6": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner10", "rich-text#bulletbotton6"]
+  "children": ["image#banner10", "rich-text#bulletbotton6", "rich-text#bulletTextCamisasH"]
 },
 "image#banner8": {
   "props": {
@@ -282,9 +300,16 @@
     "blockClass": "BannerD"
   }
 },
+
+"rich-text#bulletTextCamisetasH": {
+  "props": {
+    "text": "Camisetas",
+    "blockClass": "TextoM"
+  }
+},
 "rich-text#bulletbotton4": {
   "props": {
-    "text": "[Comprar Camisetas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
     "blockClass": "BotonM"
   }
 },
@@ -294,9 +319,15 @@
     "blockClass": "BannerD"
   }
 },
+"rich-text#bulletTextJeansH": {
+  "props": {
+    "text": "Jeans",
+    "blockClass": "TextoH"
+  }
+},
 "rich-text#bulletbotton5": {
   "props": {
-    "text": "[Comprar Jeans](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
     "blockClass": "BotonM"
   }
 },
@@ -306,9 +337,15 @@
     "blockClass": "BannerD"
   }
 },
+"rich-text#bulletTextCamisasH": {
+  "props": {
+    "text": "Camisas",
+    "blockClass": "TextoM"
+  }
+},
 "rich-text#bulletbotton6": {
   "props": {
-    "text": "[Comprar Camisas](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
     "blockClass": "BotonM"
   }
 },

@@ -7,3 +7,26 @@
       height: 135px !important;
   }
 }
+
+
+/*-----------------------------------*/
+/* Línea de separador entre títulos */
+/*---------------------------------*/
+/*Línea izquierda*/
+.flexCol--titleS-columna--1 {
+  background: black;
+  margin-left: 89px;
+  margin-top: 44px;
+  margin-right: 204px;
+  height: 1px;
+}
+
+/*Línea derecha*/
+.flexCol--titleS-columna--2 {
+  background: black;
+  margin-left: 210px;
+  margin-top: 44px;
+  margin-right: 91px;
+  height: 1px;
+}
+
