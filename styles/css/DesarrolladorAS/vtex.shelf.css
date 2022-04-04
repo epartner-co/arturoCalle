@@ -1,0 +1,12 @@
+/***********************************/
+/*         AJUSTES DISEÑO          */
+/***********************************/
+.container.container--shoes {
+  padding: 0;
+}
+.container.container--shirt {
+  padding: 0;
+}
+.container.container--depto-tab {
+  padding-bottom: 0;
+}

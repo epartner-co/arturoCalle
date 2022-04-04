@@ -477,10 +477,10 @@
 
 "shelf#cats": {
   "blocks": ["product-summary.shelf"],
-  
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "collection": 138,
+    "blockClass": "depto-tab",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -583,14 +583,14 @@
     "tabId":"Jeans",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-jean-hombre"]
+  "children":["shelf#cats","rich-text#tab-bottom-jean-hombre","rich-text#tab-bottom-jean-hombreM"]
 },
 "tab-content.item#tabs__content--Hombre2":{
   "props":{
     "tabId":"Camisetas",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-camisetas-hombre"]
+  "children":["shelf#cats","rich-text#tab-bottom-camisetas-hombre","rich-text#tab-bottom-camisetas-hombreM"]
 },
 "rich-text#tabs__content--impresoras":{
   "props":{
@@ -601,10 +601,22 @@
 "rich-text#tab-bottom-jean-hombre":{
   "props":{
     "text":"[Ver Categoría Jeans](/)",
+    "blockClass": ["todo-categora", "depto-desk"]
+  }
+},
+"rich-text#tab-bottom-jean-hombreM":{
+  "props":{
+    "text":"[Ver Categoría Jeans](/)",
     "blockClass": ["todo-categora", "depto-mobile"]
   }
 },
 "rich-text#tab-bottom-camisetas-hombre":{
+  "props":{
+    "text":"[Ver Categoría Camisetas](/)",
+    "blockClass": ["todo-categora", "depto-desk"]
+  }
+},
+"rich-text#tab-bottom-camisetas-hombreM":{
   "props":{
     "text":"[Ver Categoría Camisetas](/)",
     "blockClass": ["todo-categora", "depto-mobile"]

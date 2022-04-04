@@ -29,4 +29,35 @@
   margin-right: 91px;
   height: 1px;
 }
+/*-----------------*/
+
+
+/***********************************/
+/*         AJUSTES DISEÑO          */
+/***********************************/
+.flexRow.flexRow--more.flexRow--vitrina1 {
+  height: 620px;
+}
+.flexRow.flexRow--more.flexRow--vitrina2 {
+  height: 620px;
+}
+.flexRowContent.flexRowContent--home__product__tabs :global(.vtex-tab-layout-0-x-contentContainer) {
+  border: none;
+  width: 90%;
+}
+@media screen and (min-width: 1500PX) {
+  .flexRow.flexRow--deals.flexRow--depto-desk {
+      max-width: 1200px;
+      margin: -53px auto 40px;
+  }
+  }
+  @media screen and (max-width: 1200px) {
+.flexRow.flexRow--more.flexRow--vitrina1 {
+      height: 485px;
+  }
+.flexRow.flexRow--more.flexRow--vitrina2 {
+     height: 485px;
+}
+}
+
 

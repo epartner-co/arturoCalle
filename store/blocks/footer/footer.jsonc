@@ -8,12 +8,13 @@
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#home__social-networks",
       "rich-text#terms",
-      "flex-layout.row#term--y--logo"
+      "flex-layout.row#term--y--logo",
+      "info-card#WHATSAPP"
     ]
   },
   "rich-text#terms":{
     "props": {
-      "text": "TÉRMINOS Y CONDICIONES | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA \n\nCONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS",
+      "text": "[TÉRMINOS Y CONDICIONES](/terminos-y-condiciones) | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA \n\nCONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1",
@@ -45,7 +46,7 @@
       "font": "t-heading-1",
       "blockClass": "terminos--y--logo"
     }
-  }, 
+  },
   "flex-layout.col#imagen--logo--payu":{
     "props":{
       "width":"5%"
@@ -199,7 +200,8 @@
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#home__social-networks",
       "rich-text#terms",
-      "flex-layout.row#term--y--logo"
+      "flex-layout.row#term--y--logo",
+      "info-card#WHATSAPP"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -229,9 +231,9 @@
       "paddingBottom": 4,
       "blockClass": "footer-mobile"
     },
-    "children": [      
+    "children": [
       "flex-layout.col#logo-desktop1",
-      "flex-layout.col#PrimeraCol1",  
+      "flex-layout.col#PrimeraCol1",
       "flex-layout.col#PrimeraCol2",
       "flex-layout.col#PrimeraCol3",
       "flex-layout.col#PrimeraCol4",
@@ -271,12 +273,29 @@
     "children": [
       "modal-header#cerrar-tiendas",
       "iframe#footer-localizacion-tiendas"
-    ] 
+    ]
   },
   "modal-header#cerrar-tiendas": {
     "props": {
      "showCloseButton":"true",
      "blockClass": "localizacion-tiendas"
     }
+  },
+   /*------------*/
+   /* Botón WPP */
+   /*----------*/
+   /*DESK y mobile*/
+   "info-card#WHATSAPP":{
+     "props":{
+       "id":"texting",
+       "imageUrl":"https://arturocalle.vteximg.com.br/arquivos/WhatsApp_btm_msj_ac.png",
+       "callToActionUrl": "https://api.whatsapp.com/send?phone=573183490000",
+       "isFullModeStyle": true,
+       "linkTarget": "_self",
+       "callToActionLinkTarget": "_blank",
+       "blockClass":"icono-whatsapp"
+     }
    }
+   /*------------------------------*/
 }
+

@@ -423,11 +423,11 @@
 /*-------------------------------------------------------------*/
 "shelf#cats-woman": {
 "blocks": ["product-summary.shelf"],
-
 "props": {
   "orderBy":"OrderByTopSaleDESC",
   "paginationDotsVisibility": "desktopOnly",
   "collection": 137,
+  "blockClass": "depto-tab",
   "productList":{
     "maxItems": 10,
     "itemsPerPage": 4,
@@ -525,14 +525,14 @@
   "tabId":"Jeans",
   "blockClass": "tab-depto"
 },
-"children":["shelf#cats-woman","rich-text#tab-bottom-jean-woman"]
+"children":["shelf#cats-woman","rich-text#tab-bottom-jean-woman","rich-text#tab-bottom-jean-womanM"]
 },
 "tab-content.item#tabs__content--woman2":{
 "props":{
   "tabId":"Camisetas",
   "blockClass": "tab-depto"
 },
-"children":["shelf#cats-woman","rich-text#tab-bottom-camisetas-woman"]
+"children":["shelf#cats-woman","rich-text#tab-bottom-camisetas-woman","rich-text#tab-bottom-camisetas-womanM"]
 },
 "rich-text#tabs__content--impresoras":{
 "props":{
@@ -544,15 +544,27 @@
 "rich-text#tab-bottom-jean-woman":{
 "props":{
   "text":"[Ver Categoría Jeans](/)",
-  "blockClass": ["todo-categora", "depto-mobile"]
+  "blockClass": ["todo-categora", "depto-desk"]
 }
 },
+"rich-text#tab-bottom-jean-womanM":{
+  "props":{
+    "text":"[Ver Categoría Jeans](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+  },
 "rich-text#tab-bottom-camisetas-woman":{
 "props":{
   "text":"[Ver Categorí­a Camisetas](/)",
-  "blockClass": ["todo-categora", "depto-mobile"]
+  "blockClass": ["todo-categora", "depto-desk"]
 }
 },
+"rich-text#tab-bottom-camisetas-womanM":{
+  "props":{
+    "text":"[Ver Categorí­a Camisetas](/)",
+    "blockClass": ["todo-categora", "depto-mobile"]
+  }
+  },
 
 
 

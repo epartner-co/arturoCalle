@@ -10,7 +10,8 @@
             "menu-item#category-ofertas-M",
             "menu-item#category-lista-deseos-M",
             "menu-item#category-cuenta-M",
-            "menu-item#category-pais-M"
+            "menu-item#category-pais-M",
+            "disclosure-state-indicator"
         ],
         "props": {
           "orientation": "vertical"
@@ -36,6 +37,24 @@
             "submenu.accordion#hombre-principal"
         ]
     },
+
+    "disclosure-state-indicator": {
+      "props": {
+        "Show": "icon-caret#down",
+        "Hide": "icon-caret#up"
+      }
+    },
+    "icon-caret#down": {
+      "props": {
+        "orientation": "down"
+      }
+    },
+    "icon-caret#up": {
+      "props": {
+        "orientation": "up"
+      }
+    },
+
     "menu-item#category-mujer-M": {
         "props": {
           "id": "menu-item-category-woman",

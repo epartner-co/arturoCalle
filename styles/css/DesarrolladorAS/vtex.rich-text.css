@@ -98,3 +98,40 @@
     font-weight: 700;
   }
 }
+/*--------------------------*/
+
+
+/***********************************/
+/*         AJUSTES DISEÑO          */
+/***********************************/
+.paragraph.paragraph--shelfTitle.paragraph--depto-mobile {
+  font-size: 30px;
+  margin-top: 40px;
+}
+.container.container--todo-categora.container--depto-desk {
+  margin: 0 auto;
+  justify-content: center;
+}
+.link.link--todo-categora.link--depto-desk {
+  background: #181E2A;
+  padding: 13px 36px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 700px) {
+.container.container--todo-categora.container--depto-desk {
+  display: none;
+}
+.paragraph.paragraph--shelfTitle.paragraph--depto-mobile {
+  font-size: 20px;
+  margin-top: 30px;
+}
+}
+
+
+
+
+
+

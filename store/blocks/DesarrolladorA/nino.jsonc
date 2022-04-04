@@ -383,6 +383,7 @@
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "collection": 139,
+    "blockClass": "depto-tab",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -481,14 +482,14 @@
     "tabId":"Jean",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats-nino","rich-text#tab-bottom-jean-nino"]
+  "children":["shelf#cats-nino","rich-text#tab-bottom-jean-nino","rich-text#tab-bottom-jean-ninoM"]
 },
 "tab-content.item#tabs__content--nino2":{
   "props":{
     "tabId":"Camisetas",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats-nino","rich-text#tab-bottom-camisetas-nino"]
+  "children":["shelf#cats-nino","rich-text#tab-bottom-camisetas-nino","rich-text#tab-bottom-camisetas-ninoM"]
 },
 "rich-text#tabs__content--nino":{
   "props":{
@@ -545,10 +546,22 @@
 "rich-text#tab-bottom-jean-nino":{
   "props":{
     "text":"[Ver Categoría Jeans](/)",
+    "blockClass": ["todo-categora", "depto-desk"]
+  }
+},
+"rich-text#tab-bottom-jean-ninoM":{
+  "props":{
+    "text":"[Ver Categoría Jeans](/)",
     "blockClass": ["todo-categora", "depto-mobile"]
   }
 },
 "rich-text#tab-bottom-camisetas-nino":{
+  "props":{
+    "text":"[Ver Categoría Camisetas](/)",
+    "blockClass": ["todo-categora", "depto-desk"]
+  }
+},
+"rich-text#tab-bottom-camisetas-ninoM":{
   "props":{
     "text":"[Ver Categoría Camisetas](/)",
     "blockClass": ["todo-categora", "depto-mobile"]

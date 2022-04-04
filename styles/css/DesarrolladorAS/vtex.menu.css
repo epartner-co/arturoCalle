@@ -50,7 +50,6 @@
 
   .menuItem--item :hover {
     color: gray;
-    text-decoration: underline;
   }
 
   /*Fondo de menú mobile*/
@@ -77,4 +76,25 @@
   margin-left: 5px;
   margin-right: 35px;
   margin-top: 8px;
+}
+
+
+.accordionIcon.accordionIcon--item.accordionIcon--isClosed.accordionIcon--item--isClosed {
+  color: transparent;
+  background-image: url(https://callearturop.myvtex.com/arquivos/flecha-medios-pago.png);
+  width: 17px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+.accordionIcon.accordionIcon--item.accordionIcon--isOpen.accordionIcon--item--isOpen {
+  color: transparent;
+  background-image: url(https://callearturop.myvtex.com/arquivos/flecha-medios-pago.png);
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  text-decoration: none;
 }
