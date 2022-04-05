@@ -1,23 +1,24 @@
 {
     // declaracion sub menu
-    "submenu.accordion#women-principal":{
+    "submenu.accordion#nino-principal":{
         "children":[
-            "menu#women-principal"
+            "menu#nino-principal"
         ],
         "props":{
             "blockClass":"menuGeneral"
         }
     },
     // agrupacion de los items
-    "menu#women-principal":{
+    "menu#nino-principal":{
         "children":[
-            "menu-item#category-women-nuevos-M",
-            "menu-item#category-women-bono-M",
-            "menu-item#category-women-oferta-M",
-            "menu-item#category-women-ropa-M",
-            "menu-item#category-women-zapatos-M",
-            "menu-item#category-women-acce-M",
-            "menu-item#category-women-coleccion-M"
+          "menu-item#category-nino-verTodoNino",
+          "menu-item#category-nino-nuevos-M",
+          "menu-item#category-nino-bono-M",
+          "menu-item#category-nino-oferta-M",
+          "menu-item#category-nino-ropa-M",
+          "menu-item#category-nino-zapatos-M",
+          "menu-item#category-nino-acce-M",
+          "menu-item#category-nino-coleccion-M"
         ],
         "props":{
             "orientation": "vertical",
@@ -26,7 +27,23 @@
 
     },
     // items principales del sub menu
-    "menu-item#category-women-nuevos-M": {
+    "menu-item#category-nino-verTodoNino": {
+      "props": {
+        "id": "menu-item-category-verTodoNino",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/kids/nino",
+          "noFollow": false,
+          "tagTitle": "Ver todo",
+          "text": "Ver todo"
+          }
+      }
+    },
+    "menu-item#category-nino-nuevos-M": {
         "props": {
           "id": "menu-item-category-nuevos",
           "type": "custom",
@@ -35,14 +52,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/novedades/mujer",
+            "href": "/nino",
             "noFollow": false,
             "tagTitle": "Nuevos",
             "text": "Nuevos"
             }
         }
     },
-    "menu-item#category-women-bono-M": {
+    "menu-item#category-nino-bono-M": {
         "props": {
           "id": "menu-item-category-bono",
           "type": "custom",
@@ -51,14 +68,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/bono-de-regalo",
+            "href": "/nino",
             "noFollow": false,
             "tagTitle": "Bono regalo",
             "text": "Bono regalo"
             }
         }
     },
-    "menu-item#category-women-oferta-M": {
+    "menu-item#category-nino-oferta-M": {
         "props": {
           "id": "menu-item-category-oferta",
           "type": "custom",
@@ -67,7 +84,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/ofertas/mujer",
+            "href": "/nino",
             "noFollow": false,
             "tagTitle": "Oferta",
             "text": "Oferta"
@@ -75,8 +92,8 @@
         }
     },
     // menu items que poseen un sub menu
-     // declaracion sub menu
-     "menu-item#category-women-ropa-M": {
+    // declaracion sub menu
+     "menu-item#category-nino-ropa-M": {
         "props": {
           "id": "menu-item-category-ropa",
           "type": "custom",
@@ -85,42 +102,41 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa",
+            "href": "/kids/nino/ropa",
             "noFollow": false,
             "tagTitle": "Ropa",
             "text": "Ropa"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-ropa"
+            "submenu.accordion#nino-principal-ropa"
         ]
     },
-    "submenu.accordion#women-principal-ropa":{
+    "submenu.accordion#nino-principal-ropa":{
         "children":[
-            "menu#women-principal-ropa"
+            "menu#nino-principal-ropa"
         ],
         "props":{
             "blockClass":"submenu"
         }
     },
     // agrupacion de los items del submenu ropa
-    "menu#women-principal-ropa":{
+    "menu#nino-principal-ropa":{
         "children":[
-            "menu-item#category-women-abrigos-M",
-            "menu-item#category-women-blusas-M",
-            "menu-item#category-women-buzos-M",
-            "menu-item#category-women-camisetas-M",
-            "menu-item#category-women-chalecos-M",
-            "menu-item#category-women-chaquetas-M",
-            "menu-item#category-women-faldas-M",
-            "menu-item#category-women-sweaters-M",
-            "menu-item#category-women-vestidos-M",
-            "menu-item#category-women-pantalones-M",
-            "menu-item#category-women-Jeans-M",
-            "menu-item#category-women-pijama-M",
-            "menu-item#category-women-shorts-M",
-            "menu-item#category-women-medias-M",
-            "menu-item#category-women-vestidos-bano"
+            "menu-item#category-nino-blazzer-M",
+            "menu-item#category-nino-buzos-M",
+            "menu-item#category-nino-Camisas-M",
+            "menu-item#category-nino-camisetas-M",
+            "menu-item#category-nino-polos-M",
+            "menu-item#category-nino-chaquetas-M",
+            "menu-item#category-nino-sweaters-M",
+            "menu-item#category-nino-Jeans-M",
+            "menu-item#category-nino-pantalones-M",
+            "menu-item#category-nino-bermudas-M",
+            "menu-item#category-nino-pantalonetas-M",
+            "menu-item#category-nino-pijama-M",
+            "menu-item#category-nino-ropaInt-M",
+            "menu-item#category-nino-medias-M"
         ],
         "props":{
             "orientation": "vertical",
@@ -129,39 +145,23 @@
 
     },
     // items del sub menu ropa
-    "menu-item#category-women-abrigos-M": {
+    "menu-item#category-nino-blazzer-M": {
         "props": {
-          "id": "menu-item-category-Abrigo",
+          "id": "menu-item-category-blazzer",
           "type": "custom",
           "blockClass": "item",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/abrigos-y-blazers",
+            "href": "/kids/nino/ropa/blazers",
             "noFollow": false,
-            "tagTitle": "Abrigos y blazers",
-            "text": "Abrigos y blazers"
+            "tagTitle": "Blazzers",
+            "text": "Blazzers"
             }
         }
     },
-    "menu-item#category-women-blusas-M": {
-        "props": {
-          "id": "menu-item-category-blusas",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/mujer/ropa/blusas-y-camisas",
-            "noFollow": false,
-            "tagTitle": "Blusas y camisas",
-            "text": "Blusas y camisas"
-            }
-        }
-    },
-    "menu-item#category-women-buzos-M": {
+    "menu-item#category-nino-buzos-M": {
         "props": {
           "id": "menu-item-category-buzos",
           "type": "custom",
@@ -170,14 +170,30 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/buzos",
+            "href": "/kids/nino/ropa/buzos",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
             }
         }
     },
-    "menu-item#category-women-camisetas-M": {
+    "menu-item#category-nino-Camisas-M": {
+        "props": {
+          "id": "menu-item-category-camisas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/kids/nino/ropa/camisas",
+            "noFollow": false,
+            "tagTitle": "Camisas",
+            "text": "Camisas"
+            }
+        }
+    },
+    "menu-item#category-nino-camisetas-M": {
         "props": {
           "id": "menu-item-category-camisetas",
           "type": "custom",
@@ -186,30 +202,30 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/camisetas",
+            "href": "/kids/nino/ropa/camisetas",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
             }
         }
     },
-    "menu-item#category-women-chalecos-M": {
+    "menu-item#category-nino-polos-M": {
         "props": {
-          "id": "menu-item-category-chalecos",
+          "id": "menu-item-category-polos",
           "type": "custom",
           "blockClass": "item",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/chalecos",
+            "href": "/nino",
             "noFollow": false,
-            "tagTitle": "Chalecos",
-            "text": "Chalecos"
+            "tagTitle": "Polos",
+            "text": "Polos"
             }
         }
     },
-    "menu-item#category-women-chaquetas-M": {
+    "menu-item#category-nino-chaquetas-M": {
         "props": {
           "id": "menu-item-category-chaquetas",
           "type": "custom",
@@ -218,30 +234,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/chaquetas",
+            "href": "/kids/nino/ropa/chaquetas-y-chalecos",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
             }
         }
     },
-    "menu-item#category-women-faldas-M": {
-        "props": {
-          "id": "menu-item-category-faldas",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/mujer/ropa-para-mujer/faldas",
-            "noFollow": false,
-            "tagTitle": "Faldas",
-            "text": "Faldas"
-            }
-        }
-    },
-    "menu-item#category-women-sweaters-M": {
+    "menu-item#category-nino-sweaters-M": {
         "props": {
           "id": "menu-item-category-sweaters",
           "type": "custom",
@@ -250,46 +250,14 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/sweaters-y-cardigans",
+            "href": "/nino",
             "noFollow": false,
-            "tagTitle": "Sweaters y cardigans",
-            "text": "Sweaters y cardigans"
+            "tagTitle": "Sweaters",
+            "text": "Sweaters"
             }
         }
     },
-    "menu-item#category-women-vestidos-M": {
-        "props": {
-          "id": "menu-item-category-vestidos",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/mujer/ropa/vestidos-y-enterizos",
-            "noFollow": false,
-            "tagTitle": "Vestidos y enterizos",
-            "text": "Vestidos y enterizos"
-            }
-        }
-    },
-    "menu-item#category-women-pantalones-M": {
-        "props": {
-          "id": "menu-item-category-pantalones",
-          "type": "custom",
-          "blockClass": "item",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/mujer/ropa/pantalones",
-            "noFollow": false,
-            "tagTitle": "Pantalones",
-            "text": "Pantalones"
-            }
-        }
-    },
-    "menu-item#category-women-Jeans-M": {
+    "menu-item#category-nino-Jeans-M": {
         "props": {
           "id": "menu-item-category-Jeans",
           "type": "custom",
@@ -298,14 +266,62 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/jeans",
+            "href": "/kids/nino/ropa/jeans",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
             }
         }
     },
-    "menu-item#category-women-pijama-M": {
+    "menu-item#category-nino-pantalones-M": {
+        "props": {
+          "id": "menu-item-category-pantalones",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/kids/nino/ropa/pantalones",
+            "noFollow": false,
+            "tagTitle": "Pantalones",
+            "text": "Pantalones"
+            }
+        }
+    },
+    "menu-item#category-nino-bermudas-M": {
+        "props": {
+          "id": "menu-item-category-Bermudas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/kids/nino/ropa/bermudas",
+            "noFollow": false,
+            "tagTitle": "Bermudas",
+            "text": "Bermudas"
+            }
+        }
+    },
+    "menu-item#category-nino-pantalonetas-M": {
+        "props": {
+          "id": "menu-item-category-pantalonetas",
+          "type": "custom",
+          "blockClass": "item",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/nino",
+            "noFollow": false,
+            "tagTitle": "Pantalonetas de baño",
+            "text": "Pantalonetas de baño"
+            }
+        }
+    },
+    "menu-item#category-nino-pijama-M": {
         "props": {
           "id": "menu-item-category-pijama",
           "type": "custom",
@@ -314,30 +330,30 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/pijamas",
+            "href": "/kids/nino/ropa/pijamas",
             "noFollow": false,
             "tagTitle": "Pijamas",
             "text": "Pijamas"
             }
         }
     },
-    "menu-item#category-women-shorts-M": {
+    "menu-item#category-nino-ropaInt-M": {
         "props": {
-          "id": "menu-item-category-shorts",
+          "id": "menu-item-category-ropaInt",
           "type": "custom",
           "blockClass": "item",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/shorts",
+            "href": "/kids/nino/ropa/ropa-interior",
             "noFollow": false,
-            "tagTitle": "Shorts",
-            "text": "Shorts"
+            "tagTitle": "Ropa Interior",
+            "text": "Ropa Interior"
             }
         }
     },
-    "menu-item#category-women-medias-M": {
+    "menu-item#category-nino-medias-M": {
         "props": {
           "id": "menu-item-category-medias",
           "type": "custom",
@@ -346,31 +362,15 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/mujer/ropa/medias",
+            "href": "/nino",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
             }
         }
     },
-    "menu-item#category-women-vestidos-bano": {
-      "props": {
-        "id": "menu-item-category-medias",
-        "type": "custom",
-        "blockClass": "item",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/mujer/ropa/vestidos-de-bano",
-          "noFollow": false,
-          "tagTitle": "Vestidos de baño",
-          "text": "Vestidos de baño"
-          }
-      }
-  },
     // declaracion sub menu zapatos
-    "menu-item#category-women-zapatos-M": {
+    "menu-item#category-nino-zapatos-M": {
         "props": {
             "id": "menu-item-category-zapatos",
             "type": "custom",
@@ -379,32 +379,30 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/mujer/zapatos",
+                "href": "/kids/nino/zapatos",
                 "noFollow": false,
                 "tagTitle": "Zapatos",
                 "text": "Zapatos"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-zapatos"
+            "submenu.accordion#nino-principal-zapatos"
         ]
     },
-    "submenu.accordion#women-principal-zapatos":{
+    "submenu.accordion#nino-principal-zapatos":{
         "children":[
-            "menu#women-principal-zapatos"
+            "menu#nino-principal-zapatos"
         ],
         "props":{
             "blockClass":"submenu"
         }
     },
    // agrupacion de los items del submenu zapatos
-   "menu#women-principal-zapatos":{
+   "menu#nino-principal-zapatos":{
         "children":[
-            "menu-item#category-women-batas-M",
-            "menu-item#category-women-tacones-M",
-            "menu-item#category-women-planos-M",
-            "menu-item#category-women-tenis-M",
-            "menu-item#category-women-sandalias-M"
+            "menu-item#category-nino-tenis-M",
+            "menu-item#category-nino-zapatos-all-M",
+            "menu-item#category-nino-sandalias-M"
         ],
         "props":{
             "orientation": "vertical",
@@ -412,55 +410,7 @@
         }
     },
     // items del sub menu zapatos
-    "menu-item#category-women-batas-M": {
-        "props": {
-            "id": "menu-item-category-batas",
-            "type": "custom",
-            "blockClass": "item",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/mujer/zapatos/botas-y-botines",
-            "noFollow": false,
-            "tagTitle": "Botas y Botines",
-            "text": "Botas y botines"
-            }
-        }
-    },
-    "menu-item#category-women-tacones-M": {
-        "props": {
-            "id": "menu-item-category-tacones",
-            "type": "custom",
-            "blockClass": "item",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/mujer/zapatos/tacones",
-            "noFollow": false,
-            "tagTitle": "Tacones",
-            "text": "Tacones"
-            }
-        }
-    },
-    "menu-item#category-women-planos-M": {
-        "props": {
-            "id": "menu-item-category-planos",
-            "type": "custom",
-            "blockClass": "item",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/mujer/zapatos/zapatos-planos",
-            "noFollow": false,
-            "tagTitle": "Planos",
-            "text": "Planos"
-            }
-        }
-    },
-    "menu-item#category-women-tenis-M": {
+    "menu-item#category-nino-tenis-M": {
         "props": {
             "id": "menu-item-category-tenis",
             "type": "custom",
@@ -469,14 +419,30 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/zapatos/tenis",
+            "href": "/kids/nino/zapatos/tenis",
             "noFollow": false,
             "tagTitle": "Tenis",
             "text": "Tenis"
             }
         }
     },
-    "menu-item#category-women-sandalias-M": {
+    "menu-item#category-nino-zapatos-all-M": {
+        "props": {
+            "id": "menu-item-category-zapa",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/kids/nino/zapatos/zapatos",
+            "noFollow": false,
+            "tagTitle": "Zapatos",
+            "text": "Zapatos"
+            }
+        }
+    },
+    "menu-item#category-nino-sandalias-M": {
         "props": {
             "id": "menu-item-category-sandalias",
             "type": "custom",
@@ -485,7 +451,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/zapatos/sandalias",
+            "href": "/kids/nino/zapatos/sandalias",
             "noFollow": false,
             "tagTitle": "Sandalias",
             "text": "Sandalias"
@@ -493,7 +459,7 @@
         }
     },
     // declaracion sub menu accesorios
-    "menu-item#category-women-acce-M": {
+    "menu-item#category-nino-acce-M": {
         "props": {
             "id": "menu-item-category-acce",
             "type": "custom",
@@ -502,36 +468,35 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/mujer/accesorios/",
+                "href": "/nino",
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-acce"
+            "submenu.accordion#nino-principal-acce"
         ]
     },
-    "submenu.accordion#women-principal-acce":{
+    "submenu.accordion#nino-principal-acce":{
         "children":[
-            "menu#women-principal-acce"
+            "menu#nino-principal-acce"
         ],
         "props":{
             "blockClass":"submenu"
         }
     },
    // agrupacion de los items del submenu accesorios
-   "menu#women-principal-acce":{
+   "menu#nino-principal-acce":{
         "children":[
-            "menu-item#category-women-billeteras-M",
-            "menu-item#category-women-bolsos-M",
-            "menu-item#category-women-cinturones-M",
-            "menu-item#category-women-gafassol-M",
-            "menu-item#category-women-panoletas-M",
-            "menu-item#category-women-esmalte-M",
-            "menu-item#category-women-sombrillas-M",
-            "menu-item#category-women-tapabocas-M",
-            "menu-item#category-women-otrosacce-M"
+            "menu-item#category-nino-bufandas-M",
+            "menu-item#category-nino-correas-M",
+            "menu-item#category-nino-corbatasCorbatines-M",
+            "menu-item#category-nino-gafassol-M",
+            "menu-item#category-nino-gorrasgorros-M",
+            "menu-item#category-nino-morrales-M",
+            "menu-item#category-nino-perfumes-M",
+            "menu-item#category-nino-tapabocas-M"
         ],
         "props":{
             "orientation": "vertical",
@@ -539,55 +504,55 @@
         }
     },
     // items del sub menu accesorios
-    "menu-item#category-women-billeteras-M": {
+    "menu-item#category-nino-bufandas-M": {
         "props": {
-            "id": "menu-item-category-billeteras",
+            "id": "menu-item-category-bufandas",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/billeteras",
+            "href": "/kids/nino/accesorios/bufandas-y-cuellos",
             "noFollow": false,
-            "tagTitle": "Billeteras",
-            "text": "Billeteras"
+            "tagTitle": "Bufandas",
+            "text": "Bufandas"
             }
         }
     },
-    "menu-item#category-women-bolsos-M": {
+    "menu-item#category-nino-correas-M": {
         "props": {
-            "id": "menu-item-category-bolsos",
+            "id": "menu-item-category-correas",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/bolsos-y-carteras",
+            "href": "/kids/nino/accesorios/cinturones-y-correas",
             "noFollow": false,
-            "tagTitle": "Bolsos y correas",
-            "text": "Bolsos y correas"
+            "tagTitle": "Correas",
+            "text": "Correas"
             }
         }
     },
-    "menu-item#category-women-cinturones-M": {
+    "menu-item#category-nino-corbatasCorbatines-M": {
         "props": {
-            "id": "menu-item-category-cinturones",
+            "id": "menu-item-category-corbatas",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/cinturones-y-correas",
+            "href": "/kids/nino/accesorios/corbatas-y-corbatines",
             "noFollow": false,
-            "tagTitle": "Cinturones y correas",
-            "text": "Cinturones y correas"
+            "tagTitle": "Corbatas y corbatines",
+            "text": "Corbatas y corbatines"
             }
         }
     },
-    "menu-item#category-women-gafassol-M": {
+    "menu-item#category-nino-gafassol-M": {
         "props": {
             "id": "menu-item-category-gafassol",
             "type": "custom",
@@ -596,62 +561,62 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/gafas-de-sol",
+            "href": "/kids/nino/accesorios/gafas-de-sol",
             "noFollow": false,
             "tagTitle": "Gafas de sol",
             "text": "Gafas de sol"
             }
         }
     },
-    "menu-item#category-women-panoletas-M": {
+    "menu-item#category-nino-gorrasgorros-M": {
         "props": {
-            "id": "menu-item-category-panoletas",
+            "id": "menu-item-category-gorros",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/panoletas-y-bufandas",
+            "href": "/kids/nino/accesorios/gorras-gorros-y-boinas",
             "noFollow": false,
-            "tagTitle": "Pañoletas y bufandas",
-            "text": "Pañoletas y bufandos"
+            "tagTitle": "Gorras y gorras",
+            "text": "Gorras y gorros"
             }
         }
     },
-    "menu-item#category-women-esmalte-M": {
+    "menu-item#category-nino-morrales-M": {
         "props": {
-            "id": "menu-item-category-esmalte",
+            "id": "menu-item-category-morrales",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/otros-accesorios/esmaltes-y-bisuteria",
+            "href": "/nino",
             "noFollow": false,
-            "tagTitle": "Esmalte y bisuteria",
-            "text": "Esmalte y bisuteria"
+            "tagTitle": "Morrales y loncheras",
+            "text": "Morrales y loncheras"
             }
         }
     },
-    "menu-item#category-women-sombrillas-M": {
+    "menu-item#category-nino-perfumes-M": {
         "props": {
-            "id": "menu-item-category-sombrillas",
+            "id": "menu-item-category-perfumes",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/otros-accesorios/sombrillas",
+            "href": "/kids/nino/accesorios/perfumes",
             "noFollow": false,
-            "tagTitle": "Sombrillas",
-            "text": "Sombrillas"
+            "tagTitle": "Perfumes",
+            "text": "Perfumes"
             }
         }
     },
-    "menu-item#category-women-tapabocas-M": {
+    "menu-item#category-nino-tapabocas-M": {
         "props": {
             "id": "menu-item-category-tapabocas",
             "type": "custom",
@@ -660,31 +625,15 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/mujer/accesorios/otros-accesorios/tapabocas",
+            "href": "/kids/nino/accesorios/tapabocas",
             "noFollow": false,
             "tagTitle": "Tapabocas",
             "text": "Tapabocas"
             }
         }
     },
-    "menu-item#category-women-otrosacce-M": {
-        "props": {
-            "id": "menu-item-category-otrosacce",
-            "type": "custom",
-            "blockClass": "item",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/mujer/accesorios/otros-accesorios",
-            "noFollow": false,
-            "tagTitle": "Otros accesorios",
-            "text": "Otros accesorios"
-            }
-        }
-    },
     // declaracion sub menu coleccion
-    "menu-item#category-women-coleccion-M": {
+    "menu-item#category-nino-coleccion-M": {
         "props": {
             "id": "menu-item-category-coleccion",
             "type": "custom",
@@ -693,32 +642,33 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/Sistema/buscavazia?ft=0",
+                "href": "/",
                 "noFollow": false,
                 "tagTitle": "Colección",
                 "text": "Colección"
             }
         },
         "blocks":[
-            "submenu.accordion#women-principal-coleccion"
+            "submenu.accordion#nino-principal-coleccion"
         ]
     },
-    "submenu.accordion#women-principal-coleccion":{
+    "submenu.accordion#nino-principal-coleccion":{
         "children":[
-            "menu#women-principal-coleccion"
+            "menu#nino-principal-coleccion"
         ],
         "props":{
             "blockClass":"submenu"
         }
     },
    // agrupacion de los items del submenu accesorios
-   "menu#women-principal-coleccion":{
+   "menu#nino-principal-coleccion":{
         "children":[
-            "menu-item#category-women-soft-M",
-            "menu-item#category-women-urban-M",
-            "menu-item#category-women-eco-M",
-            "menu-item#category-women-active-M",
-            "menu-item#category-women-formal-M"
+            "menu-item#category-nino-bosque-M",
+            "menu-item#category-nino-comfort-M",
+            "menu-item#category-nino-intensamente-M",
+            "menu-item#category-nino-gamer-M",
+            "menu-item#category-nino-eco-M",
+            "menu-item#category-nino-padre-M"
         ],
         "props":{
             "orientation": "vertical",
@@ -726,39 +676,71 @@
         }
     },
     // items del sub menu accesorios
-    "menu-item#category-women-soft-M": {
+    "menu-item#category-nino-bosque-M": {
         "props": {
-            "id": "menu-item-category-soft",
+            "id": "menu-item-category-bosque",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/woman/coleccion/soft-nautic",
+            "href": "nino",
             "noFollow": false,
-            "tagTitle": "Soft Nautic",
-            "text": "Soft nautic"
+            "tagTitle": "Bosque encantado",
+            "text": "Bosque encantado"
             }
         }
     },
-    "menu-item#category-women-urban-M": {
+    "menu-item#category-nino-comfort-M": {
         "props": {
-            "id": "menu-item-category-urban",
+            "id": "menu-item-category-comfort",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/woman/coleccion/urban-fall",
+            "href": "/nino",
             "noFollow": false,
-            "tagTitle": "Urban fall",
-            "text": "Urban fall"
+            "tagTitle": "Comfort",
+            "text": "Comfort"
             }
         }
     },
-    "menu-item#category-women-eco-M": {
+    "menu-item#category-nino-intensamente-M": {
+        "props": {
+            "id": "menu-item-category-int",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "/nino",
+            "noFollow": false,
+            "tagTitle": "Intesamente",
+            "text": "Intensamente"
+            }
+        }
+    },
+    "menu-item#category-nino-gamer-M": {
+        "props": {
+            "id": "menu-item-category-gamer",
+            "type": "custom",
+            "blockClass": "item",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+            "type": "internal",
+            "href": "nino",
+            "noFollow": false,
+            "tagTitle": "Gamer",
+            "text": "Gamer"
+            }
+        }
+    },
+    "menu-item#category-nino-eco-M": {
         "props": {
             "id": "menu-item-category-eco",
             "type": "custom",
@@ -767,42 +749,26 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/coleccion/eco/mujer",
+            "href": "/nino",
             "noFollow": false,
             "tagTitle": "Eco",
             "text": "Eco"
             }
         }
     },
-    "menu-item#category-women-active-M": {
+    "menu-item#category-nino-padre-M": {
         "props": {
-            "id": "menu-item-category-active",
+            "id": "menu-item-category-padre",
             "type": "custom",
             "blockClass": "item",
             "iconId": null,
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/coleccion/active/mujer",
+            "href": "/nino",
             "noFollow": false,
-            "tagTitle": "Active",
-            "text": "Active"
-            }
-        }
-    },
-    "menu-item#category-women-formal-M": {
-        "props": {
-            "id": "menu-item-category-formal",
-            "type": "custom",
-            "blockClass": "item",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-            "type": "internal",
-            "href": "/woman/coleccion/formal-luxe",
-            "noFollow": false,
-            "tagTitle": "Formal Luxe",
-            "text": "Formal Luxe"
+            "tagTitle": "Padre e hijo",
+            "text": "Padre e hijo"
             }
         }
     }

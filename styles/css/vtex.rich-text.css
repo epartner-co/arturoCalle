@@ -346,17 +346,6 @@
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /*---------------------------------*/
-/* vitrinas                        */
-/*---------------------------------*/
-
-.wrapper--titlem :global(.vtex-rich-text-0-x-paragraph--titlem){ /*cambia la letra del titulo de la vitrina... si causa algun problema se puede quitar*/
-  font-size: 25px;
-  font-weight: 700;
-}
-
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
-
-/*---------------------------------*/
 /*  hombre collage imagenes        */
 /*---------------------------------*/
 
@@ -657,7 +646,7 @@
     padding: 12px;
     color: white;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 5px;
     width: 97%;
     font-size: 15px;
     text-align: center;

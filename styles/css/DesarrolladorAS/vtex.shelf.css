@@ -10,3 +10,25 @@
 .container.container--depto-tab {
   padding-bottom: 0;
 }
+
+/*------------------------------------------------*/
+/* Tamaño de textos intermedios en departamentos */
+/*----------------------------------------------*/
+.title.title--pag-deptos {
+  font-weight: 700;
+  color: #171b1b;
+}
+/*----------------------------------------------*/
+
+/*Margen vitrinas mobile*/
+@media screen and (max-width: 700px) {
+  .container.container--slider--general.container--pag-deptos {
+      margin: 0 3%;
+  }
+  }
+
+
+/*Eliminar titulo por defecto del shelf*/
+.title.title--slider--general.title--pag-deptos {
+  display: none;
+}

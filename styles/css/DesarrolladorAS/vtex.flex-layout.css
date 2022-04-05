@@ -32,6 +32,49 @@
 /*-----------------*/
 
 
+/*-------------------------------------------------*/
+/* Línea de separador entre títulos DEPARTAMENTOS */
+/*-----------------------------------------------*/
+/*DESCUBRE MÁS*/
+/*Línea izquierda*/
+.flexCol--titleDescubreMas-columna--3 {
+  background: black;
+  margin-left: 89px;
+  margin-top: 44px;
+  margin-right: 210px;
+  height: 1px;
+}
+
+/*Línea derecha*/
+.flexCol--titleDescubreMas-columna--4 {
+  background: black;
+  margin-left: 210px;
+  margin-top: 44px;
+  margin-right: 97px;
+  height: 1px;
+}
+
+/*MAS VENDIDOS*/
+/*Línea izquierda*/
+.flexCol--titleMasVendidos-columna--3 {
+  background: black;
+  margin-left: 89px;
+  margin-top: 44px;
+  margin-right: 210px;
+  height: 1px;
+}
+
+/*Línea derecha*/
+.flexCol--titleMasVendidos-columna--4 {
+  background: black;
+  margin-left: 210px;
+  margin-top: 44px;
+  margin-right: 97px;
+  height: 1px;
+}
+/*-----------------*/
+
+
 /***********************************/
 /*         AJUSTES DISEÑO          */
 /***********************************/
@@ -60,4 +103,34 @@
 }
 }
 
+/***********************************/
+/*      ORDENA LAS VITRINAS       */
+/**********************************/
+@media screen and (max-width: 700px) {
+  .flexRow.flexRow--more.flexRow--vitrina1 {
+      height: 560px;
+  }
+  .flexRow.flexRow--more.flexRow--vitrina2 {
+    height: 560px;
+  }
+  .flexCol.flexCol--banner-vitrina2.flexCol--vitrina2-1 {
+    padding-bottom: 15px;
+  }
+  .flexCol.flexCol--banner-vitrina2.flexCol--vitrina2-2 {
+    padding-bottom: 15px;
+  }
+  }
 
+/*Títulos vitrinas en Mobile*/
+@media screen and (max-width: 700px) {
+  .flexRow.flexRow--titleS.flexRow--titulosDepartamento {
+    display: block;
+  }
+
+  .flexRowContent.flexRowContent--titleS.flexRowContent--titulosDepartamento .stretchChildrenWidth:first-child {
+    display: none;
+  }
+  .flexRowContent.flexRowContent--titleS.flexRowContent--titulosDepartamento .stretchChildrenWidth:last-child {
+    display: none;
+  }
+}

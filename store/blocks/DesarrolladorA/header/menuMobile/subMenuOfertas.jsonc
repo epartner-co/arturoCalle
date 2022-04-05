@@ -38,7 +38,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/nuevos",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "Nuevos",
             "text": "Nuevos"
@@ -54,7 +54,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/25-off",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "25% Off",
             "text": "25% Off"
@@ -70,7 +70,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/35-off",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "35 Off",
             "text": "35 Off"
@@ -86,7 +86,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/50-off",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "50% Off",
             "text": "50% Off"
@@ -102,7 +102,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/",
+            "href": "ofertas",
             "noFollow": false,
             "tagTitle": "Ver todos",
             "text": "Ver todos"
@@ -120,7 +120,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "Hombre",
             "text": "Hombre"
@@ -166,7 +166,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre/Ropa/Blazers",
+            "href": "/hombre/camisas-para-hombre",
             "noFollow": false,
             "tagTitle": "Blazzers",
             "text": "Blazzers"
@@ -182,7 +182,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre/Ropa/Buzos",
+            "href": "/hombre/camisas-para-hombre",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -198,7 +198,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre/Ropa/Camisas",
+            "href": "/hombre/camisas-para-hombre",
             "noFollow": false,
             "tagTitle": "Camisas",
             "text": "Camisas"
@@ -214,7 +214,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre/Ropa/Camisetas",
+            "href": "/hombre/camisas-para-hombre",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -230,7 +230,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre/Ropa/Pantalones",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -246,7 +246,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre/Ropa/Polos",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "Polos",
             "text": "Polos"
@@ -262,7 +262,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/AC-ofertas/Hombre/Zapatos",
+          "href": "/ofertas/hombre",
           "noFollow": false,
           "tagTitle": "Zapatos",
           "text": "Zapatos"
@@ -278,7 +278,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre",
+            "href": "/ofertas/hombre",
             "noFollow": false,
             "tagTitle": "Ver todo",
             "text": "Ver todo"
@@ -295,7 +295,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/AC-ofertas/Mujer",
+                "href": "/ofertas/hombre",
                 "noFollow": false,
                 "tagTitle": "Mujer",
                 "text": "Mujer"
@@ -340,7 +340,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Ropa/Chaquetas",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -356,7 +356,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Ropa/Blusas-Camisas",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Blusas y camisas",
             "text": "Blusas y camisas"
@@ -372,7 +372,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Ropa/Camisetas",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -388,7 +388,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Ropa/Pantalones",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -404,7 +404,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Ropa/Shorts",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Shorts",
             "text": "Shorts"
@@ -420,7 +420,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Ropa/Faldas",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Faldas",
             "text": "Faldas"
@@ -436,7 +436,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Zapatos",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Zapatos",
             "text": "Zapatos"
@@ -452,7 +452,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Ver todo",
             "text": "Ver todo"
@@ -469,7 +469,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/AC-ofertas/Nino",
+                "href": "/ofertas/mujer",
                 "noFollow": false,
                 "tagTitle": "Niño",
                 "text": "Niño"
@@ -512,7 +512,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nino/ropa/Blazers",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Blazers",
             "text": "Blazers"
@@ -528,7 +528,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nino/ropa/Camisas",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Camisas",
             "text": "Camisas"
@@ -544,7 +544,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nino/Ropa/Chaquetas",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -560,7 +560,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nino/ropa/Buzos",
+            "href": "//ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -576,7 +576,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nino/ropa/Sueteres",
+            "href": "//ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Suéters",
             "text": "Suéters"
@@ -592,7 +592,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nino",
+            "href": "//ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Ver todo",
             "text": "Ver todo"
@@ -609,7 +609,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/AC-ofertas/Nina",
+                "href": "//ofertas/mujer",
                 "noFollow": false,
                 "tagTitle": "Niña",
                 "text": "Niña"
@@ -653,7 +653,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina/ropa/Buzos",
+            "href": "//ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Buzos",
             "text": "Buzos"
@@ -669,7 +669,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina/ropa/Camisetas",
+            "href": "//ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -685,7 +685,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina/ropa/Pantalones",
+            "href": "//ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Pantalones",
             "text": "Pantalones"
@@ -701,7 +701,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina/ropa/Sweaters",
+            "href": "//ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Sweaaters",
             "text": "Sweaters"
@@ -717,7 +717,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina/ropa/Pijamas",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Pijamas",
             "text": "Pijamas"
@@ -733,7 +733,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina/ropa/Ropa-interior",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Ropa Interior",
             "text": "Ropa INterior"
@@ -749,7 +749,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Ver todo",
             "text": "Ver todo"
@@ -766,7 +766,7 @@
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/AC-ofertas/Accesorios/",
+                "href": "/ofertas/mujer",
                 "noFollow": false,
                 "tagTitle": "Accesorios",
                 "text": "Accesorios"
@@ -806,7 +806,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Hombre/Accesorios",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Para hombre",
             "text": "Para hombre"
@@ -822,7 +822,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Mujer/Accesorios",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Para mujer",
             "text": "Para mujer"
@@ -838,7 +838,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/AC-ofertas/Nina/Accesorios",
+            "href": "/ofertas/mujer",
             "noFollow": false,
             "tagTitle": "Para niña",
             "text": "Para niña"

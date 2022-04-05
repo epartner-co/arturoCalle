@@ -30,3 +30,22 @@
 .contentItem.contentItem--tab-depto {
   margin-bottom: 50px;
 }
+/*------------------------------------------*/
+
+/****************************************/
+/*         TAMAÑO DE LOS TABERS        */
+/**************************************/
+@media screen and (max-width: 700px) {
+  .listItem.listItem--tab-depto {
+      width: 45%;
+      margin: 0 3px;
+  }
+  }
+
+/*******************************************************/
+/*         Eliminacion de bordeado de vitrinas        */
+/*****************************************************/
+  .container.container--home__product__Hombre .contentContainer {
+    border: none;
+  }
+

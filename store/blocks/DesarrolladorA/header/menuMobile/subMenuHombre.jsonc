@@ -11,6 +11,7 @@
     // agrupacion de los items
     "menu#hombre-principal":{
         "children":[
+          "menu-item#category-hombre-verTodoH",
             "menu-item#category-hombre-nuevos-M",
             "menu-item#category-hombre-formal-M",
             "menu-item#category-hombre-bussines-M",
@@ -30,6 +31,22 @@
 
     },
     // items principales del sub menu
+    "menu-item#category-hombre-verTodoH": {
+      "props": {
+        "id": "menu-item-category-verTodo",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/hombre",
+          "noFollow": false,
+          "tagTitle": "Ver todo",
+          "text": "Ver todo"
+          }
+      }
+  },
     "menu-item#category-hombre-nuevos-M": {
         "props": {
           "id": "menu-item-category-nuevos",
@@ -39,7 +56,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/nuevos-productos",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Nuevos",
             "text": "Nuevos"
@@ -55,7 +72,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/estilo/formal",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Formal",
             "text": "Formal"
@@ -71,7 +88,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/estilo/business",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Bussines",
             "text": "Bussines"
@@ -87,7 +104,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/estilo/casual",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Casual",
             "text": "Casual"
@@ -103,7 +120,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/estilo/ropa-de-lino",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Linos",
             "text": "Linos"
@@ -119,7 +136,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/bono-de-regalo",
+            "href": "/HOMBRE",
             "noFollow": false,
             "tagTitle": "Bono regalo",
             "text": "Bono regalo"
@@ -256,7 +273,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/camisetas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Camisetas",
             "text": "Camisetas"
@@ -272,7 +289,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/polos",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Polos",
             "text": "Polos"
@@ -288,7 +305,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/chaquetas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Chaquetas",
             "text": "Chaquetas"
@@ -304,7 +321,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/chalecos",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Chalecos",
             "text": "Chalecos"
@@ -336,7 +353,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/trajes",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Trajes",
             "text": "Trajes"
@@ -352,7 +369,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/jeans",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Jeans",
             "text": "Jeans"
@@ -400,7 +417,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/pantalonetas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Pantalonetas",
             "text": "Pantalonetas"
@@ -416,7 +433,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/pijamas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Pijamas",
             "text": "Pijamas"
@@ -448,7 +465,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/ropa-interior/medias",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Medias",
             "text": "Medias"
@@ -464,7 +481,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/hombre/ropa/ropa-interior/camisillas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Camisillas",
             "text": "Camisillas"
@@ -557,7 +574,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/zapatos/mocasines",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Mocasines",
             "text": "Mocasines"
@@ -684,7 +701,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/billeteras",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Billeteras",
             "text": "Billeteras"
@@ -700,7 +717,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/cinturones-y-correas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Correas y reatas",
             "text": "Correas y reatas"
@@ -716,7 +733,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/corbatas-y-corbatines",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Corbatas y corbatines",
             "text": "Corbatas y corbatines"
@@ -732,7 +749,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/gafas-de-sol",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Gafas de sol",
             "text": "Gafas de sol"
@@ -748,7 +765,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/gorras-gorros-y-boinas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Gorras y boinas",
             "text": "Gorras y boinas"
@@ -764,7 +781,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/panuelos",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Pañuelos",
             "text": "Pañuelos"
@@ -780,7 +797,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/perfumes",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Perfumes",
             "text": "Perfumes"
@@ -796,7 +813,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/mancornas",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Mancornas",
             "text": "Mancornas"
@@ -812,7 +829,7 @@
             "highlight": false,
             "itemProps": {
             "type": "internal",
-            "href": "/hombre/accesorios/otros-accesorios",
+            "href": "/hombre",
             "noFollow": false,
             "tagTitle": "Otros accesorios",
             "text": "Otros accesorios"

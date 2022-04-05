@@ -11,9 +11,10 @@
     // agrupacion de los items
     "menu#viaje-principal":{
         "children":[
-            "menu-item#category-viaje-maletasViajes-M",
-            "menu-item#category-viaje-acceso-M",
-            "menu-item#category-viaje-maletines-M"
+          "menu-item#category-viaje-verTodoV",
+          "menu-item#category-viaje-maletasViajes-M",
+          "menu-item#category-viaje-acceso-M",
+          "menu-item#category-viaje-maletines-M"
         ],
         "props":{
             "orientation": "vertical",
@@ -22,6 +23,22 @@
 
     },
     // items principales del sub menu
+    "menu-item#category-viaje-verTodoV": {
+      "props": {
+        "id": "menu-item-category-verTodoViaje",
+        "type": "custom",
+        "blockClass": "item",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/viaje",
+          "noFollow": false,
+          "tagTitle": "Ver todo",
+          "text": "Ver todo"
+          }
+      }
+    },
     "menu-item#category-viaje-acceso-M": {
         "props": {
           "id": "menu-item-category-acceso",
@@ -31,7 +48,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/viaje/accesorios-de-viaje",
+            "href": "/viaje/maletas-de-viaje",
             "noFollow": false,
             "tagTitle": "Accedorios de viaje",
             "text": "Accedorios de viaje"
@@ -47,7 +64,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/viaje/maletines-y-morrales",
+            "href": "/viaje/maletas-de-viaje",
             "noFollow": false,
             "tagTitle": "Maletines y morrales",
             "text": "Maletines y morrales"
@@ -106,7 +123,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/viaje/maletas-de-viaje/Grande",
+            "href": "/viaje/maletas-de-viaje",
             "noFollow": false,
             "tagTitle": "Maletas Grandes",
             "text": "Maletas Grandes"
@@ -122,7 +139,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/viaje/maletas-de-viaje/Mediana",
+            "href": "/viaje/maletas-de-viaje",
             "noFollow": false,
             "tagTitle": "Maletas medianas",
             "text": "Maletas medianas"
@@ -138,7 +155,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/viaje/maletas-de-viaje/Pequeña",
+            "href": "/viaje/maletas-de-viaje",
             "noFollow": false,
             "tagTitle": "Maletas pequeñas",
             "text": "Maletas pequeñas"

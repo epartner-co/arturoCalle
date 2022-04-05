@@ -17,15 +17,17 @@
 
     "flex-layout.row#product__Hombre",
 
-    
+
     "flex-layout.row#hombre-banner2",
     "flex-layout.row#hombre-banner2M",
     //"info-card#home",
     //"rich-text#question",
     //"rich-text#link",
     //"newsletter",
-    "shelf#descubre-mas",
-    "shelf#lo-mas-vendido"
+    "flex-layout.row#titleDescubre",
+    "shelf#descubre-mas-hombre",
+    "flex-layout.row#titleMasVendidos",
+    "shelf#lo-mas-vendido-hombre"
   ]
 },
 
@@ -90,7 +92,7 @@
     "width": "75%"
   },
   "children": [
-    "shelf#shoes"
+    "shelf#shoes-hombre"
   ]
 },
 "info-card#col-shoes-hombre-left":{
@@ -395,7 +397,7 @@
     "itemsPerPage": {
       "desktop": 5,
       "tablet": 3,
-      "phone": 1
+      "phone": 2
     },
     "infinite": true,
     "fullWidth": false,
@@ -475,7 +477,7 @@
   }
 },
 
-"shelf#cats": {
+"shelf#cats-hombre": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
@@ -493,28 +495,27 @@
   }
 },
 
-"shelf#descubre-mas": {
+"shelf#descubre-mas-hombre": {
   "blocks": ["product-summary.shelf"],
-  
+
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
     "collection": 138,
-    "blockClass": "pag-deptos",
+    "blockClass":["slider--general","pag-deptos"],
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
-      "arrows": true,
-      "titleText": "DESCUBRE MÁS"
+      "arrows": true
     }
   }
 },
 
-"shelf#lo-mas-vendido": {
+"shelf#lo-mas-vendido-hombre": {
   "blocks": ["product-summary.shelf"],
-  
+
   "props": {
     "blockClass":["slider--general","pag-deptos"],
     "collection": 138,
@@ -523,10 +524,9 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
-      "arrows": true,
-      "titleText": "LO MÁS VENDIDO"
+      "arrows": true
     }
   }
 },
@@ -583,14 +583,14 @@
     "tabId":"Jeans",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-jean-hombre","rich-text#tab-bottom-jean-hombreM"]
+  "children":["shelf#cats-hombre","rich-text#tab-bottom-jean-hombre","rich-text#tab-bottom-jean-hombreM"]
 },
 "tab-content.item#tabs__content--Hombre2":{
   "props":{
     "tabId":"Camisetas",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-camisetas-hombre","rich-text#tab-bottom-camisetas-hombreM"]
+  "children":["shelf#cats-hombre","rich-text#tab-bottom-camisetas-hombre","rich-text#tab-bottom-camisetas-hombreM"]
 },
 "rich-text#tabs__content--impresoras":{
   "props":{
@@ -621,9 +621,94 @@
     "text":"[Ver Categoría Camisetas](/)",
     "blockClass": ["todo-categora", "depto-mobile"]
   }
+},
+
+
+"flex-layout.row#titleDescubre":{
+  "props": {
+    "blockClass": ["titleS", "titulosDepartamento"]
+  },
+  "children":[
+    "flex-layout.col#titleDescubreMas--col--3",
+    "flex-layout.col#titleDescubreMas--title",
+    "flex-layout.col#titleDescubreMas--col--4"
+
+  ]
+},
+"flex-layout.col#titleDescubreMas--col--3":{
+  "props": {
+    "blockClass": "titleDescubreMas-columna--3"
+  }
+},
+"flex-layout.col#titleDescubreMas--title":{
+  "props":{
+    "blockClass": "titleDescubreMas-titulo"
+  },
+  "children":[
+    "rich-text#titleDescubreMas"
+  ]
+},
+"flex-layout.col#titleDescubreMas--col--4":{
+  "props": {
+    "blockClass": "titleDescubreMas-columna--4"
+  }
+},
+
+"rich-text#titleDescubreMas": {
+  "props": {
+    "text": "DESCUBRE MÁS",
+    "blockClass": ["titlem", "titulosDepartamento"],
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+
+
+
+
+
+
+
+
+"flex-layout.row#titleMasVendidos":{
+  "props": {
+    "blockClass": ["titleS", "titulosDepartamento"]
+  },
+  "children":[
+    "flex-layout.col#titleMasVendidos--col--3",
+    "flex-layout.col#titleMasVendidos--title",
+    "flex-layout.col#titleMasVendidos--col--4"
+
+  ]
+},
+"flex-layout.col#titleMasVendidos--col--3":{
+  "props": {
+    "blockClass": "titleMasVendidos-columna--3"
+  }
+},
+"flex-layout.col#titleMasVendidos--title":{
+  "props":{
+    "blockClass": "titleMasVendidos-titulo"
+  },
+  "children":[
+    "rich-text#titleMasVendidos"
+  ]
+},
+"flex-layout.col#titleMasVendidos--col--4":{
+  "props": {
+    "blockClass": "titleMasVendidos-columna--4"
+  }
+},
+
+"rich-text#titleMasVendidos": {
+  "props": {
+    "text": "LO MÁS VENDIDO",
+    "blockClass": ["titlem", "titulosDepartamento"],
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
 }
-
-
 
 
 }

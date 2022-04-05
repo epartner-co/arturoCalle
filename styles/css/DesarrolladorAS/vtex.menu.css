@@ -36,8 +36,13 @@
   .menuContainerNav.menuContainerNav--menuGeneral-sub .styledLinkContent.styledLinkContent--item {
     font-size: 12px;
   }
+
   .menuContainerNav.menuContainerNav--menuGeneral-sub .styledLinkContent.styledLinkContent--itemR {
     font-size: 12px;
+  }
+
+  .menuContainerNav {
+    margin-top: -0.5em;
   }
 
   .styledLinkContent {

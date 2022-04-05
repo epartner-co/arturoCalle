@@ -107,6 +107,7 @@
 .paragraph.paragraph--shelfTitle.paragraph--depto-mobile {
   font-size: 30px;
   margin-top: 40px;
+  color: #171b1b;
 }
 .container.container--todo-categora.container--depto-desk {
   margin: 0 auto;
@@ -129,6 +130,26 @@
   margin-top: 30px;
 }
 }
+
+
+/*---------------------------------*/
+/* vitrinas                        */
+/*---------------------------------*/
+.wrapper--titlem .paragraph--titlem{ /*cambia la letra del titulo de la vitrina... si causa algun problema se puede quitar*/
+  font-size: 32px;
+  font-weight: 700;
+  color: #171b1b;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
+
+
+/*Títulos vitrinas en Mobile*/
+@media screen and (max-width: 700px) {
+  .container.container--titlem.container--titulosDepartamento {
+    display: block;
+  }
+}
+
 
 
 

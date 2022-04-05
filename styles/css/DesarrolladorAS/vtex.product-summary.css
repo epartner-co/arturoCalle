@@ -1,0 +1,6 @@
+/*Modifica el tamaño del titulo de las vitrinas, del nombre el producto*/
+@media screen and (max-width: 700px) {
+  .nameContainer {
+    min-height: 55px;
+  }
+}
