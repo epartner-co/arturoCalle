@@ -1,0 +1,7 @@
+.productName {font-size: 14px;}
+
+.productPriceContainer {text-align: inherit;}
+
+.productVariationsContainer {display: flex;border-bottom: 1px solid #ccc9c9;margin: 0 0 16px 0;}
+
+.productVariationsItem {margin: 0 13px 7px 0;}

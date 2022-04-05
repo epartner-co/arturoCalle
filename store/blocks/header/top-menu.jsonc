@@ -102,8 +102,8 @@
     "props": {
       "blockClass": "home__mis-pedidos--mi-cuenta",
       "itemProps": {
-        "href":"/Account#/profile",
-        "text": "Mi cuenta"
+        "text": "Mi cuenta",
+        "href": "/account"
       }
     }
   },
@@ -125,7 +125,7 @@
       "blockClass": "texpre",
       "itemProps": {
         "type": "external",
-        "href": "/",
+        "href": "/wishlist",
         "noFollow": false,
         "tagTitle": "Lista de deseos",
         "text": "LISTA DE DESEOS"

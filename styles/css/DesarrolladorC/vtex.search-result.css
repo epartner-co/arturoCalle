@@ -1,4 +1,26 @@
 
   .buttonShowMore :global(.vtex-button) {
     background: #181e2a;
+    border-radius: 0;
+    min-width: 15%;
+    justify-content: center;
   }
+
+  .buttonShowMore :global(.vtex-button__label) {
+    font-size: 18px;
+    padding: 1% 4%;
+  }
+  .searchResultContainer {
+    max-width: 2000px;
+  }
+
+  @media screen and (max-width: 700px) {
+  .totalProducts--layout {justify-content: initial;display: flex;padding: 0 3%;}
+  .filterPopupButton {padding: 0 10%;margin: 0;max-height: 32px;}
+
+  .filters {border: 1px solid;border-radius: 5px;max-height: 34px;margin: 0 7px 0 0;}
+  .filterApplyButtonWrapper :global(.vtex-button) {background: black;color: white;}
+  .buttonShowMore :global(.vtex-button){
+    min-width: 40%;
+  }
+}

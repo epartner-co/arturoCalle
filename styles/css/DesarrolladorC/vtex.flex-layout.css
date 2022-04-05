@@ -41,10 +41,17 @@
 }
 
 .flexColChild--botoncomp :global(.vtex-button){
-  color: #181e2a;
+  color: #181e2a !important;
 }
+.flexColChild--botoncomp :global(.vtex-button__label){
+  background: #181e2a ;
+}
+.flexColChild--botoncomp {background: #181e2a;}
 
 @media screen and (max-width: 700px) {
+.flexRowContent--newsletter-form--contenedor--footer {background: #181e2a;padding-top: 16px;}
+.flexRowContent--newsletterP .stretchChildrenWidth {padding: 0 6%;}
+
 .container--breadP.pv3 {flex-wrap: wrap;}
 
 .flexRow--breadproduct {
@@ -77,3 +84,33 @@
   margin: 0 !important;
   width: 100% !important;
 }
+/*Ajustes producto*/
+
+.flexCol--lateralCol {padding: 0 4% 0 0;}
+.flexRowContent--rowSearchInfo {
+  margin-bottom: 45px;
+}
+
+/*Newsletter*/
+.flexColChild--texton {justify-content: center;display: flex;}
+
+.flexCol--campos {display: flex;justify-content: normal;}
+
+.flexRowContent--newsletterP .stretchChildrenWidth {display: flex;}
+
+.flexRow--newsletterP {margin-bottom: 61px;}
+
+/*Sticky product*/
+
+.flexRowContent--componente {width: 80%;justify-content: center;display: flex;align-items: center;margin: 0 auto;}
+
+.flexRow--componente {box-shadow: 0px 0px 0px 1px #b2afaf73;}
+
+.flexColChild--botoncompS :global(.vtex-button__label) {background: #151d29;width: 100%;padding: 0 !important;margin: 0;}
+
+.flexColChild--botoncompS :global(.vtex-button) {border: none;}
+
+.flexRow--newsletter-form--contenedor--footer {background: #181e2a;}
+
+
+

@@ -138,7 +138,7 @@
       "blockClass": "item",
       "itemProps": {
         "type": "internal",
-        "href": "/hombre/ropa/freedom",
+        "href": "/hombre/ropa/freedom?initialMap=c,c&initialQuery=hombre/ropa&map=category-1,category-2,brand",
         "noFollow": false,
         "tagTitle": "Freedom",
         "text": "FREEDOM"

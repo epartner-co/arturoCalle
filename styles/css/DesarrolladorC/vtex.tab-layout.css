@@ -7,4 +7,10 @@
 .contentContainer {
     width: 95%;
 }
+
+}
+
+.container--home__product__Hombre .contentContainer {
+  border: none;
+  width: 100%;
 }

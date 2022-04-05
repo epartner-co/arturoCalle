@@ -1,0 +1,58 @@
+{
+    "my-account-link.wishlist-link": {
+        "props": {
+          "label": "My Wishlist"
+        }
+      },
+      "my-account-page.wishlist-page": {
+        "props": {
+          "title": "Wishlist"
+        },
+        "children": ["list-context.wishlist"]
+      },
+    "store.wishlist": {
+        "blocks": ["rich-text#titleC", "list-context.wishlist"]
+      },
+    "rich-text#titleC": {
+        "props": {
+          "text": "### Wishlist",
+          "blockClass":"titlewhish"
+        }
+      },
+      "flex-layout.row#top": {
+        "children": ["flex-layout.col#title"]
+      },
+      "flex-layout.col#title": {
+        "children": ["rich-text#title"],
+        "props": {
+          "blockClass": "titleWishlist",
+          "preventVerticalStretch": true
+        }
+      },
+    "list-context.wishlist": {
+    "blocks": ["product-summary.shelf#wishlist"],
+    "children": ["slider-layout#wishlist"]
+  },
+  "product-summary.shelf#wishlist": {
+    "children": [
+        "stack-layout#prodsum",
+        "product-summary-sku-selector#vitrina",
+        "product-summary-name",
+        "flex-layout.row#vitrina"
+      ]
+  },
+  "slider-layout#wishlist": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "always",
+      "infinite": false,
+      "fullWidth": true,
+      "blockClass": "shelfW"
+    }
+  }
+}

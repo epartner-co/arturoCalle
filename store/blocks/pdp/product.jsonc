@@ -10,17 +10,23 @@
   "responsive-layout.desktop":{
     "children":[
       "flex-layout.row#product-breadcrumb",
+      "vtex.product-highlights@2.x:product-highlights#collectionC",
       "condition-layout.product#availability",
+      "sticky-layout#buy-button",
       "shelf.relatedProducts#accesorios",
-      "shelf.relatedProducts#view"
+      "shelf.relatedProducts#view",
+      "flex-layout.row#News"
+      
     ]
   },
   "responsive-layout.tablet":{
     "children":[
       "flex-layout.row#product-breadcrumb",
+      "vtex.product-highlights@2.x:product-highlights#collectionC",
       "condition-layout.product#availability",
       "shelf.relatedProducts#accesorios",
-      "shelf.relatedProducts#view"
+      "shelf.relatedProducts#view",
+      "flex-layout.row#News"
     ]
   },
   "responsive-layout.phone":{
@@ -28,7 +34,8 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availabilityMobile",
       "shelf.relatedProducts#accesorios",
-      "shelf.relatedProducts#view"
+      "shelf.relatedProducts#view",
+      "flex-layout.row#NewsM"
     ]
   },
 
@@ -134,6 +141,14 @@
       "rowGap": 0
     }
   },
+  "flex-layout.col#stackstiky": {
+    "children": ["product-images#sticky"],
+    "props": {
+      "width": "10%",
+      "rowGap": 0
+    }
+  },
+  
   /*Mobile*/
   "flex-layout.col#stackMobile": {
     "children": ["stack-layout"],
@@ -145,6 +160,19 @@
   "flex-layout.row#product-image": {
     "children": ["product-images"]
   },
+  "product-images#sticky": {
+    "props": {
+      "thumbnailVisibility": "hidden",
+      "showPaginationDots": "false",
+      "displayMode": "first-image",
+      "blockClass":"imagenunica",
+      "aspectRatio": {
+        "desktop": "3:4"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+
   "product-images": {
     "props": {
       "thumbnailsOrientation": "horizontal",
@@ -173,7 +201,9 @@
       "flex-layout.row#product-name",
       "product-rating-summary",
       //"flex-layout.row#list-price-savings",
+      "product-list-price",
       "flex-layout.row#selling-price",
+      
       //"product-installments",
       //"product-separator",
       "sku-selector",
@@ -185,6 +215,7 @@
       "flex-layout.row#imagenc"
     ]
   },
+ // "addi-infos":{},
   "flex-layout.col#right-colMobile": {
     "props": {
       "blockClass":"lateralColM",
@@ -222,12 +253,32 @@
       "highStockMessage": "Item in stock!"
     }
   },
+  "product-availability#S": {
+    "props": {
+      "threshold": "1001",
+      "lowStockMessage": "! QUEDAN {quantity} DISPONIBLES !",
+      "highStockMessage": "Item in stock!",
+      "blockClass": "stickyAvali"
+    }
+  },
 
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 3
     },
     "children": ["vtex.store-components:product-name"]
+  },
+  "flex-layout.row#product-nameS": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name#name"]
+  },
+
+  "vtex.store-components:product-name#name":{
+    "props":{
+      "blockClass": "nombresticky"
+    }
   },
 
   "sku-selector": {
@@ -244,6 +295,13 @@
       "marginBottom": 7
     },
     "children": ["flex-layout.col#buy-bottom", "flex-layout.col#whishlist"]
+  },
+  "flex-layout.row#buy-buttonS": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7
+    },
+    "children": ["flex-layout.col#buy-bottomS", "flex-layout.col#whishlistS"]
   },
   
 
@@ -296,12 +354,34 @@
       "width": "80%"
     }
   },
+  "flex-layout.col#buy-bottomS":{
+    "children":[
+      "add-to-cart-button#product"    
+    ],
+    "props":{
+      "blockClass": "botoncompS",
+      "width": "80%"
+    }
+  },
   "flex-layout.col#whishlist":{
     "children":[
       "add-to-list-btn"   
     ],
     "props":{
       "blockClass": "botonwhish"
+    }
+  },
+  "flex-layout.col#whishlistS":{
+    "children":[
+      "add-to-list-btn#S"   
+    ],
+    "props":{
+      "blockClass": "botonwhishS"
+    }
+  },
+  "add-to-list-btn#S":{
+    "props":{
+      "blockClass": "wishflotante"
     }
   },
 
@@ -507,7 +587,7 @@
   },
   "shelf.relatedProducts#accesorios": {
     "props": {
-        "recommendation": "accessories",
+        "recommendation": "view",
         "blockClass":"vitrineP",
         "showPaginationDots":"never",
         "productList": {
@@ -530,5 +610,195 @@
         }
     },
     "blocks": ["product-summary.shelf"]
+  },
+
+  //Sticky layout o scroll fijo bottom
+  "sticky-layout#buy-button": {
+    "props": {
+      "position": "bottom",
+      "blockClass": "StickyP"
+      
+    },
+    "children": ["flex-layout.row#component"]
+  },
+  "flex-layout.row#component":{
+    "children":[
+      "flex-layout.col#stackstiky",
+      "flex-layout.col#name",
+      "flex-layout.col#skusS",
+      "flex-layout.col#price",
+      "flex-layout.col#buyS"
+    ],
+    "props":{
+      "blockClass":"componente"
+    }
+  },
+
+  "flex-layout.col#name":{
+    "children": [
+      "flex-layout.row#product-nameS"   
+    ],
+    "props":{
+      "width": "20%",
+      "verticalAlign": "middle",
+      "blockClass": "nombrestick",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "flex-layout.col#skus":{
+    "children": [
+      "sku-selector"   
+    ],
+    "props":{
+      "width": "20%",
+      "verticalAlign": "middle",
+      "blockClass": "skustick",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "flex-layout.col#skusS":{
+    "children": [
+      "sku-selector#Sticky"   
+    ],
+    "props":{
+      "width": "20%",
+      "verticalAlign": "middle",
+      "blockClass": "skustick",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "sku-selector#Sticky":{
+    "props":{
+      "blockClass": "sticky"
+    }
+  },
+
+  "flex-layout.col#price":{
+    "children": [
+      "product-price#S"  
+    ],
+    "props":{
+      "width": "15%",
+      "verticalAlign": "middle",
+      "blockClass": "preciostick",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "product-price#S":{
+    "props":{
+      "blockClass": "preciosS"
+    }
+  },
+  "flex-layout.col#buyS":{
+    "children": [
+      "product-availability#S",
+      "flex-layout.row#buy-buttonS" 
+    ],
+    "props":{
+      "width": "35%",
+      "verticalAlign": "middle",
+      "blockClass": "comprarstick",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "newsletter-form#product":{
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-checkbox-confirmation",
+      "newsletter-submit"
+    ],
+    "props":{
+      "blockClass": "newsletter"
+    }
+  },
+  "newsletter-submit":{
+    "props":{
+      "checkboxLabel": "Autorizo el uso y tratamiento de mis datos personales de acuerdo a la politica encontrada en el sitio"
+    }
+  },
+
+  //News Letter
+  "flex-layout.row#NewsM":{
+    "children":[
+      "flex-layout.col#textoNM",
+      "flex-layout.col#campos"
+    ],
+    "props":{
+      "blockClass": "newsletterP"
+    }
+  },
+  "flex-layout.row#News":{
+    "children":[
+      "flex-layout.col#textoN",
+      "flex-layout.col#campos"
+    ],
+    "props":{
+      "blockClass": "newsletterP"
+    }
+  },
+  "flex-layout.col#textoN":{
+    "children": [
+      "image#news"  
+    ],
+    "props":{
+      "width": "50%",
+      "verticalAlign": "middle",
+      "blockClass": "texton",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "flex-layout.col#textoNM":{
+    "children": [
+      "image#newsM"  
+    ],
+    "props":{
+      "width": "50%",
+      "verticalAlign": "middle",
+      "blockClass": "texton",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+
+  "rich-text#text": {
+    "props": {
+      "text": "##### Suscribete \n Y recibe noticias / tendencias y looks",
+      "blockClass": "botonnews"
+    }
+  },
+  "image#news":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/Newsdesk.jpg",
+      "maxHeight": 360
+    }
+  },
+  "image#newsM":{
+    "props": {
+      "src": "https://callearturop.vteximg.com.br/arquivos/Newsmobile.jpg",
+      "maxHeight": 360
+    }
+  },
+
+
+  "flex-layout.col#campos":{
+    "children": [
+      "rich-text#text",
+      "newsletter-form#product"
+    ],
+    "props":{
+      "width": "50%",
+      "verticalAlign": "middle",
+      "blockClass": "campos",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
   }
+
 }

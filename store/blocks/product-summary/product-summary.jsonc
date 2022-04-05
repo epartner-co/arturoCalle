@@ -67,8 +67,14 @@
      "paddingRight": "5px"
    },
    "children":[
+    "product-list-price#vitrina",
     "product-selling-price#summary"
    ]
+ },
+ "product-list-price#vitrina":{
+  "props":{
+    "blockClass": "vitrinaP"
+  }
  },
  "flex-layout.col#buybutton":{
   "children": [
@@ -148,8 +154,9 @@
   "stack-layout#prodsum": {
     "children": [
       "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+
+      "vtex.product-highlights@2.x:product-highlights#collection"
+      //"modal-trigger#quickview" // Check quickview.jsonc
     ]
   },
 
@@ -157,7 +164,12 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "3:4",
-      "maxHeight": 390
+      "maxHeight": 460,
+      "hoverImage":{
+        "criteria":"label",
+        "label": "2",
+        "labelMatchCriteria": "contains"
+      }
     }
   },
 
@@ -166,6 +178,18 @@
       "type": "collection"
     },
     "children": ["product-highlight-wrapper"]
+  },
+  "vtex.product-highlights@2.x:product-highlights#collectionC": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper#C"]
+  },
+  "product-highlight-wrapper#C": {
+    "props": {
+      "blockClass": "collectionC"
+    },
+    "children": ["product-highlight-text"]
   },
   "product-highlight-wrapper": {
     "props": {

@@ -1,0 +1,21 @@
+{
+    
+"vtex.product-highlights@2.x:product-highlights#promo": {
+    "props": {
+      "blockClass":"promo",
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper#promo"]
+  },
+  "product-highlight-wrapper#promo": {
+    "props": {
+      "blockClass": "promo"
+    },
+    "children": ["product-highlight-text#promo"]
+  },
+  "product-highlight-text#promo": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  }
+}

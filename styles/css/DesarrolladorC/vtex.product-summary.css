@@ -3,5 +3,18 @@
 .brandName {
   font-size: 12px;
 }
+.nameWrapper {min-height: 56px;}
 
 }
+
+.containerNormal {
+  max-width: 90% !important;
+}
+
+.containerNormal {max-width: 90% !important;
+  border-radius: 0;}
+
+.imageStackContainer {width: 100%;}
+
+.element {padding-top: 0;}
+

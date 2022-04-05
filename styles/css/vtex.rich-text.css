@@ -346,6 +346,17 @@
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 /*---------------------------------*/
+/* vitrinas                        */
+/*---------------------------------*/
+
+.wrapper--titlem :global(.vtex-rich-text-0-x-paragraph--titlem){ /*cambia la letra del titulo de la vitrina... si causa algun problema se puede quitar*/
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
+
+/*---------------------------------*/
 /*  hombre collage imagenes        */
 /*---------------------------------*/
 
@@ -646,7 +657,7 @@
     padding: 12px;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 97%;
     font-size: 15px;
     text-align: center;
@@ -718,10 +729,10 @@
     content: "";
     width: 30px;
     height: 20px;
-    background: url("https://callearturop.vteximg.com.br/arquivos/payuAC.png")no-repeat;
     position: absolute;
-    right: -39px;
+    right: "-39px";
     display: block;
     background-size: 100%;
     top: 0;
+    background: url("https://callearturop.vteximg.com.br/arquivos/payuAC.png")no-repeat;
 }

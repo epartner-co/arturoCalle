@@ -222,7 +222,7 @@
 },
 "rich-text#bulletbotton1": {
   "props": {
-    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/woman)",
     "blockClass": "BotonM"
     }
   },
@@ -240,7 +240,7 @@
 },
 "rich-text#bulletbotton2": {
   "props": {
-    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/hombre)",
     "blockClass": "BotonM"
   }
 },
@@ -259,7 +259,7 @@
 },
 "rich-text#bulletbotton3": {
   "props": {
-    "text": "[Comprar](/kids/nina?O=OrderByReleaseDateDESC)",
+    "text": "[Comprar](/hombre)",
     "blockClass": "BotonM"
   }
 },
@@ -399,7 +399,7 @@
     "src": "https://arturocalle.vteximg.com.br/arquivos/formalnoviembre.jpg",
     "blockClass": "BannerD",
     "link": {
-      "url": "/hombre/estilo/formal"
+      "url": "/hombre/"
   }
   }
 },
@@ -429,7 +429,7 @@
     "src": "https://arturocalle.vteximg.com.br/arquivos/FREEDOMHOME20222.jpg",
     "blockClass": "BannerD",
     "link": {
-      "url": "/freedom"
+      "url": "/hombre/ropa/freedom?initialMap=c,c&initialQuery=hombre/ropa&map=category-1,category-2,brand"
   }
   }
 },

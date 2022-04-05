@@ -59,7 +59,7 @@ background: transparent;}
 
 .filterItem :global(.vtex-checkbox__container) {
   position: absolute;
-  right: 6%;
+  right: -13px;
   top: 15%;
 }
 
@@ -72,7 +72,7 @@ background: transparent;}
   border: none;
 }
 
-.filterItem :global(.vtex-checkbox__line-container) {padding-left: 8%;}
+.filterItem :global(.vtex-checkbox__line-container) { padding: 1% 0;}
 
 /*Colores Filtros*/
 .filterItem--filtros--azul :global(.vtex-checkbox__line-container)::before {
@@ -454,6 +454,7 @@ background: transparent;}
   border: 1px solid rgb(224, 224, 224);
   display: block;
 }
+
 .filterItem--filtros--ocre :global(.vtex-checkbox__line-container) {
   font-size: 0;
   width: 25px;
@@ -467,6 +468,35 @@ background: transparent;}
 }
 .filterItem--filtros--ocre :global(.vtex-checkbox__container) {
   display: none;
+}
+.filterItem--filtros--ocre :global(.vtex-checkbox__container) {
+  display: none;
+}
+.filter__container--talla :global(.vtex-checkbox__container) {
+  display: none;
+}
+.filter__container--talla :global(.vtex-checkbox__line-container) {
+  width: auto;
+  min-width: 35px;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.filter__container--talla .filterItem--filtros {
+  margin: 6px;
+  display: flex;
+  width: 7%;
+}
+
+.filter__container--talla .filterContent--filtros {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 6%;
 }
 
 
@@ -514,16 +544,40 @@ background: transparent;}
   display: none;
 }
 
-.filterItem--filtros2--selected {background: #edecec;margin: 0 10% 0 0;position: relative;height: 38px;border-radius: 5px;display: flex;align-items: center;}
+.filterItem--filtros2--selected {
+  background: #edecec;
+  margin: 0 10% 0 0;
+  position: relative;
+  height: 38px;
+  border-radius: 5px;
+  padding: 0 8% 0 6%;
+  display: flex;
+  width: auto;
+  align-items: center;
+}
 
 .filter.filter--filtros2.filterSelected.filterSelected--filtros2 {
     display: none;
 }
 
-.filterItem--filtros2--selected::after {
-    content: "x";
-    position: absolute;
-    top: 7%;
-    right: 10%;
-    font-size: 20px;
+.filterItem--filtros2--selected :global(.vtex-checkbox__label)::after {
+  content: "x";
+  position: absolute;
+  top: -17%;
+  right: -20px;
+  font-size: 20px;
 }
+.buttonShowMore--layout {
+  margin-bottom: 50px;
+}
+.filter__container--priceRange .filterTemplateOverflow--filtros {padding: 0 8%;}
+
+.filter__container--filtros--title {display: none;}
+
+.filtersWrapper--filtros {margin: 38px 0 0 0;}
+
+.filterTitleSpan--filtros {font-weight: 900;letter-spacing: 0.2px;}
+
+.filterTemplateOverflow--filtros {padding: 0 8%;}
+
+.filter__container--filtros2.filter__container--selectedFilters {margin: 1px 0 0 -50%;}

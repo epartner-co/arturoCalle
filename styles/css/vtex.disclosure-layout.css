@@ -24,6 +24,8 @@
 /*MOBILE FOOTER*/
 /****************/
 @media screen and (max-width: 700px) {
+    .content--lupaContent--visible {top: 100%;position: absolute;left: 0;width: 100%;}
+
   .trigger {
       width: 100%;
   }
@@ -61,13 +63,15 @@
     content: "cerrar";
     font-size: 22px;
     position: absolute;
-    top: 20%;
+    top: 50%;
     text-transform: uppercase;
     right: 20px;
     cursor: pointer;
     font-weight: 700;
     color: black;
 }
+.trigger--fitroTrigger2--visible {padding: 2% 3% !important}
+
 .trigger--fitroTrigger {
     padding: 0;
 }
@@ -86,7 +90,7 @@
     transform: rotate(180deg);
     position: absolute;
     right: 2%;
-    background: url(https://callearturop.vtexassets.com/arquivos/flecha-hacia-abajo-para-navegar.png)no-repeat;
+    background: url(https://callearturop.vtexassets.com/arquivos/flecha-hacia-abajo-para-navegar.png) no-repeat;
     background-size: 100%;
     display: block;
     top: 3%;
@@ -102,7 +106,7 @@
     height: 20px;
     position: absolute;
     right: 2%;
-    background: url(https://callearturop.vtexassets.com/arquivos/flecha-hacia-abajo-para-navegar.png)no-repeat;
+    background: url(https://callearturop.vtexassets.com/arquivos/flecha-hacia-abajo-para-navegar.png) no-repeat;
     background-size: 100%;
     display: block;
     top: 27%;

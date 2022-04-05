@@ -2,4 +2,6 @@
   transform: scale(1);
 }
 
-.wrapper--StickyP--stuck {position: absolute !important;}
+.container--sticky-header {
+  z-index: 9999;
+}

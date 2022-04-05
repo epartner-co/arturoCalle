@@ -5,7 +5,8 @@
             "flex-layout.col#col-vitrine-category-1"
         ],
         "props":{
-            "blockClass": "row-vitrine-category"
+            "blockClass": "row-vitrine-category",
+            "preserveLayoutOnMobile": "true"
         }
     },
     "flex-layout.col#col-vitrine-category":{
@@ -37,6 +38,58 @@
         "children": ["slider-layout#demo-category-2"]
     },
     "slider-layout#demo-category-2": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "shelf",
+          "showPaginationDots":"false",
+          "showNavigationArrows": "never"
+        }
+    },
+    "flex-layout.row#vitrineCategoryM":{
+        "children": [
+            "flex-layout.col#col-vitrine-categoryM",
+            "flex-layout.col#col-vitrine-category-1M"
+        ],
+        "props":{
+            "blockClass": "row-vitrine-category",
+            "preserveLayoutOnMobile": "true"
+        }
+    },
+    "flex-layout.col#col-vitrine-categoryM":{
+        "children": [
+            "image#imagenCategoryM"
+        ],
+        "props":{
+            "width":"50%",
+            "blockClass": "imagenColumnCategory"
+        }
+    },
+    "image#imagenCategoryM": {
+        "props": {
+          "src": "https://callearturop.vteximg.com.br/arquivos/hombrecategory.png",
+          "blockClass": "imgCategoriaSlider"
+        }
+    },
+    "flex-layout.col#col-vitrine-category-1M":{
+        "children": [
+            "list-context.product-list#category-2"
+        ],
+        "props":{
+            "width":"50%",
+            "blockClass": "sliderVitrine"
+        }
+    },
+    "list-context.product-list#category-2M": {
+        "blocks": ["product-summary.shelf#2"],
+        "children": ["slider-layout#demo-category-2M"]
+    },
+    "slider-layout#demo-category-2M": {
         "props": {
           "itemsPerPage": {
             "desktop": 3,

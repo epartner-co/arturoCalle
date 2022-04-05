@@ -93,4 +93,7 @@
 .minicartSummary :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer){
   display: none;
 }
+
+.opened {z-index: 99999;}
+
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/

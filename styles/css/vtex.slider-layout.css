@@ -6,7 +6,7 @@
 }
 
 .sliderTrackContainer {
-  max-width: 1520px;
+  max-width: 2000px;
 }
 
 .paginationDotsContainer {
@@ -66,11 +66,14 @@
   display: none;
 }
 @media screen and (max-width: 700px) {
+.sliderLayoutContainer--shelfH{
+  width: 100% !important;
+}
 .sliderLayoutContainer--depto-mobile {
     display: flex;
   }
 .sliderTrackContainer.sliderTrackContainer--deals.sliderTrackContainer--depto-mobile {
-  margin: 0 15px;
+  margin: 0 25px;
 }
 .sliderLeftArrow--depto-mobile {
   margin: 0;
@@ -86,6 +89,9 @@
 .sliderLayoutContainer--deals.sliderLayoutContainer--depto-mobile {
   margin-top: -30px;
 }
+}
+.caretIcon--shelfH {
+  color: black;
 }
 /*Vitrinas*/
 .dotsContainer{
@@ -107,3 +113,6 @@
 .caretIcon--shelfH {
   max-width: 30px;
 }
+
+.sliderLayoutContainer--shelfW {margin: 20px 0 50px 0;}
+.slide--shelfW {max-width: 25%;}

@@ -11,7 +11,9 @@
 }
 
 .footerLayout {
-  background-color: #181e2a
+  background-color: #181e2a;
+  position: relative;
+    z-index: 999;
 }
 
 .socialNetworksContainer{

@@ -5,3 +5,16 @@
   }
 
 }
+.listPriceValue 
+{
+  font-size: 18px;
+  color: #b0b0b0;
+  padding: 1% 0;
+  display: block;
+}
+
+.currencyContainer--vitrinaP {
+  font-size: 15px;
+  color: #494949;
+  margin: 0 0 0 5px;
+}

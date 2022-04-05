@@ -1,0 +1,7 @@
+.productHighlightWrapper.productHighlightWrapper--collectionC {position: absolute;top: 220px;left: 2%;text-transform: uppercase;z-index: 99;font-weight: 900;font-size: 14px;letter-spacing: 1px;}
+
+.productHighlightWrapper--collectionC .productHighlightText {background: white;border-radius: 0;border: 1px solid #e5e4e4;padding: 10px 11px;color: #3f3f40;}
+
+.productHighlightWrapper--collection .productHighlightText {background: white;border-radius: 0;border: 1px solid #dddcdc;text-transform: uppercase;font-size: 0;min-height: 16px;display: block;width: 29%;}
+
+.productHighlightWrapper--collection .productHighlightText::before {content: "15% OFF";font-size: 14px;font-weight: 700;}

@@ -1,0 +1,26 @@
+.newsletterForm--newsletter {width: 95%;border-radius: 0;box-shadow: none;}
+
+.emailInputContainer--newsletter-form--email--input {margin: 0px 0 20px 0;border-radius: 0;box-shadow: none;}
+
+.nameInputContainer--newsletter-form--nombre--input {margin: 0px 0 20px 0;;border: 0;box-shadow: none;border-radius: 0;}
+
+.newsletterForm--newsletter :global(.vtex-input-prefix__group){border-radius: 0px;box-shadow: none;}
+.newsletterForm--newsletter :global(.vtex-input-prefix__group)::placeholder{font-family: 'DINPRO';font-size: 46px;}
+
+.formSubmitContainer{margin-top: 20px;}
+
+.formSubmitContainer :global(.vtex-button) {border-radius: 0px;width: 100%;}
+
+.formSubmitContainer :global(.vtex-button)::before {content: "";width: 30px;top: 10%;height: 30px;background: url(https://callearturop.vteximg.com.br/arquivos/letter-icon.png) no-repeat;position: absolute;left: 20%;background-size: 100%;display: block;}
+
+.formSubmitContainer :global(.vtex-button) {background: #151d29;}
+
+.formSubmitContainer :global(.vtex-styleguide-9-x-input){
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width: 700px) {
+    .newsletterForm--newsletter {width: 100%;}
+}

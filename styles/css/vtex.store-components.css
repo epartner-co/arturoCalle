@@ -11,11 +11,11 @@
 }
 
 .infoCardContainer--info-card-home {
-  max-width: 1520px;
+  max-width: 2000px;
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
-  height: 360px;
+  height: 400px;
 }
 
 .infoCardContainer--info-card {
@@ -769,7 +769,7 @@ input#downshift-1-input {
   background: #f98db3;
   border-radius: 7px;
 }
-.skuSelectorItem--amarillo{
+.skuSelectorItem--amarillo, .skuSelectorItem--amarillo-zinc{
   background: #fff018;
   border-radius: 7px;
 }
@@ -825,11 +825,62 @@ input#downshift-1-input {
   background: #804000;
   border-radius: 7px;
 }
+
+.skuSelectorItem--coral{
+  background: #ff7f50;
+  border-radius: 7px;
+}
+
+.skuSelectorItem--gris{
+  background: gray;
+  border-radius: 7px;
+}
+.skuSelectorItem--cadmio{
+  background: #211f27;
+  border-radius: 7px;
+}
+.skuSelectorItem--beige{
+  background: #E1C699;
+  border-radius: 7px;
+}
+.skuSelectorItem--verde-musgo{
+  background: #2d2b29;
+  border-radius: 7px;
+}
+.skuSelectorItem--arena{
+  background: #fef9ee;
+  border-radius: 7px;
+}
+.skuSelectorItem--gris-oscuro{
+  background: #828282;
+  border-radius: 7px;
+}
+.skuSelectorItem--azul-claro{
+  background: #98e9fc;
+  border-radius: 7px;
+}
+.skuSelectorItem--khaki{
+  background: #f0e68c;
+  border-radius: 7px;
+}
+.skuSelectorItem--ganache{
+  background: #543023;
+  border-radius: 7px;
+}
+
+
+
+
+
+
+
+
 .carouselGaleryCursor{
   background: white;
   padding-top: 5%;
   padding-bottom: 2%;
 }
+
 .productImagesContainer--carousel {
   margin: 0 4% 0 0;
   padding: 0 0 0 2% !important;

@@ -250,7 +250,7 @@
 
 .flexCol--titleS-titulo{
   margin-left: 8px;
-  background: rgb(255, 255, 255);
+  background: rgb(250 250 250);
 }
 
 .flexCol--titleS-columna--2{
@@ -915,3 +915,4 @@ Estilos Producto Sección Contenido AC*/
   background: #eeeded;
   width: 89%;
 }
+.flexRow--titleS {margin: 35px 0 -38px 0;}

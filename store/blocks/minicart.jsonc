@@ -3,7 +3,8 @@
 
 "minicart.v2": {
   "props": {
-    "MinicartIcon": "flex-layout.row#home__minicart"
+    "MinicartIcon": "flex-layout.row#home__minicart",
+    "maxDrawerWidth":"500px"
   },
   "children": ["minicart-base-content"]
 },
