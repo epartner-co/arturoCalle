@@ -1,7 +1,7 @@
 {
   "store.custom#hombre": {
   "blocks": [
-    "info-card#hombre-home",
+    "image#hombre-home",
     "info-card#hombre-home-Mobile",
     //"list-context.image-list#demo",
     /* You can make references to blocks defined in other files.
@@ -25,11 +25,10 @@
     //"rich-text#link",
     //"newsletter",
     "flex-layout.row#titleDescubre",
-    "shelf#descubre-mas-hombre",
-    "flex-layout.row#titleMasVendidos",
-    "shelf#lo-mas-vendido-hombre"
-  ]
-},
+    "shelf#descubre-mas",
+    "shelf#lo-mas-vendido"
+    ]
+  },
 
 "list-context.image-list#demo-hombre": {
   "children": ["slider-layout#demo-images-hombre"],
@@ -83,7 +82,7 @@
     "blockClass": ["banner-vitrina2","vitrina2-1"]
   },
   "children": [
-    "info-card#col-shoes-hombre-left",
+    "image#col-shoes-hombre-left",
     "info-card#col-shoes-hombre-leftM"
   ]
 },
@@ -92,20 +91,21 @@
     "width": "75%"
   },
   "children": [
-    "shelf#shoes-hombre"
+    "shelf#shoes"
   ]
 },
-"info-card#col-shoes-hombre-left":{
+
+
+"image#col-shoes-hombre-left": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/hombre/banner-vitrina1.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-shoes-left", "depto-desk"]
+    "src": "assets/desk/hombre/banner-vitrina1.jpg",
+    "blockClass": ["info-card-shoes-left", "depto-desk"],
+    "link": {
+      "url": "/hombre/ropa/freedom?initialMap=c,c&initialQuery=hombre/ropa&map=category-1,category-2,brand"
+  }
   }
 },
+
 "info-card#col-shoes-hombre-leftM":{
   "props": {
     "id": "info-card-shoes",
@@ -162,24 +162,22 @@
     "blockClass": ["banner-vitrina2","vitrina2-2"]
   },
   "children": [
-    "info-card#col-shirt-hombre-right",
+    "image#col-shirt-hombre-right",
     "info-card#col-shirt-hombre-rightM"
   ]
 },
-"info-card#col-shirt-hombre-right":{
+
+"image#col-shirt-hombre-right": {
   "props": {
-    "id": "info-card-shirt",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/hombre/banner-vitrina2.jpg",
-    "callToActioMode": "none",
-    //"headline": "Clearance Sale",
-    //"callToActionText": "DISCOVER",
-    //"callToActionUrl": "/sale/d",
-    "blockClass": ["info-card-shirt-right", "depto-desk"]
+    "src": "assets/desk/hombre/banner-vitrina2.jpg",
+    "blockClass": ["info-card-shirt-right", "depto-desk"],
+    "link": {
+      "url": "/hombre/ropa/camisas"
+    }
   }
 },
+
+
 "info-card#col-shirt-hombre-rightM":{
   "props": {
     "id": "info-card-shoes",
@@ -232,7 +230,7 @@
     "width": "30%"
   },
   "children": [
-    "info-card#col-banner-hombre-left"
+    "image#col-banner-hombre-left"
   ]
 },
 "flex-layout.col#banner-hombre-right": {
@@ -240,7 +238,7 @@
     "width": "70%"
   },
   "children": [
-    "info-card#col-banner-hombre-right"
+    "image#col-banner-hombre-right"
   ]
 },
 
@@ -257,7 +255,7 @@
     "width": "60%"
   },
   "children": [
-    "info-card#col-left-hombre"
+    "image#col-left-hombre"
   ]
 },
 "flex-layout.col#right-hombre": {
@@ -265,12 +263,10 @@
     "width": "40%"
   },
   "children": [
-    "info-card#col-right-1-hombre",
-    "info-card#col-right-2-hombre"
+    "image#col-right-1-hombre",
+    "image#col-right-2-hombre"
   ]
 },
-
-
 
 
 "flex-layout.row#hombre-banner2M": {
@@ -327,14 +323,13 @@
 /*------------------------*/
 /* Banner secundario 1   */
 /*----------------------*/
-"info-card#col-banner-hombre-left":{
+"image#col-banner-hombre-left": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/hombre/baner-secundario1.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-banner-left"
+    "src": "assets/desk/hombre/baner-secundario1.jpg",
+    "blockClass": "info-card-banner-left",
+    "link": {
+      "url": "/hombre/ropa/"
+    }
   }
 },
 "info-card#col-banner-hombre-leftM":{
@@ -351,14 +346,13 @@
 /*------------------------*/
 /* Banner secundario 2   */
 /*----------------------*/
-"info-card#col-banner-hombre-right":{
+"image#col-banner-hombre-right": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/hombre/baner-secundario2.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-banner-right"
+    "src": "assets/desk/hombre/baner-secundario2.jpg",
+    "blockClass": "info-card-banner-right",
+    "link": {
+      "url": "/hombre/ropa/camisas"
+    }
   }
 },
 "info-card#col-banner-hombre-rightM":{
@@ -375,16 +369,17 @@
 /*---------------------------*/
 /* Banner Grid 1 izquierdo  */
 /*-------------------------*/
-"info-card#col-left-hombre":{
+
+"image#col-left-hombre": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/hombre/banner-grid1.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-shoes"
+    "src": "assets/desk/hombre/banner-grid1.jpg",
+    "blockClass": "info-card-shoes",
+    "link": {
+      "url": "/ofertas/hombre"
+    }
   }
 },
+
 "list-context.product-list#demo1-hombre": {
   "blocks": ["product-summary.shelf"],
   "children": ["slider-layout#demo-products-hombre"],
@@ -397,7 +392,7 @@
     "itemsPerPage": {
       "desktop": 5,
       "tablet": 3,
-      "phone": 2
+      "phone": 1
     },
     "infinite": true,
     "fullWidth": false,
@@ -408,15 +403,16 @@
 /*-------------------*/
 /* Banner PRINCIPAL */
 /*-----------------*/
-"info-card#hombre-home": {
+"image#hombre-home": {
   "props": {
-    "id": ["info-card-home","depto-desk"],
-    "isFullModeStyle": true,
-    "imageUrl": "assets/desk/hombre/banner-principal.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-home","depto-desk"]
+    "src": "assets/desk/hombre/banner-principal.jpg",
+    "blockClass": ["info-card-home","depto-desk"],
+    "link": {
+      "url": "/hombre/ropa"
+    }
   }
 },
+
 "info-card#hombre-home-Mobile": {
   "props": {
     "id": ["info-card-home","depto-mobile"],
@@ -452,32 +448,32 @@
 /*-------------------------------*/
 /* Banner Grid 2 Arriba derecho */
 /*-----------------------------*/
-"info-card#col-right-1-hombre": {
+"image#col-right-1-hombre": {
   "props": {
-    "id": "info-card",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/hombre/banner-grid2.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card"
+    "src": "assets/desk/hombre/banner-grid2.jpg",
+    "blockClass": "info-card",
+    "link": {
+      "url": "/hombre/ropa/freedom?initialMap=c,c&initialQuery=hombre/ropa&map=category-1,category-2,brand"
+  }
   }
 },
 
 /*------------------------------*/
 /* Banner Grid 3 Abajo derecho */
 /*----------------------------*/
-"info-card#col-right-2-hombre": {
+
+"image#col-right-2-hombre": {
   "props": {
-    "id": "info-card",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/hombre/banner-grid3.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card--down"/*se le puso el mismo info card que woman...para que quedara alineado*/
+    "src": "assets/desk/hombre/banner-grid3.jpg",
+    "blockClass": "info-card--down",
+    "link": {
+      "url": "/hombre/ropa/blazers"
+    }
   }
 },
 
-"shelf#cats-hombre": {
+
+"shelf#cats": {
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
@@ -495,25 +491,66 @@
   }
 },
 
-"shelf#descubre-mas-hombre": {
+
+"flex-layout.row#titleDescubre":{
+  "props": {
+    "blockClass": "titleS"
+  },
+  "children":[
+    "flex-layout.col#titleDescubreMas--col--3",
+    "flex-layout.col#titleDescubreMas--title",
+    "flex-layout.col#titleDescubreMas--col--4"
+
+  ]
+},
+"flex-layout.col#titleDescubreMas--col--3":{
+  "props": {
+    "blockClass": "titleDescubreMas-columna--3"
+  }
+},
+"flex-layout.col#titleDescubreMas--title":{
+  "props":{
+    "blockClass": "titleDescubreMas-titulo"
+  },
+  "children":[
+    "rich-text#titleDescubreMas"
+  ]
+},
+"flex-layout.col#titleDescubreMas--col--4":{
+  "props": {
+    "blockClass": "titleDescubreMas-columna--4"
+  }
+},
+
+"rich-text#titleDescubreMas": {
+  "props": {
+    "text": "DESCUBRE MÁS",
+    "blockClass": "titlem",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+
+"shelf#descubre-mas": {
   "blocks": ["product-summary.shelf"],
 
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
     "collection": 138,
-    "blockClass":["slider--general","pag-deptos"],
+    "blockClass": "pag-deptos",
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 2,
+      "minItemsPerPage": 1,
       "scroll": "BY_PAGE",
       "arrows": true
     }
   }
 },
 
-"shelf#lo-mas-vendido-hombre": {
+"shelf#lo-mas-vendido": {
   "blocks": ["product-summary.shelf"],
 
   "props": {
@@ -524,13 +561,13 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 2,
+      "minItemsPerPage": 1,
       "scroll": "BY_PAGE",
-      "arrows": true
+      "arrows": true,
+      "titleText": "LO MÁS VENDIDO"
     }
   }
 },
-
 
 
 //product tabs
@@ -583,14 +620,14 @@
     "tabId":"Jeans",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats-hombre","rich-text#tab-bottom-jean-hombre","rich-text#tab-bottom-jean-hombreM"]
+  "children":["shelf#cats","rich-text#tab-bottom-jean-hombre","rich-text#tab-bottom-jean-hombreM"]
 },
 "tab-content.item#tabs__content--Hombre2":{
   "props":{
     "tabId":"Camisetas",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats-hombre","rich-text#tab-bottom-camisetas-hombre","rich-text#tab-bottom-camisetas-hombreM"]
+  "children":["shelf#cats","rich-text#tab-bottom-camisetas-hombre","rich-text#tab-bottom-camisetas-hombreM"]
 },
 "rich-text#tabs__content--impresoras":{
   "props":{
@@ -621,94 +658,9 @@
     "text":"[Ver Categoría Camisetas](/)",
     "blockClass": ["todo-categora", "depto-mobile"]
   }
-},
-
-
-"flex-layout.row#titleDescubre":{
-  "props": {
-    "blockClass": ["titleS", "titulosDepartamento"]
-  },
-  "children":[
-    "flex-layout.col#titleDescubreMas--col--3",
-    "flex-layout.col#titleDescubreMas--title",
-    "flex-layout.col#titleDescubreMas--col--4"
-
-  ]
-},
-"flex-layout.col#titleDescubreMas--col--3":{
-  "props": {
-    "blockClass": "titleDescubreMas-columna--3"
-  }
-},
-"flex-layout.col#titleDescubreMas--title":{
-  "props":{
-    "blockClass": "titleDescubreMas-titulo"
-  },
-  "children":[
-    "rich-text#titleDescubreMas"
-  ]
-},
-"flex-layout.col#titleDescubreMas--col--4":{
-  "props": {
-    "blockClass": "titleDescubreMas-columna--4"
-  }
-},
-
-"rich-text#titleDescubreMas": {
-  "props": {
-    "text": "DESCUBRE MÁS",
-    "blockClass": ["titlem", "titulosDepartamento"],
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER"
-  }
-},
-
-
-
-
-
-
-
-
-
-"flex-layout.row#titleMasVendidos":{
-  "props": {
-    "blockClass": ["titleS", "titulosDepartamento"]
-  },
-  "children":[
-    "flex-layout.col#titleMasVendidos--col--3",
-    "flex-layout.col#titleMasVendidos--title",
-    "flex-layout.col#titleMasVendidos--col--4"
-
-  ]
-},
-"flex-layout.col#titleMasVendidos--col--3":{
-  "props": {
-    "blockClass": "titleMasVendidos-columna--3"
-  }
-},
-"flex-layout.col#titleMasVendidos--title":{
-  "props":{
-    "blockClass": "titleMasVendidos-titulo"
-  },
-  "children":[
-    "rich-text#titleMasVendidos"
-  ]
-},
-"flex-layout.col#titleMasVendidos--col--4":{
-  "props": {
-    "blockClass": "titleMasVendidos-columna--4"
-  }
-},
-
-"rich-text#titleMasVendidos": {
-  "props": {
-    "text": "LO MÁS VENDIDO",
-    "blockClass": ["titlem", "titulosDepartamento"],
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER"
-  }
 }
+
+
 
 
 }

@@ -134,3 +134,30 @@
     display: none;
   }
 }
+
+
+
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.flexRowContent.flexRowContent--producto-image-and-zoom {
+  position: relative;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+  position: absolute;
+  right: 3%;
+  top: 3%;z-index: 9;
+  width: 82px !important;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:first-child {
+  width: 100% !important;
+}
+
+
+@media screen and (max-width: 700px) {
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+  position: absolute;
+  right: 1%;
+  top: 3%;
+  z-index: 9;
+  width: 42px !important;
+}
+}

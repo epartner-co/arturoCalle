@@ -30,7 +30,7 @@
       "showPaginationDots": "never",
       "blockClass": ["deals","depto-mobile"]
     },
-    "children": [      
+    "children": [
       "image#hombre-deal1M",
       "image#hombre-deal2M",
       "image#hombre-deal3M",
@@ -51,7 +51,10 @@
   "image#hombre-deal1": {
     "props": {
       "src": "assets/desk/hombre/polo.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/hombre/ropa"
+      }
     }
   },
   "image#hombre-deal1M": {
@@ -83,7 +86,10 @@
   "image#hombre-deal2": {
     "props": {
       "src": "assets/desk/hombre/zapatos.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/hombre/zapatos/tenis"
+      }
     }
   },
   "image#hombre-deal2M": {
@@ -114,7 +120,10 @@
   "image#hombre-deal3": {
     "props": {
       "src": "assets/desk/hombre/camisas.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/hombre/ropa/camisas"
+      }
     }
   },
   "image#hombre-deal3M": {
@@ -145,7 +154,10 @@
   "image#hombre-deal4": {
     "props": {
       "src": "assets/desk/hombre/camisetas.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/hombre/ropa/camisas"
+      }
     }
   },
   "image#hombre-deal4M": {

@@ -1,7 +1,7 @@
 {
   "store.custom#woman": {
 "blocks": [
-  "info-card#woman-home",
+  "image#woman-home",
   "info-card#woman-home-Mobile",
   //"list-context.image-list#demo",
   /* You can make references to blocks defined in other files.
@@ -86,7 +86,7 @@
   "blockClass": ["banner-vitrina2","vitrina2-1"]
 },
 "children": [
-  "info-card#col-shoes-left",
+  "image#col-shoes-left",
   "info-card#col-shoes-woman-leftM"
 ]
 },
@@ -98,21 +98,17 @@
   "shelf#shoes-woman"
 ]
 },
-"info-card#col-shoes-left":{
-"props": {
-  "id": "info-card-shoes",
-  "isFullModeStyle": true,
-  "fullWidth": true,
-  //"textPosition": "left",
-  "imageUrl": "assets/desk/woman/banner-vitrina1d-100.jpg",
-  "callToActioMode": "none",
-  //"headline": "Clearance Sale",
-  //"callToActionText": "DISCOVER",
-  //"callToActionUrl": "/sale/d",
-  "blockClass": ["info-card-shoes-left", "depto-desk"]//,
-  //"textAlignment": "center"
-}
+
+"image#col-shoes-left": {
+  "props": {
+    "src": "assets/desk/woman/banner-vitrina1d-100.jpg",
+    "blockClass": ["info-card-shoes-left", "depto-desk"],
+    "link": {
+      "url": "/mujer/ropa"
+    }
+  }
 },
+
 "info-card#col-shoes-woman-leftM":{
 "props": {
   "id": "info-card-shoes",
@@ -164,32 +160,29 @@
   "blockClass": ["banner-vitrina2","vitrina2-2"]
 },
 "children": [
-  "info-card#col-shirt-right",
+  "image#col-shirt-right",
   "info-card#col-shirt-rightM"
 ]
 },
-"info-card#col-shirt-right":{
-"props": {
-  "id": "info-card-shirt",
-  "isFullModeStyle": true,
-  "fullWidth": true,
-  //"textPosition": "left",
-  "imageUrl": "https://callearturop.vtexassets.com/arquivos/banner%20vitrina2%20T-100.jpg",
-  "callToActioMode": "none",
-  //"headline": "Clearance Sale",
-  //"callToActionText": "DISCOVER",
-  //"callToActionUrl": "/sale/d",
-  "blockClass": ["info-card-shirt-right", "depto-desk"]
-  //"textAlignment": "center"
-}
+
+
+"image#col-shirt-right": {
+  "props": {
+    "src": "https://callearturop.vtexassets.com/arquivos/banner%20vitrina2%20T-100.jpg",
+    "blockClass": ["info-card-shirt-right", "depto-desk"],
+    "link": {
+      "url": "/mujer/ropa/pantalones"
+    }
+  }
 },
+
 
 "info-card#col-shirt-rightM":{
 "props": {
   "id": "info-card-shoes",
   "isFullModeStyle": true,
   "fullWidth": true,
-  "imageUrl": "https://callearturop.vtexassets.com/arquivos/banner vitrina2 M-100.jpg",
+  "imageUrl": "https://callearturop.vtexassets.com/arquivos/bannervitrina2M-100.jpg",
   "callToActioMode": "none",
   "blockClass": ["info-card-shoes-left", "depto-mobile"]
 }
@@ -239,7 +232,7 @@
   "width": "30%"
 },
 "children": [
-  "info-card#col-banner-left"
+  "image#col-banner-left"
 ]
 },
 "flex-layout.col#banner-right": {
@@ -247,7 +240,7 @@
   "width": "70%"
 },
 "children": [
-  "info-card#col-banner-right"
+  "image#col-banner-right"
 ]
 },
 
@@ -264,7 +257,7 @@
   "width": "60%"
 },
 "children": [
-  "info-card#col-left"
+  "image#col-left"
 ]
 },
 "flex-layout.col#right": {
@@ -272,25 +265,21 @@
   "width": "40%"
 },
 "children": [
-  "info-card#col-right-1",
-  "info-card#col-right-2"
+  "image#col-right-1",
+  "image#col-right-2"
 ]
 },
-"info-card#col-banner-left":{
-"props": {
-  "id": "info-card-shoes",
-  "isFullModeStyle": true,
-  "fullWidth": true,
-  //"textPosition": "left",
-  "imageUrl": "assets/desk/woman/Banner-interno1D-100.jpg",
-  "callToActioMode": "none",
-  //"headline": "Clearance Sale",
-  //"callToActionText": "DISCOVER",
-  //"callToActionUrl": "/sale/d",
-  "blockClass": "info-card-banner-left"//,
-  //"textAlignment": "center"
-}
+
+"image#col-banner-left": {
+  "props": {
+    "src": "assets/desk/woman/Banner-interno1D-100.jpg",
+    "blockClass": "info-card-banner-left",
+    "link": {
+      "url": "/mujer/ropa/blusas-y-camisas"
+    }
+  }
 },
+
 "info-card#col-banner-leftM":{
 "props": {
   "id": "info-card-shoes",
@@ -301,16 +290,18 @@
   "blockClass": "info-card-banner-left"
 }
 },
-"info-card#col-banner-right":{
-"props": {
-  "id": "info-card-shoes",
-  "isFullModeStyle": true,
-  "fullWidth": true,
-  "imageUrl": "assets/desk/woman/Banner-interno2D-100.jpg",
-  "callToActioMode": "none",
-  "blockClass": "info-card-banner-right"
-}
+
+
+"image#col-banner-right": {
+  "props": {
+    "src": "assets/desk/woman/Banner-interno2D-100.jpg",
+    "blockClass": "info-card-banner-right",
+    "link": {
+      "url": "/mujer/ropa/faldas"
+    }
+  }
 },
+
 "info-card#col-banner-rightM":{
 "props": {
   "id": "info-card-shoes",
@@ -321,21 +312,17 @@
   "blockClass": "info-card-banner-right"
 }
 },
-"info-card#col-left":{
-"props": {
-  "id": "info-card-shoes",
-  "isFullModeStyle": true,
-  "fullWidth": true,
-  //"textPosition": "left",
-  "imageUrl": "assets/desk/woman/banner-grid1D-100.jpg",
-  "callToActioMode": "none",
-  //"headline": "Clearance Sale",
-  //"callToActionText": "DISCOVER",
-  //"callToActionUrl": "/sale/d",
-  "blockClass": "info-card-shoes"//,
-  //"textAlignment": "center"
-}
+
+"image#col-left": {
+  "props": {
+    "src": "assets/desk/woman/banner-grid1D-100.jpg",
+    "blockClass": "info-card-shoes",
+    "link": {
+      "url": "/mujer/ropa/faldas"
+    }
+  }
 },
+
 "list-context.product-list#demo1": {
 "blocks": ["product-summary.shelf"],
 "children": ["slider-layout#demo-products"],
@@ -356,15 +343,16 @@
 }
 },
 
-"info-card#woman-home": {
-"props": {
-  "id": ["info-card-home","depto-desk"],
-  "isFullModeStyle": true,
-  "imageUrl": "https://callearturop.vteximg.com.br/arquivos/Banner-principalDESK-100.jpg",
-  "callToActioMode": "none",
-  "blockClass": ["info-card-home","depto-desk"]
-}
+"image#woman-home": {
+  "props": {
+    "src": "https://callearturop.vteximg.com.br/arquivos/Banner-principalDESK-100.jpg",
+    "blockClass": ["info-card-home","depto-desk"],
+    "link": {
+      "url": "mujer/ropa"
+    }
+  }
 },
+
 "info-card#woman-home-Mobile": {
 "props": {
   "id": ["info-card-home","depto-mobile"],
@@ -392,34 +380,33 @@
 
 "flex-layout.col#col-right2": {
 "children": [
-  "info-card#col-right-1",
-  "info-card#col-right-2"
+  "image#col-right-1",
+  "image#col-right-2"
 ]
 },
 
-"info-card#col-right-1": {
-"props": {
-  "id": "info-card",
-  "isFullModeStyle": true,
-  "fullWidth": true,
-  "imageUrl": "assets/desk/woman/banner-grid2D-100.jpg",
-  "callToActioMode": "none",
-  "blockClass": "info-card"
-}
+"image#col-right-1": {
+  "props": {
+    "src": "assets/desk/woman/banner-grid2D-100.jpg",
+    "blockClass": "info-card",
+    "link": {
+      "url": "/mujer/ropa"
+    }
+  }
 },
 
 /*-----------------------------------------------------------*/
 /*info card modificado*/
-"info-card#col-right-2": {
-"props": {
-  "id": "info-card",
-  "isFullModeStyle": true,
-  "fullWidth": true,
-  "imageUrl": "assets/desk/woman/banner-grid3D-100.jpg",
-  "callToActioMode": "none",
-  "blockClass": "info-card--down"
-}
+"image#col-right-2": {
+  "props": {
+    "src": "assets/desk/woman/banner-grid3D-100.jpg",
+    "blockClass": "info-card--down",
+    "link": {
+      "url": "/mujer/ropa"
+    }
+  }
 },
+
 /*-------------------------------------------------------------*/
 "shelf#cats-woman": {
 "blocks": ["product-summary.shelf"],

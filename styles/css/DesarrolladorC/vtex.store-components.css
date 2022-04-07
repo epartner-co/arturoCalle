@@ -109,7 +109,7 @@
 .container {max-width: 2000px;}
 
 /*Producto ajustes*/
-.productImagesContainer--carousel::after {content: "";width: 30px;height: 30px;background: url(https://callearturop.vteximg.com.br/arquivos/iconoampliar.png) no-repeat;position: absolute;z-index: 999;right: 4%;top: 3%;background-size: 100%;}
+/*.productImagesContainer--carousel::after {content: "";width: 30px;height: 30px;background: url(https://callearturop.vteximg.com.br/arquivos/iconoampliar.png) no-repeat;position: absolute;z-index: 999;right: 4%;top: 3%;background-size: 100%;}*/
 
 /*Nombre de los colores*/
 .skuSelectorItem--selector--gris-granito.skuSelectorItem--selector--selected::before {

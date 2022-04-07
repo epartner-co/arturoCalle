@@ -58,7 +58,7 @@
       "itemProps": {
         "icon":"mpa-globe",
         "type": "external",
-        "href": "https://web.whatsapp.com/",
+        "href": "https://web.whatsapp.com?target=_blank",
         "noFollow": false,
         "tagTitle": "Escríbenos por vía whatsapp",
         "text": "VENTAS WHATSAPP"
@@ -334,28 +334,28 @@
         "blockClass": "pais--guatemala",
         "textAlignment": "CENTER",
         //"text":"GUATEMALA"
-        "text": "[GUATEMALA](https://gt.arturocalle.com/)"
+        "text": "[GUATEMALA](https://gt.arturocalle.com?target=_blank)"
     }
   },
   "rich-text#PANAMA":{
       "props":{
           "textAlignment": "CENTER",
           "blockClass": "pais--panama",
-          "text":"[PANAMÁ](https://pa.arturocalle.com/panama/)"
+          "text":"[PANAMÁ](https://pa.arturocalle.com/panama?target=_blank)"
       }
   },
   "rich-text#COSTA--RICA":{
       "props":{
           "textAlignment": "CENTER",
           "blockClass": "pais--costa-rica",
-          "text":"[COSTA RICA](https://cr.arturocalle.com/costa_rica/)"
+          "text":"[COSTA RICA](https://cr.arturocalle.com/costa_rica?target=_blank)"
       }
   },
   "rich-text#EL--SALVADOR":{
       "props":{
           "textAlignment": "CENTER",
           "blockClass": "pais--salvador",
-          "text":"[EL SALVADOR](https://sv.arturocalle.com/salvador/)"
+          "text":"[EL SALVADOR](https://sv.arturocalle.com/salvador?target=_blank)"
       }
   }
 }

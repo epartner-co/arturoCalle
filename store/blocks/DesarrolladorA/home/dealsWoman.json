@@ -25,7 +25,7 @@
       "showPaginationDots": "never",
       "blockClass": ["deals","depto-mobile"]
     },
-    "children": [      
+    "children": [
       "image#woman-deal1M",
       "image#woman-deal2M",
       "image#woman-deal3M",
@@ -44,7 +44,10 @@
   "image#woman-deal1": {
     "props": {
       "src": "assets/desk/woman/slidercategoriasDT_2-100-chaquetas.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/mujer/ropa"
+      }
     }
   },
   "rich-text#woman-deal1": {
@@ -64,7 +67,10 @@
   "image#deal2": {
     "props": {
       "src": "assets/desk/woman/slider-categoriasDT_1-100-zapatos.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/mujer"
+      }
     }
   },
   "rich-text#deal2": {
@@ -84,7 +90,10 @@
   "image#deal3": {
     "props": {
       "src": "assets/desk/woman/slider-categoriasDT_3-100-accesorios.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/mujer/ropa"
+      }
     }
   },
   "rich-text#deal3": {
@@ -104,7 +113,10 @@
   "image#deal4": {
     "props": {
       "src": "assets/desk/woman/slider-categoriasDT-100-bluzas.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/mujer/ropa/blusas-y-camisas"
+      }
     }
   },
   "rich-text#deal4": {
