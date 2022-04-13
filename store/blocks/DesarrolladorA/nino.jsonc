@@ -107,7 +107,7 @@
   "props": {
     "blockClass": "shoes",
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 139,
+    "collection": 189,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -178,7 +178,7 @@
   "props": {
     "blockClass": "shirt",
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 139,
+    "collection": 171,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -382,7 +382,25 @@
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 139,
+    "collection": 183,
+    "blockClass": "depto-tab",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#cats1-nino": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 173,
     "blockClass": "depto-tab",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
@@ -400,7 +418,7 @@
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 139,
+    "collection": 191,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -418,7 +436,7 @@
   "props": {
     "blockClass":"slider--general",
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 139,
+    "collection": 178,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -489,7 +507,7 @@
     "tabId":"Camisetas",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats-nino","rich-text#tab-bottom-camisetas-nino","rich-text#tab-bottom-camisetas-ninoM"]
+  "children":["shelf#cats1-nino","rich-text#tab-bottom-camisetas-nino","rich-text#tab-bottom-camisetas-ninoM"]
 },
 "rich-text#tabs__content--nino":{
   "props":{
@@ -605,9 +623,6 @@
     "blockClass": ["bannerfinal3"]
   }
 }
-
-
-
 
 
 

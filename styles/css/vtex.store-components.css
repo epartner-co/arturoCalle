@@ -542,10 +542,6 @@ input#downshift-1-input {
   transition: transform .2s;  /*easyzoom*/
 }
 
-.productImage :global(.vtex-store-components-3-x-productImageTag):hover {
-  transform: scale(1.5);
-}
-
 .skuSelectorOptionsList{/*diferentes opciones de productos---se colocan los que estan cargados en el sistema*/
   margin: 0;
 }
@@ -867,6 +863,22 @@ input#downshift-1-input {
   background: #543023;
   border-radius: 7px;
 }
+.skuSelectorItem--verde-malaquita{
+  background: #00FF00;
+  border-radius: 7px;
+}
+.skuSelectorItem--menta{
+  background: #98FF98;
+  border-radius: 7px;
+}
+.skuSelectorItem--amarillo-limon{
+  background: #c7b446;
+  border-radius: 7px;
+}
+
+
+
+
 
 
 
@@ -995,9 +1007,9 @@ input#downshift-1-input {
 .skuSelectorSubcontainer--talla {
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
+  transition: 0s;
   position: absolute;
-  top: -20px;
+  top: -5px;
 }
 .skuSelectorContainer{
   transition: 1s;
@@ -1006,6 +1018,7 @@ input#downshift-1-input {
   display: flex;
   top: 0;
   position: relative;
+  transition: 1s;
   opacity: 1;
   visibility: visible;
 } 

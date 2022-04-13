@@ -91,7 +91,7 @@
     "width": "75%"
   },
   "children": [
-    "shelf#shoes"
+    "shelf#shoes-hombre"
   ]
 },
 
@@ -123,7 +123,7 @@
   "props": {
     "blockClass": "shoes",
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 138,
+    "collection": 142,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -192,7 +192,7 @@
   "blocks": ["product-summary.shelf"],
   "props": {
     "blockClass": "shirt",
-    "collection": 138,
+    "collection": 143,
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
@@ -439,8 +439,8 @@
 
 "flex-layout.col#col-right2-hombre": {
   "children": [
-    "info-card#col-right-1-hombre",
-    "info-card#col-right-2-hombre"
+    "image#col-right-1-hombre",
+    "image#col-right-2-hombre"
   ]
 },
 
@@ -477,7 +477,25 @@
   "blocks": ["product-summary.shelf"],
   "props": {
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 138,
+    "collection": 146,
+    "blockClass": "depto-tab",
+    "paginationDotsVisibility": "desktopOnly",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#cats1": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "collection": 141,
     "blockClass": "depto-tab",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
@@ -538,7 +556,7 @@
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
-    "collection": 138,
+    "collection": 152,
     "blockClass": "pag-deptos",
     "productList":{
       "maxItems": 10,
@@ -555,7 +573,7 @@
 
   "props": {
     "blockClass":["slider--general","pag-deptos"],
-    "collection": 138,
+    "collection": 144,
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
@@ -627,7 +645,7 @@
     "tabId":"Camisetas",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats","rich-text#tab-bottom-camisetas-hombre","rich-text#tab-bottom-camisetas-hombreM"]
+  "children":["shelf#cats1","rich-text#tab-bottom-camisetas-hombre","rich-text#tab-bottom-camisetas-hombreM"]
 },
 "rich-text#tabs__content--impresoras":{
   "props":{

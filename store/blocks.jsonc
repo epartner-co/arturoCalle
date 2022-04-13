@@ -11,6 +11,7 @@
   "store.orderplaced": {
     "blocks": ["order-placed"]
   },
+
   "store.account": {
     "blocks": ["my-account"],
     "parent": {

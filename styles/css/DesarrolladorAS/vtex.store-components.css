@@ -160,8 +160,34 @@
   left: 0;
 }
 @media screen and (max-width: 700px) {
-.productImageTag.productImageTag--main {
-  max-height: none !important;
-  margin: 10px 0; 
+  .productImageTag.productImageTag--main {
+    max-height: none !important;
+    margin: 10px 0;
+  }
+
+  .skuSelectorSubcontainer--talla.skuSelectorSubcontainer {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    top: 0;
+  }
+
+  /*Quitar ícono de flechas en mobile*/
+  .swiperCaret {
+    display: none;
+  }
 }
+/*Adicionales*/
+.imageElement.imageElement--info-card-home.imageElement--depto-desk {
+  width: 100%;
 }
+/*test*/
+
+
+/*---------------------------*/
+/* Banner principal         */
+/*-------------------------*/
+.infoCardContainer.infoCardContainer--info-card-home.infoCardContainer--depto-desk {
+  width: 100%;
+}
+/*--------------------------*/

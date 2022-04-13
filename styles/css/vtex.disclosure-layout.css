@@ -59,8 +59,17 @@
     border-radius: 0;
     position: relative;
 }
-/*.trigger--fitroTrigger2--visible::after{   ----   Se pasa este apartado a los estilos DesarrolladorAS  */
-
+.trigger--fitroTrigger2--visible::after{
+    content: "cerrar";
+    font-size: 22px;
+    position: absolute;
+    top: 50%;
+    text-transform: uppercase;
+    right: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    color: black;
+}
 .trigger--fitroTrigger2--visible {padding: 2% 3% !important}
 
 .trigger--fitroTrigger {
@@ -72,7 +81,7 @@
     justify-content: center;
     display: flex;
   }
-
+  
 .trigger--aperturaD--visible::after
 {
     content: " ";
@@ -90,7 +99,7 @@
 .trigger--aperturaD{
     position: relative;
 }
-  .trigger--aperturaD--hidden::after
+  .trigger--aperturaD--hidden::after 
 {
     content: " ";
     width: 13px;
@@ -108,7 +117,6 @@
     top: 0;
     opacity: 0;
     visibility: hidden;
-    transition: 1s;
     width: 100%;
 }
 .content--contenidoD--visible {
@@ -118,3 +126,4 @@
     top: 0;
     position: relative;
 }
+

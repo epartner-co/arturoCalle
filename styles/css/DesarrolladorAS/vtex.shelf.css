@@ -25,7 +25,12 @@
   .container.container--slider--general.container--pag-deptos {
       margin: 0 3%;
   }
+
+  /*Quitar ícono de flechas en mobile*/
+  .caretIcon {
+    display: none;
   }
+}
 
 
 /*Eliminar titulo por defecto del shelf*/

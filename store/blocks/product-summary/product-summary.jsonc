@@ -164,7 +164,7 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "3:4",
-      "maxHeight": 460,
+      "maxHeight": 570,
       "hoverImage":{
         "criteria":"label",
         "label": "2",

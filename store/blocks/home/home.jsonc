@@ -451,7 +451,6 @@
     "flex-layout.col#titleS--col--1",
     "flex-layout.col#titleS--title",
     "flex-layout.col#titleS--col--2"
-
   ]
 },
 "flex-layout.col#titleS--col--1":{
@@ -500,7 +499,7 @@
   "slider-layout#demo-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 5,
         "tablet": 3,
         "phone": 2
       },
