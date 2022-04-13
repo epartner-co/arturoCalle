@@ -21,4 +21,9 @@
   .skuSelectorInternalBox {
     border-color: transparent;
   }
+
+  /*Espacio entre precios y descripción del producto en mobile*/
+  .nameContainer {
+    margin-bottom: -2em;
+  }
 }
