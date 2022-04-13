@@ -126,7 +126,7 @@
 "props": {
   "blockClass": "shoes",
   "orderBy":"OrderByTopSaleDESC",
-  "collection": 137,
+  "collection": 165,
   "paginationDotsVisibility": "desktopOnly",
   "productList":{
     "maxItems": 10,
@@ -194,7 +194,7 @@
 "props": {
   "blockClass": "shirt",
   "orderBy":"OrderByTopSaleDESC",
-  "collection": 137,
+  "collection": 156,
   "paginationDotsVisibility": "desktopOnly",
   "productList":{
     "maxItems": 10,
@@ -413,7 +413,7 @@
 "props": {
   "orderBy":"OrderByTopSaleDESC",
   "paginationDotsVisibility": "desktopOnly",
-  "collection": 137,
+  "collection": 161,
   "blockClass": "depto-tab",
   "productList":{
     "maxItems": 10,
@@ -426,13 +426,31 @@
 }
 },
 
+"shelf#cats1-woman": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "paginationDotsVisibility": "desktopOnly",
+    "collection": 156,
+    "blockClass": "depto-tab",
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+  },
+
 "shelf#descubre-mas-woman": {
 "blocks": ["product-summary.shelf"],
 
 "props": {
   "orderBy":"OrderByTopSaleDESC",
   "paginationDotsVisibility": "desktopOnly",
-  "collection": 137,
+  "collection": 166,
   "productList":{
     "maxItems": 10,
     "itemsPerPage": 4,
@@ -450,7 +468,7 @@
 "props": {
   "blockClass":"slider--general",
   "orderBy":"OrderByTopSaleDESC",
-  "collection": 137,
+  "collection": 164,
   "paginationDotsVisibility": "desktopOnly",
   "productList":{
     "maxItems": 10,
@@ -519,7 +537,7 @@
   "tabId":"Camisetas",
   "blockClass": "tab-depto"
 },
-"children":["shelf#cats-woman","rich-text#tab-bottom-camisetas-woman","rich-text#tab-bottom-camisetas-womanM"]
+"children":["shelf#cats1-woman","rich-text#tab-bottom-camisetas-woman","rich-text#tab-bottom-camisetas-womanM"]
 },
 "rich-text#tabs__content--impresoras":{
 "props":{

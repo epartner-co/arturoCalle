@@ -1362,8 +1362,8 @@
       "flex-layout.col#menu-nivel-hombre-clean",
       "flex-layout.col#menu-nivel-hombre-clean",
       "flex-layout.col#menu-nivel-accesorios-cat1",
-      "flex-layout.col#menu-nivel-hombre-clean",
       "flex-layout.col#menu-nivel-accesorios-cat2",
+      "flex-layout.col#menu-nivel-hombre-clean",
       "flex-layout.col#menu-nivel-hombre-clean"
     ]
   },
@@ -1379,8 +1379,8 @@
       "rich-text#clean",
       "rich-text#clean",
       "rich-text#menu-nivel-accesorios-cat1-sub1",
-      "rich-text#menu-nivel-accesorios-cat1-sub2",
       "rich-text#menu-nivel-accesorios-cat1-sub3",
+      "rich-text#menu-nivel-accesorios-cat1-sub2",
       "rich-text#menu-nivel-accesorios-cat1-sub4",
       "rich-text#clean",
       "rich-text#clean"

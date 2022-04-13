@@ -107,7 +107,7 @@
     "blockClass": "shoes",
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
-    "collection": 140,
+    "collection": 177,
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 3,
@@ -176,7 +176,7 @@
   "props": {
     "blockClass": "shirt",
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 140,
+    "collection": 174,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -392,7 +392,7 @@
     "fullWidth": true,
     "imageUrl": "assets/desk/nina/banner-grid3.jpg",
     "callToActioMode": "none",
-    "blockClass": "info-card"
+    "blockClass": "info-card--down"/*se le puso el mismo info card que nino...para que quedara alineado*/
   }
 },
 
@@ -402,7 +402,25 @@
     "orderBy":"OrderByTopSaleDESC",
     "blockClass": "depto-tab",
     "paginationDotsVisibility": "desktopOnly",
-    "collection": 140,
+    "collection": 181,
+    "productList":{
+      "maxItems": 10,
+      "itemsPerPage": 4,
+      "minItemsPerPage": 2,
+      "scroll": "BY_PAGE",
+      "arrows": true,
+      "showTitle": false
+    }
+  }
+},
+
+"shelf#cats1-nina": {
+  "blocks": ["product-summary.shelf"],
+  "props": {
+    "orderBy":"OrderByTopSaleDESC",
+    "blockClass": "depto-tab",
+    "paginationDotsVisibility": "desktopOnly",
+    "collection": 172,
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
@@ -419,7 +437,7 @@
   "props": {
     "orderBy":"OrderByTopSaleDESC",
     "paginationDotsVisibility": "desktopOnly",
-    "collection": 140,
+    "collection": 190,
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
@@ -436,7 +454,7 @@
   "props": {
     "blockClass":"slider--general",
     "orderBy":"OrderByTopSaleDESC",
-    "collection": 140,
+    "collection": 177,
     "paginationDotsVisibility": "desktopOnly",
     "productList":{
       "maxItems": 10,
@@ -514,7 +532,7 @@
     "tabId":"Camisetas",
     "blockClass": "tab-depto"
   },
-  "children":["shelf#cats-nina","rich-text#tab-bottom-camisetas-nina","rich-text#tab-bottom-camisetas-ninaM"]
+  "children":["shelf#cats1-nina","rich-text#tab-bottom-camisetas-nina","rich-text#tab-bottom-camisetas-ninaM"]
 },
 "rich-text#tabs__content--nina":{
   "props":{

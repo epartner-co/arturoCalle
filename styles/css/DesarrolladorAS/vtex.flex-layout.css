@@ -161,3 +161,10 @@
   width: 42px !important;
 }
 }
+
+/*-------------------------------------------*/
+/* Scroll para filtros de producto category */
+/*-----------------------------------------*/
+.flexCol.flexCol--filtroContent {
+  overflow-y: scroll;
+}

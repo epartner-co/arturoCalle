@@ -1,0 +1,67 @@
+{
+
+    "product-images#zoom": {
+        "props": {
+        "displayThumbnailsArrows": false,
+        "thumbnailAspectRatio": "auto",
+        "displayMode": "list",
+        "blockClass": "images-modal-zoom",
+        "zoomMode": "in-place-click",
+        "verticalAlign": "zoom-list-image",
+        "aspectRatio": {
+            "desktop": "auto",
+            "phone": "auto"
+        }
+    
+        }
+    },
+    "modal-header#zoom": {
+        "props": {
+        "showCloseButton":"true",
+        "blockClass": "cerradoPopProducto"
+        }
+    },
+    "rich-text#modal-content": {
+        "props": {
+        "text": "¿Qué quiers hacer con tu compra?",
+        "blockClass": "cerradoPopProducto"
+        }
+    },
+    "modal-layout#product-zoom": {
+        "props": {
+        "blockClass": "zoomDeProducto"
+        },
+        "children": [
+
+        "modal-header",
+        "product-images.high-quality-image"
+        ]
+    },
+    
+
+    "modal-trigger#zoom-bottom": {
+    "children": [
+        "image#zoom",
+        "modal-layout#nivel1"
+    ],
+    "props": {
+        "blockClass": "Trigger-Zoom-list"
+    }
+    },
+    "modal-layout#nivel1": {
+    "children": [
+        "modal-header#zoom",
+        "product-images#zoom"
+    ],
+    "props": {
+        "blockClass": "Content-Zoom-list"
+    }
+    },
+    "image#zoom": {
+    "props": {
+        "src": "https://callearturop.vteximg.com.br/arquivos/iconoampliar.png",
+        "maxHeight": "30px",
+        "blockClass": "trigger-Zoom-list"
+    }
+    }
+}

@@ -3,4 +3,22 @@
   .nameContainer {
     min-height: 55px;
   }
+
+  .skuSelectorItem--vitrina {
+    border: transparent;
+    border-radius: 77%;
+  }
+
+  .valueWrapper {
+    background-color: #f5f5f5;
+    border-radius: 35%;
+    border-top-left-radius: 35%;
+    border-top-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+  }
+
+  .skuSelectorInternalBox {
+    border-color: transparent;
+  }
 }

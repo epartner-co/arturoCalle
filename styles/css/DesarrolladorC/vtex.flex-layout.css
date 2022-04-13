@@ -112,5 +112,36 @@
 
 .flexRow--newsletter-form--contenedor--footer {background: #181e2a;}
 
+.flexRowContent--row-vitrine-category {margin: 3% 0 0 0;}
 
 
+/*---------------------ZOOM PAGINA DE PRODUCTO*/
+.flexRowContent.flexRowContent--producto-image-and-zoom {
+  position: relative;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+  position: absolute;
+  right: 3%;
+  top: 3%;z-index: 9;
+  width: 82px !important;
+}
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:first-child {
+  width: 100% !important;
+}
+
+
+@media screen and (max-width: 700px) {
+.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+  position: absolute;
+  right: 1%;
+  top: 3%;
+  z-index: 9;
+  width: 42px !important;
+}
+.flexRow--breadproduct {padding: 0 5%;}
+.flexRowContent--minicart {align-items: center;margin: -4px 0 0 0;}
+
+}
+
+.flexRowContent--segundacol .flexCol {margin: 0;}
+.flexRow--main-headerC {background: white;}

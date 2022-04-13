@@ -1,3 +1,8 @@
 .expandIcon {
   color: #727273;
 }
+
+.gridIcon {opacity: 0;display: none;}
+
+.inlineGridIcon {display: none;}
+

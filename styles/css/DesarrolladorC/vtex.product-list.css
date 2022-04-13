@@ -1,7 +1,9 @@
-.productName {font-size: 14px;}
+.productName {font-size: 10px;}
 
 .productPriceContainer {text-align: inherit;}
 
-.productVariationsContainer {display: flex;border-bottom: 1px solid #ccc9c9;margin: 0 0 16px 0;}
+.productVariationsContainer {display: flex;border-bottom: 1px solid #ccc9c9;margin: 0 0 10px 0;}
 
 .productVariationsItem {margin: 0 13px 7px 0;}
+.productBrandName {font-size: 10px;}
+.productVariationsItem {font-size: 11px;}
