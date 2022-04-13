@@ -184,6 +184,7 @@
 /*test*/
 
 
+
 /*---------------------------*/
 /* Banner principal         */
 /*-------------------------*/
@@ -191,3 +192,53 @@
   width: 100%;
 }
 /*--------------------------*/
+
+
+/*-------------------------------*/
+/* Banner Secundario Derecho    */
+/*-----------------------------*/
+.imageElement.imageElement--info-card-banner-right {
+  width: 100%;
+}
+/*-----------------------*/
+
+
+/*---------------------------------*/
+/* Banner Secundario Izquierdo    */
+/*-------------------------------*/
+.imageElement.imageElement--info-card-banner-left {
+  width: 92.9%;
+}
+/*-----------------------*/
+
+
+/*--------------------------------------*/
+/* Banner Terciario Izquierdo Grande   */
+/*------------------------------------*/
+.imageElement.imageElement--info-card-shoes {
+  width: 98%;
+  height: 98.2%;
+}
+/*-----------------------*/
+
+
+/*------------------------------------*/
+/* Banner Terciario Derecho Arriba   */
+/*----------------------------------*/
+.imageElement.imageElement--info-card {
+  width: 100%;
+}
+/*-----------------------*/
+
+
+/*------------------------------------*/
+/* Banner Terciario Derecho Abajo    */
+/*----------------------------------*/
+.imageElement.imageElement--info-card--down {
+  width: 100%;
+}
+/*-----------------------*/
+
+
+
+
