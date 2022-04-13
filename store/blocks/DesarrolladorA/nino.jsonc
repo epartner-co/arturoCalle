@@ -1,7 +1,7 @@
 {
   "store.custom#nino": {
   "blocks": [
-    "info-card#nino-home",
+    "image#nino-home",
     "info-card#nino-home-Mobile",
     //"list-context.image-list#demo",
     /* You can make references to blocks defined in other files.
@@ -78,7 +78,7 @@
     "blockClass": ["banner-vitrina2","vitrina2-1"]
   },
   "children": [
-    "info-card#col-shoes-nino-left",
+    "image#col-shoes-nino-left",
     "info-card#col-shoes-nino-leftM"
   ]
 },
@@ -90,18 +90,18 @@
     "shelf#shoes-nino"
   ]
 },
-"info-card#col-shoes-nino-left":{
+
+/*Banner izquierdo vertical*/
+"image#col-shoes-nino-left": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/nino/banner-vitrina1.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-shoes-left", "depto-desk"]
-    //"textAlignment": "center"
+    "src": "assets/desk/nino/banner-vitrina1.jpg",
+    "blockClass": ["info-card-shoes-left", "depto-desk"],
+    "link": {
+      "url": "/kids/nino/ropa/chaquetas-y-chalecos"
+    }
   }
 },
+
 "shelf#shoes-nino": {
   "blocks": ["product-summary.shelf"],
   "props": {
@@ -146,22 +146,21 @@
     "blockClass": ["banner-vitrina2","vitrina2-2"]
   },
   "children": [
-    "info-card#col-shirt-nino-right",
+    "image#col-shirt-nino-right",
     "info-card#col-shirt-nino-rightM"
   ]
 },
-"info-card#col-shirt-nino-right":{
+
+"image#col-shirt-nino-right": {
   "props": {
-    "id": "info-card-shirt",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/nino/banner-vitrina2.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-shirt-right", "depto-desk"]
-    //"textAlignment": "center"
+    "src": "assets/desk/nino/banner-vitrina2.jpg",
+    "blockClass":["info-card-shirt-right", "depto-desk"],
+    "link": {
+      "url": "/kids/nino/ropa/camisetas?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
 "info-card#col-shirt-nino-rightM":{
   "props": {
     "id": "info-card-shoes",
@@ -215,7 +214,7 @@
     "width": "30%"
   },
   "children": [
-    "info-card#col-banner-nino-left"
+    "image#col-banner-nino-left"
   ]
 },
 "flex-layout.col#banner-nino-right": {
@@ -223,7 +222,7 @@
     "width": "70%"
   },
   "children": [
-    "info-card#col-banner-nino-right"
+    "image#col-banner-nino-right"
   ]
 },
 
@@ -240,7 +239,7 @@
     "width": "60%"
   },
   "children": [
-    "info-card#col-left-nino"
+    "image#col-left-nino"
   ]
 },
 "flex-layout.col#right-nino": {
@@ -248,52 +247,51 @@
     "width": "40%"
   },
   "children": [
-    "info-card#col-right-1-nino",
-    "info-card#col-right-2-nino"
+    "image#col-right-1-nino",
+    "image#col-right-2-nino"
   ]
 },
 
 /*------------------------*/
 /* Banner secundario 1   */
 /*----------------------*/
-"info-card#col-banner-nino-left":{
+"image#col-banner-nino-left": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nino/banner-secundario-1.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-banner-left"
+    "src": "assets/desk/nino/banner-secundario-1.jpg",
+    "blockClass": "info-card-banner-left",
+    "link": {
+      "url": "/kids/nino/ropa/camisetas?O=OrderByReleaseDateDESC"
+    }
   }
 },
 
 /*------------------------*/
 /* Banner secundario 2   */
 /*----------------------*/
-"info-card#col-banner-nino-right":{
+"image#col-banner-nino-right": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nino/banner-secundario2.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-banner-right"
+    "src": "assets/desk/nino/banner-secundario2.jpg",
+    "blockClass": "info-card-banner-right",
+    "link": {
+      "url": "/kids/nino/ropa?O=OrderByReleaseDateDESC"
+    }
   }
 },
 
 /*---------------------------*/
 /* Banner Grid 1 izquierdo  */
 /*-------------------------*/
-"info-card#col-left-nino":{
+"image#col-left-nino": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nino/banner-grid1.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-shoes"
+    "src": "assets/desk/nino/banner-grid1.jpg",
+    "blockClass": "info-card-shoes",
+    "link": {
+      "url": "/kids/nino/ropa/pantalones?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
+
 "list-context.product-list#demo1-nino": {
   "blocks": ["product-summary.shelf"],
   "children": ["slider-layout#demo-products-nino"],
@@ -317,16 +315,16 @@
 /*-------------------*/
 /* Banner PRINCIPAL */
 /*-----------------*/
-"info-card#nino-home": {
+"image#nino-home": {
   "props": {
-    "id":["info-card-home","depto-desk"],
-    "isFullModeStyle": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/nino/banner-principal.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-home","depto-desk"]
+    "src": "assets/desk/nino/banner-principal.jpg",
+    "blockClass": ["info-card-home","depto-desk"],
+    "link": {
+      "url": "/kids/nino/ropa?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
 
 "rich-text#question": {
   "props": {
@@ -344,8 +342,8 @@
 
 "flex-layout.col#col-right2-nino": {
   "children": [
-    "info-card#col-right-1-nino",
-    "info-card#col-right-2-nino"
+    "image#col-right-1-nino",
+    "image#col-right-2-nino"
   ]
 },
 
@@ -353,30 +351,30 @@
 /*-------------------------------*/
 /* Banner Grid 2 Arriba derecho */
 /*-----------------------------*/
-"info-card#col-right-1-nino": {
+"image#col-right-1-nino": {
   "props": {
-    "id": "info-card",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nino/banner-grid2.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card"
+    "src": "assets/desk/nino/banner-grid2.jpg",
+    "blockClass": "info-card",
+    "link": {
+      "url": "/kids/nino/ropa/pantalones?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
 
 /*------------------------------*/
 /* Banner Grid 3 Abajo derecho */
 /*----------------------------*/
-"info-card#col-right-2-nino": {
+"image#col-right-2-nino": {
   "props": {
-    "id": "info-card",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nino/banner-grid3.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card--down"/*se le puso el mismo info card que nino...para que quedara alineado*/
+    "src": "assets/desk/nino/banner-grid3.jpg",
+    "blockClass": "info-card--down",/*se le puso el mismo info card que nino...para que quedara alineado*/
+    "link": {
+      "url": "/kids/nino/ropa/bermudas?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
 
 "shelf#cats-nino": {
   "blocks": ["product-summary.shelf"],
@@ -514,10 +512,6 @@
     "text":"aqui van otros sliders"
   }
 },
-
-
-
-
 
 
 

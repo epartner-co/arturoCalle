@@ -28,17 +28,19 @@
       "showPaginationDots": "never",
       "blockClass": ["deals","depto-mobile"]
     },
-    "children": [      
+    "children": [
       "image#nino-deal1M",
       "image#nino-deal2M",
       "image#nino-deal3M",
       "image#nino-deal4M"]
   },
 
-  
+
   //Fin de llamado de columnas superpiuestas en slide
 
-
+/*------------------------------------------------------*/
+/*   Imagenes pequeñas que acompañan banner principal  */
+/*----------------------------------------------------*/
   /*------------------------*/
   /* Columnas 1 --> POLOS  */
   /*----------------------*/
@@ -53,7 +55,10 @@
   "image#nino-deal1": {
     "props": {
       "src": "assets/desk/nino/polos.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/nino"
+      }
     }
   },
   "rich-text#nino-deal1": {
@@ -79,7 +84,10 @@
   "image#nino-deal2": {
     "props": {
       "src": "assets/desk/nino/buzos.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/nino"
+      }
     }
   },
   "rich-text#nino-deal2": {
@@ -105,7 +113,10 @@
   "image#nino-deal3": {
     "props": {
       "src": "assets/desk/nino/jeans.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/kids/nino/ropa/jeans"
+      }
     }
   },
   "rich-text#nino-deal3": {
@@ -130,7 +141,10 @@
   "image#nino-deal4": {
     "props": {
       "src": "assets/desk/nino/camisas.jpg",
-      "maxHeight": "170px"
+      "maxHeight": "170px",
+      "link": {
+        "url": "/kids/nino/ropa/camisas"
+      }
     }
   },
   "rich-text#nino-deal4": {
