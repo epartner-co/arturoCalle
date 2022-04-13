@@ -1,7 +1,7 @@
 {
   "store.custom#nina": {
   "blocks": [
-    "info-card#nina-home",
+    "image#nina-home",
     "info-card#nina-home-Mobile",
     //"list-context.image-list#demo",
     /* You can make references to blocks defined in other files.
@@ -77,7 +77,7 @@
     "blockClass": ["banner-vitrina2","vitrina2-1"]
   },
   "children": [
-    "info-card#col-shoes-nina-left",
+    "image#col-shoes-nina-left",
     "info-card#col-shoes-nina-leftM"
   ]
 },
@@ -89,18 +89,18 @@
     "shelf#shoes-nina"
   ]
 },
-"info-card#col-shoes-nina-left":{
+
+"image#col-shoes-nina-left": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/nina/banner-vitrina1.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-shoes-left", "depto-desk"]
-    //"textAlignment": "center"
+    "src": "assets/desk/nina/banner-vitrina1.jpg",
+    "blockClass": ["info-card-shoes-left", "depto-desk"],
+    "link": {
+      "url": "/kids/nina/ropa/?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
+
 "shelf#shoes-nina": {
   "blocks": ["product-summary.shelf"],
   "props": {
@@ -145,22 +145,21 @@
     "blockClass": ["banner-vitrina2","vitrina2-2"]
   },
   "children": [
-    "info-card#col-shirt-nina-right",
+    "image#col-shirt-nina-right",
     "info-card#col-shirt-nina-rightM"
   ]
 },
-"info-card#col-shirt-nina-right":{
+
+"image#col-shirt-nina-right": {
   "props": {
-    "id": "info-card-shirt",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/nina/banner-vitrina2.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-shirt-right", "depto-desk"]
-    //"textAlignment": "center"
+    "src": "assets/desk/nina/banner-vitrina2.jpg",
+    "blockClass": ["info-card-shirt-right", "depto-desk"],
+    "link": {
+      "url": "/kids/nina/ropa/?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
 "info-card#col-shirt-nina-rightM":{
   "props": {
     "id": "info-card-shoes",
@@ -213,7 +212,7 @@
     "width": "30%"
   },
   "children": [
-    "info-card#col-banner-nina-left"
+    "image#col-banner-nina-left"
   ]
 },
 "info-card#col-banner-nina-leftM":{
@@ -241,7 +240,7 @@
     "width": "70%"
   },
   "children": [
-    "info-card#col-banner-nina-right"
+    "image#col-banner-nina-right"
   ]
 },
 
@@ -258,7 +257,7 @@
     "width": "60%"
   },
   "children": [
-    "info-card#col-left-nina"
+    "image#col-left-nina"
   ]
 },
 "flex-layout.col#right-nina": {
@@ -266,52 +265,51 @@
     "width": "40%"
   },
   "children": [
-    "info-card#col-right-1-nina",
-    "info-card#col-right-2-nina"
+    "image#col-right-1-nina",
+    "image#col-right-2-nina"
   ]
 },
 
 /*------------------------*/
 /* Banner secundario 1   */
 /*----------------------*/
-"info-card#col-banner-nina-left":{
+"image#col-banner-nina-left": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nina/banner-secundario1.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-banner-left"
+    "src": "assets/desk/nina/banner-secundario1.jpg",
+    "blockClass": "info-card-banner-left",
+    "link": {
+      "url": "/nina"
+    }
   }
 },
 
 /*------------------------*/
 /* Banner secundario 2   */
 /*----------------------*/
-"info-card#col-banner-nina-right":{
+"image#col-banner-nina-right": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nina/banner-secundario2.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-banner-right"
+    "src": "assets/desk/nina/banner-secundario2.jpg",
+    "blockClass": "info-card-banner-right",
+    "link": {
+      "url": "/kids/nina/ropa/chaquetas?O=OrderByReleaseDateDESC"
+    }
   }
 },
+
 
 /*---------------------------*/
 /* Banner Grid 1 izquierdo  */
 /*-------------------------*/
-"info-card#col-left-nina":{
+"image#col-left-nina": {
   "props": {
-    "id": "info-card-shoes",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nina/banner-grid1.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card-shoes"
+    "src": "assets/desk/nina/banner-grid1.jpg",
+    "blockClass": "info-card-shoes",
+    "link": {
+      "url": "/kids/nina/ropa"
+    }
   }
 },
+
 "list-context.product-list#demo1-nina": {
   "blocks": ["product-summary.shelf"],
   "children": ["slider-layout#demo-products-nina"],
@@ -335,16 +333,16 @@
 /*-------------------*/
 /* Banner PRINCIPAL */
 /*-----------------*/
-"info-card#nina-home": {
+"image#nina-home": {
   "props": {
-    "id": ["info-card-home","depto-desk"],
-    "isFullModeStyle": true,
-    //"textPosition": "left",
-    "imageUrl": "assets/desk/nina/banner-principal.jpg",
-    "callToActioMode": "none",
-    "blockClass": ["info-card-home","depto-desk"]
+    "src": "assets/desk/nina/banner-principal.jpg",
+    "blockClass": ["info-card-home","depto-desk"],
+    "link": {
+      "url": "/kids/nina/ropa"
+    }
   }
 },
+
 
 "rich-text#question": {
   "props": {
@@ -362,8 +360,8 @@
 
 "flex-layout.col#col-right2-nina": {
   "children": [
-    "info-card#col-right-1-nina",
-    "info-card#col-right-2-nina"
+    "image#col-right-1-nina",
+    "image#col-right-2-nina"
   ]
 },
 
@@ -371,30 +369,30 @@
 /*-------------------------------*/
 /* Banner Grid 2 Arriba derecho */
 /*-----------------------------*/
-"info-card#col-right-1-nina": {
+"image#col-right-1-nina": {
   "props": {
-    "id": "info-card",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nina/banner-grid2.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card"
+    "src": "assets/desk/nina/banner-grid2.jpg",
+    "blockClass": "info-card",
+    "link": {
+      "url": "/kids/nina/ropa"
+    }
   }
 },
+
 
 /*------------------------------*/
 /* Banner Grid 3 Abajo derecho */
 /*----------------------------*/
-"info-card#col-right-2-nina": {
+"image#col-right-2-nina": {
   "props": {
-    "id": "info-card",
-    "isFullModeStyle": true,
-    "fullWidth": true,
-    "imageUrl": "assets/desk/nina/banner-grid3.jpg",
-    "callToActioMode": "none",
-    "blockClass": "info-card--down"/*se le puso el mismo info card que nino...para que quedara alineado*/
+    "src": "assets/desk/nina/banner-grid3.jpg",
+    "blockClass": "info-card--down",/*se le puso el mismo info card que nino...para que quedara alineado*/
+    "link": {
+      "url": "/kids/nina/ropa/pantalones"
+    }
   }
 },
+
 
 "shelf#cats-nina": {
   "blocks": ["product-summary.shelf"],
