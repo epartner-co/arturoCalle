@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Nina-Ropa-Ropa-interior": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Ropa-interior"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Ropa-interior": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "797",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}

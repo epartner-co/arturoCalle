@@ -36,8 +36,17 @@
 /****************/
 .sliderLayoutContainer--slider-moible {
   display: none;
+
 }
+
+.slide .slideChildrenContainer.slideChildrenContainer--carouselC {margin: 0 !important;}
+
 @media screen and (max-width: 700px) {
+
+.imageElement.imageElement--carouselC {margin: 0 ! important;}
+
+.sliderTrack--carouselC .slide.slide--carouselC {margin: 0px 2px !important;}
+
 .sliderLayoutContainer--slider-moible {
     display: block;
 }
@@ -116,3 +125,5 @@
 
 .sliderLayoutContainer--shelfW {margin: 20px 0 50px 0;}
 .slide--shelfW {max-width: 25%;}
+
+.slide.slide--carouselC {margin: 0 5px !important;}

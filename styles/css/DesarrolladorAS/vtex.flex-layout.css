@@ -6,6 +6,19 @@
   .flexCol--banner-vitrina2.flexCol--vitrina2-1 .flexColChild--vitrina2-1:last-child {
       height: 135px !important;
   }
+
+  /*Acomoda la visualización de los precios*/
+  .flexCol.flexCol--precios {
+    margin-right: 250%;
+  }
+
+}
+
+
+@media screen and (max-width: 1026px) {
+  .flexRowContent--main-header-mobile {
+    max-height: 48px;
+  }
 }
 
 
@@ -121,6 +134,13 @@
   }
   }
 
+/*Breadcrumb ajuste*/
+@media screen and (min-width: 700px) {
+  .flexRow--breadproduct {
+    width: 50%;
+    padding-left: 1.2% !important;
+  }
+}
 /*Títulos vitrinas en Mobile*/
 @media screen and (max-width: 700px) {
   .flexRow.flexRow--titleS.flexRow--titulosDepartamento {
@@ -133,6 +153,31 @@
   .flexRowContent.flexRowContent--titleS.flexRowContent--titulosDepartamento .stretchChildrenWidth:last-child {
     display: none;
   }
+
+  /*----------------------------------------------------------------------------*/
+  /*  Acomodando vitrinas con titulos de producto - bolsita - precio visibles  */
+  /*--------------------------------------------------------------------------*/
+  .flexRowContent.flexRowContent--inferior {
+    margin-top: 36px;
+  }
+
+  .flexRowContent.flexRowContent--inferior.items-stretch {
+    margin-left: 8em;
+  }
+
+  .flexCol.flexCol--precios {
+    margin-left: 250%;
+  }
+
+  .stretchChildrenWidth.flex {
+    margin-right: -7em;
+  }
+
+  .flexRow.flexRow--inferior {
+    height: 0%;
+  }
+  /*------------------------------------------------------------------*/
+
 }
 
 
@@ -144,7 +189,8 @@
 .flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
   position: absolute;
   right: 3%;
-  top: 3%;z-index: 9;
+  top: 3%;
+  z-index: 9991 !important;
   width: 82px !important;
 }
 .flexRowContent--producto-image-and-zoom .stretchChildrenWidth:first-child {
@@ -153,13 +199,14 @@
 
 
 @media screen and (max-width: 700px) {
-.flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
-  position: absolute;
-  right: 1%;
-  top: 3%;
-  z-index: 9;
-  width: 42px !important;
-}
+  .flexRowContent--producto-image-and-zoom .stretchChildrenWidth:last-child {
+    right: 1%;
+  }
+
+  /*bajar un poco banner secundario mobile*/
+  .flexRow.flexRow--more.flexRow--depto-mobile {
+    margin-top: 30px;
+  }
 }
 
 /*-------------------------------------------*/
@@ -170,3 +217,18 @@
 }
 /*--------------------------------------*/
 
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Posición arriba de ORDENAR POR RELEVANCIA para dar espacio visual a los filtros  */
+/*---------------------------------------------------------------------------------*/
+/*--------------------------------------*/
+
+
+/*-----------------------------------------------------------*/
+/* Filtro Velo que cierra desde afuera los filtros category */
+/*---------------------------------------------------------*/
+.flexCol.flexCol--filtroContent.flexCol--fitroTrigger.flexCol--fitroTrigger2 {
+  position: relative;
+}
+/*---------------------------------------------------*/

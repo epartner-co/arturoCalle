@@ -11,11 +11,11 @@
         margin: 0;
         border-top: 1px solid #e8e7e7;
     }
-    
+
     .link {
         font-size: 10px;
     }
-    
+
     .homeLink::before {
         font-size: 10px;
         margin-top: 4%;
@@ -26,8 +26,20 @@
     .link--breadP {padding-left: 0;padding-right: 0;}
 
     .link--breadP.homeLink.homeLink--breadP {margin-top: 1px;}
-    
+
     .arrow--breadP {
         margin: 0 2px 0 0;
     }
 }
+
+@media screen and (min-width: 700px) {
+
+  .link.link--breadP {margin: 0 0 0 5px;padding: 0;}
+
+  .arrow.arrow--breadP {padding: 0;}
+
+  .arrow.arrow--breadP.arrow--2.arrow--breadP--2 {padding: 0;}
+
+  .link.link--breadP.homeLink.homeLink--breadP {margin-top: 4px;}
+}
+

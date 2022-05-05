@@ -1,7 +1,7 @@
 /*-------------------------*/
 /* Estilos de menu mobile */
 /*-----------------------*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1026px){
   .styledLinkContent--item:hover {
     width: inherit;
     text-decoration: initial;

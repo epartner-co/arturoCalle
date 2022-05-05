@@ -15,6 +15,9 @@
   }
 
   @media screen and (max-width: 700px) {
+
+  .orderByButton{padding: 0;}
+
   .totalProducts--layout {justify-content: initial;display: flex;padding: 0 3%;}
   .filterPopupButton {padding: 0 10%;margin: 0;max-height: 32px;}
 

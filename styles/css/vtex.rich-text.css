@@ -214,7 +214,7 @@
 
 .wrapper--ContenidoDesplegable .link {
   color: white;
-  font-size: 11px;
+  font-size: 12px;
   text-decoration: none;
 }
 
@@ -498,21 +498,12 @@
 /*       freedom                     */
 /*------------------------------------*/
 
-.wrapper--buttons--freedom1{
-  margin-top: -19%;
-  margin-bottom: -7%;
-}
-
 .paragraph--buttons--freedom1{
   font-size: 25px;
     color: black;
     font-weight: 700;
 }
 
-.wrapper--buttons--freedom2{
-  margin-top: -28%;
-  margin-bottom: -7%;
-}
 
 .paragraph--buttons--freedom2{
   font-size: 25px;
@@ -520,10 +511,6 @@
     font-weight: 700;
 }
 
-.wrapper--buttons--freedom3{
-  margin-top: -28%;
-  margin-bottom: -7%;
-}
 
 .paragraph--buttons--freedom3{
   font-size: 25px;
@@ -531,10 +518,6 @@
     font-weight: 700;
 }
 
-.wrapper--buttons--freedom4{
-  margin-top: -28%;
-  margin-bottom: -7%;
-}
 
 .paragraph--buttons--freedom4{
   font-size: 25px;
@@ -542,10 +525,6 @@
     font-weight: 700;
 }
 
-.wrapper--buttons--freedom5{
-  margin-top: -28%;
-  margin-bottom: -7%;
-}
 
 .paragraph--buttons--freedom5{
   font-size: 25px;
@@ -553,10 +532,6 @@
     font-weight: 700;
 }
 
-.wrapper--buttons--freedom6{
-  margin-top: -15%;
-  margin-bottom: -8%;
-}
 
 .paragraph--buttons--freedom6{
   font-size: 25px;
@@ -734,5 +709,7 @@
     display: block;
     background-size: 100%;
     top: 0;
-    background: url("https://callearturop.vteximg.com.br/arquivos/payuAC.png")no-repeat;
+    background: url("https://callearturop.vteximg.com.br/arquivos/payuAC.png") no-repeat;
 }
+
+.wrapper.wrapper--buttons-clas {margin: 0  auto;}

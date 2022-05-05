@@ -1,0 +1,72 @@
+{
+  "store.custom#freedom-hombre-sweaters": {
+    "blocks": ["image#freedom", "search-result-layout.customQuery#freedom-hombre-sweaters"]
+  },
+  "image#freedom": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://arturocalle.vteximg.com.br/arquivos/Banner-Categoria-Freedom.jpg"
+    }
+  },
+  "search-result-layout.customQuery#freedom-hombre-sweaters": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "642",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#top": {
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#search"
+    ]
+  },
+  "flex-layout.col#filter": {
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

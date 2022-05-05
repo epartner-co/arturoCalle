@@ -1,15 +1,15 @@
 /*Buy butom */
 .buttonText::after {
-    content: "";
-    background: url(https://callearturop.vteximg.com.br/arquivos/carrito.png) no-repeat;
-    background-size: 100%;
-    width: 17px;
-    height: 20px;
-    position: absolute;
-    right: 22%;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/carrito.png) no-repeat;
+  background-size: 100%;
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  right: 8%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .buttonText {
@@ -67,7 +67,7 @@
 }
 .buttonText--botonvitrina:hover::after {
     background: none;
-    
+
 }
 
 @media screen and (max-width: 700px) {
@@ -76,5 +76,15 @@
         right: 10% !important;
          }
     .buttonText--botonvitrina::after {display: none;}
-    
+
+    }
+
+    @media screen and (min-width: 700px) and (max-width: 1026px) {
+
+    .buttonText--botonvitrina {
+      background: url(https://callearturop.vteximg.com.br/arquivos/cta.png) no-repeat;
+      width: 40px;
+      height: 40px;
+      background-size: 100%;
+    }
     }

@@ -49,12 +49,12 @@ background: transparent;}
   background: #fafafa;
 }
 .filter__container--selectedFilters {
-  display: none;
+  /*display: none;*/
 }
 
 /*Filtros*/
 .vtex-search-result-3-x-filter__container.vtex-search-result-3-x-filter__container--filtros.bb.b--muted-4.vtex-search-result-3-x-filter__container--selectedFilters {
-  display: none;
+  /*display: none;*/
 }
 
 .filterItem :global(.vtex-checkbox__container) {
@@ -96,7 +96,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--azul :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--blanco :global(.vtex-checkbox__line-container)::before {
@@ -119,7 +120,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--blanco :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--naranja :global(.vtex-checkbox__line-container)::before {
@@ -143,7 +145,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--naranja :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--naranja :global(.vtex-checkbox__line-container)::before {
@@ -167,7 +170,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--naranja :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--verde :global(.vtex-checkbox__line-container)::before {
@@ -190,7 +194,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--verde :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--morado :global(.vtex-checkbox__line-container)::before {
@@ -213,7 +218,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--morado :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--negro :global(.vtex-checkbox__line-container)::before {
@@ -236,7 +242,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--negro :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--rosado :global(.vtex-checkbox__line-container)::before {
@@ -259,7 +266,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--rosado :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--cafe :global(.vtex-checkbox__line-container)::before {
@@ -282,7 +290,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--cafe :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--vino :global(.vtex-checkbox__line-container)::before {
@@ -305,7 +314,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--vino :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--gris :global(.vtex-checkbox__line-container)::before {
@@ -328,7 +338,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--gris :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--rojo :global(.vtex-checkbox__line-container)::before {
@@ -351,7 +362,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--rojo :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--caqui :global(.vtex-checkbox__line-container)::before {
@@ -374,7 +386,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--caqui :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--beige :global(.vtex-checkbox__line-container)::before {
@@ -397,7 +410,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--beige :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--amarillo :global(.vtex-checkbox__line-container)::before {
@@ -420,7 +434,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--amarillo :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--multicolor :global(.vtex-checkbox__line-container)::before {
@@ -443,7 +458,8 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--multicolor :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 
 .filterItem--filtros--ocre :global(.vtex-checkbox__line-container)::before {
@@ -467,13 +483,13 @@ background: transparent;}
   border: 1px solid;
 }
 .filterItem--filtros--ocre :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
-.filterItem--filtros--ocre :global(.vtex-checkbox__container) {
-  display: none;
-}
+
 .filter__container--talla :global(.vtex-checkbox__container) {
-  display: none;
+  /*display: none;*/
+  opacity: 0;
 }
 .filter__container--talla :global(.vtex-checkbox__line-container) {
   width: auto;
@@ -490,7 +506,8 @@ background: transparent;}
 .filter__container--talla .filterItem--filtros {
   margin: 6px;
   display: flex;
-  width: 7%;
+  width: 14%;
+  margin-right: 8px;
 }
 
 .filter__container--talla .filterContent--filtros {
@@ -510,6 +527,7 @@ background: transparent;}
   margin: 6px;
   display: flex;
   width: 7%;
+  margin-right: 22px;
 }
 /*Segundo filtro de cierre*/
 .filtersWrapper--filtros2 .filter__container--selectedFilters {
@@ -563,7 +581,7 @@ background: transparent;}
 .filterItem--filtros2--selected :global(.vtex-checkbox__label)::after {
   content: "x";
   position: absolute;
-  top: -17%;
+  top: -30%;
   right: -20px;
   font-size: 20px;
 }
@@ -581,3 +599,9 @@ background: transparent;}
 .filterTemplateOverflow--filtros {padding: 0 8%;}
 
 .filter__container--filtros2.filter__container--selectedFilters {margin: 1px 0 0 -50%;}
+
+/*Espacio entre tallas*/
+.filterContent.filterContent--filtros {
+  margin-right: -23%;
+  width: 89%;
+}

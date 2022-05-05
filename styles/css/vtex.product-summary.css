@@ -77,3 +77,11 @@
   min-height: 38px;
   padding: 0 5px;
 }
+.containerNormal:hover :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+  display: flex;
+  top: 0;
+  position: relative;
+  transition: 1s;
+  opacity: 1;
+  visibility: visible;
+}

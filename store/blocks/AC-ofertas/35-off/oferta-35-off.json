@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-35-off": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-35-off"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-35-off": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "228",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}

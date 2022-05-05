@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Hombre-Ropa-Pantalones": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Pantalones"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Pantalones": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "773",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}

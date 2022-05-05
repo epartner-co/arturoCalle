@@ -2,6 +2,145 @@
   "store.custom#about-us": {
     "path": "/about-us"
   },
+  "store.custom#bosque-encantado":{
+    "path": "/coleccion/Productos-online"
+  },
+  "store.custom#freedom-hombre":{
+    "path": "/freedom/hombre"
+  },
+  "store.custom#freedom-hombre-blazers":{
+    "path": "/freedom/hombre/blazers"
+  },
+  "store.custom#freedom-hombre-botas":{
+    "path": "/freedom/hombre/botas"
+  },
+  "store.custom#freedom-hombre-buzos":{
+    "path": "/freedom/hombre/buzos"
+  },
+  "store.custom#freedom-hombre-camisas":{
+    "path": "/freedom/hombre/camisas"
+  },
+  "store.custom#freedom-hombre-camisetas":{
+    "path": "/freedom/hombre/camisetas"
+  },
+  "store.custom#freedom-hombre-chalecos":{
+    "path": "/freedom/hombre/chalecos"
+  },
+  "store.custom#freedom-hombre-chaquetas":{
+    "path": "/freedom/hombre/chaquetas"
+  },
+  "store.custom#freedom-hombre-jeans":{
+    "path": "/freedom/hombre/jeans"
+  },
+  "store.custom#freedom-hombre-joggers":{
+    "path": "/freedom/hombre/joggers"
+  },
+  "store.custom#freedom-hombre-medias":{
+    "path": "/freedom/hombre/medias"
+  },
+  "store.custom#freedom-hombre-pantalones":{
+    "path": "/freedom/hombre/pantalones"
+  },
+  "store.custom#freedom-hombre-pantalonetas-y-bermudas":{
+    "path": "/freedom/hombre/pantalonetas-y-bermudas"
+  },
+  "store.custom#freedom-hombre-polos":{
+    "path": "/freedom/hombre/polos"
+  },
+  "store.custom#freedom-hombre-ropa-interior":{
+    "path": "/freedom/hombre/ropa-interior"
+  },
+  "store.custom#freedom-hombre-sweaters":{
+    "path": "/freedom/hombre/sweaters"
+  },
+  "store.custom#freedom-hombre-tenis":{
+    "path": "/freedom/hombre/tenis"
+  },
+
+
+"store.custom#freedom-mujer":{
+  "path": "/freedom/mujer"
+},
+"store.custom#freedom-mujer-vestidos-y-enterizos":{
+  "path": "/freedom/mujer/vestidos-y-enterizos"
+},
+"store.custom#freedom-mujer-tenis":{
+  "path": "/freedom/mujer/tenis"
+},
+"store.custom#freedom-mujer-shorts":{
+  "path": "/freedom/mujer/shorts"
+},
+"store.custom#freedom-mujer-ropa-interior":{
+  "path": "/freedom/mujer/ropa-interior"
+},
+"store.custom#freedom-mujer-pantalones":{
+  "path": "/freedom/mujer/pantalones"
+},
+"store.custom#freedom-mujer-medias":{
+  "path": "/freedom/mujer/medias"
+},
+"store.custom#freedom-mujer-jeans":{
+  "path": "/freedom/mujer/jeans"
+},
+"store.custom#freedom-mujer-faldas":{
+  "path": "/freedom/mujer/faldas"
+},
+"store.custom#freedom-mujer-chaquetas":{
+  "path": "/freedom/mujer/chaquetas"
+},
+"store.custom#freedom-mujer-chalecos":{
+  "path": "/freedom/mujer/chalecos"
+},
+"store.custom#freedom-mujer-camisetas":{
+  "path": "/freedom/mujer/camisetas"
+},
+"store.custom#freedom-mujer-buzos":{
+  "path": "/freedom/mujer/buzos"
+},
+"store.custom#freedom-mujer-botas":{
+  "path": "/freedom/mujer/botas"
+},
+"store.custom#freedom-mujer-blusas-y-camisas":{
+  "path": "/freedom/mujer/blusas-y-camisas"
+},
+
+
+"store.custom#freedom-accesorios":{
+  "path": "/freedom/accesorios"
+},
+"store.custom#freedom-accesorios-tapabocas":{
+  "path": "/freedom/accesorios/tapabocas"
+},
+"store.custom#freedom-accesorios-pulseras-y-brazaletes":{
+  "path": "/freedom/accesorios/pulseras-y-brazaletes"
+},
+"store.custom#freedom-accesorios-morrales-y-bolsos":{
+  "path": "/freedom/accesorios/morrales-y-bolsos"
+},
+"store.custom#freedom-accesorios-llaveros":{
+  "path": "/freedom/accesorios/llaveros"
+},
+"store.custom#freedom-accesorios-gorras":{
+  "path": "/freedom/accesorios/gorras"
+},
+"store.custom#freedom-accesorios-cinturones":{
+  "path": "/freedom/accesorios/cinturones"
+},
+
+
+
+"store.custom#freedom-new-prep":{
+  "path": "/freedom/colecciones/new-prep"
+},
+"store.custom#freedom-psicodelico":{
+  "path": "/freedom/colecciones/psicodelico"
+},
+
+
+
+  "store.custom#landing":{
+    "path": "/mujerasa"
+  },
   "store.custom#faq": {
     "path": "/faq"
   },
@@ -22,9 +161,6 @@
   },
   "store.custom#nina": {
     "path": "/kids/nina"
-  },
-  "store.custom#viaje": {
-    "path": "/viaje"
   },
   "store.custom#freedom": {
     "path": "/freedom"
@@ -67,5 +203,187 @@
   },
   "store.custom#login": {
     "path": "/login-custom"
+  },
+
+
+  "store.custom#novedades-hombres": {
+    "path": "/novedades/hombre"
+  },
+  "store.custom#novedades-mujer": {
+    "path": "/novedades/mujer"
+  },
+  "store.custom#novedades-nina": {
+    "path": "/novedades/nina"
+  },
+  "store.custom#novedades-nino": {
+    "path": "/novedades/nino"
+  },
+
+
+
+  "store.custom#guia-regalo":{
+    "path": "/guia-de-regalos"
+  },
+  "store.custom#guia-regalo-bono":{
+    "path": "/guia-de-regalos/bonos-de-regalo"
+  },
+  "store.custom#guia-regalo-nino":{
+    "path": "/guia-de-regalos/nino"
+  },
+  "store.custom#guia-regalo-hombre":{
+    "path": "/guia-de-regalos/hombre"
+  },
+  "store.custom#guia-regalo-mujer":{
+    "path": "/guia-de-regalos/mujer"
+  },
+  "store.custom#guia-regalo-nina":{
+    "path": "/guia-de-regalos/nina"
+  },
+
+
+
+
+
+  "store.custom#ac-ofertas": {
+    "path": "/ac-ofertas"
+  },
+
+  "store.custom#ac-ofertas-25-off": {
+    "path": "/ac-ofertas/25-off"
+  },
+
+  "store.custom#AC-ofertas-35-off": {
+    "path": "/AC-ofertas/35-off"
+  },
+  "store.custom#AC-ofertas-Accesorios": {
+    "path": "/AC-ofertas/Accesorios"
+  },
+
+
+  "store.custom#AC-ofertas-Hombre": {
+    "path": "/AC-ofertas/Hombre"
+  },
+  "store.custom#AC-ofertas-Hombre-Accesorios": {
+    "path": "/AC-ofertas/50-off"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa": {
+    "path": "/AC-ofertas/Hombre/Ropa"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Blazers": {
+    "path": "/AC-ofertas/Hombre/Ropa/Blazers"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Buzos": {
+    "path": "/AC-ofertas/Hombre/Ropa/Buzos"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Camisas": {
+    "path": "/AC-ofertas/Hombre/Ropa/Camisas"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Camisetas": {
+    "path": "/AC-ofertas/Hombre/Ropa/Camisetas"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Chaquetas": {
+    "path": "/AC-ofertas/Hombre/Ropa/Chaquetas"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Pantalones": {
+    "path": "/AC-ofertas/Hombre/Ropa/Pantalones"
+  },
+  "store.custom#AC-ofertas-Hombre-Ropa-Polos": {
+    "path": "/AC-ofertas/Hombre/Ropa/Polos"
+  },
+  "store.custom#AC-ofertas-Hombre-Zapatos": {
+    "path": "/AC-ofertas/Hombre/Zapatos"
+  },
+
+
+  "store.custom#AC-ofertas-Mujer": {
+    "path": "/AC-ofertas/Mujer"
+  },
+  "store.custom#AC-ofertas-Mujer-Accesorios": {
+    "path": "/AC-ofertas/Mujer/Accesorios"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa": {
+    "path": "/AC-ofertas/Mujer/Ropa"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Blusas-Camisas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Blusas-Camisas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Camisetas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Camisetas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Chaquetas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Chaquetas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Faldas": {
+    "path": "/AC-ofertas/Mujer/Ropa/Faldas"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Pantalones": {
+    "path": "/AC-ofertas/Mujer/Ropa/Pantalones"
+  },
+  "store.custom#AC-ofertas-Mujer-Ropa-Shorts": {
+    "path": "/AC-ofertas/Mujer/Ropa/Shorts"
+  },
+  "store.custom#AC-ofertas-Mujer-Zapatos": {
+    "path": "/AC-ofertas/Mujer/Zapatos"
+  },
+
+
+  "store.custom#AC-ofertas-Nina": {
+    "path": "/AC-ofertas/Nina"
+  },
+  "store.custom#AC-ofertas-Nina-Accesorios": {
+    "path": "/AC-ofertas/Nina/Accesorios"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa": {
+    "path": "/AC-ofertas/Nina/Ropa"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Buzos": {
+    "path": "/AC-ofertas/Nina/Ropa/Buzos"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Camisetas": {
+    "path": "/AC-ofertas/Nina/Ropa/Camisetas"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Pantalones": {
+    "path": "/AC-ofertas/Nina/Ropa/Pantalones"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Pijamas": {
+    "path": "/AC-ofertas/Nina/Ropa/Pijamas"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Ropa-interior": {
+    "path": "/AC-ofertas/Nina/Ropa/Ropa-interior"
+  },
+  "store.custom#AC-ofertas-Nina-Ropa-Sweaters": {
+    "path": "/AC-ofertas/Nina/Ropa/Sweaters"
+  },
+
+
+  "store.custom#AC-ofertas-Nino": {
+    "path": "/AC-ofertas/Nino"
+  },
+  "store.custom#AC-ofertas-Nino-Accesorios": {
+    "path": "/AC-ofertas/Nino/Accesorios"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa": {
+    "path": "/AC-ofertas/Nino/Ropa"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Blazers": {
+    "path": "/AC-ofertas/Nino/Ropa/Blazers"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Buzos": {
+    "path": "/AC-ofertas/Nino/Ropa/Buzos"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Camisas": {
+    "path": "/AC-ofertas/Nino/Ropa/Camisas"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Chaquetas": {
+    "path": "/AC-ofertas/Nino/Ropa/Chaquetas"
+  },
+  "store.custom#AC-ofertas-Nino-Ropa-Sueteres": {
+    "path": "/AC-ofertas/Nino/Ropa/Sueteres"
+  },
+
+
+
+  "store.custom#AC-ofertas-nuevos": {
+    "path": "/AC-ofertas/nuevos"
   }
 }

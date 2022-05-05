@@ -1,11 +1,14 @@
 @media screen and (max-width: 700px) {
 
   .sellingPriceValue {
-    font-size: 18px;
+    font-size: 14px;
   }
+  .currencyContainer.currencyContainer--vitrinaP {
+    font-size: 12px;
+}
 
 }
-.listPriceValue 
+.listPriceValue
 {
   font-size: 18px;
   color: #b0b0b0;
@@ -18,3 +21,10 @@
   color: #494949;
   margin: 0 0 0 5px;
 }
+
+@media screen and (min-width: 700px) and (max-width: 1026px) {
+
+  .currencyContainer.currencyContainer--summary {
+    font-size: 1.1rem;
+}
+  }

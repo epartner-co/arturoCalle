@@ -23,4 +23,17 @@
   .closeIconContainer {
     background-color: #f8f8f8;
   }
+
+  /*colocar menú encima de producto*/
+  .drawer.opened {
+    z-index: 9993;
+  }
+
+  .overlay.overlay--visible {
+    z-index: 9992;
+  }
+  /*--------------------------*/
+
 }
+
+

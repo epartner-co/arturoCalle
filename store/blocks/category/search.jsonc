@@ -5,7 +5,11 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC"
       }
     }
   },
@@ -19,6 +23,9 @@
         "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
+      },
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC"
       }
     }
   },
@@ -29,7 +36,11 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC"
       }
     }
   },
@@ -40,7 +51,11 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC"
       }
     }
   },
@@ -51,7 +66,11 @@
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip",
-        "maxItemsPerPage": 12
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC"
       }
     }
   },
@@ -176,7 +195,7 @@
       "preventVerticalStretch": true
     }
   },
-  //Filtros y order 
+  //Filtros y order
   "flex-layout.row#searchinfo": {
     "children": ["disclosure-layout#filtros", "filter-navigator.v3#category2" , "flex-layout.row#orderByAndSwitcher"],
     "props":{
@@ -294,7 +313,7 @@
     }
   },
   "search-not-found-layout": {
-    "children": ["flex-layout.row#searchbread", "flex-layout.row#notfound"]
+    "children": ["flex-layout.row#searchbread", "list-context.image-list#bannernoesta","flex-layout.row#shelf"]
   },
 
   "flex-layout.row#notfound": {

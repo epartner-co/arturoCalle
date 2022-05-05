@@ -1,0 +1,11 @@
+@media screen and (max-width: 700px) {
+  .buttonText--botonvitrina {
+    margin-right: 12em;
+  }
+
+}
+
+/*Poner mas visible el boton de compras en desk*/
+.buttonDataContainer.buttonDataContainer--botonvitrina {
+  margin-right: 8px;
+}

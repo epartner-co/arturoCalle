@@ -25,19 +25,28 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 720,
+      "height": 920,
       "images": [
         {
-          "image": "https://arturocalle.vteximg.com.br/arquivos/KIDSNEWFECDESKTOP.jpg",
-          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/KIDSNEWFECMOBILE.jpg"
+          "image": "https://arturocalle.vteximg.com.br/arquivos/CODENSADESKTOP22.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/CODENSAMOBILE22.jpg",
+          "link":{
+            "url":"/mujer/ropa"
+          }
         },
         {
-          "image": "https://arturocalle.vteximg.com.br/arquivos/addifeb2022desktop.jpg",
-          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/addifeb2022mobile.jpg"
+          "image": "https://arturocalle.vteximg.com.br/arquivos/ADDIBANNERSCORRECTO.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/ADDICUOTASMOBILE1.jpg",
+          "link":{
+            "url":"/hombre"
+          }
         },
         {
-          "image": "https://arturocalle.vteximg.com.br/arquivos/active-woman-desktop.jpg",
-          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/active-woman-mobile.jpg"
+          "image": "https://arturocalle.vteximg.com.br/arquivos/productos-exclusivos-1924.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/productos-exclusivos-415.jpg",
+          "link":{
+            "url":"/coleccion/bosque-encantado"
+          }
         }
       ]
     }
@@ -493,7 +502,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByTopSaleDES C"
     }
   },
   "slider-layout#demo-products": {

@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Nino-Ropa-Blazers": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Blazers"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Blazers": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "786",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}
