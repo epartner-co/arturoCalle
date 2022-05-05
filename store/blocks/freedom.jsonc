@@ -2,12 +2,12 @@
   "store.custom#freedom": {
     "blocks": [
       "info-card#freedom",
-      "rich-text#title--1",
-      "rich-text#title--2",
-      "rich-text#title--3",
+      "flex-layout.row#buttons--imagesC",
       "flex-layout.row#buttons--images",
+      "flex-layout.row#buttons--images2",
       "flex-layout.row#video",
-      "flex-layout.row#lo--mas--vendido"
+      "flex-layout.row#lo--mas--vendido",
+      "flex-layout.row#shelfF"
       //"list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -68,28 +68,67 @@
   }
 },
 
+
+"flex-layout.row#buttons--imagesC":{
+  "props":{
+    "blockClass":"buttons--images"
+  },
+  "children":[
+    "flex-layout.col#buttons--imagesd"
+  ]
+},
+"flex-layout.col#buttons--imagesd":{
+  "props":{
+    "width": "50%",
+    "blockClass": ["bloqueimg", "bloqueimgC"]
+  },
+  "children":[
+    "image#image--buttonC"
+  ]
+},
+"image#image--buttonC":{
+  "props":{
+    "blockClass":"imag--botonN",
+    "src": "https://arturocalle.vteximg.com.br/arquivos/titulos%20freedom.png"
+  }
+},
+
 /*-----------------------------------*/
 /*    botones he imagenes            */
 /*-----------------------------------*/
 "flex-layout.row#buttons--images":{
   "props":{
-    "blockClass":"buttons--images",
-    "preventHorizontalStretch":"true",
-    "preventVerticalStretch":"true"
+    "blockClass":"buttons--images"
   },
   "children":[
     "flex-layout.col#buttons--images1",
     "flex-layout.col#buttons--images2",
-    "flex-layout.col#buttons--images3",
+    "flex-layout.col#buttons--images3"
+  ]
+},
+"flex-layout.row#buttons--images2":{
+  "props":{
+    "blockClass":"buttons--images"
+  },
+  "children":[
     "flex-layout.col#buttons--images4",
+    "flex-layout.col#buttons--images5",
+    "flex-layout.col#buttons--images6"
+  ]
+},
+"flex-layout.row#buttons--images3":{
+  "props":{
+    "blockClass":"buttons--images"
+  },
+  "children":[
     "flex-layout.col#buttons--images5",
     "flex-layout.col#buttons--images6"
   ]
 },
 "flex-layout.col#buttons--images1":{
   "props":{
-    "horizontalAlign":"center",
-    "width": "28%"
+    "width": "50%",
+    "blockClass": "bloqueimg"
   },
   "children":[
     "image#image--button--1",
@@ -99,8 +138,8 @@
 },
 "flex-layout.col#buttons--images2":{
   "props":{
-    "horizontalAlign":"center",
-    "width": "28%"
+    "width": "50%",
+    "blockClass": "bloqueimg"
   },
   "children":[
     "image#image--button--2",
@@ -110,8 +149,8 @@
 },
 "flex-layout.col#buttons--images3":{
   "props":{
-    "horizontalAlign":"center",
-    "width": "28%"
+    "width": "50%",
+    "blockClass": "bloqueimg"
   },
   "children":[
     "image#image--button--3",
@@ -121,8 +160,8 @@
 },
 "flex-layout.col#buttons--images4":{
   "props":{
-    "horizontalAlign":"center",
-    "width": "28%"
+    "width": "50%",
+    "blockClass": "bloqueimg"
   },
   "children":[
     "image#image--button--4",
@@ -132,8 +171,8 @@
 },
 "flex-layout.col#buttons--images5":{
   "props":{
-    "horizontalAlign":"center",
-    "width": "28%"
+    "width": "50%",
+    "blockClass": "bloqueimg"
   },
   "children":[
     "image#image--button--5",
@@ -143,8 +182,8 @@
 },
 "flex-layout.col#buttons--images6":{
   "props":{
-    "horizontalAlign":"center",
-    "width": "28%"
+    "width": "50%",
+    "blockClass": "bloqueimg"
   },
   "children":[
     "image#image--button--6",
@@ -155,13 +194,13 @@
 
 "image#image--button--1":{
   "props":{
-    "blockClass":"imag--boton",
+    "blockClass":"imag--botonF",
     "src": "assets/desk/freedom/button1.webp"
   }
 },
 "rich-text#text--button--1":{
   "props":{
-    "blockClass":"buttons--freedom1",
+    "blockClass":"buttons-clas",
     "text":"CHAQUETAS"
   }
 },
@@ -169,18 +208,19 @@
   "props":{
     "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
     "label":"COMPRAR",
-    "displayMode":"button"
+    "displayMode":"button",
+    "blockClass":"botones"
   }
 },
 "image#image--button--2":{
   "props":{
-    "blockClass":"imag--boton",
+    "blockClass":"imag--botonF",
     "src": "assets/desk/freedom/button2.webp"
   }
 },
 "rich-text#text--button--2":{
   "props":{
-    "blockClass":"buttons--freedom2",
+    "blockClass":"buttons-clas",
     "text":"CAMISAS"
   }
 },
@@ -188,18 +228,19 @@
   "props":{
     "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
     "label":"COMPRAR",
-    "displayMode":"button"
+    "displayMode":"button",
+    "blockClass":"botones"
   }
 },
 "image#image--button--3":{
   "props":{
-    "blockClass":"imag--boton",
+    "blockClass":"imag--botonC",
     "src": "assets/desk/freedom/button3.webp"
   }
 },
 "rich-text#text--button--3":{
   "props":{
-    "blockClass":"buttons--freedom3",
+    "blockClass":"buttons-clas",
     "text":"ZAPATOS"
   }
 },
@@ -207,18 +248,19 @@
   "props":{
     "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
     "label":"COMPRAR",
-    "displayMode":"button"
+    "displayMode":"button",
+    "blockClass":"botones"
   }
 },
 "image#image--button--4":{
   "props":{
-    "blockClass":"imag--boton",
+    "blockClass":"imag--botonC",
     "src": "assets/desk/freedom/button4.webp"
   }
 },
 "rich-text#text--button--4":{
   "props":{
-    "blockClass":"buttons--freedom4",
+    "blockClass":"buttons-clas",
     "text":"JEANS"
   }
 },
@@ -226,18 +268,19 @@
   "props":{
     "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
     "label":"COMPRAR",
-    "displayMode":"button"
+    "displayMode":"button",
+    "blockClass":"botones"
   }
 },
 "image#image--button--5":{
   "props":{
-    "blockClass":"imag--boton",
+    "blockClass":"imag--botonF",
     "src": "assets/desk/freedom/button5.webp"
   }
 },
 "rich-text#text--button--5":{
   "props":{
-    "blockClass":"buttons--freedom5",
+    "blockClass":"buttons-clas",
     "text":"BUZOS"
   }
 },
@@ -245,18 +288,19 @@
   "props":{
     "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
     "label":"COMPRAR",
-    "displayMode":"button"
+    "displayMode":"button",
+    "blockClass":"botones"
   }
 },
 "image#image--button--6":{
   "props":{
-    "blockClass":"imag--boton",
+    "blockClass":"imag--botonF",
     "src": "assets/desk/freedom/button6.webp"
   }
 },
 "rich-text#text--button--6":{
   "props":{
-    "blockClass":"buttons--freedom6",
+    "blockClass":"buttons-clas",
     "text":"CAMISETAS"
   }
 },
@@ -264,7 +308,8 @@
   "props":{
     "href":"https://www.arturocalle.com/freedom/hombre/chaquetas",
     "label":"COMPRAR",
-    "displayMode":"button"
+    "displayMode":"button",
+    "blockClass":"botones"
   }
 },
 
@@ -295,13 +340,54 @@
 
 
 "flex-layout.row#lo--mas--vendido":{
+  "children":[
+    "list-context.image-list#bannernoestaC"
+  ],
   "props":{
-    "blockClass":"lo--mas--vendido"
+    "blockClass":"lo--mas--vendidoF"
   }
 },
 
+"list-context.image-list#bannernoestaC": {
+  "children": ["slider-layout#demo-images"],
+  "props": {
+    "height": 920,
+    "images": [
+      {
+        "image": "https://arturocalle.vteximg.com.br/arquivos/AMARILLOFREEDOM.jpg",
+        "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/losmasvendidos.jpg",
+        "link":{
+          "url":"#"
+        }
+      }
+    ]
+  }
+},
 
-
+"flex-layout.row#shelfF": {
+  "children": ["list-context.product-list#demo2"]
+},
+"list-context.product-list#demo2": {
+  "blocks": ["product-summary.shelf"],
+  "children": ["slider-layout#demo-products2"],
+  "props": {
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#demo-products2": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 5,
+      "tablet": 3,
+      "phone": 2
+    },
+    "arrowSize":50,
+    "infinite": true,
+    "fullWidth": false,
+    "blockClass": ["shelfH", "freedomC"],
+    "showPaginationDots":"never"
+  }
+},
 
 
   "list-context.image-list#demo": {

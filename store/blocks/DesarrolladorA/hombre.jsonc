@@ -561,7 +561,7 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
       "arrows": true
     }
@@ -579,7 +579,7 @@
     "productList":{
       "maxItems": 10,
       "itemsPerPage": 4,
-      "minItemsPerPage": 1,
+      "minItemsPerPage": 2,
       "scroll": "BY_PAGE",
       "arrows": true,
       "titleText": "LO MÁS VENDIDO"

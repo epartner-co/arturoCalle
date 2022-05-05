@@ -22,6 +22,14 @@
   {
     height: 600px;
   }
+
+  .imageElementLink.imageElementLink--info-card--down .imageElement--info-card--down {
+    width: 96%;
+  }
+
+  .imageElementLink.imageElementLink--info-card .imageElement--info-card {
+    width: 96%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -43,6 +51,20 @@
   .infoCardContainer.infoCardContainer--info-card-banner-left {
     width: 100%;
   }
+
+  /*Quitar banner de desk en mobile*/
+  .imageElement.imageElement--info-card-home.imageElement--depto-desk {
+    display: none;
+  }
+
+  .imageElement.imageElement--info-card-shoes-left.imageElement--depto-desk {
+    display: none;
+  }
+
+  .imageElement.imageElement--info-card-shirt-right.imageElement--depto-desk {
+    display: none;
+  }
+
 }
 
 /***********************************/
@@ -165,12 +187,12 @@
     margin: 10px 0;
   }
 
-  .skuSelectorSubcontainer--talla.skuSelectorSubcontainer {
+  /*.skuSelectorSubcontainer--talla.skuSelectorSubcontainer {
     opacity: 1;
     visibility: visible;
     position: relative;
     top: 0;
-  }
+  }/*
 
   /*Quitar ícono de flechas en mobile*/
   .swiperCaret {
@@ -238,6 +260,8 @@
   width: 100%;
 }
 /*-----------------------*/
+
+
 
 
 

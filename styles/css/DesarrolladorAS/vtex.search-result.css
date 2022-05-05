@@ -1,0 +1,56 @@
+/*------------------------------------*/
+/*  Estilos a etiquetas de filtros   */
+/*----------------------------------*/
+.filter__container.filter__container--filtros2.filter__container--selectedFilters {
+  margin-left: -30%;
+  font-size: 13.5px;
+}
+
+
+.filterItem.filterItem--filtros2 {
+  margin-left: -59px;
+  margin-right: 53px;
+}
+
+.filterItem--filtros2--selected {
+  margin-left: -46px;
+  margin-right: 64px;
+}
+
+
+.filterItem.filterItem--filtros2 {
+  margin-left: -46px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.filterTemplateOverflow.filterTemplateOverflow--filtros2 {
+  width: 127%;
+  flex-wrap: wrap;
+}
+/*--------------------------------------*/
+
+
+/*--------------------------------------------*/
+/*  Ocultar Category 4 - filtros de prueba   */
+/*------------------------------------------*/
+.filter__container.filter__container--filtros.filter__container--category-4 {
+  display: none;
+}
+/*--------------------------------------*/
+
+
+/*----------------------*/
+/*  Filtros de color   */
+/*--------------------
+.filter__container--color .filterItem--filtros {
+  width: 100%;
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+----------------------*/
+/*Filtros*/
+.filters--layout {z-index: 9;position: relative;}

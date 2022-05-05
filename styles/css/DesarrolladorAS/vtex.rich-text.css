@@ -133,14 +133,14 @@
 
 
 /*---------------------------------*/
-/* vitrinas                        */
-/*---------------------------------*/
+/* vitrinas                       */
+/*-------------------------------*/
 .wrapper--titlem .paragraph--titlem{ /*cambia la letra del titulo de la vitrina... si causa algun problema se puede quitar*/
   font-size: 32px;
   font-weight: 700;
   color: #171b1b;
 }
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
 /*Títulos vitrinas en Mobile*/
@@ -153,6 +153,41 @@
 .paragraph.paragraph--shelfTitle.paragraph--depto-mobile {
   margin-top: 0%;
 }
+
+
+
+/*---------------------------------*/
+/*   Tamaño de letra Menú         */
+/*-------------------------------*/
+.link--item-cat {
+  font-size: 14px;
+}
+
+.link--item-cat-bold {
+  font-size: 15px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*category*/
+.paragraph--tituloFiltro2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  margin: 0;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 6px 25px 6px 38px;
+}
+
+
+/*---------------------------------*/
+/*   Esconder segundo filtro      */
+/*-------------------------------*/
+
+/*Margen filtro 2 categogy*/
+
+/*-----------------------------*/
 
 
 

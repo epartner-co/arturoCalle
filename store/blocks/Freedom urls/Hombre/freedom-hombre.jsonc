@@ -1,0 +1,59 @@
+{
+  "store.custom#freedom-hombre": {
+    "blocks": ["image#freedom", "search-result-layout.customQuery#freedom-hombre"]
+  },
+  "image#freedom": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://arturocalle.vteximg.com.br/arquivos/Banner-Categoria-Freedom.jpg"
+    }
+  },
+  "search-result-layout.customQuery#freedom-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "373",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom",
+      "search-result-layout.mobile#custom",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#custom": {
+    "children": [
+      //"flex-layout.row#vitrinaDestacadaSearch",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+      "maxItemsPerPage": 12
+    }
+  },
+  "search-result-layout.mobile#custom": {
+    "children": [
+      //"flex-layout.row#vitrinaDestacadaSearch",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitleM",
+      "total-products.v2",
+      "flex-layout.row#resultM"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "defaultGalleryLayout": "grid"
+    }
+  }
+
+}

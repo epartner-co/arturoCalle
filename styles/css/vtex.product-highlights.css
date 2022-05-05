@@ -10,3 +10,16 @@
   border-radius: 20px;
   padding: 5px 10px;
 }
+
+
+/*AJUSTE FLAG NUEVOS*/
+.productHighlightText[data-highlight-name="NEW Products"] {
+  display: block !important;
+  font-size: 0 !important;
+}
+.productHighlightText[data-highlight-name="NEW Products"]::after {
+  content: "Nuevo";
+  font-size: 13px !important;
+  text-align: center;
+  display: block;
+}

@@ -19,3 +19,5 @@ Estilos Producto Sección Contenido AC*/
     font-weight: 700;
 }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.link--botones.buttonLink.buttonLink--botones {width: 100%;margin: 0 auto;display: block;text-align: center;padding-top: 3%;background: white;border-radius: 0;color: black;margin-bottom: 14%;}

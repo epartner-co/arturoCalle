@@ -60,7 +60,7 @@
     position: relative;
 }
 .trigger--fitroTrigger2--visible::after{
-    content: "cerrar";
+    content: "cerrar  X";
     font-size: 22px;
     position: absolute;
     top: 50%;
@@ -81,7 +81,7 @@
     justify-content: center;
     display: flex;
   }
-  
+
 .trigger--aperturaD--visible::after
 {
     content: " ";
@@ -99,8 +99,7 @@
 .trigger--aperturaD{
     position: relative;
 }
-  .trigger--aperturaD--hidden::after 
-{
+  .trigger--aperturaD--hidden::after {
     content: " ";
     width: 13px;
     height: 20px;

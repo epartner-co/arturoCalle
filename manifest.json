@@ -1,7 +1,7 @@
 {
-  "vendor": "callearturop",
-  "name": "store-theme",
-  "version": "0.0.3",
+  "vendor": "arturocalle",
+  "name": "theme",
+  "version": "1.0.0",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -70,7 +70,8 @@
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",
-    "vtex.wish-list": "1.x"
+    "vtex.wish-list": "1.x",
+    "addi.product-page-action": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

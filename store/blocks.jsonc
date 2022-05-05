@@ -36,19 +36,27 @@
   },
 
   "store.not-found#product": {
-    "blocks": ["rich-text#not-found"]
+    "blocks": ["list-context.image-list#bannernoesta","flex-layout.row#shelf"]
   },
 
   "store.not-found#search": {
-    "blocks": ["rich-text#not-found"]
+    "blocks": ["list-context.image-list#bannernoesta","flex-layout.row#shelf"]
   },
 
-  "rich-text#not-found": {
+  "list-context.image-list#bannernoesta": {
+    "children": ["slider-layout#demo-images"],
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "**PAGE NOT FOUND**",
-      "font": "t-heading-1"
+      "height": 920,
+      "images": [
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/No%20encontrado.png",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/no%20esta%20mobil.png",
+          "link":{
+            "url":"/hombre"
+          }
+        }
+      ]
     }
   }
+
 }

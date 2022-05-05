@@ -7,7 +7,7 @@
 
 .sellingPrice {
   color: #3f3f40;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
 }
 
 .sellingPriceValue {
@@ -23,12 +23,6 @@
 .savings {
   font-weight: 500;
   color: #79B03A;
-}
-
-.sellingPriceValue--summary {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: #2E2E2E;
 }
 
 .savings--summary {
@@ -101,7 +95,7 @@
   font-weight: 500;
 }
 .sellingPriceValue--summary {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: #2E2E2E;
 }

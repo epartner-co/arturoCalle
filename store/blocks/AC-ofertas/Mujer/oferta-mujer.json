@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Mujer": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Mujer": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "776",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Hombre": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "766",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}

@@ -3,3 +3,6 @@
 }
 
 .wrapper--StickyP--stuck {position: absolute !important;}
+.container--sticky-header {
+  background: white;
+}

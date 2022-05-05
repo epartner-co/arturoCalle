@@ -1,0 +1,47 @@
+blocks
+  style.json
+    "heading-5": {
+          "fontFamily": "DINPro",
+          "fontWeight": "normal",
+          "fontSize": "1.1rem",
+          "textTransform": "initial",
+          "letterSpacing": "0"
+        },
+        "heading-6": {
+          "fontFamily": "DINPro",
+          "fontWeight": "normal",
+          "fontSize": "1.1rem",
+          "textTransform": "initial",
+          "letterSpacing": "0"
+        },
+
+
+         "action--large": {
+          "fontFamily": "DINPro",
+          "fontWeight": "500",
+          "fontSize": "1.1rem",
+          "textTransform": "uppercase",
+          "letterSpacing": "0"
+        },
+
+
+STYLES
+  vtex.rich-text.css
+    .paragraph--summarySpecificationBullet {
+      margin: 0;
+      line-height: initial;
+      font-size: 1.1rem;
+      line-height: 1.15rem;
+    }
+
+  vtex.product-price.css
+    .sellingPrice {
+      color: #3f3f40;
+      font-size: 1.1rem;
+    }
+
+    .sellingPriceValue--summary {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2E2E2E;
+  }

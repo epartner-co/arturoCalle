@@ -98,7 +98,7 @@
 
 .flexRowContent--newsletterP .stretchChildrenWidth {display: flex;}
 
-.flexRow--newsletterP {margin-bottom: 61px;}
+
 
 /*Sticky product*/
 
@@ -142,6 +142,42 @@
 .flexRowContent--minicart {align-items: center;margin: -4px 0 0 0;}
 
 }
+@media screen and (min-width: 700px) {
+  .flexCol.flexCol--campos {
+    padding: 0px 6%;
+  }
+  }
+
+
+
 
 .flexRowContent--segundacol .flexCol {margin: 0;}
 .flexRow--main-headerC {background: white;}
+
+.flexCol--buycolection :global(.vtex-button__label) {
+  padding: 0 10%;
+}
+
+.flexColChild--precios:first-child{
+  margin: 0px;
+}
+
+/*News*/
+.flexRowContent.flexRowContent--newsletterP {background: url(https://callearturop.vteximg.com.br/arquivos/backgroundnewsdesk.png);background-size: 100%;padding: 2% 0;}
+
+
+.flexColChild.flexColChild--texton.pb0 {margin: 0 0 0 auto;}
+
+
+@media screen and (min-width: 700px) and (max-width: 1026px) {
+
+  .flexRowContent.flexRowContent--newsletterP{
+    background: url("https://callearturop.vteximg.com.br/arquivos/iconos-valor-tabletcc.png") !important;
+  }
+
+  }
+
+
+  .flexRowContent.flexRowContent--video--freedom {
+    background-image: url(/arquivos/tiendaspsico.jpg?v=637663018032100000);
+}

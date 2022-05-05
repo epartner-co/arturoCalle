@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Nino-Ropa-Camisas": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Camisas"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Camisas": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "787",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}

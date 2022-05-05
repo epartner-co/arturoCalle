@@ -1,0 +1,82 @@
+{
+  //HOMBRE
+  "store.custom#novedades-hombres": {
+    "blocks": ["search-result-layout.customQuery#novedades-hombre"]
+  },
+  "search-result-layout.customQuery#novedades-hombre": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "435",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom",
+      "search-result-layout.mobile#custom",
+      "search-not-found-layout"
+    ]
+  },
+  //MUJER
+  "store.custom#novedades-mujer": {
+      "blocks": ["search-result-layout.customQuery#novedades-mujer"]
+    },
+    "search-result-layout.customQuery#novedades-mujer": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "432",
+          "mapField": "productClusterIds"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#custom",
+        "search-result-layout.mobile#custom",
+        "search-not-found-layout"
+      ]
+    },
+  //NINA
+    "store.custom#novedades-nina": {
+      "blocks": ["search-result-layout.customQuery#novedades-nina"]
+    },
+    "search-result-layout.customQuery#novedades-nina": {
+      "props": {
+        "querySchema": {
+          "orderByField": "OrderByReleaseDateDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "442",
+          "mapField": "productClusterIds"
+        }
+      },
+      "blocks": [
+        "search-result-layout.desktop#custom",
+        "search-result-layout.mobile#custom",
+        "search-not-found-layout"
+      ]
+    },
+      //NINO
+     "store.custom#novedades-nino": {
+          "blocks": ["search-result-layout.customQuery#novedades-nino"]
+        },
+    "search-result-layout.customQuery#novedades-nino": {
+          "props": {
+            "querySchema": {
+              "orderByField": "OrderByReleaseDateDESC",
+              "hideUnavailableItems": true,
+              "maxItemsPerPage": 8,
+              "queryField": "437",
+              "mapField": "productClusterIds"
+            }
+          },
+          "blocks": [
+            "search-result-layout.desktop#custom",
+            "search-result-layout.mobile#custom",
+            "search-not-found-layout"
+          ]
+        }
+}

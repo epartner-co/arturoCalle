@@ -1,8 +1,8 @@
 .newsletterForm--newsletter {width: 95%;border-radius: 0;box-shadow: none;}
 
-.emailInputContainer--newsletter-form--email--input {margin: 0px 0 20px 0;border-radius: 0;box-shadow: none;}
+.emailInputContainer--newsletter-form--email--input {margin: 0px 0 5px 0;border-radius: 0;box-shadow: none;}
 
-.nameInputContainer--newsletter-form--nombre--input {margin: 0px 0 20px 0;;border: 0;box-shadow: none;border-radius: 0;}
+.nameInputContainer--newsletter-form--nombre--input {margin: 0px 0 5px 0;;border: 0;box-shadow: none;border-radius: 0;}
 
 .newsletterForm--newsletter :global(.vtex-input-prefix__group){border-radius: 0px;box-shadow: none;}
 .newsletterForm--newsletter :global(.vtex-input-prefix__group)::placeholder{font-family: 'DINPRO';font-size: 46px;}
@@ -11,7 +11,14 @@
 
 .formSubmitContainer :global(.vtex-button) {border-radius: 0px;width: 100%;}
 
-.formSubmitContainer :global(.vtex-button)::before {content: "";width: 30px;top: 10%;height: 30px;background: url(https://callearturop.vteximg.com.br/arquivos/letter-icon.png) no-repeat;position: absolute;left: 20%;background-size: 100%;display: block;}
+.formSubmitContainer :global(.vtex-button)::before {content: "";width: 30px;top: 10%;height: 30px;background: url(https://callearturop.vteximg.com.br/arquivos/letter-icon.png) no-repeat;position: absolute;left: 4%;background-size: 100%;display: block;}
+
+.nameInputContainer :global(.vtex-input-prefix__group){
+  border-radius: 0px;box-shadow: none;border: none;
+}
+.emailInputContainer :global(.vtex-input-prefix__group){
+  border-radius: 0px;box-shadow: none;border: none;
+}
 
 .formSubmitContainer :global(.vtex-button) {background: #151d29;}
 
@@ -23,4 +30,54 @@
 
 @media screen and (max-width: 700px) {
     .newsletterForm--newsletter {width: 100%;}
+
+    .newsletterForm--newsletter .formSubmitContainer{
+      position: relative !important;
+      bottom: 0%;
+      right: 0;
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+    .newsletterForm.newsletterForm--newsletter{
+      padding: 0px !important;
+    }
+    .confirmationCheckboxContainer.confirmationCheckboxContainer--newsletter-checkbox-confirmation{
+      margin-top: 10px;
+    }
+}
+
+/*NEwsletter*/
+.newsletterForm--newsletter .formSubmitContainer {position: absolute;bottom: 35%;right: 0;width: 30%;}
+
+.newsletterForm.newsletterForm--newsletter {position: relative;padding: 0 35% 0 0;}
+.confirmationCheckboxContainer.confirmationCheckboxContainer--newsletter-checkbox-confirmation {
+  font-size: 12px;
+}
+
+.newsletterForm.newsletterForm--newsletter :global(.vtex-styleguide-9-x-input){
+  background: white;
+}
+.newsletterForm.newsletterForm--newsletter :global(.vtex-checkbox__box-wrapper){
+  background: white;
+}
+
+.newsletterForm.newsletterForm--newsletter .formSubmitContainer :global(.vtex-button):hover{
+  background: white;
+  color: #151d29;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1026px) {
+
+.confirmationCheckboxContainer.confirmationCheckboxContainer--newsletter-checkbox-confirmation {
+    font-size: 10px;
+}
+
+.formSubmitContainer :global(.vtex-button)::before {
+  width: 18px !important;
+  top: 24% !important;
+}
+.newsletterForm.newsletterForm--newsletter .formSubmitContainer :global(.vtex-button){
+  font-size: 11px;
+}
+
 }

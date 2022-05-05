@@ -441,7 +441,7 @@ Estilos Producto Sección Contenido AC*/
 /*suscribete*/
 
 .flexCol--newsletter-form--columna--footer{
-  width: 70%;
+  width: 100%;
   justify-content: center;
   display: flex;
   margin: 0 auto;
@@ -605,14 +605,10 @@ Estilos Producto Sección Contenido AC*/
 /*------------------------------------*/
 
 .flexRow--buttons--images{
-  width: 84%;
-  margin-left: 10%;
+  width: 75%;
+  margin: 0 auto;
 }
 
-.flexRowContent--buttons--images{
-  display: flex;
-  flex-wrap: wrap;
-}
 
 
 .flexRow--video--freedom{
@@ -684,7 +680,7 @@ Estilos Producto Sección Contenido AC*/
 /*MOBILE HOME*/
 /****************/
 @media screen and (max-width: 700px) {
-  .flexRowContent--social-network 
+  .flexRowContent--social-network
   {
     display: flex;
     width: 48%;
@@ -778,7 +774,7 @@ Estilos Producto Sección Contenido AC*/
   padding-right: 0.25rem;
   width: 100%;
   margin-top: 0;
-  z-index: 9;
+  z-index: 9991;
 }
 .flexCol--lateralCol {
   z-index: 10;
@@ -885,7 +881,7 @@ Estilos Producto Sección Contenido AC*/
 
 .flexRow--social-network {
   background: transparent;
-}  
+}
 
 .flexRow--row1-footer {
   background: transparent;
@@ -916,3 +912,15 @@ Estilos Producto Sección Contenido AC*/
   width: 89%;
 }
 .flexRow--titleS {margin: 35px 0 -38px 0;}
+/*NEW*/
+.flexRow.flexRow--contenedorP {z-index: 9990;position: relative;}
+
+.flexColChild.flexColChild--bloqueimg.flexColChild--bloqueimgC {
+  margin-top: 7%;
+  margin-bottom: 4%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 4%;
+}
+
+.flexColChild.flexColChild--bloqueimg {margin: 0 auto;min-width: 72%;}

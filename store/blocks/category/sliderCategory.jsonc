@@ -8,7 +8,7 @@
                     "image": "https://callearturop.vteximg.com.br/arquivos/bannerhombre.png",
                     "mobileImage": "https://callearturop.vteximg.com.br/arquivos/banner-mobile-660x215.png"
                 }
-               
+
             ]
         }
     },
@@ -16,7 +16,7 @@
         "props": {
             "itemsPerPage": {
             "desktop": 7,
-            "tablet": 5,
+            "tablet": 4,
             "phone": 3
             },
             "infinite": true,

@@ -1,3 +1,6 @@
 .noAppearance::placeholder{
   letter-spacing: 1px;
 }
+.hideDecorators.noAppearance {
+  border-radius: 0;
+}

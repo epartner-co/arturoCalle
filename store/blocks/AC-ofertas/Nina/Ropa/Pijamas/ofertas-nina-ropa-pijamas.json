@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Nina-Ropa-Pijamas": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Pijamas"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Pijamas": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "796",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}

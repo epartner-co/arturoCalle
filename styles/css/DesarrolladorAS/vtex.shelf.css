@@ -20,6 +20,13 @@
 }
 /*----------------------------------------------*/
 
+@media screen and (max-width: 1200px) {
+  .title.title--pag-deptos {
+    display: none;
+  }
+}
+
+
 /*Margen vitrinas mobile*/
 @media screen and (max-width: 700px) {
   .container.container--slider--general.container--pag-deptos {
@@ -30,10 +37,19 @@
   .caretIcon {
     display: none;
   }
+
+  .title.title--pag-deptos {
+    display: none;
+  }
 }
 
 
 /*Eliminar titulo por defecto del shelf*/
 .title.title--slider--general.title--pag-deptos {
   display: none;
+}
+
+/*Espacio entre vitrina dinamica y botones*/
+.container.container--depto-tab {
+  margin-top: 20px;
 }

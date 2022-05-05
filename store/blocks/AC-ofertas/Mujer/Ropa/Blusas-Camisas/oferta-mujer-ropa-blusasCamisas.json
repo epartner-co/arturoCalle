@@ -1,0 +1,21 @@
+{
+  "store.custom#AC-ofertas-Mujer-Ropa-Blusas-Camisas": {
+    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Blusas-Camisas"]
+  },
+  "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Blusas-Camisas": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "779",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom-ofertas",
+      "search-result-layout.mobile#custom-ofertas",
+      "search-not-found-layout"
+    ]
+  }
+}
