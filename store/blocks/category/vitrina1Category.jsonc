@@ -20,7 +20,7 @@
     },
     "image#imagenCategory": {
         "props": {
-          "src": "https://callearturop.vteximg.com.br/arquivos/hombrecategory.png",
+          "src": "https://arturocalle.vteximg.com.br/arquivos/asdasd.jpg",
           "blockClass": "imgCategoriaSlider"
         }
     },
@@ -72,7 +72,7 @@
     },
     "image#imagenCategoryM": {
         "props": {
-          "src": "https://callearturop.vteximg.com.br/arquivos/hombrecategory.png",
+          "src": "https://arturocalle.vteximg.com.br/arquivos/asdasd.jpg",
           "blockClass": "imgCategoriaSlider"
         }
     },

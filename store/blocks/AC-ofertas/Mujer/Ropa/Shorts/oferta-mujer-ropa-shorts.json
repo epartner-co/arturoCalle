@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Mujer-Ropa-Shorts": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Shorts"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Shorts"]
   },
   "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Shorts": {
     "props": {

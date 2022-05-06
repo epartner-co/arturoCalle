@@ -1,0 +1,111 @@
+{
+"store.custom#news-letter": {
+  "blocks": ["list-context.image-list#banner-news", "form#NEWS-LETTER-PAGE"]
+},
+
+"list-context.image-list#banner-news": {
+  "children": ["slider-layout#demo-images"],
+  "props": {
+    "images": [
+      {
+        "image": "https://arturocalle.vteximg.com.br/arquivos/news-letter-desk.png",
+        "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/news-letter-mobile.png"
+      }
+    ]
+  }
+},
+
+"form#NEWS-LETTER-PAGE": {
+  "props": {
+    "entity": "NL",
+    "schema": "v2",
+    "blockClass": "NEWS-LETTER-POP"
+  },
+  "children": [
+    "form-input.text#nombre",
+    "form-input.text#apellido",
+    "form-input.text#email",
+    "form-input.text#phone",
+    "form-field-group#gender",
+    "form-submit",
+    "form-input.checkbox#agreement"
+  ],
+  "blocks": ["form-success"]
+},
+
+
+"form-success": {
+  "children": [
+    "rich-text#successSubmit"
+  ]
+},
+"rich-text#successSubmit": {
+  "props": {
+    "text": "oK",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": "envio-news"
+  }
+},
+
+/*campos input para el fommulario*/
+
+"form-input.text#nombre": {
+  "props": {
+    "pointer": "#/properties/nombre",
+    "placeholder": "Tu Nombre",
+    "blockClass": "news-nombre-input"
+  }
+},
+"form-input.text#apellido": {
+  "props": {
+    "pointer": "#/properties/apellido",
+    "placeholder": "Tu Apellido",
+    "blockClass": "news-apellido-input"
+  }
+},
+"form-input.text#email": {
+  "props": {
+    "pointer": "#/properties/email",
+    "placeholder": "Tu eMail",
+    "blockClass": "news-email-input"
+  }
+},
+"form-input.text#phone": {
+  "props": {
+    "pointer": "#/properties/phone",
+    "placeholder": "Teléfono",
+    "blockClass": "news-phone-input"
+  }
+},
+"form-input.text#nacimiento": {
+  "props": {
+    "pointer": "#/properties/nacimiento",
+    "placeholder": "Nacimiento",
+    "blockClass": "news-nacimiento-input"
+  }
+},
+  "form-field-group#gender": {
+    "props": {
+      "pointer": "#/properties/gender",
+      "placeholder": "Género",
+      "blockClass": "news-genero-input"
+    }
+ },
+
+ "form-submit": {
+  "props": {
+    "label": "Enviar",
+    "blockClass": "enviar-input"
+  }
+},
+"form-input.checkbox#agreement": {
+  "props": {
+    "pointer": "#/properties/agreement",
+    "label": "Al suscribirte estás aceptando las politicas de tratamiento de datos"
+  }
+}
+
+
+
+}

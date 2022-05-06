@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nina-Ropa-Ropa-interior": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Ropa-interior"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Ropa-interior"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Ropa-interior": {
     "props": {

@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Mujer-Ropa-Chaquetas": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Chaquetas"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Chaquetas"]
   },
   "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Chaquetas": {
     "props": {

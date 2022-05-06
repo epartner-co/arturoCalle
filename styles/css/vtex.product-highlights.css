@@ -1,14 +1,14 @@
 .productHighlightWrapper--collection {
   position: absolute;
   top: 10px;
-  left: 5px;
+  left: 10px;
   width: 200px;
 }
 
 .productHighlightText {
   background: antiquewhite;
   border-radius: 20px;
-  padding: 5px 10px;
+  padding: 4px 10px;
 }
 
 
@@ -19,7 +19,7 @@
 }
 .productHighlightText[data-highlight-name="NEW Products"]::after {
   content: "Nuevo";
-  font-size: 13px !important;
+  font-size: 14px !important;
   text-align: center;
   display: block;
 }

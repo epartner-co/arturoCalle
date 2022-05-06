@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Hombre-Ropa-Blazers": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Blazers"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Blazers"]
   },
   "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Blazers": {
     "props": {

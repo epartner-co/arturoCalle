@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Accesorios": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Accesorios"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Accesorios"]
   },
   "search-result-layout.customQuery#AC-ofertas-Accesorios": {
     "props": {

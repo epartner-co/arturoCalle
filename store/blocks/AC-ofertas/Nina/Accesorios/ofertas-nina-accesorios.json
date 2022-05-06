@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nina-Accesorios": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Accesorios"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Accesorios"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nina-Accesorios": {
     "props": {

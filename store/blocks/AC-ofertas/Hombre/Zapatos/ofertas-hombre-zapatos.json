@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Hombre-Zapatos": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Zapatos"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Zapatos"]
   },
   "search-result-layout.customQuery#AC-ofertas-Hombre-Zapatos": {
     "props": {

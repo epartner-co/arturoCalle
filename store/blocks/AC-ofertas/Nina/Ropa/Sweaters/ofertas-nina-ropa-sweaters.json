@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nina-Ropa-Sweaters": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Sweaters"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Sweaters"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Sweaters": {
     "props": {

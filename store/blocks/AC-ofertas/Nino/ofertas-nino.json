@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nino": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nino": {
     "props": {

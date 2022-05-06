@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Hombre-Ropa-Polos": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Polos"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Polos"]
   },
   "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Polos": {
     "props": {

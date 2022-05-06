@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Mujer": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer"]
   },
   "search-result-layout.customQuery#AC-ofertas-Mujer": {
     "props": {

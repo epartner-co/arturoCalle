@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Mujer-Accesorios": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Accesorios"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Accesorios"]
   },
   "search-result-layout.customQuery#AC-ofertas-Mujer-Accesorios": {
     "props": {

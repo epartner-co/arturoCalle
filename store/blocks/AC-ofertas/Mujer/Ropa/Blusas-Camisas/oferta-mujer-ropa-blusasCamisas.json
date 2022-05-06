@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Mujer-Ropa-Blusas-Camisas": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Blusas-Camisas"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Blusas-Camisas"]
   },
   "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Blusas-Camisas": {
     "props": {

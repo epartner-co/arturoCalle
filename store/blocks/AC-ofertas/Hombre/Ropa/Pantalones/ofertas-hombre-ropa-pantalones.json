@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Hombre-Ropa-Pantalones": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Pantalones"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Pantalones"]
   },
   "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Pantalones": {
     "props": {

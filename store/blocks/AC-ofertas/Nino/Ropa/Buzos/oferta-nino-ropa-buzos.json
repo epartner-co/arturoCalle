@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nino-Ropa-Buzos": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Buzos"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Buzos"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Buzos": {
     "props": {

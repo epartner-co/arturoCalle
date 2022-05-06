@@ -385,5 +385,9 @@
 
   "store.custom#AC-ofertas-nuevos": {
     "path": "/AC-ofertas/nuevos"
+  },
+  "store.custom#news-letter": {
+    "path": "/newsletter"
   }
+  
 }

@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nina-Ropa-Pijamas": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Pijamas"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Pijamas"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nina-Ropa-Pijamas": {
     "props": {

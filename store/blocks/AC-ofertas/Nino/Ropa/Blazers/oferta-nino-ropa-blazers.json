@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nino-Ropa-Blazers": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Blazers"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Blazers"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Blazers": {
     "props": {

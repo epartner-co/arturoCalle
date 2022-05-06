@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nina": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nina": {
     "props": {

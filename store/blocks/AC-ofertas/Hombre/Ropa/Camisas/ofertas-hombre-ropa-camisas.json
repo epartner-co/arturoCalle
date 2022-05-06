@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Hombre-Ropa-Camisas": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Camisas"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Camisas"]
   },
   "search-result-layout.customQuery#AC-ofertas-Hombre-Ropa-Camisas": {
     "props": {

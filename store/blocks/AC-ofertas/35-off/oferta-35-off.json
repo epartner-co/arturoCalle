@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-35-off": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-35-off"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-35-off"]
   },
   "search-result-layout.customQuery#AC-ofertas-35-off": {
     "props": {

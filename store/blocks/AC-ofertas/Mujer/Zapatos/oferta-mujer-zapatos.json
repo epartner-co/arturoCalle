@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Mujer-Zapatos": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Zapatos"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Zapatos"]
   },
   "search-result-layout.customQuery#AC-ofertas-Mujer-Zapatos": {
     "props": {

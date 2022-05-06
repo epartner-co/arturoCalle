@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Hombre": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre"]
   },
   "search-result-layout.customQuery#AC-ofertas-Hombre": {
     "props": {

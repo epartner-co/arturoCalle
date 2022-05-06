@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nino-Accesorios": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Accesorios"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Accesorios"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nino-Accesorios": {
     "props": {

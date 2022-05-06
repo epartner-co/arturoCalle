@@ -37,11 +37,8 @@
   .paragraph--contenido--lista{
     margin-left: 4px;text-align: justify;
     color: #333;
-    line-height: 1.4em;
     font-size: 14px;
     font-family: 'DINPro';
-    /* font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
-    line-height: 1.42857143;
   }
 
 

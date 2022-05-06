@@ -41,7 +41,7 @@
       /*contenedor de los items con viñetas*/
       "flex-layout.col#list-items":{
           "props":{
-              "blockClass":"list"
+              "blockClass":"list-autorizacion"
           },
           "children":[
             "flex-layout.row#list-item--1",
@@ -54,7 +54,7 @@
       /*item 1*/
       "flex-layout.row#list-item--1":{
           "props":{
-              "blockClass":"list-item"
+              "blockClass":"list-item-auto"
           },
           "children":[
             "flex-layout.col#list-item--1--img",
@@ -95,7 +95,7 @@
       "flex-layout.row#list-item--2":{
         "props":{
             "horizontalAlign":"center",
-            "blockClass":"list-item"
+            "blockClass":"list-item-auto"
         },
         "children":[
           "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
@@ -118,7 +118,7 @@
       "flex-layout.row#list-item--3":{
         "props":{
             "horizontalAlign":"center",
-            "blockClass":"list-item"
+            "blockClass":"list-item-auto"
         },
         "children":[
           "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
@@ -141,7 +141,7 @@
       "flex-layout.row#list-item--4":{
         "props":{
             "horizontalAlign":"center",
-            "blockClass":"list-item"
+            "blockClass":"list-item-auto"
         },
         "children":[
           "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/
@@ -164,7 +164,7 @@
       "flex-layout.row#list-item--5":{
         "props":{
             "horizontalAlign":"center",
-            "blockClass":"list-item"
+            "blockClass":"list-item-auto"
         },
         "children":[
           "flex-layout.col#list-item--1--img",/*viñeta utilizada arriba*/

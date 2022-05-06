@@ -1,6 +1,6 @@
 {
   "store.custom#ac-ofertas": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#ac-ofertas"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#ac-ofertas"]
   },
   "image#AC-ofertas": {
     "props": {
@@ -8,6 +8,19 @@
       "src": "https://arturocalle.vteximg.com.br/arquivos/OFERTAS-BANNER-19202.jpg"
     }
   },
+
+  "list-context.image-list#banner-ofertas": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "images": [
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/OFERTAS-BANNER-19202.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/OFERTAS-BANNER-400.jpg"
+        }
+      ]
+    }
+  },
+
   "search-result-layout.customQuery#ac-ofertas": {
     "props": {
       "querySchema": {

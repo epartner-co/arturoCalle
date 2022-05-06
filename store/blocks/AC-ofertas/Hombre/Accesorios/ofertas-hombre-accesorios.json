@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Hombre-Accesorios": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Accesorios"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Hombre-Accesorios"]
   },
   "search-result-layout.customQuery#AC-ofertas-Hombre-Accesorios": {
     "props": {

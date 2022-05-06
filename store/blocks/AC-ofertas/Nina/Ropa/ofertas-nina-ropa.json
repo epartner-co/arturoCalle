@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nina-Ropa": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nina-Ropa"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nina-Ropa": {
     "props": {

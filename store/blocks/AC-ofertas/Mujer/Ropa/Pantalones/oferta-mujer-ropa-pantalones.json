@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Mujer-Ropa-Pantalones": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Pantalones"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Pantalones"]
   },
   "search-result-layout.customQuery#AC-ofertas-Mujer-Ropa-Pantalones": {
     "props": {

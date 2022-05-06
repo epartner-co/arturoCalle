@@ -1,6 +1,6 @@
 {
   "store.custom#AC-ofertas-Nino-Ropa-Camisas": {
-    "blocks": ["image#AC-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Camisas"]
+    "blocks": ["list-context.image-list#banner-ofertas", "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Camisas"]
   },
   "search-result-layout.customQuery#AC-ofertas-Nino-Ropa-Camisas": {
     "props": {
