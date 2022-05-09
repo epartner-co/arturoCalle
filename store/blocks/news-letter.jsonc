@@ -27,7 +27,7 @@
     "form-input.text#email",
     "form-input.text#phone",
     "form-field-group#gender",
-    "form-submit",
+    "form-submit#enviar",
     "form-input.checkbox#agreement"
   ],
   "blocks": ["form-success"]
@@ -93,7 +93,7 @@
     }
  },
 
- "form-submit": {
+ "form-submit#enviar": {
   "props": {
     "label": "Enviar",
     "blockClass": "enviar-input"

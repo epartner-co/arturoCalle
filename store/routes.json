@@ -239,6 +239,9 @@
   "store.custom#guia-regalo-nina":{
     "path": "/guia-de-regalos/nina"
   },
+  "store.custom#guia-regalo-padres":{
+    "path": "/guia-de-regalos/padres"
+  },
 
 
 
