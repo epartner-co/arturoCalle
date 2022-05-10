@@ -247,7 +247,9 @@
       "product-availability",
       "flex-layout.row#buy-buttonM",
       "flex-layout.row#imagenc",
-      "tab-layout#productMobile"
+      "tab-layout#productMobile",
+      "flex-layout.row#right-colADDI"
+
     ]
   },
   "product-quantity#quanty":{
