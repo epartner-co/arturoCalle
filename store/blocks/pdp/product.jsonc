@@ -238,6 +238,7 @@
       "product-rating-summary",
       //"flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "flex-layout.row#right-colADDI",
       //"product-installments",
       //"product-separator",
       "sku-selector",
@@ -247,8 +248,7 @@
       "product-availability",
       "flex-layout.row#buy-buttonM",
       "flex-layout.row#imagenc",
-      "tab-layout#productMobile",
-      "flex-layout.row#right-colADDI"
+      "tab-layout#productMobile"
 
     ]
   },
