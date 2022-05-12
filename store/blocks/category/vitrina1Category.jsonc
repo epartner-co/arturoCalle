@@ -29,7 +29,7 @@
             "list-context.product-list#category-2"
         ],
         "props":{
-            "width":"80%",
+            "width":"75%",
             "blockClass": "sliderVitrine"
         }
     },

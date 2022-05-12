@@ -1,3 +1,10 @@
+.flexCol--maq, .maq,
+.flexColChild--maq,
+.flexRow--maq,
+.flexRowContent--maq{
+  border: 1px red solid !important;
+}
+
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
   padding: 0 0;
