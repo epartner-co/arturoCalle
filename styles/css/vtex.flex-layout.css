@@ -524,6 +524,16 @@ Estilos Producto Sección Contenido AC*/
   margin-left: 4%;
 }
 
+
+.flexCol--list {
+  padding: 10px 0px 10px 0px;
+  z-index: 555555;
+}
+
+.flexColChild--list {
+  padding: 6px 0 0;
+}
+
 /*franquicias*/
 .flexRow--informacion--franquicias{
   width: 90%;

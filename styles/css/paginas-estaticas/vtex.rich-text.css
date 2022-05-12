@@ -52,9 +52,9 @@
 
   .wrapper--contenido--preguntas--frecuentes{
     font-size: 15px;
-      font-family: 'DINPro';
-      line-height: 1.4em;
-      border: 1px solid #ececec;
+    font-family: 'DINPro';
+    line-height: 1.4em;
+    border: 1px solid #ececec;
   }
 
   .paragraph--contenido--preguntas--frecuentes{
@@ -81,10 +81,10 @@
 
   .paragraph--recuadro{/*se puede utilizar en general para los recuadros necesitados*/
     margin-left: 10px;
-      font-style: italic;
-      color: #545860;
-      font-size: 15px;
-      font-family: 'DINPro';
+    font-style: italic;
+    color: #545860;
+    font-size: 15px;
+    font-family: 'DINPro';
   }
 
   /*franquicias*/
@@ -96,15 +96,15 @@
 
   .paragraph--contenido--decorad0{
     font-weight: 700;
-      font-family: 'DINPro';
-      font-size: 14px;
+    font-family: 'DINPro';
+    font-size: 14px;
   }
 
   .paragraph--boton--detalles--contenido{
     padding-left: 14px;
-      padding-right: 14px;
-      color: white;
-      font-size: 14px;
+    padding-right: 14px;
+    color: white;
+    font-size: 14px;
   }
 
   /*politica-etica-empresarial*/
