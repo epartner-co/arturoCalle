@@ -11,7 +11,7 @@
   color: white;
   display: block;
   top: 30%;
-  font-size: 14px;
+  font-size: 20px;
   position: absolute;
   left: 0;
   right: 0;
@@ -19,14 +19,17 @@
 }
 
 .flexRowContent--menu-nivel-hombre-cats {
-  min-height: 460px;
+  min-height: 430px;
 }
 
 /*Remplazar y quitar important*/
 .flexRowContent--menu-nivel-hombre-cats {
+  height: 45% !important;
   background-color: rgb(255 255 255 / 95%)!important;
   right: 0px !important;
   width: 100% !important;
+  margin-top: -2%;
+  z-index: -55555;
 }
 .flexColChild--circuloN::before {
   top: 27% !important;
