@@ -75,7 +75,7 @@
           "image#imagenCategoryC"
       ],
       "props":{
-          "width":"30%",
+          "width":"25%",
           "blockClass": "imagenColumnCategoryC"
       }
   },
@@ -84,7 +84,7 @@
       "list-context.image-list#democ"
     ],
     "props":{
-        "width":"69%",
+        "width":"75%",
         "blockClass": "vitrinaImage"
     }
 },
