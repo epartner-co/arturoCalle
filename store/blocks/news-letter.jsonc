@@ -22,10 +22,11 @@
     "blockClass": "NEWS-LETTER-POP"
   },
   "children": [
-    "form-input.text#nombre",
+    "form-input.text#name",
     "form-input.text#apellido",
     "form-input.text#email",
     "form-input.text#phone",
+    "form-input.text#nacimiento",
     "form-field-group#gender",
     "form-submit#enviar",
     "form-input.checkbox#agreement"
@@ -50,9 +51,9 @@
 
 /*campos input para el fommulario*/
 
-"form-input.text#nombre": {
+"form-input.text#name": {
   "props": {
-    "pointer": "#/properties/nombre",
+    "pointer": "#/properties/name",
     "placeholder": "Tu Nombre",
     "blockClass": "news-nombre-input"
   }
