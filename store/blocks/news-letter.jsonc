@@ -88,7 +88,7 @@
 },
   "form-field-group#gender": {
     "props": {
-      "pointer": "#/properties/gender",
+      "pointer": "#/properties/gender/properties/genderType",
       "placeholder": "Género",
       "blockClass": "news-genero-input"
     }
