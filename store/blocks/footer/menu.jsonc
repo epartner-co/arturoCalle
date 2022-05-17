@@ -361,6 +361,7 @@
     "disclosure-layout#simple5":{
       "children": ["disclosure-trigger#simple5", "disclosure-content#simple5"],
       "props": {
+        "initialVisibility": "visible",
         "animated":"true"
       }
     },

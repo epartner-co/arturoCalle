@@ -713,3 +713,37 @@
 }
 
 .wrapper.wrapper--buttons-clas {margin: 0  auto;}
+
+
+/*--------------------------------*/
+/* Estilos para tablas de tallas */
+/*------------------------------*/
+.wrapper--labelTallaTutorial{
+  cursor: pointer;
+}
+.wrapper--labelTallaTutorial:hover{
+  text-decoration: underline;
+}
+.wrapper--tablaDeCamisetas,
+.wrapper--tablaDeColeccionFreedom{
+  width: 100%;
+}
+.table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.tableHead--tablaDeCamisetas,
+.tableHead--tablaDeColeccionFreedom{
+  background-color: #e1e1e1;
+}
+.tableTr{
+  border: 1px rgb(139 139 139) solid;
+}
+.tableTh, .tableTd{
+  padding: 0.4%;
+  text-align: center;
+}
+.tableTd:hover{
+  background-color: #e1e1e1;
+}
+/*-----------------------------*/

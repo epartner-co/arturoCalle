@@ -177,6 +177,9 @@
   "store.custom#linea-etica": {
     "path": "/linea-etica"
   },
+  "store.custom#template-base": {
+    "path": "/template-base"
+  },
   "store.custom#franquicias": {
     "path": "/franquicias"
   },
@@ -239,8 +242,8 @@
   "store.custom#guia-regalo-nina":{
     "path": "/guia-de-regalos/nina"
   },
-  "store.custom#guia-regalo-padres":{
-    "path": "/guia-de-regalos/padres"
+  "store.custom#guia-regalos-padres":{
+    "path": "/guia-regalos-padres"
   },
 
 

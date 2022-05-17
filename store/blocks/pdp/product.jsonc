@@ -210,6 +210,7 @@
       //"product-installments",
       //"product-separator",
       "sku-selector",
+      "flex-layout.row#tallaTutorial",
       "product-quantity#quanty",
       "product-assembly-options",
       "product-gifts",
@@ -303,6 +304,112 @@
     }
   },
 
+  //===========================Cual es mi Talla?
+  "flex-layout.row#tallaTutorial":{
+    "children":[
+      "flex-layout.col#tallaTutorial"
+    ]
+  },
+  "flex-layout.col#tallaTutorial":{
+    "children": [
+      "modal-trigger#abrirModalTallaTutorial"
+    ]
+  },
+  "modal-trigger#abrirModalTallaTutorial": { // Disparador de Modal
+    "children": [
+      "rich-text#labelTallaTutorial",
+      "modal-layout#modalTallaTutorial"
+    ]
+  },
+  "rich-text#labelTallaTutorial": { //Enlace que dispara el modal
+    "props": {
+      "blockClass": "labelTallaTutorial",
+      "text": "¿Cómo saber cuál es mi talla?"
+    }
+  },
+  "modal-layout#modalTallaTutorial": { //Layout del Modal
+    "props":{
+      "blockClass":"modalTallaTutorial"
+    },
+    "children": [
+      "flex-layout.row#modalContentTalla"
+    ]
+  },
+  "flex-layout.row#modalContentTalla":{
+    "children":[
+      "flex-layout.col#modalContentTalla"
+    ]
+  },
+  "flex-layout.col#modalContentTalla":{ //Contenido del Modal
+    "props":{
+      "blockClass": "modalContentTalla"
+    },
+    "children":[
+      "flex-layout.row#guiaCamiseta",
+      "flex-layout.row#tablaCamisetas",
+      "flex-layout.row#tablaColecionFreedom"
+    ]
+  },
+  "flex-layout.row#guiaCamiseta":{ // Imagen de la Guia de Camisetas
+    "children":[
+      "flex-layout.col#guiaCamiseta"
+    ]
+  },
+  "flex-layout.col#guiaCamiseta":{
+    "children":[
+      "image#guiaCamiseta"
+    ]
+  },
+  "image#guiaCamiseta": {
+    "props": {
+      "src": "/arquivos/guia-camiseta-clothe-basica.png"
+    }
+  },
+  "flex-layout.row#tablaCamisetas":{ //Tabla 1: Camisetas
+    "children":[
+      "flex-layout.col#tablaCamisetas"
+    ]
+  },
+  "flex-layout.col#tablaCamisetas":{
+    "children":[
+      "rich-text#titleTableCamisetas",
+      "rich-text#tablaDeCamisetas"
+    ]
+  },
+  "rich-text#titleTableCamisetas": {
+    "props": {
+      "text": "CAMISETAS"
+    }
+  },
+  "rich-text#tablaDeCamisetas": {
+    "props": {
+      "blockClass":"tablaDeCamisetas",
+      "text": "| TALLAS | XS | S | M | L | XL | XXL | XXXL |\n| ------ | -- | - | - | - | -- | --- | ---- |\n| PECHO | 91.8 | 96.8 | 101.8 | 106.8 | 111.8 | 116.8 | 121.8 |\n| CINTURA | 78 | 83 | 88 | 93 | 98 | 103 | 108 |\n| CADERA | 84 | 89 | 94 | 99 | 104 | 109 | 114 |"
+    }
+  },
+  "flex-layout.row#tablaColecionFreedom":{ //Tabla 2: Coleccion Freedom
+    "children":[
+      "flex-layout.col#tablaColecionFreedom"
+    ]
+  },
+  "flex-layout.col#tablaColecionFreedom":{
+    "children":[
+      "rich-text#titleTableColeccionFreedom",
+      "rich-text#tablaDeColeccionFreedom"
+    ]
+  },
+  "rich-text#titleTableColeccionFreedom": {
+    "props": {
+      "text": "COLECCION FREEDOM"
+    }
+  },
+  "rich-text#tablaDeColeccionFreedom": {
+    "props": {
+      "blockClass":"tablaDeColeccionFreedom",
+      "text": "| TALLAS | XXS | XS | S | M | L |\n| ------ | --- | -- | - | - | - |\n| PECHO | 87 | 90 | 96 | 102 | 108 |\n| CINTURA | 72 | 75 | 81 | 87 | 93 |\n| CADERA | 85 | 88 | 94 | 100 | 106 |"
+    }
+  },
+  //==============================FIN: Cual es mi talla?
   "flex-layout.row#buy-button": {
     "props": {
       "marginTop": 4,

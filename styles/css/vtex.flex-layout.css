@@ -941,3 +941,15 @@ Estilos Producto Sección Contenido AC*/
 }
 
 .flexColChild.flexColChild--bloqueimg {margin: 0 auto;min-width: 72%;}
+
+/*Estilos de Rango de Precios en Category*/
+.flexColChild--rangePriceContainer{
+  padding: 6% 0px;
+  text-align: center;
+  background-color: #f1f1f3;
+  border: 1px white solid;
+}
+.flexCol--modalContentTalla{
+  padding: 0px 3% 2% 3%;
+}
+/*---------------------------------*/
