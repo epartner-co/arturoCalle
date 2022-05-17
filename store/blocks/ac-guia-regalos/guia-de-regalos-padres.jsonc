@@ -1,63 +1,63 @@
 {
-    "store.custom#guia-regalo-padres": {
-      "blocks": ["flex-layout.row#vitrineCategoryC-padres", "search-result-layout.customQuery#guia-regalos-padres"]
-    },
-    "image#freedom": {
-      "props": {
-        "minWidth": "100%",
-        "src": "https://arturocalle.vteximg.com.br/arquivos/Banner-Categoria-Freedom.jpg"
+  "store.custom#guia-regalos-padres": {
+    "blocks": [
+      "flex-layout.row#vitrineCategoryC-padres",
+      "flex-layout.row#rangePrice",
+      "search-result-layout.customQuery#guia-regalos-padres"
+    ]
+  },
+  "image#freedom": {
+    "props": {
+      "minWidth": "100%",
+      "src": "https://arturocalle.vteximg.com.br/arquivos/Banner-Categoria-Freedom.jpg"
+    }
+  },
+  "search-result-layout.customQuery#guia-regalos-padres": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "751",
+        "mapField": "productClusterIds"
       }
     },
-    "search-result-layout.customQuery#guia-regalos-padres": {
-      "props": {
-        "querySchema": {
-          "orderByField": "OrderByReleaseDateDESC",
-          "hideUnavailableItems": true,
-          "maxItemsPerPage": 8,
-          "queryField": "751",
-          "mapField": "productClusterIds"
-        }
+    "blocks": [
+      "search-result-layout.desktop#customC",
+      "search-result-layout.mobile#customC",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#customC": {
+    "children": [
+      //"flex-layout.row#vitrinaDestacadaSearch",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+      "maxItemsPerPage": 12
+    }
+  },
+  "search-result-layout.mobile#customC": {
+    "children": [
+      "flex-layout.row#searchinfoM",
+      //"flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
       },
-      "blocks": [
-        "search-result-layout.desktop#customC",
-        "search-result-layout.mobile#customC",
-        "search-not-found-layout"
-      ]
-    },
-    "search-result-layout.desktop#customC": {
-      "children": [
-        //"flex-layout.row#vitrinaDestacadaSearch",
-        "flex-layout.row#searchbread",
-        "flex-layout.row#searchtitle",
-        "flex-layout.row#result"
-      ],
-      "props": {
-        "pagination": "show-more",
-        "preventRouteChange": false,
-        "defaultGalleryLayout": "grid",
-        "maxItemsPerPage": 12
-      }
-    },
-    "search-result-layout.mobile#customC": {
-      "children": [
-        "flex-layout.row#searchinfoM",
-        //"flex-layout.row#fetchprevious",
-        "flex-layout.row#products",
-        "flex-layout.row#fetchmore"
-      ],
-      "props": {
-        "pagination": "show-more",
-        "mobileLayout": {
-          "mode1": "small",
-          "mode2": "normal"
-        },
-        "defaultGalleryLayout": "grid"
-      }
-    },
-
-
-
-
+      "defaultGalleryLayout": "grid"
+    }
+  },
 
 
   "flex-layout.row#vitrineCategoryC-padres":{
@@ -203,5 +203,76 @@
         "showPaginationDots":"false",
         "showNavigationArrows": "never"
       }
+  },
+
+
+
+  //Filtros Rango Precios Categoty
+  "flex-layout.row#rangePrice":{
+    "children":[
+      "flex-layout.col#rangePrice_1",
+      "flex-layout.col#rangePrice_2",
+      "flex-layout.col#rangePrice_3",
+      "flex-layout.col#rangePrice_4"
+    ]
+  },
+
+  "flex-layout.col#rangePrice_1":{
+    "props":{
+      "blockClass": "rangePriceContainer"
+    },
+    "children":[
+      "link#rangePriceLink_1"
+    ]
+  },
+  "flex-layout.col#rangePrice_2":{
+    "props":{
+      "blockClass": "rangePriceContainer"
+    },
+    "children":[
+      "link#rangePriceLink_2"
+    ]
+  },
+  "flex-layout.col#rangePrice_3":{
+    "props":{
+      "blockClass": "rangePriceContainer"
+    },
+    "children":[
+      "link#rangePriceLink_3"
+    ]
+  },
+  "flex-layout.col#rangePrice_4":{
+    "props":{
+      "blockClass": "rangePriceContainer"
+    },
+    "children":[
+      "link#rangePriceLink_4"
+    ]
+  },
+
+  "link#rangePriceLink_1": {
+    "props": {
+      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=8900%20TO%20150000&searchState",
+      "label": "Menos de $150.000"
+    }
+  },
+  "link#rangePriceLink_2": {
+    "props": {
+      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=150000%20TO%20250000&searchState",
+      "label": "$150.000 a $250.000"
+    }
+  },
+  "link#rangePriceLink_3": {
+    "props": {
+      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=250000%20TO%20350000&searchState",
+      "label": "$250.000 a $350.000"
+    }
+  },
+  "link#rangePriceLink_4": {
+    "props": {
+      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=350000%20TO%20835900&searchState",
+      "label": "Más de $350.000"
+    }
   }
+  //----> CIERRE de Filtros Rango Precios Categoty
 }

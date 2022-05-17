@@ -180,3 +180,19 @@
 
 
 .headerContainer.headerContainer.headerContainer--cerradoPopProducto {position: absolute;right: 0;border: none;}
+
+/*-------------------------------------------------------------------------------*/
+/*  Estilos de Modal | Quiero saber cual es mi talla? | visualizado en producto */
+/*-----------------------------------------------------------------------------*/
+.modal--modalTallaTutorial{
+  z-index: 99991 !important;
+}
+.paper--modalTallaTutorial{
+  width: auto;
+  max-width: 65%;
+}
+.backdrop--modalTallaTutorial{
+  background-color: black;
+  opacity: 0.8;
+}
+/*-----------------------------------------------------------------------*/
