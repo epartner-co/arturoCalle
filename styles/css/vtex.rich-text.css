@@ -720,6 +720,7 @@
 /*------------------------------*/
 .wrapper--labelTallaTutorial{
   cursor: pointer;
+  font-family: 'DINPro';
 }
 .wrapper--labelTallaTutorial:hover{
   text-decoration: underline;
@@ -740,6 +741,7 @@
   border: 1px rgb(139 139 139) solid;
 }
 .tableTh, .tableTd{
+  font-family: 'DINPro';
   padding: 0.4%;
   text-align: center;
 }
@@ -747,3 +749,9 @@
   background-color: #e1e1e1;
 }
 /*-----------------------------*/
+
+/*Esconder CUAL  ES  MI  TALLA  provisional para subir cambios*/
+.wrapper--labelTallaTutorial {
+  display: none;
+}
+/*-------------------------------------------------------- */

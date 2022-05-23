@@ -1365,3 +1365,39 @@ input#downshift-1-input {
 .frameAround{
   border: none;
 }
+
+/*---------------------------------------*/
+/*  Estilos de Mililitros en Producto   */
+/*-------------------------------------*/
+.specificationsTitle--especificacionesmili {
+  display: none;
+}
+
+.specificationsTableHead--especificacionesmili {
+  display: none;
+}
+
+.specificationItemProperty--especificacionesmili {
+  padding: 0px 0px 0px 0;
+  color: #807e7b;
+  font-weight: 700;
+}
+
+.specificationItemSpecifications--especificacionesmili {
+  font-weight: 700;
+  color: #807e7b;
+}
+
+.container--especificacionesmili {
+  margin-right: 62%;
+  padding: 0px 20px 0px 0px;
+}
+
+.specificationsTableContainer--especificacionesmili {
+  padding: 0;
+}
+/* Cierre de estilos para mililitros en producto -------*/
+
+
+
+
