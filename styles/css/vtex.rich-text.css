@@ -750,7 +750,8 @@
 }
 /*-----------------------------*/
 
-/*Esconder CUAL  ES  MI  TALLA  provisional para subir cambios*/
+
+/*Esconder CUAL  ES  MI  TALLA  provisional para subir cambios - primero agregar script en tag manager*/
 .wrapper--labelTallaTutorial {
   display: none;
 }
