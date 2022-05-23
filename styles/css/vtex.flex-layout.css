@@ -946,10 +946,35 @@ Estilos Producto Sección Contenido AC*/
 .flexColChild--rangePriceContainer{
   padding: 6% 0px;
   text-align: center;
-  background-color: #f1f1f3;
-  border: 1px white solid;
 }
 .flexCol--modalContentTalla{
   padding: 0px 3% 2% 3%;
 }
 /*---------------------------------*/
+
+/* Puntos de listas en Linea Etica y flecha de preguntas frecuentes version mobile*/
+@media (max-width: 639px) {
+  .flexColChild--list-item--img{
+    position: relative;
+    top: 29px;
+    left: -18px;
+  }
+  .flexRowContent--preguntas--frecuetes--trigger{
+    display: flex;
+  }
+  .flexRowContent--preguntas--frecuetes--trigger .stretchChildrenWidth:nth-child(2n){
+    width: 20% !important;
+  }
+  .flexCol--disclosure-state-indicator--preguntas--frecuentes{
+    position: relative;
+  }
+  .flexColChild--disclosure-state-indicator--preguntas--frecuentes{
+    position: absolute;
+    width: 12px !important;
+  }
+  .flexCol--list{
+    margin: 0;
+    padding: 0px 23px;
+  }
+}
+

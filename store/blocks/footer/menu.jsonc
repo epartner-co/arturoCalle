@@ -140,7 +140,7 @@
       "props":{
         "blockClass": "aperturaD"
       }
-      
+
     },
     "flex-layout.row#home__footer--columna-2":{
       "children": ["flex-layout.col#home__footer--columna-2--tileFCol"],
@@ -172,7 +172,7 @@
     "rich-text#answer2Col2": {
       "props": {
         "blockClass": "ContenidoDesplegable",
-        "text": "[VER TODAS NUESTAS TIENDAS](https://www.arturocalle.com/contenedor-localizador)"
+        "text": "[VER TODAS NUESTAS TIENDAS](https://digitalepartner.com/ac-localizador/localizador.html)"
       }
     },
     /* >>>>>>>>>>>>Cierre de  Columna 2*/
@@ -279,7 +279,7 @@
       "props":{
         "blockClass": "aperturaD"
       }
-      
+
     },
     "flex-layout.row#home__footer--columna-4":{
       "children": ["flex-layout.col#home__footer--columna-4--tileFCol"],
@@ -609,20 +609,20 @@
         "placeholderText":"Email"
       }
     },
-  
+
     "flex-layout.col#newsletter-checkbox-confirmation":{
       "children":[
         "newsletter-checkbox-confirmation"
       ]
     },
-  
+
     "flex-layout.col#newsletter-form--submit":{
       "props":{
         "blockClass":"newsletter-form--submit"
       },
       "children":[
         "newsletter-submit"
-        
+
       ]
     },
     "newsletter-submit":{

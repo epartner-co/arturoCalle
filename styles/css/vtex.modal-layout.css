@@ -181,9 +181,7 @@
 
 .headerContainer.headerContainer.headerContainer--cerradoPopProducto {position: absolute;right: 0;border: none;}
 
-/*-------------------------------------------------------------------------------*/
-/*  Estilos de Modal | Quiero saber cual es mi talla? | visualizado en producto */
-/*-----------------------------------------------------------------------------*/
+/*Estilos para modal de tallas en producto camisetsa */
 .modal--modalTallaTutorial{
   z-index: 99991 !important;
 }
@@ -195,4 +193,4 @@
   background-color: black;
   opacity: 0.8;
 }
-/*-----------------------------------------------------------------------*/
+/*--------------------------------------------------*/

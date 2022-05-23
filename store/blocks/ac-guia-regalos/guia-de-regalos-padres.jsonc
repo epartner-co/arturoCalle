@@ -213,7 +213,8 @@
       "flex-layout.col#rangePrice_1",
       "flex-layout.col#rangePrice_2",
       "flex-layout.col#rangePrice_3",
-      "flex-layout.col#rangePrice_4"
+      "flex-layout.col#rangePrice_4",
+      "flex-layout.col#rangePrice_5"
     ]
   },
 
@@ -249,29 +250,48 @@
       "link#rangePriceLink_4"
     ]
   },
+  "flex-layout.col#rangePrice_5":{
+    "props":{
+      "blockClass": "rangePriceContainer"
+    },
+    "children":[
+      "link#rangePriceLink_5"
+    ]
+  },
 
   "link#rangePriceLink_1": {
     "props": {
-      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=8900%20TO%20150000&searchState",
-      "label": "Menos de $150.000"
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=50000%20TO%2099900&searchState",
+      "label": "$50.000 de $99.900"
     }
   },
   "link#rangePriceLink_2": {
     "props": {
-      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=150000%20TO%20250000&searchState",
-      "label": "$150.000 a $250.000"
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=100000%20TO%20149000&searchState",
+      "label": "$100.000 a $149.000"
     }
   },
   "link#rangePriceLink_3": {
     "props": {
-      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=250000%20TO%20350000&searchState",
-      "label": "$250.000 a $350.000"
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=150000%20TO%20199900&searchState",
+      "label": "$150.000 a $199.900"
     }
   },
   "link#rangePriceLink_4": {
     "props": {
-      "href": "https://vactualmayo1--arturocalle.myvtex.com/hombre/ropa?fuzzy=0&initialMap=c,c&initialQuery=hombre/ropa&operator=and&priceRange=350000%20TO%20835900&searchState",
-      "label": "Más de $350.000"
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=200000%20TO%20399900&searchState",
+      "label": "$200.000 a $399.900"
+    }
+  },
+  "link#rangePriceLink_5": {
+    "props": {
+      "blockClass":"linkRangePrice",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=300000%20TO%20399900&searchState",
+      "label": "Mayor a $400.000"
     }
   }
   //----> CIERRE de Filtros Rango Precios Categoty

@@ -206,6 +206,7 @@
       //"flex-layout.row#list-price-savings",
       "product-list-price",
       "flex-layout.row#selling-price",
+      "product-specifications#mililitros",
       "flex-layout.row#right-colADDI",
       //"product-installments",
       //"product-separator",
@@ -669,6 +670,14 @@
       "children": ["product-specifications#detalles"],
       "props": {
         "tabId": "product2"
+      }
+    },
+    "product-specifications#mililitros":{
+      "props":{
+        "blockClass": "especificacionesmili",
+        "visibleSpecifications": [
+          "mL a"
+        ]
       }
     },
     "product-specifications#detalles":{
