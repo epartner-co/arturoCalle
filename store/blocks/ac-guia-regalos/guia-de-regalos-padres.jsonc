@@ -62,39 +62,39 @@
 
   "flex-layout.row#vitrineCategoryC-padres":{
       "children": [
-          "flex-layout.col#col-vitrine-categoryC-bono",
-          "flex-layout.col#col-vitrine-imagecarrusel-bono"
+          "flex-layout.col#col-vitrine-categoryC-padres",
+          "flex-layout.col#col-vitrine-imagecarrusel-padres"
       ],
       "props":{
           "blockClass": "row-vitrine-category",
           "preserveLayoutOnMobile": "true"
       }
   },
-  "flex-layout.col#col-vitrine-categoryC-mujer":{
+  "flex-layout.col#col-vitrine-categoryC-padres":{
       "children": [
-          "image#imagenCategoryC-mujer"
+          "image#imagenCategoryC-padres"
       ],
       "props":{
-          "width":"30%",
+          "width":"25%",
           "blockClass": "imagenColumnCategoryC"
       }
   },
-  "flex-layout.col#col-vitrine-imagecarrusel-mujer":{
+  "flex-layout.col#col-vitrine-imagecarrusel-padres":{
     "children": [
-      "list-context.image-list#democ-mujer"
+      "list-context.image-list#democ-padres"
     ],
     "props":{
-        "width":"69%",
+        "width":"75%",
         "blockClass": "vitrinaImage"
     }
 },
-  "image#imagenCategoryC-mujer": {
+  "image#imagenCategoryC-padres": {
       "props": {
         "src": "https://arturocalle.vteximg.com.br/arquivos/ids/392460/gift_guide_ac_2021.jpg",
         "blockClass": "imgCategoriaSliderC"
       }
   },
-  "list-context.image-list#democ-mujer": {
+  "list-context.image-list#democ-padres": {
     "children": ["slider-layout#demo-imagesC"],
     "props": {
       "height": 920,
@@ -103,21 +103,28 @@
           "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nina.jpg",
           "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nina.jpg",
           "link":{
-            "url":"/guia-de-regalo/nina"
+            "url":"/guia-de-regalos/nina"
+          }
+        },
+        {
+          "image": "https://arturocalle.vteximg.com.br/arquivos/imagen-extra.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/imagen-extra.jpg",
+          "link":{
+            "url":"/guia-de-regalos/mujers-de-regalo"
           }
         },
         {
           "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-gift-card.jpg",
           "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-gift-card.jpg",
           "link":{
-            "url":"/guia-de-regalos/mujers-de-regalo"
+            "url":"/guia-de-regalos/bonos-de-regalo"
           }
         },
         {
-          "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-mujer.jpg",
-          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-mujer.jpg",
+          "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-hombre.jpg",
+          "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-hombre.jpg",
           "link":{
-            "url":"/guia-de-regalos/mujer"
+            "url":"/guia-de-regalos/hombre"
           }
         },
         {
@@ -131,7 +138,7 @@
           "image": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nino.jpg",
           "mobileImage": "https://arturocalle.vteximg.com.br/arquivos/gift-ideas-2022-nino.jpg",
           "link":{
-            "url":"/guia-de-regalo/nina"
+            "url":"/guia-de-regalos/nino"
           }
         }
       ]
@@ -262,35 +269,35 @@
   "link#rangePriceLink_1": {
     "props": {
       "blockClass":"linkRangePrice",
-      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=50000%20TO%2099900&searchState",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=860&operator=and&priceRange=50000%20TO%2099900&searchState",
       "label": "$50.000 de $99.900"
     }
   },
   "link#rangePriceLink_2": {
     "props": {
       "blockClass":"linkRangePrice",
-      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=100000%20TO%20149000&searchState",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=859&operator=and&priceRange=100000%20TO%20149000&searchState",
       "label": "$100.000 a $149.000"
     }
   },
   "link#rangePriceLink_3": {
     "props": {
       "blockClass":"linkRangePrice",
-      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=150000%20TO%20199900&searchState",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=858&operator=and&priceRange=150000%20TO%20199900&searchState",
       "label": "$150.000 a $199.900"
     }
   },
   "link#rangePriceLink_4": {
     "props": {
       "blockClass":"linkRangePrice",
-      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=200000%20TO%20399900&searchState",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=857&operator=and&priceRange=200000%20TO%20399900&searchState",
       "label": "$200.000 a $399.900"
     }
   },
   "link#rangePriceLink_5": {
     "props": {
       "blockClass":"linkRangePrice",
-      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=751&operator=and&priceRange=300000%20TO%20399900&searchState",
+      "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=856&operator=and&priceRange=300000%20TO%20399900&searchState",
       "label": "Mayor a $400.000"
     }
   }
