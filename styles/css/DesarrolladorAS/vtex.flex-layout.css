@@ -154,15 +154,22 @@
     display: none;
   }
 
-  /* /guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos */
+  /* /guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos
   .flexCol.flexCol--imagenColumnCategoryC {
-    width: 161%;
-    z-index: 999999;
+    width: 161%;*/
+    /*z-index: 777;
+    -webkit-appearance: none !important;
+  }*/
+
+  .flexRowContent--row-vitrine-category {
+    display: grid;
+    grid-template-columns: 50% 50% !important;
+    max-height: 180px;
+  }
+  .flexRowContent--row-vitrine-category .stretchChildrenWidth {
+    width: 100% !important;
   }
 
-  .flexColChild--imagenColumnCategoryC {
-    width: 160%;
-  }
   /*---------------------------------------------------------------*/
 
   /*----------------------------------------------------------------------------*/
@@ -191,6 +198,19 @@
 
 }
 
+
+/*
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  /* /guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos
+  .flexCol.flexCol--imagenColumnCategoryC {
+    width: 161% !important;
+    z-index: 999999 !important;
+    height: 100% !important;
+  }
+  /*---------------------------------------------------------------
+}*/
 
 
 /*---------------------ZOOM PAGINA DE PRODUCTO*/

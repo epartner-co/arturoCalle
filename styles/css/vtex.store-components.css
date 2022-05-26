@@ -588,7 +588,7 @@ input#downshift-1-input {
 /*MOBILE FOOTER*/
 /****************/
 @media screen and (max-width: 700px) {
-  .imageElement.imageElement--imgCategoriaSliderC {height: 100%;}
+  /*.imageElement.imageElement--imgCategoriaSliderC {height: 100%;}*/
 
   .imageElement--flecha-abajo {
     margin: auto;
