@@ -154,6 +154,17 @@
     display: none;
   }
 
+  /* /guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos */
+  .flexCol.flexCol--imagenColumnCategoryC {
+    width: 161%;
+    z-index: 999999;
+  }
+
+  .flexColChild--imagenColumnCategoryC {
+    width: 160%;
+  }
+  /*---------------------------------------------------------------*/
+
   /*----------------------------------------------------------------------------*/
   /*  Acomodando vitrinas con titulos de producto - bolsita - precio visibles  */
   /*--------------------------------------------------------------------------*/
