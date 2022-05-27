@@ -27,7 +27,7 @@
     "form-input.text#email",
     "form-input.text#phone",
     "form-input.text#nacimiento",
-    "form-field-group#gender",
+    "form-input.dropdown#gender",
     "form-submit#enviar",
     "form-input.checkbox#agreement"
   ],
@@ -88,7 +88,7 @@
 },
   "form-field-group#gender": {
     "props": {
-      "pointer": "#/properties/gender/properties/genderType",
+      "pointer": "#/properties/gender",
       "placeholder": "Género",
       "blockClass": "news-genero-input"
     }
