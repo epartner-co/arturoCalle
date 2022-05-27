@@ -40,13 +40,15 @@
   },
   "filter-navigator.v3#category":{
       "props":{
-          "initiallyCollapsed": "false",
+          "initiallyCollapsed": false,
+          "showClearByFilter": true,
           "blockClass":"filtros"
       }
   },
   "filter-navigator.v3#category2":{
       "props":{
-          "initiallyCollapsed": "false",
+          "initiallyCollapsed": false,
+          "showClearByFilter": true,
           "blockClass":"filtros2"
       }
   }
