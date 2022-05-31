@@ -86,7 +86,7 @@
     "blockClass": "news-nacimiento-input"
   }
 },
-  "form-field-group#gender": {
+  "form-input.dropdown#gender": {
     "props": {
       "pointer": "#/properties/gender",
       "placeholder": "Género",

@@ -611,6 +611,8 @@
 .container--depto-mobile {
   display: none;
 }
+
+
 @media screen and (max-width: 700px) {
   .link.link--todo-categora.link--depto-mobile {
       display: block
@@ -644,6 +646,18 @@
     margin-top: 50px;
   }
 
+  /*  Estilos para titulo de rangos de precios  */
+  .paragraph--titleRanges.paragraph--titlem-MOBILE {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15%;
+    margin-bottom: -22%;
+  }
+
+  .heading--titleRanges.headingLevel3--titleRanges {
+    display: none;
+  }
+  /*-------------------------------------------*/
 }
 
 /*Category*/
@@ -757,3 +771,4 @@ primero agregar script en tag manager*/
   display: none;
 }
 /*-------------------------------------------------------- */
+

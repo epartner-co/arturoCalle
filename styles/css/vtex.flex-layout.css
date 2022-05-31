@@ -4,6 +4,10 @@
 .flexRowContent--maq{
   border: 1px red solid !important;
 }
+.flexCol--dNone, .dNone,
+.flexColChild--dNone,
+.flexRow--dNone,
+.flexRowContent--dNone{display: none !important;}
 
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
@@ -946,6 +950,7 @@ Estilos Producto Sección Contenido AC*/
 .flexColChild--rangePriceContainer{
   padding: 6% 0px;
   text-align: center;
+  font-size: small;
 }
 .flexCol--modalContentTalla{
   padding: 0px 3% 2% 3%;
@@ -953,7 +958,7 @@ Estilos Producto Sección Contenido AC*/
 /*---------------------------------*/
 
 /* Puntos de listas en Linea Etica y flecha de preguntas frecuentes version mobile*/
-@media (max-width: 639px) {
+@media (max-width: 700px) {
   .flexColChild--list-item--img{
     position: relative;
     top: 29px;
@@ -976,5 +981,27 @@ Estilos Producto Sección Contenido AC*/
     margin: 0;
     padding: 0px 23px;
   }
+  /* INI: Estilos de Rango precios para tamaño mobile */
+  .flexRow--rangePrice{
+    background-color: #ececec;
+    padding: 4% 10px 5px;
+    position: relative;
+    left: -5px;
+    margin-top: 23%;
+  }
+  .flexRowContent--rangePrice{
+    display: flex;
+  }
+  .flexCol--rangePriceContainer1,
+  .flexCol--rangePriceContainer2,
+  .flexCol--rangePriceContainer3,
+  .flexCol--rangePriceContainer4{
+    border-right: 1px #8b8b8b solid;
+  }
+  /* FIN: Estilos de Rango precios para tamaño mobile */
 }
 
+
+.flexRow--rangePrice{
+  background-color: #ececec;
+}

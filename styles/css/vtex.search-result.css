@@ -493,21 +493,24 @@ background: transparent;}
 }
 .filter__container--talla :global(.vtex-checkbox__line-container) {
   width: auto;
-  min-width: 35px;
+  min-width:44px;
   display: block;
   text-align: center;
   margin: 0;
   padding: 0;
-  height: 25px;
-  border-radius: 5px;
-  border: 1px solid;
+  height:25px;
+  border-radius:5px;
+  border:1px solid;
+}
+
+.filter__container--talla :global(.vtex-checkbox__label) {
+  font-size: 12px;
 }
 
 .filter__container--talla .filterItem--filtros {
-  margin: 6px;
   display: flex;
-  width: 14%;
-  margin-right: 8px;
+  width: 20%;
+  margin: 4px 5px 4px 5px;
 }
 
 .filter__container--talla .filterContent--filtros {
@@ -594,7 +597,11 @@ background: transparent;}
 
 .filtersWrapper--filtros {margin: 38px 0 0 0;}
 
-.filterTitleSpan--filtros {font-weight: 900;letter-spacing: 0.2px;}
+.filterTitleSpan--filtros {
+  font-weight: 900;
+  letter-spacing: 0.2px;
+  padding-top: 4px;
+}
 
 .filterTemplateOverflow--filtros {padding: 0 8%;}
 
@@ -605,3 +612,10 @@ background: transparent;}
   margin-right: -23%;
   width: 89%;
 }
+/*INI: Los tags de los filtros se hicieron mas grandes y estan alineados*/
+.filterTitleSpan--filtros :global(.vtex-tag){
+  position: relative;
+  top: -1px;
+  font-size: 15px;
+}
+/*FIN: Los tags de los filtros se hicieron mas grandes y estan alineados*/

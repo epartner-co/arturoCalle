@@ -2,6 +2,8 @@
   "store.custom#guia-regalos-padres": {
     "blocks": [
       "flex-layout.row#vitrineCategoryC-padres",
+      "rich-text#tituloRangoPrecio",
+      "rich-text#tituloRangoPrecioM",
       "flex-layout.row#rangePrice",
       "search-result-layout.customQuery#guia-regalos-padres"
     ]
@@ -212,10 +214,34 @@
       }
   },
 
+  //Titulo de rangos precios
+  "rich-text#tituloRangoPrecio": {
+    "props": {
+      "text": "### ESCOGE TU REGALO POR RANGO DE PRECIO",
+      "blockClass": ["titleRanges"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+
+  "rich-text#tituloRangoPrecioM": {
+    "props": {
+      "text": "ESCOGE TU REGALO \n POR RANGO DE PRECIOS ",
+      "blockClass": ["titleRanges", "titlem-MOBILE"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  //Cierre de ritulo de rangos precios
+
 
 
   //Filtros Rango Precios Categoty
   "flex-layout.row#rangePrice":{
+    "props":{
+      "blockClass":"rangePrice"
+    },
     "children":[
       "flex-layout.col#rangePrice_1",
       "flex-layout.col#rangePrice_2",
@@ -227,7 +253,7 @@
 
   "flex-layout.col#rangePrice_1":{
     "props":{
-      "blockClass": "rangePriceContainer"
+      "blockClass": ["rangePriceContainer", "rangePriceContainer1"]
     },
     "children":[
       "link#rangePriceLink_1"
@@ -235,7 +261,7 @@
   },
   "flex-layout.col#rangePrice_2":{
     "props":{
-      "blockClass": "rangePriceContainer"
+      "blockClass": ["rangePriceContainer", "rangePriceContainer2"]
     },
     "children":[
       "link#rangePriceLink_2"
@@ -243,7 +269,7 @@
   },
   "flex-layout.col#rangePrice_3":{
     "props":{
-      "blockClass": "rangePriceContainer"
+      "blockClass": ["rangePriceContainer", "rangePriceContainer3"]
     },
     "children":[
       "link#rangePriceLink_3"
@@ -251,7 +277,7 @@
   },
   "flex-layout.col#rangePrice_4":{
     "props":{
-      "blockClass": "rangePriceContainer"
+      "blockClass": ["rangePriceContainer", "rangePriceContainer4"]
     },
     "children":[
       "link#rangePriceLink_4"
@@ -259,7 +285,7 @@
   },
   "flex-layout.col#rangePrice_5":{
     "props":{
-      "blockClass": "rangePriceContainer"
+      "blockClass": ["rangePriceContainer", "rangePriceContainer5"]
     },
     "children":[
       "link#rangePriceLink_5"
@@ -270,7 +296,7 @@
     "props": {
       "blockClass":"linkRangePrice",
       "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=860&operator=and&priceRange=50000%20TO%2099900&searchState",
-      "label": "$50.000 de $99.900"
+      "label": "$50.000 a $99.900 xxx"
     }
   },
   "link#rangePriceLink_2": {

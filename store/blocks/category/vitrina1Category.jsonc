@@ -5,7 +5,7 @@
             "flex-layout.col#col-vitrine-category-1"
         ],
         "props":{
-            "blockClass": "row-vitrine-category",
+            "blockClass": ["row-vitrine-category", "dNone"],
             "preserveLayoutOnMobile": "true"
         }
     },
@@ -57,7 +57,7 @@
             "flex-layout.col#col-vitrine-category-1M"
         ],
         "props":{
-            "blockClass": "row-vitrine-category",
+            "blockClass": ["row-vitrine-category", "dNone"],
             "preserveLayoutOnMobile": "true"
         }
     },
