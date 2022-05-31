@@ -296,7 +296,7 @@
     "props": {
       "blockClass":"linkRangePrice",
       "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=860&operator=and&priceRange=50000%20TO%2099900&searchState",
-      "label": "$50.000 a $99.900 xxx"
+      "label": "$50.000 a $99.900"
     }
   },
   "link#rangePriceLink_2": {
