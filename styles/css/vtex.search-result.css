@@ -615,7 +615,7 @@ background: transparent;}
 /*INI: Los tags de los filtros se hicieron mas grandes y estan alineados*/
 .filterTitleSpan--filtros :global(.vtex-tag){
   position: relative;
-  top: -1px;
-  font-size: 15px;
+  top: -2px;
+  font-size: 12px;
 }
 /*FIN: Los tags de los filtros se hicieron mas grandes y estan alineados*/

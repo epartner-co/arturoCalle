@@ -5,6 +5,7 @@
   "footer-layout.desktop": {
     "children": [
       "image#whatsappS",
+      "flex-layout.row#News",
       "flex-layout.row#footer1",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#home__social-networks",
@@ -104,8 +105,8 @@
       "flex-layout.col#PrimeraCol1",
       "flex-layout.col#PrimeraCol2",
       "flex-layout.col#PrimeraCol3",
-      "flex-layout.col#PrimeraCol4",
-      "flex-layout.col#PrimeraCol5"
+      "flex-layout.col#PrimeraCol4"
+      //"flex-layout.col#PrimeraCol5"
     ],
     "props": {
       "blockClass": "menu-rowC",
@@ -207,6 +208,7 @@
 
   "footer-layout.mobile": {
     "children": [
+      "flex-layout.row#NewsM", //SECCION NEWSLETTER
       "flex-layout.row#footer1",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#home__social-networks",

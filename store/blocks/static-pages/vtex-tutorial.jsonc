@@ -1,0 +1,169 @@
+{
+  "store.custom#vtex-tutorial": {
+    "blocks": [
+      "responsive-layout.desktop#mainDesktop",
+      "responsive-layout.phone#mainPhone"
+    ]
+  },
+  "responsive-layout.desktop#mainDesktop": {
+    "children":[
+      "flex-layout.row#fila1",
+      "flex-layout.row#fila2",
+      "flex-layout.row#fila3"
+    ]
+  },
+  "responsive-layout.phone#mainPhone": {
+    "children":[
+      "flex-layout.row#filaMobile1"
+    ]
+  },
+
+  "flex-layout.row#fila1": {
+    "children":[
+      "flex-layout.col#columna1",
+      "flex-layout.col#columna2",
+      "flex-layout.col#columna3",
+      "flex-layout.col#columna4"
+    ]
+  },
+  "flex-layout.row#fila2": {
+    "children":[
+      "flex-layout.col#columna5",
+      "flex-layout.col#columna6",
+      "flex-layout.col#columna7"
+    ]
+  },
+  "flex-layout.row#fila3": {
+    "children":[
+      "flex-layout.col#columna8",
+      "flex-layout.col#columna9",
+      "flex-layout.col#columna10"
+    ]
+  },
+  "flex-layout.row#filaMobile1": {
+    "children":[
+      "flex-layout.col#columnaMobile1"
+    ]
+  },
+
+  "flex-layout.col#columna1": {
+    "children":[
+      "rich-text#titulo1"
+    ]
+  },
+  "flex-layout.col#columna2": {
+    "children":[
+      "rich-text#titulo2"
+    ]
+  },
+  "flex-layout.col#columna3": {
+    "children":[
+      "rich-text#titulo3"
+    ]
+  },
+  "flex-layout.col#columna4": {
+    "children":[
+      "rich-text#titulo4"
+    ]
+  },
+  "flex-layout.col#columna5": {
+    "children":[
+      "rich-text#titulo5"
+    ]
+  },
+  "flex-layout.col#columna6": {
+    "children":[
+      "rich-text#titulo6"
+    ]
+  },
+  "flex-layout.col#columna7": {
+    "children":[
+      "rich-text#titulo7"
+    ]
+  },
+  "flex-layout.col#columna8": {
+    "children":[
+      "rich-text#titulo8"
+    ],
+    "props":{
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#columna9": {
+    "children":[
+      "rich-text#titulo9"
+    ],
+    "props":{
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#columna10": {
+    "children":[
+      "rich-text#titulo10"
+    ],
+    "props":{
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#columnaMobile1": {
+    "children":[
+      "rich-text#tituloMobile1"
+    ]
+  },
+
+  "rich-text#titulo1": {
+    "props":{
+      "text": "Texto de la Columna UNO"
+    }
+  },
+  "rich-text#titulo2": {
+    "props":{
+      "text": "Texto de la Columna DOS"
+    }
+  },
+  "rich-text#titulo3": {
+    "props":{
+      "text": "Texto de la Columna TRES"
+    }
+  },
+  "rich-text#titulo4": {
+    "props":{
+      "text": "Texto de la Columna CUATRO"
+    }
+  },
+  "rich-text#titulo5": {
+    "props":{
+      "text": "Texto de la Columna CINCO"
+    }
+  },
+  "rich-text#titulo6": {
+    "props":{
+      "text": "Texto de la Columna SEIS"
+    }
+  },
+  "rich-text#titulo7": {
+    "props":{
+      "text": "Texto de la Columna SIETE"
+    }
+  },
+  "rich-text#titulo8": {
+    "props":{
+      "text": "Texto de la Columna OCHO"
+    }
+  },
+  "rich-text#titulo9": {
+    "props":{
+      "text": "Texto de la Columna NUEVE"
+    }
+  },
+  "rich-text#titulo10": {
+    "props":{
+      "text": "Texto de la Columna DIEZ"
+    }
+  },
+  "rich-text#tituloMobile1": {
+    "props":{
+      "text": "Texto de la Columna para Celulares UNO"
+    }
+  }
+}

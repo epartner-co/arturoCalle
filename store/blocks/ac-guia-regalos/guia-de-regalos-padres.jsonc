@@ -256,7 +256,7 @@
       "blockClass": ["rangePriceContainer", "rangePriceContainer1"]
     },
     "children":[
-      "link#rangePriceLink_1"
+      "link#rangePriceLink_1B"
     ]
   },
   "flex-layout.col#rangePrice_2":{
@@ -292,7 +292,7 @@
     ]
   },
 
-  "link#rangePriceLink_1": {
+  "link#rangePriceLink_1B": {
     "props": {
       "blockClass":"linkRangePrice",
       "href": "/guia-regalos-padres?fuzzy=0&initialMap=productClusterIds&initialQuery=860&operator=and&priceRange=50000%20TO%2099900&searchState",

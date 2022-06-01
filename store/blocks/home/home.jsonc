@@ -1,7 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
+      "video#backgroundVideoBanner",
+      //"list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#banners",
@@ -18,6 +19,19 @@
      "flex-layout.row#titleS",
      "flex-layout.row#shelf"
     ]
+  },
+
+  //VIDEO
+  "video#backgroundVideoBanner": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=HjIIRgOXeHg",
+      "blockClass": "videoBanner"
+    }
   },
 
   //Slider principal Mobil y desktop

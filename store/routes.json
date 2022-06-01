@@ -394,6 +394,9 @@
   },
   "store.custom#news-letter": {
     "path": "/newsletter"
+  },
+  "store.custom#vtex-tutorial": {
+    "path": "/vtex-tutorial"
   }
 
 }

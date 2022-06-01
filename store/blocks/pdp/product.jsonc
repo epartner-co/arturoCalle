@@ -14,8 +14,7 @@
       "condition-layout.product#availability",
       "sticky-layout#buy-button",
       "shelf.relatedProducts#accesorios",
-      "shelf.relatedProducts#view",
-      "flex-layout.row#News"
+      "shelf.relatedProducts#view"
     ]
   },
   "addi-infos":{},
@@ -25,8 +24,7 @@
       "vtex.product-highlights@2.x:product-highlights#collectionC",
       "condition-layout.product#availability",
       "shelf.relatedProducts#accesorios",
-      "shelf.relatedProducts#view",
-      "flex-layout.row#News"
+      "shelf.relatedProducts#view"
     ]
   },
   "responsive-layout.phone":{
@@ -34,8 +32,7 @@
       "flex-layout.row#product-breadcrumb",
       "condition-layout.product#availabilityMobile",
       "shelf.relatedProducts#accesorios",
-      "shelf.relatedProducts#view",
-      "flex-layout.row#NewsM"
+      "shelf.relatedProducts#view"
     ]
   },
 
