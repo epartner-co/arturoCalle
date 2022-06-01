@@ -1,23 +1,23 @@
 {
   "store.home": {
     "blocks": [
-      "video#backgroundVideoBanner",
-      //"list-context.image-list#demo",
+      //"video#backgroundVideoBanner",
+      "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#banners",
       "flex-layout.row#banners1",
-     // "__fold__.experimentalLazyAssets",
-     // "flex-layout.row#deals",
-     "rich-text#title",
-     "rich-text#titleM",
-     "slider-layout#slider-categorias-mobile",
-     "flex-layout.row#bannersbulletsecond",
-     "flex-layout.row#bannersbulletsecond1",
-     "rich-text#title2",
-     "flex-layout.row#bannersbulletthrid",
-     "flex-layout.row#titleS",
-     "flex-layout.row#shelf"
+      // "__fold__.experimentalLazyAssets",
+      "flex-layout.row#deals",
+      "rich-text#title",
+      "rich-text#titleM",
+      "slider-layout#slider-categorias-mobile",
+      "flex-layout.row#bannersbulletsecond",
+      "flex-layout.row#bannersbulletsecond1",
+      "rich-text#title2",
+      "flex-layout.row#bannersbulletthrid",
+      "flex-layout.row#titleS",
+      "flex-layout.row#shelf"
     ]
   },
 
