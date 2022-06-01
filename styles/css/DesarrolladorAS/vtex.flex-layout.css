@@ -161,15 +161,16 @@
     -webkit-appearance: none !important;
   }*/
 
+  /*/guia-regalos-padres  - banner azul claro inicial que anuncia los bono regalos*/
   .flexRowContent--row-vitrine-category {
     display: grid;
-    grid-template-columns: 50% 50% !important;
-    max-height: 180px;
+    grid-template-columns: 45% 50% !important;
+    max-height: 160px;
   }
   .flexRowContent--row-vitrine-category .stretchChildrenWidth {
     width: 100% !important;
+    height: 90% !important;
   }
-
   /*---------------------------------------------------------------*/
 
   /*----------------------------------------------------------------------------*/
