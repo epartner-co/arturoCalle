@@ -120,9 +120,11 @@
   height: 34% !important;
 }
 
+/*Imagenes (4) pequeñas que van superpuestas*/
 .flexColChild--dealschild{
   margin-left: 5px;
   margin-right: 5px;
+  z-index: 9999;
 }
 
 
