@@ -15,7 +15,8 @@
       "menu-item#category-nina",
       "menu-item#category-leather",
       "menu-item#category-freedom",
-      "menu-item#category-ofertas"
+      "menu-item#category-ofertas",
+      "menu-item#category-sorprendePapa"
       //"menu-item#category-adicional"
 
     ]
@@ -165,6 +166,24 @@
     "blocks": ["vtex.menu@2.x:submenu#ofertas"]
   },
 
+  "menu-item#category-sorprendePapa": {
+    "props": {
+      "id": "menu-item-category-sorprendePapa",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/guia-regalos-padres",
+        "noFollow": false,
+        "tagTitle": "Sorprende a Papá",
+        "text": "SORPRENDE A PAPÁ"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#sorprendePapa"]
+  },
+
   /*
   "menu-item#category-adicional": {
     "props": {
@@ -217,6 +236,11 @@
   "vtex.menu@2.x:submenu#ofertas": {
     "children": [
       "flex-layout.row#rowCatsOfertas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#sorprendePapa": {
+    "children": [
+      "flex-layout.row#rowCatsSorprendePapa"
     ]
   },
 
@@ -1368,6 +1392,24 @@
     ]
   },
 
+  "flex-layout.row#rowCatsSorprendePapa":{
+    "props": {
+      "width": "100%",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cats"
+    },
+    "children":
+    [
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-sorprendePapa-cat1",
+      "flex-layout.col#menu-nivel-sorprendePapa-cat2",
+      "flex-layout.col#menu-nivel-hombre-clean",
+      "flex-layout.col#menu-nivel-hombre-clean"
+    ]
+  },
+
 
   "flex-layout.col#menu-nivel-accesorios-cat1": {
     "props": {
@@ -1382,6 +1424,24 @@
       "rich-text#menu-nivel-accesorios-cat1-sub3",
       "rich-text#menu-nivel-accesorios-cat1-sub2",
       "rich-text#menu-nivel-accesorios-cat1-sub4",
+      "rich-text#clean",
+      "rich-text#clean"
+    ]
+  },
+
+  "flex-layout.col#menu-nivel-sorprendePapa-cat1": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub1",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub3",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub2",
+      "rich-text#menu-nivel-sorprendePapa-cat1-sub4",
       "rich-text#clean",
       "rich-text#clean"
     ]
@@ -1413,6 +1473,31 @@
     }
   },
 
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub1":{
+    "props": {
+      "blockClass":"item-cat-bold",
+      "text":"[SORPRENDE A PAPÁ](/guia-regalos-padres)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Polos y Camisetas](https://www.arturocalle.com/[861]?map=productClusterIds)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Jeans y pantalones](https://www.arturocalle.com/[863]?map=productClusterIds)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat1-sub4":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Camisas](https://www.arturocalle.com/hombre/ropa/camisas)"
+    }
+  },
+
 
   "flex-layout.col#menu-nivel-accesorios-cat2": {
     "props": {
@@ -1429,6 +1514,22 @@
       "rich-text#clean"
     ]
   },
+  "flex-layout.col#menu-nivel-sorprendePapa-cat2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "blockClass": "menu-nivel-hombre-cat-sub"
+    },
+    "children": [
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#clean",
+      "rich-text#menu-nivel-sorprendePapa-cat2-sub1",
+      "rich-text#menu-nivel-sorprendePapa-cat2-sub2",
+      "rich-text#menu-nivel-sorprendePapa-cat2-sub3",
+      "rich-text#clean"
+    ]
+  },
 
 
   "rich-text#menu-nivel-accesorios-cat2-sub1":{
@@ -1441,6 +1542,25 @@
     "props": {
       "blockClass":"item-cat",
       "text":"[Maletines y Morrales](/viaje/maletas-de-viaje)"
+    }
+  },
+
+  "rich-text#menu-nivel-sorprendePapa-cat2-sub1":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Zapatos](/https://www.arturocalle.com/hombre/zapatos)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat2-sub2":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Accesorios](https://www.arturocalle.com/hombre/accesorios)"
+    }
+  },
+  "rich-text#menu-nivel-sorprendePapa-cat2-sub3":{
+    "props": {
+      "blockClass":"item-cat",
+      "text":"[Bono de Regalo](https://www.arturocalle.com/bono-de-regalo/)"
     }
   },
 

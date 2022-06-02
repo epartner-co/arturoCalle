@@ -1399,5 +1399,10 @@ input#downshift-1-input {
 /* Cierre de estilos para mililitros en producto -------*/
 
 
+.imageElement--dia--sin--iva--abc--imagen {
+  padding: 0 30%;
+  border: none;
+}
+
 
 

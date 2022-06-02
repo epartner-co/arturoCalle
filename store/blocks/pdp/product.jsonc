@@ -898,7 +898,7 @@
 
   "rich-text#text": {
     "props": {
-      "text": "##### Recibe 10% en tu  \n primera compra",
+      "text": "##### Recibe 15% en tu  \n primera compra",
       "blockClass": "botonnews"
     }
   },

@@ -99,7 +99,7 @@
 .trigger--aperturaD{
     position: relative;
 }
-  .trigger--aperturaD--hidden::after {
+.trigger--aperturaD--hidden::after {
     content: " ";
     width: 13px;
     height: 20px;
@@ -126,3 +126,23 @@
     position: relative;
 }
 
+/*Distancia de flechas del footer en Desktop*/
+@media (min-width: 1000px) {
+    .trigger--footerApertura1--hidden::after,
+    .trigger--footerApertura1--visible::after{
+        right: 17%;
+    }
+    .trigger--footerApertura2--hidden::after,
+    .trigger--footerApertura2--visible::after{
+        right: 32%;
+    }
+    .trigger--footerApertura3--hidden::after,
+    .trigger--footerApertura3--visible::after{
+        right: 26%;
+    }
+    .trigger--footerApertura4--hidden::after,
+    .trigger--footerApertura4--visible::after{
+        right: 20%;
+    }
+  /*------------------------------------------*/
+}

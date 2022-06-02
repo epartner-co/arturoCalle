@@ -18,7 +18,7 @@
           },
           "children":[
               "rich-text#titulo--linea-etica",
-              "image#linea--etica--imagen--portada",
+              "image#dia--sin--iva--abc--imagen",
               "rich-text#subtitulo--linea-etica",
               "rich-text#recuadro--compromiso",
               "rich-text#contenido--linea-etica",
@@ -37,10 +37,10 @@
           }
       },
       /*primera imagen*/
-      "image#linea--etica--imagen--portada":{
+      "image#dia--sin--iva--abc--imagen":{
         "props": {
-            "blockClass":"linea--etica--imagen--portada",
-            "src": "assets/desk/static-pages/linea-etica.webp"
+            "blockClass":"dia--sin--iva--abc--imagen",
+            "src": "assets/desk/static-pages/diaSinIva/ABCDIASINIVA3DICMOBILE.jpg"
           }
       },
       /*subtitulo*/
