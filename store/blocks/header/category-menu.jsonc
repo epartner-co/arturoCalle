@@ -1482,19 +1482,19 @@
   "rich-text#menu-nivel-sorprendePapa-cat1-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"[Polos y Camisetas](https://www.arturocalle.com/[861]?map=productClusterIds)"
+      "text":"[Polos y Camisetas](/[861]?map=productClusterIds)"
     }
   },
   "rich-text#menu-nivel-sorprendePapa-cat1-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"[Jeans y pantalones](https://www.arturocalle.com/[863]?map=productClusterIds)"
+      "text":"[Jeans y pantalones](/[863]?map=productClusterIds)"
     }
   },
   "rich-text#menu-nivel-sorprendePapa-cat1-sub4":{
     "props": {
       "blockClass":"item-cat",
-      "text":"[Camisas](https://www.arturocalle.com/hombre/ropa/camisas)"
+      "text":"[Camisas](/hombre/ropa/camisas)"
     }
   },
 
@@ -1548,19 +1548,19 @@
   "rich-text#menu-nivel-sorprendePapa-cat2-sub1":{
     "props": {
       "blockClass":"item-cat",
-      "text":"[Zapatos](/https://www.arturocalle.com/hombre/zapatos)"
+      "text":"[Zapatos](/hombre/zapatos)"
     }
   },
   "rich-text#menu-nivel-sorprendePapa-cat2-sub2":{
     "props": {
       "blockClass":"item-cat",
-      "text":"[Accesorios](https://www.arturocalle.com/hombre/accesorios)"
+      "text":"[Accesorios](/hombre/accesorios)"
     }
   },
   "rich-text#menu-nivel-sorprendePapa-cat2-sub3":{
     "props": {
       "blockClass":"item-cat",
-      "text":"[Bono de Regalo](https://www.arturocalle.com/bono-de-regalo/)"
+      "text":"[Bono de Regalo](/bono-de-regalo/)"
     }
   },
 
