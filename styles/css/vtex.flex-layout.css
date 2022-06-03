@@ -188,8 +188,8 @@
 
 .flexRowContent--menu-rowC {
   text-align: center;
-  margin: 0 2%;
-  width: 96%;
+  margin: 0px auto;
+  width: 85%;
 }
 
 .items-stretch.w-100 {

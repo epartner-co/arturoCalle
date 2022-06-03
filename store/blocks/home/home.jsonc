@@ -1,15 +1,15 @@
 {
   "store.home": {
     "blocks": [
-      //"video#backgroundVideoBanner",
+      "video#backgroundVideoBanner",
 
-      "list-context.image-list#demo",
+      //"list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#banners",
       "flex-layout.row#banners1",
       // "__fold__.experimentalLazyAssets",
-      "flex-layout.row#deals",
+      //"flex-layout.row#deals",
       "rich-text#title",
       "rich-text#titleM",
       "slider-layout#slider-categorias-mobile",
@@ -22,12 +22,12 @@
     ]
   },
 
-  //VIDEO
+  //VIDEO BANNER
   "video#backgroundVideoBanner": {
     "props": {
       "width": "100%",
       "height": "600px",
-      "loop": false,
+      "loop": true,
       "autoPlay": true,
       "muted": false,
       "src": "https://www.youtube.com/watch?v=HjIIRgOXeHg",
