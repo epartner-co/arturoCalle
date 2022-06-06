@@ -771,4 +771,10 @@ primero agregar script en tag manager*/
   display: none;
 }
 /*-------------------------------------------------------- */
-
+/*INI: Texto Envios Gratis en el Head*/
+.wrapper--enviosGratisHead{
+  font-family: 'DINPro';
+  font-size: 13px;
+}
+.container--enviosGratisHead{padding-right: 15px;}
+/*FIN: Texto Envios Gratis en el Head*/

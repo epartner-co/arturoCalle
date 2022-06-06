@@ -21,6 +21,7 @@
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
+      "rich-text#enviosGratisHead",
       "image#icon-wpp",
       "menu-item#vtex-website",
       "image#icon-pedidos",
@@ -63,6 +64,12 @@
         "tagTitle": "Escríbenos por vía whatsapp",
         "text": "VENTAS WHATSAPP"
       }
+    }
+  },
+  "rich-text#enviosGratisHead":{
+    "props":{
+      "blockClass": "enviosGratisHead",
+      "text": "Envíos Gratis por compras superiores a $149.900"
     }
   },
 

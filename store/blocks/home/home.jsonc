@@ -30,7 +30,8 @@
       "loop": true,
       "autoPlay": true,
       "muted": false,
-      "src": "https://www.youtube.com/watch?v=HjIIRgOXeHg",
+      //"src": "https://www.youtube.com/watch?v=HjIIRgOXeHg",
+      "src": "https://vimeo.com/102945028",
       "blockClass": "videoBanner"
     }
   },

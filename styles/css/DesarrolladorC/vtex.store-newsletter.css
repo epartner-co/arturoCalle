@@ -60,6 +60,9 @@
 .newsletterForm.newsletterForm--newsletter :global(.vtex-checkbox__box-wrapper){
   background: white;
 }
+.newsletterForm.newsletterForm--newsletter :global(.vtex-checkbox__box) {
+  color: #151d29!important;
+}
 
 .newsletterForm.newsletterForm--newsletter .formSubmitContainer :global(.vtex-button):hover{
   background: white;
