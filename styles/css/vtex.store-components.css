@@ -1260,6 +1260,7 @@ input#downshift-1-input {
 .skuSelectorContainer--selector .skuSelectorName{
   display: block;
 }
+
 .skuSelectorSubcontainer {
   margin-bottom: 0;
 }
@@ -1289,7 +1290,7 @@ input#downshift-1-input {
 }
 .skuSelectorSubcontainer--talla {
   opacity: 0;
-  visibility: hidden;
+  /*visibility: hidden;*/
   transition: 0s;
   position: absolute;
   top: -5px;
@@ -1397,12 +1398,6 @@ input#downshift-1-input {
   padding: 0;
 }
 /* Cierre de estilos para mililitros en producto -------*/
-
-
-.imageElement--dia--sin--iva--abc--imagen {
-  padding: 0;
-  border: none;
-}
 
 
 

@@ -5,20 +5,23 @@
   border-radius: 0;
 }
 
-/*Tooltip que sale cuando no se ha seleccionado tallas o colores */
-.popup{
-  font-size: 0px;
-  content: "asdasdasd" !important;
-  background-color: white;
-  outline: 2px solid red;
-  color: red;
-  padding: 10px;
-  border-radius: 0;
-}
+@media (min-width: 1000px) {
+  /*Tooltip que sale cuando no se ha seleccionado tallas o colores */
+  .popup{
+    font-size: 0px;
+    content: "asdasdasd" !important;
+    background-color: white;
+    outline: 2px solid red;
+    color: red;
+    padding: 10px;
+    border-radius: 0;
+  }
 
-.popup::after {
-  content: "Falta seleccionar la TALLA y/o COLOR para agregar el producto al carrito de compras";
-  font-size: 12px;
-  text-align: center;
+  .popup::after {
+    content: "Falta seleccionar la TALLA y/o COLOR para agregar el producto al carrito de compras";
+    font-size: 12px;
+    text-align: center;
+  }
+  /*----------------------------------------------------------------*/
+
 }
-/*----------------------------------------------------------------*/

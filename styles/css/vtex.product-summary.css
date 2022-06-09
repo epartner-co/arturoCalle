@@ -83,3 +83,14 @@
   opacity: 1;
   visibility: visible;
 }
+/*Vitrinas en mobile con tallas fijas*/
+@media (max-width: 600px) {
+  .containerNormal :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
+    display: flex;
+    top: 0;
+    position: relative;
+    transition: 1s;
+    opacity: 1;
+    visibility: visible;
+  }
+}
