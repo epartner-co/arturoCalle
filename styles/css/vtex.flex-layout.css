@@ -49,6 +49,14 @@
   display: block;
 }
 
+/*altura de top-menu*/
+.flexRowContent--menu-link {
+  align-items: center;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+/*-----------------*/
+
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLinkContainer) {
   margin-left: 0.5rem;
 }

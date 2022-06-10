@@ -1,9 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      //"video#backgroundVideoBanner",
+      "video#backgroundVideoBanner",
 
-      "list-context.image-list#demo",
+      //"list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#banners",
@@ -31,7 +31,7 @@
       "autoPlay": true,
       "muted": false,
       //"src": "https://www.youtube.com/watch?v=HjIIRgOXeHg",
-      "src": "https://vimeo.com/102945028",
+      "src": "https://digitalepartner.com/Diesel/video/Banner01_e-comerce.mp4",
       "blockClass": "videoBanner"
     }
   },
