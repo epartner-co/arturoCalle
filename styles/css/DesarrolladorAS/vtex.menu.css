@@ -67,9 +67,10 @@
     color: red;
   }
   .menuContainerNav {
-    height: 100vh;
+    /*height: 100vh;*/
     overflow: scroll;
     width: 100%;
+    height: auto;
 }
 .styledLinkContent--item {
   width: 100%;

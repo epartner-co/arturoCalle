@@ -48,14 +48,14 @@ background: transparent;}
 .container--layout{
   background: #fafafa;
 }
-.filter__container--selectedFilters {
-  /*display: none;*/
-}
+/*.filter__container--selectedFilters {
+  display: none;
+}*/
 
 /*Filtros*/
-.vtex-search-result-3-x-filter__container.vtex-search-result-3-x-filter__container--filtros.bb.b--muted-4.vtex-search-result-3-x-filter__container--selectedFilters {
-  /*display: none;*/
-}
+/*.vtex-search-result-3-x-filter__container.vtex-search-result-3-x-filter__container--filtros.bb.b--muted-4.vtex-search-result-3-x-filter__container--selectedFilters {
+  display: none;
+}*/
 
 .filterItem :global(.vtex-checkbox__container) {
   position: absolute;
@@ -619,3 +619,9 @@ background: transparent;}
   font-size: 12px;
 }
 /*FIN: Los tags de los filtros se hicieron mas grandes y estan alineados*/
+
+/*Ocultar la marca*/
+.filter__container--brand {
+  display: none;
+}
+/*--------------*/
