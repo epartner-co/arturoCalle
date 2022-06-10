@@ -41,32 +41,33 @@
 
 .slide .slideChildrenContainer.slideChildrenContainer--carouselC {margin: 0 !important;}
 
+
 @media screen and (max-width: 700px) {
 
-.imageElement.imageElement--carouselC {margin: 0 ! important;}
+  .imageElement.imageElement--carouselC {margin: 0 ! important;}
 
-.sliderTrack--carouselC .slide.slide--carouselC {margin: 0px 2px !important;}
+  .sliderTrack--carouselC .slide.slide--carouselC {margin: 0px 2px !important;}
 
-.sliderLayoutContainer--slider-moible {
-    display: block;
-}
-.slideChildrenContainer--categorias2-banners.slideChildrenContainer--slider-moible {
-  margin: 0 3px;
-}
-.sliderLayoutContainer.sliderLayoutContainer--shelf {
-  width: 100%;
-}
-.sliderLayoutContainer--shelf {
-  width: 100% !important;
-}
-.caretIcon--shelf {
-  color: black;
-  width: 20px;
-}
-.sliderRightArrow--shelf {
-  position: absolute;
-  right: 0 !important;
-}
+  .sliderLayoutContainer--slider-moible {
+      display: block;
+  }
+  .slideChildrenContainer--categorias2-banners.slideChildrenContainer--slider-moible {
+    margin: 0 3px;
+  }
+  .sliderLayoutContainer.sliderLayoutContainer--shelf {
+    width: 100%;
+  }
+  .sliderLayoutContainer--shelf {
+    width: 100% !important;
+  }
+  .caretIcon--shelf {
+    color: black;
+    width: 20px;
+  }
+  .sliderRightArrow--shelf {
+    position: absolute;
+    right: 0 !important;
+  }
 }
 /*------------------------------------*/
 /*    MOBILE DEPARTAMENTO HOMBRE      */
@@ -127,3 +128,9 @@
 .slide--shelfW {max-width: 25%;}
 
 .slide.slide--carouselC {margin: 0 5px !important;}
+
+@media (min-width: 1000px) {
+  .sliderLayoutContainer.sliderLayoutContainer--carousel {
+    display: none;
+  }
+}
