@@ -43,15 +43,32 @@
 .nameContainer--product-summary-name{
   margin-top: 43px;
   margin-left: 19px;
+  
 }
 .nameContainer--product-summary-name :global(.vtex-product-summary-2-x-productBrand){
   font-weight: normal;
   font-size: 15px;
+  
 }
 
 .nameContainer--product-summary-name :global(.vtex-product-summary-2-x-productNameContainer--product-summary-name){
   text-align:center;
+  
 }
+
+.nameContainer{
+  height: 1rem;
+}
+
+.productNameContainer{
+  line-clamp: 1 ;
+  -webkit-line-clamp: 1 ;
+  display: -webkit-box ;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 

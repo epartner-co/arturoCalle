@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "back-to-top-button",
       "image#whatsappS",
       "flex-layout.row#News",
       "flex-layout.row#footer1",
@@ -12,6 +13,13 @@
       "rich-text#terms",
       "flex-layout.row#term--y--logo"
     ]
+  },
+  "back-to-top-button":{
+    "props":{
+    "blockClass": "backToUp",
+    "display": "caret-icon",
+    "displayThreshold": 800
+    }
   },
   "image#whatsappS": {
     "props": {

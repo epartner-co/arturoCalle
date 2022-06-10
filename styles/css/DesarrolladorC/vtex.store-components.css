@@ -483,3 +483,23 @@
 .skuSelectorContainer--selector .skuSelectorSubcontainer--talla::after {content: "" !important;}
 
 .productImageTag.productImageTag--images-modal-zoom.productImageTag--main.productImageTag--images-modal-zoom--main {min-width: 100% !important;}
+
+
+
+.backToTopButtonContainer :global(.vtex-button){
+  background-color:white ;
+  color: transparent;
+  outline: solid 3px #455a64;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none ;
+  bottom: calc(1vh + 40px);
+  left:13px;
+  background-image: url("https://cdn.discordapp.com/attachments/430453905902796804/984936784398012476/up-arrow.png");
+  background-repeat : no-repeat;
+  background-size : 16px;
+  background-position : 12px ;
+  padding-left: 0;
+}
+
