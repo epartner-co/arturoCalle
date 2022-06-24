@@ -129,8 +129,11 @@
 
 .slide.slide--carouselC {margin: 0 5px !important;}
 
-@media (min-width: 1000px) {
+/*@media (min-width: 1000px) {
   .sliderLayoutContainer.sliderLayoutContainer--carousel {
     display: none;
   }
+}*/
+.slideChildrenContainer--dia--sin--iva--abc--imagen :global(.vtex-store-components-3-x-imageElementLink--dia--sin--iva--abc--imagen) {
+  width: 100%;
 }

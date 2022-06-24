@@ -18,7 +18,7 @@
           },
           "children":[
               "rich-text#titulo--linea-etica",
-              "image#dia--sin--iva--abc--imagen",
+              "list-context.image-list#dia--sin--iva--abc--imagen",
               "rich-text#subtitulo--linea-etica",
               "rich-text#recuadro--compromiso",
               "rich-text#contenido--linea-etica",
@@ -35,6 +35,35 @@
             "list":true,
             "text":"Línea Ética"
           }
+      },
+
+      "list-context.image-list#dia--sin--iva--abc--imagen": {
+        "children": ["slider-layout#demo-images23"],
+        "props": {
+          "height": 2920,
+          "images": [
+            {
+              "image": "assets/desk/static-pages/diaSinIva/ABCDIASINIVA3DICMOBILE.jpg",
+              "mobileImage": "assets/desk/static-pages/diaSinIva/ABCDIASINIVA3DICMOBILE.jpg",
+              "link":{
+                "url":"/mujer/ropa"
+              }
+            }
+          ]
+        }
+      },
+      "slider-layout#demo-images23": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "showPaginationDots": "never",
+          "infinite": true,
+          "showNavigationArrows": "never",
+          "blockClass": "dia--sin--iva--abc--imagen"
+        }
       },
       /*primera imagen*/
       "image#dia--sin--iva--abc--imagen":{

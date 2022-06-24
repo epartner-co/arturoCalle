@@ -30,13 +30,15 @@
 }
 
 .productNameContainer{
-  min-height: 60px;
+  /*min-height: 60px;*/
   padding: 0 5px;
 }
 /*Quitar borde de color en category*/
 .frameAround.frameAround--vitrina {
   border: none;
 }
+
+/*REDUCCIÓN VITRINA*/
 .container--categoria .productNameContainer{
-  min-height: 40px;
+  min-height: 30px;
 }

@@ -429,13 +429,24 @@
     },
     "flex-layout.col#newsletter-checkbox-confirmation--footer":{
       "children":[
-        "newsletter-checkbox-confirmation#footer"
-      ]
+        "newsletter-checkbox-confirmation#footer",
+        "rich-text#terminosNewsLetter"
+      ],
+      "props":{
+        "blockClass":"TTest"       
+      }
     },
     "newsletter-checkbox-confirmation#footer":{
       "props":{
-        "blockClass":"newsletter-checkbox-confirmation--footer",
-        "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aquí"
+        "blockClass":"newsletter-checkbox-confirmation--footer-Link"
+        //"checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aquí"
+      }
+    },
+    "rich-text#terminosNewsLetter": {
+      "props": {
+        "width": "90%",
+        "blockClass": "newsletter-checkbox-confirmation--footer-Texto",
+        "text": "Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra [aquí](/autorizacion-tratamiento-datos-personales)"
       }
     },
 
@@ -612,8 +623,12 @@
 
     "flex-layout.col#newsletter-checkbox-confirmation":{
       "children":[
-        "newsletter-checkbox-confirmation"
-      ]
+        "newsletter-checkbox-confirmation",
+        "rich-text#terminosNewsLetter"
+      ],
+      "props":{
+        "blockClass":"newsletter-checkbox-confirmation-TTEESSTT"
+      }
     },
 
     "flex-layout.col#newsletter-form--submit":{
@@ -633,8 +648,8 @@
     },
     "newsletter-checkbox-confirmation":{
       "props":{
-        "blockClass":"newsletter-checkbox-confirmation",
-        "checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aquí"
+        "blockClass":"newsletter-checkbox-confirmation"
+        //"checkboxLabel":"Autorizo el uso y tratamiento de mis datos personales de acuerdo a la autorización que se encuentra aquí"
       }
     }
   }

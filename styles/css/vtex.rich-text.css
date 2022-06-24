@@ -778,3 +778,14 @@ primero agregar script en tag manager*/
 }
 .container--enviosGratisHead{padding-right: 15px;}
 /*FIN: Texto Envios Gratis en el Head*/
+
+
+.paragraph--newsletter-checkbox-confirmation--footer-Texto {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1;
+  color: #3f3f40;
+}
+.link--newsletter-checkbox-confirmation--footer-Texto {
+  color: #3f3f40;
+}

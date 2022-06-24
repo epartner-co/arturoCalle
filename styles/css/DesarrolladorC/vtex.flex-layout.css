@@ -28,7 +28,6 @@
   background-color: rgb(255 255 255 / 95%)!important;
   right: 0px !important;
   width: 100% !important;
-  margin-top: -2%;
   z-index: -55555;
 }
 .flexColChild--circuloN::before {

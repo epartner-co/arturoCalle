@@ -1,6 +1,6 @@
 .productName {font-size: 10px;}
 
-.productPriceContainer {text-align: inherit;}
+/*.productPriceContainer {text-align: inherit;}*/
 
 .productVariationsContainer {display: flex;border-bottom: 1px solid #ccc9c9;margin: 0 0 10px 0;}
 

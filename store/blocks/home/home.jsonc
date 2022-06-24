@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "video#backgroundVideoBanner",
+//      "video#backgroundVideoBanner",
 
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.

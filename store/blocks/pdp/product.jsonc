@@ -673,7 +673,8 @@
       "props":{
         "blockClass": "especificacionesmili",
         "visibleSpecifications": [
-          "mL a"
+          "mL a",
+          "PUM"
         ]
       }
     },
@@ -838,7 +839,8 @@
     "children": [
       "newsletter-input-email",
       "newsletter-input-name",
-      "newsletter-checkbox-confirmation",
+      "flex-layout.col#newsletter-checkbox-confirmation--footer",
+      //"newsletter-checkbox-confirmation",
       "newsletter-submit"
     ],
     "props":{

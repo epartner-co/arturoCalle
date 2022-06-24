@@ -965,6 +965,18 @@ Estilos Producto Sección Contenido AC*/
 }
 /*---------------------------------*/
 
+
+
+
+.flexCol.flexCol--TTest {
+  display: grid;
+  grid-template-columns: 5% 95%;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer) .flexRowContent--segundacol :global(.vtex-product-list-0-x-productPrice) :global(.vtex-product-list-0-x-price) {
+  text-align: right;
+}
+
 /* Puntos de listas en Linea Etica y flecha de preguntas frecuentes version mobile*/
 @media (max-width: 700px) {
   .flexColChild--list-item--img{

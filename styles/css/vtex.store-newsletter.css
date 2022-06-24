@@ -28,5 +28,7 @@
     font-size: 11px;
     margin-bottom: 10px;
 }
-
+.confirmationCheckboxContainer--newsletter-checkbox-confirmation--footer-Link :global(.vtex-checkbox__label) {
+    display: none;
+}
 /*------------------------------------------------------------------------------*/
