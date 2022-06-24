@@ -584,11 +584,33 @@ input#downshift-1-input {
 }
 /*-----------------------------------*/
 
+.backToTopButtonContainer :global(.vtex-button){
+  background-color:white ;
+  color: transparent;
+  outline: solid 3px #455a64;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none ;
+  bottom: calc(1vh + 40px);
+  left:13px;
+  background-image: url("https://cdn.discordapp.com/attachments/430453905902796804/984936784398012476/up-arrow.png");
+  background-repeat : no-repeat;
+  background-size : 16px;
+  background-position : 12px ;
+  padding-left: 0;
+}
 
 /****************/
 /*MOBILE FOOTER*/
 /****************/
 @media screen and (max-width: 700px) {
+  .backToTopButtonContainer :global(.vtex-button){
+    left: 88vw!important;
+    position: fixed;
+    right: 25px!important;
+    bottom: 68px!important;
+  }
   /*.imageElement.imageElement--imgCategoriaSliderC {height: 100%;}*/
 
   .imageElement--flecha-abajo {
@@ -1408,3 +1430,5 @@ input#downshift-1-input {
 .skuSelectorNameContainer {
   margin: 0;
 }
+
+
