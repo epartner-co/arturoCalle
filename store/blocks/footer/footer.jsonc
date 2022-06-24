@@ -4,6 +4,7 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "back-to-top-button",
       "image#whatsappS",
       "flex-layout.row#News",
       "flex-layout.row#footer1",
@@ -13,18 +14,26 @@
       "flex-layout.row#term--y--logo"
     ]
   },
+
+  "back-to-top-button": {
+    "props": {
+      "blockClass": "backToUp",
+      "display": "caret-icon",
+      "displayThreshold": 400
+    }
+  },
   "image#whatsappS": {
     "props": {
       "src": "https://arturocalle.vteximg.com.br/arquivos/WhatsApp_btm_msj_ac.png",
       "maxHeight": 50,
-      "blockClass":"whtasapp",
-      "link":{
-        "url":"https://api.whatsapp.com/send?phone=573183490000",
+      "blockClass": "whtasapp",
+      "link": {
+        "url": "https://api.whatsapp.com/send?phone=573183490000",
         "newTab": "true"
       }
     }
   },
-  "rich-text#terms":{
+  "rich-text#terms": {
     "props": {
       "text": "[TÉRMINOS Y CONDICIONES](/terminos-y-condiciones) | LÍNEA NACIONAL: 01 8000 180120 - BOGOTÁ: PBX 743 88 00 - HORARIO DE ATENCIÓN: LUN-VIE 8:00 A.M A 5:00 PM | NOTIFICACIONES: AVENIDA BOYACÁ # 152 B - 62, BOGOTÁ, COLOMBIA \n\nCONTACTENOS@ARTUROCALLE.COM | RAZÓN SOCIAL: COMERCIALIZADORA ARTURO CALLE S.A.S. | NIT: 900.342.297-2 | © 2022 TODOS LOS DERECHOS RESERVADOS",
       "textAlignment": "CENTER",
@@ -33,24 +42,20 @@
       "blockClass": "terminos"
     }
   },
-  "flex-layout.row#term--y--logo":{
-    "props":{
-      "blockClass":"terminos--y--logo",
-      "horizontalAlign":"center"
+  "flex-layout.row#term--y--logo": {
+    "props": {
+      "blockClass": "terminos--y--logo",
+      "horizontalAlign": "center"
     },
-    "children":[
-      "flex-layout.col#terminos"
-    ]
+    "children": ["flex-layout.col#terminos"]
   },
-  "flex-layout.col#terminos":{
-    "props":{
-      "width":"100%"
+  "flex-layout.col#terminos": {
+    "props": {
+      "width": "100%"
     },
-    "children":[
-      "rich-text#terminos--superintendencia"
-    ]
+    "children": ["rich-text#terminos--superintendencia"]
   },
-  "rich-text#terminos--superintendencia":{
+  "rich-text#terminos--superintendencia": {
     "props": {
       "text": "SUPERINTENDENCIA DE INDUSTRIA Y COMERCIO | ",
       "textAlignment": "CENTER",
@@ -59,13 +64,11 @@
       "blockClass": "terminos--y--logo"
     }
   },
-  "flex-layout.col#imagen--logo--payu":{
-    "props":{
-      "width":"5%"
+  "flex-layout.col#imagen--logo--payu": {
+    "props": {
+      "width": "5%"
     },
-    "children":[
-      "image#logo--payu"
-    ]
+    "children": ["image#logo--payu"]
   },
   "image#logo--payu": {
     "props": {
@@ -73,7 +76,7 @@
       "blockClass": "logo--payu"
     }
   },
-  "flex-layout.row#footer1":{
+  "flex-layout.row#footer1": {
     "props": {
       "blockClass": "row1-footer"
     },
@@ -98,7 +101,7 @@
     }
   },
 
-// Columnas de contenido
+  // Columnas de contenido
 
   "flex-layout.row#footer-1-desktop": {
     "children": [
@@ -115,67 +118,67 @@
     }
   },
 
-// Columnas de cierre
+  // Columnas de cierre
 
-  "flex-layout.row#home__social-networks":{
-    "props":{
+  "flex-layout.row#home__social-networks": {
+    "props": {
       "blockClass": "social-network"
     },
-    "children":[
+    "children": [
       "flex-layout.col#home__social-networks--Facebook",
       "flex-layout.col#home__social-networks--Instagram",
       "flex-layout.col#home__social-networks--Twitter",
       "flex-layout.col#home__social-networks--Youtube"
     ]
   },
-  "flex-layout.col#home__social-networks--Facebook":{
-    "props":{
-      "width":"3%",
+  "flex-layout.col#home__social-networks--Facebook": {
+    "props": {
+      "width": "3%",
       "blockClass": "social-network"
     },
-    "children":["image#social-network--Facebook"]
+    "children": ["image#social-network--Facebook"]
   },
-  "flex-layout.col#home__social-networks--Instagram":{
-    "props":{
-      "width":"3%",
+  "flex-layout.col#home__social-networks--Instagram": {
+    "props": {
+      "width": "3%",
       "blockClass": "social-network"
     },
-    "children":["image#social-network--Instagram"]
+    "children": ["image#social-network--Instagram"]
   },
-  "flex-layout.col#home__social-networks--Twitter":{
-    "props":{
-      "width":"3%",
+  "flex-layout.col#home__social-networks--Twitter": {
+    "props": {
+      "width": "3%",
       "blockClass": "social-network"
     },
-    "children":["image#social-network--Twitter"]
+    "children": ["image#social-network--Twitter"]
   },
-  "flex-layout.col#home__social-networks--Youtube":{
-    "props":{
-      "width":"3%",
+  "flex-layout.col#home__social-networks--Youtube": {
+    "props": {
+      "width": "3%",
       "blockClass": "social-network"
     },
-    "children":["image#social-network--Youtube"]
+    "children": ["image#social-network--Youtube"]
   },
-  "image#social-network--Facebook":{
+  "image#social-network--Facebook": {
     "props": {
       "blockClass": "social-network--Facebook",
       "href": "https://www.facebook.com/arturocalleoficial", //no redirige, a pesar de tener el href
       "src": "https://callearturop.vteximg.com.br/arquivos/simbolo-de-la-aplicacion-de-facebook.png"
     }
   },
-  "image#social-network--Instagram":{
+  "image#social-network--Instagram": {
     "props": {
       "blockClass": "social-network--Instagram",
       "src": "https://callearturop.vteximg.com.br/arquivos/instagram.png"
     }
   },
-  "image#social-network--Twitter":{
+  "image#social-network--Twitter": {
     "props": {
       "blockClass": "social-network--Twitter",
       "src": "https://callearturop.vteximg.com.br/arquivos/twitter.png"
     }
   },
-  "image#social-network--Youtube":{
+  "image#social-network--Youtube": {
     "props": {
       "blockClass": "social-network--Youtube",
       "src": "https://callearturop.vteximg.com.br/arquivos/youtube.png"
@@ -208,6 +211,8 @@
 
   "footer-layout.mobile": {
     "children": [
+      "back-to-top-button",
+      "image#whatsappS",
       "flex-layout.row#NewsM", //SECCION NEWSLETTER
       "flex-layout.row#footer1",
       "flex-layout.row#footer-1-desktop",
@@ -273,10 +278,7 @@
     }
   },
   "modal-trigger#localizacion-tiendas": {
-    "children": [
-      "rich-text#answer2Col2",
-      "modal-layout#localizacion-tiendas"
-    ]
+    "children": ["rich-text#answer2Col2", "modal-layout#localizacion-tiendas"]
   },
   "modal-layout#localizacion-tiendas": {
     "props": {
@@ -289,8 +291,8 @@
   },
   "modal-header#cerrar-tiendas": {
     "props": {
-     "showCloseButton":"true",
-     "blockClass": "localizacion-tiendas"
+      "showCloseButton": "true",
+      "blockClass": "localizacion-tiendas"
     }
-   }
+  }
 }
