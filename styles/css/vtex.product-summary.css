@@ -96,12 +96,18 @@
 @media (max-width: 600px) {
   .containerNormal :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla){
     display: flex;
-    top: 0;
-    position: relative;
-    transition: 1s;
-    opacity: 1;
-    visibility: visible;
+    top: 0 !important;
+    position: relative !important;
+    transition: 1s !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: transparent !important;
+    justify-content: left !important;
   }
+  .containerNormal:hover :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+    justify-content: left !important;
+    margin: 0px 0 0;
+}
 }
 
 
@@ -113,3 +119,4 @@
 .skuSelectorItem.skuSelectorItem--vitrina.skuSelectorItem {
   margin-top: 0;
 }
+

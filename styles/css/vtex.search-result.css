@@ -654,3 +654,25 @@ background: transparent;}
 .galleryItem.galleryItem--normal {
   padding: 0 0.75rem;
 }
+
+
+@media screen and (max-width: 1000px) {
+.accordionFilterContainer--filtros2--sub-categoria .accordionFilterItemTitle--filtros2 {
+    font-size: 0;
+}
+.accordionFilterContainer--filtros2--sub-categoria .accordionFilterItemTitle--filtros2::after {
+    content: "Categoria";
+    font-size: 20px;
+}
+.accordionFilter {
+    display: flex;
+    flex-wrap: wrap;
+}
+.accordionFilterContainer.accordionFilterContainer--filtros2 {
+    width: 100%;
+    order: 20;
+}
+.accordionFilterContainer.accordionFilterContainer--filtros2.accordionFilterContainer--filtros2--sub-categoria {
+    order: 1;
+}
+}
