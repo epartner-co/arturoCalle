@@ -55,7 +55,9 @@
 }
 .trigger--fitroTrigger2--visible{
     border: 0;
-    width: 100% !important;
+    width: 70% !important;
+    right: 0;
+    z-index: 10;
     border-radius: 0;
     position: relative;
 }

@@ -1,0 +1,82 @@
+{
+    "flex-layout.row#preheader": {
+        "props": {
+          "blockClass": "menu-link",
+          "horizontalAlign": "center",
+          "fullWidth": true
+        },
+        "children": [
+            "flex-layout.row#marcas-freedom"
+        ]
+    },
+    // header marcas
+  "flex-layout.row#marcas-freedom": {
+    "children": [
+      "flex-layout.col#marca-1",
+      "flex-layout.col#marca-2",
+      "flex-layout.col#marca-3",
+      "flex-layout.col#marca-4"
+    ],
+    "props": {
+        "props":"50%",
+      "blockClass":"marcas-header",
+      "fullWidth": true
+    }
+  },
+  // columna 1
+  "flex-layout.col#marca-1": {
+    "children": ["rich-text#shelf-title-#marca-1"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 1
+  "rich-text#shelf-title-#marca-1": {
+    "props": {
+      "text": "[Arturo calle](https://www.arturocalle.com/)",
+      "blockClass": ["marcas-Item","arturo-calle"]
+    }
+  },
+  // columna 2
+  "flex-layout.col#marca-2": {
+    "children": ["rich-text#shelf-title-#marca-2"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 2
+  "rich-text#shelf-title-#marca-2": {
+    "props": {
+      "text": "[Freedom](https://www.somosfreedom.com/)",
+      "blockClass": ["marcas-Item","freedom"]
+    }
+  },
+  // columna 3
+  "flex-layout.col#marca-3": {
+    "children": ["rich-text#shelf-title-#marca-3"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 3
+  "rich-text#shelf-title-#marca-3": {
+    "props": {
+      "text": "[Colore](https://www.colore.com.co)",
+      "blockClass": ["marcas-Item","colore"]
+    }
+  },
+  // columna 4
+  "flex-layout.col#marca-4": {
+    "children": ["rich-text#shelf-title-#marca-4"],
+    "props": {
+      "width": "marcasCol"
+    }
+  },
+  // marcas 4
+  "rich-text#shelf-title-#marca-4": {
+    "props": {
+      "text": "[Maravela](/)",
+      "blockClass": ["marcas-Item","maravela"]
+    }
+  }
+}

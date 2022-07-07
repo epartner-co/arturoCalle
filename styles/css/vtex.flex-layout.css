@@ -1025,3 +1025,22 @@ Estilos Producto Sección Contenido AC*/
 .flexRow--rangePrice{
   background-color: #ececec;
 }
+
+/* estilos botonera sticky-head */
+
+.flexRowContent--marcas-header .flexColChild {
+  height: auto!important;
+}
+.flexRowContent--marcas-header{
+  width: 60%;
+  border: 0.337336px solid #bababa;
+} 
+.flexRowContent--marcas-header {
+  display: flex;
+}
+.flexRowContent--marcas-header .stretchChildrenWidth:last-child{
+  display: block;
+}
+.flexRowContent--marcas-header {
+  width: 130%;
+}

@@ -789,3 +789,68 @@ primero agregar script en tag manager*/
 .link--newsletter-checkbox-confirmation--footer-Texto {
   color: #3f3f40;
 }
+
+
+.container--marcas-Item .link {
+  font-size: 0;
+}
+.paragraph--marcas-Item {
+  margin: 0px 0;
+  height: 27px;
+  display: flex;
+  align-items: center;
+}
+.container--marcas-Item {
+  justify-content: center;
+  border-left: 0.337336px solid #BABABA;
+}
+.wrapper--arturo-calle .link::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/arturo-maravela-logo.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 89px;
+  height: 34px;
+}
+.link--freedom::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/freedom-logo-maravela-logo.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 60px;
+  height: 18px;
+}
+.link--colore::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/Logo-colore-logo.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 60px;
+  height: 17px;
+}
+.link--maravela::before {
+  content: "";
+  background: url(https://callearturop.vteximg.com.br/arquivos/maravella-cololre-logo.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 76px;
+  height: 26px;
+}
+.wrapper--terminos{
+  padding: 0 10px;
+}
+@media (max-width: 900px) {
+  .wrapper--arturo-calle  .link::before {
+    content: "";
+    background: url(https://callearturop.vteximg.com.br/arquivos/arturo-maravela-logo.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 72px;
+    height: 34px;
+  }
+}

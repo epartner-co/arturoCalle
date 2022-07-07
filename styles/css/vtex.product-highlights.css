@@ -23,3 +23,16 @@
   text-align: center;
   display: block;
 }
+@media (max-width:639px){
+  .productHighlightText[data-highlight-name="NEW Products"]::after{
+    font-size: 10px;
+  }
+  .productHighlightText{
+    padding: 2px 5px;
+  }
+  .productHighlightWrapper--collection{
+    top: 5px;
+    left: 5px;
+    width: 150px;
+  }
+}

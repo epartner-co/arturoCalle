@@ -6,7 +6,7 @@
   top: 3%;
   width: 28%;
   text-transform: uppercase;
-  left: 0;
+  left: -30%;
   cursor: pointer;
   text-align: end;
   font-weight: 700;
@@ -16,7 +16,7 @@
 .trigger--fitroTrigger2--visible :global(.vtex-rich-text-0-x-paragraph--tituloFiltro){
   display: none;
 }
-.trigger--fitroTrigger2--visible {position: absolute;width: 100%;height: 100%;z-index: 1;}
+.trigger--fitroTrigger2--visible {position: absolute;width: 70%;height: 100%;z-index: 10;}
 
 
 

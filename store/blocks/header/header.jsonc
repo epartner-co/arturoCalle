@@ -48,11 +48,12 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": [
-      "vtex.menu@2.x:menu#websites",
+    "children": [ 
+      "flex-layout.row#preheader"/* ,
+      "vtex.menu@2.x:menu#websites"*/,
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ]
+      "vtex.menu@2.x:menu#institutional"     
+]
   },
   "flex-layout.col#spacer": {
     "props": {
