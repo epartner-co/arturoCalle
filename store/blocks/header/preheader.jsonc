@@ -14,8 +14,8 @@
     "children": [
       "flex-layout.col#marca-1",
       "flex-layout.col#marca-2",
-      "flex-layout.col#marca-3",
-      "flex-layout.col#marca-4"
+      "flex-layout.col#marca-3"
+      /*"flex-layout.col#marca-4"*/
     ],
     "props": {
         "props":"50%",
