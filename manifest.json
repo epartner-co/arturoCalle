@@ -1,7 +1,7 @@
 {
   "vendor": "arturocalle",
   "name": "theme",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
