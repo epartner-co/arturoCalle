@@ -854,3 +854,41 @@ primero agregar script en tag manager*/
     height: 34px;
   }
 }
+
+
+/**/
+
+
+.container.container--news-letter-titulo {
+  padding: 0 50px;
+}
+
+.paragraph.paragraph--news-letter-titulo {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.container.container--news-letter-sub-titulo {
+  margin: 0 50px 30px;
+  border-bottom: 1px solid #82828259;
+}
+
+.paragraph.paragraph--news-letter-sub-titulo {
+  font-weight: 300;
+}
+
+@media (max-width: 900px) {
+.container.container--news-letter-titulo {
+  padding: 0 20px;
+}
+.paragraph.paragraph--news-letter-titulo {
+  font-size: 35px;
+}
+.container.container--news-letter-sub-titulo {
+  margin: 0 25px 30px;
+}
+.paragraph.paragraph--news-letter-sub-titulo {
+  font-weight: 300;
+}
+}

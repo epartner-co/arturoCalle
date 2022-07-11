@@ -675,4 +675,8 @@ background: transparent;}
 .accordionFilterContainer.accordionFilterContainer--filtros2.accordionFilterContainer--filtros2--sub-categoria {
     order: 1;
 }
+.galleryLayoutSwitcher {
+  margin: -5% 0 10%;
+}
+
 }

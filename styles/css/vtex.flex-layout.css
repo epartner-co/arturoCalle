@@ -1044,3 +1044,62 @@ Estilos Producto Sección Contenido AC*/
 .flexRowContent--marcas-header {
   width: 180%;
 }
+
+
+
+
+/**/
+
+
+.flexRowContent--news-letter-form-lineas :global(.vtex-styleguide-9-x-noAppearance) {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  margin: 10px 0 5px;
+}
+.flexRowContent--news-letter-form-lineas :global(.vtex-input-prefix__group) {
+  border: none;
+  height: auto;
+}
+
+.flexRowContent--news-letter-form-lineas :global(.vtex-styleguide-9-x-container) {
+  background: transparent;
+  border: none;
+}
+.flexRow.flexRow--news-letter-form {
+  padding: 0 50px;
+}
+.flexRowContent.flexRowContent--news-letter-form-lineas .stretchChildrenWidth {
+  border: 1px solid #9b9b9b61;
+  margin: 5px 10px 5px 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.flexRowContent--news-letter-form-lineas :global(.vtex-input__label) {
+  margin: 5px 0 0;
+  font-weight: 800;
+}
+.flexRowContent--news-letter-form-lineas.flexRowContent--news-letter-form-linea-7 .stretchChildrenWidth {
+  border: none !important;
+  padding: 10px 0 !important;
+}
+.flexRowContent--news-letter-form-lineas.flexRowContent--news-letter-form-linea-8 .stretchChildrenWidth {
+  border: none !important;
+  padding: 10px 0 !important;
+}
+.flexRowContent--news-letter-form-lineas :global(.vtex-dropdown__button) {
+  padding: 0;
+}
+.flexRowContent--news-letter-form-lineas :global(.vtex-dropdown__label) {
+  margin: 5px 0 0;
+  font-weight: 900;
+}
+
+
+@media (max-width: 700px) {
+.flexRow.flexRow--news-letter-form {
+  padding: 0 25px;
+}
+}

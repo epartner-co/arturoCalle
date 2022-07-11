@@ -208,6 +208,7 @@
       "flex-layout.row#searchinfoM",
       "flex-layout.row#vitrineCategoryM",
       //"flex-layout.row#fetchprevious",
+      "flex-layout.col#switcherMobile",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
     ],
@@ -276,6 +277,7 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitleM",
       "total-products.v2",
+      
       "flex-layout.row#resultM"
     ],
     "props": {
@@ -369,7 +371,12 @@
         {
           "name": "list",
           "component": "ListSummary",
-          "itemsPerRow": 3
+          "itemsPerRow": {
+            "(min-width:1300px)": 3,
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          }
         }
       ],
       "ListSummary": "product-summary.shelf#2",
