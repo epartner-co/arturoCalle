@@ -813,24 +813,50 @@ primero agregar script en tag manager*/
   width: 89px;
   height: 34px;
 }
+
 .link--freedom::before {
   content: "";
-  background: url(https://callearturop.vteximg.com.br/arquivos/freedom-logo-maravela-logo.png) no-repeat;
+  background: url(https://cdn.discordapp.com/attachments/430453905902796804/996549671851937992/unknown.png) no-repeat;
   background-size: 100%;
   background-position: center;
   display: block;
-  width: 60px;
-  height: 18px;
+  width: 110px;
+  height: 24px;;
+  transition: all .5s ease-in;
 }
+
+.link--freedom:hover::before{
+  background: url(https://cdn.discordapp.com/attachments/430453905902796804/996549672070025407/unknown.png) no-repeat;
+  background-size: 100%;
+  width: 110px;
+  height: 24px;
+  background-position: center;
+}
+
+
+
 .link--colore::before {
   content: "";
-  background: url(https://callearturop.vteximg.com.br/arquivos/Logo-colore-logo.png) no-repeat;
+  background: url(https://cdn.discordapp.com/attachments/430453905902796804/996549672741109812/unknown.png) no-repeat;
   background-size: 100%;
   background-position: center;
   display: block;
-  width: 60px;
+  width: 100px;
+  height: 17px;
+  transition: all .5s ease-in;
+}
+
+
+.link--colore:hover::before {
+  content: "";
+  background: url(https://cdn.discordapp.com/attachments/430453905902796804/996549673038925824/unknown.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: block;
+  width: 100px;
   height: 17px;
 }
+
 .link--maravela::before {
   content: "";
   background: url(https://callearturop.vteximg.com.br/arquivos/maravella-cololre-logo.png) no-repeat;
