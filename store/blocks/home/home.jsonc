@@ -210,22 +210,83 @@
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner5", "rich-text#bulletbotton1", "rich-text#bulletTextCamisetasM"]
+  "children": ["image#newbanner1"/*, "rich-text#bulletbotton1", "rich-text#bulletTextCamisetasM"*/]
 },
 "flex-layout.col#bullets2": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner6", "rich-text#bulletbotton2", "rich-text#bulletTextPolosH"]
+  "children": ["image#newbanner2" /*,"rich-text#bulletbotton2", "rich-text#bulletTextPolosH"*/]
 },
 "flex-layout.col#bullets3": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner7", "rich-text#bulletbotton3", "rich-text#bulletTextChaquetasH"]
+  "children": ["image#newbanner3"/*, "rich-text#bulletbotton3", "rich-text#bulletTextChaquetasH"*/]
 },
+
+
+
+"image#newbanner1": {
+  "props": {
+    "src": "https://arturocalle.vtexassets.com/arquivos/BLUSASTEXTO1.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/mujer/ropa/blusas-y-camisas"
+    }
+  }
+},
+"image#newbanner2": {
+  "props": {
+    "src": "https://arturocalle.vtexassets.com/arquivos/BUZOSTEXTO3.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/kids/nina/ropa/buzos"
+    }
+  }
+},
+"image#newbanner3": {
+  "props": {
+    "src": "https://arturocalle.vtexassets.com/arquivos/POLOSTEXTO5.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/hombre/ropa/polos"
+    }
+  }
+},
+"image#newbanner4": {
+  "props": {
+    "src": "https://arturocalle.vtexassets.com/arquivos/PANTALONESTEXTO2.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/mujer/ropa/pantalones"
+    }
+  }
+},
+"image#newbanner5": {
+  "props": {
+    "src": "https://arturocalle.vtexassets.com/arquivos/PANTALONESNINO4.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/kids/nina/ropa/pantalones"
+    }
+  }
+},
+"image#newbanner6": {
+  "props": {
+    "src": "https://arturocalle.vtexassets.com/arquivos/JEANSTEXTO6.jpg",
+    "blockClass": "BannerD",
+    "link": {
+      "url": "/hombre/ropa/jeans"
+    }
+  }
+},
+
+
+
+
 "image#banner5": {
   "props": {
     "src": "https://arturocalle.vteximg.com.br/arquivos/HOMECAMISETAMUJERDEC.jpg",
@@ -253,7 +314,7 @@
   },
 "image#banner6": {
   "props": {
-    "src": "https://arturocalle.vteximg.com.br/arquivos/polospremi.jpg",
+    "src": "https://arturocalle.vtexassets.com/arquivos/BUZOSTEXTO3.jpg",
     "blockClass": "BannerD"
   }
 },
@@ -271,7 +332,7 @@
 },
 "image#banner7": {
   "props": {
-    "src": "https://arturocalle.vteximg.com.br/arquivos/CHAQUETASENE2022.jpg",
+    "src": "https://arturocalle.vtexassets.com/arquivos/POLOSTEXTO5.jpg",
     "blockClass": "BannerD"
   }
 },
@@ -303,21 +364,21 @@
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner8", "rich-text#bulletbotton4", "rich-text#bulletTextCamisetasH"]
+  "children": ["image#newbanner4"/*, "rich-text#bulletbotton4", "rich-text#bulletTextCamisetasH"*/]
 },
 "flex-layout.col#bullets5": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner9", "rich-text#bulletbotton5","rich-text#bulletTextJeansH"]
+  "children": ["image#newbanner5"/*, "rich-text#bulletbotton5","rich-text#bulletTextJeansH"*/]
 },
 "flex-layout.col#bullets6": {
   "props":{
     "blockClass": "Bannertwo1",
     "width": "26%"
   },
-  "children": ["image#banner10", "rich-text#bulletbotton6", "rich-text#bulletTextCamisasH"]
+  "children": ["image#newbanner6"/*, "rich-text#bulletbotton6", "rich-text#bulletTextCamisasH"*/]
 },
 "image#banner8": {
   "props": {
@@ -602,7 +663,7 @@
     "id": "info-card-example",
     "isFullModeStyle": true,
     "textPosition": "center",
-    "imageUrl": "https://arturocalle.vtexassets.com/arquivos/HOMECAMISETAMUJERDEC.jpg",
+    "imageUrl": "https://arturocalle.vtexassets.com/arquivos/BLUSASTEXTO1mobile.jpg",
     "headline": "Camiseta",
     "callToActionText": "Comprar",
     "callToActionUrl": "/sale/d",
