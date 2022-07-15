@@ -654,7 +654,10 @@ input#downshift-1-input {
     display: block !important;
   }
   .infoCardCallActionContainer--categorias2-banners {
-      margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
   }
   .infoCardCallActionContainer--categorias2-banners :global(.vtex-button) {
       background: white;
