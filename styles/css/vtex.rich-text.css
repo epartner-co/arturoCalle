@@ -882,7 +882,8 @@ primero agregar script en tag manager*/
 }
 
 
-/**/
+
+/*NEWSLETTER*/
 
 
 .container.container--news-letter-titulo {
@@ -903,7 +904,13 @@ primero agregar script en tag manager*/
 .paragraph.paragraph--news-letter-sub-titulo {
   font-weight: 300;
 }
+.paragraph--news-letter-agreement {
+  margin: 0;
+}
 
+.link--news-letter-agreement {
+  color: black;
+}
 @media (max-width: 900px) {
 .container.container--news-letter-titulo {
   padding: 0 20px;
@@ -916,5 +923,12 @@ primero agregar script en tag manager*/
 }
 .paragraph.paragraph--news-letter-sub-titulo {
   font-weight: 300;
+}
+.paragraph--news-letter-agreement {
+  font-size: 10px;
+}
+
+.link--news-letter-agreement {
+  color: black;
 }
 }

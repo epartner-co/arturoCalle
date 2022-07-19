@@ -1,260 +1,268 @@
 {
-"store.custom#news-letter": {
-  "blocks": [
-    "rich-text#news-letter-titulo",
-    "rich-text#news-letter-sub-titulo",
-    "flex-layout.row#news-letter-form"
-  ]
-},
-
-
-
-"flex-layout.row#news-letter-form": {
-  "props": {
-    "blockClass": ["news-letter-form"]
+  "store.custom#news-letter": {
+    "blocks": [
+      "rich-text#news-letter-titulo",
+      "rich-text#news-letter-sub-titulo",
+      "flex-layout.row#news-letter-form"
+    ]
   },
-  "children": [
-    "form#NEWS-LETTER-PAGE"
-  ]
-},
-"flex-layout.col#news-letter-form": {
-  "props": {
-    "blockClass": ["news-letter-form"]
-  },
-  "children": [
-    "rich-text#news-letter-titulo",
-    "rich-text#news-letter-sub-titulo",
-    "form#NEWS-LETTER-PAGE"
-  ]
-},
-
-"rich-text#news-letter-titulo": {
-  "props": {
-    "text": "Contáctenos",
-    "blockClass": "news-letter-titulo"
-  }
-},
-"rich-text#news-letter-sub-titulo": {
-  "props": {
-    "text": "Para nosotros es muy importante proporcionarle una respuesta. Por favor diligencie la siguiente información",
-    "blockClass": "news-letter-sub-titulo"
-  }
-},
-
-
-"form#NEWS-LETTER-PAGE": {
-  "props": {
-    "entity": "NL",
-    "schema": "v3",
-    "blockClass": "NEWS-LETTER-POP"
-  },
-  "children": [
-    "flex-layout.row#news-letter-form-linea-1",
-    "flex-layout.row#news-letter-form-linea-2",
-    //"flex-layout.row#news-letter-form-linea-3",
-    "flex-layout.row#news-letter-form-linea-4",
-    //"flex-layout.row#news-letter-form-linea-5",
-    //"flex-layout.row#news-letter-form-linea-6",
-    "flex-layout.row#news-letter-form-linea-7",
-    "flex-layout.row#news-letter-form-linea-8"
-  ],
-  "blocks": ["form-success"]
-},
-
-
-"form-success": {
-  "children": [
-    "rich-text#successSubmit"
-  ]
-},
-"rich-text#successSubmit": {
-  "props": {
-    "text": "Nos contactaremos contigo lo antes posible",
-    "textAlignment": "CENTER",
-    "textPosition": "CENTER",
-    "blockClass": "envio-news"
-  }
-},
-
-
-"flex-layout.row#news-letter-form-linea-1": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-1"]
-  },
-  "children": [
-    "form-input.text#name",
-    "form-input.text#apellido"
-  ]
-},
-
-"flex-layout.row#news-letter-form-linea-2": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-2"]
-  },
-  "children": [
-    "form-input.text#email",
-    "form-input.text#phone"
-  ]
-},
-
-"flex-layout.row#news-letter-form-linea-3": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-3"]
-  },
-  "children": [
-    "form-input.dropdown#tipodocumento",
-    "form-input.text#numerodocumeto"
-  ]
-},
-
-"flex-layout.row#news-letter-form-linea-4": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-4"]
-  },
-  "children": [
-    "form-input.text#nacimiento",
-    "form-input.dropdown#gender"
-  ]
-},
-
-"flex-layout.row#news-letter-form-linea-5": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-5"]
-  },
-  "children": [
-    "form-input.text#pais",
-    "form-input.dropdown#gender"
-  ]
-},
-
-
-"flex-layout.row#news-letter-form-linea-6": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-6"]
-  },
-  "children": [
-    "form-input.text#direccion"
-  ]
-},
-
-"flex-layout.row#news-letter-form-linea-7": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-7"]
-  },
-  "children": [
-    "form-input.checkbox#NLagreement"
-  ]
-},
-
-"flex-layout.row#news-letter-form-linea-8": {
-  "props": {
-    "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-8"]
-  },
-  "children": [
-    "form-submit#NLenviar"
-  ]
-},
-
-
-
-
-
-/*campos input para el fommulario*/
-
-"form-input.text#name": {
-  "props": {
-    "pointer": "#/properties/name",
-    "placeholder": "Ingrese su nombre",
-    "blockClass": "news-nombre-input"
-  }
-},
-"form-input.text#apellido": {
-  "props": {
-    "pointer": "#/properties/apellido",
-    "placeholder": "Ingrese su apellido"
-  }
-},
-"form-input.text#email": {
-  "props": {
-    "pointer": "#/properties/email",
-    "placeholder": "Ingrese su mail",
-    "blockClass": "news-email-input"
-  }
-},
-"form-input.text#phone": {
-  "props": {
-    "pointer": "#/properties/phone",
-    "placeholder": "Ingrese su número de celular",
-    "blockClass": "news-phone-input"
-  }
-},
-"form-input.text#numerodocumeto": {
-  "props": {
-    "pointer": "#/properties/numerodocumeto",
-    "placeholder": "Ingrese su número de documento",
-    "blockClass": "news-phone-input"
-  }
-},
-"form-input.dropdown#tipodocumento": {
-  "props": {
-    "pointer": "#/properties/tipodocumento",
-    "placeholder": "Seleccione su Tipo de Documento",
-    "blockClass": "news-phone-input"
-  }
-},
-
-
-
-"form-input.text#nacimiento": {
-  "props": {
-    "pointer": "#/properties/nacimiento",
-    "placeholder": "DD/MM/AA",
-    "blockClass": "news-nacimiento-input"
-  }
-},
-  "form-input.dropdown#gender": {
+  
+  
+  
+  "flex-layout.row#news-letter-form": {
     "props": {
-      "pointer": "#/properties/gender",
-      "placeholder": "Seleccione su genero",
-      "blockClass": "news-genero-input"
+      "blockClass": ["news-letter-form"]
+    },
+    "children": [
+      "form#NEWS-LETTER-PAGE"
+    ]
+  },
+  "flex-layout.col#news-letter-form": {
+    "props": {
+      "blockClass": ["news-letter-form"]
+    },
+    "children": [
+      "rich-text#news-letter-titulo",
+      "rich-text#news-letter-sub-titulo",
+      "form#NEWS-LETTER-PAGE"
+    ]
+  },
+  
+  "rich-text#news-letter-titulo": {
+    "props": {
+      "text": "Suscríbete al News",
+      "blockClass": "news-letter-titulo"
     }
- },
-
-
- "form-input.text#pais": {
-  "props": {
-    "pointer": "#/properties/pais",
-    "placeholder": "Ingrese su pais"
+  },
+  "rich-text#news-letter-sub-titulo": {
+    "props": {
+      "text": "Para nosotros es muy importante proporcionarle una respuesta. Por favor diligencie la siguiente información",
+      "blockClass": "news-letter-sub-titulo"
+    }
+  },
+  
+  
+  "form#NEWS-LETTER-PAGE": {
+    "props": {
+      "entity": "NL",
+      "schema": "v3",
+      "blockClass": "NEWS-LETTER-POP"
+    },
+    "children": [
+      "flex-layout.row#news-letter-form-linea-1",
+      "flex-layout.row#news-letter-form-linea-2",
+      "flex-layout.row#news-letter-form-linea-3",
+      "flex-layout.row#news-letter-form-linea-4",
+      "flex-layout.row#news-letter-form-linea-5",
+      "flex-layout.row#news-letter-form-linea-6",
+      "flex-layout.row#news-letter-form-linea-7",
+      "flex-layout.row#news-letter-form-linea-8"
+    ],
+    "blocks": ["form-success"]
+  },
+  
+  
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "¡Gracias por suscribirte!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "envio-news"
+    }
+  },
+  
+  
+  "flex-layout.row#news-letter-form-linea-1": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-1"]
+    },
+    "children": [
+      "form-input.text#name",
+      "form-input.text#apellido"
+    ]
+  },
+  
+  "flex-layout.row#news-letter-form-linea-2": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-2"]
+    },
+    "children": [
+      "form-input.text#email",
+      "form-input.text#phone"
+    ]
+  },
+  
+  "flex-layout.row#news-letter-form-linea-3": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-3"]
+    },
+    "children": [
+      "form-field-group#tipodocumento",
+      "form-input.text#numerodocumeto"
+    ]
+  },
+  
+  "flex-layout.row#news-letter-form-linea-4": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-4"]
+    },
+    "children": [
+      "form-input.text#nacimiento",
+      "form-field-group#gender"
+    ]
+  },
+  
+  "flex-layout.row#news-letter-form-linea-5": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-5"]
+    },
+    "children": [
+      "form-input.text#pais",
+      "form-input.text#ciudad"
+    ]
+  },
+  
+  
+  "flex-layout.row#news-letter-form-linea-6": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-6"]
+    },
+    "children": [
+      "form-input.text#direccion"
+    ]
+  },
+  
+  "flex-layout.row#news-letter-form-linea-7": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-7"]
+    },
+    "children": [
+      "form-input.checkbox#NLagreement",
+      "rich-text#news-letter-agreement"
+    ]
+  },
+  
+  "flex-layout.row#news-letter-form-linea-8": {
+    "props": {
+      "blockClass": ["news-letter-form-lineas", "news-letter-form-linea-8"]
+    },
+    "children": [
+      "form-submit#NLenviar"
+    ]
+  },
+  
+  
+  
+  
+  
+  /*campos input para el fommulario*/
+  
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name",
+      "placeholder": "Ingrese su nombre",
+      "blockClass": "news-nombre-input"
+    }
+  },
+  "form-input.text#apellido": {
+    "props": {
+      "pointer": "#/properties/apellido",
+      "placeholder": "Ingrese su apellido"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email",
+      "placeholder": "Ingrese su mail",
+      "blockClass": "news-email-input"
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone",
+      "placeholder": "Ingrese su número de celular",
+      "blockClass": "news-phone-input"
+    }
+  },
+  "form-input.text#numerodocumeto": {
+    "props": {
+      "pointer": "#/properties/numerodocumeto",
+      "placeholder": "Ingrese su número de documento",
+      "blockClass": "news-phone-input"
+    }
+  },
+  "form-field-group#tipodocumento": {
+    "props": {
+      "pointer": "#/properties/tipodocumento",
+      "label": "tipodocumento",
+      "blockClass": "news-phone-input"
+    }
+  },
+  
+  
+  
+  "form-input.text#nacimiento": {
+    "props": {
+      "pointer": "#/properties/nacimiento",
+      "placeholder": "DD/MM/AA",
+      "blockClass": "news-nacimiento-input"
+    }
+  },
+    "form-field-group#gender": {
+      "props": {
+        "pointer": "#/properties/gender",
+        "label": "gender",
+        "blockClass": "news-genero-input"
+      }
+   },
+  
+  
+   "form-input.text#pais": {
+    "props": {
+      "pointer": "#/properties/pais",
+      "placeholder": "Ingrese su pais"
+    }
+  },
+  
+  "form-input.text#ciudad": {
+    "props": {
+      "pointer": "#/properties/ciudad",
+      "placeholder": "Ingrese su ciudad",
+      "blockClass": "news-ciudad-input"
+    }
+  },
+  "form-input.text#direccion": {
+    "props": {
+      "pointer": "#/properties/direccion",
+      "placeholder": "Ingrese su dirección",
+      "blockClass": "news-ciudad-input"
+    }
+  },
+   "form-submit#NLenviar": {
+    "props": {
+      "label": "Enviar",
+      "blockClass": "enviar-input"
+    }
+  },
+  "form-input.checkbox#NLagreement": {
+    "props": {
+      "pointer": "#/properties/agreement"
+      //"label": "Autorizo el tratamiento de mis datos personales suministrados a Commercializadora Arturo Calle S.A.S., a través de sus marcas: Arturo Calle, Arturo Calle Kids, Arturo Calle Woman, Arturo Calle Leather, Colore, Maravela, signatura, Freedom, así como de cualquier marca que se encuentre bajo su titularidad, de acuerdo a la autorización que se encuentra aquí"
+    }
+  },
+  
+  "rich-text#news-letter-agreement": {
+    "props": {
+      "text": "Autorizo el tratamiento de mis datos personales suministrados a Commercializadora Arturo Calle S.A.S., a través de sus marcas: Arturo Calle, Arturo Calle Kids, Arturo Calle Woman, Arturo Calle Leather, Colore, Maravela, signatura, Freedom, así como de cualquier marca que se encuentre bajo su titularidad, de acuerdo a la autorización que se encuentra [aquí](/autorizacion-tratamiento-datos-personales)",
+      "blockClass": "news-letter-agreement",
+      "width": "98%"
+    }
   }
-},
-
-"form-input.text#ciudad": {
-  "props": {
-    "pointer": "#/properties/ciudad",
-    "placeholder": "Ingrese su ciudad",
-    "blockClass": "news-ciudad-input"
+  
+  
   }
-},
-"form-input.text#direccion": {
-  "props": {
-    "pointer": "#/properties/direccion",
-    "placeholder": "Ingrese su dirección",
-    "blockClass": "news-ciudad-input"
-  }
-},
- "form-submit#NLenviar": {
-  "props": {
-    "label": "Enviar",
-    "blockClass": "enviar-input"
-  }
-},
-"form-input.checkbox#NLagreement": {
-  "props": {
-    "pointer": "#/properties/agreement",
-    "label": "Al suscribirte estás aceptando las politicas de tratamiento de datos"
-  }
-}
-
-
-
-}

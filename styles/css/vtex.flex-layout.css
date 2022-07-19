@@ -1047,8 +1047,7 @@ Estilos Producto Sección Contenido AC*/
 
 
 
-
-/**/
+/*NEWS LETTER*/
 
 
 .flexRowContent--news-letter-form-lineas :global(.vtex-styleguide-9-x-noAppearance) {
@@ -1097,9 +1096,20 @@ Estilos Producto Sección Contenido AC*/
   font-weight: 900;
 }
 
-
+.flexRowContent--news-letter-form-lineas.flexRowContent--news-letter-form-linea-7 :global(.vtex-checkbox__label) {
+  display: none;
+}
+.flexRowContent--news-letter-form-lineas.flexRowContent--news-letter-form-linea-7 :global(.vtex-checkbox__container) {
+  margin: 5px auto;
+}
 @media (max-width: 700px) {
 .flexRow.flexRow--news-letter-form {
   padding: 0 25px;
+}
+.flexRowContent--news-letter-form-linea-7 {
+  display: flex;
+}
+.flexRowContent--news-letter-form-lineas.flexRowContent--news-letter-form-linea-7 .stretchChildrenWidth:first-child {
+  width: 10% !important;
 }
 }

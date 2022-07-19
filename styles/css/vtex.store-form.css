@@ -2,3 +2,10 @@
     display: flex;
     justify-content: center;
 }
+.formSubmitButton.formSubmitButton--enviar-input {
+    height: 55px;
+}
+
+.formSubmitButton--enviar-input :global(.vtex-button__label) {
+    padding: 48px;
+}
