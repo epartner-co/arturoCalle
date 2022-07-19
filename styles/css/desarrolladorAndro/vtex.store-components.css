@@ -1,3 +1,7 @@
 .infoCardTextContainer--categorias2-banners{
   opacity: 0;
 }
+
+:global(.vtex-my-orders-app-3-x-cancelBtn){
+  display: none;
+}
